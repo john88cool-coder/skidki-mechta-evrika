@@ -1,0 +1,47 @@
+name: probe
+# Разовая проверка: пускает ли Cloudflare IP раннера GitHub к mechta и evrika
+# (через Playwright). Запускается при push и вручную (Actions → probe → Run
+# workflow). Три попытки с паузой — чтобы отличить блокировку от случайного сбоя.
+on:
+  push:
+    paths:
+      - 'probe/**'
+      - '.github/workflows/probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Кэш браузера Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-probe
+
+      - name: Зависимости
+        # dl.google.com в apt-источниках раннера периодически отдаёт hash
+        # mismatch — ретрай через минуту решает (урок gpu-deals, 2026-09-09).
+        run: |
+          pip install "playwright>=1.44"
+          python -m playwright install --with-deps chromium \
+            || { sleep 60; sudo apt-get update; python -m playwright install --with-deps chromium; }
+
+      - name: Проба
+        run: |
+          for i in 1 2 3; do
+            echo "=== попытка $i ==="
+            python probe/cf_probe.py && exit 0
+            sleep 30
+          done
+          exit 1
