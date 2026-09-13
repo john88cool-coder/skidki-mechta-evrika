@@ -10,17 +10,28 @@
 текущие) · цена ниже медианы за 14 дней на `drop_pct`% · минимум за 30 дней ·
 цель из `rules.toml` · возврат в наличие позиции с целью. Одно сообщение на обход, не длиннее 10 строк.
 
-## Настройка
+## Запуск на домашнем ПК (Планировщик Windows)
 
-1. Settings → Secrets and variables → Actions: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
-2. Пороги и цели — в [`rules.toml`](rules.toml) (правка + push, код не нужен).
+mechta блокирует IP дата-центров GitHub (Cloudflare «Attention Required»), поэтому
+обход идёт с домашнего ПК — оттуда проходят оба магазина.
+
+1. Скопировать `.env.example` в `.env` и вписать `TELEGRAM_BOT_TOKEN`.
+2. `pip install -e ".[dev]"` и `python -m playwright install chromium`.
+3. `powershell -ExecutionPolicy Bypass -File deploy\install_task.ps1` — задача
+   `skidki-crawl`: каждые 2 часа (в :17), пока вы в системе; пропущенный запуск
+   выполняется при первой возможности.
+
+Логи — `logs\crawl-ДАТА.log` (14 дней), база — `data\skidki.sqlite3`.
+Удалить задачу: `Unregister-ScheduledTask -TaskName skidki-crawl -Confirm:$false`.
+
+Пороги и цели — в [`rules.toml`](rules.toml), код не нужен.
 
 ## Workflows
 
 | Workflow | Когда | Что делает |
 |---|---|---|
-| crawl | каждые 2 часа | обход, оценка, Telegram, база → кэш Actions |
-| watchdog | 06:00 и 18:00 UTC | тревога, если обходов нет дольше 6 часов |
+| crawl | вручную (расписание снято: mechta режет IP GitHub) | обход, оценка, Telegram, база → кэш Actions |
+| watchdog | вручную | тревога, если обходов нет дольше 6 часов |
 | tests | push в main | pytest на фикстурах |
 | sample | вручную | пример карточек уведомлений на текущих скидках из базы |
 | probe | вручную | проверка, пускает ли Cloudflare IP раннера |

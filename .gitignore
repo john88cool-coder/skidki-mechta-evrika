@@ -6,3 +6,4 @@ __pycache__/
 # База живёт в ветке data (см. crawl.yml), не в main.
 data/
 *.egg-info/
+logs/

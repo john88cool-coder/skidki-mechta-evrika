@@ -10,6 +10,27 @@ from pathlib import Path
 from .models import Product
 
 ROOT = Path(__file__).resolve().parents[2]
+
+
+def _load_dotenv(path: Path, environ=os.environ) -> None:
+    """KEY=VALUE из .env — для запуска на домашнем ПК (Планировщик Windows).
+
+    Переменные окружения важнее файла: заданное явно не перезаписывается.
+    """
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8-sig").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        value = value.strip().strip('"').strip("'")
+        if value:
+            environ.setdefault(key.strip(), value)
+
+
+_load_dotenv(ROOT / ".env")
+
 DB_PATH = Path(os.environ.get("SKIDKI_DB") or ROOT / "data" / "skidki.sqlite3")
 RULES_PATH = Path(os.environ.get("SKIDKI_RULES") or ROOT / "rules.toml")
 

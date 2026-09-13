@@ -4,9 +4,10 @@ name: crawl
 # префиксу ключа) и сохраняет новую под уникальным ключом. Ветку data GitHub
 # отклонил («remote: fatal error in commit_refs», 2026-09-13), а кэшу права
 # на запись в репозиторий не нужны.
+# Расписание снято 2026-09-13: mechta режет IP дата-центров GitHub (RECON,
+# run 34765681139). Обход идёт с домашнего ПК из Планировщика Windows
+# (deploy/install_task.ps1); здесь — только ручной запуск для проверки.
 on:
-  schedule:
-    - cron: '17 */2 * * *'
   workflow_dispatch:
 
 permissions:
