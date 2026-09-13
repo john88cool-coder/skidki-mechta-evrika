@@ -71,6 +71,17 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: skidki crawl
 
+      - name: Резервная копия базы
+        # Страховка: если push в ветку data упадёт, 30 минут обхода не пропадут —
+        # базу можно скачать из артефакта запуска (первый обход 2026-09-13 так и потерялся).
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skidki-db
+          path: data/skidki.sqlite3
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Сохранить базу
         if: always()  # наблюдения и недоставленные алерты переживают отказ Telegram
         env:
@@ -80,11 +91,24 @@ jobs:
             echo "база не восстановлена или не создана — сохранять нечего"
             exit 0
           fi
+          ls -la "$SKIDKI_DB"
+          # Каждая git-команда — через step(): при ошибке её вывод уходит в
+          # аннотацию запуска, а аннотации читаются через публичный API без входа
+          # (логи — нет: первый сбой 2026-09-13 оставил только «exit code 1»).
+          step() {
+            local out code
+            out=$("$@" 2>&1) && { [ -z "$out" ] || echo "$out"; return 0; }
+            code=$?
+            echo "$out"
+            echo "::error title=Сохранить базу::$1 $2 → код $code: $(echo "$out" | tail -n 5 | tr '\n' ' ')"
+            exit "$code"
+          }
           cd "$RUNNER_TEMP"
           rm -rf dbrepo && mkdir dbrepo && cd dbrepo
-          git init -q -b data
+          step git init -b data
           cp "$SKIDKI_DB" skidki.sqlite3
-          git add skidki.sqlite3
-          git -c user.name=skidki-bot -c user.email=actions@users.noreply.github.com \
-            commit -qm "db $(date -u +%FT%TZ) [skip ci]"
-          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
+          step git add skidki.sqlite3
+          step git -c user.name=skidki-bot -c user.email=actions@users.noreply.github.com \
+            commit -m "db $(date -u +%FT%TZ) [skip ci]"
+          step git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          step git push -f origin data
