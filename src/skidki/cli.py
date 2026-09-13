@@ -23,6 +23,17 @@ def _build_notifier(force_console: bool) -> Notifier:
     return TelegramNotifier(settings.telegram_token, settings.telegram_chat_id)
 
 
+def _configure_logging(verbose: bool) -> None:
+    logging.basicConfig(
+        level=logging.DEBUG if verbose else logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s",
+    )
+    # httpx на INFO пишет полный URL запроса, а в URL Bot API — токен бота
+    # (так токен попал в вывод первого `skidki sample`, 2026-09-13).
+    for name in ("httpx", "httpcore"):
+        logging.getLogger(name).setLevel(logging.WARNING)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="skidki", description="Мониторинг скидок mechta.kz и evrika.com"
@@ -47,10 +58,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    logging.basicConfig(
-        level=logging.DEBUG if args.verbose else logging.INFO,
-        format="%(asctime)s %(levelname)s %(message)s",
-    )
+    _configure_logging(args.verbose)
     notifier = _build_notifier(args.console)
 
     if args.command == "sample":
