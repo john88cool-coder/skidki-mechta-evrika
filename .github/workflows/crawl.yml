@@ -1,14 +1,16 @@
 name: crawl
 # Обход mechta + evrika каждые 2 часа: оценка, Telegram, сохранение базы.
-# База живёт в ветке `data` одним коммитом (force-push): иначе каждый обход
-# добавлял бы в историю main новый бинарный файл в несколько мегабайт.
+# База живёт в кэше Actions: обход восстанавливает самую свежую копию (по
+# префиксу ключа) и сохраняет новую под уникальным ключом. Ветку data GitHub
+# отклонил («remote: fatal error in commit_refs», 2026-09-13), а кэшу права
+# на запись в репозиторий не нужны.
 on:
   schedule:
     - cron: '17 */2 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 # Единый writer: всё, что пишет базу, — одна группа (урок gpu-deals).
 concurrency:
@@ -24,26 +26,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: База из ветки data
-        # Ветки нет — холодный старт. Ветка есть, но не скачалась — падаем:
-        # иначе шаг сохранения затёр бы историю пустой базой.
+      - name: База из кэша
+        id: db
+        uses: actions/cache/restore@v4
+        with:
+          path: data/skidki.sqlite3
+          key: skidki-db-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: skidki-db-
+
+      - name: Состояние базы
         run: |
           mkdir -p data
-          set +e
-          git ls-remote --exit-code --heads origin data > /dev/null
-          rc=$?
-          set -e
-          if [ "$rc" -eq 0 ]; then
-            git fetch --depth=1 origin data
-            git show FETCH_HEAD:skidki.sqlite3 > "$SKIDKI_DB"
+          if [ -f "$SKIDKI_DB" ]; then
             ls -la "$SKIDKI_DB"
-          elif [ "$rc" -eq 2 ]; then
-            echo "ветки data нет — холодный старт"
+            echo "::notice title=База::восстановлена из ${{ steps.db.outputs.cache-matched-key }}"
           else
-            echo "git ls-remote завершился с кодом $rc"
-            exit 1
+            echo "::notice title=База::кэша нет — холодный старт"
           fi
-          touch "$RUNNER_TEMP/db-restored"
 
       - uses: actions/setup-python@v5
         with:
@@ -71,9 +70,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: skidki crawl
 
+      - name: Сохранить базу
+        # Наблюдения и недоставленные алерты переживают отказ Telegram.
+        if: always() && hashFiles('data/skidki.sqlite3') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: data/skidki.sqlite3
+          key: skidki-db-${{ github.run_id }}-${{ github.run_attempt }}
+
       - name: Резервная копия базы
-        # Страховка: если push в ветку data упадёт, 30 минут обхода не пропадут —
-        # базу можно скачать из артефакта запуска (первый обход 2026-09-13 так и потерялся).
+        # Страховка на случай потери кэша: базу можно скачать из артефакта запуска.
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -81,34 +87,3 @@ jobs:
           path: data/skidki.sqlite3
           retention-days: 7
           if-no-files-found: ignore
-
-      - name: Сохранить базу
-        if: always()  # наблюдения и недоставленные алерты переживают отказ Telegram
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          if [ ! -f "$RUNNER_TEMP/db-restored" ] || [ ! -f "$SKIDKI_DB" ]; then
-            echo "база не восстановлена или не создана — сохранять нечего"
-            exit 0
-          fi
-          ls -la "$SKIDKI_DB"
-          # Каждая git-команда — через step(): при ошибке её вывод уходит в
-          # аннотацию запуска, а аннотации читаются через публичный API без входа
-          # (логи — нет: первый сбой 2026-09-13 оставил только «exit code 1»).
-          step() {
-            local out code
-            out=$("$@" 2>&1) && { [ -z "$out" ] || echo "$out"; return 0; }
-            code=$?
-            echo "$out"
-            echo "::error title=Сохранить базу::$1 $2 → код $code: $(echo "$out" | tail -n 5 | tr '\n' ' ')"
-            exit "$code"
-          }
-          cd "$RUNNER_TEMP"
-          rm -rf dbrepo && mkdir dbrepo && cd dbrepo
-          step git init -b data
-          cp "$SKIDKI_DB" skidki.sqlite3
-          step git add skidki.sqlite3
-          step git -c user.name=skidki-bot -c user.email=actions@users.noreply.github.com \
-            commit -m "db $(date -u +%FT%TZ) [skip ci]"
-          step git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          step git push -f origin data

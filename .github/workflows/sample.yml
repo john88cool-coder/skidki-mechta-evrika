@@ -17,11 +17,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: База из ветки data
-        run: |
-          mkdir -p data
-          git fetch --depth=1 origin data && git show FETCH_HEAD:skidki.sqlite3 > "$SKIDKI_DB" \
-            || echo "базы нет — пример будет пустым"
+      - name: База из кэша
+        uses: actions/cache/restore@v4
+        with:
+          path: data/skidki.sqlite3
+          key: skidki-db-sample-${{ github.run_id }}
+          restore-keys: skidki-db-
 
       - uses: actions/setup-python@v5
         with:

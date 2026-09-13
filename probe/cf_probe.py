@@ -1,118 +1,134 @@
-"""Проба: пускает ли Cloudflare наш IP к mechta.kz и evrika.com (через Playwright).
+"""Проба доступа с IP раннера GitHub Actions: варианты против Cloudflare.
 
-Настоящий Chromium проходит JS-челлендж Cloudflare; API mechta вызывается
-fetch'ем из контекста открытой страницы — с cookie и TLS-отпечатком браузера.
-Запускается локально и в GitHub Actions (workflow probe.yml) ДО написания
-основного бота. Выход 0 — оба магазина отдали товары, 1 — хотя бы один нет.
+Первый обход с Actions (2026-09-13): evrika — 3 677 позиций, mechta — 403
+со страницей блокировки Cloudflare («no-js ie6 oldie») на каждый запрос к
+API, хотя утренняя разовая проба с раннера проходила (старый headless, один
+запрос). Проба сравнивает варианты и пишет итоги в аннотации (::notice) —
+их видно через публичный API без входа, в отличие от логов.
+
+Выход всегда 0: это диагностика, а не проверка.
 """
 
 from __future__ import annotations
 
-import json
-import sys
+import asyncio
+import os
 import time
+import uuid
 
-from playwright.sync_api import Browser, Page, sync_playwright
+import httpx
+from playwright.async_api import BrowserContext, async_playwright
 
-UA = (
+from skidki.browser import open_context
+from skidki.config import settings
+from skidki.parsers import evrika, mechta
+
+SECTION = "tv-audio-video"
+REQUESTS = 5
+OLD_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 )
-EVRIKA_TIMEOUT_MS = 90_000
-# Картинки, шрифты и медиа данных не несут — не грузим их.
-_BLOCKED_RESOURCES = {"image", "font", "media"}
-
-# Заголовки взяты из бандла mechta (/_nuxt/*.js, функция sae): без
-# X-Mechta-Device-Id API отвечает 422 device_id_not_provided.
-MECHTA_FETCH = """async (url) => {
-    const deviceId = localStorage.getItem('user_device_id') || crypto.randomUUID();
-    const r = await fetch(url, {headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'X-Mechta-App': 'site',
-        'X-Mechta-Device-Id': deviceId,
-    }});
-    return {status: r.status, body: await r.text()};
-}"""
 
 
-def _new_page(browser: Browser) -> Page:
-    page = browser.new_page(user_agent=UA, locale="ru-RU")
-    page.route(
-        "**/*",
-        lambda route: route.abort()
-        if route.request.resource_type in _BLOCKED_RESOURCES
-        else route.continue_(),
-    )
-    return page
+def report(title: str, text: str) -> None:
+    text = " ".join(text.split())
+    print(f"{title}: {text}", flush=True)
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::notice title={title}::{text}", flush=True)
 
 
-def probe_mechta(browser: Browser) -> tuple[bool, str]:
-    page = _new_page(browser)
+async def _via_page(context: BrowserContext) -> str:
+    page = await context.new_page()
     try:
-        page.goto("https://www.mechta.kz/section/tv-audio-video/", wait_until="domcontentloaded")
-        api = "/api/v3/catalog/products?slug=tv-audio-video&page=1&pageSize=50"
-        result = page.evaluate(MECHTA_FETCH, api)
-    finally:
-        page.close()
-    if result["status"] != 200:
-        return False, f"HTTP {result['status']}: {result['body'][:120]!r}"
-    data = json.loads(result["body"])
-    products = data.get("products") or []
-    if not products:
-        return False, f"пустой список: {result['body'][:120]!r}"
-    first = products[0]
-    return True, (
-        f"{len(products)} товаров, всего {data['meta']['totalCount']}; "
-        f"пример: {first['name']} — {first['prices']['finalPrice']} ₸"
-    )
-
-
-def probe_evrika(browser: Browser) -> tuple[bool, str]:
-    page = _new_page(browser)
-    try:
-        # SSR evrika отвечает 12–35 с — стандартных 30 с goto не хватает.
-        response = page.goto(
-            "https://evrika.com/catalog/smart-chasy/c310",
-            wait_until="domcontentloaded",
-            timeout=EVRIKA_TIMEOUT_MS,
+        response = await page.goto(
+            f"{mechta.BASE}/section/{SECTION}/", wait_until="domcontentloaded", timeout=90_000
         )
-        status = response.status if response else 0
-        raw = page.locator("#__NEXT_DATA__").text_content(timeout=15_000) if status == 200 else None
+        title = await page.title()
+        device_id = str(uuid.uuid4())
+        statuses = []
+        for number in range(1, REQUESTS + 1):
+            result = await page.evaluate(
+                mechta.FETCH_JS, {"url": mechta.api_url(SECTION, number), "deviceId": device_id}
+            )
+            statuses.append(result["status"])
+            await asyncio.sleep(1)
+        return f"страница {response.status if response else 0} «{title[:40]}», API {statuses}"
     finally:
-        page.close()
-    if status != 200:
-        return False, f"HTTP {status}"
-    if not raw:
-        return False, "нет __NEXT_DATA__ (челлендж Cloudflare?)"
-    queries = json.loads(raw)["props"]["pageProps"]["dehydratedState"]["queries"]
-    block = next((q["state"]["data"] for q in queries if q["queryKey"][0] == "products"), None)
-    if not block or not block["data"]:
-        return False, "в __NEXT_DATA__ нет товаров"
-    first = block["data"][0]
-    return True, (
-        f"{len(block['data'])} товаров, всего {block['meta']['total']}; "
-        f"пример: {first['name']} — {first['cost']} ₸ (было {first['old_cost']})"
-    )
+        await page.close()
 
 
-def main() -> int:
-    ok_all = True
-    with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
+async def mechta_new_headless() -> str:
+    async with open_context() as context:
+        return await _via_page(context)
+
+
+async def mechta_old_headless() -> str:
+    async with async_playwright() as playwright:
+        browser = await playwright.chromium.launch(headless=True)
         try:
-            for name, probe in (("mechta", probe_mechta), ("evrika", probe_evrika)):
-                started = time.monotonic()
-                try:
-                    ok, detail = probe(browser)
-                except Exception as exc:  # noqa: BLE001 — проба должна отчитаться, а не упасть
-                    ok, detail = False, f"{type(exc).__name__}: {str(exc)[:200]}"
-                elapsed = time.monotonic() - started
-                print(f"{'OK  ' if ok else 'FAIL'} {name:7} {elapsed:5.1f}s  {detail}", flush=True)
-                ok_all &= ok
+            context = await browser.new_context(user_agent=OLD_UA, locale="ru-RU")
+            return await _via_page(context)
         finally:
-            browser.close()
-    return 0 if ok_all else 1
+            await browser.close()
+
+
+def mechta_httpx() -> str:
+    headers = {
+        "User-Agent": OLD_UA,
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "ru",
+        "Referer": "https://www.mechta.kz/",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
+        "X-Mechta-App": "site",
+        "X-Mechta-Device-Id": str(uuid.uuid4()),
+    }
+    statuses = []
+    with httpx.Client(timeout=30, headers=headers) as client:
+        for number in range(1, REQUESTS + 1):
+            statuses.append(client.get(mechta.BASE + mechta.api_url(SECTION, number)).status_code)
+            time.sleep(1)
+    return f"API {statuses}"
+
+
+async def evrika_page() -> str:
+    async with open_context() as context:
+        page = await evrika._new_page(context)
+        try:
+            data = await evrika._load(
+                page, evrika.category_url(310, "smart-chasy"), settings.page_timeout_ms
+            )
+        finally:
+            await page.close()
+    items, last_page = evrika.parse_products(data)
+    return f"{len(items)} товаров, страниц {last_page}"
+
+
+async def main() -> None:
+    try:
+        ip = httpx.get("https://api.ipify.org", timeout=10).text
+    except Exception:  # noqa: BLE001
+        ip = "?"
+    report("IP раннера", ip)
+    # Новый headless — первым и последним: видно, не «закрывает» ли Cloudflare
+    # IP после первых запросов.
+    variants = (
+        ("mechta новый headless", mechta_new_headless),
+        ("mechta старый headless", mechta_old_headless),
+        ("mechta httpx", lambda: asyncio.to_thread(mechta_httpx)),
+        ("evrika новый headless", evrika_page),
+        ("mechta новый headless повтор", mechta_new_headless),
+    )
+    for name, variant in variants:
+        started = time.monotonic()
+        try:
+            result = await variant()
+        except Exception as exc:  # noqa: BLE001 — проба должна отчитаться, а не упасть
+            result = f"{type(exc).__name__}: {str(exc)[:150]}"
+        report(name, f"{result} ({time.monotonic() - started:.0f} с)")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    asyncio.run(main())

@@ -1,7 +1,8 @@
 name: probe
-# Разовая проверка: пускает ли Cloudflare IP раннера GitHub к mechta и evrika
-# (через Playwright). Запускается при push и вручную (Actions → probe → Run
-# workflow). Три попытки с паузой — чтобы отличить блокировку от случайного сбоя.
+# Диагностика доступа с IP раннера GitHub: варианты против Cloudflare на
+# mechta и evrika, плюс проверка, что секреты Telegram заданы (без значений).
+# Итоги — в аннотациях запуска (видны без входа). Запуск при push в probe/**
+# и вручную (Actions → probe → Run workflow).
 on:
   push:
     paths:
@@ -15,33 +16,42 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
 
       - name: Кэш браузера Playwright
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-probe
+          key: playwright-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
 
       - name: Зависимости
         # dl.google.com в apt-источниках раннера периодически отдаёт hash
         # mismatch — ретрай через минуту решает (урок gpu-deals, 2026-09-09).
         run: |
-          pip install "playwright>=1.44"
+          pip install .
           python -m playwright install --with-deps chromium \
             || { sleep 60; sudo apt-get update; python -m playwright install --with-deps chromium; }
 
-      - name: Проба
+      - name: Секреты Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          for i in 1 2 3; do
-            echo "=== попытка $i ==="
-            python probe/cf_probe.py && exit 0
-            sleep 30
+          for name in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
+            if [ -n "${!name}" ]; then
+              echo "::notice title=Секреты::$name задан"
+            else
+              echo "::warning title=Секреты::$name НЕ задан"
+            fi
           done
-          exit 1
+
+      - name: Проба
+        run: python probe/cf_probe.py
