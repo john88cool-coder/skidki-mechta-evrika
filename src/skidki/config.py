@@ -59,6 +59,13 @@ class Thresholds:
     breakage_ratio: float = 0.5
     # Строк находок в сообщении: владелец читает с телефона, всё сообщение ≤ 10 строк.
     max_alert_lines: int = 8
+    # «Скидка магазина» (решение владельца 2026-09-13): от −20% к зачёркнутой
+    # цене и сама цена от 20 000 ₸. На момент решения таких было ~2 400, в
+    # топе — чехлы за 990 ₸ «было 19 990»; фильтр по цене режет эту мелочь.
+    deal_pct: float = 20.0
+    deal_min_price: int = 20_000
+    # Скидка больше — ошибка цены, а не находка: весы за 528 ₸ «было 999 990».
+    deal_max_pct: float = 90.0
 
 
 def _matches(needle: str, haystack: str | None) -> bool:
@@ -88,6 +95,8 @@ class Rules:
     """Правила владельца из rules.toml."""
 
     drop_pct: float | None = None
+    deal_pct: float | None = None
+    deal_min_price: int | None = None
     categories: tuple[CategoryRule, ...] = ()
     watch: tuple[WatchItem, ...] = ()
 
@@ -122,6 +131,8 @@ def load_rules(path: Path | None = None) -> Rules:
         data = tomllib.load(handle)
     return Rules(
         drop_pct=data.get("drop_pct"),
+        deal_pct=data.get("deal_pct"),
+        deal_min_price=int(data["deal_min_price"]) if data.get("deal_min_price") else None,
         categories=tuple(
             CategoryRule(
                 match=str(rule["match"]),

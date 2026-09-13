@@ -26,6 +26,7 @@ def product(
     in_stock: bool = True,
     title: str = "Смарт-часы Тест",
     category: str = "Смарт-часы",
+    old_price: int | None = None,
 ) -> Product:
     return Product(
         shop=shop,
@@ -34,6 +35,7 @@ def product(
         price=price,
         url=f"https://www.mechta.kz/product/{sku}/",
         category=category,
+        old_price=old_price,
         in_stock=in_stock,
     )
 

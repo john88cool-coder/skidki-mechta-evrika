@@ -48,6 +48,9 @@ def format_line(verdict: Verdict) -> str:
         details.append(f"−{_pct(drop.base, product.price)}% к медиане {tenge(drop.base)}")
     if low and low.base:
         details.append("мин. за 30 дн" if drop else f"мин. за 30 дн, было {tenge(low.base)}")
+    deal = verdict.hit(Signal.DEAL)
+    if deal and deal.base:
+        details.append(f"скидка −{_pct(deal.base, product.price)}%, было {tenge(deal.base)}")
     if target and target.target:
         details.append(f"цель ≤ {tenge(target.target)}")
     if verdict.has(Signal.RESTOCK):
@@ -72,7 +75,7 @@ def format_finds(verdicts: list[Verdict], limit: int) -> tuple[str, list[Verdict
     ordered = sorted(verdicts, key=_rank)
     shown = ordered[:limit]
     count = len(verdicts)
-    lines = [f"🔥 <b>{count} {_plural(count, 'находка', 'находки', 'находок')}</b> по истории цен"]
+    lines = [f"🔥 <b>{count} {_plural(count, 'находка', 'находки', 'находок')}</b>"]
     lines += [format_line(verdict) for verdict in shown]
     rest = count - len(shown)
     if rest:

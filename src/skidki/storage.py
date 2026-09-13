@@ -89,6 +89,7 @@ class Span:
     last_seen: datetime
     price: int
     in_stock: bool
+    old_price: int | None = None
 
 
 @contextmanager
@@ -152,13 +153,16 @@ def save_products(
 
 
 def _span(row: sqlite3.Row) -> Span:
-    return Span(_dt(row["first_seen"]), _dt(row["last_seen"]), row["price"], bool(row["in_stock"]))
+    return Span(
+        _dt(row["first_seen"]), _dt(row["last_seen"]), row["price"], bool(row["in_stock"]),
+        row["old_price"],
+    )
 
 
 def history(conn: sqlite3.Connection, identity: str, since: datetime) -> list[Span]:
     """Отрезки позиции, задевающие окно с `since`, от старых к новым."""
     rows = conn.execute(
-        """SELECT first_seen, last_seen, price, in_stock FROM spans
+        """SELECT first_seen, last_seen, price, old_price, in_stock FROM spans
            WHERE identity = ? AND last_seen >= ?
            ORDER BY first_seen, id""",
         (identity, _iso(since)),
@@ -168,7 +172,7 @@ def history(conn: sqlite3.Connection, identity: str, since: datetime) -> list[Sp
 
 def last_span(conn: sqlite3.Connection, identity: str) -> Span | None:
     row = conn.execute(
-        """SELECT first_seen, last_seen, price, in_stock FROM spans WHERE identity = ?
+        """SELECT first_seen, last_seen, price, old_price, in_stock FROM spans WHERE identity = ?
            ORDER BY last_seen DESC, id DESC LIMIT 1""",
         (identity,),
     ).fetchone()

@@ -1,8 +1,11 @@
-"""Оценка: сигналы только по собственной истории цен.
+"""Оценка: сигналы по собственной истории цен и по новым скидкам магазина.
 
-Магазинная «скидка» (зачёркнутая цена, бейдж «−71%») сигналом не является:
-магазины рисуют её от завышенной цены — та же ловушка, что у Technodom с
-видеокартами (handoff §5). Основание — только наша история.
+Handoff §5 запрещал считать магазинную скидку сигналом: магазины рисуют её от
+завышенной цены. Владелец решил иначе (2026-09-13): сигналы только по истории
+молчат первые дни и не видят скидку, которую магазин держит неделями. Поэтому
+скидка магазина — сигнал, но с защитой от шума: от −20%, цена от 20 000 ₸,
+не больше 90% (ошибка цены) и только НОВАЯ — первый обход магазина молча
+запоминает то, что уже висит.
 """
 
 from __future__ import annotations
@@ -22,6 +25,7 @@ class Signal(str, Enum):
     LOW = "минимум"
     TARGET = "цель"
     RESTOCK = "в наличии"
+    DEAL = "скидка магазина"
 
 
 @dataclass(frozen=True)
@@ -91,14 +95,33 @@ def coverage_days(spans: list[Span], until: datetime) -> float:
     return (until - min(starts)).total_seconds() / 86_400
 
 
+def _is_deal(
+    price: int, old_price: int | None, in_stock: bool, rules: Rules, thresholds: Thresholds
+) -> bool:
+    """Скидка магазина проходит фильтры владельца."""
+    if not (in_stock and old_price and old_price > price):
+        return False
+    pct = (old_price - price) / old_price * 100
+    min_pct = rules.deal_pct if rules.deal_pct is not None else thresholds.deal_pct
+    min_price = (
+        rules.deal_min_price if rules.deal_min_price is not None else thresholds.deal_min_price
+    )
+    return price >= min_price and min_pct <= pct <= thresholds.deal_max_pct
+
+
 def evaluate(
     conn: sqlite3.Connection,
     product: Product,
     rules: Rules,
     thresholds: Thresholds,
     at: datetime | None = None,
+    cold_start: bool = False,
 ) -> Verdict:
-    """Оценивает позицию против её истории. Вызывать ДО записи наблюдения."""
+    """Оценивает позицию против её истории. Вызывать ДО записи наблюдения.
+
+    `cold_start` — первый обход магазина: скидки, которые уже висят, молча
+    запоминаются, иначе первый же обход прислал бы ~1 600 находок.
+    """
     at = at or now()
     verdict = Verdict(product)
     # Отсутствующие позиции пишутся в базу, но не будят: «товара на самом деле
@@ -135,13 +158,28 @@ def evaluate(
         ):
             verdict.signals.append(SignalHit(Signal.LOW, base=floor, days=low_days))
 
+    previous = last_span(conn, product.identity)
+
+    # «Скидка магазина»: новость — только новая скидка. Товар впервые её
+    # получил, вернулся в продажу со скидкой или подешевел дальше. Скидка,
+    # висящая с прошлого обхода по той же цене, — не новость.
+    if _is_deal(price, product.old_price, True, rules, thresholds):
+        if previous is None:
+            fresh = not cold_start
+        else:
+            was_deal = _is_deal(
+                previous.price, previous.old_price, previous.in_stock, rules, thresholds
+            )
+            fresh = not was_deal or price < previous.price
+        if fresh:
+            verdict.signals.append(SignalHit(Signal.DEAL, base=product.old_price))
+
     # «Цель»: владелец назвал сумму — медианы ни при чём, надо брать.
     reached = [target for target in rules.targets_for(product) if price <= target]
     if reached:
         verdict.signals.append(SignalHit(Signal.TARGET, target=min(reached)))
         # «Появился в наличии» — только для позиций с целью: ресток любого из
         # 16 тыс. товаров засыпал бы чат.
-        previous = last_span(conn, product.identity)
         if previous is not None and not previous.in_stock:
             verdict.signals.append(SignalHit(Signal.RESTOCK, target=min(reached)))
     return verdict

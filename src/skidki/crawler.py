@@ -82,7 +82,8 @@ def process(
 
         # Оценка — ДО записи: история должна быть без текущего наблюдения.
         for product in products:
-            verdict = evaluate(conn, product, rules, thresholds, at)
+            # Первый успешный обход магазина — база: висящие скидки не новость.
+            verdict = evaluate(conn, product, rules, thresholds, at, cold_start=previous is None)
             if should_send(conn, verdict, thresholds, at):
                 findings.append(verdict)
         save_products(conn, products, at)
