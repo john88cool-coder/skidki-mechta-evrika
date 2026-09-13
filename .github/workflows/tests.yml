@@ -1,0 +1,26 @@
+name: tests
+# Тесты идут на сохранённых фикстурах живых ответов и сети не требуют.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Зависимости
+        run: pip install -e ".[dev]"
+
+      - name: Тесты
+        run: pytest -q

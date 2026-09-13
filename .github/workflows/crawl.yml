@@ -1,0 +1,90 @@
+name: crawl
+# Обход mechta + evrika каждые 2 часа: оценка, Telegram, сохранение базы.
+# База живёт в ветке `data` одним коммитом (force-push): иначе каждый обход
+# добавлял бы в историю main новый бинарный файл в несколько мегабайт.
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Единый writer: всё, что пишет базу, — одна группа (урок gpu-deals).
+concurrency:
+  group: db-writer
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    env:
+      SKIDKI_DB: ${{ github.workspace }}/data/skidki.sqlite3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: База из ветки data
+        # Ветки нет — холодный старт. Ветка есть, но не скачалась — падаем:
+        # иначе шаг сохранения затёр бы историю пустой базой.
+        run: |
+          mkdir -p data
+          set +e
+          git ls-remote --exit-code --heads origin data > /dev/null
+          rc=$?
+          set -e
+          if [ "$rc" -eq 0 ]; then
+            git fetch --depth=1 origin data
+            git show FETCH_HEAD:skidki.sqlite3 > "$SKIDKI_DB"
+            ls -la "$SKIDKI_DB"
+          elif [ "$rc" -eq 2 ]; then
+            echo "ветки data нет — холодный старт"
+          else
+            echo "git ls-remote завершился с кодом $rc"
+            exit 1
+          fi
+          touch "$RUNNER_TEMP/db-restored"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Кэш браузера Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+
+      - name: Зависимости
+        # dl.google.com в apt-источниках раннера периодически отдаёт hash
+        # mismatch — ретрай через минуту решает (урок gpu-deals, 2026-09-09).
+        run: |
+          pip install .
+          python -m playwright install --with-deps chromium \
+            || { sleep 60; sudo apt-get update; python -m playwright install --with-deps chromium; }
+
+      - name: Обход
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: skidki crawl
+
+      - name: Сохранить базу
+        if: always()  # наблюдения и недоставленные алерты переживают отказ Telegram
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f "$RUNNER_TEMP/db-restored" ] || [ ! -f "$SKIDKI_DB" ]; then
+            echo "база не восстановлена или не создана — сохранять нечего"
+            exit 0
+          fi
+          cd "$RUNNER_TEMP"
+          rm -rf dbrepo && mkdir dbrepo && cd dbrepo
+          git init -q -b data
+          cp "$SKIDKI_DB" skidki.sqlite3
+          git add skidki.sqlite3
+          git -c user.name=skidki-bot -c user.email=actions@users.noreply.github.com \
+            commit -qm "db $(date -u +%FT%TZ) [skip ci]"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
