@@ -14,14 +14,15 @@ from playwright.async_api import BrowserContext
 
 from .browser import open_context
 from .config import Rules, Settings, Thresholds, load_rules, settings as default_settings
-from .evaluate import Verdict, evaluate, should_send
+from .evaluate import Signal, SignalHit, Verdict, evaluate, should_send
 from .models import PartialCrawl, Product
 from .notify import Notifier
 from .parsers import REGISTRY
-from .report import format_breakage, format_finds, format_watchdog
+from .report import format_breakage, format_card, format_more, format_watchdog, rank
 from .storage import (
     compact,
     connect,
+    current_deals,
     last_crawl_ok,
     last_successful_crawl,
     mark_alerts_delivered,
@@ -104,9 +105,7 @@ def run_once(
 
     with connect(db_path) as conn:
         findings, breakages = process(conn, results, rules, config.thresholds)
-        text, shown = (
-            format_finds(findings, config.thresholds.max_alert_lines) if findings else ("", [])
-        )
+        shown, rest = rank(findings, config.thresholds.max_alerts)
         # Находка фиксируется до отправки (delivered_at = NULL): база
         # коммитится даже при отказе Telegram, недоставленное уйдёт в следующий раз.
         for verdict in shown:
@@ -123,12 +122,58 @@ def run_once(
 
     for message in breakages:
         notifier.send(message)
-    if shown:
-        notifier.send(text)
-        if getattr(notifier, "confirms_delivery", False):
-            with connect(db_path) as conn:
-                mark_alerts_delivered(conn, [verdict.product.identity for verdict in shown])
+    confirms = getattr(notifier, "confirms_delivery", False)
+    with connect(db_path) as conn:
+        for verdict in shown:
+            text, buttons = format_card(verdict)
+            notifier.send(text, buttons)
+            if confirms:
+                # Доставка фиксируется сразу: сбой Telegram на пятой карточке
+                # не должен переотправить первые четыре.
+                mark_alerts_delivered(conn, [verdict.product.identity])
+                conn.commit()
+        if rest:
+            notifier.send(format_more(rest))
     return len(findings)
+
+
+def send_sample(
+    notifier: Notifier,
+    per_shop: int = 2,
+    config: Settings | None = None,
+    db_path: Path | None = None,
+) -> int:
+    """Пример оформления: самые глубокие текущие скидки из базы — по магазину.
+
+    Это не находки и дедупликацию не трогает: владелец смотрит, как выглядят
+    карточки, не дожидаясь настоящих новых скидок.
+    """
+    config = config or default_settings
+    thresholds = config.thresholds
+    rules = load_rules()
+    min_pct = rules.deal_pct if rules.deal_pct is not None else thresholds.deal_pct
+    min_price = (
+        rules.deal_min_price if rules.deal_min_price is not None else thresholds.deal_min_price
+    )
+    with connect(db_path) as conn:
+        products = [
+            product
+            for shop in REGISTRY
+            for product in current_deals(
+                conn, min_pct, min_price, thresholds.deal_max_pct, per_shop, shop
+            )
+        ]
+    if not products:
+        notifier.send("🧪 В базе пока нет скидок для примера — дождитесь первого обхода.")
+        return 0
+    notifier.send(
+        f"🧪 <b>Пример оформления</b>: самые глубокие скидки из базы ({len(products)} шт.).\n"
+        "Это не находки — настоящие уведомления приходят только о новых скидках."
+    )
+    for product in products:
+        text, buttons = format_card(Verdict(product, [SignalHit(Signal.DEAL, base=product.old_price)]))
+        notifier.send(text, buttons)
+    return len(products)
 
 
 def send_watchdog(

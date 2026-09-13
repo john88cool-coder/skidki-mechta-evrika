@@ -43,12 +43,14 @@ class FakeNotifier:
 
     def __init__(self, fail: bool = False) -> None:
         self.sent: list[str] = []
+        self.buttons: list = []
         self.fail = fail
 
     def send(self, text, buttons=None):
         if self.fail:
             raise RuntimeError("telegram down")
         self.sent.append(text)
+        self.buttons.append(buttons)
 
 
 def test_run_once_resends_after_telegram_failure(tmp_path, monkeypatch):
@@ -69,10 +71,42 @@ def test_run_once_resends_after_telegram_failure(tmp_path, monkeypatch):
     delivered = FakeNotifier()
     assert crawler.run_once(delivered, shops=["mechta"], db_path=db) == 1
     assert len(delivered.sent) == 1 and "90 000 ₸" in delivered.sent[0]
+    assert delivered.buttons[0] == [[("🛒 Открыть в Мечте", "https://www.mechta.kz/product/1/")]]
 
     repeat = FakeNotifier()
     crawler.run_once(repeat, shops=["mechta"], db_path=db)
     assert repeat.sent == []
+
+
+def test_cards_beyond_limit_get_a_summary(tmp_path, monkeypatch):
+    db = tmp_path / "db.sqlite3"
+    items = [product(75_000 - i * 1_000, sku=str(i), old_price=100_000) for i in range(10)]
+    with storage.connect(db) as conn:
+        # Прошлый обход без скидок — это база, а не холодный старт.
+        crawler.process(conn, [("mechta", [product(100_000, sku=str(i)) for i in range(10)], None)],
+                        Rules(), TH, storage.now() - timedelta(hours=2))
+
+    async def fake_collect(shops, config):
+        return [("mechta", items, None)]
+
+    monkeypatch.setattr(crawler, "collect", fake_collect)
+    monkeypatch.setattr(crawler, "load_rules", lambda: Rules())
+    notifier = FakeNotifier()
+    assert crawler.run_once(notifier, shops=["mechta"], db_path=db) == 10
+    assert len(notifier.sent) == 9  # 8 карточек + «и ещё 2 находки»
+    assert "ещё 2 находки" in notifier.sent[-1]
+    assert all(b for b in notifier.buttons[:8])
+
+
+def test_sample_sends_cards_from_db(tmp_path, monkeypatch):
+    db = tmp_path / "db.sqlite3"
+    with storage.connect(db) as conn:
+        storage.save_products(conn, [product(60_000, old_price=100_000)], T0)
+    monkeypatch.setattr(crawler, "load_rules", lambda: Rules())
+    notifier = FakeNotifier()
+    assert crawler.send_sample(notifier, db_path=db) == 1
+    assert "Пример оформления" in notifier.sent[0]
+    assert notifier.sent[1].startswith("🏷 <b>Скидка −40%</b>")
 
 
 def test_fetch_shop_keeps_partial_products(monkeypatch):

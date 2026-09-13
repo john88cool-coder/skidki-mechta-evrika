@@ -1,0 +1,39 @@
+name: sample
+# Пример оформления уведомлений: присылает в Telegram самые глубокие текущие
+# скидки из базы в виде карточек. Не находки и дедупликацию не трогает.
+# Запуск вручную: Actions → sample → Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SKIDKI_DB: ${{ github.workspace }}/data/skidki.sqlite3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: База из ветки data
+        run: |
+          mkdir -p data
+          git fetch --depth=1 origin data && git show FETCH_HEAD:skidki.sqlite3 > "$SKIDKI_DB" \
+            || echo "базы нет — пример будет пустым"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Зависимости
+        run: pip install .
+
+      - name: Пример
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: skidki sample

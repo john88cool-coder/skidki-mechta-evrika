@@ -7,7 +7,7 @@ import logging
 import sys
 
 from .config import settings
-from .crawler import run_once, send_watchdog
+from .crawler import run_once, send_sample, send_watchdog
 from .notify import ConsoleNotifier, Notifier, TelegramNotifier
 from .parsers import REGISTRY
 
@@ -29,8 +29,11 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "command",
-        choices=("crawl", "watchdog"),
-        help="crawl — обход и уведомления; watchdog — тревога, если обходы перестали приходить",
+        choices=("crawl", "watchdog", "sample"),
+        help=(
+            "crawl — обход и уведомления; watchdog — тревога, если обходы перестали приходить; "
+            "sample — пример оформления на текущих скидках из базы"
+        ),
     )
     parser.add_argument("--shop", action="append", choices=sorted(REGISTRY), help="только эти магазины")
     parser.add_argument("--console", action="store_true", help="печатать вместо отправки в Telegram")
@@ -49,6 +52,10 @@ def main(argv: list[str] | None = None) -> int:
         format="%(asctime)s %(levelname)s %(message)s",
     )
     notifier = _build_notifier(args.console)
+
+    if args.command == "sample":
+        send_sample(notifier)
+        return 0
 
     if args.command == "watchdog":
         if not send_watchdog(notifier, max_age_hours=args.max_age_hours, shops=args.shop):

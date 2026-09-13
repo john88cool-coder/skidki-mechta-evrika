@@ -179,6 +179,46 @@ def last_span(conn: sqlite3.Connection, identity: str) -> Span | None:
     return _span(row) if row else None
 
 
+def current_deals(
+    conn: sqlite3.Connection,
+    min_pct: float,
+    min_price: int,
+    max_pct: float,
+    limit: int,
+    shop: str | None = None,
+) -> list[Product]:
+    """Самые глубокие скидки магазина по последнему наблюдению каждой позиции."""
+    rows = conn.execute(
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url,
+                  s.price, s.old_price, s.stock_note
+           FROM products p
+           JOIN spans s ON s.id = (
+               SELECT id FROM spans WHERE identity = p.identity
+               ORDER BY last_seen DESC, id DESC LIMIT 1)
+           WHERE s.in_stock = 1 AND s.old_price > s.price AND s.price >= ?
+                 AND (? IS NULL OR p.shop = ?)
+                 AND (s.old_price - s.price) * 100.0 / s.old_price BETWEEN ? AND ?
+           ORDER BY (s.old_price - s.price) * 1.0 / s.old_price DESC
+           LIMIT ?""",
+        (min_price, shop, shop, min_pct, max_pct, limit),
+    ).fetchall()
+    return [
+        Product(
+            shop=row["shop"],
+            sku=row["identity"].split(":", 1)[1],
+            title=row["title"],
+            price=row["price"],
+            url=row["url"],
+            brand=row["brand"],
+            category=row["category"],
+            old_price=row["old_price"],
+            in_stock=True,
+            stock_note=row["stock_note"],
+        )
+        for row in rows
+    ]
+
+
 def last_alert(conn: sqlite3.Connection, identity: str, since: datetime) -> int | None:
     """Цена последнего ДОСТАВЛЕННОГО алерта не старше `since`.
 

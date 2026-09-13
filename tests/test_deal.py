@@ -7,7 +7,7 @@ from conftest import T0, product
 from skidki import crawler, storage
 from skidki.config import Rules, Thresholds
 from skidki.evaluate import Signal, SignalHit, Verdict, evaluate
-from skidki.report import format_line
+from skidki.report import format_card
 
 TH = Thresholds()
 NO_RULES = Rules()
@@ -71,9 +71,23 @@ def test_rules_override_deal_threshold(conn):
     assert _has_deal(conn, deal(85_000), at=LATER, rules=Rules(deal_pct=10))
 
 
-def test_deal_line_shows_shop_discount():
-    line = format_line(Verdict(deal(), [SignalHit(Signal.DEAL, base=100_000)]))
-    assert "скидка −25%, было 100 000 ₸" in line
+def test_deal_card_shows_shop_discount():
+    text, _ = format_card(Verdict(deal(), [SignalHit(Signal.DEAL, base=100_000)]))
+    assert text.startswith("🏷 <b>Скидка −25%</b>")
+    assert "<s>100 000 ₸</s>" in text
+
+
+def test_current_deals_for_sample(conn):
+    storage.save_products(conn, [
+        deal(75_000, sku="a"),                 # −25%
+        deal(50_000, sku="b"),                 # −50%
+        deal(15_000, old=30_000, sku="c"),     # дешевле 20 000 ₸
+        deal(25_000, old=999_990, sku="d"),    # ошибка цены
+        product(100_000, sku="e"),             # без скидки
+    ], T0)
+    found = storage.current_deals(conn, 20, 20_000, 90, limit=5)
+    assert [p.sku for p in found] == ["b", "a"]
+    assert found[0].old_price == 100_000
 
 
 def test_first_crawl_is_silent_then_only_new_deals(conn):

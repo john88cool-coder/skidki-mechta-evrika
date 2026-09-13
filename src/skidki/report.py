@@ -1,6 +1,8 @@
 """Форматирование сообщений Telegram (HTML).
 
-Владелец читает с телефона: сообщение не длиннее 10 строк. Все названия и
+Одна находка — одна карточка: заголовок с процентом, название, цена со
+старой ценой и экономией, основание сигнала, категория, кнопка на товар.
+Владелец читает с телефона: карточка не длиннее 10 строк. Все названия и
 ссылки — через html.escape (урок gpu-deals).
 """
 
@@ -11,6 +13,9 @@ import html
 from .evaluate import Signal, Verdict
 
 SHOP_LABELS = {"mechta": "Мечта", "evrika": "Эврика"}
+SHOP_BUTTONS = {"mechta": "🛒 Открыть в Мечте", "evrika": "🛒 Открыть в Эврике"}
+
+Buttons = list[list[tuple[str, str]]]
 
 
 def tenge(value: int) -> str:
@@ -29,58 +34,80 @@ def _pct(base: int, price: int) -> int:
     return round((base - price) / base * 100)
 
 
-def short_title(title: str, limit: int = 60) -> str:
+def short_title(title: str, limit: int = 120) -> str:
     return title if len(title) <= limit else title[: limit - 1].rstrip() + "…"
 
 
-def _rank(verdict: Verdict) -> tuple[bool, float]:
+def _rank_key(verdict: Verdict) -> tuple[bool, float]:
     # Цели владельца — первыми, дальше по глубине падения.
     return (not verdict.has(Signal.TARGET), -(verdict.drop_pct or 0.0))
 
 
-def format_line(verdict: Verdict) -> str:
+def rank(verdicts: list[Verdict], limit: int) -> tuple[list[Verdict], int]:
+    """Что показать в этом обходе и сколько осталось на следующие."""
+    ordered = sorted(verdicts, key=_rank_key)
+    return ordered[:limit], max(len(ordered) - limit, 0)
+
+
+def _headline(verdict: Verdict) -> str:
     product = verdict.product
-    details: list[str] = []
+    target = verdict.hit(Signal.TARGET)
+    deal = verdict.hit(Signal.DEAL)
     drop = verdict.hit(Signal.DROP)
     low = verdict.hit(Signal.LOW)
-    target = verdict.hit(Signal.TARGET)
-    if drop and drop.base:
-        details.append(f"−{_pct(drop.base, product.price)}% к медиане {tenge(drop.base)}")
-    if low and low.base:
-        details.append("мин. за 30 дн" if drop else f"мин. за 30 дн, было {tenge(low.base)}")
-    deal = verdict.hit(Signal.DEAL)
-    if deal and deal.base:
-        details.append(f"скидка −{_pct(deal.base, product.price)}%, было {tenge(deal.base)}")
     if target and target.target:
-        details.append(f"цель ≤ {tenge(target.target)}")
+        head = f"🎯 <b>Цель достигнута: ≤ {tenge(target.target)}</b>"
+    elif deal and deal.base:
+        head = f"🏷 <b>Скидка −{_pct(deal.base, product.price)}%</b>"
+    elif drop and drop.base:
+        head = f"📉 <b>Цена упала на {_pct(drop.base, product.price)}%</b>"
+    elif low and low.base:
+        head = f"📉 <b>Минимум за 30 дней: −{_pct(low.base, product.price)}%</b>"
+    else:
+        head = "🔔 <b>Находка</b>"
+    return f"{head} · {SHOP_LABELS.get(product.shop, product.shop)}"
+
+
+def format_card(verdict: Verdict) -> tuple[str, Buttons]:
+    """Карточка находки и кнопка со ссылкой на товар."""
+    product = verdict.product
+    lines = [_headline(verdict), "", f"<b>{html.escape(short_title(product.title))}</b>"]
+
+    price = f"💰 <b>{tenge(product.price)}</b>"
+    if product.old_price and product.old_price > product.price:
+        price += f"  <s>{tenge(product.old_price)}</s>  −{tenge(product.old_price - product.price)}"
+    lines.append(price)
+
+    drop = verdict.hit(Signal.DROP)
+    if drop and drop.base:
+        # Честная глубина: медиана считается по тому, что уже накоплено (≤ 14 дней).
+        days = max(1, min(round(drop.days or 14), 14))
+        lines.append(
+            f"📊 Обычно {tenge(drop.base)} (медиана за {days} дн) → −{_pct(drop.base, product.price)}%"
+        )
+    low = verdict.hit(Signal.LOW)
+    if low and low.base:
+        lines.append(
+            f"📉 Ниже минимума за 30 дней ({tenge(low.base)}) на {_pct(low.base, product.price)}%"
+        )
     if verdict.has(Signal.RESTOCK):
-        details.append("снова в наличии")
+        lines.append("✅ Снова в наличии")
+
+    meta = " · ".join(part for part in (product.category, product.brand) if part)
+    if meta:
+        lines.append(f"📂 {html.escape(meta)}")
     if product.stock_note:
-        details.append(product.stock_note)
-    title = html.escape(short_title(product.title))
-    url = html.escape(product.url, quote=True)
-    shop = SHOP_LABELS.get(product.shop, product.shop)
+        lines.append(f"⚠️ {html.escape(product.stock_note.capitalize())}")
+
+    label = SHOP_BUTTONS.get(product.shop, "🛒 Открыть товар")
+    return "\n".join(lines), [[(label, product.url)]]
+
+
+def format_more(rest: int) -> str:
     return (
-        f'• <b>{tenge(product.price)}</b> <a href="{url}">{title}</a>'
-        f" — {'; '.join(details)} · {shop}"
+        f"ℹ️ И ещё {rest} {_plural(rest, 'находка', 'находки', 'находок')} — "
+        "покажу следующими обходами."
     )
-
-
-def format_finds(verdicts: list[Verdict], limit: int) -> tuple[str, list[Verdict]]:
-    """Одно сообщение на обход: заголовок, до `limit` находок, хвост «ещё N».
-
-    Возвращает текст и показанные находки — только они фиксируются как
-    алерты; остальные будут оценены заново следующим обходом.
-    """
-    ordered = sorted(verdicts, key=_rank)
-    shown = ordered[:limit]
-    count = len(verdicts)
-    lines = [f"🔥 <b>{count} {_plural(count, 'находка', 'находки', 'находок')}</b>"]
-    lines += [format_line(verdict) for verdict in shown]
-    rest = count - len(shown)
-    if rest:
-        lines.append(f"…и ещё {rest} — покажу следующими обходами")
-    return "\n".join(lines), shown
 
 
 def format_breakage(shop: str, count: int, previous: int | None, error: str | None) -> str:
