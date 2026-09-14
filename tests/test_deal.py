@@ -7,7 +7,7 @@ from conftest import T0, product
 from skidki import crawler, storage
 from skidki.config import Rules, Thresholds
 from skidki.evaluate import Signal, SignalHit, Verdict, evaluate
-from skidki.report import format_card
+from skidki.report import format_line
 
 TH = Thresholds()
 NO_RULES = Rules()
@@ -71,10 +71,10 @@ def test_rules_override_deal_threshold(conn):
     assert _has_deal(conn, deal(85_000), at=LATER, rules=Rules(deal_pct=10))
 
 
-def test_deal_card_shows_shop_discount():
-    text, _ = format_card(Verdict(deal(), [SignalHit(Signal.DEAL, base=100_000)]))
-    assert text.startswith("🏷 <b>Скидка −25%</b>")
-    assert "<s>100 000 ₸</s>" in text
+def test_deal_line_shows_shop_discount():
+    line = format_line(Verdict(deal(), [SignalHit(Signal.DEAL, base=100_000)]))
+    assert line.startswith("🏷 <b>−25%</b>")
+    assert "<s>100 000 ₸</s>" in line
 
 
 def test_current_deals_for_sample(conn):

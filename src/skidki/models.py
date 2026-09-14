@@ -25,6 +25,7 @@ class Product:
     old_price: int | None = None
     in_stock: bool = True
     stock_note: str | None = None
+    group: str | None = None  # ключ группы уведомлений (config.GROUPS)
 
     @property
     def identity(self) -> str:

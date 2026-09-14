@@ -14,12 +14,12 @@ from pathlib import Path
 from playwright.async_api import BrowserContext
 
 from .browser import open_context
-from .config import Rules, Settings, Thresholds, load_rules, settings as default_settings
+from .config import OTHER_GROUP, Rules, Settings, Thresholds, load_rules, settings as default_settings
 from .evaluate import Signal, SignalHit, Verdict, evaluate, should_send
 from .models import PartialCrawl, Product
 from .notify import Notifier
 from .parsers import REGISTRY
-from .report import format_breakage, format_card, format_more, format_watchdog, rank
+from .report import DIGEST_BUTTONS, format_breakage, format_digest, format_watchdog, rank
 from .storage import (
     Queued,
     compact,
@@ -30,6 +30,7 @@ from .storage import (
     last_crawl_ok,
     last_successful_crawl,
     mark_alerts_delivered,
+    muted_groups,
     now,
     previous_item_count,
     prune,
@@ -126,24 +127,30 @@ def run_once(
     confirms = getattr(notifier, "confirms_delivery", False)
     with connect(db_path) as conn:
         since = now() - timedelta(hours=config.thresholds.queue_hours)
-        queued = [_load_verdict(item) for item in take_queue(conn, since)]
+        muted = muted_groups(conn)
+        queued = [
+            verdict
+            for verdict in (_load_verdict(item) for item in take_queue(conn, since))
+            # Выключенные группы ждут в очереди (до суток): включил — увидел.
+            if (verdict.product.group or OTHER_GROUP) not in muted
+        ]
         conn.commit()
         shown, rest = rank(queued, config.thresholds.max_alerts)
-        log.info("в очереди: %d, показано: %d, осталось: %d", len(queued), len(shown), rest)
-        for verdict in shown:
-            text, buttons = format_card(verdict)
-            notifier.send(text, buttons)
+        log.info(
+            "в очереди: %d, показано: %d, осталось: %d, выключены группы: %s",
+            len(queued), len(shown), rest, ", ".join(sorted(muted)) or "—",
+        )
+        if shown:
+            notifier.send(format_digest(shown, rest), DIGEST_BUTTONS)
             if confirms:
-                # Доставка фиксируется сразу: сбой Telegram на пятой карточке
-                # не должен переотправить первые четыре. Консоль (dry-run)
-                # очередь не расходует.
-                identity = verdict.product.identity
-                record_alert(conn, identity, _primary(verdict).value, verdict.product.price)
-                mark_alerts_delivered(conn, [identity])
-                dequeue(conn, identity)
-                conn.commit()
-        if rest:
-            notifier.send(format_more(rest))
+                # Сводка — одна отправка: доставлена — её находки сняты с
+                # очереди; упала — все остаются до следующего обхода. Консоль
+                # (dry-run) очередь не расходует.
+                for verdict in shown:
+                    identity = verdict.product.identity
+                    record_alert(conn, identity, _primary(verdict).value, verdict.product.price)
+                    dequeue(conn, identity)
+                mark_alerts_delivered(conn, [verdict.product.identity for verdict in shown])
     return len(findings)
 
 
@@ -175,7 +182,7 @@ def _load_verdict(item: Queued) -> Verdict:
 
 def send_sample(
     notifier: Notifier,
-    per_shop: int = 2,
+    per_shop: int = 4,
     config: Settings | None = None,
     db_path: Path | None = None,
 ) -> int:
@@ -202,13 +209,11 @@ def send_sample(
     if not products:
         notifier.send("🧪 В базе пока нет скидок для примера — дождитесь первого обхода.")
         return 0
+    verdicts = [Verdict(product, [SignalHit(Signal.DEAL, base=product.old_price)]) for product in products]
     notifier.send(
-        f"🧪 <b>Пример оформления</b>: самые глубокие скидки из базы ({len(products)} шт.).\n"
-        "Это не находки — настоящие уведомления приходят только о новых скидках."
+        format_digest(verdicts, title="🧪 Пример сводки — самые глубокие скидки из базы, не находки"),
+        DIGEST_BUTTONS,
     )
-    for product in products:
-        text, buttons = format_card(Verdict(product, [SignalHit(Signal.DEAL, base=product.old_price)]))
-        notifier.send(text, buttons)
     return len(products)
 
 

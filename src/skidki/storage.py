@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS products (
     brand       TEXT,
     category    TEXT,
     url         TEXT NOT NULL,
+    grp         TEXT,
     first_seen  TEXT NOT NULL,
     last_seen   TEXT NOT NULL
 );
@@ -62,6 +63,11 @@ CREATE TABLE IF NOT EXISTS queue (
     found_at  TEXT    NOT NULL,
     price     INTEGER NOT NULL,
     signals   TEXT    NOT NULL
+);
+
+-- Группы уведомлений, выключенные владельцем (кнопки /groups).
+CREATE TABLE IF NOT EXISTS muted (
+    grp  TEXT PRIMARY KEY
 );
 
 -- Итоги обходов: нужны, чтобы заметить молча сломавшийся парсер.
@@ -104,14 +110,23 @@ class Span:
     old_price: int | None = None
 
 
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Разовые миграции существующих баз."""
+    columns = {row[1] for row in conn.execute("PRAGMA table_info(products)")}
+    if "grp" not in columns:
+        conn.execute("ALTER TABLE products ADD COLUMN grp TEXT")
+
+
 @contextmanager
 def connect(path: Path | None = None) -> Iterator[sqlite3.Connection]:
     target = path or DB_PATH
     target.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(target)
+    # timeout: слушатель бота пишет в базу, пока обход держит транзакцию.
+    conn = sqlite3.connect(target, timeout=30)
     conn.row_factory = sqlite3.Row
     try:
         conn.executescript(SCHEMA)
+        _migrate(conn)
         yield conn
         conn.commit()
     finally:
@@ -127,15 +142,16 @@ def save_products(
     count = 0
     for product in products:
         conn.execute(
-            """INSERT INTO products (identity, shop, title, brand, category, url,
+            """INSERT INTO products (identity, shop, title, brand, category, url, grp,
                                      first_seen, last_seen)
-               VALUES (?,?,?,?,?,?,?,?)
+               VALUES (?,?,?,?,?,?,?,?,?)
                ON CONFLICT(identity) DO UPDATE SET
                    title = excluded.title, brand = excluded.brand,
                    category = excluded.category, url = excluded.url,
+                   grp = COALESCE(excluded.grp, products.grp),
                    last_seen = excluded.last_seen""",
             (product.identity, product.shop, product.title, product.brand,
-             product.category, product.url, stamp, stamp),
+             product.category, product.url, product.group, stamp, stamp),
         )
         last = conn.execute(
             """SELECT id, last_seen, price, in_stock FROM spans WHERE identity = ?
@@ -201,7 +217,7 @@ def current_deals(
 ) -> list[Product]:
     """Самые глубокие скидки магазина по последнему наблюдению каждой позиции."""
     rows = conn.execute(
-        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url,
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp,
                   s.price, s.old_price, s.in_stock, s.stock_note
            FROM products p
            JOIN spans s ON s.id = (
@@ -230,6 +246,7 @@ def _product(row: sqlite3.Row) -> Product:
         old_price=row["old_price"],
         in_stock=bool(row["in_stock"]),
         stock_note=row["stock_note"],
+        group=row["grp"],
     )
 
 
@@ -305,7 +322,7 @@ def take_queue(conn: sqlite3.Connection, since: datetime) -> list[Queued]:
     conn.execute("DELETE FROM queue WHERE found_at < ?", (_iso(since),))
     rows = conn.execute(
         """SELECT q.identity, q.price AS queued_price, q.signals, q.found_at,
-                  p.shop, p.title, p.brand, p.category, p.url,
+                  p.shop, p.title, p.brand, p.category, p.url, p.grp,
                   s.price, s.old_price, s.in_stock, s.stock_note
            FROM queue q
            JOIN products p ON p.identity = q.identity
@@ -320,6 +337,23 @@ def take_queue(conn: sqlite3.Connection, since: datetime) -> list[Queued]:
             continue
         alive.append(Queued(_product(row), row["signals"], _dt(row["found_at"])))
     return alive
+
+
+def queue_size(conn: sqlite3.Connection) -> int:
+    return conn.execute("SELECT COUNT(*) FROM queue").fetchone()[0]
+
+
+def muted_groups(conn: sqlite3.Connection) -> set[str]:
+    return {row["grp"] for row in conn.execute("SELECT grp FROM muted")}
+
+
+def toggle_group(conn: sqlite3.Connection, grp: str) -> bool:
+    """Переключает группу уведомлений; True — теперь выключена."""
+    if conn.execute("SELECT 1 FROM muted WHERE grp = ?", (grp,)).fetchone():
+        conn.execute("DELETE FROM muted WHERE grp = ?", (grp,))
+        return False
+    conn.execute("INSERT INTO muted (grp) VALUES (?)", (grp,))
+    return True
 
 
 def record_crawl(

@@ -44,6 +44,22 @@ def split_message(text: str, limit: int = TELEGRAM_MAX_CHARS) -> list[str]:
     return chunks
 
 
+def inline_keyboard(buttons: list[list[tuple[str, str]]]) -> dict:
+    """Разметка inline-кнопок. Цель с http — ссылка; иначе — callback для
+    слушателя бота (skidki bot), например «groups» или «toggle:phones»."""
+    return {
+        "inline_keyboard": [
+            [
+                {"text": label, "url": target}
+                if target.startswith("http")
+                else {"text": label, "callback_data": target}
+                for label, target in row
+            ]
+            for row in buttons
+        ]
+    }
+
+
 class Notifier(Protocol):
     """Канал доставки уведомлений.
 
@@ -93,12 +109,7 @@ class TelegramNotifier:
             # Кнопки имеет смысл вешать только на последний кусок: текст мог
             # разрезаться, а ссылка относится к находке в его конце.
             if buttons and index == len(chunks) - 1:
-                payload["reply_markup"] = {
-                    "inline_keyboard": [
-                        [{"text": label, "url": url} for label, url in row]
-                        for row in buttons
-                    ]
-                }
+                payload["reply_markup"] = inline_keyboard(buttons)
             self._post(payload)
 
     def _post(self, payload: dict) -> None:

@@ -1,4 +1,4 @@
-"""Точка входа: skidki crawl | watchdog."""
+"""Точка входа: skidki crawl | watchdog | sample | bot."""
 
 from __future__ import annotations
 
@@ -40,10 +40,11 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "command",
-        choices=("crawl", "watchdog", "sample"),
+        choices=("crawl", "watchdog", "sample", "bot"),
         help=(
             "crawl — обход и уведомления; watchdog — тревога, если обходы перестали приходить; "
-            "sample — пример оформления на текущих скидках из базы"
+            "sample — пример сводки на текущих скидках из базы; "
+            "bot — слушатель кнопок и команд Telegram (группы уведомлений)"
         ),
     )
     parser.add_argument("--shop", action="append", choices=sorted(REGISTRY), help="только эти магазины")
@@ -59,6 +60,16 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     _configure_logging(args.verbose)
+
+    if args.command == "bot":
+        if not (settings.telegram_token and settings.telegram_chat_id):
+            print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID не заданы — слушать нечего", file=sys.stderr)
+            return 1
+        from .bot import run
+
+        run(settings.telegram_token, settings.telegram_chat_id)
+        return 0
+
     notifier = _build_notifier(args.console)
 
     if args.command == "sample":

@@ -5,8 +5,9 @@ import pytest
 from conftest import T0, product, seed
 
 from skidki import crawler, storage
-from skidki.config import Rules, Thresholds
+from skidki.config import Rules, Settings, Thresholds
 from skidki.models import PartialCrawl
+from skidki.report import DIGEST_BUTTONS
 
 TH = Thresholds()
 
@@ -71,14 +72,15 @@ def test_run_once_resends_after_telegram_failure(tmp_path, monkeypatch):
     delivered = FakeNotifier()
     assert crawler.run_once(delivered, shops=["mechta"], db_path=db) == 1
     assert len(delivered.sent) == 1 and "90 000 ₸" in delivered.sent[0]
-    assert delivered.buttons[0] == [[("🛒 Открыть в Мечте", "https://www.mechta.kz/product/1/")]]
+    assert 'href="https://www.mechta.kz/product/1/"' in delivered.sent[0]
+    assert delivered.buttons[0] == DIGEST_BUTTONS
 
     repeat = FakeNotifier()
     crawler.run_once(repeat, shops=["mechta"], db_path=db)
     assert repeat.sent == []
 
 
-def test_cards_beyond_limit_get_a_summary(tmp_path, monkeypatch):
+def test_digest_beyond_limit_mentions_rest(tmp_path, monkeypatch):
     db = tmp_path / "db.sqlite3"
     items = [product(75_000 - i * 1_000, sku=str(i), old_price=100_000) for i in range(10)]
     with storage.connect(db) as conn:
@@ -92,10 +94,10 @@ def test_cards_beyond_limit_get_a_summary(tmp_path, monkeypatch):
     monkeypatch.setattr(crawler, "collect", fake_collect)
     monkeypatch.setattr(crawler, "load_rules", lambda: Rules())
     notifier = FakeNotifier()
-    assert crawler.run_once(notifier, shops=["mechta"], db_path=db) == 10
-    assert len(notifier.sent) == 9  # 8 карточек + «и ещё 2 находки»
-    assert "ещё 2 находки" in notifier.sent[-1]
-    assert all(b for b in notifier.buttons[:8])
+    config = Settings(thresholds=Thresholds(max_alerts=8))
+    assert crawler.run_once(notifier, shops=["mechta"], config=config, db_path=db) == 10
+    assert len(notifier.sent) == 1  # одна сводка вместо отдельных карточек
+    assert notifier.sent[0].count('href="') == 8 and "ещё 2 находки" in notifier.sent[0]
 
 
 def test_sample_sends_cards_from_db(tmp_path, monkeypatch):
@@ -105,8 +107,8 @@ def test_sample_sends_cards_from_db(tmp_path, monkeypatch):
     monkeypatch.setattr(crawler, "load_rules", lambda: Rules())
     notifier = FakeNotifier()
     assert crawler.send_sample(notifier, db_path=db) == 1
-    assert "Пример оформления" in notifier.sent[0]
-    assert notifier.sent[1].startswith("🏷 <b>Скидка −40%</b>")
+    assert len(notifier.sent) == 1 and "Пример сводки" in notifier.sent[0]
+    assert "🏷 <b>−40%</b>" in notifier.sent[0]
 
 
 def test_fetch_shop_keeps_partial_products(monkeypatch):

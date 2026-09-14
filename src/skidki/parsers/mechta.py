@@ -16,7 +16,7 @@ import uuid
 from typing import TYPE_CHECKING
 from urllib.parse import urlencode
 
-from ..config import MECHTA_SECTIONS
+from ..config import MECHTA_GROUPS, MECHTA_SECTIONS
 from ..models import PartialCrawl, Product, new_products
 
 if TYPE_CHECKING:
@@ -62,7 +62,7 @@ def _stock_note(item: dict) -> str | None:
     return None
 
 
-def parse(data: dict) -> list[Product]:
+def parse(data: dict, group: str | None = None) -> list[Product]:
     products: list[Product] = []
     for item in data.get("products") or []:
         prices = item.get("prices") or {}
@@ -85,6 +85,7 @@ def parse(data: dict) -> list[Product]:
             old_price=int(base) if base and base > price else None,
             in_stock=item.get("availability") == "available",
             stock_note=_stock_note(item),
+            group=group,
         ))
     return products
 
@@ -127,7 +128,7 @@ async def fetch(context: BrowserContext, config: Settings) -> list[Product]:
                 while number <= min(pages, MAX_PAGES):
                     data = await _get(page, api_url(slug, number), device_id)
                     pages = total_pages(data)
-                    products.extend(new_products(parse(data), seen))
+                    products.extend(new_products(parse(data, MECHTA_GROUPS.get(slug)), seen))
                     number += 1
                     await asyncio.sleep(REQUEST_PAUSE_S)
             except Exception as exc:  # noqa: BLE001 — раздел не должен ронять весь магазин

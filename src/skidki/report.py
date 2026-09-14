@@ -1,21 +1,25 @@
 """Форматирование сообщений Telegram (HTML).
 
-Одна находка — одна карточка: заголовок с процентом, название, цена со
-старой ценой и экономией, основание сигнала, категория, кнопка на товар.
-Владелец читает с телефона: карточка не длиннее 10 строк. Все названия и
-ссылки — через html.escape (урок gpu-deals).
+Одна сводка на обход (решение владельца 2026-09-14 — вместо отдельных
+карточек): находки по группам, у каждой — процент, цена со старой ценой и
+ссылка на товар. Группы включаются и выключаются кнопками (/groups, слушатель
+skidki bot). Все названия и ссылки — через html.escape (урок gpu-deals).
 """
 
 from __future__ import annotations
 
 import html
+from datetime import datetime
 
+from .config import GROUPS, OTHER_GROUP, OTHER_LABEL
 from .evaluate import Signal, Verdict
 
 SHOP_LABELS = {"mechta": "Мечта", "evrika": "Эврика"}
-SHOP_BUTTONS = {"mechta": "🛒 Открыть в Мечте", "evrika": "🛒 Открыть в Эврике"}
 
 Buttons = list[list[tuple[str, str]]]
+
+# Кнопка под сводкой: callback «groups» обрабатывает слушатель (skidki bot).
+DIGEST_BUTTONS: Buttons = [[("⚙️ Группы уведомлений", "groups")]]
 
 
 def tenge(value: int) -> str:
@@ -34,7 +38,7 @@ def _pct(base: int, price: int) -> int:
     return round((base - price) / base * 100)
 
 
-def short_title(title: str, limit: int = 120) -> str:
+def short_title(title: str, limit: int = 70) -> str:
     return title if len(title) <= limit else title[: limit - 1].rstrip() + "…"
 
 
@@ -44,70 +48,119 @@ def _rank_key(verdict: Verdict) -> tuple[bool, float]:
 
 
 def rank(verdicts: list[Verdict], limit: int) -> tuple[list[Verdict], int]:
-    """Что показать в этом обходе и сколько осталось на следующие."""
+    """Что показать в этой сводке и сколько осталось на следующие."""
     ordered = sorted(verdicts, key=_rank_key)
     return ordered[:limit], max(len(ordered) - limit, 0)
 
 
+def group_label(key: str | None) -> str:
+    return GROUPS.get(key or "", OTHER_LABEL)
+
+
+def _group_key(verdict: Verdict) -> str:
+    key = verdict.product.group
+    return key if key in GROUPS else OTHER_GROUP
+
+
 def _headline(verdict: Verdict) -> str:
-    product = verdict.product
+    price = verdict.product.price
     target = verdict.hit(Signal.TARGET)
     deal = verdict.hit(Signal.DEAL)
     drop = verdict.hit(Signal.DROP)
     low = verdict.hit(Signal.LOW)
     if target and target.target:
-        head = f"🎯 <b>Цель достигнута: ≤ {tenge(target.target)}</b>"
-    elif deal and deal.base:
-        head = f"🏷 <b>Скидка −{_pct(deal.base, product.price)}%</b>"
-    elif drop and drop.base:
-        head = f"📉 <b>Цена упала на {_pct(drop.base, product.price)}%</b>"
-    elif low and low.base:
-        head = f"📉 <b>Минимум за 30 дней: −{_pct(low.base, product.price)}%</b>"
-    else:
-        head = "🔔 <b>Находка</b>"
-    return f"{head} · {SHOP_LABELS.get(product.shop, product.shop)}"
+        return f"🎯 <b>цель ≤ {tenge(target.target)}</b>"
+    if deal and deal.base:
+        return f"🏷 <b>−{_pct(deal.base, price)}%</b>"
+    if drop and drop.base:
+        return f"📉 <b>−{_pct(drop.base, price)}%</b>"
+    if low and low.base:
+        return f"📉 <b>−{_pct(low.base, price)}%</b>"
+    return "🔔"
 
 
-def format_card(verdict: Verdict) -> tuple[str, Buttons]:
-    """Карточка находки и кнопка со ссылкой на товар."""
+def format_line(verdict: Verdict) -> str:
+    """Две строки на находку: процент и товар со ссылкой — цена и магазин."""
     product = verdict.product
-    lines = [_headline(verdict), "", f"<b>{html.escape(short_title(product.title))}</b>"]
+    title = html.escape(short_title(product.title))
+    url = html.escape(product.url, quote=True)
+    first = f'{_headline(verdict)} <a href="{url}">{title}</a>'
 
-    price = f"💰 <b>{tenge(product.price)}</b>"
+    parts = [f"<b>{tenge(product.price)}</b>"]
     if product.old_price and product.old_price > product.price:
-        price += f"  <s>{tenge(product.old_price)}</s>  −{tenge(product.old_price - product.price)}"
-    lines.append(price)
-
+        parts.append(f"<s>{tenge(product.old_price)}</s>")
     drop = verdict.hit(Signal.DROP)
     if drop and drop.base:
-        # Честная глубина: медиана считается по тому, что уже накоплено (≤ 14 дней).
-        days = max(1, min(round(drop.days or 14), 14))
-        lines.append(
-            f"📊 Обычно {tenge(drop.base)} (медиана за {days} дн) → −{_pct(drop.base, product.price)}%"
-        )
+        parts.append(f"обычно {tenge(drop.base)}")
     low = verdict.hit(Signal.LOW)
-    if low and low.base:
-        lines.append(
-            f"📉 Ниже минимума за 30 дней ({tenge(low.base)}) на {_pct(low.base, product.price)}%"
-        )
+    if low and low.base and not drop:
+        parts.append(f"мин. за 30 дн был {tenge(low.base)}")
     if verdict.has(Signal.RESTOCK):
-        lines.append("✅ Снова в наличии")
-
-    meta = " · ".join(part for part in (product.category, product.brand) if part)
-    if meta:
-        lines.append(f"📂 {html.escape(meta)}")
+        parts.append("снова в наличии")
+    parts.append(SHOP_LABELS.get(product.shop, product.shop))
     if product.stock_note:
-        lines.append(f"⚠️ {html.escape(product.stock_note.capitalize())}")
-
-    label = SHOP_BUTTONS.get(product.shop, "🛒 Открыть товар")
-    return "\n".join(lines), [[(label, product.url)]]
+        parts.append(f"⚠️ {html.escape(product.stock_note)}")
+    return f"{first}\n└ {' · '.join(parts)}"
 
 
 def format_more(rest: int) -> str:
     return (
         f"ℹ️ И ещё {rest} {_plural(rest, 'находка', 'находки', 'находок')} — "
-        "покажу следующими обходами."
+        "покажу в следующей сводке."
     )
+
+
+def format_digest(verdicts: list[Verdict], rest: int = 0, title: str = "🔥 Новые скидки") -> str:
+    """Сводка обхода: находки по группам в постоянном порядке, внутри — по глубине.
+
+    Каждая строка самодостаточна (теги открываются и закрываются в ней же):
+    длинную сводку notify режет по строкам, не ломая разметку.
+    """
+    lines = [f"<b>{title}: {len(verdicts)}</b>"]
+    by_group: dict[str, list[Verdict]] = {}
+    for verdict in sorted(verdicts, key=_rank_key):
+        by_group.setdefault(_group_key(verdict), []).append(verdict)
+    for key in [*GROUPS, OTHER_GROUP]:
+        items = by_group.get(key)
+        if not items:
+            continue
+        lines += ["", f"<b>{group_label(key)}</b> · {len(items)}"]
+        lines += [format_line(verdict) for verdict in items]
+    if rest:
+        lines += ["", format_more(rest)]
+    return "\n".join(lines)
+
+
+def format_groups_menu(muted: set[str]) -> tuple[str, Buttons]:
+    """Меню групп: кнопка на группу, ✅ — присылать, 🔕 — не присылать."""
+    off = [label for key, label in GROUPS.items() if key in muted]
+    lines = [
+        "⚙️ <b>Группы уведомлений</b>",
+        "Нажмите на группу, чтобы включить или выключить её в сводках.",
+        "Выключены: " + ", ".join(off) if off else "Сейчас включены все группы.",
+    ]
+    buttons = [
+        [(f"{'🔕' if key in muted else '✅'} {label}", f"toggle:{key}")]
+        for key, label in GROUPS.items()
+    ]
+    return "\n".join(lines), buttons
+
+
+def format_status(
+    crawls: list[tuple[str, datetime | None, int | None]], queued: int, muted: set[str]
+) -> str:
+    lines = ["📊 <b>Состояние</b>"]
+    for shop, when, count in crawls:
+        name = SHOP_LABELS.get(shop, shop)
+        if when is None:
+            lines.append(f"• {name}: успешных обходов ещё не было")
+        else:
+            items = f"{count or 0:,}".replace(",", " ")
+            lines.append(f"• {name}: последний обход {when.astimezone():%d.%m %H:%M}, {items} позиций")
+    lines.append(f"• В очереди: {queued}")
+    if muted:
+        lines.append("• Выключены: " + ", ".join(group_label(key) for key in sorted(muted)))
+    return "\n".join(lines)
 
 
 def format_breakage(shop: str, count: int, previous: int | None, error: str | None) -> str:
@@ -130,5 +183,5 @@ def format_watchdog(stale: list[tuple[str, float | None]], max_age_hours: float)
         name = SHOP_LABELS.get(shop, shop)
         when = "ни одного успешного обхода" if age is None else f"последний успешный {age:.0f} ч назад"
         lines.append(f"• {name}: {when}")
-    lines.append("Тишина в Telegram сейчас не значит «скидок нет». Проверьте Actions → crawl.")
+    lines.append("Тишина в Telegram сейчас не значит «скидок нет». Проверьте ПК и задачу skidki-crawl.")
     return "\n".join(lines)

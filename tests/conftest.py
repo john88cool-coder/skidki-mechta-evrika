@@ -27,6 +27,7 @@ def product(
     title: str = "Смарт-часы Тест",
     category: str = "Смарт-часы",
     old_price: int | None = None,
+    group: str | None = None,
 ) -> Product:
     return Product(
         shop=shop,
@@ -37,6 +38,7 @@ def product(
         category=category,
         old_price=old_price,
         in_stock=in_stock,
+        group=group,
     )
 
 

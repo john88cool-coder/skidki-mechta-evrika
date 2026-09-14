@@ -17,7 +17,7 @@ import re
 import time
 from typing import TYPE_CHECKING
 
-from ..config import EVRIKA_ROOTS
+from ..config import EVRIKA_GROUPS, EVRIKA_ROOTS
 from ..models import PartialCrawl, Product, new_products
 
 if TYPE_CHECKING:
@@ -77,12 +77,30 @@ def leaf_categories(tree: list[dict], roots: set[int]) -> list[tuple[int, str]]:
     ]
 
 
+def category_groups(tree: list[dict], mapping: dict[int, str]) -> dict[int, str]:
+    """Группа уведомлений каждой категории — по ближайшему предку из `mapping`."""
+    by_id = {node["id"]: node for node in tree}
+    groups: dict[int, str] = {}
+    for node in tree:
+        current, visited = node, set()
+        while (
+            current["id"] not in mapping
+            and current.get("parent_id") in by_id
+            and current["id"] not in visited
+        ):
+            visited.add(current["id"])
+            current = by_id[current["parent_id"]]
+        if current["id"] in mapping:
+            groups[node["id"]] = mapping[current["id"]]
+    return groups
+
+
 def category_url(category_id: int, slug: str, page: int = 1) -> str:
     url = f"{BASE}/catalog/{slug}/c{category_id}"
     return f"{url}?page={page}" if page > 1 else url
 
 
-def parse_products(data: dict) -> tuple[list[Product], int]:
+def parse_products(data: dict, group: str | None = None) -> tuple[list[Product], int]:
     """Товары страницы и номер последней страницы категории."""
     block = _query(data, "products")
     if not block:
@@ -108,6 +126,7 @@ def parse_products(data: dict) -> tuple[list[Product], int]:
             old_price=int(old) if old and old > cost else None,
             in_stock=bool(item.get("availableForPurchase") or item.get("availableForPurchaseFromDc")),
             stock_note="предзаказ" if item.get("is_preorder") else None,
+            group=group,
         ))
     last_page = int((block.get("meta") or {}).get("last_page") or 1)
     return products, last_page
@@ -145,7 +164,9 @@ async def fetch(context: BrowserContext, config: Settings) -> list[Product]:
         data = await _load(page, category_url(root_id, root_slug), config.page_timeout_ms)
     finally:
         await page.close()
-    leaves = leaf_categories(menu_tree(data), {cid for cid, _ in EVRIKA_ROOTS})
+    tree = menu_tree(data)
+    leaves = leaf_categories(tree, {cid for cid, _ in EVRIKA_ROOTS})
+    groups = category_groups(tree, EVRIKA_GROUPS)
     if not leaves:
         raise RuntimeError("дерево категорий пустое — сменилась разметка?")
     log.info("evrika: %d листовых категорий", len(leaves))
@@ -176,7 +197,7 @@ async def fetch(context: BrowserContext, config: Settings) -> list[Product]:
                     except Exception as exc:  # noqa: BLE001 — страница не должна ронять обход
                         failures.append(f"{slug} p{number}: {exc}")
                         continue
-                    items, last_page = parse_products(data)
+                    items, last_page = parse_products(data, groups.get(category_id))
                     products.extend(new_products(items, seen))
                     if number == 1:
                         for extra in range(2, min(last_page, MAX_PAGES) + 1):
