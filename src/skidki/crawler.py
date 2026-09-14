@@ -3,11 +3,12 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import logging
 import sqlite3
 import time
 from collections.abc import Sequence
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from playwright.async_api import BrowserContext
@@ -20,9 +21,12 @@ from .notify import Notifier
 from .parsers import REGISTRY
 from .report import format_breakage, format_card, format_more, format_watchdog, rank
 from .storage import (
+    Queued,
     compact,
     connect,
     current_deals,
+    dequeue,
+    enqueue,
     last_crawl_ok,
     last_successful_crawl,
     mark_alerts_delivered,
@@ -32,6 +36,7 @@ from .storage import (
     record_alert,
     record_crawl,
     save_products,
+    take_queue,
 )
 
 log = logging.getLogger("skidki")
@@ -105,36 +110,67 @@ def run_once(
 
     with connect(db_path) as conn:
         findings, breakages = process(conn, results, rules, config.thresholds)
-        shown, rest = rank(findings, config.thresholds.max_alerts)
-        # Находка фиксируется до отправки (delivered_at = NULL): база
-        # коммитится даже при отказе Telegram, недоставленное уйдёт в следующий раз.
-        for verdict in shown:
-            record_alert(
-                conn, verdict.product.identity, verdict.signals[0].signal.value,
-                verdict.product.price,
-            )
+        # Всё найденное — в очередь ДО отправки: база коммитится даже при
+        # отказе Telegram, а находки сверх лимита доживают до следующих обходов.
+        for verdict in findings:
+            enqueue(conn, verdict.product.identity, verdict.product.price, _dump_signals(verdict))
         removed = prune(conn, config.thresholds.retention_days)
     freed = compact(db_path)
     log.info(
-        "находок: %d (показано %d), тревог: %d, удалено отрезков: %d, освобождено %d КБ",
-        len(findings), len(shown), len(breakages), removed, freed // 1024,
+        "находок: %d, тревог: %d, удалено отрезков: %d, освобождено %d КБ",
+        len(findings), len(breakages), removed, freed // 1024,
     )
 
     for message in breakages:
         notifier.send(message)
     confirms = getattr(notifier, "confirms_delivery", False)
     with connect(db_path) as conn:
+        since = now() - timedelta(hours=config.thresholds.queue_hours)
+        queued = [_load_verdict(item) for item in take_queue(conn, since)]
+        conn.commit()
+        shown, rest = rank(queued, config.thresholds.max_alerts)
+        log.info("в очереди: %d, показано: %d, осталось: %d", len(queued), len(shown), rest)
         for verdict in shown:
             text, buttons = format_card(verdict)
             notifier.send(text, buttons)
             if confirms:
                 # Доставка фиксируется сразу: сбой Telegram на пятой карточке
-                # не должен переотправить первые четыре.
-                mark_alerts_delivered(conn, [verdict.product.identity])
+                # не должен переотправить первые четыре. Консоль (dry-run)
+                # очередь не расходует.
+                identity = verdict.product.identity
+                record_alert(conn, identity, _primary(verdict).value, verdict.product.price)
+                mark_alerts_delivered(conn, [identity])
+                dequeue(conn, identity)
                 conn.commit()
         if rest:
             notifier.send(format_more(rest))
     return len(findings)
+
+
+# Какой сигнал — главный в карточке (заголовок): тот и пишется в alerts.
+_HEADLINE_ORDER = (Signal.TARGET, Signal.DEAL, Signal.DROP, Signal.LOW, Signal.RESTOCK)
+
+
+def _primary(verdict: Verdict) -> Signal:
+    return next(signal for signal in _HEADLINE_ORDER if verdict.has(signal))
+
+
+def _dump_signals(verdict: Verdict) -> str:
+    return json.dumps(
+        [
+            {"signal": hit.signal.value, "base": hit.base, "days": hit.days, "target": hit.target}
+            for hit in verdict.signals
+        ],
+        ensure_ascii=False,
+    )
+
+
+def _load_verdict(item: Queued) -> Verdict:
+    hits = [
+        SignalHit(Signal(raw["signal"]), raw.get("base"), raw.get("days"), raw.get("target"))
+        for raw in json.loads(item.signals)
+    ]
+    return Verdict(item.product, hits)
 
 
 def send_sample(

@@ -52,6 +52,18 @@ CREATE TABLE IF NOT EXISTS alerts (
     delivered_at  TEXT
 );
 
+-- Очередь находок: всё найденное ждёт здесь, пока не уйдёт в Telegram.
+-- Обход показывает до max_alerts самых глубоких, остальное — следующими
+-- обходами. Без очереди находки сверх лимита терялись: в следующем обходе
+-- скидка уже не «новая» (ночь 2026-09-14: 92 находки, доставлено 32).
+-- signals — JSON сигналов вердикта: карточка из очереди не беднее свежей.
+CREATE TABLE IF NOT EXISTS queue (
+    identity  TEXT PRIMARY KEY,
+    found_at  TEXT    NOT NULL,
+    price     INTEGER NOT NULL,
+    signals   TEXT    NOT NULL
+);
+
 -- Итоги обходов: нужны, чтобы заметить молча сломавшийся парсер.
 CREATE TABLE IF NOT EXISTS crawls (
     id          INTEGER PRIMARY KEY,
@@ -190,7 +202,7 @@ def current_deals(
     """Самые глубокие скидки магазина по последнему наблюдению каждой позиции."""
     rows = conn.execute(
         """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url,
-                  s.price, s.old_price, s.stock_note
+                  s.price, s.old_price, s.in_stock, s.stock_note
            FROM products p
            JOIN spans s ON s.id = (
                SELECT id FROM spans WHERE identity = p.identity
@@ -202,21 +214,23 @@ def current_deals(
            LIMIT ?""",
         (min_price, shop, shop, min_pct, max_pct, limit),
     ).fetchall()
-    return [
-        Product(
-            shop=row["shop"],
-            sku=row["identity"].split(":", 1)[1],
-            title=row["title"],
-            price=row["price"],
-            url=row["url"],
-            brand=row["brand"],
-            category=row["category"],
-            old_price=row["old_price"],
-            in_stock=True,
-            stock_note=row["stock_note"],
-        )
-        for row in rows
-    ]
+    return [_product(row) for row in rows]
+
+
+def _product(row: sqlite3.Row) -> Product:
+    """Позиция по строке products + её последнего отрезка."""
+    return Product(
+        shop=row["shop"],
+        sku=row["identity"].split(":", 1)[1],
+        title=row["title"],
+        price=row["price"],
+        url=row["url"],
+        brand=row["brand"],
+        category=row["category"],
+        old_price=row["old_price"],
+        in_stock=bool(row["in_stock"]),
+        stock_note=row["stock_note"],
+    )
 
 
 def last_alert(conn: sqlite3.Connection, identity: str, since: datetime) -> int | None:
@@ -256,6 +270,56 @@ def mark_alerts_delivered(
         "UPDATE alerts SET delivered_at = ? WHERE identity = ? AND delivered_at IS NULL",
         [(stamp, identity) for identity in identities],
     )
+
+
+@dataclass(frozen=True)
+class Queued:
+    product: Product  # текущее состояние позиции, а не на момент находки
+    signals: str
+    found_at: datetime
+
+
+def enqueue(
+    conn: sqlite3.Connection, identity: str, price: int, signals: str, at: datetime | None = None
+) -> None:
+    """Ставит находку в очередь (повторная находка обновляет её)."""
+    conn.execute(
+        """INSERT INTO queue (identity, found_at, price, signals) VALUES (?,?,?,?)
+           ON CONFLICT(identity) DO UPDATE SET found_at = excluded.found_at,
+                                               price = excluded.price,
+                                               signals = excluded.signals""",
+        (identity, _iso(at or now()), price, signals),
+    )
+
+
+def dequeue(conn: sqlite3.Connection, identity: str) -> None:
+    conn.execute("DELETE FROM queue WHERE identity = ?", (identity,))
+
+
+def take_queue(conn: sqlite3.Connection, since: datetime) -> list[Queued]:
+    """Живые находки очереди: не старше `since`, товар в наличии и не подорожал.
+
+    Протухшие и потерявшие силу удаляются: карточка «скидка −30%» на товар,
+    который с тех пор подорожал или кончился, — дезинформация.
+    """
+    conn.execute("DELETE FROM queue WHERE found_at < ?", (_iso(since),))
+    rows = conn.execute(
+        """SELECT q.identity, q.price AS queued_price, q.signals, q.found_at,
+                  p.shop, p.title, p.brand, p.category, p.url,
+                  s.price, s.old_price, s.in_stock, s.stock_note
+           FROM queue q
+           JOIN products p ON p.identity = q.identity
+           JOIN spans s ON s.id = (
+               SELECT id FROM spans WHERE identity = q.identity
+               ORDER BY last_seen DESC, id DESC LIMIT 1)"""
+    ).fetchall()
+    alive: list[Queued] = []
+    for row in rows:
+        if not row["in_stock"] or row["price"] > row["queued_price"]:
+            dequeue(conn, row["identity"])
+            continue
+        alive.append(Queued(_product(row), row["signals"], _dt(row["found_at"])))
+    return alive
 
 
 def record_crawl(
@@ -305,6 +369,7 @@ def prune(conn: sqlite3.Connection, days: int, at: datetime | None = None) -> in
     removed = conn.execute("DELETE FROM spans WHERE last_seen < ?", (since,)).rowcount
     conn.execute("DELETE FROM products WHERE last_seen < ?", (since,))
     conn.execute("DELETE FROM alerts WHERE identity NOT IN (SELECT identity FROM products)")
+    conn.execute("DELETE FROM queue WHERE identity NOT IN (SELECT identity FROM products)")
     conn.execute("DELETE FROM crawls WHERE started_at < ?", (since,))
     return removed
 

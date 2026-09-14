@@ -161,16 +161,20 @@ def evaluate(
     previous = last_span(conn, product.identity)
 
     # «Скидка магазина»: новость — только новая скидка. Товар впервые её
-    # получил, вернулся в продажу со скидкой или подешевел дальше. Скидка,
-    # висящая с прошлого обхода по той же цене, — не новость.
+    # получил, вернулся в продажу со скидкой или подешевел дальше. Сравнение —
+    # не с прошлым обходом, а со всеми скидками за окно тренда: ночью
+    # 2026-09-14 evrika на два часа сняла скидки с ~90 товаров и вернула те же
+    # цены, и сравнение с прошлым обходом выдало бы каждое мигание за новость.
     if _is_deal(price, product.old_price, True, rules, thresholds):
         if previous is None:
             fresh = not cold_start
         else:
-            was_deal = _is_deal(
-                previous.price, previous.old_price, previous.in_stock, rules, thresholds
-            )
-            fresh = not was_deal or price < previous.price
+            recent_deals = [
+                span.price
+                for span in history(conn, product.identity, trend_since)
+                if _is_deal(span.price, span.old_price, span.in_stock, rules, thresholds)
+            ]
+            fresh = not recent_deals or price < min(recent_deals)
         if fresh:
             verdict.signals.append(SignalHit(Signal.DEAL, base=product.old_price))
 
