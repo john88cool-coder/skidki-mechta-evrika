@@ -27,7 +27,7 @@ drop_pct = 7
 # max_price = 60000
 
 # Конкретные товары: подстрока названия и цена, при которой берёте.
-#   shop — необязательно: mechta или evrika.
+#   shop — необязательно: mechta, evrika, shopkz, sulpak, technodom или alser.
 #
 # [[watch]]
 # query = "Galaxy Watch Ultra"
