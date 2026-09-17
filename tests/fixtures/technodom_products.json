@@ -1,0 +1,631 @@
+{
+ "payload": [
+  {
+   "sku": "273887",
+   "title": "Смарт-часы Huawei Watch GT4 (46mm), Brown Leather Strap (Phoinix-B19L)",
+   "price": "49990",
+   "price_usd": "111.61",
+   "old_price": "99990",
+   "discount": "50",
+   "type": "regular",
+   "brand_info": {
+    "title": "HUAWEI",
+    "code": "huawei"
+   },
+   "brand": "HUAWEI",
+   "brand_code": "huawei",
+   "rating": 99,
+   "reviews": 77,
+   "cashback_amount": "2499",
+   "score": 0.0891425447140795,
+   "images": [
+    "smart_chasy_huawei_watch_gt4_46mm_brown_leather_strap_phoinix_b19l_273887_1",
+    "smart_chasy_huawei_watch_gt4_46mm_brown_leather_strap_phoinix_b19l_273887_2",
+    "smart_chasy_huawei_watch_gt4_46mm_brown_leather_strap_phoinix_b19l_273887_3",
+    "smart_chasy_huawei_watch_gt4_46mm_brown_leather_strap_phoinix_b19l_273887_4",
+    "smart_chasy_huawei_watch_gt4_46mm_brown_leather_strap_phoinix_b19l_273887_5",
+    "smart_chasy_huawei_watch_gt4_46mm_brown_leather_strap_phoinix_b19l_273887_6"
+   ],
+   "categories": [
+    "smart-chasy",
+    "gadzhety",
+    "smartfony-i-gadzhety"
+   ],
+   "categories_ru": [
+    "Смарт часы",
+    "Гаджеты",
+    "Смартфоны и гаджеты"
+   ],
+   "categories_kz": null,
+   "stickers": [
+    {
+     "title": "0 - 0 - 24",
+     "id": "",
+     "slug": "installment_024",
+     "text_color": "#ffffff",
+     "background_color": "#f48012",
+     "priority": 4,
+     "image": "",
+     "description": "Рассрочка 0-0-24: 24 месяца без переплат с нашими банками-партнерами. Покупайте сейчас, платите потом!",
+     "created_at": "0001-01-01T00:00:00Z",
+     "updated_at": "0001-01-01T00:00:00Z",
+     "discount_percentage": 0,
+     "emoji_svg": "",
+     "flag": "",
+     "gradient_start_color": "",
+     "gradient_end_color": "",
+     "active": false,
+     "type": "default"
+    }
+   ],
+   "is_new": false,
+   "credit_terms": {
+    "credit_type_label": "loan",
+    "amount": "2385",
+    "month_num": 36
+   },
+   "showcase": true,
+   "is_preorder": false,
+   "only_prepayment": false,
+   "color": {
+    "code": "korichnevyy",
+    "title": "коричневый",
+    "color_type": 0,
+    "hex": "#945F1E"
+   },
+   "uri": "smart-chasy-huawei-watch-gt4-46mm-brown-leather-strap-phoinix-b19l-273887",
+   "short_description": [
+    {
+     "title": "Серия",
+     "code": "cl_smartwatch_main_spec___292",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Huawei Watch GT4",
+       "code": "huawei_watch_gt4"
+      }
+     ]
+    },
+    {
+     "title": "Операционная система",
+     "code": "cl_smartwatch_main_spec___294",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Harmony OS",
+       "code": "harmony_os"
+      }
+     ]
+    },
+    {
+     "title": "Форма корпуса часов",
+     "code": "cl_smartwatch_construction___watch_case",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Круг",
+       "code": "krug"
+      }
+     ]
+    },
+    {
+     "title": "Диагональ, дюйм",
+     "code": "cl_smartwatch_displey___29",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "1.43",
+       "code": "1_43"
+      }
+     ]
+    },
+    {
+     "title": "Материал корпуса",
+     "code": "cl_smartwatch_construction___362",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Нержавеющая сталь",
+       "code": "nerzhaveyushchaya_stal_"
+      }
+     ]
+    },
+    {
+     "title": "Беспроводная зарядка",
+     "code": "cl_smartwatch_supply___wireless_charger",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Да",
+       "code": "yes"
+      }
+     ]
+    },
+    {
+     "title": "Влагозащита",
+     "code": "cl_smartwatch_construction___klass_vodopronesaemosti",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "IP68",
+       "code": "ip68"
+      }
+     ]
+    },
+    {
+     "title": "Бесконтактные оплаты",
+     "code": "cl_smartwatch_funct_payment",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Да",
+       "code": "yes"
+      }
+     ]
+    },
+    {
+     "title": "Вес, гр",
+     "code": "cl_smartwatch_dimensions___84",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "48",
+       "code": "48_0"
+      }
+     ]
+    }
+   ],
+   "delivery_info": {
+    "delivery_min_date": "2026-09-16T17:09:00Z",
+    "delivery_max_date": "2026-09-22T17:09:00Z",
+    "pickup_date": "2026-09-15T17:09:00Z",
+    "has_express_delivery": false,
+    "has_fast_delivery": false,
+    "delivery_time": {
+     "min_days": 0,
+     "max_days": 0
+    }
+   },
+   "unit_measurement": {
+    "code": "",
+    "name": "",
+    "min_step": "0"
+   },
+   "promotions": [],
+   "is_enabled": false,
+   "preorder_use_tradein": false,
+   "default_price": "",
+   "promo_price_id": "",
+   "bonus_category": "A",
+   "has_defectives": false,
+   "serial_number": "",
+   "stocks": {},
+   "tradein_available": false,
+   "is_180_plus": false
+  },
+  {
+   "sku": "281516",
+   "title": "Смарт-часы HONOR CHOICE Watch Black",
+   "price": "14990",
+   "price_usd": "33.47",
+   "old_price": "29990",
+   "discount": "50",
+   "type": "regular",
+   "brand_info": {
+    "title": "Honor",
+    "code": "honor"
+   },
+   "brand": "Honor",
+   "brand_code": "honor",
+   "rating": 99,
+   "reviews": 19,
+   "cashback_amount": "749",
+   "score": 0.039614242827287,
+   "images": [
+    "smart_chasy_honor_choice_watch_black_281516_1",
+    "smart_chasy_honor_choice_watch_black_281516_2",
+    "smart_chasy_honor_choice_watch_black_281516_3",
+    "smart_chasy_honor_choice_watch_black_281516_4"
+   ],
+   "categories": [
+    "smart-chasy",
+    "gadzhety",
+    "smartfony-i-gadzhety"
+   ],
+   "categories_ru": [
+    "Смарт часы",
+    "Гаджеты",
+    "Смартфоны и гаджеты"
+   ],
+   "categories_kz": null,
+   "stickers": [],
+   "is_new": false,
+   "showcase": true,
+   "is_preorder": false,
+   "only_prepayment": false,
+   "color": {
+    "code": "chernyy",
+    "title": "",
+    "color_type": 0,
+    "hex": "#000000"
+   },
+   "uri": "smart-chasy-honor-choice-watch-black-281516",
+   "short_description": [
+    {
+     "title": "Серия",
+     "code": "cl_smartwatch_main_spec___292",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Honor Choice Watch",
+       "code": "honor_choice_watch"
+      }
+     ]
+    },
+    {
+     "title": "Операционная система",
+     "code": "cl_smartwatch_main_spec___294",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Android/iOS",
+       "code": "android_ios"
+      }
+     ]
+    },
+    {
+     "title": "Форма корпуса часов",
+     "code": "cl_smartwatch_construction___watch_case",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Прямоугольник",
+       "code": "pryamougol_nik"
+      }
+     ]
+    },
+    {
+     "title": "Диагональ, дюйм",
+     "code": "cl_smartwatch_displey___29",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "1.95",
+       "code": "1_95"
+      }
+     ]
+    },
+    {
+     "title": "Материал браслета/ремешка",
+     "code": "cl_smartwatch_construction___material_remeshka_bracleta",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Силикон",
+       "code": "silikon"
+      }
+     ]
+    },
+    {
+     "title": "Влагозащита",
+     "code": "cl_smartwatch_construction___klass_vodopronesaemosti",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "5АТМ",
+       "code": "5atm"
+      }
+     ]
+    }
+   ],
+   "delivery_info": {
+    "delivery_min_date": "2026-09-16T17:09:00Z",
+    "delivery_max_date": "2026-09-22T17:09:00Z",
+    "pickup_date": "2026-09-15T17:09:00Z",
+    "has_express_delivery": false,
+    "has_fast_delivery": false,
+    "delivery_time": {
+     "min_days": 0,
+     "max_days": 0
+    }
+   },
+   "unit_measurement": {
+    "code": "",
+    "name": "",
+    "min_step": "0"
+   },
+   "promotions": [],
+   "is_enabled": false,
+   "preorder_use_tradein": false,
+   "default_price": "",
+   "promo_price_id": "",
+   "bonus_category": "A",
+   "has_defectives": false,
+   "serial_number": "",
+   "stocks": {},
+   "tradein_available": false,
+   "is_180_plus": false
+  },
+  {
+   "sku": "284773",
+   "title": "Смарт-часы Apple Watch Series 10 GPS 42mm Rose Gold Aluminium Case with Light Blush Sport Band - S/M",
+   "price": "189990",
+   "price_usd": "424.20",
+   "old_price": "289990",
+   "discount": "34",
+   "type": "regular",
+   "brand_info": {
+    "title": "Apple",
+    "code": "apple"
+   },
+   "brand": "Apple",
+   "brand_code": "apple",
+   "rating": 100,
+   "reviews": 5,
+   "score": 0.0457322860896677,
+   "images": [
+    "smart_chasy_apple_watch_series_10_gps_42mm_rose_gold_aluminium_case_light_blush_sport_band_sm_284773_01",
+    "284773_2",
+    "284773_3"
+   ],
+   "categories": [
+    "smart-chasy",
+    "gadzhety",
+    "smartfony-i-gadzhety"
+   ],
+   "categories_ru": [
+    "Смарт часы",
+    "Гаджеты",
+    "Смартфоны и гаджеты"
+   ],
+   "categories_kz": null,
+   "stickers": [
+    {
+     "title": "0 - 0 - 24",
+     "id": "",
+     "slug": "installment_024",
+     "text_color": "#ffffff",
+     "background_color": "#f48012",
+     "priority": 4,
+     "image": "",
+     "description": "Рассрочка 0-0-24: 24 месяца без переплат с нашими банками-партнерами. Покупайте сейчас, платите потом!",
+     "created_at": "0001-01-01T00:00:00Z",
+     "updated_at": "0001-01-01T00:00:00Z",
+     "discount_percentage": 0,
+     "emoji_svg": "",
+     "flag": "",
+     "gradient_start_color": "",
+     "gradient_end_color": "",
+     "active": false,
+     "type": "default"
+    }
+   ],
+   "is_new": false,
+   "credit_terms": {
+    "credit_type_label": "loan",
+    "amount": "9063",
+    "month_num": 36
+   },
+   "showcase": true,
+   "is_preorder": false,
+   "only_prepayment": false,
+   "color": {
+    "code": "bezhevyy",
+    "title": "бежевый",
+    "color_type": 0,
+    "hex": "#F5F5DC"
+   },
+   "uri": "smart-chasy-apple-watch-series-10-gps-42mm-rose-gold-aluminium-case-with-light-blush-sport-band-s-m-284773",
+   "short_description": [
+    {
+     "title": "Серия",
+     "code": "cl_smartwatch_main_spec___292",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Apple Watch Series 10",
+       "code": "apple_watch_series_10"
+      }
+     ]
+    },
+    {
+     "title": "Операционная система",
+     "code": "cl_smartwatch_main_spec___294",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Watch OS",
+       "code": "watch_os"
+      }
+     ]
+    },
+    {
+     "title": "Форма корпуса часов",
+     "code": "cl_smartwatch_construction___watch_case",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Прямоугольник",
+       "code": "pryamougol_nik"
+      }
+     ]
+    },
+    {
+     "title": "Материал корпуса",
+     "code": "cl_smartwatch_construction___362",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Алюминий",
+       "code": "alyuminiy"
+      }
+     ]
+    },
+    {
+     "title": "Материал браслета/ремешка",
+     "code": "cl_smartwatch_construction___material_remeshka_bracleta",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Силикон",
+       "code": "silikon"
+      }
+     ]
+    },
+    {
+     "title": "Объем встроенной памяти, ГБ",
+     "code": "cl_smartwatch_memory_proc___13",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "64",
+       "code": "64_0"
+      }
+     ]
+    },
+    {
+     "title": "Беспроводная зарядка",
+     "code": "cl_smartwatch_supply___wireless_charger",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Да",
+       "code": "yes"
+      }
+     ]
+    },
+    {
+     "title": "Бесконтактные оплаты",
+     "code": "cl_smartwatch_funct_payment",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "Да",
+       "code": "yes"
+      }
+     ]
+    },
+    {
+     "title": "Вес, гр",
+     "code": "cl_smartwatch_dimensions___84",
+     "is_active": false,
+     "display_type": "",
+     "description": "",
+     "show_description": false,
+     "values": [
+      {
+       "value_ru": "30",
+       "code": "30_0"
+      }
+     ]
+    }
+   ],
+   "delivery_info": {
+    "delivery_min_date": "2026-09-16T17:09:00Z",
+    "delivery_max_date": "2026-09-22T17:09:00Z",
+    "pickup_date": "2026-09-15T17:09:00Z",
+    "has_express_delivery": false,
+    "has_fast_delivery": false,
+    "delivery_time": {
+     "min_days": 0,
+     "max_days": 0
+    }
+   },
+   "unit_measurement": {
+    "code": "",
+    "name": "",
+    "min_step": "0"
+   },
+   "promotions": [],
+   "is_enabled": false,
+   "preorder_use_tradein": false,
+   "default_price": "",
+   "promo_price_id": "",
+   "bonus_category": "A",
+   "has_defectives": false,
+   "serial_number": "",
+   "stocks": {},
+   "tradein_available": false,
+   "is_180_plus": false
+  }
+ ],
+ "meta_data": {
+  "meta_title": "Смарт часы - купить в Алматы, по недорогой цене в Казахстане | интернет магазин Технодом",
+  "meta_description": "Смарт часы (умные часы) ❱❱❱ в ⭐️TECHNODOM⭐️ Для мужчин и женщин【НИЗКАЯ ЦЕНА + Скидки + Акции】 ❱ ⚡️ Бесплатная доставка в Алматы  ✅ Рассрочка до 0-0-24 ✅ Кредит ✈️ Доставка в любую точку Казахстана.",
+  "meta_header": "Смарт часы в Алматы",
+  "seo_text": "<h2>Смарт-часы по лучшей цене в Алматы</h2>\n<p>Смарт-часы — изобретение относительно новое, но они невероятно быстро обрели популярность и, можно сказать, вытеснили классические хронографы. И не удивительно, ведь речь идет о действительно функциональных и удобных гаджетах.</p>\n<p>Сегодня на рынке представлено множество моделей таких часов различных брендов — <a href=\"https://www.technodom.kz/catalog/smartfony-i-gadzhety/gadzhety/smart-chasy/f/brands/apple\">Apple Watch</a>, Samsung, Xiaomi, Garmin. Они отличаются размером, дизайном, ценой и функционалом. Самые распространенные функции:</p>\n<ul>\n<li>шагомер;</li>\n<li>контроль активности;</li>\n<li>прослушка;</li>\n<li>тонометр;</li>\n<li>пульсометр;</li>\n<li>будильник;</li>\n<li>тревожная кнопка.</li>\n</ul>\n<p>Также с помощью таких часов можно принимать звонки, просматривать мессенджеры, не доставая телефон. Этот гаджет не только станет яркой изюминкой образа и подчеркнет высокий статус своего обладателя, но и будет отличным помощником.</p>\n<p>Хотите приобрести недорого умные часы в Алматы или <a href=\"https://www.technodom.kz/catalog/smartfony-i-gadzhety/smartfony-i-telefony/smartfony\">купить смартфон</a>? Мы точно найдем что предложить. Ассортимент нашего интернет-магазина постоянно пополняется новинками, а менеджеры отлично разбираются в товаре, благодаря чему ответят на все вопросы и помогут купить идеальный гаджет.<br /><br />Новинка от Apple - <a href=\"https://www.technodom.kz/catalog/smartfony-i-gadzhety/gadzhety/smart-chasy/f/cl-smartwatch-main-spec-292/apple-watch-series-8\">Apple Watch Series 8</a> предлагает пользователям еще больше возможностей. Обновленный корпус получил 5 стильных расцветок, которые подчеркивают индивидуальность владельца. Экран новинки увеличился на 20% по сравнению с предыдущим поколением, и на 50% по сравнению с Series 3, при этом рамка уменьшилась на 40%. Всегда включенный дисплей Retina теперь светится на 70% ярче. Инженеры компании позаботились и о зарядке: она на 33% быстрее благодаря кабелю USB-C. Для заботы о здоровье своего владельца Apple Watch Series 7 умеют определять уровень кислорода в крови, делать ЭКГ, отслеживать качество сна, физическую активность и даже помогают справиться со стрессом.</p>\n<h2>Как выбрать smart-часы?</h2>\n<p>В первую очередь следует руководствоваться тем, для кого они предназначены. Гаджет для детей должен быть с GPS, так получится отслеживать местоположение ребенка, когда он не дома. А модели с камерой позволят еще и посмотреть обстановку вокруг.</p>\n<p>Эти гаджеты очень разнообразны, и найти можно аксессуары разной стоимости, начиная от бюджетных моделей за 20 долларов и заканчивая элитными Garmin за несколько тысяч условных единиц. Выбор зависит от материального положения, золотой серединой являются Apple и Galaxy Watch, в них идеально сочетаются качество, функциональность и адекватная стоимость.</p>\n<p>Интернет-магазин Технодом предлагает огромный ассортимент гаджетов самых известных брендов по актуальной цене. А благодаря нашей службе доставки заказать качественную технику могут не только жители крупнейшего мегаполиса, но и всего Казахстана.</p>\n\n"
+ },
+ "layout": "",
+ "page": 1,
+ "limit": 24,
+ "total": 99
+}

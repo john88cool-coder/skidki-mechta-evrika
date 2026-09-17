@@ -14,7 +14,14 @@ from datetime import datetime
 from .config import GROUPS, OTHER_GROUP, OTHER_LABEL
 from .evaluate import Signal, Verdict
 
-SHOP_LABELS = {"mechta": "Мечта", "evrika": "Эврика"}
+SHOP_LABELS = {
+    "mechta": "Мечта",
+    "evrika": "Эврика",
+    "shopkz": "Shop.kz",
+    "sulpak": "Сулпак",
+    "technodom": "Технодом",
+    "alser": "Алсер",
+}
 
 Buttons = list[list[tuple[str, str]]]
 

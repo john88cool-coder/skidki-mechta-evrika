@@ -1,0 +1,730 @@
+{
+ "data": {
+  "filters": [
+   {
+    "id": 83,
+    "title": "Бренд",
+    "keyword": "brend",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 1,
+    "options": [
+     {
+      "value": "1088",
+      "title": "Acer",
+      "keyword": "acer",
+      "is_checked": false
+     },
+     {
+      "value": "187",
+      "title": "Asus",
+      "keyword": "asus",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 225,
+    "title": "Конфигурация накопителей",
+    "keyword": "konfiguratsiya-nakopitelei",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 1,
+    "options": [
+     {
+      "value": "329",
+      "title": "SSD",
+      "keyword": "ssd",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 228,
+    "title": "Оптический привод",
+    "keyword": "opticheskii-privod",
+    "data_type": 7,
+    "input": "int",
+    "type": "radio",
+    "sort": 1,
+    "options": [
+     {
+      "value": "0",
+      "title": "Нет",
+      "keyword": "net",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 159,
+    "title": "Процессор",
+    "keyword": "protsessor",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 1,
+    "options": [
+     {
+      "value": "1907",
+      "title": "AMD",
+      "keyword": "amd",
+      "is_checked": false
+     },
+     {
+      "value": "111",
+      "title": "Intel",
+      "keyword": "intel",
+      "is_checked": false
+     },
+     {
+      "value": "113",
+      "title": "Qualcomm",
+      "keyword": "qualcomm",
+      "is_checked": false
+     },
+     {
+      "value": "12487",
+      "title": "Snapdragon",
+      "keyword": "snapdragon",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 194,
+    "title": "Тип устройства / товара",
+    "keyword": "tip-ustroistva-tovara",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 1,
+    "options": [
+     {
+      "value": "207",
+      "title": "Ноутбук",
+      "keyword": "noutbuk",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 208,
+    "title": "Линейка процессора",
+    "keyword": "lineika-protsessora",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 2,
+    "options": [
+     {
+      "value": "9103",
+      "title": "AMD Ryzen 9",
+      "keyword": "amd-ryzen-9",
+      "is_checked": false
+     },
+     {
+      "value": "228",
+      "title": "Intel® Core™ i5",
+      "keyword": "intel-core-i5",
+      "is_checked": false
+     },
+     {
+      "value": "229",
+      "title": "Intel® Core™ i7",
+      "keyword": "intel-core-i7",
+      "is_checked": false
+     },
+     {
+      "value": "17562",
+      "title": "Intel® Core™ Ultra 9",
+      "keyword": "intel-core-ultra-9",
+      "is_checked": false
+     },
+     {
+      "value": "18307",
+      "title": "Ryzen™ AI 5 ",
+      "keyword": "ryzen-ai-5",
+      "is_checked": false
+     },
+     {
+      "value": "17528",
+      "title": "Snapdragon X Plus",
+      "keyword": "snapdragon-x-plus",
+      "is_checked": false
+     },
+     {
+      "value": "18758",
+      "title": "Snapdragon® X X",
+      "keyword": "snapdragon-x-x",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 164,
+    "title": "Оперативная память",
+    "keyword": "obem-operativnoi-pamyati",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 2,
+    "options": [
+     {
+      "value": "129",
+      "title": "16 Гб",
+      "keyword": "16-gb",
+      "is_checked": false
+     },
+     {
+      "value": "130",
+      "title": "32 Гб",
+      "keyword": "32-gb",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 136,
+    "title": "Модель",
+    "keyword": "model",
+    "data_type": 0,
+    "input": "varchar",
+    "type": "checkbox",
+    "sort": 3,
+    "options": [
+     {
+      "value": "Nitro V 15 ANV15-52-511K",
+      "title": "Nitro V 15 ANV15-52-511K",
+      "keyword": "nitro-v-15-anv15-52-511k",
+      "is_checked": false
+     },
+     {
+      "value": "ROG Strix G16",
+      "title": "ROG Strix G16",
+      "keyword": "rog-strix-g16-",
+      "is_checked": false
+     },
+     {
+      "value": "ROG Strix G18",
+      "title": "ROG Strix G18",
+      "keyword": "rog-strix-g18",
+      "is_checked": false
+     },
+     {
+      "value": "Vivobook S 15 S5507QA-MA046W",
+      "title": "Vivobook S 15 S5507QA-MA046W",
+      "keyword": "vivobook-s-15-s5507qa-ma046w",
+      "is_checked": false
+     },
+     {
+      "value": "Zenbook 14 UM3406KA-QD154",
+      "title": "Zenbook 14 UM3406KA-QD154",
+      "keyword": "zenbook-14-um3406ka-qd154",
+      "is_checked": false
+     },
+     {
+      "value": "Zenbook 14 UX3405CA-PP450W",
+      "title": "Zenbook 14 UX3405CA-PP450W",
+      "keyword": "zenbook-14-ux3405ca-pp450w",
+      "is_checked": false
+     },
+     {
+      "value": "Zenbook A14 UX3407QA-QD366W ",
+      "title": "Zenbook A14 UX3407QA-QD366W ",
+      "keyword": "zenbook-a14-ux3407qa-qd366w",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 218,
+    "title": "Модель дискретной видеокарты",
+    "keyword": "model-diskretnoi-videokarty",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 3,
+    "options": [
+     {
+      "value": "18778",
+      "title": "GeForce RTX 5050",
+      "keyword": "geforce-rtx-5050",
+      "is_checked": false
+     },
+     {
+      "value": "18711",
+      "title": "GeForce RTX 5060",
+      "keyword": "geforce-rtx-5060",
+      "is_checked": false
+     },
+     {
+      "value": "18704",
+      "title": "GeForce RTX 5070Ti",
+      "keyword": "geforce-rtx-5070ti",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 2491,
+    "title": "Порты USB 3.2",
+    "keyword": "porty-usb-3-2",
+    "data_type": 0,
+    "input": "varchar",
+    "type": "checkbox",
+    "sort": 3,
+    "options": [
+     {
+      "value": "3",
+      "title": "3",
+      "keyword": "3",
+      "is_checked": false
+     },
+     {
+      "value": "1 x USB 3.2 Gen 2 Type-A (скорость передачи данных до 10 Гбит/с)",
+      "title": "1 x USB 3.2 Gen 2 Type-A (скорость передачи данных до 10 Гбит/с)",
+      "keyword": "1-x-usb-3-2-gen-2-type-a-skorost-peredachi-dannykh-do-10-gbit-s",
+      "is_checked": false
+     },
+     {
+      "value": "1x USB 3.2 Gen 1 Type-A ",
+      "title": "1x USB 3.2 Gen 1 Type-A ",
+      "keyword": "1x-usb-3-2-gen-1-type-a",
+      "is_checked": false
+     },
+     {
+      "value": "2x USB 3.2 Gen 1 Type-A",
+      "title": "2x USB 3.2 Gen 1 Type-A",
+      "keyword": "2x-usb-3-2-gen-1-type-a",
+      "is_checked": false
+     },
+     {
+      "value": " 2x USB 3.2 Gen 2 Type-A (скорость передачи данных до 10 Гбит/с)",
+      "title": " 2x USB 3.2 Gen 2 Type-A (скорость передачи данных до 10 Гбит/с)",
+      "keyword": "2x-usb-3-2-gen-2-type-a-skorost-peredachi-dannykh-do-10-gbit-s-",
+      "is_checked": false
+     },
+     {
+      "value": "4-3-USB 3.2 Gen 1 Type-A; 1- USB 3.2 Gen 2 Type-C",
+      "title": "4-3-USB 3.2 Gen 1 Type-A; 1- USB 3.2 Gen 2 Type-C",
+      "keyword": "4-3-usb-3-2-gen-1-type-a-1-usb-3-2-gen-2-type-c",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 223,
+    "title": "Объем твердотельных накопителей (SSD/eMMC)",
+    "keyword": "obem-tverdotelnykh-nakopitelei-ssd-emmc",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 4,
+    "options": [
+     {
+      "value": "326",
+      "title": "1024 Гб",
+      "keyword": "1024-gb",
+      "is_checked": false
+     },
+     {
+      "value": "325",
+      "title": "512 Гб",
+      "keyword": "512-gb",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 93,
+    "title": "Основной цвет",
+    "keyword": "osnovnoi-tsvet",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 4,
+    "options": [
+     {
+      "value": "500",
+      "title": "Чёрный",
+      "keyword": "chyornyi",
+      "is_checked": false
+     },
+     {
+      "value": "14510",
+      "title": "Gray",
+      "keyword": "gray",
+      "is_checked": false
+     },
+     {
+      "value": "502",
+      "title": "Серебристый",
+      "keyword": "serebristyi",
+      "is_checked": false
+     },
+     {
+      "value": "501",
+      "title": "Серый",
+      "keyword": "seryi",
+      "is_checked": false
+     },
+     {
+      "value": "506",
+      "title": "Синий",
+      "keyword": "sinii",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 158,
+    "title": "Операционная система",
+    "keyword": "operatsionnaya-sistema",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 5,
+    "options": [
+     {
+      "value": "603",
+      "title": "Без Операционной Системы",
+      "keyword": "bez-operatsionnoi-sistemy",
+      "is_checked": false
+     },
+     {
+      "value": "12628",
+      "title": "Windows 11",
+      "keyword": "windows-11",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 220,
+    "title": "Объем видеопамяти",
+    "keyword": "obem-videopamyati",
+    "data_type": 1,
+    "input": "int",
+    "type": "checkbox",
+    "sort": 6,
+    "options": [
+     {
+      "value": "10288",
+      "title": "12 Гб",
+      "keyword": "12-gb",
+      "is_checked": false
+     },
+     {
+      "value": "294",
+      "title": "8 Гб",
+      "keyword": "8-gb",
+      "is_checked": false
+     }
+    ]
+   },
+   {
+    "id": 357,
+    "title": "Частота при максимальном разрешении (Гц)",
+    "keyword": "chastota-pri-maksimalnom-razreshenii-gts",
+    "data_type": 0,
+    "input": "text",
+    "type": "range_slider",
+    "sort": 7,
+    "options": [
+     {
+      "value": "165",
+      "title": "165",
+      "keyword": "165",
+      "is_checked": false
+     },
+     {
+      "value": "240",
+      "title": "240",
+      "keyword": "240",
+      "is_checked": false
+     }
+    ]
+   }
+  ],
+  "prices": {
+   "gte": 529990,
+   "lte": 1239990,
+   "min_price_possible": 529990,
+   "max_price_possible": 1239990,
+   "facet_data": {
+    "prices_range": [
+     {
+      "key": "*-50000.0",
+      "to": 50000,
+      "doc_count": 0
+     },
+     {
+      "key": "50000.0-100000.0",
+      "from": 50000,
+      "to": 100000,
+      "doc_count": 0
+     },
+     {
+      "key": "100000.0-300000.0",
+      "from": 100000,
+      "to": 300000,
+      "doc_count": 0
+     },
+     {
+      "key": "300000.0-900000.0",
+      "from": 300000,
+      "to": 900000,
+      "doc_count": 5
+     },
+     {
+      "key": "900000.0-*",
+      "from": 900000,
+      "doc_count": 2
+     }
+    ],
+    "min_price": 529990,
+    "max_price": 1239990
+   },
+   "current_price_metrics": {
+    "min_price": 529990,
+    "max_price": 1239990
+   }
+  },
+  "promos": [
+   {
+    "id": 4450,
+    "title": "Ноутбуки ASUS - с дополнительной защитой ASUS Perfect Warranty",
+    "sort": 0,
+    "is_available": true,
+    "keyword": "noutbuki-asus-s-dopolnitelnoj-zasitoj-asus-perfect-warranty",
+    "is_checked": false
+   },
+   {
+    "id": 4525,
+    "title": "Kaspi 0-0-24",
+    "sort": 0,
+    "is_available": true,
+    "keyword": "kaspi0024-sentyabr26",
+    "is_checked": false
+   }
+  ],
+  "types": [],
+  "meta": {
+   "h1": " Ноутбуки",
+   "meta_title": "Купите Ноутбуки по цене от 529990 тенге в интернет-магазине Alser ",
+   "meta_description": "Где купить Ноутбуки недорого? ☝ Очевидно, в интернет-магазине ALSER.KZ!  В каталоге более 7 самых популярных моделей! Выгодные и низкие цены: от 529990₸ до 1239990₸. ✅ Скидки ✈️ Доставка по всему Казахстану ✅Рассрочка 0-0-24! ✅ Кредит! Заказывайте ☎ 3003"
+  },
+  "sort": [
+   {
+    "id": "price_asc",
+    "title": "Сначала дешевые",
+    "is_checked": false
+   },
+   {
+    "id": "price_desc",
+    "title": "Сначала дорогие",
+    "is_checked": false
+   },
+   {
+    "id": "popular",
+    "title": "Сначала популярные",
+    "is_checked": true
+   },
+   {
+    "id": "stocks_quantity",
+    "title": "По остаткам",
+    "is_checked": false
+   },
+   {
+    "id": "newest",
+    "title": "Новинки",
+    "is_checked": false
+   },
+   {
+    "id": "fast_delivery",
+    "title": "Быстрая доставка",
+    "is_checked": false
+   }
+  ],
+  "sortingFilterBlocks": {
+   "promos": {
+    "id": 1,
+    "keyword": "promos",
+    "title": "Акции",
+    "sort_order": 0
+   },
+   "types": {
+    "id": 2,
+    "keyword": "types",
+    "title": "Типы предложений",
+    "sort_order": 1
+   },
+   "filters": {
+    "id": 3,
+    "keyword": "filters",
+    "title": "Характеристики",
+    "sort_order": 2
+   },
+   "stickers": {
+    "id": 4,
+    "keyword": "stickers",
+    "title": "Стикеры",
+    "sort_order": 3
+   },
+   "prices": {
+    "id": 5,
+    "keyword": "prices",
+    "title": "Цены",
+    "sort_order": 4
+   }
+  },
+  "products": [
+   {
+    "id": 10108946,
+    "sku": "1459104",
+    "stocks_quantity": 1,
+    "non_showcase": true,
+    "title": "Ноутбук Acer Nitro V 15 ANV15-52-511K 15.6\" FHD IPS 165Hz Intel® Core™ i5-13420H/16GB/SSD 512GB/NVIDIA® GeForce RTX™ 5050/Dos(NH.QZ7ER.001)",
+    "keyword": "noutbuk-acer-nitro-v-15-anv15-52-511k-156-fhd-ips-165hz-intelr-core-i5-13420h16gbssd-512gbnvidiar-geforce-rtx-5050dosnhqz7er001",
+    "popularity": 163,
+    "brand": "Acer",
+    "price": 569990,
+    "price_old": 589990,
+    "loan_conditions": {
+     "bank_id": 7,
+     "price": 23749,
+     "title": "в рассрочку",
+     "loan_id": 7,
+     "bank": "homecreditbank",
+     "logo": "https://cdn.alser.kz/images/banks/homecreditbank.svg",
+     "bank_name": "Home Credit Bank",
+     "month_count": 24
+    },
+    "score": 0,
+    "category_id": 185,
+    "categories_ids": [
+     1326,
+     190,
+     186,
+     185,
+     184,
+     184,
+     184,
+     184
+    ],
+    "link_url": "https://alser.kz/p/noutbuk-acer-nitro-v-15-anv15-52-511k-156-fhd-ips-165hz-intelr-core-i5-13420h16gbssd-512gbnvidiar-geforce-rtx-5050dosnhqz7er001",
+    "image": "https://s3s.alser.kz/uploads/products/igrovye/KmrL0iNrE/noutbuk-acer-nitro-v-15-anv15-52-511k-156-fhd-ips-165hz-intelr-core-i5-13420h16gbssd-512gbnvidiar-geforce-rtx-5050dosnhqz7er001-w160.webp",
+    "stickers": [],
+    "feedbackCount": 6,
+    "rating": 5,
+    "oldPrice": 589990,
+    "credits": {
+     "loansData": [
+      {
+       "bank_id": 7,
+       "price": 23749,
+       "title": "в рассрочку",
+       "loan_id": 7,
+       "bank": "homecreditbank",
+       "logo": "https://cdn.alser.kz/images/banks/homecreditbank.svg",
+       "bank_name": "Home Credit Bank",
+       "month_count": 24
+      }
+     ]
+    }
+   },
+   {
+    "id": 10107869,
+    "sku": "1456784",
+    "stocks_quantity": 1,
+    "non_showcase": true,
+    "title": "Ноутбук Asus ROG Strix G18 G815JMR-S9080 18   WQXGA IPS 240Hz Intel® Core™ i7 14650HX/32Gb/SSD 1Tb/RTX 5060 8Gb/Gray/Dos(90NR0LE1-M00450)",
+    "keyword": "noutbuk-asus-rog-strix-g18-g815jmr-s9080-18-wqxga-ips-240hz-intelr-core-i7-14650hx32gbssd-1tbrtx-5060-8gbgraydos90nr0le1-m00450",
+    "popularity": 0,
+    "brand": "Asus",
+    "price": 1225990,
+    "price_old": 1299990,
+    "loan_conditions": {
+     "bank_id": 7,
+     "price": 51082,
+     "title": "в рассрочку",
+     "loan_id": 7,
+     "bank": "homecreditbank",
+     "logo": "https://cdn.alser.kz/images/banks/homecreditbank.svg",
+     "bank_name": "Home Credit Bank",
+     "month_count": 24
+    },
+    "score": 0,
+    "category_id": 185,
+    "categories_ids": [
+     1326,
+     186,
+     185,
+     184,
+     184,
+     184
+    ],
+    "link_url": "https://alser.kz/p/noutbuk-asus-rog-strix-g18-g815jmr-s9080-18-wqxga-ips-240hz-intelr-core-i7-14650hx32gbssd-1tbrtx-5060-8gbgraydos90nr0le1-m00450",
+    "image": "https://s3s.alser.kz/uploads/products/igrovye/AxrA4F0KND/noutbuk-asus-rog-strix-g18-g815jmr-s9080-18-wqxga-ips-240hz-intelr-core-i7-14650hx32gbssd-1tbrtx-5060-8gbgraydos90nr0le1-m00450-w160.webp",
+    "stickers": [],
+    "feedbackCount": 2,
+    "rating": 5,
+    "oldPrice": 1299990,
+    "credits": {
+     "loansData": [
+      {
+       "bank_id": 7,
+       "price": 51082,
+       "title": "в рассрочку",
+       "loan_id": 7,
+       "bank": "homecreditbank",
+       "logo": "https://cdn.alser.kz/images/banks/homecreditbank.svg",
+       "bank_name": "Home Credit Bank",
+       "month_count": 24
+      }
+     ]
+    }
+   }
+  ],
+  "breadcrumbs": [
+   {
+    "id": 0,
+    "title": "Каталог",
+    "title_kk": "Каталог",
+    "keyword": "",
+    "isLast": false,
+    "url": "/catalog"
+   },
+   {
+    "parent_id": 0,
+    "id": 183,
+    "title": "Ноутбуки и компьютеры",
+    "title_kk": "Ноутбуктер мен компьютерлер",
+    "keyword": "noutbuki-kompyutery-periferiya",
+    "isLast": false,
+    "url": "/catalog/noutbuki-kompyutery-periferiya"
+   },
+   {
+    "parent_id": 183,
+    "id": 184,
+    "title": "Ноутбуки",
+    "title_kk": "Ноутбуктер",
+    "keyword": "noutbuki",
+    "isLast": true,
+    "url": "/c/noutbuki"
+   }
+  ],
+  "pagination": {
+   "page": 1,
+   "perPage": 12,
+   "total": 7,
+   "pageCount": 1,
+   "hasNext": false
+  }
+ },
+ "message": "Фильтры успешно получены",
+ "code": 0
+}

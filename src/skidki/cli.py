@@ -36,7 +36,8 @@ def _configure_logging(verbose: bool) -> None:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        prog="skidki", description="Мониторинг скидок mechta.kz и evrika.com"
+        prog="skidki",
+        description="Мониторинг скидок mechta.kz, evrika.com, shop.kz, sulpak.kz, technodom.kz, alser.kz",
     )
     parser.add_argument(
         "command",
