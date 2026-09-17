@@ -106,6 +106,68 @@ async def evrika_page() -> str:
     return f"{len(items)} товаров, страниц {last_page}"
 
 
+def _cards(html: str) -> int:
+    return html.count("product__item product__item-js") or html.count("data-product='")
+
+
+async def new_shops_httpx() -> str:
+    """shop.kz и sulpak: обычные SSR-запросы, как их делает парсер."""
+    import re
+
+    results = []
+    async with httpx.AsyncClient(
+        timeout=30,
+        headers={"User-Agent": OLD_UA, "Accept-Language": "ru"},
+        follow_redirects=True,
+    ) as client:
+        r = await client.get("https://shop.kz/offers/smartfony/")
+        cards = len(re.findall(r"data-product='([^']+)'", r.text))
+        results.append(f"shop.kz HTTP {r.status_code}, карточек {cards}")
+
+        r = await client.get("https://www.sulpak.kz/f/smartfoniy")
+        results.append(f"sulpak SSR HTTP {r.status_code}, карточек {_cards(r.text)}")
+        r = await client.get(
+            "https://www.sulpak.kz/Filter/LoadProducts?className=smartfoniy"
+            "&selectedPropertiesTokens=~&selectedActionsTokens=~&sort=PopularityDesc"
+            "&listing=default&onPage=22&page=2&price=~",
+            headers={"X-Requested-With": "XMLHttpRequest"},
+        )
+        results.append(f"sulpak AJAX HTTP {r.status_code}")
+    return "; ".join(results)
+
+
+async def technodom_api() -> str:
+    """API technodom требует cookies сайта — как в парсере: страница, затем API."""
+    from skidki.parsers import technodom
+
+    async with open_context() as context:
+        page = await context.new_page()
+        try:
+            await page.goto(technodom.BASE, wait_until="domcontentloaded", timeout=90_000)
+        finally:
+            await page.close()
+        data = await technodom._get(context, technodom.api_url("smart-chasy", 1))
+    return f"товаров {len(data.get('payload') or [])}, total {data.get('total')}"
+
+
+async def alser_api() -> str:
+    """POST get-catalog тоже требует cookies сайта."""
+    from skidki.parsers import alser
+
+    async with open_context() as context:
+        page = await context.new_page()
+        try:
+            await page.goto(alser.BASE, wait_until="domcontentloaded", timeout=90_000)
+        finally:
+            await page.close()
+        data = await alser._post_page(context, "vse-smartfony", 1)
+    payload = data.get("data") or {}
+    return (
+        f"товаров {len(payload.get('products') or [])}, "
+        f"total {(payload.get('pagination') or {}).get('total')}"
+    )
+
+
 async def main() -> None:
     try:
         ip = httpx.get("https://api.ipify.org", timeout=10).text
@@ -119,6 +181,9 @@ async def main() -> None:
         ("mechta старый headless", mechta_old_headless),
         ("mechta httpx", lambda: asyncio.to_thread(mechta_httpx)),
         ("evrika новый headless", evrika_page),
+        ("shop.kz + sulpak httpx", new_shops_httpx),
+        ("technodom API", technodom_api),
+        ("alser API", alser_api),
         ("mechta новый headless повтор", mechta_new_headless),
     )
     for name, variant in variants:
