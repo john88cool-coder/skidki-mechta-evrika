@@ -43,6 +43,9 @@ jobs:
           # Данные (data/*.json) публикует crawl.yml после обхода. Из сборки их
           # убираем: иначе placeholder из static/data затёр бы свежий срез.
           rm -rf build/data
+          # GitHub Pages не умеет SPA-rewrite: /deals без .html отдаёт 404.
+          # Копия SPA-оболочки в 404.html делает все маршруты рабочими.
+          cp build/index.html build/404.html
 
       - name: Публикация
         uses: peaceiris/actions-gh-pages@v4
