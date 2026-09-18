@@ -75,7 +75,11 @@ jobs:
         run: skidki crawl --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser
 
       - name: Экспорт данных для панели
+        # SKIDKI_WEB_DATA: пакет установлен в site-packages, там ROOT не корень
+        # репозитория — путь к web/static/data нужно задавать явно.
         if: success()
+        env:
+          SKIDKI_WEB_DATA: ${{ github.workspace }}/web/static/data
         run: python -m skidki.export
 
       - name: Публикация данных на Pages

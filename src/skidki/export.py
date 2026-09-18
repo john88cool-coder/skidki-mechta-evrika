@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -20,7 +21,9 @@ from .storage import connect, current_deals, last_successful_crawl, previous_ite
 SHOPS = ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser")
 
 # Куда пишется срез: SvelteKit копирует static/ в сборку как есть.
-WEB_DATA = ROOT / "web" / "static" / "data"
+# В CI пакет установлен в site-packages, там ROOT — не репозиторий, поэтому
+# путь можно переопределить переменной SKIDKI_WEB_DATA (задаёт crawl.yml).
+WEB_DATA = Path(os.environ.get("SKIDKI_WEB_DATA") or ROOT / "web" / "static" / "data")
 
 # Порог для топа панели: мягче сигналов владельца (rules.toml — от 20% и
 # 20 000 ₸), иначе панель почти пуста. Скидки ≤ 90% — ошибки цены, отсекаем.
