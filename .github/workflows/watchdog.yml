@@ -3,9 +3,12 @@ name: watchdog
 # Cloudflare закрыл доступ, workflow отключили) — тишина в Telegram неотличима
 # от «скидок нет». Сторож читает базу и сам будит владельца. Дважды в сутки:
 # 06:00 и 18:00 UTC (11:00 и 23:00 по Алматы).
-# Расписание снято 2026-09-13: обход переехал на домашний ПК, кэш Actions
-# больше не обновляется — сторож по расписанию будил бы ложной тревогой.
+# Гибрид 2026-09-18: расписание вернулось — обход пяти магазинов снова в
+# Actions (crawl.yml) и кэш обновляется. mechta сюда не входит: её обход идёт
+# с ноутбука в свою базу, сторож облачной базы о ней не знает.
 on:
+  schedule:
+    - cron: '0 6,18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -41,4 +44,4 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: skidki watchdog --max-age-hours 6
+        run: skidki watchdog --max-age-hours 6 --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser

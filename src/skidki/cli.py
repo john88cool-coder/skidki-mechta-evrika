@@ -74,7 +74,7 @@ def main(argv: list[str] | None = None) -> int:
     notifier = _build_notifier(args.console)
 
     if args.command == "sample":
-        send_sample(notifier)
+        send_sample(notifier, shops=args.shop)
         return 0
 
     if args.command == "watchdog":

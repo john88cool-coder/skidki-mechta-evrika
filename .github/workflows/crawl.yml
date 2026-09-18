@@ -1,13 +1,16 @@
 name: crawl
-# Обход mechta + evrika каждые 2 часа: оценка, Telegram, сохранение базы.
-# База живёт в кэше Actions: обход восстанавливает самую свежую копию (по
-# префиксу ключа) и сохраняет новую под уникальным ключом. Ветку data GitHub
-# отклонил («remote: fatal error in commit_refs», 2026-09-13), а кэшу права
-# на запись в репозиторий не нужны.
-# Расписание снято 2026-09-13: mechta режет IP дата-центров GitHub (RECON,
-# run 34765681139). Обход идёт с домашнего ПК из Планировщика Windows
-# (deploy/install_task.ps1); здесь — только ручной запуск для проверки.
+# Обход пяти магазинов (всё, кроме mechta) каждые 2 часа: оценка, Telegram,
+# сохранение базы. База живёт в кэше Actions: обход восстанавливает самую
+# свежую копию (по префиксу ключа) и сохраняет новую под уникальным ключом.
+# Ветку data GitHub отклонил («remote: fatal error in commit_refs», 2026-09-13),
+# а кэшу права на запись в репозиторий не нужны.
+# Гибрид 2026-09-18: mechta режет IP дата-центров GitHub (RECON, run
+# 34765681139; триал Decodo 2026-09-18 — все 10 дата-центровых IP тоже 403),
+# поэтому mechta обходится с ноутбука (deploy/make_laptop_db.py,
+# INSTALL-LAPTOP.md), остальные пять — здесь по расписанию.
 on:
+  schedule:
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -69,7 +72,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: skidki crawl
+        run: skidki crawl --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser
 
       - name: Сохранить базу
         # Наблюдения и недоставленные алерты переживают отказ Telegram.

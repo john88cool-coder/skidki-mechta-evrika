@@ -37,4 +37,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: skidki sample
+        # Те же пять магазинов, что и в crawl.yml: crawl/sample пишут и читают
+        # одну базу из кэша Actions; mechta обходится с ноутбука в свою базу.
+        run: skidki sample --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser

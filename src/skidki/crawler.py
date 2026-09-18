@@ -185,6 +185,7 @@ def send_sample(
     per_shop: int = 4,
     config: Settings | None = None,
     db_path: Path | None = None,
+    shops: Sequence[str] | None = None,
 ) -> int:
     """Пример оформления: самые глубокие текущие скидки из базы — по магазину.
 
@@ -198,10 +199,12 @@ def send_sample(
     min_price = (
         rules.deal_min_price if rules.deal_min_price is not None else thresholds.deal_min_price
     )
+    # Гибрид 2026-09-18: база ноутбука — только mechta, база Actions — всё,
+    # кроме mechta; пример из облачной базы не должен показывать чужие скидки.
     with connect(db_path) as conn:
         products = [
             product
-            for shop in REGISTRY
+            for shop in shops or REGISTRY
             for product in current_deals(
                 conn, min_pct, min_price, thresholds.deal_max_pct, per_shop, shop
             )
