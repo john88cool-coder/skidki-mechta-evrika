@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write  # для пуша в gh-pages
 
 # Единый writer: всё, что пишет базу, — одна группа (урок gpu-deals).
 concurrency:
@@ -73,6 +73,22 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: skidki crawl --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser
+
+      - name: Экспорт для веб-панели
+        if: success()
+        run: |
+          python -m skidki.export
+          cp -r web/static/data dashboard/
+
+      - name: Деплой веб-панели
+        if: success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
+          destination_dir: .
+          keep_files: false
+          commit_message: "dashboard: обновление $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
       - name: Сохранить базу
         # Наблюдения и недоставленные алерты переживают отказ Telegram.

@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+html {
+  font-feature-settings: 'tnum';
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+/* Анимации */
+.card-hover {
+  @apply transition-all duration-200 hover:scale-[1.02] hover:shadow-lg hover:shadow-amber-500/10;
+}
+
+.pulse-dot {
+  @apply relative flex h-3 w-3;
+}
+
+.pulse-dot::after {
+  content: '';
+  @apply absolute inline-flex h-full w-full animate-ping rounded-full opacity-75;
+}
+
+.pulse-dot.online::after {
+  @apply bg-emerald-400;
+}
+
+.pulse-dot.warning::after {
+  @apply bg-amber-400;
+}
+
+.pulse-dot.offline::after {
+  @apply bg-red-400;
+}
