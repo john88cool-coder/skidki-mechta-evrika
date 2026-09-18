@@ -43,12 +43,32 @@ mechta блокирует IP дата-центров GitHub (Cloudflare «Attent
 `powershell -ExecutionPolicy Bypass -File deploy\install_bot_task.ps1` (`skidki-bot`:
 при входе в Windows, перезапуск после сбоя, лог — `logs\bot.log`).
 
+## Веб-панель
+
+Статическая панель на GitHub Pages: топ-скидки, графики истории цен, статус
+обходов по магазинам, фильтры (магазин, группа, глубина скидки, поиск).
+
+- Адрес: `https://john88cool-coder.github.io/skidki-mechta-evrika/`
+- Фронтенд — `web/` (SvelteKit + Tailwind + ECharts), сборка — workflow
+  `dashboard`, данные — workflow `crawl` (папка `data/` на gh-pages)
+- Срез для панели: `skidki export` (пишет `web/static/data/*.json`)
+
+Локально:
+
+```bash
+cd web
+npm install
+python -m skidki.export   # данные из локальной базы в web/static/data
+npm run dev
+```
+
 ## Workflows
 
 | Workflow | Когда | Что делает |
 |---|---|---|
-| crawl | вручную (расписание снято: mechta режет IP GitHub) | обход, оценка, Telegram, база → кэш Actions |
-| watchdog | вручную | тревога, если обходов нет дольше 6 часов |
+| crawl | каждые 2 часа (в :17) | обход 5 магазинов, Telegram, база → кэш Actions, данные → gh-pages |
+| dashboard | push в `web/**` | сборка панели → gh-pages |
+| watchdog | 06:00 и 18:00 UTC | тревога, если обходов нет дольше 6 часов |
 | tests | push в main | pytest на фикстурах |
 | sample | вручную | пример карточек уведомлений на текущих скидках из базы |
 | probe | вручную | проверка, пускает ли Cloudflare IP раннера |

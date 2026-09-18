@@ -1,4 +1,9 @@
-"""Экспорт данных из SQLite в JSON для веб-панели skidki-dashboard."""
+"""Экспорт данных из SQLite в JSON для веб-панели skidki-dashboard.
+
+Панель статична (GitHub Pages): бэкенда нет, поэтому обход после каждой
+итерации выгружает срез данных в `web/static/data`, а workflow публикует его
+в ветку gh-pages рядом со сборкой фронтенда.
+"""
 
 from __future__ import annotations
 
@@ -7,9 +12,22 @@ import sqlite3
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
-from .config import DB_PATH, GROUPS
+from .config import ROOT
 from .models import Product
 from .storage import connect, current_deals, last_successful_crawl, previous_item_count
+
+# Порядок магазинов — как в REGISTRY: сначала те, что обходятся в облаке.
+SHOPS = ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser")
+
+# Куда пишется срез: SvelteKit копирует static/ в сборку как есть.
+WEB_DATA = ROOT / "web" / "static" / "data"
+
+# Порог для топа панели: мягче сигналов владельца (rules.toml — от 20% и
+# 20 000 ₸), иначе панель почти пуста. Скидки ≤ 90% — ошибки цены, отсекаем.
+DASHBOARD_MIN_PCT = 15
+DASHBOARD_MIN_PRICE = 10_000
+DASHBOARD_MAX_PCT = 90.0
+DASHBOARD_LIMIT = 50
 
 
 def _product_to_dict(p: Product) -> dict:
@@ -41,44 +59,55 @@ def _shop_label(shop: str) -> str:
 
 
 def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
-    """Главный JSON для дашборда: топ-скидки, статус магазинов."""
+    """Главный JSON: топ-скидки по всем магазинам и состояние обходов."""
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Топ скидки по всем магазинам
     deals = []
-    for shop in ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser"):
-        for p in current_deals(conn, min_pct=15, min_price=10000, max_pct=90, limit=20, shop=shop):
-            deals.append({
-                "product": _product_to_dict(p),
+    for shop in SHOPS:
+        products = current_deals(
+            conn,
+            DASHBOARD_MIN_PCT,
+            DASHBOARD_MIN_PRICE,
+            DASHBOARD_MAX_PCT,
+            DASHBOARD_LIMIT,
+            shop,
+        )
+        deals += [
+            {
+                "product": _product_to_dict(product),
                 "signal": "deal",
-                "drop_pct": p.shop_discount_pct,
-            })
+                "drop_pct": product.shop_discount_pct,
+            }
+            for product in products
+        ]
+    deals.sort(key=lambda deal: deal["drop_pct"] or 0, reverse=True)
+    deals = deals[:DASHBOARD_LIMIT]
 
-    # Сортировка по глубине скидки
-    deals.sort(key=lambda d: d["drop_pct"] or 0, reverse=True)
-    deals = deals[:50]  # топ-50
-
-    # Статус магазинов
-    shops = []
+    # Порог «давно не было обхода»: расписание — раз в 2 часа.
     now = datetime.now(UTC)
-    for shop in ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser"):
+    stale_after = timedelta(hours=6)
+
+    shops: list[dict] = []
+    for shop in SHOPS:
         last = last_successful_crawl(conn, shop)
         count = previous_item_count(conn, shop) or 0
-        
+
         if last is None:
             status = "error"
-        elif (now - last).total_seconds() > 6 * 3600:
+        elif now - last > stale_after:
             status = "warning"
         else:
             status = "ok"
 
-        shops.append({
-            "name": shop,
-            "label": _shop_label(shop),
-            "last_crawl": last.isoformat() if last else now.isoformat(),
-            "item_count": count,
-            "status": status,
-        })
+        shops.append(
+            {
+                "name": shop,
+                "label": _shop_label(shop),
+                "last_crawl": last.isoformat() if last else now.isoformat(),
+                "item_count": count,
+                "status": status,
+            }
+        )
 
     # Статистика
     total_products = sum(s["item_count"] for s in shops)
@@ -100,91 +129,64 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def export_history(conn: sqlite3.Connection, out_dir: Path, days: int = 90) -> None:
-    """История цен по товарам (для страницы товара)."""
-    history_dir = out_dir / "history"
-    history_dir.mkdir(parents=True, exist_ok=True)
+def export_history(conn: sqlite3.Connection, out_dir: Path, limit: int = 300) -> None:
+    """История цен одним файлом — только по самым интересным позициям.
 
-    # Получаем все товары с историей
-    cursor = conn.execute("""
-        SELECT DISTINCT identity FROM spans 
-        WHERE last_seen >= datetime('now', ?)
-    """, (f"-{days} days",))
+    Раньше история лежала тысячью мелких JSON (по файлу на товар): ~10 тыс.
+    файлов и ~5,6 МБ на каждые два часа — дорого для git и gh-pages.
+    Поэтому берём `limit` позиций с самой глубокой скидкой и кладём всё в
+    history.json (ключ — identity). Фронтенд грузит файл один раз и кэширует.
+    """
+    deals = []
+    for shop in SHOPS:
+        deals.extend(current_deals(conn, min_pct=15, min_price=10000, max_pct=90, limit=limit, shop=shop))
+    deals.sort(key=lambda p: p.shop_discount_pct or 0, reverse=True)
 
-    for (identity,) in cursor.fetchall():
-        shop, sku = identity.split(":", 1)
-        
-        # История цен
-        spans = conn.execute("""
-            SELECT first_seen, last_seen, price, old_price
-            FROM spans
-            WHERE identity = ? AND in_stock = 1
-            ORDER BY first_seen
-        """, (identity,)).fetchall()
+    history: dict[str, dict] = {}
+    since = (datetime.now(UTC) - timedelta(days=90)).isoformat(timespec="seconds")
 
-        if not spans:
+    for product in deals[:limit]:
+        rows = conn.execute(
+            """SELECT first_seen, price, old_price FROM spans
+               WHERE identity = ? AND in_stock = 1 AND last_seen >= ?
+               ORDER BY first_seen""",
+            (product.identity, since),
+        ).fetchall()
+        if not rows:
             continue
 
-        # Текущие данные товара
-        product_row = conn.execute("""
-            SELECT shop, title, brand, category, url, grp
-            FROM products WHERE identity = ?
-        """, (identity,)).fetchone()
+        step = max(1, len(rows) // 60)  # не больше ~60 точек на график
+        points = [
+            {"date": row[0][:10], "price": row[1], "old_price": row[2]}
+            for row in rows[::step]
+        ]
+        # Последнее наблюдение — обязательно: график должен кончаться текущей ценой.
+        if points and points[-1]["price"] != product.price:
+            points.append({"date": rows[-1][0][:10], "price": product.price, "old_price": None})
 
-        if not product_row:
-            continue
-
-        shop_name, title, brand, category, url, grp = product_row
-
-        # Формируем точки для графика (семплируем если много)
-        points = []
-        for first_seen, last_seen, price, old_price in spans[::max(1, len(spans) // 50)]:
-            points.append({
-                "date": first_seen[:10],
-                "price": price,
-                "old_price": old_price,
-            })
-
-        prices = [p["price"] for p in points]
-        stats = {
-            "min_90d": min(prices) if prices else 0,
-            "median_30d": sorted(prices)[len(prices) // 2] if prices else 0,
-            "days_at_current": 1,  # упрощённо
+        prices = sorted(point["price"] for point in points)
+        history[product.identity] = {
+            "points": points,
+            "min": prices[0],
+            "median": prices[len(prices) // 2],
         }
 
-        product_data = {
-            "product": {
-                "shop": shop_name,
-                "sku": sku,
-                "title": title,
-                "price": prices[-1] if prices else 0,
-                "url": url,
-                "brand": brand,
-                "category": category,
-                "group": grp,
-            },
-            "history": points,
-            "stats": stats,
-        }
-
-        # Сохраняем по пути /history/{shop}/{sku}.json
-        shop_dir = history_dir / shop
-        shop_dir.mkdir(exist_ok=True)
-        with open(shop_dir / f"{sku}.json", "w", encoding="utf-8") as f:
-            json.dump(product_data, f, ensure_ascii=False, indent=2)
+    with open(out_dir / "history.json", "w", encoding="utf-8") as f:
+        json.dump({"updated_at": datetime.now(UTC).isoformat(timespec="seconds"), "history": history}, f, ensure_ascii=False)
 
 
 def export_for_web(db_path: Path | None = None, out_dir: Path | None = None) -> Path:
     """Генерирует все JSON для веб-панели."""
-    out = out_dir or Path("web/static/data")
-    
+    out = out_dir or WEB_DATA
+    out.mkdir(parents=True, exist_ok=True)
+
     with connect(db_path) as conn:
         export_dashboard(conn, out)
         export_history(conn, out)
-    
+
     return out
 
 
 if __name__ == "__main__":
-    export_for_web()
-    print(f"Экспортировано в {Path('web/static/data')}")
+    target = export_for_web()
+    print(f"экспортировано для веб-панели: {target}")

@@ -74,21 +74,20 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: skidki crawl --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser
 
-      - name: Экспорт для веб-панели
+      - name: Экспорт данных для панели
         if: success()
-        run: |
-          python -m skidki.export
-          cp -r web/static/data dashboard/
+        run: python -m skidki.export
 
-      - name: Деплой веб-панели
+      - name: Публикация данных на Pages
+        # keep_files сохраняет сборку фронтенда (её кладёт workflow dashboard).
         if: success()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./web
-          destination_dir: .
-          keep_files: false
-          commit_message: "dashboard: обновление $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          publish_dir: web/static/data
+          destination_dir: data
+          keep_files: true
+          commit_message: "data: срез после обхода ${{ github.run_id }}"
 
       - name: Сохранить базу
         # Наблюдения и недоставленные алерты переживают отказ Telegram.

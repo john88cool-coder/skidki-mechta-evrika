@@ -41,11 +41,12 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "command",
-        choices=("crawl", "watchdog", "sample", "bot"),
+        choices=("crawl", "watchdog", "sample", "bot", "export"),
         help=(
             "crawl — обход и уведомления; watchdog — тревога, если обходы перестали приходить; "
             "sample — пример сводки на текущих скидках из базы; "
-            "bot — слушатель кнопок и команд Telegram (группы уведомлений)"
+            "bot — слушатель кнопок и команд Telegram (группы уведомлений); "
+            "export — JSON-срез для веб-панели на GitHub Pages"
         ),
     )
     parser.add_argument("--shop", action="append", choices=sorted(REGISTRY), help="только эти магазины")
@@ -72,6 +73,13 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     notifier = _build_notifier(args.console)
+
+    if args.command == "export":
+        from .export import export_for_web
+
+        target = export_for_web()
+        logging.info("срез для веб-панели: %s", target)
+        return 0
 
     if args.command == "sample":
         send_sample(notifier, shops=args.shop)

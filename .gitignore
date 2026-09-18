@@ -3,7 +3,8 @@ __pycache__/
 .venv/
 .env
 .pytest_cache/
-# База живёт в ветке data (см. crawl.yml), не в main.
+# База живёт в кэше Actions (см. crawl.yml), не в репозитории.
 data/
 *.egg-info/
 logs/
+screenshots/

@@ -1,0 +1,53 @@
+name: dashboard
+# Сборка и публикация веб-панели на GitHub Pages (ветка gh-pages).
+# Данные (data/*.json) генерирует и обновляет crawl.yml — этот workflow их не
+# трогает: keep_files: true сохраняет папку data/ между сборками фронтенда.
+on:
+  push:
+    paths:
+      - 'web/**'
+      - '.github/workflows/dashboard.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Зависимости
+        working-directory: web
+        run: npm ci --no-audit --no-fund
+
+      - name: Сборка
+        working-directory: web
+        env:
+          # GitHub Pages отдаёт проект по /<repo>/
+          BASE_PATH: /skidki-mechta-evrika
+        run: |
+          npm run build
+          # Данные (data/*.json) публикует crawl.yml после обхода. Из сборки их
+          # убираем: иначе placeholder из static/data затёр бы свежий срез.
+          rm -rf build/data
+
+      - name: Публикация
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: web/build
+          keep_files: true
+          commit_message: "dashboard: сборка ${{ github.sha }}"

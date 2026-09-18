@@ -3,13 +3,13 @@ export interface Product {
 	sku: string;
 	title: string;
 	price: number;
-	old_price?: number;
+	old_price?: number | null;
 	url: string;
-	brand?: string;
-	category?: string;
-	group?: string;
+	brand?: string | null;
+	category?: string | null;
+	group?: string | null;
 	in_stock: boolean;
-	discount_pct?: number;
+	discount_pct?: number | null;
 }
 
 export interface ShopStatus {
@@ -18,14 +18,14 @@ export interface ShopStatus {
 	last_crawl: string;
 	item_count: number;
 	status: 'ok' | 'warning' | 'error';
-	error?: string;
+	error?: string | null;
 }
 
 export interface Deal {
 	product: Product;
 	signal: 'deal' | 'drop' | 'low' | 'target' | 'restock';
-	drop_pct?: number;
-	base_price?: number;
+	drop_pct?: number | null;
+	base_price?: number | null;
 }
 
 export interface DashboardData {
@@ -42,7 +42,7 @@ export interface DashboardData {
 export interface PricePoint {
 	date: string;
 	price: number;
-	old_price?: number;
+	old_price?: number | null;
 }
 
 export interface ProductHistory {
@@ -54,3 +54,4 @@ export interface ProductHistory {
 		days_at_current: number;
 	};
 }
+
