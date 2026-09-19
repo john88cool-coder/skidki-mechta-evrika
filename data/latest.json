@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T23:04:20.930798+00:00",
+  "updated_at": "2026-09-19T05:04:52.445174+00:00",
   "deals": [
     {
       "product": {
@@ -786,23 +786,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1709192",
-        "title": "Триммер для бороды и усов Panasonic ER217S520, Silver-Black (SN:d607b170-850d-4de8-98b9-0638ce8e6ae8)",
-        "price": 16794,
-        "old_price": 37990,
-        "url": "https://shop.kz/offer/trimmer-dlya-borody-i-usov-panasonic-er217s520-silver-black-sn-d607b170-850d-4de8-98b9-0638ce8e6ae8/",
-        "brand": "Panasonic",
-        "category": "Машинки для стрижки, триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 56
-      },
-      "signal": "deal",
-      "drop_pct": 56
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1559811",
         "title": "Ручной пылесос Tefal X-Nano TY1127WO, Black-Green",
         "price": 59990,
@@ -850,28 +833,45 @@
       },
       "signal": "deal",
       "drop_pct": 56
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "295515",
+        "title": "Игровой компьютер TechnoGaming 292(AR7-7800X3D/RTX5070TI 16GB/D5 32GB/SSD 2TB/B850 MLG/MSI PANO 130R MLG)",
+        "price": 1500990,
+        "old_price": 3429990,
+        "url": "https://www.technodom.kz/product/igrovoy-pk-technogaming-292-ar7-7800x3d-rtx5070ti-16gb-d5-32gb-ssd-2tb-b850-mlg-msi-pano-130r-mlg-295515",
+        "brand": "TechnoGaming",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 56
+      },
+      "signal": "deal",
+      "drop_pct": 56
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-18T23:04:20.930798+00:00",
+      "last_crawl": "2026-09-19T05:04:52.445174+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-18T23:04:17+00:00",
-      "item_count": 3766,
+      "last_crawl": "2026-09-19T05:04:50+00:00",
+      "item_count": 3762,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-18T23:04:17+00:00",
-      "item_count": 11656,
+      "last_crawl": "2026-09-19T05:04:50+00:00",
+      "item_count": 12097,
       "status": "ok"
     },
     {
@@ -879,25 +879,25 @@
       "label": "Сулпак",
       "last_crawl": "2026-09-18T19:24:20+00:00",
       "item_count": 3804,
-      "status": "ok"
+      "status": "warning"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-18T23:04:17+00:00",
-      "item_count": 9282,
+      "last_crawl": "2026-09-19T05:04:50+00:00",
+      "item_count": 9280,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-18T23:04:17+00:00",
+      "last_crawl": "2026-09-19T05:04:50+00:00",
       "item_count": 904,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29412,
+    "total_products": 29847,
     "total_deals": 50,
     "avg_discount": 62.9
   }
