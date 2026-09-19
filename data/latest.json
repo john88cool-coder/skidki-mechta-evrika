@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:27:25.578790+00:00",
+  "updated_at": "2026-09-19T16:16:49.790454+00:00",
   "deals": [
     {
       "product": {
@@ -284,23 +284,6 @@
         "brand": "Tefal",
         "category": "Пылесосы",
         "group": "home",
-        "in_stock": true,
-        "discount_pct": 63
-      },
-      "signal": "deal",
-      "drop_pct": 63
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1716299",
-        "title": "Ноутбук Apple MacBook Air A2941 с дисплеем Retina Liquid (MQKP3) (SN:SCT6P6W7D3R)",
-        "price": 299990,
-        "old_price": 799990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2941-s-displeem-retina-liquid-mqkp3-sn-sct6p6w7d3r/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
         "in_stock": true,
         "discount_pct": 63
       },
@@ -850,28 +833,45 @@
       },
       "signal": "deal",
       "drop_pct": 56
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "276530",
+        "title": "Гриль Rondell RDE-1700",
+        "price": 64990,
+        "old_price": 146990,
+        "url": "https://www.technodom.kz/product/gril-rondell-rde-1700-276530",
+        "brand": "Rondell",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 56
+      },
+      "signal": "deal",
+      "drop_pct": 56
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-19T11:27:25.578790+00:00",
+      "last_crawl": "2026-09-19T16:16:49.790454+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-19T11:27:20+00:00",
-      "item_count": 3719,
+      "last_crawl": "2026-09-19T16:16:46+00:00",
+      "item_count": 3761,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-19T11:27:20+00:00",
-      "item_count": 12099,
+      "last_crawl": "2026-09-19T16:16:46+00:00",
+      "item_count": 12105,
       "status": "ok"
     },
     {
@@ -884,21 +884,21 @@
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-19T11:27:20+00:00",
-      "item_count": 9253,
+      "last_crawl": "2026-09-19T16:16:46+00:00",
+      "item_count": 9243,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-19T11:27:20+00:00",
-      "item_count": 907,
+      "last_crawl": "2026-09-19T16:16:46+00:00",
+      "item_count": 922,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29782,
+    "total_products": 29835,
     "total_deals": 50,
-    "avg_discount": 62.6
+    "avg_discount": 62.5
   }
 }
