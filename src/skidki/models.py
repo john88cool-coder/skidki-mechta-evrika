@@ -26,6 +26,7 @@ class Product:
     in_stock: bool = True
     stock_note: str | None = None
     group: str | None = None  # ключ группы уведомлений (config.GROUPS)
+    image: str | None = None  # миниатюра карточки для веб-панели
 
     @property
     def identity(self) -> str:

@@ -62,6 +62,58 @@ def test_mechta_parse(mechta_data):
     assert mechta.total_pages(mechta_data) == mechta_data["meta"]["totalPages"]
 
 
+def test_mechta_image_from_images(mechta_data):
+    """Миниатюра — images[0] с ресайзом CDN (?w=400: 17 КБ вместо 115 КБ)."""
+    products = mechta.parse(mechta_data)
+    with_image = [p for p in products if p.image]
+    assert with_image, "ни у одной позиции фикстуры нет картинки"
+    first = with_image[0]
+    assert first.image.startswith("https://pi.mdev.kz/")
+    assert first.image.endswith("?w=400")
+
+
+def test_evrika_image_from_images(evrika_data):
+    """Миниатюра — первый medium/webp из images (cdn.evrika.com)."""
+    products, _ = evrika.parse_products(evrika_data)
+    with_image = [p for p in products if p.image]
+    assert with_image, "ни у одной позиции фикстуры нет картинки"
+    assert with_image[0].image.startswith("https://cdn.evrika.com/storage/products/images/medium/")
+
+
+def test_technodom_image_built_from_images(technodom_data):
+    """Миниатюра — api.technodom.kz/f3/api/v1/images/<id>.webp (разведка 2026-09-18)."""
+    products = technodom.parse(technodom_data)
+    with_image = [p for p in products if p.image]
+    assert with_image, "ни у одной позиции фикстуры нет картинки"
+    assert with_image[0].image.startswith("https://api.technodom.kz/f3/api/v1/images/")
+    assert with_image[0].image.endswith(".webp")
+
+
+def test_shopkz_image_from_data_product(shopkz_html):
+    """Миниатюра — поле image из JSON data-product (static.shop.kz)."""
+    products = shopkz.parse_cards(shopkz_html, "phones")
+    with_image = [p for p in products if p.image]
+    assert with_image, "ни у одной карточки фикстуры нет картинки"
+    assert with_image[0].image.startswith("https://static.shop.kz/")
+
+
+def test_sulpak_image_from_block(sulpak_html):
+    """Миниатюра — первый webp из srcset/source (object.pscloud.io)."""
+    products = sulpak.parse_blocks(sulpak_html, "phones")
+    with_image = [p for p in products if p.image]
+    assert with_image, "ни у одной карточки фикстуры нет картинки"
+    assert with_image[0].image.startswith("https://object.pscloud.io/")
+    assert with_image[0].image.endswith(".webp")
+
+
+def test_alser_image_from_field(alser_data):
+    """Миниатюра — поле image (s3s.alser.kz, уже -w160.webp)."""
+    products = alser.parse(alser_data, "computers")
+    with_image = [p for p in products if p.image]
+    assert with_image, "ни у одной позиции фикстуры нет картинки"
+    assert with_image[0].image.startswith("https://s3s.alser.kz/")
+
+
 def test_mechta_stock_flags(mechta_data):
     item = dict(mechta_data["products"][0], availability="not_available", lowStock=True)
     [parsed] = mechta.parse({"products": [item]})

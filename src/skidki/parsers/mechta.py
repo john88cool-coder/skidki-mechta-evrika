@@ -74,6 +74,9 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             continue
         base = prices.get("basePrice")
         metrics = item.get("metrics") or {}
+        # CDN mechta (pi.mdev.kz) умеет ресайз: ?w=400 даёт 17 КБ вместо 115 КБ
+        # оригинала — для карточки панели и страницы товара этого достаточно.
+        images = item.get("images") or []
         products.append(Product(
             shop=SHOP,
             sku=str(code),
@@ -86,6 +89,7 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             in_stock=item.get("availability") == "available",
             stock_note=_stock_note(item),
             group=group,
+            image=f"{images[0]}?w=400" if images else None,
         ))
     return products
 

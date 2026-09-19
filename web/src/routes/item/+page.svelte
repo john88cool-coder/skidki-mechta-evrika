@@ -54,41 +54,52 @@
 		История этого товара ещё не собрана — нужен хотя бы один обход.
 	</div>
 {:else}
-	<div class="mb-5">
-		<div class="flex flex-wrap items-center gap-2">
-			<span class="rounded bg-slate-700/60 px-2 py-0.5 text-xs text-slate-300">
-				{shopLabel(history.product.shop)}
-			</span>
-			{#if history.product.brand}
-				<span class="text-xs text-slate-500">{history.product.brand}</span>
-			{/if}
-			{#if history.product.category}
-				<span class="text-xs text-slate-500">· {history.product.category}</span>
-			{/if}
-		</div>
-		<h1 class="mt-2 text-lg font-bold text-slate-100">{history.product.title}</h1>
-		<div class="mt-3 flex flex-wrap items-baseline gap-3">
-			<span class="text-3xl font-black text-amber-400">
-				{formatPrice(history.product.price)}
-			</span>
-			{#if change}
-				<span
-					class="flex items-center gap-1 text-sm font-medium {change.delta < 0
-						? 'text-emerald-400'
-						: 'text-red-400'}"
-				>
-					{#if change.delta < 0}<ArrowDown class="h-4 w-4" />{/if}
-					{formatPrice(Math.abs(change.delta))} ({change.pct.toFixed(1)}%)
+	<div class="mb-5 flex gap-4">
+		{#if history.product.image}
+			<img
+				src={history.product.image}
+				alt={history.product.title}
+				loading="lazy"
+				referrerpolicy="no-referrer"
+				class="h-28 w-28 shrink-0 rounded-xl border border-slate-700/50 bg-slate-900/60 object-cover"
+			/>
+		{/if}
+		<div class="min-w-0 flex-1">
+			<div class="flex flex-wrap items-center gap-2">
+				<span class="rounded bg-slate-700/60 px-2 py-0.5 text-xs text-slate-300">
+					{shopLabel(history.product.shop)}
 				</span>
-			{/if}
-			<a
-				href={history.product.url}
-				target="_blank"
-				rel="noopener"
-				class="flex items-center gap-1 text-sm text-slate-400 hover:text-amber-400"
-			>
-				<ExternalLink class="h-4 w-4" /> В магазине
-			</a>
+				{#if history.product.brand}
+					<span class="text-xs text-slate-500">{history.product.brand}</span>
+				{/if}
+				{#if history.product.category}
+					<span class="text-xs text-slate-500">· {history.product.category}</span>
+				{/if}
+			</div>
+			<h1 class="mt-2 text-lg font-bold text-slate-100">{history.product.title}</h1>
+			<div class="mt-3 flex flex-wrap items-baseline gap-3">
+				<span class="text-3xl font-black text-amber-400">
+					{formatPrice(history.product.price)}
+				</span>
+				{#if change}
+					<span
+						class="flex items-center gap-1 text-sm font-medium {change.delta < 0
+							? 'text-emerald-400'
+							: 'text-red-400'}"
+					>
+						{#if change.delta < 0}<ArrowDown class="h-4 w-4" />{/if}
+						{formatPrice(Math.abs(change.delta))} ({change.pct.toFixed(1)}%)
+					</span>
+				{/if}
+				<a
+					href={history.product.url}
+					target="_blank"
+					rel="noopener"
+					class="flex items-center gap-1 text-sm text-slate-400 hover:text-amber-400"
+				>
+					<ExternalLink class="h-4 w-4" /> В магазине
+				</a>
+			</div>
 		</div>
 	</div>
 

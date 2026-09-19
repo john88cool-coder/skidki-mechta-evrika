@@ -93,6 +93,7 @@ def parse(data: dict, group: str) -> list[Product]:
             # его в каталоге; «только витрина» — прочерк наличия.
             in_stock=bool(stocks is None or stocks > 0) and not item.get("non_showcase"),
             group=group,
+            image=item.get("image") or None,
         ))
     return products
 

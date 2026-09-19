@@ -93,6 +93,7 @@ def parse_cards(html: str, group: str | None = None) -> list[Product]:
             # dimension3: "available" / "not available" — наличие карточки.
             in_stock=data.get("dimension3") != "not available",
             group=group,
+            image=data.get("image") or None,
         ))
     return products
 

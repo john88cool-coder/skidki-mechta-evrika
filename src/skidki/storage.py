@@ -27,6 +27,7 @@ CREATE TABLE IF NOT EXISTS products (
     category    TEXT,
     url         TEXT NOT NULL,
     grp         TEXT,
+    image       TEXT,
     first_seen  TEXT NOT NULL,
     last_seen   TEXT NOT NULL
 );
@@ -115,6 +116,8 @@ def _migrate(conn: sqlite3.Connection) -> None:
     columns = {row[1] for row in conn.execute("PRAGMA table_info(products)")}
     if "grp" not in columns:
         conn.execute("ALTER TABLE products ADD COLUMN grp TEXT")
+    if "image" not in columns:
+        conn.execute("ALTER TABLE products ADD COLUMN image TEXT")
 
 
 @contextmanager
@@ -142,16 +145,17 @@ def save_products(
     count = 0
     for product in products:
         conn.execute(
-            """INSERT INTO products (identity, shop, title, brand, category, url, grp,
+            """INSERT INTO products (identity, shop, title, brand, category, url, grp, image,
                                      first_seen, last_seen)
-               VALUES (?,?,?,?,?,?,?,?,?)
+               VALUES (?,?,?,?,?,?,?,?,?,?)
                ON CONFLICT(identity) DO UPDATE SET
                    title = excluded.title, brand = excluded.brand,
                    category = excluded.category, url = excluded.url,
                    grp = COALESCE(excluded.grp, products.grp),
+                   image = COALESCE(excluded.image, products.image),
                    last_seen = excluded.last_seen""",
             (product.identity, product.shop, product.title, product.brand,
-             product.category, product.url, product.group, stamp, stamp),
+             product.category, product.url, product.group, product.image, stamp, stamp),
         )
         last = conn.execute(
             """SELECT id, last_seen, price, in_stock FROM spans WHERE identity = ?
@@ -217,7 +221,7 @@ def current_deals(
 ) -> list[Product]:
     """Самые глубокие скидки магазина по последнему наблюдению каждой позиции."""
     rows = conn.execute(
-        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp,
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
                   s.price, s.old_price, s.in_stock, s.stock_note
            FROM products p
            JOIN spans s ON s.id = (
@@ -247,6 +251,7 @@ def _product(row: sqlite3.Row) -> Product:
         in_stock=bool(row["in_stock"]),
         stock_note=row["stock_note"],
         group=row["grp"],
+        image=row["image"] if "image" in row.keys() else None,
     )
 
 

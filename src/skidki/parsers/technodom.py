@@ -63,6 +63,7 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             continue
         price = int(price)
         old = item.get("old_price")
+        images = item.get("images") or []
         products.append(Product(
             shop=SHOP,
             sku=str(sku),
@@ -73,6 +74,7 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             category=item.get("categories_ru")[-1] if item.get("categories_ru") else None,
             old_price=int(old) if old and int(old) > price else None,
             group=group,
+            image=f"https://api.technodom.kz/f3/api/v1/images/{images[0]}.webp" if images else None,
         ))
     return products
 

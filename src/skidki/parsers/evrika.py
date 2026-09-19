@@ -127,6 +127,7 @@ def parse_products(data: dict, group: str | None = None) -> tuple[list[Product],
             in_stock=bool(item.get("availableForPurchase") or item.get("availableForPurchaseFromDc")),
             stock_note="предзаказ" if item.get("is_preorder") else None,
             group=group,
+            image=(item.get("images") or [None])[0],
         ))
     last_page = int((block.get("meta") or {}).get("last_page") or 1)
     return products, last_page

@@ -10,6 +10,7 @@ export interface Product {
 	group?: string | null;
 	in_stock: boolean;
 	discount_pct?: number | null;
+	image?: string | null;
 }
 
 export interface ShopStatus {

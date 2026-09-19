@@ -46,6 +46,7 @@ def _product_to_dict(p: Product) -> dict:
         "group": p.group,
         "in_stock": p.in_stock,
         "discount_pct": p.shop_discount_pct,
+        "image": p.image,
     }
 
 

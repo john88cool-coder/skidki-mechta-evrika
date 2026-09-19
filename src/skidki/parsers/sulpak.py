@@ -52,6 +52,8 @@ CARD_HREF = re.compile(r'href="(/g/[a-z0-9-]+)"')
 OLD_PRICE = re.compile(r'product__item-price-old[^>]*>\s*([\d\s]+)\s*₸')
 SHOWCASE = re.compile(r"На витрине")
 OUT_OF_STOCK = re.compile(r"Нет в наличии")
+# Миниатюра карточки: srcset/source с webp, либо img src.
+IMG_SRC = re.compile(r'(?:srcset|src)="(https://object\.pscloud\.io[^"]+?\.webp)"')
 
 log = logging.getLogger(__name__)
 
@@ -68,6 +70,15 @@ def load_products_url(class_name: str, page: int) -> str:
         "price": "~",
     })
     return f"{BASE}/Filter/LoadProducts?{query}"
+
+
+def _image(block: str) -> str | None:
+    """Миниатюра карточки: первый webp из srcset/source, иначе img src."""
+    match = IMG_SRC.search(block)
+    if match:
+        return match.group(1)
+    match = re.search(r'<img[^>]+src="([^"]+)"', block)
+    return match.group(1) if match else None
 
 
 def parse_blocks(html: str, group: str | None = None) -> list[Product]:
@@ -96,6 +107,7 @@ def parse_blocks(html: str, group: str | None = None) -> list[Product]:
             in_stock=not OUT_OF_STOCK.search(block),
             stock_note="на витрине" if SHOWCASE.search(block) else None,
             group=group,
+            image=_image(block),
         ))
     return products
 
