@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T05:04:52.445174+00:00",
+  "updated_at": "2026-09-19T11:27:25.578790+00:00",
   "deals": [
     {
       "product": {
@@ -119,23 +119,6 @@
       },
       "signal": "deal",
       "drop_pct": 70
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "33756",
-        "title": "Монитор 23.8\" Acer Nitro RX241YPbmiiphx (UM.QR1EEP05)",
-        "price": 49990,
-        "old_price": 158990,
-        "url": "https://evrika.com/catalog/monitor-238-acer-nitro-rx241ypbmiiphx-umqr1eep05/p33756",
-        "brand": "Acer",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 69
-      },
-      "signal": "deal",
-      "drop_pct": 69
     },
     {
       "product": {
@@ -850,28 +833,45 @@
       },
       "signal": "deal",
       "drop_pct": 56
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "276508",
+        "title": "Кофеварка рожковая Rondell RDE-1106",
+        "price": 45990,
+        "old_price": 104990,
+        "url": "https://www.technodom.kz/product/kofevarka-rozhkovaya-rondell-rde-1106-276508",
+        "brand": "Rondell",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 56
+      },
+      "signal": "deal",
+      "drop_pct": 56
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-19T05:04:52.445174+00:00",
+      "last_crawl": "2026-09-19T11:27:25.578790+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-19T05:04:50+00:00",
-      "item_count": 3762,
+      "last_crawl": "2026-09-19T11:27:20+00:00",
+      "item_count": 3719,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-19T05:04:50+00:00",
-      "item_count": 12097,
+      "last_crawl": "2026-09-19T11:27:20+00:00",
+      "item_count": 12099,
       "status": "ok"
     },
     {
@@ -884,21 +884,21 @@
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-19T05:04:50+00:00",
-      "item_count": 9280,
+      "last_crawl": "2026-09-19T11:27:20+00:00",
+      "item_count": 9253,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-19T05:04:50+00:00",
-      "item_count": 904,
+      "last_crawl": "2026-09-19T11:27:20+00:00",
+      "item_count": 907,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29847,
+    "total_products": 29782,
     "total_deals": 50,
-    "avg_discount": 62.9
+    "avg_discount": 62.6
   }
 }
