@@ -136,7 +136,10 @@ class TelegramNotifier:
                     last_error = RuntimeError(f"{response.status_code}")
                     time.sleep(3)
                 else:
-                    response.raise_for_status()
+                    # Не raise_for_status: его исключение печатает URL запроса,
+                    # а в URL Bot API — токен (утёк в лог при 401, 2026-09-21).
+                    if response.status_code != 200:
+                        raise RuntimeError(f"Telegram HTTP {response.status_code}")
                     return
         raise last_error if last_error else RuntimeError("отправка не удалась")
 
