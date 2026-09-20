@@ -49,6 +49,7 @@ export interface PricePoint {
 export interface ProductHistory {
 	product: Product;
 	history: PricePoint[];
+	recent?: PricePoint[];
 	stats: {
 		min_90d: number;
 		median_30d: number;

@@ -171,6 +171,12 @@ def export_history(conn: sqlite3.Connection, out_dir: Path, limit: int = 300) ->
         prices = sorted(point["price"] for point in points)
         history[product.identity] = {
             "points": points,
+            # Five visible observations plus their preceding baseline. Never
+            # downsample this tail: card percentages compare adjacent prices.
+            "recent_points": [
+                {"date": row[0], "price": row[1], "old_price": row[2]}
+                for row in rows[-6:]
+            ],
             "min": prices[0],
             "median": prices[len(prices) // 2],
         }

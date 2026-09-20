@@ -27,17 +27,17 @@
 				type: 'category',
 				boundaryGap: false,
 				data: labels,
-				axisLine: { lineStyle: { color: '#334155' } },
+				axisLine: { lineStyle: { color: '#d9e1d5' } },
 				axisTick: { show: false },
-				axisLabel: { color: '#94a3b8', fontSize: 11 }
+				axisLabel: { color: '#657263', fontSize: 11 }
 			},
 			yAxis: {
 				type: 'value',
 				scale: true,
 				axisLine: { show: false },
-				splitLine: { lineStyle: { color: '#1e293b' } },
+				splitLine: { lineStyle: { color: '#edf1e8' } },
 				axisLabel: {
-					color: '#94a3b8',
+					color: '#657263',
 					fontSize: 11,
 					formatter: (v: number) => `${Math.round(v / 1000)}k`
 				}
@@ -46,32 +46,32 @@
 				{
 					type: 'line',
 					data: prices,
-					smooth: true,
+					step: 'end',
 					showSymbol: data.length <= 60,
 					symbol: 'circle',
 					symbolSize: 5,
-					lineStyle: { color: '#f59e0b', width: 2 },
-					itemStyle: { color: '#f59e0b' },
+					lineStyle: { color: '#2a6b50', width: 2 },
+					itemStyle: { color: '#2a6b50' },
 					markLine: {
 						silent: true,
 						symbol: 'none',
-						lineStyle: { color: '#10b981', type: 'dashed', width: 1 },
-						label: { color: '#10b981', fontSize: 10, formatter: 'минимум' },
+						lineStyle: { color: '#40845c', type: 'dashed', width: 1 },
+						label: { color: '#40845c', fontSize: 10, formatter: 'минимум' },
 						data: [{ yAxis: lowest }]
 					},
 					areaStyle: {
 						color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-							{ offset: 0, color: 'rgba(245, 158, 11, 0.30)' },
-							{ offset: 1, color: 'rgba(245, 158, 11, 0)' }
+							{ offset: 0, color: 'rgba(42, 107, 80, 0.14)' },
+							{ offset: 1, color: 'rgba(42, 107, 80, 0)' }
 						])
 					}
 				}
 			],
 			tooltip: {
 				trigger: 'axis',
-				backgroundColor: '#1e293b',
-				borderColor: '#334155',
-				textStyle: { color: '#f1f5f9', fontSize: 12 },
+				backgroundColor: '#edf1e8',
+				borderColor: '#d9e1d5',
+				textStyle: { color: '#263c2e', fontSize: 12 },
 				formatter: (params: any) => {
 					const point = Array.isArray(params) ? params[0] : params;
 					return `${point.name}<br/><b>${formatPrice(point.value as number)}</b>`;

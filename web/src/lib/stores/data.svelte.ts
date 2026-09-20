@@ -34,6 +34,8 @@ class DashboardStore {
 	}
 
 	async refresh(): Promise<void> {
+		if (this.loading && this.data) return;
+		this.loading = true;
 		try {
 			// Кэш-бастер: браузер иначе отдаёт latest.json из кэша после деплоя.
 			const res = await fetch(`${base}/data/latest.json?t=${Date.now()}`);
@@ -41,6 +43,7 @@ class DashboardStore {
 			// сбой панели, а пустое состояние.
 			if (res.status === 404) {
 				this.data = EMPTY;
+				this.updatedAt = null;
 				this.error = null;
 				return;
 			}
@@ -48,6 +51,7 @@ class DashboardStore {
 			this.data = (await res.json()) as DashboardData;
 			this.updatedAt = new Date(this.data.updated_at);
 			this.error = null;
+			void priceHistory.load(this.data.updated_at);
 		} catch (e) {
 			this.error = e instanceof Error ? e.message : String(e);
 		} finally {
@@ -76,34 +80,53 @@ export function stopAutoRefresh(): void {
  * ~10 тыс. файлов на каждый обход (дорого для git и gh-pages). */
 interface HistoryFile {
 	updated_at: string;
-	history: Record<string, { points: PricePoint[]; min: number; median: number }>;
+	history: Record<string, { points: PricePoint[]; recent_points?: PricePoint[]; min: number; median: number }>;
 }
 
-let historyCache: HistoryFile | null = null;
-let historyPending: Promise<HistoryFile | null> | null = null;
+/** One request shared by all cards, refreshed when the published snapshot changes. */
+class PriceHistoryStore {
+	data = $state<HistoryFile | null>(null);
+	loading = $state(false);
+	error = $state(false);
+	private version = '';
+	private pending: Promise<HistoryFile | null> | null = null;
 
-async function loadHistoryFile(): Promise<HistoryFile | null> {
-	if (historyCache) return historyCache;
-	if (!historyPending) {
-		historyPending = (async () => {
+	load(version = dashboard.data?.updated_at ?? ''): Promise<HistoryFile | null> {
+		if (version === this.version) {
+			if (this.pending) return this.pending;
+			if (this.data) return Promise.resolve(this.data);
+		}
+		this.version = version;
+		this.data = null;
+		this.loading = true;
+		this.error = false;
+		const request = (async () => {
 			try {
 				const res = await fetch(`${base}/data/history.json?t=${Date.now()}`);
-				if (!res.ok) return null;
-				historyCache = (await res.json()) as HistoryFile;
-				return historyCache;
+				if (!res.ok) throw new Error(`HTTP ${res.status}`);
+				const snapshot = await res.json() as HistoryFile;
+				if (this.version === version) this.data = snapshot;
+				return snapshot;
 			} catch {
+				if (this.version === version) this.error = true;
 				return null;
 			} finally {
-				historyPending = null;
+				if (this.version === version) {
+					this.pending = null;
+					this.loading = false;
+				}
 			}
 		})();
+		this.pending = request;
+		return request;
 	}
-	return historyPending;
 }
+
+export const priceHistory = new PriceHistoryStore();
 
 /** История цен одного товара: позиция — из текущего среза, точки — из history.json. */
 export async function fetchHistory(shop: string, sku: string): Promise<ProductHistory | null> {
-	const snapshot = await loadHistoryFile();
+	const snapshot = await priceHistory.load();
 	const row = snapshot?.history[`${shop}:${sku}`];
 	if (!row?.points?.length) return null;
 
@@ -125,6 +148,7 @@ export async function fetchHistory(shop: string, sku: string): Promise<ProductHi
 	return {
 		product,
 		history: row.points,
+		recent: row.recent_points ?? row.points,
 		stats: {
 			min_90d: row.min,
 			median_30d: row.median,

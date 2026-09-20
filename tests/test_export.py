@@ -65,3 +65,21 @@ def test_history_survives_price_change(conn, tmp_path):
 
     assert prices[0] == 100_000 and prices[-1] == 80_000
     assert row["min"] == 80_000
+
+
+def test_recent_prices_keep_exact_tail_despite_chart_downsampling(conn, tmp_path):
+    prices = [100_000 - i * 100 for i in range(125)]
+    for i, price in enumerate(prices):
+        storage.save_products(conn, [product(price, old_price=200_000)], T0 + timedelta(minutes=i))
+
+    row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
+    assert [point["price"] for point in row["recent_points"]] == prices[-6:]
+    assert "T" in row["recent_points"][-1]["date"]
+    assert len(row["points"]) < len(prices)
+
+
+def test_recent_prices_do_not_pad_short_history(conn, tmp_path):
+    seed(conn, product(50_000, old_price=100_000), hours=4)
+    row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
+    assert len(row["recent_points"]) == 1
+    assert row["recent_points"][0]["price"] == 50_000
