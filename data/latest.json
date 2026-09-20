@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T22:44:33.541504+00:00",
+  "updated_at": "2026-09-20T05:19:03.669451+00:00",
   "deals": [
     {
       "product": {
@@ -36,6 +36,24 @@
       },
       "signal": "deal",
       "drop_pct": 77
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "41638",
+        "title": "Телевизор Samsung NeoQLED 8K 65\" QE65QN900DUXCE",
+        "price": 739990,
+        "old_price": 2999990,
+        "url": "https://evrika.com/catalog/televizor-65-qe65qn900duxce-neoqled-8k/p41638",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/YWSNa4KxaEuxzKDdJzkSOSjRnFp9OOkTLtvidtS5.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 75
     },
     {
       "product": {
@@ -882,46 +900,28 @@
       },
       "signal": "deal",
       "drop_pct": 56
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "276530",
-        "title": "Гриль Rondell RDE-1700",
-        "price": 64990,
-        "old_price": 146990,
-        "url": "https://www.technodom.kz/product/gril-rondell-rde-1700-276530",
-        "brand": "Rondell",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://api.technodom.kz/f3/api/v1/images/gril_rondell_rde_1700_276530_1.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 56
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-19T22:44:33.541504+00:00",
+      "last_crawl": "2026-09-20T05:19:03.669451+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-19T19:01:48+00:00",
-      "item_count": 3760,
+      "last_crawl": "2026-09-20T05:19:00+00:00",
+      "item_count": 3763,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-19T22:44:30+00:00",
-      "item_count": 12105,
+      "last_crawl": "2026-09-20T05:19:00+00:00",
+      "item_count": 12079,
       "status": "ok"
     },
     {
@@ -934,21 +934,21 @@
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-19T22:44:30+00:00",
-      "item_count": 9249,
+      "last_crawl": "2026-09-20T05:19:00+00:00",
+      "item_count": 9245,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-19T22:44:30+00:00",
-      "item_count": 924,
+      "last_crawl": "2026-09-20T05:19:00+00:00",
+      "item_count": 923,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29842,
+    "total_products": 29814,
     "total_deals": 50,
-    "avg_discount": 62.5
+    "avg_discount": 62.9
   }
 }
