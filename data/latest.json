@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T05:19:03.669451+00:00",
+  "updated_at": "2026-09-20T11:51:15.188801+00:00",
   "deals": [
     {
       "product": {
@@ -321,6 +321,24 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://static.shop.kz/upload/iblock/f37/bb96ga6exbdna8xm83g7l8elxcu41zcc/168322o5.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 63
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1716299",
+        "title": "Ноутбук Apple MacBook Air A2941 с дисплеем Retina Liquid (MQKP3) (SN:SCT6P6W7D3R)",
+        "price": 299990,
+        "old_price": 799990,
+        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2941-s-displeem-retina-liquid-mqkp3-sn-sct6p6w7d3r/",
+        "brand": "Apple",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://static.shop.kz/upload/iblock/f7f/1svw0perwzuepugtft74bvnye1eh5b8o/171873n200.jpg"
       },
       "signal": "deal",
       "drop_pct": 63
@@ -882,46 +900,28 @@
       },
       "signal": "deal",
       "drop_pct": 56
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "276508",
-        "title": "Кофеварка рожковая Rondell RDE-1106",
-        "price": 45990,
-        "old_price": 104990,
-        "url": "https://www.technodom.kz/product/kofevarka-rozhkovaya-rondell-rde-1106-276508",
-        "brand": "Rondell",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://api.technodom.kz/f3/api/v1/images/kofevarka_rozhkovaya_rondell_rde_1106_276508_1.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 56
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-20T05:19:03.669451+00:00",
+      "last_crawl": "2026-09-20T11:51:15.188801+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-20T05:19:00+00:00",
-      "item_count": 3763,
+      "last_crawl": "2026-09-20T11:51:12+00:00",
+      "item_count": 3758,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-20T05:19:00+00:00",
-      "item_count": 12079,
+      "last_crawl": "2026-09-20T11:51:12+00:00",
+      "item_count": 12108,
       "status": "ok"
     },
     {
@@ -934,21 +934,21 @@
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-20T05:19:00+00:00",
-      "item_count": 9245,
+      "last_crawl": "2026-09-20T11:51:12+00:00",
+      "item_count": 9227,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-20T05:19:00+00:00",
-      "item_count": 923,
+      "last_crawl": "2026-09-20T11:51:12+00:00",
+      "item_count": 922,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29814,
+    "total_products": 29819,
     "total_deals": 50,
-    "avg_discount": 62.9
+    "avg_discount": 63.0
   }
 }
