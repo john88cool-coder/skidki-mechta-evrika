@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T22:49:55.723617+00:00",
+  "updated_at": "2026-09-21T05:23:23.445654+00:00",
   "deals": [
     {
       "product": {
@@ -8,7 +8,7 @@
         "title": "Cистема виртуальной реальности VIVE PRO Full",
         "price": 149990,
         "old_price": 779990,
-        "url": "https://www.technodom.kz/product/cistema-virtualnoj-realnosti-vive-pro-full-101502",
+        "url": "https://www.technodom.kz/p/cistema-virtualnoj-realnosti-vive-pro-full-101502",
         "brand": "HTC",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -18,6 +18,24 @@
       },
       "signal": "deal",
       "drop_pct": 81
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "42365",
+        "title": "Робот пылесос Tefal RG8577WH",
+        "price": 69990,
+        "old_price": 310990,
+        "url": "https://evrika.com/catalog/robot-pylesos-tefal-rg8577wh/p42365",
+        "brand": "Tefal",
+        "category": "Робот пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/4FtTWZ0dG6H0uK1s2i4ZHLU8WZwS9jl6YIOtgnls.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 77
     },
     {
       "product": {
@@ -44,7 +62,7 @@
         "title": "Очки виртуальной реальности Vive Flow (99HASV003-00)",
         "price": 99990,
         "old_price": 399990,
-        "url": "https://www.technodom.kz/product/ochki-virtualnoj-realnosti-vive-flow-99hasv003-00-256351",
+        "url": "https://www.technodom.kz/p/ochki-virtualnoj-realnosti-vive-flow-99hasv003-00-256351",
         "brand": "HTC",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -62,7 +80,7 @@
         "title": "Блендер беспроводной Polaris PHB-0746",
         "price": 15990,
         "old_price": 59990,
-        "url": "https://www.technodom.kz/product/blender-besprovodnoj-polaris-phb-0746-264295",
+        "url": "https://www.technodom.kz/p/blender-besprovodnoj-polaris-phb-0746-264295",
         "brand": "Polaris",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -72,6 +90,24 @@
       },
       "signal": "deal",
       "drop_pct": 73
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "42366",
+        "title": "Робот пылесос Tefal RG8597WH",
+        "price": 119990,
+        "old_price": 414990,
+        "url": "https://evrika.com/catalog/robot-pylesos-tefal-rg8597wh/p42366",
+        "brand": "Tefal",
+        "category": "Робот пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/iHxYtogbie0176WslK4g7hnh7swZjgB3f0bNsErK.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 71
     },
     {
       "product": {
@@ -98,7 +134,7 @@
         "title": "Пароварка WMF 415360711 (Lono Sous-Vide)",
         "price": 99990,
         "old_price": 329990,
-        "url": "https://www.technodom.kz/product/parovarka-wmf-415360711-lono-sous-vide-233318",
+        "url": "https://www.technodom.kz/p/parovarka-wmf-415360711-lono-sous-vide-233318",
         "brand": "WMF",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -116,7 +152,7 @@
         "title": "Наушники Накладные SoundCore Life Tune",
         "price": 19990,
         "old_price": 64990,
-        "url": "https://www.technodom.kz/product/naushniki-nakladnye-soundcore-life-tune-272555",
+        "url": "https://www.technodom.kz/p/naushniki-nakladnye-soundcore-life-tune-272555",
         "brand": "SoundCore",
         "category": "Смартфоны и гаджеты",
         "group": "phones",
@@ -129,30 +165,12 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1506525",
-        "title": "Ручной пылесос Tefal X-Force Flex TY9639WO, Purple",
-        "price": 49990,
-        "old_price": 154990,
-        "url": "https://shop.kz/offer/ruchnoy-pylesos-tefal-x-force-flex-ty9639wo-purple/",
-        "brand": "Tefal",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 68,
-        "image": "https://static.shop.kz/upload/iblock/614/k9w10texfz0csqmqh03j6btk05v7k25w/00000166578.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 68
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "284537",
         "title": "Гриль Polaris PGP-3010 SMOKELESS",
         "price": 89990,
         "old_price": 279990,
-        "url": "https://www.technodom.kz/product/gril-polaris-pgp-3010-smokeless-284537",
+        "url": "https://www.technodom.kz/p/gril-polaris-pgp-3010-smokeless-284537",
         "brand": "Polaris",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -170,7 +188,7 @@
         "title": "Монитор Игровой 32\" Samsung G8 LS32BG852NIXCI 3840x2160 16:9 VA 240ГЦ (2HDMI+DP) Curved White",
         "price": 249990,
         "old_price": 769990,
-        "url": "https://www.technodom.kz/product/monitor-igrovoj-27-samsung-g8-ls32bg852nixci-3840x2160-169-va-240gc-2hdmidp-curved-white-265774",
+        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-samsung-g8-ls32bg852nixci-3840x2160-169-va-240gc-2hdmidp-curved-white-265774",
         "brand": "Samsung",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -206,7 +224,7 @@
         "title": "Компьютер Neo Office A08 (AR5 3400G/16/SSD 512GB/NOMAD NMD-C6013)",
         "price": 191990,
         "old_price": 589990,
-        "url": "https://www.technodom.kz/product/kompyuter-neo-office-a08-ar5-3400g-16-ssd-512gb-nomad-nmd-c6013-296296",
+        "url": "https://www.technodom.kz/p/kompyuter-neo-office-a08-ar5-3400g-16-ssd-512gb-nomad-nmd-c6013-296296",
         "brand": "Neo",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -224,7 +242,7 @@
         "title": "Сервер ProCentric PCS400R",
         "price": 2599990,
         "old_price": 7784990,
-        "url": "https://www.technodom.kz/product/server-procentric-pcs400r-192156",
+        "url": "https://www.technodom.kz/p/server-procentric-pcs400r-192156",
         "brand": "LG",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -237,12 +255,30 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "25284",
+        "title": "Вентилятор Tefal VF3910F0",
+        "price": 19990,
+        "old_price": 56990,
+        "url": "https://evrika.com/catalog/ventilyator-tefal-vf3910f0/p25284",
+        "brand": "Tefal",
+        "category": "Вентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 65,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/ih84D6KOuahgBM6nL2yvrPROQky6ccyyNZskovw3.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 65
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "296297",
         "title": "Компьютер Neo Office A09 (AR5 5500GT/16/SSD 1TB/NOMAD NMD-C6013)",
         "price": 260990,
         "old_price": 754990,
-        "url": "https://www.technodom.kz/product/kompyuter-neo-office-a09-ar5-5500gt16ssd-1tbnomad-nmd-c6013-296297",
+        "url": "https://www.technodom.kz/p/kompyuter-neo-office-a09-ar5-5500gt16ssd-1tbnomad-nmd-c6013-296297",
         "brand": "Neo",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -252,24 +288,6 @@
       },
       "signal": "deal",
       "drop_pct": 65
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1542681",
-        "title": "Ручной пылесос Tefal X-Pert 6.60 TY6837WO, Grey-Violet",
-        "price": 49990,
-        "old_price": 134990,
-        "url": "https://shop.kz/offer/ruchnoy-pylesos-tefal-x-pert-6-60-ty6837wo-grey-violet/",
-        "brand": "Tefal",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://static.shop.kz/upload/iblock/f37/bb96ga6exbdna8xm83g7l8elxcu41zcc/168322o5.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 63
     },
     {
       "product": {
@@ -296,7 +314,7 @@
         "title": "Кухонная машина Tefal Bake Partner QB522838",
         "price": 105990,
         "old_price": 289990,
-        "url": "https://www.technodom.kz/product/kuhonnaya-mashina-tefal-bake-partner-qb-522838",
+        "url": "https://www.technodom.kz/p/kuhonnaya-mashina-tefal-bake-partner-qb-522838",
         "brand": "Tefal",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -327,6 +345,24 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "25283",
+        "title": "Вентилятор Tefal VF4420F0",
+        "price": 19990,
+        "old_price": 51990,
+        "url": "https://evrika.com/catalog/ventilyator-tefal-vf4420f0/p25283",
+        "brand": "Tefal",
+        "category": "Вентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/h7WU9a1w7mSD22tyWRjqlEltSQiCi6MGDZHfp8aR.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 62
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "624166",
         "title": "Кухонная машина Tefal I-Coach Touch QB951DF0",
@@ -350,7 +386,7 @@
         "title": "Кухонная машина Tefal i-Coach Touch QB-951DF0",
         "price": 259990,
         "old_price": 682990,
-        "url": "https://www.technodom.kz/product/kuhonnaya-mashina-tefal-i-coach-touch-qb-951df0-283641",
+        "url": "https://www.technodom.kz/p/kuhonnaya-mashina-tefal-i-coach-touch-qb-951df0-283641",
         "brand": "Tefal",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -368,7 +404,7 @@
         "title": "Соковыжималка Rondell RDE-1501",
         "price": 39990,
         "old_price": 104990,
-        "url": "https://www.technodom.kz/product/sokovyzhimalka-citrusovaya-rondell-rde-1501-276522",
+        "url": "https://www.technodom.kz/p/sokovyzhimalka-citrusovaya-rondell-rde-1501-276522",
         "brand": "Rondell",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -386,7 +422,7 @@
         "title": "Сепаратор-маслобойка Пензмаш РЗ-ОПС-СМ",
         "price": 15990,
         "old_price": 41490,
-        "url": "https://www.technodom.kz/product/separator-maslobojka-penzmash-rz-ops-sm-251131",
+        "url": "https://www.technodom.kz/p/separator-maslobojka-penzmash-rz-ops-sm-251131",
         "brand": "Пензмаш",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -404,7 +440,7 @@
         "title": "ПК корпус Кейс Jonsbo D300 MidTower, window, Black mATX",
         "price": 38990,
         "old_price": 99990,
-        "url": "https://www.technodom.kz/product/kejs-jonsbo-d300-midtower-window-black-matx-d300-black-283801",
+        "url": "https://www.technodom.kz/p/kejs-jonsbo-d300-midtower-window-black-matx-d300-black-283801",
         "brand": "Jonsbo",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -422,7 +458,7 @@
         "title": "Сушка для овощей и фруктов Polaris PFD-1206V",
         "price": 33990,
         "old_price": 86990,
-        "url": "https://www.technodom.kz/product/sushka-dlya-ovoshej-i-fruktov-polaris-pfd-1206v-288659",
+        "url": "https://www.technodom.kz/p/sushka-dlya-ovoshej-i-fruktov-polaris-pfd-1206v-288659",
         "brand": "Polaris",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -435,12 +471,30 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "42364",
+        "title": "Вертикальный пылесос Tefal TY1129WO",
+        "price": 59990,
+        "old_price": 148990,
+        "url": "https://evrika.com/catalog/vertikalnyy-pylesos-tefal-ty1129wo/p42364",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/lQnUVoQBTVeyQ6JxxcCwNBLmKTAD83L7wS8KRj2Q.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 60
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "276523",
         "title": "Соковыжималка прессовая Rondell RDE-1503",
         "price": 49990,
         "old_price": 125990,
-        "url": "https://www.technodom.kz/product/sokovyzhimalka-pressovaya-rondell-rde-1503-276523",
+        "url": "https://www.technodom.kz/p/sokovyzhimalka-pressovaya-rondell-rde-1503-276523",
         "brand": "Rondell",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -458,7 +512,7 @@
         "title": "Ортопедическая подушка с подогревом Beurer HK-70",
         "price": 19990,
         "old_price": 50090,
-        "url": "https://www.technodom.kz/product/ortopedicheskaya-podushka-s-podogrevom-beurer-hk-70-263224",
+        "url": "https://www.technodom.kz/p/ortopedicheskaya-podushka-s-podogrevom-beurer-hk-70-263224",
         "brand": "Beurer",
         "category": "Красота и здоровье",
         "group": "beauty",
@@ -476,7 +530,7 @@
         "title": "ПК корпус Jonsbo D300 MidTower, window, White mATX [D300 White]",
         "price": 39990,
         "old_price": 99990,
-        "url": "https://www.technodom.kz/product/kejs-jonsbo-d300-midtower-window-white-matx-d300-white-283802",
+        "url": "https://www.technodom.kz/p/kejs-jonsbo-d300-midtower-window-white-matx-d300-white-283802",
         "brand": "Jonsbo",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -494,7 +548,7 @@
         "title": "Беспроводная гарнитура Logitech H820e, Black",
         "price": 59990,
         "old_price": 149990,
-        "url": "https://www.technodom.kz/product/besprovodnaya-garnitura-logitech-h820e-black-120093",
+        "url": "https://www.technodom.kz/p/besprovodnaya-garnitura-logitech-h820e-black-120093",
         "brand": "Logitech",
         "category": "Смартфоны и гаджеты",
         "group": "phones",
@@ -512,7 +566,7 @@
         "title": "Кухонная машина Polaris PKM-1104",
         "price": 59990,
         "old_price": 146990,
-        "url": "https://www.technodom.kz/product/kuhonnaya-mashina-polaris-pkm-1104-264305",
+        "url": "https://www.technodom.kz/p/kuhonnaya-mashina-polaris-pkm-1104-264305",
         "brand": "Polaris",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -530,7 +584,7 @@
         "title": "Игровой Компьютер NEO Game 104 (Сi5-13400F/RTX 5060 8GB/SSD 1TB/DDR4 16GB/B760M/Gamemax Vista)",
         "price": 697990,
         "old_price": 1695990,
-        "url": "https://www.technodom.kz/product/igrovoy-kompyuter-neo-game-104-si5-13400f-rtx-5060-8gb-ssd-1tb-ddr4-16gb-b760m-gamemax-vista-296922",
+        "url": "https://www.technodom.kz/p/igrovoy-kompyuter-neo-game-104-si5-13400f-rtx-5060-8gb-ssd-1tb-ddr4-16gb-b760m-gamemax-vista-296922",
         "brand": "Neo",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -548,7 +602,7 @@
         "title": "Компьютер NEO Game A14 (AR5 7500F/RTX 5060 TI/32GB/SSD 1TB/B650M WIFI/Ocypus Iota C50 BK)",
         "price": 953990,
         "old_price": 2317990,
-        "url": "https://www.technodom.kz/product/kompyuter-neo-game-a14-ar5-7500frtx-5060-ti32gbssd-1tbb650m-wifiocypus-iota-c50-bk-297468",
+        "url": "https://www.technodom.kz/p/kompyuter-neo-game-a14-ar5-7500frtx-5060-ti32gbssd-1tbb650m-wifiocypus-iota-c50-bk-297468",
         "brand": "Neo",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -566,7 +620,7 @@
         "title": "Блендер погружной Rondell RDE-1303",
         "price": 30590,
         "old_price": 73490,
-        "url": "https://www.technodom.kz/product/blender-pogruzhnoj-rondell-rde-1303-284018",
+        "url": "https://www.technodom.kz/p/blender-pogruzhnoj-rondell-rde-1303-284018",
         "brand": "Rondell",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -584,7 +638,7 @@
         "title": "Миксер Moulinex Prep Mix HM464110",
         "price": 29990,
         "old_price": 71990,
-        "url": "https://www.technodom.kz/product/mikser-moulinex-hm-464110-260969",
+        "url": "https://www.technodom.kz/p/mikser-moulinex-hm-464110-260969",
         "brand": "Moulinex",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -602,7 +656,7 @@
         "title": "Винный холодильник CASO WineComfort 38 black",
         "price": 499990,
         "old_price": 1199990,
-        "url": "https://www.technodom.kz/product/holodilnik-vinnyj-caso-winecomfort-38-black-265354",
+        "url": "https://www.technodom.kz/p/holodilnik-vinnyj-caso-winecomfort-38-black-265354",
         "brand": "Caso",
         "category": "Бытовая техника",
         "group": "home",
@@ -620,7 +674,7 @@
         "title": "Посудомоечная машина MEFERI MDW4563 COMPACT POWER",
         "price": 59990,
         "old_price": 142990,
-        "url": "https://www.technodom.kz/product/posudomoyechnaya-mashina-meferi-mdw4563-compact-power-288553",
+        "url": "https://www.technodom.kz/p/posudomoyechnaya-mashina-meferi-mdw4563-compact-power-288553",
         "brand": "MEFERI",
         "category": "Бытовая техника",
         "group": "home",
@@ -656,7 +710,7 @@
         "title": "Кухонная машина WMF 416680771 (Kitchen Minis Grey)",
         "price": 189990,
         "old_price": 439990,
-        "url": "https://www.technodom.kz/product/kukhonnaya-mashina-wmf-416680771-kitchen-minis-grey-233319",
+        "url": "https://www.technodom.kz/p/kukhonnaya-mashina-wmf-416680771-kitchen-minis-grey-233319",
         "brand": "WMF",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -666,6 +720,42 @@
       },
       "signal": "deal",
       "drop_pct": 57
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38794",
+        "title": "Беспроводной вертикальный пылесос Tefal TY99A8WO",
+        "price": 189990,
+        "old_price": 432990,
+        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesos-tefal-ty99a8wo/p38794",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/KgOZsjDa7HNaN3VAxqmKBMpJ7EqiwHAxEB3pbtOE.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "15197",
+        "title": "Насадка к кухонному комбайну Moulinex XF634BB1 стационарный блендер",
+        "price": 10990,
+        "old_price": 24990,
+        "url": "https://evrika.com/catalog/nasadka-k-kuhonnomu-kombaynu-moulinex-xf634bb1-stacionarnyy-blender/p15197",
+        "brand": "Moulinex",
+        "category": "Кухонные комбайны и машины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/8gB6EXqT6nXEWPoc6QzrBFIDu5yeHdXjF2rjrouO.jpeg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56
     },
     {
       "product": {
@@ -687,18 +777,18 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1559811",
-        "title": "Ручной пылесос Tefal X-Nano TY1127WO, Black-Green",
-        "price": 59990,
-        "old_price": 134990,
-        "url": "https://shop.kz/offer/ruchnoy-pylesos-tefal-x-nano-ty1127wo-black-green/",
+        "shop": "evrika",
+        "sku": "44460",
+        "title": "Ручной отпариватель Tefal DT1R04F1",
+        "price": 14990,
+        "old_price": 33990,
+        "url": "https://evrika.com/catalog/ruchnoy-otparivatel-tefal-dt1r04f1/p44460",
         "brand": "Tefal",
-        "category": "Пылесосы",
+        "category": "Отпариватели",
         "group": "home",
         "in_stock": true,
         "discount_pct": 56,
-        "image": "https://static.shop.kz/upload/iblock/08d/8utye4bftrpfcqik3726wa9wzfx1ld29/168926o5.jpg"
+        "image": "https://cdn.evrika.com/storage/products/images/medium/Xcb4Ck55VITSwCujSpTQmI4hujww0LCn2YKfTFW0.jpg.webp"
       },
       "signal": "deal",
       "drop_pct": 56
@@ -728,7 +818,7 @@
         "title": "Игровой компьютер TechnoGaming 292(AR7-7800X3D/RTX5070TI 16GB/D5 32GB/SSD 2TB/B850 MLG/MSI PANO 130R MLG)",
         "price": 1500990,
         "old_price": 3429990,
-        "url": "https://www.technodom.kz/product/igrovoy-pk-technogaming-292-ar7-7800x3d-rtx5070ti-16gb-d5-32gb-ssd-2tb-b850-mlg-msi-pano-130r-mlg-295515",
+        "url": "https://www.technodom.kz/p/igrovoy-pk-technogaming-292-ar7-7800x3d-rtx5070ti-16gb-d5-32gb-ssd-2tb-b850-mlg-msi-pano-130r-mlg-295515",
         "brand": "TechnoGaming",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
@@ -746,7 +836,7 @@
         "title": "Кофеварка рожковая Rondell RDE-1106",
         "price": 45990,
         "old_price": 104990,
-        "url": "https://www.technodom.kz/product/kofevarka-rozhkovaya-rondell-rde-1106-276508",
+        "url": "https://www.technodom.kz/p/kofevarka-rozhkovaya-rondell-rde-1106-276508",
         "brand": "Rondell",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -764,7 +854,7 @@
         "title": "Гриль Rondell RDE-1700",
         "price": 64990,
         "old_price": 146990,
-        "url": "https://www.technodom.kz/product/gril-rondell-rde-1700-276530",
+        "url": "https://www.technodom.kz/p/gril-rondell-rde-1700-276530",
         "brand": "Rondell",
         "category": "Техника для кухни",
         "group": "kitchen",
@@ -782,7 +872,7 @@
         "title": "Винный холодильник CASO WineComfort 24",
         "price": 399990,
         "old_price": 899990,
-        "url": "https://www.technodom.kz/product/holodilnik-vinnyj-caso-winecomfort-24-265352",
+        "url": "https://www.technodom.kz/p/holodilnik-vinnyj-caso-winecomfort-24-265352",
         "brand": "Caso",
         "category": "Бытовая техника",
         "group": "home",
@@ -810,145 +900,55 @@
       },
       "signal": "deal",
       "drop_pct": 55
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1254207",
-        "title": "Bluetooth гарнитура Razer Opus X, Green",
-        "price": 24990,
-        "old_price": 54990,
-        "url": "https://shop.kz/offer/bluetooth-garnitura-razer-opus-x-green/",
-        "brand": "Razer",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://static.shop.kz/upload/iblock/1f1/95_4000.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 55
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "621969",
-        "title": "Ручной отпариватель Tefal Origin Travel DT1020E1",
-        "price": 16990,
-        "old_price": 37990,
-        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1020e1",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_190_0_1_9mF3iR_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 55
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633168",
-        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 154990,
-        "old_price": 341890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 55
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "629895",
-        "title": "Ручной отпариватель Tefal Pure Pop DT2023F0",
-        "price": 19990,
-        "old_price": 43990,
-        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt2023f0",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_206_0_1_HsHEzH_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 55
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "233329",
-        "title": "Насадка для приготовления спагетти WMF 416810721",
-        "price": 53990,
-        "old_price": 120990,
-        "url": "https://www.technodom.kz/product/nasadka-dlya-prigotovleniya-spagetti-wmf-416810721-233329",
-        "brand": "WMF",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://api.technodom.kz/f3/api/v1/images/233329_1.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 55
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-20T22:49:55.723617+00:00",
+      "last_crawl": "2026-09-21T05:23:23.445654+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-20T22:49:52+00:00",
-      "item_count": 3757,
+      "last_crawl": "2026-09-21T05:23:20+00:00",
+      "item_count": 3758,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-20T22:49:52+00:00",
-      "item_count": 12109,
+      "last_crawl": "2026-09-21T05:23:20+00:00",
+      "item_count": 12108,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-20T22:49:52+00:00",
-      "item_count": 3831,
+      "last_crawl": "2026-09-21T05:23:20+00:00",
+      "item_count": 3825,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-20T22:49:52+00:00",
-      "item_count": 9210,
+      "last_crawl": "2026-09-21T05:23:20+00:00",
+      "item_count": 9212,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-20T22:49:52+00:00",
+      "last_crawl": "2026-09-21T05:23:20+00:00",
       "item_count": 923,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29830,
+    "total_products": 29826,
     "total_deals": 50,
-    "avg_discount": 61.8
+    "avg_discount": 62.6
   }
 }
