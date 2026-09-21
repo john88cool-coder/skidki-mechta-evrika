@@ -179,7 +179,7 @@ def test_technodom_parse(technodom_data):
     assert first.shop == "technodom"
     assert first.sku == raw[0]["sku"]
     assert first.price == int(raw[0]["price"])
-    assert first.url == f"https://www.technodom.kz/product/{raw[0]['uri']}"
+    assert first.url == f"https://www.technodom.kz/p/{raw[0]['uri']}"
     assert first.brand == raw[0]["brand"]
     assert all(p.old_price is None or p.old_price > p.price for p in products)
     assert any(p.old_price for p in products)
@@ -190,6 +190,13 @@ def test_technodom_api_url_sorts_by_discount():
     assert url.startswith("https://api.technodom.kz/katalog/api/v2/products/category/smart-chasy?")
     assert "limit=50" in url and "page=2" in url
     assert "sorting=discount:desc" in url  # разрешённая сортировка API
+
+
+def test_technodom_url_is_p_sku(technodom_data):
+    """Карточка — /p/<uri>: /product/<uri> отдаёт 404 (нашли 2026-09-19)."""
+    products = technodom.parse(technodom_data)
+    assert products
+    assert all(p.url.startswith("https://www.technodom.kz/p/") for p in products)
 
 
 def test_technodom_roots_map_to_groups():
