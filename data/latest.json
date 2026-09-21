@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T05:23:23.445654+00:00",
+  "updated_at": "2026-09-21T13:16:20.385694+00:00",
   "deals": [
     {
       "product": {
@@ -36,24 +36,6 @@
       },
       "signal": "deal",
       "drop_pct": 77
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "41638",
-        "title": "Телевизор Samsung NeoQLED 8K 65\" QE65QN900DUXCE",
-        "price": 739990,
-        "old_price": 2999990,
-        "url": "https://evrika.com/catalog/televizor-65-qe65qn900duxce-neoqled-8k/p41638",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 75,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/YWSNa4KxaEuxzKDdJzkSOSjRnFp9OOkTLtvidtS5.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 75
     },
     {
       "product": {
@@ -900,55 +882,73 @@
       },
       "signal": "deal",
       "drop_pct": 55
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1254207",
+        "title": "Bluetooth гарнитура Razer Opus X, Green",
+        "price": 24990,
+        "old_price": 54990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-razer-opus-x-green/",
+        "brand": "Razer",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://static.shop.kz/upload/iblock/1f1/95_4000.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 55
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-21T05:23:23.445654+00:00",
+      "last_crawl": "2026-09-21T13:16:20.385694+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-21T05:23:20+00:00",
-      "item_count": 3758,
+      "last_crawl": "2026-09-21T13:16:13+00:00",
+      "item_count": 3764,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-21T05:23:20+00:00",
+      "last_crawl": "2026-09-21T13:16:13+00:00",
       "item_count": 12108,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-21T05:23:20+00:00",
-      "item_count": 3825,
+      "last_crawl": "2026-09-21T13:16:13+00:00",
+      "item_count": 3801,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-21T05:23:20+00:00",
-      "item_count": 9212,
+      "last_crawl": "2026-09-21T13:16:13+00:00",
+      "item_count": 9223,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-21T05:23:20+00:00",
-      "item_count": 923,
+      "last_crawl": "2026-09-21T13:16:13+00:00",
+      "item_count": 919,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29826,
+    "total_products": 29815,
     "total_deals": 50,
-    "avg_discount": 62.6
+    "avg_discount": 62.2
   }
 }
