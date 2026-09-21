@@ -2,11 +2,13 @@
 	import '../app.css';
 	import Header from '$lib/components/Header.svelte';
 	import { onMount } from 'svelte';
+	import { theme } from '$lib/stores/theme.svelte';
 	import { dashboard, startAutoRefresh } from '$lib/stores/data.svelte';
 
 	let { children } = $props();
 
 	onMount(() => {
+		theme.init();
 		dashboard.refresh();
 		// Автообновление: страница живёт открытой, сводки приходят каждые 2 ч.
 		return startAutoRefresh(30_000);

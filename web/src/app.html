@@ -4,6 +4,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
+		<script>
+			// Apply before the first paint to avoid a light flash on reload.
+			let savedTheme;
+			try { savedTheme = localStorage.getItem('skidki-theme'); } catch {}
+			document.documentElement.dataset.theme = savedTheme === 'light' || savedTheme === 'dark'
+				? savedTheme : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
