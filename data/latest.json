@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T13:16:20.385694+00:00",
+  "updated_at": "2026-09-21T19:53:55.609778+00:00",
   "deals": [
     {
       "product": {
@@ -270,24 +270,6 @@
       },
       "signal": "deal",
       "drop_pct": 65
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1716299",
-        "title": "Ноутбук Apple MacBook Air A2941 с дисплеем Retina Liquid (MQKP3) (SN:SCT6P6W7D3R)",
-        "price": 299990,
-        "old_price": 799990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2941-s-displeem-retina-liquid-mqkp3-sn-sct6p6w7d3r/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://static.shop.kz/upload/iblock/f7f/1svw0perwzuepugtft74bvnye1eh5b8o/171873n200.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 63
     },
     {
       "product": {
@@ -900,55 +882,73 @@
       },
       "signal": "deal",
       "drop_pct": 55
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "621969",
+        "title": "Ручной отпариватель Tefal Origin Travel DT1020E1",
+        "price": 16990,
+        "old_price": 37990,
+        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1020e1",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_190_0_1_9mF3iR_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-21T13:16:20.385694+00:00",
+      "last_crawl": "2026-09-21T19:53:55.609778+00:00",
       "item_count": 0,
       "status": "error"
     },
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-21T13:16:13+00:00",
-      "item_count": 3764,
+      "last_crawl": "2026-09-21T19:53:47+00:00",
+      "item_count": 3767,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-21T13:16:13+00:00",
-      "item_count": 12108,
+      "last_crawl": "2026-09-21T19:53:47+00:00",
+      "item_count": 12107,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-21T13:16:13+00:00",
-      "item_count": 3801,
+      "last_crawl": "2026-09-21T19:53:47+00:00",
+      "item_count": 3738,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-21T13:16:13+00:00",
-      "item_count": 9223,
+      "last_crawl": "2026-09-21T19:53:47+00:00",
+      "item_count": 9237,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-21T13:16:13+00:00",
+      "last_crawl": "2026-09-21T19:53:47+00:00",
       "item_count": 919,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29815,
+    "total_products": 29768,
     "total_deals": 50,
-    "avg_discount": 62.2
+    "avg_discount": 62.1
   }
 }
