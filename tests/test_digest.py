@@ -167,3 +167,12 @@ def test_registry_has_only_enabled_parsers():
 
     assert set(REGISTRY) == {"mechta", "evrika", "shopkz", "sulpak", "technodom", "alser"}
     assert {"kaspi", "wb", "ozon", "satu", "dns"} <= set(ALL_PARSERS)
+
+
+def test_cloud_digest_links_dashboard_instead_of_groups(monkeypatch):
+    """В Actions группы не действуют (база ноутбука) — под сводкой ссылка на панель."""
+    from skidki.report import CLOUD_BUTTONS, DIGEST_BUTTONS, digest_buttons
+
+    assert digest_buttons() == DIGEST_BUTTONS
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    assert digest_buttons() == CLOUD_BUTTONS
