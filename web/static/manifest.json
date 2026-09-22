@@ -1,0 +1,13 @@
+{
+  "name": "skidki — мониторинг скидок в Казахстане",
+  "short_name": "skidki",
+  "description": "История цен, честная скидка и лучший выбор по 6+ магазинам Казахстана. Каждые 2 часа.",
+  "start_url": "/skidki-mechta-evrika/",
+  "display": "standalone",
+  "background_color": "#0a0f0d",
+  "theme_color": "#0a0f0d",
+  "lang": "ru",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

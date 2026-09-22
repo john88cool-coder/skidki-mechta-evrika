@@ -3,7 +3,7 @@
 	import { dashboard, fetchHistory } from '$lib/stores/data.svelte';
 	import { recentPrices, formatChange } from '$lib/utils/history';
 	import PriceChart from '$lib/components/PriceChart.svelte';
-	import { formatPrice, formatDate, shopLabel } from '$lib/utils/format';
+	import { formatPrice, formatDate, shopLabel, badgeTone } from '$lib/utils/format';
 	import type { ProductHistory } from '$lib/types';
 	import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check } from '@lucide/svelte';
 	import { favorites, favId } from '$lib/stores/favorites.svelte';
@@ -43,6 +43,7 @@
 		try { if (navigator.share) { await navigator.share({ title: history.product.title, url }); return; } } catch {}
 		navigator.clipboard.writeText(url).catch(()=>{}); copiedItem=true; setTimeout(()=>copiedItem=false,1400);
 	}
+	let dealForItem = $derived(dashboard.deals.find(d => d.product.shop === (history?.product.shop ?? shop) && d.product.sku === (history?.product.sku ?? sku)));
 	let change = $derived.by(() => {
 		if (!history || history.history.length < 2) return null;
 		const first = history.history[0].price;
@@ -74,6 +75,14 @@
 				{#if history.product.category}<span class="text-xs" style="color:var(--ink-4)">· {history.product.category}</span>{/if}
 			</div>
 			<h1 class="mt-2 text-xl font-bold tracking-tight leading-tight" style="color:var(--ink)">{history.product.title}</h1>
+			{#if dealForItem?.badges?.length || dealForItem?.is_pick}
+			<div class="badge-row" style="margin-top:10px">
+				{#each (dealForItem.badges ?? []) as b (b)}<span class="badge badge-{badgeTone(b)}">{b}</span>{/each}
+				{#if dealForItem?.fair_discount != null}<span class="badge badge-fair">честно {dealForItem.fair_discount}%</span>{/if}
+				{#if dealForItem?.value_score != null}<span class="badge badge-score">value {dealForItem.value_score}</span>{/if}
+				{#if dealForItem?.inflated_gap != null && dealForItem.inflated_gap >= 15}<span class="badge badge-warn" title="Завышение зачёркнутой">{dealForItem.inflated_gap} п.п. завышено</span>{/if}
+			</div>
+			{/if}
 			<div class="mt-3 flex flex-wrap items-baseline gap-3">
 				<span class="font-mono text-3xl font-black tracking-tight" style="color:var(--ink)">{formatPrice(history.product.price)}</span>
 				{#if change}
@@ -112,9 +121,31 @@
 		</div>
 	</section>
 
+	{#if dealForItem}
+	{@const related = dashboard.deals.filter(d => d.product.shop !== dealForItem!.product.shop || d.product.sku !== dealForItem!.product.sku).filter(d => (d.product.group && d.product.group === dealForItem!.product.group) || (d.product.brand && d.product.brand === dealForItem!.product.brand)).slice(0,4)}
+	{#if related.length}
+	<section class="rounded-2xl p-5 mb-5" style="background:white; border:1px solid var(--line)">
+		<h2 class="font-bold tracking-tight" style="color:var(--ink)">Похожие</h2>
+		<p class="text-xs mt-1" style="color:var(--ink-4)">Та же группа/бренд — альтернативы для сравнения.</p>
+		<div class="grid gap-2 mt-3">
+			{#each related as r (r.product.shop + r.product.sku)}<a href="{r.product.url}" target="_blank" rel="noopener" class="flex items-center justify-between gap-3 p-3 rounded-xl hover:shadow-[var(--shadow)] transition-shadow" style="border:1px solid var(--line)"><span class="text-sm font-medium truncate" style="color:var(--ink)">{r.product.title}</span><span class="font-mono text-sm font-bold shrink-0" style="color:var(--ink)">{formatPrice(r.product.price)}</span></a>{/each}
+		</div>
+	</section>
+	{/if}
+	{/if}
 	<section class="stat-grid">
 		<div class="stat-card"><p>Минимум за период</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
 		<div class="stat-card"><p>Медиана</p><p style="color:var(--ink)">{formatPrice(history.stats.median_30d)}</p></div>
 		<div class="stat-card"><p>Точек наблюдения</p><p style="color:var(--ink)">{history.history.length}</p></div>
 	</section>
 {/if}
+
+<style>
+.badge-row { display:flex; flex-wrap:wrap; gap:6px; }
+.badge { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 7px; border-radius:999px; border:1px solid var(--line); }
+.badge-pick { background: var(--ink); color:white; border-color: var(--ink); }
+.badge-fair { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
+.badge-brand { background: #fff7e6; color:#9a6a0a; border-color:#ffe2a8; }
+.badge-warn { background: var(--accent-2); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 18%, transparent); }
+.badge-score { background: var(--paper-2); color: var(--ink-2); }
+</style>

@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>skidki — Инструкция ИС · 2.0</title>
+<meta name="description" content="Полная инструкция по информационной системе skidki: мониторинг цен Казахстана, честная скидка, лучший выбор, сравнение, архитектура." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --paper:#fdfcfa; --paper2:#f6f3ef; --paper3:#ede9e3;
+  --ink:#0e1a15; --ink2:#2a3a33; --ink3:#5a6b64; --ink4:#8a9a93;
+  --line:#e8e2da; --line2:#ddd8d1;
+  --accent:#ff3b1f; --accent2:#ffede8; --accentink:#7a1a0a;
+  --success:#0a7a42; --successbg:#e6f4ec;
+  --r:16px; --rs:10px;
+  --shadow:0 1px 2px rgba(16,24,20,.06),0 8px 24px rgba(16,24,20,.06);
+}
+html[data-theme="dark"]{ --hero-border:#2a3d34;
+  --paper:#0c1210; --paper2:#131c18; --paper3:#1c2a24;
+  --ink:#eef4f0; --ink2:#c8d8d0; --ink3:#8ea69d; --ink4:#6a847b;
+  --line:#1e2e28; --line2:#2a3d34; --accent:#ff5a36; --accent2:#2a1a16;
+  --success:#34d399; --successbg:#132a20;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Instrument Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
+.mono{font-family:'JetBrains Mono',monospace}
+a{color:inherit}
+::selection{background:var(--accent);color:#fff}
+
+/* layout */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.layout{display:grid;grid-template-columns:250px 1fr;gap:40px;padding:36px 0 80px}
+@media(max-width:960px){.layout{grid-template-columns:1fr}.toc{display:none}}
+
+/* topbar */
+.topbar{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:color-mix(in srgb,var(--paper) 85%,transparent);border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;align-items:center;gap:14px;padding:12px 24px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;letter-spacing:-.04em;text-decoration:none}
+.logo-mark{width:32px;height:32px;border-radius:10px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-size:15px}
+.ver{font-family:'JetBrains Mono';font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);border-radius:999px;padding:2px 8px}
+.theme-btn{margin-left:auto;width:36px;height:36px;border-radius:999px;border:1px solid var(--line);background:var(--paper2);color:var(--ink2);cursor:pointer;font-size:14px}
+
+/* toc */
+.toc{position:sticky;top:80px;align-self:start;font-size:13px}
+.toc a{display:block;padding:6px 10px;border-radius:8px;color:var(--ink3);text-decoration:none;border-left:2px solid transparent}
+.toc a:hover{color:var(--ink);background:var(--paper2)}
+.toc a.active{color:var(--ink);border-left-color:var(--accent);background:var(--paper2);font-weight:600}
+.toc .toc-title{font-family:'JetBrains Mono';font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink4);padding:0 10px 8px}
+
+/* hero */
+.hero-doc{background:#0e1a15;color:#fdfcfa;border-radius:22px;padding:44px 40px;position:relative;overflow:hidden;margin:28px 0}
+html[data-theme="dark"] .hero-doc{border:1px solid var(--hero-border)}
+.hero-doc::before{content:'';position:absolute;inset:0;background:radial-gradient(600px 300px at 15% 0%,rgba(255,59,31,.16),transparent 60%),radial-gradient(500px 400px at 95% 100%,rgba(255,255,255,.07),transparent 60%)}
+.hero-doc>*{position:relative}
+.kicker{font-family:'JetBrains Mono';font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.hero-doc h1{font-family:'Newsreader',serif;font-weight:400;font-size:clamp(30px,4.5vw,52px);line-height:1;letter-spacing:-.035em;margin:14px 0 0}
+.hero-doc h1 i{color:#ff8a6b}
+.hero-doc p{max-width:640px;color:rgba(255,255,255,.65);font-size:15px;margin:16px 0 0}
+.hero-stats{display:flex;gap:28px;margin-top:28px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1);flex-wrap:wrap}
+.hero-stat strong{display:block;font-family:'JetBrains Mono';font-size:26px;font-weight:700;letter-spacing:-.05em}
+.hero-stat span{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5)}
+
+/* sections */
+section{margin:56px 0;scroll-margin-top:80px}
+.eyebrow{font-family:'JetBrains Mono';font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0}
+h2{font-family:'Newsreader',serif;font-weight:400;font-size:34px;letter-spacing:-.03em;line-height:1.05;margin:8px 0 12px}
+h2 i{font-style:italic;color:var(--ink3)}
+h3{font-size:17px;font-weight:700;letter-spacing:-.02em;margin:28px 0 10px}
+p{color:var(--ink3);font-size:15px;max-width:76ch}
+p strong,li strong{color:var(--ink2)}
+ul,ol{color:var(--ink3);font-size:15px;padding-left:22px}
+li{margin:6px 0}
+code{font-family:'JetBrains Mono';font-size:12.5px;background:var(--paper2);border:1px solid var(--line);border-radius:6px;padding:1px 6px;color:var(--ink2)}
+
+/* cards & demo frames */
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px}
+html[data-theme="dark"] .card{background:#141f1b}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:820px){.grid2,.grid3{grid-template-columns:1fr}}
+.demo{border:1px solid var(--line2);border-radius:14px;overflow:hidden;background:var(--paper)}
+.demo-bar{display:flex;gap:6px;padding:10px 12px;background:var(--paper2);border-bottom:1px solid var(--line)}
+.demo-bar i{width:9px;height:9px;border-radius:50%;background:var(--line2)}
+.demo-body{padding:18px}
+.demo-note{font-size:12px;color:var(--ink4);margin-top:10px;text-align:center}
+
+/* header mockup */
+.mk-header{display:flex;align-items:center;gap:16px;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 16px;flex-wrap:wrap}
+.mk-logo{display:flex;align-items:center;gap:8px;font-weight:700;letter-spacing:-.04em}
+.mk-nav{display:flex;gap:3px;padding:3px;background:var(--paper2);border:1px solid var(--line);border-radius:999px;flex-wrap:wrap}
+.mk-nav span{display:flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;font-size:12.5px;color:var(--ink3)}
+.mk-nav span.on{background:var(--ink);color:var(--paper)}
+.mk-badge{min-width:16px;height:16px;padding:0 4px;border-radius:999px;display:inline-grid;place-items:center;font-family:'JetBrains Mono';font-size:9px;font-weight:700;background:var(--accent);color:#fff}
+.mk-nav span.on .mk-badge{background:#fff;color:var(--ink)}
+
+/* product card mockup */
+.mk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.mk-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;position:relative}
+html[data-theme="dark"] .mk-card{background:#141f1b}
+.mk-photo{height:130px;display:grid;place-items:center;background:var(--paper2);font-size:40px}
+.mk-pill{position:absolute;top:10px;left:10px;background:var(--accent);color:#fff;font-family:'JetBrains Mono';font-size:11.5px;font-weight:700;padding:4px 8px;border-radius:999px}
+.mk-rank{position:absolute;top:10px;right:10px;font-family:'JetBrains Mono';font-size:9.5px;font-weight:700;color:var(--ink3);background:rgba(255,255,255,.9);border:1px solid var(--line);padding:3px 6px;border-radius:999px}
+.mk-body{padding:12px 14px}
+.mk-shop{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.mk-title{font-size:13px;font-weight:600;line-height:1.4;margin:8px 0;color:var(--ink)}
+.mk-price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.mk-price strong{font-family:'JetBrains Mono';font-size:19px;font-weight:700;letter-spacing:-.04em;color:var(--ink)}
+.mk-price del{font-family:'JetBrains Mono';font-size:11px;color:var(--ink4)}
+.mk-save{font-size:10.5px;font-weight:600;color:var(--success);background:var(--successbg);padding:2px 6px;border-radius:999px}
+.mk-badges{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+.badge{font-size:9.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 7px;border-radius:999px;border:1px solid var(--line)}
+.b-pick{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.b-fair{background:var(--successbg);color:var(--success);border-color:color-mix(in srgb,var(--success) 20%,transparent)}
+.b-brand{background:#fff7e6;color:#9a6a0a;border-color:#ffe2a8}
+html[data-theme="dark"] .b-brand{background:#2a2114;color:#eac17c;border-color:#4a3a1e}
+.b-warn{background:var(--accent2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 20%,transparent)}
+.b-score{background:var(--paper2);color:var(--ink2)}
+.mk-hist{margin-top:10px;border-top:1px solid var(--paper3);padding-top:8px;font-family:'JetBrains Mono';font-size:10.5px}
+.mk-hist .row{display:flex;justify-content:space-between;padding:3px 0;color:var(--ink3)}
+.mk-hist .down{color:var(--success)} .mk-hist .up{color:var(--accent)}
+
+/* chips mockup */
+.mk-chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.chip{padding:6px 12px;border-radius:999px;font-size:12.5px;font-weight:500;border:1px solid var(--line);background:#fff;color:var(--ink3)}
+html[data-theme="dark"] .chip{background:var(--paper2)}
+.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip-label{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink4);margin-right:4px}
+
+/* compare mockup */
+.mk-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.mk-table th,.mk-table td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--paper3)}
+html[data-theme="dark"] .mk-table th,html[data-theme="dark"] .mk-table td{border-color:var(--line)}
+.mk-table th{font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--ink4)}
+.mk-table td.mono{font-family:'JetBrains Mono'}
+
+/* value formula */
+.wbar{display:flex;height:26px;border-radius:999px;overflow:hidden;font-family:'JetBrains Mono';font-size:10px;font-weight:700;color:#fff;margin:10px 0 6px}
+.wbar i{display:grid;place-items:center}
+.w1{background:var(--accent);flex:55}.w2{background:#0a7a42;flex:20}.w3{background:#5a6b64;flex:15}.w4{background:#2a3a33;flex:10}
+.wlegend{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;font-size:12.5px;color:var(--ink3)}
+.wlegend b{color:var(--ink2)}
+
+/* architecture */
+.arch{display:grid;gap:10px}
+.arch-row{display:flex;gap:10px;flex-wrap:wrap}
+.arch-box{flex:1;min-width:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+html[data-theme="dark"] .arch-box{background:#141f1b}
+.arch-box b{display:block;font-size:13px;color:var(--ink)}
+.arch-box span{font-size:11.5px;color:var(--ink4)}
+.arch-box.hot{border-color:color-mix(in srgb,var(--accent) 35%,transparent);background:var(--accent2)}
+.arch-arrow{text-align:center;color:var(--ink4);font-size:16px;line-height:1;margin:2px 0}
+.arch-arrow::before{content:'↓'}
+.arch-row .arch-arrow{display:flex;align-items:center;font-size:20px}
+.arch-row .arch-arrow::before{content:'→'}
+@media(max-width:820px){.arch-row .arch-arrow::before{content:'↓'}}
+
+/* shops table */
+.shops-tbl{width:100%;border-collapse:collapse;font-size:13px}
+.shops-tbl th,.shops-tbl td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.shops-tbl th{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink4)}
+.st-on{display:inline-flex;align-items:center;gap:6px;color:var(--success);font-weight:600}
+.st-on::before,.st-off::before{content:'';width:8px;height:8px;border-radius:50%}
+.st-on::before{background:var(--success)}
+.st-off{display:inline-flex;align-items:center;gap:6px;color:var(--ink4)}
+.st-off::before{background:var(--ink4)}
+.tag{font-family:'JetBrains Mono';font-size:9.5px;font-weight:700;letter-spacing:.05em;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--ink3);text-transform:uppercase}
+.tag.t1{background:var(--accent2);color:var(--accent);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+.tag.ok{background:var(--successbg);color:var(--success);border-color:color-mix(in srgb,var(--success) 25%,transparent)}
+.tag.plan{background:var(--paper2);color:var(--ink3)}
+
+/* kbd */
+kbd{font-family:'JetBrains Mono';font-size:11px;font-weight:700;background:var(--paper2);border:1px solid var(--line2);border-bottom-width:2px;border-radius:6px;padding:2px 7px;color:var(--ink2)}
+
+/* steps */
+.step{display:flex;gap:14px;margin:14px 0}
+.step-n{flex-shrink:0;width:28px;height:28px;border-radius:999px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:'JetBrains Mono';font-size:12px;font-weight:700}
+.step div{flex:1}
+
+/* callouts */
+.note{border-left:3px solid var(--accent);background:var(--accent2);border-radius:0 12px 12px 0;padding:12px 16px;font-size:13.5px;color:var(--accentink);margin:16px 0}
+html[data-theme="dark"] .note{color:#ffb59e}
+.note.g{border-color:var(--success);background:var(--successbg);color:var(--success)}
+
+/* command palette mockup */
+.mk-palette{max-width:480px;margin:0 auto;background:#fff;border:1px solid var(--line2);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+html[data-theme="dark"] .mk-palette{background:#141f1b}
+.mk-palette .in{display:flex;gap:10px;align-items:center;padding:13px 14px;border-bottom:1px solid var(--line);color:var(--ink4);font-size:13.5px}
+.mk-item{display:flex;gap:10px;align-items:center;padding:9px 14px;font-size:13px;color:var(--ink2)}
+.mk-item.sel{background:var(--ink);color:#fff;border-radius:10px;margin:0 6px;padding:9px 10px}
+.mk-item .shop-tag{font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:var(--paper2);color:var(--ink3);padding:2px 6px;border-radius:6px}
+.mk-item.sel .shop-tag{background:rgba(255,255,255,.15);color:#fff}
+.mk-foot{display:flex;gap:12px;padding:8px 14px;font-size:10.5px;color:var(--ink4);background:var(--paper2);border-top:1px solid var(--line)}
+
+footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0;font-size:12.5px;color:var(--ink4);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.livedemo{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:600;font-size:14px;padding:11px 20px;border-radius:999px;margin-top:6px}
+.livedemo:hover{opacity:.9}
+</style>
+</head>
+<body>
+<script>
+let t;try{t=localStorage.getItem('skidki-theme')}catch{}
+document.documentElement.dataset.theme = t==='light'||t==='dark' ? t : (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+</script>
+
+<div class="topbar"><div class="wrap">
+  <a class="logo" href="#"><span class="logo-mark">↘</span>skidki<span style="font-size:11px;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:var(--ink4);margin-left:4px">инструкция</span></a>
+  <span class="ver">ИС 2.0 · 2026</span>
+  <button class="theme-btn" onclick="toggleTheme()" title="Тема">◐</button>
+</div></div>
+
+<div class="wrap">
+<div class="layout">
+  <!-- TOC -->
+  <nav class="toc" aria-label="Содержание">
+    <p class="toc-title">Содержание</p>
+    <a href="#overview">1 · Обзор системы</a>
+    <a href="#quickstart">2 · Быстрый старт</a>
+    <a href="#pages">3 · Страницы интерфейса</a>
+    <a href="#badges">4 · Бейджи и метрики</a>
+    <a href="#value">5 · Value score</a>
+    <a href="#palette">6 · Палитра команд ⌘K</a>
+    <a href="#arch">7 · Архитектура</a>
+    <a href="#shops">8 · Магазины</a>
+    <a href="#ops">9 · Установка и эксплуатация</a>
+    <a href="#faq">10 · FAQ</a>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <div class="hero-doc">
+      <p class="kicker">Информационная система · Казахстан · 2026</p>
+      <h1>skidki — <i>честные</i> цены,<br>проверенные историей.</h1>
+      <p>Мониторинг скидок в магазинах Казахстана с собственной историей цен, метрикой «лучшего товара» и прозрачной аналитикой. Никаких нарисованных зачёркиваний — только факты наблюдений.</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>6+</strong><span>магазинов</span></div>
+        <div class="hero-stat"><strong>~16k</strong><span>позиций</span></div>
+        <div class="hero-stat"><strong>2 ч</strong><span>цикл обхода</span></div>
+        <div class="hero-stat"><strong>0–100</strong><span>value score</span></div>
+      </div>
+    </div>
+    <p><a class="livedemo" href="https://john88cool-coder.github.io/skidki-mechta-evrika/" target="_blank" rel="noopener">Открыть живую панель ↗</a></p>
+
+    <!-- 1 OVERVIEW -->
+    <section id="overview">
+      <p class="eyebrow">Раздел 1</p>
+      <h2>Что такое <i>skidki</i></h2>
+      <p>Это ИС из трёх контуров: <strong>обходчик</strong> собирает цены магазинов каждые 2 часа → <strong>аналитика</strong> считает сигналы и честную скидку по истории → <strong>панель и Telegram</strong> показывают результаты. История хранится отрезками «цена держалась с … по …», что даёт взвешенную медиану вместо шумных снимков.</p>
+      <div class="grid3" style="margin-top:16px">
+        <div class="card"><h3 style="margin-top:0">🛰 Сбор</h3><p style="font-size:13.5px">Парсеры 6 активных + 5 резервных магазинов (Kaspi, WB, Ozon…). Playwright обходит Cloudflare, API-магазины берутся напрямую.</p></div>
+        <div class="card"><h3 style="margin-top:0">🧠 Аналитика</h3><p style="font-size:13.5px">5 сигналов: скидка, падение к медиане, минимум 30 дней, цель, ресток. Скоринг «лучшего товара» поверх сигналов.</p></div>
+        <div class="card"><h3 style="margin-top:0">📊 Выдача</h3><p style="font-size:13.5px">Статическая панель на GitHub Pages: топ-выборы, каталог, сравнение, избранное, палитра команд. Плюс Telegram-сводки.</p></div>
+      </div>
+      <div class="note">Ключевая идея: <strong>зачёркнутая цена магазина — не доказательство скидки</strong>. Доказательство — собственная история наблюдений ИС. Всё остальное строится на этом принципе.</div>
+    </section>
+
+    <!-- 2 QUICKSTART -->
+    <section id="quickstart">
+      <p class="eyebrow">Раздел 2</p>
+      <h2>Быстрый <i>старт</i></h2>
+      <div class="step"><div class="step-n">1</div><div><strong>Откройте панель</strong> — главная показывает hero со статистикой, динамику лидера и топ-8 предложений дня.</div></div>
+      <div class="step"><div class="step-n">2</div><div><strong>Изучите «Топ»</strong> — раздел с готовыми выборами: «Выбор ИС», «Честная скидка», лучшие по value и по группам.</div></div>
+      <div class="step"><div class="step-n">3</div><div><strong>Фильтруйте каталог</strong> — магазин, группа, бренд, цена, глубина скидки, наличие, избранное и бейджи. Все параметры сохраняются в URL — ссылкой можно поделиться.</div></div>
+      <div class="step"><div class="step-n">4</div><div><strong>Жмите <code>⌘K</code></strong> (или <code>/</code>) — мгновенный поиск по всем товарам и переход между разделами, не отрывая рук от клавиатуры.</div></div>
+      <div class="step"><div class="step-n">5</div><div><strong>Сравнивайте и сохраняйте</strong> — кнопка «⚖» на карточке добавляет товар в сравнение (до 4), «♥» — в избранное. Оба хранятся в браузере.</div></div>
+      <div class="note g">Данные обновляются каждые 2 часа автоматически; панель сама подтягивает свежий срез каждые 30 секунд — перезагрузка не нужна.</div>
+    </section>
+
+    <!-- 3 PAGES -->
+    <section id="pages">
+      <p class="eyebrow">Раздел 3</p>
+      <h2>Страницы <i>интерфейса</i></h2>
+      <p>Семь маршрутов, единая дизайн-система. Ниже — визуальная демонстрация ключевых экранов (точные миниатюры реального UI).
+
+      <h3>Шапка и навигация</h3>
+      <div class="demo"><div class="demo-bar"><i></i><i></i><i></i></div>
+        <div class="mk-header">
+          <span class="mk-logo"><span class="logo-mark" style="width:26px;height:26px;border-radius:8px;font-size:12px">↘</span>skidki</span>
+          <nav class="mk-nav"><span class="on">Обзор</span><span>Топ</span><span>Каталог</span><span>Сравнение <b class="mk-badge">2</b></span><span>Магазины</span><span>Избранное <b class="mk-badge">3</b></span></nav>
+          <span style="margin-left:auto;font-size:11px;color:var(--ink4)">● обновлено 12 мин назад</span>
+        </div>
+        <p class="demo-note">Pill-навигация, счётчики сравнения и избранного, свежесть данных, поиск ⌘K, тема.</p>
+      </div>
+
+      <h3>Карточка товара</h3>
+      <div class="demo"><div class="demo-bar"><i></i><i></i><i></i></div>
+        <div class="demo-body"><div class="mk-grid">
+          <div class="mk-card">
+            <div style="position:relative"><div class="mk-photo">⌚</div><span class="mk-pill">−50%</span><span class="mk-rank">#01</span></div>
+            <div class="mk-body">
+              <span class="mk-shop">Технодом</span>
+              <p class="mk-title">Смарт-часы HONOR CHOICE Watch Black</p>
+              <div class="mk-price"><strong>14 990 ₸</strong><del>29 990 ₸</del><span class="mk-save">−15 000 ₸</span></div>
+              <div class="mk-badges"><span class="badge b-pick">Выбор ИС</span><span class="badge b-fair">Честно 21%</span><span class="badge b-score">86</span></div>
+              <div class="mk-hist">
+                <div class="row"><span>22 сен</span><span>14 990 ₸</span><span class="down">−8,3%</span></div>
+                <div class="row"><span>21 сен</span><span>16 350 ₸</span><span class="up">+1,2%</span></div>
+                <div class="row"><span>20 сен</span><span>16 160 ₸</span><span class="down">−4,5%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mk-card">
+            <div style="position:relative"><div class="mk-photo">📺</div><span class="mk-pill">−29%</span><span class="mk-rank">#02</span></div>
+            <div class="mk-body">
+              <span class="mk-shop">Мечта</span>
+              <p class="mk-title">Телевизор Samsung LED UE43U8000FUXKZ UHD SMART</p>
+              <div class="mk-price"><strong>179 990 ₸</strong><del>254 990 ₸</del><span class="mk-save">−75 000 ₸</span></div>
+              <div class="mk-badges"><span class="badge b-brand">Топ-Бренд</span><span class="badge b-warn">Рисованная?</span></div>
+              <div class="mk-hist">
+                <div class="row"><span>22 сен</span><span>179 990 ₸</span><span>—</span></div>
+                <div class="row"><span>18 сен</span><span>179 990 ₸</span><span>0%</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="demo-note">Фото с CDN, pill скидки, ранг, экономия в ₸, бейджи скоринга и мини-история с изменениями.</p></div>
+      </div>
+
+      <h3>Фильтры каталога</h3>
+      <div class="demo"><div class="demo-bar"><i></i><i></i><i></i></div>
+        <div class="demo-body">
+          <div class="card" style="display:grid;gap:12px">
+            <div class="mk-chips"><span style="flex:1;min-width:200px;display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--paper2);border-radius:999px;padding:9px 14px;color:var(--ink4);font-size:13px">🔍 Поиск по названию, бренду…</span><span class="chip">Сортировка ▾</span></div>
+            <div class="mk-chips"><span class="chip-label">Магазин</span><span class="chip on">Все</span><span class="chip">Мечта</span><span class="chip">Технодом</span><span class="chip">Сулпак</span></div>
+            <div class="mk-chips"><span class="chip-label">Бейдж</span><span class="chip on">Все</span><span class="chip">Выбор ИС</span><span class="chip">Честная скидка</span><span class="chip">Рисованная?</span></div>
+            <div class="mk-chips"><span class="chip-label">Скидка от</span><input type="range" disabled style="accent-color:var(--ink)" /><span class="mono" style="color:var(--accent);font-weight:700;font-size:13px">−25%</span><span class="chip-label" style="margin-left:10px">Цена</span><span class="chip">до 100k</span><span class="chip on">до 200k</span></div>
+          </div>
+          <p class="demo-note">Чипы-фильтры, слайдер скидки, ценовые бакеты, тумблеры «в наличии» и «избранное». Всё — в URL.</p>
+        </div>
+      </div>
+
+      <h3>Сравнение</h3>
+      <div class="demo"><div class="demo-bar"><i></i><i></i><i></i></div>
+        <div class="demo-body"><div class="card" style="padding:0;overflow-x:auto">
+          <table class="mk-table">
+            <thead><tr><th>Параметр</th><th>Технодом</th><th>Мечта</th></tr></thead>
+            <tbody>
+              <tr><td style="color:var(--ink3)">Товар</td><td><b>HONOR CHOICE</b></td><td><b>Samsung UE43</b></td></tr>
+              <tr><td style="color:var(--ink3)">Цена</td><td class="mono"><b>14 990 ₸</b></td><td class="mono"><b>179 990 ₸</b></td></tr>
+              <tr><td style="color:var(--ink3)">Скидка магаз.</td><td class="mono" style="color:var(--accent)">−50%</td><td class="mono" style="color:var(--accent)">−29%</td></tr>
+              <tr><td style="color:var(--ink3)">Честная</td><td class="mono" style="color:var(--success)">21%</td><td class="mono">—</td></tr>
+              <tr><td style="color:var(--ink3)">Value</td><td class="mono"><b>86</b></td><td class="mono">61</td></tr>
+              <tr><td style="color:var(--ink3)">Бейджи</td><td>Выбор ИС · Честная</td><td>Топ-Бренд · Рисованная?</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="demo-note">До 4 товаров бок о бок: цена, скидки (магазинная vs честная), value, бейджи.</p></div>
+      </div>
+    </section>
+
+    <!-- 4 BADGES -->
+    <section id="badges">
+      <p class="eyebrow">Раздел 4</p>
+      <h2>Бейджи и <i>метрики</i></h2>
+      <p>Скоринг считается при каждом экспорте данных и не хранится в базе — значения всегда соответствуют свежей истории.
+      <div class="card" style="margin-top:14px">
+        <div style="display:grid;gap:14px">
+          <div style="display:flex;gap:12px;align-items:flex-start"><span class="badge b-pick">Выбор ИС</span><p style="margin:0;font-size:13.5px">Честная скидка ≥18%, value ≥78, цена ≥20 000 ₸, в наличии. Высшая рекомендация системы.</p></div>
+          <div style="display:flex;gap:12px;align-items:flex-start"><span class="badge b-fair">Честная скидка</span><p style="margin:0;font-size:13.5px">Падение к взвешенной медиане за 14 дней подтверждено историей не короче 3 дней.</p></div>
+          <div style="display:flex;gap:12px;align-items:flex-start"><span class="badge b-brand">Топ-Бренд</span><p style="margin:0;font-size:13.5px">Бренд из топ-списка рынка KZ (Samsung, Apple, Xiaomi, LG, Sony, Bosch, Dyson…).</p></div>
+          <div style="display:flex;gap:12px;align-items:flex-start"><span class="badge b-warn">Рисованная?</span><p style="margin:0;font-size:13.5px">Магазинная скидка превышает честную на 15+ п.п. — зачёркнутая цена завышена. Не приговор, а повод смотреть историю.</p></div>
+          <div style="display:flex;gap:12px;align-items:flex-start"><span class="badge b-score">value N</span><p style="margin:0;font-size:13.5px">Итоговый балл 0–100 из компонентов следующего раздела.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 VALUE -->
+    <section id="value">
+      <p class="eyebrow">Раздел 5</p>
+      <h2>Как считается <i>value score</i></h2>
+      <div class="wbar"><i class="w1">0.55</i><i class="w2">0.20</i><i class="w3">0.15</i><i class="w4">0.10</i></div>
+      <div class="wlegend">
+        <span><b>55% — честная скидка</b><br>нормирована 0→45% с плавной кривой</span>
+        <span><b>20% — доверие к бренду</b><br>топ 1.0 · известный 0.8 · noname 0.3</span>
+        <span><b>15% — доступность</b><br>в наличии 1.0 · витрина/мало 0.6</span>
+        <span><b>10% — свежесть</b><br>≤6 ч 1.0 · ≤24 ч 0.55 · старше 0.2</span>
+      </div>
+      <p style="margin-top:14px">Плюс мягкий бонус <code>+5</code> за внешние оценки (рейтинг ≥4.5 и ≥50 отзывов), если магазин их отдаёт. Итог масштабируется в 0–100. Честная скидка дополнительно режется, если зачёркнутая цена выше медианы рынка на 12%+ — защита от инфляции «было 999 990».</p>
+      <div class="note">Пример: товар со скидкой −50% на витрине, но история ровная → честная ≈ 0%, бейдж «Рисованная?», value низкий. Тот же товар с реальным падением к медиане → «Честная скидка» и высокий value. <strong>Система различает эти случаи.</strong></div>
+    </section>
+
+    <!-- 6 PALETTE -->
+    <section id="palette">
+      <p class="eyebrow">Раздел 6</p>
+      <h2>Палитра <i>команд</i></h2>
+      <p>Нажмите <kbd>⌘K</kbd> (macOS) / <kbd>Ctrl K</kbd> (Windows) или <kbd>/</kbd> в любом месте панели:
+      <div class="demo" style="margin-top:12px"><div class="demo-bar"><i></i><i></i><i></i></div>
+        <div class="demo-body" style="background:color-mix(in srgb,var(--ink) 4%,transparent)">
+          <div class="mk-palette">
+            <div class="in">🔍 <span>смарт-часы</span></div>
+            <div style="padding:8px">
+              <div class="mk-item sel"><span class="shop-tag">Технодом</span> HONOR CHOICE Watch Black <span class="mono" style="margin-left:auto;font-weight:700">14 990 ₸</span></div>
+              <div class="mk-item"><span class="shop-tag">Мечта</span> Huawei Watch GT4 46mm <span class="mono" style="margin-left:auto;font-weight:700">49 990 ₸</span></div>
+              <div class="mk-item"><span class="shop-tag">Сулпак</span> Apple Watch Series 10 <span class="mono" style="margin-left:auto;font-weight:700">189 990 ₸</span></div>
+            </div>
+            <div class="mk-foot"><span>↵ открыть</span><span>↑↓ навигация</span><span>Esc закрыть</span></div>
+          </div>
+          <p class="demo-note">Живой поиск по товарам, брендам и магазинам + быстрый переход по разделам.</p>
+        </div>
+      </div>
+      <h3>Горячие клавиши</h3>
+      <div class="card"><table class="mk-table">
+        <tbody>
+          <tr><td style="width:160px"><kbd>⌘K</kbd> / <kbd>Ctrl K</kbd></td><td>Открыть/закрыть палитру поиска</td></tr>
+          <tr><td><kbd>/</kbd></td><td>Быстрый поиск (вне полей ввода)</td></tr>
+          <tr><td><kbd>↑</kbd> <kbd>↓</kbd></td><td>Навигация по результатам палитры</td></tr>
+          <tr><td><kbd>↵</kbd></td><td>Открыть выбранный результат</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>Закрыть палитру</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <!-- 7 ARCH -->
+    <section id="arch">
+      <p class="eyebrow">Раздел 7</p>
+      <h2>Архитектура <i>системы</i></h2>
+      <div class="arch" style="margin-top:14px">
+        <div class="arch-row">
+          <div class="arch-box"><b>🛒 Парсеры (11)</b><span>mechta · evrika · shopkz · sulpak · technodom · alser + резерв: kaspi · wb · ozon · satu · dns</span></div>
+          <div class="arch-box hot"><b>🌐 Playwright</b><span>обход Cloudflare, общий контекст браузера</span></div>
+        </div>
+        <div class="arch-arrow"></div>
+        <div class="arch-row">
+          <div class="arch-box"><b>🗄 SQLite</b><span>products · spans (история отрезками) · alerts · queue · crawls</span></div>
+          <div class="arch-box"><b>🧠 evaluate.py</b><span>5 сигналов: deal · drop · low · target · restock</span></div>
+        </div>
+        <div class="arch-arrow"></div>
+        <div class="arch-row">
+          <div class="arch-box"><b>💬 Telegram</b><span>сводка по группам, кнопки /groups · /status</span></div>
+          <div class="arch-box"><b>📈 scoring.py</b><span>fair discount → value score → бейджи</span></div>
+          <div class="arch-box"><b>📤 export.py</b><span>latest.json + history.json → gh-pages</span></div>
+        </div>
+        <div class="arch-arrow"></div>
+        <div class="arch-row">
+          <div class="arch-box hot"><b>📊 Панель (SvelteKit)</b><span>7 маршрутов · ⌘K · избранное · сравнение · топы · тёмная тема · PWA</span></div>
+        </div>
+      </div>
+      <p style="margin-top:14px">История цен хранится <strong>отрезками</strong>: «цена P держалась с T1 по T2». Обход с той же ценой продлевает отрезок, а не пишет новую строку — 16k позиций × 12 обходов/сутки не раздувают базу. Медиана считается <strong>взвешенно по времени</strong>: цена, державшаяся неделю, весит больше двухчасовой распродажи.</p>
+    </section>
+
+    <!-- 8 SHOPS -->
+    <section id="shops">
+      <p class="eyebrow">Раздел 8</p>
+      <h2>Магазины <i>сети</i></h2>
+      <div class="card" style="padding:0;overflow-x:auto;margin-top:14px"><table class="shops-tbl">
+        <thead><tr><th>Магазин</th><th>Статус</th><th>Метод</th><th>Приоритет</th></tr></thead>
+        <tbody>
+          <tr><td><b>Мечта</b> mechta.kz</td><td><span class="st-on">активен</span></td><td>JSON API через браузер</td><td><span class="tag t1">T1</span></td></tr>
+          <tr><td><b>Эврика</b> evrika.com</td><td><span class="st-on">активен</span></td><td>__NEXT_DATA__ SSR</td><td><span class="tag t1">T1</span></td></tr>
+          <tr><td><b>Shop.kz</b></td><td><span class="st-on">активен</span></td><td>Битрикс SSR-листинги</td><td><span class="tag t1">T1</span></td></tr>
+          <tr><td><b>Сулпак</b></td><td><span class="st-on">активен</span></td><td>SSR + AJAX</td><td><span class="tag t1">T1</span></td></tr>
+          <tr><td><b>Технодом</b></td><td><span class="st-on">активен</span></td><td>katalog/api/v2 JSON</td><td><span class="tag t1">T1</span></td></tr>
+          <tr><td><b>Алсер</b></td><td><span class="st-on">активен</span></td><td>mobapi POST</td><td><span class="tag ok">T2</span></td></tr>
+          <tr><td><b>Kaspi</b></td><td><span class="st-off">каркас</span></td><td>HTML-категории</td><td><span class="tag plan">план</span></td></tr>
+          <tr><td><b>Wildberries</b></td><td><span class="st-off">каркас</span></td><td>search/card API</td><td><span class="tag plan">план</span></td></tr>
+          <tr><td><b>Ozon</b></td><td><span class="st-off">каркас</span></td><td>composer API</td><td><span class="tag plan">план</span></td></tr>
+          <tr><td><b>Satu.kz</b></td><td><span class="st-off">каркас</span></td><td>HTML поиск</td><td><span class="tag plan">план</span></td></tr>
+          <tr><td><b>DNS</b></td><td><span class="st-off">каркас</span></td><td>Playwright + CF</td><td><span class="tag plan">план</span></td></tr>
+        </tbody>
+      </table></div>
+      <p style="margin-top:12px">Каркасы зарегистрированы в <code>REGISTRY</code>, но отключены (<code>ENABLED=False</code>) — включаются одной строкой, когда нужен рыночный срез для «честной цены» (см. <code>docs/KZ_MARKET_2026.md</code>).</p>
+    </section>
+
+    <!-- 9 OPS -->
+    <section id="ops">
+      <p class="eyebrow">Раздел 9</p>
+      <h2>Установка и <i>эксплуатация</i></h2>
+      <h3>Домашний ПК (Windows)</h3>
+      <ol>
+        <li><code>.env.example</code> → <code>.env</code>, вписать <code>TELEGRAM_BOT_TOKEN</code></li>
+        <li><code>pip install -e ".[dev]"</code> и <code>python -m playwright install chromium</code></li>
+        <li><code>powershell -ExecutionPolicy Bypass -File deploy\install_task.ps1</code> — обход каждые 2 ч</li>
+        <li><code>powershell -ExecutionPolicy Bypass -File deploy\install_bot_task.ps1</code> — слушатель кнопок Telegram</li>
+        <li>Готово: логи <code>logs\crawl-ДАТА.log</code>, база <code>data\skidki.sqlite3</code></li>
+      </ol>
+      <h3>GitHub Actions</h3>
+      <ul>
+        <li><strong>crawl</strong> — каждые 2 ч: 5 магазинов (кроме mechta), база в кэше Actions, экспорт → gh-pages</li>
+        <li><strong>dashboard</strong> — сборка панели при пуше в <code>web/**</code></li>
+        <li><strong>watchdog</strong> — 06:00/18:00 UTC: тревога, если обходов нет &gt;6 ч</li>
+        <li><strong>tests</strong> — pytest на фикстурах при пуше в main</li>
+      </ul>
+      <h3>Настройка без кода</h3>
+      <p>Пороги и цели — в <code>rules.toml</code>: глубина скидки, минимальная цена, цели по товарам (<code>watch</code>) и категориям (<code>category</code>). Изменения подхватываются следующим обходом.</p>
+      <div class="note">mechta блокирует IP дата-центров GitHub — этот магазин обходит домашний ПК, остальные пять — Actions. Это гибридная схема, зашитая в расписания.</div>
+    </section>
+
+    <!-- 10 FAQ -->
+    <section id="faq">
+      <p class="eyebrow">Раздел 10</p>
+      <h2>Частые <i>вопросы</i></h2>
+      <h3>Почему у товара нет бейджа «Честная скидка»?</h3>
+      <p>История короче 3 дней или падение к медиане меньше порога (7% и 2 000 ₸). Система честно молчит, пока данных мало.</p>
+      <h3>Что значит «Рисованная?»</h3>
+      <p>Магазинная скидка опережает подтверждённую историей на 15+ п.п. Типичный случай — завышенное «было». Смотрите график на карточке товара: ровная история при «−50%» говорит сама за себя.</p>
+      <h3>Где хранятся избранное и сравнение?</h3>
+      <p>В localStorage вашего браузера. Без аккаунта, без сервера, никуда не отправляются.</p>
+      <h3>Как поделиться подборкой фильтров?</h3>
+      <p>Просто скопируйте URL каталога — все фильтры в нём. На главной есть кнопка «Копировать топ-8» — список с ценами и ссылками в буфер.</p>
+      <h3>Данные устарели?</h3>
+      <p>Шапка показывает «обновлено N мин назад». Кнопка ↻ обновляет срез мгновенно; автообновление — каждые 30 секунд. Статус каждого магазина — на странице «Магазины».</p>
+      <h3>Как добавить магазин?</h3>
+      <p>Каркас парсера: модуль с <code>SHOP</code> и <code>async fetch(context, config)</code>, регистрация в <code>parsers/__init__.py</code>, метка в <code>export.py</code>. Каркасы Kaspi/WB/Ozon/Satu/DNS уже готовы — останется включить и проверить разметку.</p>
+    </section>
+
+    <footer>
+      <span><b>skidki</b> · ИС мониторинга цен · версия 2.0 · сентябрь 2026</span>
+      <span>Живая панель: john88cool-coder.github.io/skidki-mechta-evrika</span>
+    </footer>
+  </main>
+</div>
+</div>
+
+<script>
+function toggleTheme(){
+  const el=document.documentElement;
+  const next=el.dataset.theme==='dark'?'light':'dark';
+  el.dataset.theme=next;
+  try{localStorage.setItem('skidki-theme',next)}catch{}
+}
+// active TOC highlight
+const links=[...document.querySelectorAll('.toc a')];
+const secs=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+const io=new IntersectionObserver(es=>{
+  es.forEach(e=>{ if(e.isIntersecting){
+    links.forEach(l=>l.classList.remove('active'));
+    const l=links.find(l=>l.getAttribute('href')==='#'+e.target.id); if(l)l.classList.add('active');
+  }});
+},{rootMargin:'-20% 0px -70% 0px'});
+secs.forEach(s=>io.observe(s));
+</script>
+</body>
+</html>

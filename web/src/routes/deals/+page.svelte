@@ -17,10 +17,12 @@
 	let minPct = $state(Math.max(0, Math.min(90, Number(initial.get('min')) || 0)));
 	let priceMax = $state<string>(initial.get('pmax') ?? 'all');
 	let inStockOnly = $state(initial.get('stock') === '1');
+	let badgeFilter = $state<string>(initial.get('badge') ?? 'all');
+	let valueSort = false;
 	let favOnly = $state(initial.get('fav') === '1');
-	let sort = $state<'discount' | 'price' | 'price_desc' | 'title'>(
-		(initial.get('sort') === 'price' || initial.get('sort') === 'price_desc' || initial.get('sort') === 'title'
-			? (initial.get('sort') as 'discount' | 'price' | 'price_desc' | 'title')
+	let sort = $state<'discount' | 'price' | 'price_desc' | 'title' | 'value'>(
+		(initial.get('sort') === 'price' || initial.get('sort') === 'price_desc' || initial.get('sort') === 'title' || initial.get('sort') === 'value'
+			? (initial.get('sort') as 'discount' | 'price' | 'price_desc' | 'title' | 'value')
 			: 'discount')
 	);
 
@@ -33,6 +35,7 @@
 		if (minPct) filters.min = String(minPct);
 		if (priceMax !== 'all') filters.pmax = priceMax;
 		if (inStockOnly) filters.stock = '1';
+		if (badgeFilter !== 'all') filters.badge = badgeFilter;
 		if (favOnly) filters.fav = '1';
 		if (sort !== 'discount') filters.sort = sort;
 		return untrack(() => {
@@ -74,6 +77,7 @@
 			if ((d.drop_pct ?? 0) < minPct) return false;
 			if (d.product.price > max) return false;
 			if (inStockOnly && !d.product.in_stock) return false;
+			if (badgeFilter !== 'all' && !(d.badges ?? d.product.badges ?? []).includes(badgeFilter)) return false;
 			if (favOnly && !favorites.has(favId(d.product.shop, d.product.sku))) return false;
 			if (needle) {
 				const hay = `${d.product.title} ${d.product.brand ?? ''} ${d.product.category ?? ''}`.toLowerCase();
@@ -85,12 +89,14 @@
 			if (sort === 'price') return a.product.price - b.product.price;
 			if (sort === 'price_desc') return b.product.price - a.product.price;
 			if (sort === 'title') return a.product.title.localeCompare(b.product.title, 'ru');
+			if (sort === 'value') return (b.value_score ?? b.product.value_score ?? 0) - (a.value_score ?? a.product.value_score ?? 0);
+			if ((a as any).valueSort || (b as any).valueSort) {}
 			return (b.drop_pct ?? 0) - (a.drop_pct ?? 0);
 		});
 	});
 
-	function reset() { query = ''; shop = 'all'; group = 'all'; brand = 'all'; minPct = 0; priceMax = 'all'; inStockOnly = false; favOnly = false; sort = 'discount'; }
-	let hasFilters = $derived(query !== '' || shop !== 'all' || group !== 'all' || brand !== 'all' || minPct > 0 || priceMax !== 'all' || inStockOnly || favOnly || sort !== 'discount');
+	function reset() { query = ''; shop = 'all'; group = 'all'; brand = 'all'; badgeFilter='all'; minPct = 0; priceMax = 'all'; inStockOnly = false; favOnly = false; sort = 'discount'; }
+	let hasFilters = $derived(query !== '' || shop !== 'all' || group !== 'all' || brand !== 'all' || badgeFilter !== 'all' || minPct > 0 || priceMax !== 'all' || inStockOnly || favOnly || sort !== 'discount');
 </script>
 
 <svelte:head><title>Скидки — skidki</title></svelte:head>
@@ -120,6 +126,7 @@
 				<option value="discount">По скидке</option>
 				<option value="price">Цена ↑</option>
 				<option value="price_desc">Цена ↓</option>
+				<option value="value">По ценности</option>
 				<option value="title">По названию</option>
 			</select>
 		</label>
@@ -145,6 +152,12 @@
 		<span class="chip-label">Бренд</span>
 		{#each brands as b (b)}
 			<button onclick={() => (brand = b)} aria-pressed={brand === b} class="chip">{b === 'all' ? 'Все' : b}</button>
+		{/each}
+	</div>
+	<div class="chip-row">
+		<span class="chip-label">Бейдж</span>
+		{#each ['all', 'Выбор ИС', 'Честная скидка', 'Топ-Бренд', 'Рисованная?'] as b (b)}
+			<button onclick={() => (badgeFilter = b)} aria-pressed={badgeFilter === b} class="chip">{b === 'all' ? 'Все' : b}</button>
 		{/each}
 	</div>
 	<div class="flex flex-wrap gap-3 items-center">
