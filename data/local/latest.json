@@ -1,29 +1,6 @@
 {
-  "updated_at": "2026-09-22T21:46:25.619913+00:00",
+  "updated_at": "2026-09-22T23:20:19.275892+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017884",
-        "title": "Робот-пылесос TEFAL RG 8L65 WH",
-        "price": 62990,
-        "old_price": 284990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8l65-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 78,
-        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 78,
-      "fair_discount": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
     {
       "product": {
         "shop": "mechta",
@@ -115,6 +92,31 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 78,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 78.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017884",
+        "title": "Робот-пылесос TEFAL RG 8L65 WH",
+        "price": 62990,
+        "old_price": 284990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8l65-wh/",
+        "brand": "Tefal",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 78,
+        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -1273,7 +1275,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-22T21:31:57+00:00",
+      "last_crawl": "2026-09-22T23:20:13+00:00",
       "item_count": 7717,
       "status": "ok"
     },
