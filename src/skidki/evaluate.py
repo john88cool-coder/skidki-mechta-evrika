@@ -34,6 +34,9 @@ class SignalHit:
     base: int | None = None     # база сравнения: медиана (DROP) или прошлый минимум (LOW)
     days: float | None = None   # глубина истории, на которой держится сигнал
     target: int | None = None   # целевая цена (TARGET, RESTOCK)
+    # DEAL: медиана собственной истории за окно тренда, если истории хватает.
+    # Совпадает с ценой — цена не двигалась, «скидка» нарисована от старой цены.
+    reference: int | None = None
 
 
 @dataclass
@@ -176,7 +179,8 @@ def evaluate(
             ]
             fresh = not recent_deals or price < min(recent_deals)
         if fresh:
-            verdict.signals.append(SignalHit(Signal.DEAL, base=product.old_price))
+            known = reference if reference and trend_days >= thresholds.min_history_days else None
+            verdict.signals.append(SignalHit(Signal.DEAL, base=product.old_price, reference=known))
 
     # «Цель»: владелец назвал сумму — медианы ни при чём, надо брать.
     reached = [target for target in rules.targets_for(product) if price <= target]

@@ -23,7 +23,7 @@
 	</div>
 	<div class="flex items-center gap-4 text-sm shrink-0">
 		<span style="color:var(--ink-3)">{shop.item_count.toLocaleString('ru-RU')} поз.</span>
-		{#if shop.status !== 'error'}<span class="text-xs hidden sm:inline" style="color:var(--ink-4)">{timeAgo(shop.last_crawl)}</span>{/if}
+		{#if shop.last_crawl}<span class="text-xs hidden sm:inline" style="color:var(--ink-4)">{timeAgo(shop.last_crawl)}</span>{/if}
 		<config.icon class="h-[18px] w-[18px] {config.color}" />
 	</div>
 </div>

@@ -38,7 +38,7 @@
 		</div>
 	</section>
 {:else}
-	<div class="rounded-2xl p-8 text-center mb-8" style="background:white; border:1px solid var(--line); color:var(--ink-4)">Пока нет «Выбора ИС» — наберётся история и появятся честные скидки.</div>
+	<div class="rounded-2xl p-8 text-center mb-8" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-4)">Пока нет «Выбора ИС» — наберётся история и появятся честные скидки.</div>
 {/if}
 
 <section class="mb-8">
@@ -65,7 +65,7 @@
 	<h2 class="flex items-center gap-2 text-lg font-bold tracking-tight mb-3" style="color:var(--ink)"><TrendingUp size={18} /> Лучшее по группам</h2>
 	<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
 		{#each byGroup as row (row.key)}
-			<a href="{base}/deals?group={row.key}" class="rounded-2xl p-4 flex items-center justify-between gap-3 hover:shadow-[var(--shadow)] transition-shadow" style="background:white; border:1px solid var(--line)">
+			<a href="{base}/deals?group={row.key}" class="rounded-2xl p-4 flex items-center justify-between gap-3 hover:shadow-[var(--shadow)] transition-shadow" style="background:var(--surface); border:1px solid var(--line)">
 				<span class="text-sm font-medium" style="color:var(--ink-2)">{groupLabel(row.key)}</span>
 				<span class="text-xs px-2.5 py-1 rounded-full font-mono font-bold" style="background:var(--paper-2); color:var(--ink)">{row.count} · {row.best.value_score ?? '—'}</span>
 			</a>

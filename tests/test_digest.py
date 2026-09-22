@@ -49,7 +49,7 @@ def test_deal_line_shows_percent_old_price_and_link():
         '🏷 <b>−30%</b> <a href="https://www.mechta.kz/product/tefal-rg8577wh/">'
         "Робот-пылесос Tefal RG8577WH</a>"
     )
-    assert second == "└ <b>69 990 ₸</b> · <s>99 990 ₸</s> · Мечта · ⚠️ осталось мало"
+    assert second == "└ <b>69 990 ₸</b> · <s>99 990 ₸</s> · Мечта · осталось мало"
 
 
 def test_drop_line_shows_usual_price():
@@ -74,7 +74,7 @@ def test_digest_groups_in_fixed_order_with_counts():
         _drop(95_000, "d", group=None),
     ]
     text = format_digest(verdicts, rest=3)
-    assert text.startswith("<b>🔥 Новые скидки: 4</b>")
+    assert text.startswith("<b>🔥 Новые скидки: 7</b>")  # 4 показаны + 3 в очереди
     assert text.index(GROUPS["phones"]) < text.index(GROUPS["kitchen"]) < text.index("🗂 Прочее")
     assert f"<b>{GROUPS['phones']}</b> · 2" in text
     assert text.index("/product/b/") < text.index("/product/c/")  # глубже — выше
@@ -130,7 +130,7 @@ def test_status_lists_crawls_queue_and_muted():
         queued=5, muted={"tv"},
     )
     assert "Мечта: последний обход" in text and "7 636 позиций" in text
-    assert "Эврика: успешных обходов ещё не было" in text
+    assert "Эврика: на этом ПК не обходится" in text
     assert "В очереди: 5" in text and GROUPS["tv"] in text
 
 
@@ -144,3 +144,26 @@ def test_watchdog_names_stale_shops():
     text = format_watchdog([("mechta", 13.4), ("evrika", None)], 6)
     assert "Мечта: последний успешный 13 ч назад" in text
     assert "Эврика: ни одного успешного обхода" in text
+
+
+def _deal(reference: int | None) -> str:
+    item = Product(
+        shop="mechta", sku="1", title="Пылесос", price=79_990,
+        url="https://www.mechta.kz/product/x/", old_price=362_990, group="home",
+    )
+    return format_line(Verdict(item, [SignalHit(Signal.DEAL, base=362_990, reference=reference)]))
+
+
+def test_deal_against_own_history_flags_painted_discount():
+    """Скидка «−78%» при цене, стоявшей на месте, — помечается."""
+    assert "⚠️ цена не менялась" in _deal(80_990)
+    assert "обычно 99 990 ₸" in _deal(99_990)
+    assert "⚠️ обычно дешевле: 69 990 ₸" in _deal(69_990)
+    assert "цена не менялась" not in _deal(None)  # истории мало — молчим
+
+
+def test_registry_has_only_enabled_parsers():
+    from skidki.parsers import ALL_PARSERS, REGISTRY
+
+    assert set(REGISTRY) == {"mechta", "evrika", "shopkz", "sulpak", "technodom", "alser"}
+    assert {"kaspi", "wb", "ozon", "satu", "dns"} <= set(ALL_PARSERS)

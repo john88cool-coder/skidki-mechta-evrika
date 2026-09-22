@@ -41,12 +41,13 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "command",
-        choices=("crawl", "watchdog", "sample", "bot", "export"),
+        choices=("crawl", "watchdog", "sample", "bot", "export", "publish-local"),
         help=(
             "crawl — обход и уведомления; watchdog — тревога, если обходы перестали приходить; "
             "sample — пример сводки на текущих скидках из базы; "
             "bot — слушатель кнопок и команд Telegram (группы уведомлений); "
-            "export — JSON-срез для веб-панели на GitHub Pages"
+            "export — JSON-срез для веб-панели на GitHub Pages; "
+            "publish-local — срез домашнего ПК (mechta) в gh-pages/data/local"
         ),
     )
     parser.add_argument("--shop", action="append", choices=sorted(REGISTRY), help="только эти магазины")
@@ -73,6 +74,12 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     notifier = _build_notifier(args.console)
+
+    if args.command == "publish-local":
+        from .publish import publish_local
+
+        publish_local()
+        return 0
 
     if args.command == "export":
         from .export import export_for_web

@@ -15,6 +15,8 @@ if not "%~1"=="" call :shops %~1
 echo ===== %DATE% %TIME% start shops=%~1 >> "%LOG%"
 %PY% -m skidki.cli crawl %SHOP_ARGS% >> "%LOG%" 2>&1
 echo ===== %DATE% %TIME% exit %ERRORLEVEL% >> "%LOG%"
+rem Срез mechta — на панель (gh-pages/data/local): облако mechta не видит.
+%PY% -m skidki.cli publish-local >> "%LOG%" 2>&1
 rem Логи старше 14 дней не нужны.
 forfiles /p logs /m crawl-*.log /d -14 /c "cmd /c del @path" >nul 2>&1
 exit /b 0

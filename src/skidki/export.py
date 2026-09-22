@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import os
 import sqlite3
+from statistics import median
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
@@ -18,8 +19,11 @@ from .models import Product
 from .scoring import score_product
 from .storage import connect, current_deals, history as spans_history, last_successful_crawl, previous_item_count
 
-# Порядок магазинов — как в REGISTRY: сначала те, что обходятся в облаке.
-SHOPS = ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser", "kaspi", "wb", "ozon", "satu", "dns")
+# Только включённые парсеры: каркасы (kaspi, wb, ozon, satu, dns) висели на
+# панели красными «ошибками», хотя их никто не обходит.
+from .parsers import REGISTRY  # noqa: E402
+
+SHOPS = tuple(REGISTRY)
 
 # Куда пишется срез: SvelteKit копирует static/ в сборку как есть.
 # В CI пакет установлен в site-packages, там ROOT — не репозиторий, поэтому
@@ -31,7 +35,11 @@ WEB_DATA = Path(os.environ.get("SKIDKI_WEB_DATA") or ROOT / "web" / "static" / "
 DASHBOARD_MIN_PCT = 15
 DASHBOARD_MIN_PRICE = 10_000
 DASHBOARD_MAX_PCT = 90.0
-DASHBOARD_LIMIT = 50
+DASHBOARD_LIMIT = 50  # на магазин
+# Всего в срезе: 50 на всю панель отдавали топ одному магазину (mechta — 34 из
+# 50 с её «−80%»), shop.kz и Алсер не попадали вовсе.
+DASHBOARD_TOTAL = 150
+DASHBOARD_PER_SHOP_MIN = 10
 
 
 def _product_to_dict(p: Product) -> dict:
@@ -64,7 +72,10 @@ def _fair_discount_for(conn, product, at):
         return None
     drop = (ref - product.price) / ref * 100
     if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
-        return None
+        # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
+        # Иначе нарисованная «−81%» при цене, стоящей неделю, не получала
+        # бейдж «Рисованная?» (он требует подтверждённую fair_discount).
+        return 0.0
     return round(drop, 1)
 
 
@@ -103,11 +114,16 @@ def _shop_label(shop: str) -> str:
     return labels.get(shop, shop)
 
 
-def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
+def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> list[Product]:
     """Главный JSON: топ-скидки по всем магазинам и состояние обходов."""
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # Порог «давно не было обхода»: расписание — раз в 2 часа.
+    now = datetime.now(UTC)
+    stale_after = timedelta(hours=6)
+
     deals = []
+    picked: dict[str, Product] = {}
     for shop in SHOPS:
         products = current_deals(
             conn,
@@ -119,6 +135,7 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
         )
         for product in products:
             sc = _score_for(conn, product, now)
+            picked[product.identity] = product
             deals.append({
                 "product": _product_to_dict(product),
                 "signal": "deal",
@@ -129,12 +146,18 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
                 "badges": list(sc.badges),
                 "inflated_gap": sc.inflated_gap,
             })
-    deals.sort(key=lambda deal: deal["drop_pct"] or 0, reverse=True)
-    deals = deals[:DASHBOARD_LIMIT]
-
-    # Порог «давно не было обхода»: расписание — раз в 2 часа.
-    now = datetime.now(UTC)
-    stale_after = timedelta(hours=6)
+    # Подозрительные («Рисованная?») — в конец: витрина обещает скидки,
+    # проверенные историей, а не самые большие зачёркнутые цены.
+    rank = lambda deal: ("Рисованная?" in deal["badges"], -(deal["drop_pct"] or 0))  # noqa: E731
+    deals.sort(key=rank)
+    # Каждому магазину — минимум DASHBOARD_PER_SHOP_MIN мест, иначе магазины
+    # со скромными, но честными скидками (Алсер: до −48%) вытеснялись целиком.
+    guaranteed: list[dict] = []
+    for shop in SHOPS:
+        guaranteed += [d for d in deals if d["product"]["shop"] == shop][:DASHBOARD_PER_SHOP_MIN]
+    taken = {id(d) for d in guaranteed}
+    rest = [d for d in deals if id(d) not in taken]
+    deals = sorted([*guaranteed, *rest[: max(0, DASHBOARD_TOTAL - len(guaranteed))]], key=rank)
 
     shops: list[dict] = []
     for shop in SHOPS:
@@ -152,7 +175,7 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
             {
                 "name": shop,
                 "label": _shop_label(shop),
-                "last_crawl": last.isoformat() if last else now.isoformat(),
+                "last_crawl": last.isoformat() if last else None,
                 "item_count": count,
                 "status": status,
             }
@@ -161,7 +184,7 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
     # Статистика
     total_products = sum(s["item_count"] for s in shops)
     total_deals = len(deals)
-    avg_discount = sum(d["drop_pct"] or 0 for d in deals) / max(total_deals, 1)
+    avg_discount = median([d["drop_pct"] or 0 for d in deals]) if deals else 0
 
     data = {
         "updated_at": now.isoformat(),
@@ -176,9 +199,17 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
 
     with open(out_dir / "latest.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    # Позиции витрины — для истории: у каждой карточки должен быть график.
+    return [
+        picked[identity]
+        for deal in deals
+        if (identity := f'{deal["product"]["shop"]}:{deal["product"]["sku"]}') in picked
+    ]
 
 
-def export_history(conn: sqlite3.Connection, out_dir: Path, limit: int = 300) -> None:
+def export_history(
+    conn: sqlite3.Connection, out_dir: Path, limit: int = 300, shown: list[Product] | None = None
+) -> None:
     """История цен одним файлом — только по самым интересным позициям.
 
     Раньше история лежала тысячью мелких JSON (по файлу на товар): ~10 тыс.
@@ -190,6 +221,11 @@ def export_history(conn: sqlite3.Connection, out_dir: Path, limit: int = 300) ->
     for shop in SHOPS:
         deals.extend(current_deals(conn, min_pct=15, min_price=10000, max_pct=90, limit=limit, shop=shop))
     deals.sort(key=lambda p: p.shop_discount_pct or 0, reverse=True)
+    # Сначала — позиции витрины (их карточкам история нужна обязательно),
+    # затем — самые глубокие скидки до лимита.
+    if shown:
+        seen = {p.identity for p in shown}
+        deals = [*shown, *(p for p in deals if p.identity not in seen)]
 
     history: dict[str, dict] = {}
     since = (datetime.now(UTC) - timedelta(days=90)).isoformat(timespec="seconds")
@@ -236,8 +272,8 @@ def export_for_web(db_path: Path | None = None, out_dir: Path | None = None) -> 
     out.mkdir(parents=True, exist_ok=True)
 
     with connect(db_path) as conn:
-        export_dashboard(conn, out)
-        export_history(conn, out)
+        shown = export_dashboard(conn, out)
+        export_history(conn, out, shown=shown)
 
     return out
 

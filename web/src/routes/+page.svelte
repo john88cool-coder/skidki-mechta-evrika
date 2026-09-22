@@ -5,7 +5,7 @@
 	import ShopStatusCard from '$lib/components/ShopStatusCard.svelte';
 	import PriceChart from '$lib/components/PriceChart.svelte';
 	import SkeletonCard from '$lib/components/SkeletonCard.svelte';
-	import { formatPrice, shopLabel, groupLabel } from '$lib/utils/format';
+	import { formatPrice, shopLabel, groupLabel, formatPctValue, timeAgo } from '$lib/utils/format';
 	import type { ProductHistory } from '$lib/types';
 	import { ArrowRight, Sparkles, TrendingDown, ShieldCheck, Timer, Heart, Wallet, Trophy, Copy, Check } from '@lucide/svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
@@ -38,6 +38,15 @@
 			.sort((a, b) => b.count - a.count);
 	});
 
+	// Полосы групп — в масштабе к самой глубокой группе: при множителе 1.6
+	// все группы от −62% упирались в 100% и полосы были одинаковыми.
+	// Полоса — доля предложений группы (объём), процент — средняя глубина.
+	// Средние у групп близки (−58…−64%), полосы по ним выходили одинаковыми.
+	let maxGroupCount = $derived(Math.max(1, ...byGroup.map((row) => row.count)));
+	// Свежесть среза: «live» висел и на суточных данных.
+	let updatedAt = $derived(dashboard.data?.updated_at ?? null);
+	let stale = $derived(updatedAt ? Date.now() - new Date(updatedAt).getTime() > 6 * 3600_000 : true);
+
 	let bestDeal = $derived(dashboard.deals[0] ?? null);
 	let totalSavings = $derived(
 		dashboard.deals.reduce((s, d) => s + Math.max(0, (d.product.old_price ?? d.product.price) - d.product.price), 0)
@@ -69,7 +78,7 @@
 <!-- Hero -->
 <section class="hero">
 	<div class="hero-copy">
-		<p class="hero-kicker">Казахстан · 6 магазинов · каждые 2 часа</p>
+		<p class="hero-kicker">Казахстан · 6 магазинов · история каждой цены</p>
 		<h1 class="hero-title">Хорошая цена — <i>проверенная</i> историей.</h1>
 		<p class="hero-text">
 			Сравниваем скидку магазина с реальными наблюдениями. Видишь, падала ли цена на самом деле — и решаешь спокойно.
@@ -80,11 +89,11 @@
 				<span>позиций</span>
 			</div>
 			<div class="hero-stat">
-				<strong style="color:#ff8a6b">{dashboard.stats.total_deals || '—'}</strong>
+				<strong style="color:var(--hero-accent)">{dashboard.stats.total_deals || '—'}</strong>
 				<span>предложений</span>
 			</div>
 			<div class="hero-stat">
-				<strong>{dashboard.stats.avg_discount ? '\u2212' + dashboard.stats.avg_discount.toFixed(1) + '%' : '—'}</strong>
+				<strong>{dashboard.stats.avg_discount ? '\u2212' + formatPctValue(dashboard.stats.avg_discount) + '%' : '—'}</strong>
 				<span>средняя скидка</span>
 			</div>
 		</div>
@@ -92,7 +101,7 @@
 	<div class="hero-card">
 		<div class="hero-card-head">
 			<h3>Динамика лидера</h3>
-			<span class="live-dot">live</span>
+			{#if updatedAt}<span class="live-dot" class:stale title="Время последнего среза данных">{timeAgo(updatedAt)}</span>{/if}
 		</div>
 		{#if featured}
 			<p class="truncate text-xs mb-3" style="color:var(--ink-3)" title={featured.product.title}>
@@ -133,17 +142,17 @@
 {:else}
 	<!-- Инсайты -->
 	<section class="grid gap-3 sm:grid-cols-3 mb-6">
-		<div class="rounded-2xl p-4 flex items-center gap-3" style="background:white; border:1px solid var(--line)">
+		<div class="rounded-2xl p-4 flex items-center gap-3" style="background:var(--surface); border:1px solid var(--line)">
 			<span class="w-9 h-9 rounded-xl grid place-items-center shrink-0" style="background:var(--accent-2); color:var(--accent)"><Wallet size={16} /></span>
-			<div class="min-w-0"><p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Экономия топ-50</p><p class="font-mono font-bold" style="color:var(--ink)">{totalSavings.toLocaleString('ru-RU')} ₸</p></div>
+			<div class="min-w-0"><p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Экономия на витрине</p><p class="font-mono font-bold" style="color:var(--ink)">{totalSavings.toLocaleString('ru-RU')} ₸</p></div>
 		</div>
-		<div class="rounded-2xl p-4 flex items-center gap-3" style="background:white; border:1px solid var(--line)">
+		<div class="rounded-2xl p-4 flex items-center gap-3" style="background:var(--surface); border:1px solid var(--line)">
 			<span class="w-9 h-9 rounded-xl grid place-items-center shrink-0" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-2)"><Trophy size={16} /></span>
-			<div class="min-w-0"><p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Лидеры по скидке</p><p class="text-xs font-medium truncate" style="color:var(--ink)">{deepestByShop.map(([k, v]) => k + ' \u2212' + Math.round(v) + '%').join(' \u00B7 ') || '—'}</p></div>
+			<div class="min-w-0"><p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Лидеры по скидке</p><p class="text-xs font-medium truncate" style="color:var(--ink)">{deepestByShop.map(([k, v]) => shopLabel(k) + ' \u2212' + Math.round(v) + '%').join(' \u00B7 ') || '—'}</p></div>
 		</div>
-		<div class="rounded-2xl p-4 flex items-center justify-between gap-3" style="background:white; border:1px solid var(--line)">
+		<div class="rounded-2xl p-4 flex items-center justify-between gap-3" style="background:var(--surface); border:1px solid var(--line)">
 			<div class="flex items-center gap-3 min-w-0"><span class="w-9 h-9 rounded-xl grid place-items-center shrink-0" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-2)"><Heart size={16} /></span><div><p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Избранное</p><p class="font-mono font-bold" style="color:var(--ink)">{favorites.count}</p></div></div>
-			<button onclick={copyHome} class="shrink-0 inline-flex items-center gap-1.5 h-8 px-3 rounded-full text-xs font-semibold" style="background:var(--ink); color:white">{#if copiedHome}<Check size={12} /> Скопировано{:else}<Copy size={12} /> Копировать топ-8{/if}</button>
+			<button onclick={copyHome} class="shrink-0 inline-flex items-center gap-1.5 h-8 px-3 rounded-full text-xs font-semibold" style="background:var(--ink); color:var(--on-ink)">{#if copiedHome}<Check size={12} /> Скопировано{:else}<Copy size={12} /> Копировать топ-8{/if}</button>
 		</div>
 	</section>
 
@@ -152,7 +161,7 @@
 		<div class="kpi">
 			<span class="kpi-label"><ShieldCheck size={14} /> Позиций в базе</span>
 			<span class="kpi-value">{dashboard.stats.total_products.toLocaleString('ru-RU')}</span>
-			<span class="kpi-hint">6 магазинов · обновляется каждые 2 часа</span>
+			<span class="kpi-hint">6 магазинов · обход по расписанию, обычно раз в 2–6 ч</span>
 		</div>
 		<div class="kpi">
 			<span class="kpi-label"><Sparkles size={14} /> Предложений сегодня</span>
@@ -161,8 +170,8 @@
 		</div>
 		<div class="kpi">
 			<span class="kpi-label"><TrendingDown size={14} /> Средняя скидка</span>
-			<span class="kpi-value">−{dashboard.stats.avg_discount.toFixed(1)}%</span>
-			<span class="kpi-hint">Медиана по топ-50</span>
+			<span class="kpi-value">−{formatPctValue(dashboard.stats.avg_discount)}%</span>
+			<span class="kpi-hint">Медиана по витрине</span>
 		</div>
 	</section>
 
@@ -176,7 +185,7 @@
 			{#each dashboard.deals.slice(0, topCount) as deal, i (deal.product.shop + deal.product.sku)}
 				<DealCard {deal} rank={i + 1} />
 			{:else}
-				<div class="col-span-full rounded-2xl border border-dashed p-10 text-center" style="border-color:var(--line); color:var(--ink-3); background:white">
+				<div class="col-span-full rounded-2xl border border-dashed p-10 text-center" style="border-color:var(--line); color:var(--ink-3); background:var(--surface)">
 					Пока нет скидок. Первый обход скоро появится.
 				</div>
 			{/each}
@@ -185,15 +194,15 @@
 
 	<!-- Группы + магазины -->
 	<div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-		<section class="rounded-2xl p-5" style="background:white; border:1px solid var(--line)">
+		<section class="rounded-2xl p-5" style="background:var(--surface); border:1px solid var(--line)">
 			<h3 class="text-sm font-bold tracking-tight flex items-center gap-2" style="color:var(--ink)"><Timer size={14} /> Скидки по группам</h3>
-			<p class="text-xs mt-1" style="color:var(--ink-4)">Средняя глубина и количество предложений</p>
+			<p class="text-xs mt-1" style="color:var(--ink-4)">Полоса — число предложений, процент — средняя скидка</p>
 			{#if byGroup.length}
 				<div class="mt-4 space-y-3">
 					{#each byGroup as row (row.key)}
 						<div class="flex items-center gap-3">
 							<span class="flex-1 truncate text-sm font-medium" style="color:var(--ink-2)">{groupLabel(row.key)}</span>
-							<div class="group-bar"><i style="width:{Math.min(row.avg * 1.6, 100)}%"></i></div>
+							<div class="group-bar"><i style="width:{(row.count / maxGroupCount) * 100}%"></i></div>
 							<span class="font-mono text-sm font-bold" style="color:var(--accent)">−{row.avg.toFixed(0)}%</span>
 							<span class="text-xs w-7 text-right" style="color:var(--ink-4)">{row.count}</span>
 						</div>
@@ -204,7 +213,7 @@
 			{/if}
 		</section>
 
-		<section class="rounded-2xl p-5" style="background:white; border:1px solid var(--line)">
+		<section class="rounded-2xl p-5" style="background:var(--surface); border:1px solid var(--line)">
 			<div class="flex items-center justify-between">
 				<h3 class="text-sm font-bold tracking-tight" style="color:var(--ink)">Магазины</h3>
 				<a href="{base}/shops" class="text-xs font-semibold inline-flex items-center gap-1" style="color:var(--ink-3)">Подробнее <ArrowRight size={12} /></a>

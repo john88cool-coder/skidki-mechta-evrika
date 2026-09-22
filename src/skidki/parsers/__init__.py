@@ -1,17 +1,15 @@
-"""Парсеры магазинов. У каждого модуля: SHOP и async fetch(context, config)."""
+"""Парсеры магазинов. У каждого модуля: SHOP и async fetch(context, config).
+
+REGISTRY — только включённые парсеры. Каркасы с ENABLED=False (kaspi, wb, ozon,
+satu, dns) возвращают пустой список; в реестре они засчитывались бы обходом
+как поломка («0 позиций»), а /status и сторож показывали бы их как
+«обходов не было».
+"""
 
 from . import alser, dns, evrika, kaspi, mechta, ozon, satu, shopkz, sulpak, technodom, wb
 
-REGISTRY = {
-    mechta.SHOP: mechta,
-    evrika.SHOP: evrika,
-    shopkz.SHOP: shopkz,
-    sulpak.SHOP: sulpak,
-    technodom.SHOP: technodom,
-    alser.SHOP: alser,
-    kaspi.SHOP: kaspi,
-    wb.SHOP: wb,
-    ozon.SHOP: ozon,
-    satu.SHOP: satu,
-    dns.SHOP: dns,
+ALL_PARSERS = {
+    module.SHOP: module
+    for module in (mechta, evrika, shopkz, sulpak, technodom, alser, kaspi, wb, ozon, satu, dns)
 }
+REGISTRY = {name: module for name, module in ALL_PARSERS.items() if getattr(module, "ENABLED", True)}

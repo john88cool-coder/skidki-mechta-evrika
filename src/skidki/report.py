@@ -23,10 +23,26 @@ SHOP_LABELS = {
     "alser": "Алсер",
 }
 
+# Понятные формулировки пометок наличия: «на витрине» читалось как ошибка.
+STOCK_NOTES = {"на витрине": "витринный образец"}
+
+# Разница с медианой истории меньше 3% — цена по сути не двигалась.
+FLAT_TOLERANCE = 0.03
+
 Buttons = list[list[tuple[str, str]]]
 
 # Кнопка под сводкой: callback «groups» обрабатывает слушатель (skidki bot).
 DIGEST_BUTTONS: Buttons = [[("⚙️ Группы уведомлений", "groups")]]
+# В облаке (GitHub Actions) группы не действуют: выключение пишется в базу
+# ноутбука, облачная база о нём не знает. Там под сводкой — ссылка на панель.
+DASHBOARD_URL = "https://john88cool-coder.github.io/skidki-mechta-evrika/"
+CLOUD_BUTTONS: Buttons = [[("📊 Все скидки на панели", DASHBOARD_URL)]]
+
+
+def digest_buttons() -> Buttons:
+    import os
+
+    return CLOUD_BUTTONS if os.environ.get("GITHUB_ACTIONS") else DIGEST_BUTTONS
 
 
 def tenge(value: int) -> str:
@@ -97,16 +113,28 @@ def format_line(verdict: Verdict) -> str:
     if product.old_price and product.old_price > product.price:
         parts.append(f"<s>{tenge(product.old_price)}</s>")
     drop = verdict.hit(Signal.DROP)
+    deal = verdict.hit(Signal.DEAL)
     if drop and drop.base:
         parts.append(f"обычно {tenge(drop.base)}")
+    elif deal and deal.reference:
+        # Скидка магазина против собственной истории: двигалась ли цена на деле.
+        gap = deal.reference - product.price
+        if gap >= product.price * FLAT_TOLERANCE:
+            parts.append(f"обычно {tenge(deal.reference)}")
+        elif -gap >= product.price * FLAT_TOLERANCE:
+            parts.append(f"⚠️ обычно дешевле: {tenge(deal.reference)}")
+        else:
+            parts.append("⚠️ цена не менялась")
     low = verdict.hit(Signal.LOW)
     if low and low.base and not drop:
-        parts.append(f"мин. за 30 дн был {tenge(low.base)}")
+        parts.append(f"мин. за 30 дн. был {tenge(low.base)}")
     if verdict.has(Signal.RESTOCK):
         parts.append("снова в наличии")
     parts.append(SHOP_LABELS.get(product.shop, product.shop))
     if product.stock_note:
-        parts.append(f"⚠️ {html.escape(product.stock_note)}")
+        note = STOCK_NOTES.get(product.stock_note.casefold(), product.stock_note)
+        # Без ⚠️: значок — только у пометки о цене, иначе строка пестрит.
+        parts.append(html.escape(note))
     return f"{first}\n└ {' · '.join(parts)}"
 
 
@@ -123,7 +151,7 @@ def format_digest(verdicts: list[Verdict], rest: int = 0, title: str = "🔥 Н�
     Каждая строка самодостаточна (теги открываются и закрываются в ней же):
     длинную сводку notify режет по строкам, не ломая разметку.
     """
-    lines = [f"<b>{title}: {len(verdicts)}</b>"]
+    lines = [f"<b>{title}: {len(verdicts) + rest}</b>"]
     by_group: dict[str, list[Verdict]] = {}
     for verdict in sorted(verdicts, key=_rank_key):
         by_group.setdefault(_group_key(verdict), []).append(verdict)
@@ -160,7 +188,7 @@ def format_status(
     for shop, when, count in crawls:
         name = SHOP_LABELS.get(shop, shop)
         if when is None:
-            lines.append(f"• {name}: успешных обходов ещё не было")
+            lines.append(f"• {name}: на этом ПК не обходится — состояние на веб-панели")
         else:
             items = f"{count or 0:,}".replace(",", " ")
             lines.append(f"• {name}: последний обход {when.astimezone():%d.%m %H:%M}, {items} позиций")

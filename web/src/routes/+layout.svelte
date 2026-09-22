@@ -40,7 +40,7 @@
 		{/if}
 		{@render children()}
 		<footer class="app-footer">
-			<span><strong style="color:var(--ink)">skidki</strong> · Наблюдаем за ценами в Казахстане · 6 магазинов · каждые 2 часа</span>
+			<span><strong style="color:var(--ink)">skidki</strong> · Наблюдаем за ценами в Казахстане · 6 магазинов · история каждой цены</span>
 			<span>₸ KZT · Актуальную цену и наличие проверяйте в магазине</span>
 		</footer>
 	</main>

@@ -24,7 +24,7 @@
 	</div>
 	{#if favDeals.length}
 		<div class="flex gap-2">
-			<button onclick={copyList} class="h-10 px-4 rounded-full text-sm font-semibold" style="background:white; border:1px solid var(--line); color:var(--ink-2)">Копировать ссылки</button>
+			<button onclick={copyList} class="h-10 px-4 rounded-full text-sm font-semibold" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-2)">Копировать ссылки</button>
 			<button onclick={() => favorites.clear()} class="h-10 px-4 rounded-full text-sm font-semibold inline-flex items-center gap-1.5" style="background:var(--accent-2); border:1px solid color-mix(in srgb, var(--accent) 18%, transparent); color:var(--accent)"><Trash2 size={14} /> Очистить</button>
 		</div>
 	{/if}
@@ -33,7 +33,7 @@
 {#if !favorites.ready}
 	<p class="text-sm" style="color:var(--ink-4)">Загрузка…</p>
 {:else if favDeals.length === 0}
-	<div class="rounded-2xl p-10 text-center" style="background:white; border:1px solid var(--line)">
+	<div class="rounded-2xl p-10 text-center" style="background:var(--surface); border:1px solid var(--line)">
 		<div class="mx-auto w-12 h-12 rounded-2xl grid place-items-center mb-4" style="background:var(--paper-2); border:1px solid var(--line)"><Heart size={20} style="color:var(--ink-3)" /></div>
 		<p class="font-semibold" style="color:var(--ink)">Пока пусто</p>
 		<p class="text-sm mt-1" style="color:var(--ink-4)">Нажимай <Heart size={12} class="inline" /> на карточках — они появятся здесь.</p>

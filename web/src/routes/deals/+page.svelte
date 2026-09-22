@@ -6,7 +6,7 @@
 	import { favorites, favId } from '$lib/stores/favorites.svelte';
 	import DealCard from '$lib/components/DealCard.svelte';
 	import SkeletonCard from '$lib/components/SkeletonCard.svelte';
-	import { shopLabel, groupLabel, formatPrice } from '$lib/utils/format';
+	import { shopLabel, groupLabel, formatPrice, badgeLabel } from '$lib/utils/format';
 	import { Search, X, SlidersHorizontal, ArrowUpDown, Heart } from '@lucide/svelte';
 
 	const initial = untrack(() => page.url.searchParams);
@@ -107,7 +107,7 @@
 		<h1 class="page-heading">Все <em>скидки</em></h1>
 		<p class="page-description">Фильтруй по магазину, бренду, цене и наличию. История — внутри карточки. Параметры сохраняются в ссылке.</p>
 	</div>
-	<div class="flex items-center gap-2 rounded-full px-4 py-2 text-sm" style="background:white; border:1px solid var(--line)">
+	<div class="flex items-center gap-2 rounded-full px-4 py-2 text-sm" style="background:var(--surface); border:1px solid var(--line)">
 		<span style="color:var(--ink-4)">Найдено</span>
 		<span class="font-mono font-bold" style="color:var(--accent)">{filtered.length}</span>
 		<span style="color:var(--ink-4)">из {dashboard.deals.length}</span>
@@ -157,14 +157,14 @@
 	<div class="chip-row">
 		<span class="chip-label">Бейдж</span>
 		{#each ['all', 'Выбор ИС', 'Честная скидка', 'Топ-Бренд', 'Рисованная?'] as b (b)}
-			<button onclick={() => (badgeFilter = b)} aria-pressed={badgeFilter === b} class="chip">{b === 'all' ? 'Все' : b}</button>
+			<button onclick={() => (badgeFilter = b)} aria-pressed={badgeFilter === b} class="chip">{b === 'all' ? 'Все' : badgeLabel(b)}</button>
 		{/each}
 	</div>
 	<div class="flex flex-wrap gap-3 items-center">
 		<div class="range-wrap">
 			<span class="chip-label">Скидка от</span>
 			<input type="range" aria-label="Минимальная скидка" min="0" max="90" step="5" bind:value={minPct} />
-			<span class="range-val">−{minPct}%</span>
+			<span class="range-val">{minPct ? `−${minPct}%` : 'любая'}</span>
 		</div>
 		<div class="chip-row">
 			<span class="chip-label">Цена</span>
@@ -190,7 +190,7 @@
 		{/each}
 	</div>
 {:else}
-	<div class="rounded-2xl p-12 text-center" style="background:white; border:1px solid var(--line)">
+	<div class="rounded-2xl p-12 text-center" style="background:var(--surface); border:1px solid var(--line)">
 		<p class="font-medium" style="color:var(--ink-2)">Ничего не нашлось</p>
 		<p class="text-sm mt-1" style="color:var(--ink-4)">Попробуй изменить фильтры или поиск.</p>
 		{#if hasFilters}<button onclick={reset} class="mt-4 text-sm font-semibold underline underline-offset-4" style="color:var(--accent)">Сбросить фильтры</button>{/if}

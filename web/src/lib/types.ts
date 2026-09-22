@@ -24,7 +24,7 @@ export interface Product {
 export interface ShopStatus {
 	name: string;
 	label: string;
-	last_crawl: string;
+	last_crawl: string | null;
 	item_count: number;
 	status: 'ok' | 'warning' | 'error';
 	error?: string | null;

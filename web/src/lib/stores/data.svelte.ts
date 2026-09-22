@@ -1,5 +1,6 @@
 import { base } from '$app/paths';
 import type { DashboardData, Product, PricePoint, ProductHistory } from '$lib/types';
+import { mergeSnapshots } from '$lib/utils/merge';
 
 /** Пустой срез: панель до первого опубликованного обхода. */
 const EMPTY: DashboardData = {
@@ -8,6 +9,14 @@ const EMPTY: DashboardData = {
 	shops: [],
 	stats: { total_products: 0, total_deals: 0, avg_discount: 0 }
 };
+
+/** Срез может отсутствовать (404) — это не ошибка, а «ещё не публиковался». */
+async function fetchJson<T>(path: string): Promise<T | null> {
+	const res = await fetch(`${base}/data/${path}?t=${Date.now()}`);
+	if (res.status === 404) return null;
+	if (!res.ok) throw new Error(`HTTP ${res.status}`);
+	return (await res.json()) as T;
+}
 
 /**
  * Хранилище данных панели на рунах Svelte 5.
@@ -37,18 +46,20 @@ class DashboardStore {
 		if (this.loading && this.data) return;
 		this.loading = true;
 		try {
-			// Кэш-бастер: браузер иначе отдаёт latest.json из кэша после деплоя.
-			const res = await fetch(`${base}/data/latest.json?t=${Date.now()}`);
-			// 404 — срез ещё не публиковался (первый обход не прошёл): это не
-			// сбой панели, а пустое состояние.
-			if (res.status === 404) {
+			// Кэш-бастер в fetchJson: браузер иначе отдаёт срез из кэша после деплоя.
+			const [cloud, local] = await Promise.all([
+				fetchJson<DashboardData>('latest.json'),
+				fetchJson<DashboardData>('local/latest.json').catch(() => null)
+			]);
+			const merged = mergeSnapshots(cloud, local);
+			// Ни одного среза — первый обход ещё не публиковался: пустое состояние.
+			if (!merged) {
 				this.data = EMPTY;
 				this.updatedAt = null;
 				this.error = null;
 				return;
 			}
-			if (!res.ok) throw new Error(`HTTP ${res.status}`);
-			this.data = (await res.json()) as DashboardData;
+			this.data = merged;
 			this.updatedAt = new Date(this.data.updated_at);
 			this.error = null;
 			void priceHistory.load(this.data.updated_at);
@@ -102,9 +113,15 @@ class PriceHistoryStore {
 		this.error = false;
 		const request = (async () => {
 			try {
-				const res = await fetch(`${base}/data/history.json?t=${Date.now()}`);
-				if (!res.ok) throw new Error(`HTTP ${res.status}`);
-				const snapshot = await res.json() as HistoryFile;
+				const [cloud, local] = await Promise.all([
+					fetchJson<HistoryFile>('history.json'),
+					fetchJson<HistoryFile>('local/history.json').catch(() => null)
+				]);
+				if (!cloud && !local) throw new Error('история не опубликована');
+				const snapshot: HistoryFile = {
+					updated_at: cloud?.updated_at ?? local!.updated_at,
+					history: { ...(cloud?.history ?? {}), ...(local?.history ?? {}) }
+				};
 				if (this.version === version) this.data = snapshot;
 				return snapshot;
 			} catch {

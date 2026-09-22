@@ -69,5 +69,5 @@
 		font-family: var(--font-mono); font-size: 10px; font-weight: 700;
 		background: var(--accent); color: white; line-height: 1;
 	}
-	.app-navigation a[aria-current='page'] .fav-badge { background: white; color: var(--ink); }
+	.app-navigation a[aria-current='page'] .fav-badge { background: var(--paper); color: var(--ink); }
 </style>

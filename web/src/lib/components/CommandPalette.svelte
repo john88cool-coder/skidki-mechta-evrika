@@ -65,7 +65,7 @@
 	<!-- svelte-ignore a11y_no_static_element_interactions -->
 	<div class="fixed inset-0 z-50 flex items-start justify-center pt-[18vh] p-4" onclick={(e) => { if (e.target === e.currentTarget) onclose(); }} onkeydown={onKeydown}>
 		<div class="absolute inset-0 bg-[#0e1a15]/45 backdrop-blur-[6px]" aria-hidden="true"></div>
-		<div class="relative w-full max-w-[640px] rounded-[18px] overflow-hidden shadow-[0_16px_48px_rgba(0,0,0,0.22)]" style="background:white; border:1px solid var(--line)">
+		<div class="relative w-full max-w-[640px] rounded-[18px] overflow-hidden shadow-[0_16px_48px_rgba(0,0,0,0.22)]" style="background:var(--surface); border:1px solid var(--line)">
 			<div class="flex items-center gap-3 px-4 h-[56px] border-b" style="border-color:var(--line)">
 				<Search size={18} style="color:var(--ink-4)" />
 				<input
@@ -83,7 +83,7 @@
 					<button
 						onclick={() => activate(i)}
 						class="w-full text-left flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm transition-colors {i === selected ? 'text-white' : ''}"
-						style={i === selected ? 'background:var(--ink); color:white' : 'color:var(--ink-2)'}
+						style={i === selected ? 'background:var(--ink); color:var(--on-ink)' : 'color:var(--ink-2)'}
 					>
 						{#if item.kind === 'nav'}
 							<item.nav.icon size={16} />
@@ -101,7 +101,7 @@
 			</div>
 			<div class="flex items-center gap-2 px-4 py-2.5 text-[11px] border-t" style="border-color:var(--line); color:var(--ink-4); background:var(--paper-2)">
 				<span class="font-mono">↵</span> открыть · <span class="font-mono">↑↓</span> навигация · <span class="font-mono">Esc</span> закрыть
-				<span class="ml-auto hidden sm:inline">Нажми <span class="font-mono font-bold px-1.5 py-0.5 rounded" style="background:white; border:1px solid var(--line)">⌘K</span> в любой момент</span>
+				<span class="ml-auto hidden sm:inline">Нажми <span class="font-mono font-bold px-1.5 py-0.5 rounded" style="background:var(--surface); border:1px solid var(--line)">⌘K</span> в любой момент</span>
 			</div>
 		</div>
 	</div>

@@ -62,11 +62,11 @@
 {#if loading}
 	<div class="flex h-64 items-center justify-center"><span class="h-8 w-8 animate-spin rounded-full border-[3px] border-[var(--line)] border-t-[var(--accent)]"></span></div>
 {:else if !history}
-	<div class="rounded-2xl p-12 text-center" style="background:white; border:1px solid var(--line); color:var(--ink-3)">История этого товара ещё не собрана — нужен хотя бы один обход.</div>
+	<div class="rounded-2xl p-12 text-center" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-3)">История этого товара ещё не собрана — нужен хотя бы один обход.</div>
 {:else}
 	<div class="flex gap-4 mb-6">
 		{#if history.product.image}
-			<img src={history.product.image} alt={history.product.title} loading="lazy" referrerpolicy="no-referrer" class="h-28 w-28 shrink-0 rounded-2xl object-contain p-3" style="background:white; border:1px solid var(--line)" />
+			<img src={history.product.image} alt={history.product.title} loading="lazy" referrerpolicy="no-referrer" class="h-28 w-28 shrink-0 rounded-2xl object-contain p-3" style="background:var(--surface); border:1px solid var(--line)" />
 		{/if}
 		<div class="min-w-0 flex-1">
 			<div class="flex flex-wrap items-center gap-2">
@@ -95,18 +95,18 @@
 			</div>
 			<div class="mt-4 flex flex-wrap gap-2">
 				<button onclick={toggleFav} class="inline-flex items-center gap-1.5 h-9 px-4 rounded-full text-sm font-semibold" style="background:{fav ? 'var(--accent)' : 'white'}; color:{fav ? 'white' : 'var(--ink-2)'}; border:1px solid {fav ? 'var(--accent)' : 'var(--line)'}"><Heart size={14} fill={fav ? 'currentColor' : 'none'} /> {fav ? 'В избранном' : 'В избранное'}</button>
-				<button onclick={shareItem} class="inline-flex items-center gap-1.5 h-9 px-4 rounded-full text-sm font-semibold" style="background:white; border:1px solid var(--line); color:var(--ink-2)">{#if copiedItem}<Check size={14} /> Скопировано{:else}<Share2 size={14} /> Поделиться{/if}</button>
+				<button onclick={shareItem} class="inline-flex items-center gap-1.5 h-9 px-4 rounded-full text-sm font-semibold" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-2)">{#if copiedItem}<Check size={14} /> Скопировано{:else}<Share2 size={14} /> Поделиться{/if}</button>
 				<button onclick={copyLink} class="inline-flex items-center gap-1.5 h-9 px-3 rounded-full text-sm font-medium" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-3)">{#if copiedLink}<Check size={14} />{:else}<Copy size={14} />{/if} Ссылка</button>
 			</div>
 		</div>
 	</div>
 
-	<section class="rounded-2xl p-5 mb-5" style="background:white; border:1px solid var(--line)">
+	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="text-sm font-bold tracking-tight flex items-center gap-2" style="color:var(--ink)"><TrendingDown size={14} /> История цены</h2>
 		<div class="mt-4"><PriceChart data={history.history} height={260} labelFormatter={(d) => (d.length >= 10 ? formatDate(d) : d)} /></div>
 	</section>
 
-	<section class="rounded-2xl p-5 mb-5" style="background:white; border:1px solid var(--line)">
+	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="font-bold tracking-tight" style="color:var(--ink)">Последние наблюдения</h2>
 		<p class="text-xs mt-1" style="color:var(--ink-4)">Изменение к предыдущей записи · новые сверху</p>
 		<div class="overflow-x-auto mt-3">
@@ -124,7 +124,7 @@
 	{#if dealForItem}
 	{@const related = dashboard.deals.filter(d => d.product.shop !== dealForItem!.product.shop || d.product.sku !== dealForItem!.product.sku).filter(d => (d.product.group && d.product.group === dealForItem!.product.group) || (d.product.brand && d.product.brand === dealForItem!.product.brand)).slice(0,4)}
 	{#if related.length}
-	<section class="rounded-2xl p-5 mb-5" style="background:white; border:1px solid var(--line)">
+	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="font-bold tracking-tight" style="color:var(--ink)">Похожие</h2>
 		<p class="text-xs mt-1" style="color:var(--ink-4)">Та же группа/бренд — альтернативы для сравнения.</p>
 		<div class="grid gap-2 mt-3">
@@ -143,9 +143,9 @@
 <style>
 .badge-row { display:flex; flex-wrap:wrap; gap:6px; }
 .badge { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 7px; border-radius:999px; border:1px solid var(--line); }
-.badge-pick { background: var(--ink); color:white; border-color: var(--ink); }
+.badge-pick { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
 .badge-fair { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
-.badge-brand { background: #fff7e6; color:#9a6a0a; border-color:#ffe2a8; }
+.badge-brand { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
 .badge-warn { background: var(--accent-2); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 18%, transparent); }
 .badge-score { background: var(--paper-2); color: var(--ink-2); }
 </style>

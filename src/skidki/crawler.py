@@ -19,7 +19,7 @@ from .evaluate import Signal, SignalHit, Verdict, evaluate, should_send
 from .models import PartialCrawl, Product
 from .notify import Notifier
 from .parsers import REGISTRY
-from .report import DIGEST_BUTTONS, format_breakage, format_digest, format_watchdog, rank
+from .report import digest_buttons, format_breakage, format_digest, format_watchdog, rank
 from .storage import (
     Queued,
     compact,
@@ -141,7 +141,7 @@ def run_once(
             len(queued), len(shown), rest, ", ".join(sorted(muted)) or "—",
         )
         if shown:
-            notifier.send(format_digest(shown, rest), DIGEST_BUTTONS)
+            notifier.send(format_digest(shown, rest), digest_buttons())
             if confirms:
                 # Сводка — одна отправка: доставлена — её находки сняты с
                 # очереди; упала — все остаются до следующего обхода. Консоль
@@ -165,7 +165,10 @@ def _primary(verdict: Verdict) -> Signal:
 def _dump_signals(verdict: Verdict) -> str:
     return json.dumps(
         [
-            {"signal": hit.signal.value, "base": hit.base, "days": hit.days, "target": hit.target}
+            {
+                "signal": hit.signal.value, "base": hit.base, "days": hit.days,
+                "target": hit.target, "reference": hit.reference,
+            }
             for hit in verdict.signals
         ],
         ensure_ascii=False,
@@ -174,7 +177,10 @@ def _dump_signals(verdict: Verdict) -> str:
 
 def _load_verdict(item: Queued) -> Verdict:
     hits = [
-        SignalHit(Signal(raw["signal"]), raw.get("base"), raw.get("days"), raw.get("target"))
+        SignalHit(
+            Signal(raw["signal"]), raw.get("base"), raw.get("days"), raw.get("target"),
+            raw.get("reference"),
+        )
         for raw in json.loads(item.signals)
     ]
     return Verdict(item.product, hits)
@@ -215,7 +221,7 @@ def send_sample(
     verdicts = [Verdict(product, [SignalHit(Signal.DEAL, base=product.old_price)]) for product in products]
     notifier.send(
         format_digest(verdicts, title="🧪 Пример сводки — самые глубокие скидки из базы, не находки"),
-        DIGEST_BUTTONS,
+        digest_buttons(),
     )
     return len(products)
 

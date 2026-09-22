@@ -24,7 +24,7 @@
 {#if !compare.ready}
 	<p class="text-sm" style="color:var(--ink-4)">Загрузка…</p>
 {:else if items.length === 0}
-	<div class="rounded-2xl p-10 text-center" style="background:white; border:1px solid var(--line)">
+	<div class="rounded-2xl p-10 text-center" style="background:var(--surface); border:1px solid var(--line)">
 		<div class="mx-auto w-12 h-12 rounded-2xl grid place-items-center mb-4" style="background:var(--paper-2); border:1px solid var(--line)"><Scale size={20} style="color:var(--ink-3)" /></div>
 		<p class="font-semibold" style="color:var(--ink)">Пусто</p>
 		<p class="text-sm mt-1" style="color:var(--ink-4)">Добавь товары из каталога или топа.</p>
@@ -32,11 +32,11 @@
 	</div>
 {:else}
 	<div class="flex gap-2 mb-4">
-		<button onclick={() => compare.clear()} class="h-9 px-4 rounded-full text-sm font-semibold inline-flex items-center gap-1.5" style="background:white; border:1px solid var(--line); color:var(--ink-3)"><Trash2 size={14} /> Очистить</button>
+		<button onclick={() => compare.clear()} class="h-9 px-4 rounded-full text-sm font-semibold inline-flex items-center gap-1.5" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-3)"><Trash2 size={14} /> Очистить</button>
 		{#if missing}<span class="text-xs px-3 py-2 rounded-full" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-4)">{missing} вне топа — вернутся со скидкой</span>{/if}
 	</div>
 
-	<div class="overflow-x-auto rounded-2xl" style="background:white; border:1px solid var(--line)">
+	<div class="overflow-x-auto rounded-2xl" style="background:var(--surface); border:1px solid var(--line)">
 		<table class="w-full text-sm" style="min-width:640px">
 			<thead>
 				<tr style="border-bottom:1px solid var(--line); color:var(--ink-4)" class="text-xs">

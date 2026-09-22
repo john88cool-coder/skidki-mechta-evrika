@@ -6,6 +6,11 @@ export function formatPct(pct: number): string {
 	return `−${Math.round(pct)}%`;
 }
 
+/** 62.14 → «62,1»: русский десятичный разделитель, как в таблицах истории. */
+export function formatPctValue(pct: number, digits = 1): string {
+	return pct.toLocaleString('ru-RU', { maximumFractionDigits: digits, minimumFractionDigits: 0 });
+}
+
 export function formatDate(dateStr: string): string {
 	const date = new Date(dateStr);
 	return date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'short' });
@@ -58,10 +63,10 @@ export function groupLabel(group: string): string {
 
 export function badgeLabel(badge: string): string {
 	const m: Record<string, string> = {
-		'Выбор ИС': 'Выбор ИС',
-		'Честная скидка': 'Честная',
-		'Топ-Бренд': 'Топ-Бренд',
-		'Рисованная?': 'Рисованная?'
+		'Выбор ИС': 'Лучший выбор',
+		'Честная скидка': 'Честная скидка',
+		'Топ-Бренд': 'Топ-бренд',
+		'Рисованная?': 'Подозрительная скидка'
 	};
 	return m[badge] ?? badge;
 }
