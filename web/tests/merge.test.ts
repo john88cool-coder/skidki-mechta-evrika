@@ -37,3 +37,10 @@ test('missing snapshots degrade gracefully', () => {
 	assert.equal(mergeSnapshots(null, local), local);
 	assert.equal(mergeSnapshots(null, null), null);
 });
+
+test('shop status ages with the snapshot', async () => {
+	const { withFreshness } = await import('../src/lib/utils/merge.ts');
+	const now = Date.parse('2026-09-23T10:00:00Z');
+	const data = { ...cloud, shops: [shop('evrika', '2026-09-23T01:00:00Z'), shop('mechta', '2026-09-23T09:00:00Z')] };
+	assert.deepEqual(withFreshness(data, now).shops.map((s) => s.status), ['warning', 'ok']);
+});

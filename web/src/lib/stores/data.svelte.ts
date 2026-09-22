@@ -1,6 +1,6 @@
 import { base } from '$app/paths';
 import type { DashboardData, Product, PricePoint, ProductHistory } from '$lib/types';
-import { mergeSnapshots } from '$lib/utils/merge';
+import { mergeSnapshots, withFreshness } from '$lib/utils/merge';
 
 /** Пустой срез: панель до первого опубликованного обхода. */
 const EMPTY: DashboardData = {
@@ -59,7 +59,7 @@ class DashboardStore {
 				this.error = null;
 				return;
 			}
-			this.data = merged;
+			this.data = withFreshness(merged);
 			this.updatedAt = new Date(this.data.updated_at);
 			this.error = null;
 			void priceHistory.load(this.data.updated_at);

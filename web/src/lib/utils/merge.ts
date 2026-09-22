@@ -36,3 +36,16 @@ export function mergeSnapshots(cloud: DashboardData | null, local: DashboardData
 	};
 }
 
+
+/** Статус «актуально» считается при выгрузке и стареет вместе со срезом:
+ * облачный срез 9-часовой давности всё ещё говорил «актуально». */
+export function withFreshness(data: DashboardData, now = Date.now(), staleAfterMs = 6 * 3600_000): DashboardData {
+	return {
+		...data,
+		shops: data.shops.map((s) =>
+			s.status === 'ok' && s.last_crawl && now - new Date(s.last_crawl).getTime() > staleAfterMs
+				? { ...s, status: 'warning' as const }
+				: s
+		)
+	};
+}
