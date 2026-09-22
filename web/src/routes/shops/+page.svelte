@@ -1,100 +1,68 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import { dashboard } from '$lib/stores/data.svelte';
 	import ShopStatusCard from '$lib/components/ShopStatusCard.svelte';
 	import { groupLabel, formatPrice } from '$lib/utils/format';
-	import { RefreshCw } from '@lucide/svelte';
+	import { RefreshCw, Store } from '@lucide/svelte';
 
-	// Сводка по магазину: сколько скидок, средняя глубина, самый глубокий товар.
 	let perShop = $derived(
 		dashboard.shops.map((shop) => {
 			const deals = dashboard.deals.filter((d) => d.product.shop === shop.name);
-			const avg = deals.length
-				? deals.reduce((sum, d) => sum + (d.drop_pct ?? 0), 0) / deals.length
-				: 0;
-			const best = deals.reduce<(typeof deals)[number] | null>(
-				(acc, d) => (!acc || (d.drop_pct ?? 0) > (acc.drop_pct ?? 0) ? d : acc),
-				null
-			);
+			const avg = deals.length ? deals.reduce((s, d) => s + (d.drop_pct ?? 0), 0) / deals.length : 0;
+			const best = deals.reduce<(typeof deals)[number] | null>((acc, d) => (!acc || (d.drop_pct ?? 0) > (acc.drop_pct ?? 0) ? d : acc), null);
 			return { shop, deals: deals.length, avg, best };
 		})
 	);
 </script>
 
-<svelte:head>
-	<title>Магазины — skidki</title>
-</svelte:head>
+<svelte:head><title>Магазины — skidki</title></svelte:head>
 
-<div class="mb-5 flex items-center justify-between">
-	<h1 class="text-xl font-bold text-slate-900">Магазины</h1>
-	<button
-		onclick={() => dashboard.refresh()}
-		class="flex items-center gap-1.5 rounded-lg border border-stone-300 px-3 py-1.5 text-sm text-stone-600 hover:bg-stone-100 hover:text-slate-800"
-	>
-		<RefreshCw class="h-4 w-4 {dashboard.loading ? 'animate-spin' : ''}" /> Обновить
+<div class="flex items-end justify-between gap-4 mb-6">
+	<div>
+		<p class="page-eyebrow">Источники</p>
+		<h1 class="page-heading" style="font-size:clamp(26px,3vw,34px)">Магазины</h1>
+		<p class="page-description">Статус обходов, наполненность и лучшие находки по каждому источнику.</p>
+	</div>
+	<button onclick={() => dashboard.refresh()} class="inline-flex items-center gap-2 h-10 px-4 rounded-full text-sm font-semibold shrink-0" style="background:white; border:1px solid var(--line); color:var(--ink-2)">
+		<RefreshCw size={14} class={dashboard.loading ? 'animate-spin' : ''} /> Обновить
 	</button>
 </div>
 
-<div class="space-y-4">
+<div class="grid gap-4">
 	{#each perShop as row (row.shop.name)}
-		<div class="rounded-xl border border-stone-200 bg-white p-4">
+		<div class="rounded-2xl p-5" style="background:white; border:1px solid var(--line)">
 			<ShopStatusCard shop={row.shop} />
-
-			<div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-				<div class="rounded-lg bg-stone-50 px-3 py-2">
-					<p class="text-xs text-stone-500">Скидок в топе</p>
-					<p class="font-semibold text-emerald-800">{row.deals}</p>
+			<div class="mt-4 grid grid-cols-3 gap-3">
+				<div class="rounded-xl px-3 py-3" style="background:var(--paper-2); border:1px solid var(--line)">
+					<p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">В топе</p>
+					<p class="font-mono text-lg font-bold mt-1" style="color:var(--ink)">{row.deals}</p>
 				</div>
-				<div class="rounded-lg bg-stone-50 px-3 py-2">
-					<p class="text-xs text-stone-500">Средняя скидка</p>
-					<p class="font-semibold text-slate-800">
-						{row.deals ? `−${row.avg.toFixed(1)}%` : '—'}
-					</p>
+				<div class="rounded-xl px-3 py-3" style="background:var(--paper-2); border:1px solid var(--line)">
+					<p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Средняя</p>
+					<p class="font-mono text-lg font-bold mt-1" style="color:var(--ink)">{row.deals ? `−${row.avg.toFixed(1)}%` : '—'}</p>
 				</div>
-				<div class="col-span-2 rounded-lg bg-stone-50 px-3 py-2 sm:col-span-1">
-					<p class="text-xs text-stone-500">Глубочайшая находка</p>
+				<div class="rounded-xl px-3 py-3" style="background:var(--paper-2); border:1px solid var(--line)">
+					<p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Лучшая</p>
 					{#if row.best}
-						<a
-							href={row.best.product.url}
-							target="_blank"
-							rel="noopener"
-							class="truncate font-semibold text-slate-800 hover:text-emerald-800"
-							title={row.best.product.title}
-						>
+						<a href={row.best.product.url} target="_blank" rel="noopener" class="font-mono text-sm font-bold hover:underline underline-offset-4" style="color:var(--accent)" title={row.best.product.title}>
 							−{Math.round(row.best.drop_pct ?? 0)}% · {formatPrice(row.best.product.price)}
 						</a>
-					{:else}
-						<p class="font-semibold text-stone-500">—</p>
-					{/if}
+					{:else}<p class="font-mono text-sm font-bold mt-1" style="color:var(--ink-4)">—</p>{/if}
 				</div>
 			</div>
-
-			{#if row.shop.status !== 'ok' && row.shop.error}
-				<p class="mt-2 truncate text-xs text-red-700" title={row.shop.error}>
-					⚠ {row.shop.error}
-				</p>
-			{/if}
 		</div>
 	{/each}
 </div>
 
-<!-- Скидки по группам уведомлений -->
 <section class="mt-8">
-	<h2 class="mb-4 text-lg font-bold text-slate-900">Скидки по группам</h2>
-	<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-		{#each Object.entries(
-			dashboard.deals.reduce<Record<string, number>>((acc, d) => {
-				const key = d.product.group ?? 'other';
-				acc[key] = (acc[key] ?? 0) + 1;
-				return acc;
-			}, {})
-		) as [key, count] (key)}
-			<div class="flex items-center justify-between rounded-lg border border-stone-200 bg-white px-4 py-3">
-				<span class="text-sm text-slate-700">{groupLabel(key)}</span>
-				<span class="font-semibold text-emerald-800">{count}</span>
+	<h2 class="flex items-center gap-2 text-lg font-bold tracking-tight" style="color:var(--ink)"><Store size={16} /> Скидки по группам</h2>
+	<div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+		{#each Object.entries(dashboard.deals.reduce<Record<string, number>>((acc, d) => { const k = d.product.group ?? 'other'; acc[k] = (acc[k] ?? 0) + 1; return acc; }, {})) as [key, count] (key)}
+			<div class="flex items-center justify-between rounded-xl px-4 py-3" style="background:white; border:1px solid var(--line)">
+				<span class="text-sm font-medium" style="color:var(--ink-2)">{groupLabel(key)}</span>
+				<span class="font-mono font-bold px-2.5 py-1 rounded-full text-sm" style="background:var(--paper-2); color:var(--ink)">{count}</span>
 			</div>
 		{:else}
-			<p class="text-sm text-stone-500">Нет данных</p>
+			<p class="text-sm" style="color:var(--ink-4)">Нет данных</p>
 		{/each}
 	</div>
 </section>

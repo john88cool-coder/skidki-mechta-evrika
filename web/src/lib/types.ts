@@ -11,6 +11,14 @@ export interface Product {
 	in_stock: boolean;
 	discount_pct?: number | null;
 	image?: string | null;
+	// scoring (опционально, бэкфилл)
+	fair_discount?: number | null;
+	value_score?: number | null;
+	is_pick?: boolean | null;
+	badges?: string[] | null;
+	inflated_gap?: number | null;
+	rating?: number | null;
+	reviews_count?: number | null;
 }
 
 export interface ShopStatus {
@@ -27,6 +35,11 @@ export interface Deal {
 	signal: 'deal' | 'drop' | 'low' | 'target' | 'restock';
 	drop_pct?: number | null;
 	base_price?: number | null;
+	fair_discount?: number | null;
+	value_score?: number | null;
+	is_pick?: boolean | null;
+	badges?: string[] | null;
+	inflated_gap?: number | null;
 }
 
 export interface DashboardData {
@@ -56,4 +69,3 @@ export interface ProductHistory {
 		days_at_current: number;
 	};
 }
-

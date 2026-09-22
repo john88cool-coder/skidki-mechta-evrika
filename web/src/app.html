@@ -3,13 +3,23 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="text-scale" content="scale" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="theme-color" content="#0a0f0d" />
+		<meta name="description" content="Skidki — мониторинг скидок в магазинах Казахстана. История цен, топ предложений, статус обходов." />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="ru_KZ" />
+		<meta property="og:site_name" content="skidki" />
+		<meta property="og:title" content="skidki — мониторинг скидок в Казахстане" />
+		<meta property="og:description" content="Следим за ценами в 6 магазинах Казахстана. История цены, топ скидок, статус обходов — каждые 2 часа." />
+		<meta name="twitter:card" content="summary" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
 		<script>
-			// Apply before the first paint to avoid a light flash on reload.
-			let savedTheme;
-			try { savedTheme = localStorage.getItem('skidki-theme'); } catch {}
-			document.documentElement.dataset.theme = savedTheme === 'light' || savedTheme === 'dark'
-				? savedTheme : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+			let t;
+			try { t = localStorage.getItem('skidki-theme'); } catch {}
+			const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
+			document.documentElement.dataset.theme = t === 'light' || t === 'dark' ? t : prefersDark ? 'dark' : 'light';
 		</script>
 		%sveltekit.head%
 	</head>

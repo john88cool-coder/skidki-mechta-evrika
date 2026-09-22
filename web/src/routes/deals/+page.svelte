@@ -3,175 +3,183 @@
 	import { replaceState } from '$app/navigation';
 	import { untrack } from 'svelte';
 	import { dashboard } from '$lib/stores/data.svelte';
+	import { favorites, favId } from '$lib/stores/favorites.svelte';
 	import DealCard from '$lib/components/DealCard.svelte';
+	import SkeletonCard from '$lib/components/SkeletonCard.svelte';
 	import { shopLabel, groupLabel, formatPrice } from '$lib/utils/format';
-	import { Search, X } from '@lucide/svelte';
+	import { Search, X, SlidersHorizontal, ArrowUpDown, Heart } from '@lucide/svelte';
 
 	const initial = untrack(() => page.url.searchParams);
 	let query = $state(initial.get('q') ?? '');
 	let shop = $state<string>(initial.get('shop') ?? 'all');
 	let group = $state<string>(initial.get('group') ?? 'all');
+	let brand = $state<string>(initial.get('brand') ?? 'all');
 	let minPct = $state(Math.max(0, Math.min(90, Number(initial.get('min')) || 0)));
-	let sort = $state<'discount' | 'price' | 'title'>(initial.get('sort') === 'price' ? 'price' : initial.get('sort') === 'title' ? 'title' : 'discount');
+	let priceMax = $state<string>(initial.get('pmax') ?? 'all');
+	let inStockOnly = $state(initial.get('stock') === '1');
+	let favOnly = $state(initial.get('fav') === '1');
+	let sort = $state<'discount' | 'price' | 'price_desc' | 'title'>(
+		(initial.get('sort') === 'price' || initial.get('sort') === 'price_desc' || initial.get('sort') === 'title'
+			? (initial.get('sort') as 'discount' | 'price' | 'price_desc' | 'title')
+			: 'discount')
+	);
 
 	let returnTo = $derived.by(() => {
-		const filters = { q: query, shop, group, min: minPct, sort };
+		const filters: Record<string, string> = {};
+		if (query) filters.q = query;
+		if (shop !== 'all') filters.shop = shop;
+		if (group !== 'all') filters.group = group;
+		if (brand !== 'all') filters.brand = brand;
+		if (minPct) filters.min = String(minPct);
+		if (priceMax !== 'all') filters.pmax = priceMax;
+		if (inStockOnly) filters.stock = '1';
+		if (favOnly) filters.fav = '1';
+		if (sort !== 'discount') filters.sort = sort;
 		return untrack(() => {
 			const url = new URL(page.url);
-			for (const [key, value] of Object.entries(filters)) {
-				if (!value || value === 'all' || value === 'discount') url.searchParams.delete(key);
-				else url.searchParams.set(key, String(value));
-			}
+			for (const k of [...url.searchParams.keys()]) url.searchParams.delete(k);
+			for (const [k, v] of Object.entries(filters)) url.searchParams.set(k, v);
 			return url.pathname + url.search;
 		});
 	});
 	let filtersInitialized = false;
 	$effect(() => {
 		const url = returnTo;
-		// The router is not ready during the initial hydration effect.
 		if (!filtersInitialized) { filtersInitialized = true; return; }
 		untrack(() => replaceState(url, page.state));
 	});
 
 	let shops = $derived(['all', ...new Set(dashboard.deals.map((d) => d.product.shop))]);
-	let groups = $derived([
-		'all',
-		...new Set(dashboard.deals.map((d) => d.product.group ?? 'other'))
-	]);
+	let groups = $derived(['all', ...new Set(dashboard.deals.map((d) => d.product.group ?? 'other'))]);
+	let brands = $derived.by(() => {
+		const set = new Set<string>();
+		for (const d of dashboard.deals) if (d.product.brand) set.add(d.product.brand);
+		return ['all', ...[...set].sort((a, b) => a.localeCompare(b, 'ru'))].slice(0, 20);
+	});
+	const priceBuckets: { value: string; label: string }[] = [
+		{ value: 'all', label: 'любая' },
+		{ value: '50000', label: 'до 50k' },
+		{ value: '100000', label: 'до 100k' },
+		{ value: '200000', label: 'до 200k' },
+		{ value: '500000', label: 'до 500k' }
+	];
 
 	let filtered = $derived.by(() => {
 		const needle = query.trim().toLowerCase();
+		const max = priceMax === 'all' ? Infinity : Number(priceMax);
 		const rows = dashboard.deals.filter((d) => {
 			if (shop !== 'all' && d.product.shop !== shop) return false;
 			if (group !== 'all' && (d.product.group ?? 'other') !== group) return false;
+			if (brand !== 'all' && (d.product.brand ?? '') !== brand) return false;
 			if ((d.drop_pct ?? 0) < minPct) return false;
-			if (needle && !d.product.title.toLowerCase().includes(needle)) return false;
+			if (d.product.price > max) return false;
+			if (inStockOnly && !d.product.in_stock) return false;
+			if (favOnly && !favorites.has(favId(d.product.shop, d.product.sku))) return false;
+			if (needle) {
+				const hay = `${d.product.title} ${d.product.brand ?? ''} ${d.product.category ?? ''}`.toLowerCase();
+				if (!hay.includes(needle)) return false;
+			}
 			return true;
 		});
 		return rows.sort((a, b) => {
 			if (sort === 'price') return a.product.price - b.product.price;
+			if (sort === 'price_desc') return b.product.price - a.product.price;
 			if (sort === 'title') return a.product.title.localeCompare(b.product.title, 'ru');
 			return (b.drop_pct ?? 0) - (a.drop_pct ?? 0);
 		});
 	});
 
-	function reset() {
-		query = '';
-		shop = 'all';
-		group = 'all';
-		minPct = 0;
-		sort = 'discount';
-	}
-
-	let hasFilters = $derived(
-		query !== '' || shop !== 'all' || group !== 'all' || minPct > 0 || sort !== 'discount'
-	);
+	function reset() { query = ''; shop = 'all'; group = 'all'; brand = 'all'; minPct = 0; priceMax = 'all'; inStockOnly = false; favOnly = false; sort = 'discount'; }
+	let hasFilters = $derived(query !== '' || shop !== 'all' || group !== 'all' || brand !== 'all' || minPct > 0 || priceMax !== 'all' || inStockOnly || favOnly || sort !== 'discount');
 </script>
 
-<svelte:head>
-	<title>Скидки — skidki</title>
-</svelte:head>
+<svelte:head><title>Скидки — skidki</title></svelte:head>
 
-<div class="mb-5 flex flex-wrap items-center justify-between gap-3">
-	<div><p class="page-eyebrow">Каталог предложений</p><h1 class="page-heading">Все скидки</h1><p class="page-description">Фотографии, цены и история наблюдений в одной карточке.</p></div>
-	<span class="text-sm text-stone-600">
-		<span class="font-semibold text-emerald-800">{filtered.length}</span>
-		из {dashboard.deals.length}
-	</span>
+<div class="flex flex-wrap items-end justify-between gap-4 mb-6">
+	<div>
+		<p class="page-eyebrow">Каталог</p>
+		<h1 class="page-heading">Все <em>скидки</em></h1>
+		<p class="page-description">Фильтруй по магазину, бренду, цене и наличию. История — внутри карточки. Параметры сохраняются в ссылке.</p>
+	</div>
+	<div class="flex items-center gap-2 rounded-full px-4 py-2 text-sm" style="background:white; border:1px solid var(--line)">
+		<span style="color:var(--ink-4)">Найдено</span>
+		<span class="font-mono font-bold" style="color:var(--accent)">{filtered.length}</span>
+		<span style="color:var(--ink-4)">из {dashboard.deals.length}</span>
+	</div>
 </div>
 
-<!-- Фильтры -->
-<div class="mb-6 space-y-4 rounded-xl border border-stone-200 bg-white p-4">
-	<div class="flex flex-wrap gap-3">
-		<label class="relative min-w-[220px] flex-1">
-			<Search class="pointer-events-none absolute top-2.5 left-3 h-4 w-4 text-stone-500" />
-			<input
-				type="search"
-				aria-label="Поиск товара"
-				bind:value={query}
-				placeholder="Поиск по названию…"
-				class="w-full rounded-lg border border-stone-300 bg-stone-100 py-2 pr-3 pl-9 text-sm text-slate-900 placeholder:text-stone-500 focus:border-emerald-700 focus:outline-none"
-			/>
+<div class="filters">
+	<div class="filters-row">
+		<label class="search-wrap">
+			<Search size={16} />
+			<input type="search" aria-label="Поиск товара" bind:value={query} placeholder="Поиск по названию, бренду…" />
 		</label>
-
-		<select
-			aria-label="Сортировка"
-			bind:value={sort}
-			class="rounded-lg border border-stone-300 bg-stone-100 px-3 py-2 text-sm text-slate-900 focus:border-emerald-700 focus:outline-none"
-		>
-			<option value="discount">По скидке</option>
-			<option value="price">По цене</option>
-			<option value="title">По названию</option>
-		</select>
-
+		<label class="flex items-center gap-2 text-sm shrink-0" style="color:var(--ink-3)">
+			<ArrowUpDown size={14} />
+			<select aria-label="Сортировка" bind:value={sort} class="h-10 rounded-full px-3 text-sm font-medium" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink)">
+				<option value="discount">По скидке</option>
+				<option value="price">Цена ↑</option>
+				<option value="price_desc">Цена ↓</option>
+				<option value="title">По названию</option>
+			</select>
+		</label>
 		{#if hasFilters}
-			<button
-				onclick={reset}
-				class="flex items-center gap-1.5 rounded-lg border border-stone-300 px-3 py-2 text-sm text-stone-600 hover:bg-stone-100 hover:text-slate-800"
-			>
-				<X class="h-4 w-4" /> Сбросить
+			<button onclick={reset} class="inline-flex items-center gap-1.5 h-10 px-4 rounded-full text-sm font-semibold shrink-0" style="border:1px solid var(--line); color:var(--ink-3)">
+				<X size={14} /> Сбросить
 			</button>
 		{/if}
 	</div>
-
-	<div class="flex flex-wrap items-center gap-2">
-		<span class="text-xs text-stone-500">Магазин:</span>
+	<div class="chip-row">
+		<span class="chip-label"><SlidersHorizontal size={12} class="inline mr-1" />Магазин</span>
 		{#each shops as name (name)}
-			<button
-				onclick={() => (shop = name)}
-				aria-pressed={shop === name}
-				class="rounded-full px-3 py-1 text-xs transition-colors {shop === name
-					? 'bg-emerald-700 text-white'
-					: 'bg-stone-100 text-stone-600 hover:text-slate-800'}"
-			>
-				{name === 'all' ? 'все' : shopLabel(name)}
-			</button>
+			<button onclick={() => (shop = name)} aria-pressed={shop === name} class="chip">{name === 'all' ? 'Все' : shopLabel(name)}</button>
 		{/each}
 	</div>
-
-	<div class="flex flex-wrap items-center gap-2">
-		<span class="text-xs text-stone-500">Группа:</span>
+	<div class="chip-row">
+		<span class="chip-label">Группа</span>
 		{#each groups as key (key)}
-			<button
-				onclick={() => (group = key)}
-				aria-pressed={group === key}
-				class="rounded-full px-3 py-1 text-xs transition-colors {group === key
-					? 'bg-emerald-700 text-white'
-					: 'bg-stone-100 text-stone-600 hover:text-slate-800'}"
-			>
-				{key === 'all' ? 'все' : groupLabel(key)}
-			</button>
+			<button onclick={() => (group = key)} aria-pressed={group === key} class="chip">{key === 'all' ? 'Все' : groupLabel(key)}</button>
 		{/each}
 	</div>
-
-	<div class="flex items-center gap-3">
-		<span class="text-xs text-stone-500">Скидка от</span>
-		<input
-			type="range"
-			aria-label="Минимальная скидка, процентов"
-			min="0"
-			max="90"
-			step="5"
-			bind:value={minPct}
-			class="h-1.5 w-40 cursor-pointer accent-emerald-700"
-		/>
-		<span class="w-10 text-sm font-medium text-emerald-800">−{minPct}%</span>
+	<div class="chip-row">
+		<span class="chip-label">Бренд</span>
+		{#each brands as b (b)}
+			<button onclick={() => (brand = b)} aria-pressed={brand === b} class="chip">{b === 'all' ? 'Все' : b}</button>
+		{/each}
+	</div>
+	<div class="flex flex-wrap gap-3 items-center">
+		<div class="range-wrap">
+			<span class="chip-label">Скидка от</span>
+			<input type="range" aria-label="Минимальная скидка" min="0" max="90" step="5" bind:value={minPct} />
+			<span class="range-val">−{minPct}%</span>
+		</div>
+		<div class="chip-row">
+			<span class="chip-label">Цена</span>
+			{#each priceBuckets as b (b.value)}
+				<button onclick={() => (priceMax = b.value)} aria-pressed={priceMax === b.value} class="chip">{b.label}</button>
+			{/each}
+		</div>
+	</div>
+	<div class="flex flex-wrap gap-2">
+		<button onclick={() => (inStockOnly = !inStockOnly)} aria-pressed={inStockOnly} class="chip">{inStockOnly ? '✓ ' : ''}В наличии</button>
+		<button onclick={() => (favOnly = !favOnly)} aria-pressed={favOnly} class="chip"><Heart size={12} class="inline mr-1" />Избранное{favorites.count ? ` · ${favorites.count}` : ''}</button>
 	</div>
 </div>
 
-{#if filtered.length}
+{#if dashboard.loading && !dashboard.data}
+	<div class="product-grid">
+		{#each Array(8) as _, i (i)}<SkeletonCard />{/each}
+	</div>
+{:else if filtered.length}
 	<div class="product-grid">
 		{#each filtered as deal (deal.product.shop + deal.product.sku)}
 			<DealCard {deal} {returnTo} />
 		{/each}
 	</div>
 {:else}
-	<div class="rounded-xl border border-stone-200 bg-white p-12 text-center">
-		<p class="text-stone-600">Ничего не нашлось</p>
-		{#if hasFilters}
-			<button onclick={reset} class="mt-3 text-sm text-emerald-800 hover:text-emerald-900">
-				Сбросить фильтры
-			</button>
-		{/if}
+	<div class="rounded-2xl p-12 text-center" style="background:white; border:1px solid var(--line)">
+		<p class="font-medium" style="color:var(--ink-2)">Ничего не нашлось</p>
+		<p class="text-sm mt-1" style="color:var(--ink-4)">Попробуй изменить фильтры или поиск.</p>
+		{#if hasFilters}<button onclick={reset} class="mt-4 text-sm font-semibold underline underline-offset-4" style="color:var(--accent)">Сбросить фильтры</button>{/if}
 	</div>
 {/if}

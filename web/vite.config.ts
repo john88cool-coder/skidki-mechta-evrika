@@ -6,7 +6,16 @@ import { defineConfig } from 'vite';
 // GitHub Pages отдаёт проект по /<repo>/, поэтому base задаётся из окружения
 // в workflow (BASE_PATH=/skidki-mechta-evrika). Локально base пустой.
 // Тип SvelteKit требует либо '', либо путь, начинающийся со слэша.
-const base = (process.env.BASE_PATH ?? '') as '' | `/${string}`;
+function resolveBase(): '' | `/${string}` {
+  const raw = process.env.BASE_PATH ?? '';
+  if (!raw) return '';
+  // Git Bash on Windows rewrites "/skidki-..." to "C:/Program Files/Git/skidki-..."
+  // via MSYS path conversion; recover the intended base.
+  const idx = raw.indexOf('/skidki');
+  const normalized = idx >= 0 ? raw.slice(idx) : raw;
+  return normalized as '' | `/${string}`;
+}
+const base = resolveBase();
 
 export default defineConfig({
 	plugins: [

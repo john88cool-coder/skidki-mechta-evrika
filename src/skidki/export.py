@@ -15,10 +15,11 @@ from pathlib import Path
 
 from .config import ROOT
 from .models import Product
-from .storage import connect, current_deals, last_successful_crawl, previous_item_count
+from .scoring import score_product
+from .storage import connect, current_deals, history as spans_history, last_successful_crawl, previous_item_count
 
 # Порядок магазинов — как в REGISTRY: сначала те, что обходятся в облаке.
-SHOPS = ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser")
+SHOPS = ("mechta", "evrika", "shopkz", "sulpak", "technodom", "alser", "kaspi", "wb", "ozon", "satu", "dns")
 
 # Куда пишется срез: SvelteKit копирует static/ в сборку как есть.
 # В CI пакет установлен в site-packages, там ROOT — не репозиторий, поэтому
@@ -50,6 +51,41 @@ def _product_to_dict(p: Product) -> dict:
     }
 
 
+def _fair_discount_for(conn, product, at):
+    # честная скидка по истории ИС: медиана 14д, минимум 3 дня, просадка >= drop threshold
+    from datetime import timedelta
+    from .config import Thresholds
+    from .evaluate import weighted_median, coverage_days
+    th = Thresholds()
+    trend_since = at - timedelta(days=th.trend_window_days)
+    spans = [s for s in spans_history(conn, product.identity, trend_since) if s.in_stock]
+    ref = weighted_median(spans, trend_since, at)
+    if not ref or coverage_days(spans, at) < th.min_history_days:
+        return None
+    drop = (ref - product.price) / ref * 100
+    if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
+        return None
+    return round(drop, 1)
+
+
+def _score_for(conn, product, at):
+    # возраст последнего наблюдения для freshness
+    try:
+        from datetime import UTC
+        last = conn.execute("SELECT last_seen FROM spans WHERE identity=? ORDER BY last_seen DESC LIMIT 1", (product.identity,)).fetchone()
+        age_h = None
+        if last:
+            from datetime import datetime
+            dt = datetime.fromisoformat(last[0].replace("Z","+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=UTC)
+            age_h = (at - dt).total_seconds()/3600
+    except Exception:
+        age_h = None
+    fair = _fair_discount_for(conn, product, at)
+    return score_product(product, fair_discount=fair, age_hours=age_h)
+
+
 def _shop_label(shop: str) -> str:
     labels = {
         "mechta": "Мечта",
@@ -58,6 +94,11 @@ def _shop_label(shop: str) -> str:
         "sulpak": "Сулпак",
         "technodom": "Технодом",
         "alser": "Алсер",
+        "kaspi": "Kaspi",
+        "wb": "Wildberries",
+        "ozon": "Ozon",
+        "satu": "Satu.kz",
+        "dns": "DNS",
     }
     return labels.get(shop, shop)
 
@@ -76,14 +117,18 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> None:
             DASHBOARD_LIMIT,
             shop,
         )
-        deals += [
-            {
+        for product in products:
+            sc = _score_for(conn, product, now)
+            deals.append({
                 "product": _product_to_dict(product),
                 "signal": "deal",
                 "drop_pct": product.shop_discount_pct,
-            }
-            for product in products
-        ]
+                "fair_discount": sc.fair_discount,
+                "value_score": sc.value_score,
+                "is_pick": sc.is_pick,
+                "badges": list(sc.badges),
+                "inflated_gap": sc.inflated_gap,
+            })
     deals.sort(key=lambda deal: deal["drop_pct"] or 0, reverse=True)
     deals = deals[:DASHBOARD_LIMIT]
 

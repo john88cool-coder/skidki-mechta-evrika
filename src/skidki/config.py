@@ -209,6 +209,22 @@ TECHNODOM_ROOTS: dict[str, str] = {
     "krasota-i-zdorov-e": "beauty",
 }
 
+
+# kaspi.kz — категории маркетплейса (аналоги разделов mechta).
+# Отключены по умолчанию (kaspi.ENABLED=False), включаются для среза «честной цены».
+KASPI_CATEGORIES: dict[str, str] = {
+    "smartphones": "phones",
+    "smart-chasy": "phones",
+    "naushniki": "phones",
+    "noutbuki": "computers",
+    "planshety": "computers",
+    "televizory": "tv",
+    "stiralnye-mashiny": "home",
+    "pylesosy": "home",
+    "kholodilniki": "kitchen",
+    "mikrovolnovye-pechi": "kitchen",
+}
+
 # alser.kz: группы по подстрокам keyword категории (сайтмап отдаёт ~170
 # /c/<keyword>/; часть ключей на казахском — покрываются их подстроками).
 # Не подошедшие никуда уходят в «Прочее» (услуги, ПО, инструменты…).
