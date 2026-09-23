@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T11:22:40.335303+00:00",
+  "updated_at": "2026-09-23T13:26:04.421743+00:00",
   "deals": [
     {
       "product": {
@@ -204,7 +204,7 @@
       "drop_pct": 77,
       "fair_discount": 33.3,
       "base_price": 29990,
-      "value_score": 71,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -469,7 +469,7 @@
       "drop_pct": 71,
       "fair_discount": 33.3,
       "base_price": 29990,
-      "value_score": 75,
+      "value_score": 70,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1853,6 +1853,58 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011263",
+        "title": "Пылесос Kitfort KT-5162-2",
+        "price": 50990,
+        "old_price": 69190,
+        "url": "https://www.mechta.kz/product/pylesos-kitfort-kt-5162-2/",
+        "brand": "Kitfort",
+        "category": "Моющие пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://pi.mdev.kz/d9355f23-fd3b-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 26.3,
+      "base_price": 69190,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012740",
+        "title": "Пылесос Kitfort KT-5162-3",
+        "price": 50990,
+        "old_price": 69190,
+        "url": "https://www.mechta.kz/product/pylesos-kitfort-kt-5162-3/",
+        "brand": "Kitfort",
+        "category": "Моющие пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://pi.mdev.kz/82301622-44bb-11ef-a267-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 26.3,
+      "base_price": 69190,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200014306",
         "title": "Хлебопечь Kitfort KT-311",
         "price": 41990,
@@ -2318,67 +2370,14 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000001745",
-        "title": "Вафельница Kitfort KT 1617",
-        "price": 13890,
-        "old_price": 17590,
-        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
-        "brand": "Kitfort",
-        "category": "Вафельницы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 17590,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015919",
-        "title": "Аэрогриль Kitfort KT-2254",
-        "price": 58990,
-        "old_price": 98390,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 20.3,
-      "base_price": 73990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-23T11:22:33+00:00",
-      "item_count": 7729,
+      "last_crawl": "2026-09-23T13:25:47+00:00",
+      "item_count": 7761,
       "status": "ok"
     },
     {
@@ -2418,7 +2417,7 @@
     }
   ],
   "stats": {
-    "total_products": 7729,
+    "total_products": 7761,
     "total_deals": 90,
     "avg_discount": 61.0
   }
