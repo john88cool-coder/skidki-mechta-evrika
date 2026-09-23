@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T05:23:07.541748+00:00",
+  "updated_at": "2026-09-23T09:21:40.565575+00:00",
   "deals": [
     {
       "product": {
@@ -2348,36 +2348,37 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200009251",
-        "title": "Кофеварка Kitfort KT-703",
-        "price": 89990,
-        "old_price": 112890,
-        "url": "https://www.mechta.kz/product/kofevarka-kitfort-kt-703/",
+        "sku": "17200015919",
+        "title": "Аэрогриль Kitfort KT-2254",
+        "price": 58990,
+        "old_price": 98390,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
         "brand": "Kitfort",
-        "category": "Кофеварки рожковые",
+        "category": "Аэрогрили",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://pi.mdev.kz/0f480af9-9a5a-11ee-a264-005056b6dbd7?w=400"
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
       },
       "signal": "drop",
-      "drop_pct": 20,
+      "drop_pct": 40,
       "fair_discount": 20.3,
-      "base_price": 112890,
-      "value_score": 58,
+      "base_price": 73990,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Рисованная?"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": 19.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-23T05:23:02+00:00",
-      "item_count": 7729,
+      "last_crawl": "2026-09-23T09:21:32+00:00",
+      "item_count": 7723,
       "status": "ok"
     },
     {
@@ -2417,7 +2418,7 @@
     }
   ],
   "stats": {
-    "total_products": 7729,
+    "total_products": 7723,
     "total_deals": 90,
     "avg_discount": 61.0
   }
