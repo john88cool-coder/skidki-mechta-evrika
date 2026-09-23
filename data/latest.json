@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T18:46:43.242889+00:00",
+  "updated_at": "2026-09-23T23:49:25.927818+00:00",
   "deals": [
     {
       "product": {
@@ -2883,14 +2883,13 @@
       },
       "signal": "deal",
       "drop_pct": 49,
-      "fair_discount": 33.3,
-      "value_score": 87,
+      "fair_discount": 0.0,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 15.7
+      "inflated_gap": 49.0
     },
     {
       "product": {
@@ -3784,8 +3783,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-23T18:46:35+00:00",
-      "item_count": 3784,
+      "last_crawl": "2026-09-23T23:49:18+00:00",
+      "item_count": 3785,
       "status": "ok"
     },
     {
@@ -3798,27 +3797,27 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-23T18:46:35+00:00",
-      "item_count": 3830,
+      "last_crawl": "2026-09-23T23:49:18+00:00",
+      "item_count": 3795,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-23T18:46:35+00:00",
+      "last_crawl": "2026-09-23T23:49:18+00:00",
       "item_count": 9240,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-23T18:46:35+00:00",
+      "last_crawl": "2026-09-23T23:49:18+00:00",
       "item_count": 892,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29870,
+    "total_products": 29836,
     "total_deals": 150,
     "avg_discount": 53.0
   }
