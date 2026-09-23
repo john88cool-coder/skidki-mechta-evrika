@@ -1,56 +1,6 @@
 {
-  "updated_at": "2026-09-23T00:55:38.255712+00:00",
+  "updated_at": "2026-09-23T08:08:02.727863+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "41856",
-        "title": "Наушники Samsung Galaxy Buds3 Silver (SM-R530NZAACIS)",
-        "price": 46890,
-        "old_price": 88990,
-        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-silver-sm-r530nzaacis/p41856",
-        "brand": "Samsung",
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/4PQgGyCRelpajzcWtSfGV9FR9d75qk4TJkdWB9rW.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": null,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "41925",
-        "title": "Наушники Samsung Galaxy Buds3 Pro Серый (SM-R630NZAACIS)",
-        "price": 65890,
-        "old_price": 124990,
-        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-pro-serebro-sm-r630nzaacis/p41925",
-        "brand": "Samsung",
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/LPOkgdNTW5gbeXZRrhoJSCtyqo71LWo7enVMaalH.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
     {
       "product": {
         "shop": "technodom",
@@ -1055,31 +1005,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "633171",
-        "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Green 55020EVS",
-        "price": 99890,
-        "old_price": 227890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-green",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1664_0_2_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "41016",
         "title": "ПК, Office, i5-12400, H610, RAM 8GB, SSD 512GB, 400W, Aerocool Tomahak",
@@ -1122,6 +1047,31 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633171",
+        "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Green 55020EVS",
+        "price": 99890,
+        "old_price": 227890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-green",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1664_0_2_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1947,7 +1897,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3114,6 +3064,58 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "41856",
+        "title": "Наушники Samsung Galaxy Buds3 Silver (SM-R530NZAACIS)",
+        "price": 46890,
+        "old_price": 88990,
+        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-silver-sm-r530nzaacis/p41856",
+        "brand": "Samsung",
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/4PQgGyCRelpajzcWtSfGV9FR9d75qk4TJkdWB9rW.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 0.0,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "41925",
+        "title": "Наушники Samsung Galaxy Buds3 Pro Серый (SM-R630NZAACIS)",
+        "price": 65890,
+        "old_price": 124990,
+        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-pro-serebro-sm-r630nzaacis/p41925",
+        "brand": "Samsung",
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/LPOkgdNTW5gbeXZRrhoJSCtyqo71LWo7enVMaalH.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 0.0,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "47851",
         "title": "Внешний аккумулятор ttec ReCharger LCD 10.000mAh PD 20W Powerbank Black (2BB233S)",
         "price": 12190,
@@ -3777,41 +3779,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-23T00:55:34+00:00",
-      "item_count": 3769,
+      "last_crawl": "2026-09-23T08:07:56+00:00",
+      "item_count": 3780,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-23T00:55:34+00:00",
+      "last_crawl": "2026-09-23T08:07:56+00:00",
       "item_count": 12122,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-23T00:55:34+00:00",
-      "item_count": 3665,
+      "last_crawl": "2026-09-23T08:07:56+00:00",
+      "item_count": 3771,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-23T00:55:34+00:00",
-      "item_count": 9222,
+      "last_crawl": "2026-09-23T08:07:56+00:00",
+      "item_count": 9210,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-23T00:55:34+00:00",
-      "item_count": 905,
+      "last_crawl": "2026-09-23T08:07:56+00:00",
+      "item_count": 901,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29683,
+    "total_products": 29784,
     "total_deals": 150,
     "avg_discount": 53.0
   }
