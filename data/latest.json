@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T14:02:55.758984+00:00",
+  "updated_at": "2026-09-23T18:46:43.242889+00:00",
   "deals": [
     {
       "product": {
@@ -2134,6 +2134,31 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "622293",
+        "title": "TWS Наушники Huawei FreeBuds 6i Black Orca-T100",
+        "price": 22290,
+        "old_price": 46890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-6i-black-orca-t100",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2222_0_1_niOM82_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 13.9,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 38.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "628343",
         "title": "OLED телевизор Haier 77 OLED S9 Pro",
         "price": 999990,
@@ -2406,6 +2431,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623481",
+        "title": "Наушники Samsung Galaxy Buds3 Pro Silver",
+        "price": 62390,
+        "old_price": 124890,
+        "url": "https://www.sulpak.kz/g/naushniki-samsung-galaxy-buds3-pro-sm-r630nzaacis-silver",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2230_0_1_Lm3emR_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 27.4,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.6
     },
     {
       "product": {
@@ -3521,56 +3574,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "634857",
-        "title": "Кофеварка капельная Tefal Confidence CM361838",
-        "price": 21990,
-        "old_price": 40990,
-        "url": "https://www.sulpak.kz/g/kofevarki-tefal-confidence-cm361838",
-        "brand": "Tefal",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_932_217_0_6_f37GUW_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 46.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "641671",
-        "title": "Стайлер для волос ARG Pro HD1",
-        "price": 69990,
-        "old_price": 129990,
-        "url": "https://www.sulpak.kz/g/fen-shchetki-arg-pro-hd1",
-        "brand": "ARG",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4434_30_0_1_dXDK8y_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 46.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1394392",
         "title": "Фен-щетка Rowenta PROMO CF7826F0",
@@ -3781,41 +3784,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-23T14:02:46+00:00",
-      "item_count": 3786,
+      "last_crawl": "2026-09-23T18:46:35+00:00",
+      "item_count": 3784,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-23T14:02:46+00:00",
+      "last_crawl": "2026-09-23T18:46:35+00:00",
       "item_count": 12124,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-23T14:02:46+00:00",
-      "item_count": 3807,
+      "last_crawl": "2026-09-23T18:46:35+00:00",
+      "item_count": 3830,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-23T14:02:46+00:00",
-      "item_count": 9247,
+      "last_crawl": "2026-09-23T18:46:35+00:00",
+      "item_count": 9240,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-23T14:02:46+00:00",
-      "item_count": 884,
+      "last_crawl": "2026-09-23T18:46:35+00:00",
+      "item_count": 892,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29848,
+    "total_products": 29870,
     "total_deals": 150,
     "avg_discount": 53.0
   }
