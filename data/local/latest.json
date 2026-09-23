@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T15:20:46.600410+00:00",
+  "updated_at": "2026-09-23T19:20:47.108565+00:00",
   "deals": [
     {
       "product": {
@@ -2087,33 +2087,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200023474",
-        "title": "Телевизор LG MiniLED 65QNED93B6A UHD SMART",
-        "price": 699990,
-        "old_price": 929990,
-        "url": "https://www.mechta.kz/product/televizor-lg-miniled-65qned93b6a-uhd-smart/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://pi.mdev.kz/380ff3fa-8b9d-41e2-8901-318d08cd3fe4?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 24.7,
-      "base_price": 929990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200022195",
         "title": "Мойка воздуха BORK Q781",
         "price": 198090,
@@ -2370,14 +2343,40 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17000001745",
+        "title": "Вафельница Kitfort KT 1617",
+        "price": 13890,
+        "old_price": 17590,
+        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
+        "brand": "Kitfort",
+        "category": "Вафельницы",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.0,
+      "base_price": 17590,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-23T15:20:41+00:00",
-      "item_count": 7764,
+      "last_crawl": "2026-09-23T19:20:43+00:00",
+      "item_count": 7761,
       "status": "ok"
     },
     {
@@ -2417,7 +2416,7 @@
     }
   ],
   "stats": {
-    "total_products": 7764,
+    "total_products": 7761,
     "total_deals": 90,
     "avg_discount": 61.0
   }
