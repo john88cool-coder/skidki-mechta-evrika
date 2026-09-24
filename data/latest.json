@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T12:13:34.569087+00:00",
+  "updated_at": "2026-09-24T17:36:57.279340+00:00",
   "deals": [
     {
       "product": {
@@ -726,6 +726,31 @@
         "Честная скидка"
       ],
       "inflated_gap": 5.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623479",
+        "title": "Наушники Samsung Galaxy Buds3 Silver",
+        "price": 43090,
+        "old_price": 88890,
+        "url": "https://www.sulpak.kz/g/naushniki-samsung-galaxy-buds3-sm-r530nzaacis-silver",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2228_0_1_ci0qRC_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -3109,31 +3134,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "626607",
-        "title": "Электрический чайник Tefal KI840830",
-        "price": 22790,
-        "old_price": 47990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
-        "brand": "Tefal",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "33651",
         "title": "Игровая мышь Lenovo Legion M600 Wireless (GY51C96033)",
@@ -3154,6 +3154,31 @@
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626607",
+        "title": "Электрический чайник Tefal KI840830",
+        "price": 22790,
+        "old_price": 47990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
+        "brand": "Tefal",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 53.0
@@ -3786,31 +3811,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624397",
-        "title": "Вытяжка Haier HVX-W682CW",
-        "price": 99990,
-        "old_price": 199990,
-        "url": "https://www.sulpak.kz/g/viytyazhki-haier-hvx-w682cw",
-        "brand": "Haier",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_12_1289_0_1_idDYyC_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3824,41 +3824,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-24T12:13:25+00:00",
-      "item_count": 3789,
+      "last_crawl": "2026-09-24T17:36:48+00:00",
+      "item_count": 3790,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-24T12:13:25+00:00",
+      "last_crawl": "2026-09-24T17:36:48+00:00",
       "item_count": 12125,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-24T12:13:25+00:00",
-      "item_count": 3855,
+      "last_crawl": "2026-09-24T17:36:48+00:00",
+      "item_count": 3810,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-24T12:13:25+00:00",
-      "item_count": 9286,
+      "last_crawl": "2026-09-24T17:36:48+00:00",
+      "item_count": 9269,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-24T12:13:25+00:00",
-      "item_count": 856,
+      "last_crawl": "2026-09-24T17:36:48+00:00",
+      "item_count": 837,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29911,
+    "total_products": 29831,
     "total_deals": 150,
     "avg_discount": 55.0
   }
