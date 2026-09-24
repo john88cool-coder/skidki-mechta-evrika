@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:36:57.279340+00:00",
+  "updated_at": "2026-09-24T21:57:11.850169+00:00",
   "deals": [
     {
       "product": {
@@ -459,7 +459,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 56.3,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -536,7 +536,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 55.2,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -642,7 +642,7 @@
       "signal": "deal",
       "drop_pct": 54,
       "fair_discount": 53.5,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -667,7 +667,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 53.5,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -3824,41 +3824,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-24T17:36:48+00:00",
-      "item_count": 3790,
+      "last_crawl": "2026-09-24T21:57:02+00:00",
+      "item_count": 3788,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-24T17:36:48+00:00",
-      "item_count": 12125,
+      "last_crawl": "2026-09-24T21:57:02+00:00",
+      "item_count": 10688,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-24T17:36:48+00:00",
-      "item_count": 3810,
+      "last_crawl": "2026-09-24T21:57:02+00:00",
+      "item_count": 3870,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-24T17:36:48+00:00",
-      "item_count": 9269,
+      "last_crawl": "2026-09-24T21:57:02+00:00",
+      "item_count": 9248,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-24T17:36:48+00:00",
-      "item_count": 837,
+      "last_crawl": "2026-09-24T21:57:02+00:00",
+      "item_count": 835,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29831,
+    "total_products": 28429,
     "total_deals": 150,
     "avg_discount": 55.0
   }
