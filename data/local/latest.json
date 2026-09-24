@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T19:21:16.157029+00:00",
+  "updated_at": "2026-09-24T21:20:08.092645+00:00",
   "deals": [
     {
       "product": {
@@ -204,7 +204,7 @@
       "drop_pct": 77,
       "fair_discount": 33.3,
       "base_price": 29990,
-      "value_score": 63,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -469,7 +469,7 @@
       "drop_pct": 71,
       "fair_discount": 33.3,
       "base_price": 29990,
-      "value_score": 67,
+      "value_score": 75,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1748,6 +1748,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200010027",
+        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
+        "price": 43990,
+        "old_price": 63990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-wireless-chernaya/",
+        "brand": "Kingston",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.3,
+      "base_price": 63990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200014696",
         "title": "Пароварка Kitfort KT-4082",
         "price": 21890,
@@ -1796,6 +1822,58 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021351",
+        "title": "Игровая гарнитура HYPERX A59Z0AA Cloud III S Wireless (red)",
+        "price": 82990,
+        "old_price": 114990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-a59z0aa-cloud-iii-s-wireless-red/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://pi.mdev.kz/52e39904-214b-4a1f-91b7-056ad47e4f99?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 27.8,
+      "base_price": 114990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021352",
+        "title": "Игровая гарнитура HYPERX A59YZAA Cloud III S Wireless (black)",
+        "price": 82990,
+        "old_price": 114990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-a59yzaa-cloud-iii-s-wireless-black/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://pi.mdev.kz/1666edb8-0243-4c0f-b036-be48656b5ce4?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 27.8,
+      "base_price": 114990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -2061,6 +2139,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200021353",
+        "title": "Игровая гарнитура HYPERX AJ0T1AA Cloud Jet (black)",
+        "price": 30990,
+        "old_price": 40990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-aj0t1aa-cloud-jet-black/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 24,
+        "image": "https://pi.mdev.kz/1626c076-daa7-4242-984c-dc16d83b7c19?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 24,
+      "fair_discount": 24.4,
+      "base_price": 40990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200022195",
         "title": "Мойка воздуха BORK Q781",
         "price": 198090,
@@ -2265,119 +2369,14 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020489",
-        "title": "Планетарный миксер Kitfort KT-1328",
-        "price": 119990,
-        "old_price": 152990,
-        "url": "https://www.mechta.kz/product/planetarnyy-mikser-kitfort-kt-1328/",
-        "brand": "Kitfort",
-        "category": "Ручные миксеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/cbc1a262-7a5d-4e8b-ba75-43f9ef9a7a72?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.6,
-      "base_price": 152990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014691",
-        "title": "Тостер Kitfort KT-2047",
-        "price": 21890,
-        "old_price": 27790,
-        "url": "https://www.mechta.kz/product/toster-kitfort-kt-2047/",
-        "brand": "Kitfort",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/d6b627d8-9db5-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.2,
-      "base_price": 27790,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000001745",
-        "title": "Вафельница Kitfort KT 1617",
-        "price": 13890,
-        "old_price": 17590,
-        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
-        "brand": "Kitfort",
-        "category": "Вафельницы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 17590,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015919",
-        "title": "Аэрогриль Kitfort KT-2254",
-        "price": 58990,
-        "old_price": 98390,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 20.3,
-      "base_price": 73990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-24T19:21:08+00:00",
-      "item_count": 7760,
+      "last_crawl": "2026-09-24T21:20:00+00:00",
+      "item_count": 7704,
       "status": "ok"
     },
     {
@@ -2417,7 +2416,7 @@
     }
   ],
   "stats": {
-    "total_products": 7760,
+    "total_products": 7704,
     "total_deals": 90,
     "avg_discount": 61.0
   }
