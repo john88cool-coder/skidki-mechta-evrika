@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:42:45.340884+00:00",
+  "updated_at": "2026-09-24T09:25:00.788815+00:00",
   "deals": [
     {
       "product": {
@@ -1365,7 +1365,7 @@
       "drop_pct": null,
       "fair_discount": 50.7,
       "base_price": 301590,
-      "value_score": 86,
+      "value_score": 80,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1533,32 +1533,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021538",
-        "title": "Вертикальный пылесос Aeno TC1",
-        "price": 149990,
-        "old_price": 229990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-aeno-tc1/",
-        "brand": "Aeno",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/354e02c4-c6c1-4600-b660-62069ec16174?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 34.8,
-      "base_price": 229990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -2369,14 +2343,41 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015919",
+        "title": "Аэрогриль Kitfort KT-2254",
+        "price": 58990,
+        "old_price": 98390,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 20.3,
+      "base_price": 73990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-24T07:42:28+00:00",
-      "item_count": 7771,
+      "last_crawl": "2026-09-24T09:24:49+00:00",
+      "item_count": 7769,
       "status": "ok"
     },
     {
@@ -2416,7 +2417,7 @@
     }
   ],
   "stats": {
-    "total_products": 7771,
+    "total_products": 7769,
     "total_deals": 90,
     "avg_discount": 61.0
   }
