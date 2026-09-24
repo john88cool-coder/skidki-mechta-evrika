@@ -1,6 +1,1151 @@
 {
-  "updated_at": "2026-09-24T05:17:31.252487+00:00",
+  "updated_at": "2026-09-24T12:13:34.569087+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1433812",
+        "title": "Газовая поверхность Hansa BHGS630301",
+        "price": 39990,
+        "old_price": 159990,
+        "url": "https://alser.kz/p/bhgs630301-gazovaa-poverhnost-hansa",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/WoGblTPal/bhgs630301-gazovaa-poverhnost-hansa-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 75,
+      "fair_discount": 75.0,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1432466",
+        "title": "Электрическая бритва BRAUN 61-N1000s BLK",
+        "price": 29990,
+        "old_price": 102990,
+        "url": "https://alser.kz/p/braun-elektriceskaa-britva-61-n1000s-blk",
+        "brand": "Braun",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://s3s.alser.kz/uploads/products/jelektrobritvy-dlja-muzhchin/mjN7MTpZq/braun-elektriceskaa-britva-61-n1000s-blk-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": 70.9,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1328553",
+        "title": "Конвертер Cablexpert USB Type-C 9-in-1 multi-port adapter (USB hub 3.0,HDMI,VGA,PD card reader LAN 3.5 mm audio), space grey (A-CM-COMBO9-01)",
+        "price": 17990,
+        "old_price": 57848,
+        "url": "https://alser.kz/p/konverter-cablexpert-usb-type-c-9-in-1-multi-port-adapter-usb-hub-30hdmivgapd-card-reader-lan-35-mm-audio-space-grey-a-cm-combo9-01",
+        "brand": "Cablexpert",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://s3s.alser.kz/uploads/products/kabeli-perehodniki/OBEmgFaMo/konverter-cablexpert-usb-type-c-9-in-1-multi-port-adapter-usb-hub-30hdmivgapd-card-reader-lan-35-mm-audio-space-grey-a-cm-combo9-01-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 68.9,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1455662",
+        "title": "Пылесос контейнерный Tefal Micro Space Cyclonic, Red, TW3235EA, (1600 Вт, 1л, 3 насадки)",
+        "price": 20990,
+        "old_price": 63990,
+        "url": "https://alser.kz/p/pylesos-kontejnernyj-tefal-micro-space-cyclonic-red-tw3235ea-1600-vt-1l-3-nasadki",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://s3s.alser.kz/uploads/products/pylesosy/y8BB8SJnV/pylesos-kontejnernyj-tefal-micro-space-cyclonic-red-tw3235ea-1600-vt-1l-3-nasadki-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 67.2,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1226242",
+        "title": "Варочная поверхность Samsung NA-64H3010AS",
+        "price": 59990,
+        "old_price": 174990,
+        "url": "https://alser.kz/p/varochnaja-poverhnost-samsung-na-64h3010as",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/DQwrJC0oXe/varochnaja-poverhnost-samsung-na-64h3010as-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 65.7,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1331680",
+        "title": "Компактная акустика 2.1 Trust TYTAN черный",
+        "price": 15990,
+        "old_price": 43000,
+        "url": "https://alser.kz/p/kompaktnaa-akustika-21-trust-tytan-cernyj",
+        "brand": "Trust",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki/w97GaSqBn/kompaktnaa-akustika-21-trust-tytan-cernyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 62.8,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1433833",
+        "title": "Газовая поверхность Hansa BHGI83130",
+        "price": 89990,
+        "old_price": 239990,
+        "url": "https://alser.kz/p/bhgi83130-gazovaa-poverhnost-hansa",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/ljGXgivdy/bhgi83130-gazovaa-poverhnost-hansa-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 62.5,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1254727",
+        "title": "Чайник Tefal KO260130",
+        "price": 15990,
+        "old_price": 41990,
+        "url": "https://alser.kz/p/jelektrochajnik-tefal-ko260130-1-7l-1800vt-belyj",
+        "brand": "Tefal",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://s3s.alser.kz/uploads/products/vse-elchainiki/YJpmNi4bj/jelektrochajnik-tefal-ko260130-1-7l-1800vt-belyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 61.9,
+      "value_score": 96,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1401856",
+        "title": "Встраиваемая посудомоечная машина Hansa ZIM446KH",
+        "price": 99990,
+        "old_price": 249990,
+        "url": "https://alser.kz/p/zim446khvstraivaemaa-posudomoecnaa-masina",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://s3s.alser.kz/uploads/products/posudomoechnye-mashiny/NZYbdcMbO/zim446khvstraivaemaa-posudomoecnaa-masina-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 60.0,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1260167",
+        "title": "Роутер TP-Link AC1200 Wireless VDSL/ADSL Modem Roulter VR300(EU)(081942)",
+        "price": 19990,
+        "old_price": 48990,
+        "url": "https://alser.kz/p/router-dsl-tp-link-ac1200-chjornyj",
+        "brand": "Tp-Link",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/59baPFwg8/router-dsl-tp-link-ac1200-chjornyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": 59.2,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1161655",
+        "title": "Клавиатура и мышь Logitech Wireless Combo MK330 черный",
+        "price": 11990,
+        "old_price": 28890,
+        "url": "https://alser.kz/p/klaviatura-i-mysh-logitech-wireless-combo-mk330-chernyj",
+        "brand": "Logitech",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://s3s.alser.kz/uploads/products/klaviatury/GAqaksRYP/klaviatura-i-mysh-logitech-wireless-combo-mk330-chernyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 58.5,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1427229",
+        "title": "Встраиваемая духовка Samsung NV7B4120ZAS/WT",
+        "price": 139990,
+        "old_price": 334990,
+        "url": "https://alser.kz/p/vstraivaemaa-duhovka-samsung-nv7b4120zaswt",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://s3s.alser.kz/uploads/products/duhovye-shkafy/v5XajC9Xd/vstraivaemaa-duhovka-samsung-nv7b4120zaswt-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 58.2,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1444457",
+        "title": "Наушники Samsung Buds3 Pro (SM-R630NZWACIS) White",
+        "price": 49990,
+        "old_price": 118690,
+        "url": "https://alser.kz/p/nausniki-samsung-buds3-pro-sm-r630nzwacis-white",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://s3s.alser.kz/uploads/products/samsung-naushniki/rBey8hXmE8/nausniki-samsung-buds3-pro-sm-r630nzwacis-white-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 57.9,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1411240",
+        "title": "Гарнитура игровая HyperX Cloud Stinger II Core PC (683L9AA)",
+        "price": 11990,
+        "old_price": 27990,
+        "url": "https://alser.kz/p/garnitura-igrovaa-hyperx-cloud-stinger-ii-core-pc-683l9aa",
+        "brand": "HyperX",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/igrovye-garnitury/v5g9wHl44/garnitura-igrovaa-hyperx-cloud-stinger-ii-core-pc-683l9aa-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 57.2,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1371540",
+        "title": "Микроволновая печь Samsung MS23K3614AK/BW, Black, 800 Вт, 23 л, Без программ, Поворотные ручки, Биокерамическая эмаль, Solo",
+        "price": 29990,
+        "old_price": 69990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23k3614akbw",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/GAqbBhxKG/mikrovolnovaa-pec-samsung-ms23k3614akbw-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 57.2,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1371541",
+        "title": "Микроволновая печь Samsung MS23K3614AW/BW, White, 800 Вт, 23 л, Без программ, Поворотные ручки, Биокерамическая эмаль, Solo",
+        "price": 29990,
+        "old_price": 69990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23k3614awbw",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/e1qAPtxvO/mikrovolnovaa-pec-samsung-ms23k3614awbw-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 57.2,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1331257",
+        "title": "Швабра паровая Kitfort KT-1006",
+        "price": 15990,
+        "old_price": 37290,
+        "url": "https://alser.kz/p/svabra-parovaa-kitfort-kt-1006",
+        "brand": "Kitfort",
+        "category": null,
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://cdn.alser.kz/products/no_photo/no_photo.png"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 57.1,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1254672",
+        "title": "Пылесос контейнерный Samsung VC3100M, Gray, VC18M31C0HG/EV, (Управление на ручке, 2 л, 1800/380 Вт)",
+        "price": 34990,
+        "old_price": 79990,
+        "url": "https://alser.kz/p/pylesos-samsung-vc18m31c0hg-1800vt-chernyj",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/B4weoh5VG/pylesos-samsung-vc18m31c0hg-1800vt-chernyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 56.3,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1420779",
+        "title": "Маршрутизатор TP-Link Archer AX12",
+        "price": 14990,
+        "old_price": 33990,
+        "url": "https://alser.kz/p/marsrutizator-tp-link-archer-ax12",
+        "brand": "Tp-Link",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/B4O4WUW0Z/marsrutizator-tp-link-archer-ax12-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 55.9,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1305953",
+        "title": "Wi-Fi роутер Tp-Link Archer C80 AC1900 MU-MIMO",
+        "price": 14990,
+        "old_price": 33990,
+        "url": "https://alser.kz/p/tp-link-archer-c80-ac1900-mu-mimo-wi-fi-router",
+        "brand": "Tp-Link",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/g4w4PuB08/tp-link-archer-c80-ac1900-mu-mimo-wi-fi-router-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 55.9,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1254617",
+        "title": "Пылесос контейнерный Samsung VC2100M, Red, VC18M21C0VR/EV, (Управление на корпусе, 3 насадки, 1,5 л, 1800/380 Вт)",
+        "price": 29990,
+        "old_price": 66990,
+        "url": "https://alser.kz/p/pylesos-samsung-vc18m21c0vr-1800vt-krasnyj",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/7qMpjUZ5q/pylesos-samsung-vc18m21c0vr-1800vt-krasnyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 55.2,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1445057",
+        "title": "Смартфон Vivo Y28 8/128GB, Gleaming Orange",
+        "price": 50000,
+        "old_price": 111220,
+        "url": "https://alser.kz/p/smartfon-vivo-y28-8128gb-gleaming-orange",
+        "brand": "Vivo",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/smartfony-vivo/B4y1AIApv/smartfon-vivo-y28-8128gb-gleaming-orange-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 55.0,
+      "value_score": 86,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1370066",
+        "title": "Наушники HyperX Cloud MIX (4P5K9AA)(НР)",
+        "price": 44990,
+        "old_price": 99490,
+        "url": "https://alser.kz/p/nausniki-hyperx-cloud-mix-4p5k9aanr",
+        "brand": "HyperX",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/NydoncxWqK/nausniki-hyperx-cloud-mix-4p5k9aanr-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 54.8,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1319940",
+        "title": "Встраиваемая духовка Samsung NV68A1145RS/WT",
+        "price": 119990,
+        "old_price": 259990,
+        "url": "https://alser.kz/p/nv68a1145rswtvstraivaemaa-duhovka-samsung",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://s3s.alser.kz/uploads/products/duhovye-shkafy/YJpDKuEqE/nv68a1145rswtvstraivaemaa-duhovka-samsung-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 53.8,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1259056",
+        "title": "Микроволновая печь Midea AM720C4E-W, White, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
+        "price": 19990,
+        "old_price": 42990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-midea-am720c4e-w",
+        "brand": "Midea",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/e1qOyiedM/mikrovolnovaa-pec-midea-am720c4e-w-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 53.5,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1446958",
+        "title": "Холодильник Samsung RT53DG7A10B1WT",
+        "price": 299990,
+        "old_price": 644990,
+        "url": "https://alser.kz/p/rt53dg7a10b1wtholodilnik-samsung",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://s3s.alser.kz/uploads/products/zogargy-mzdatkyspen/AxrWvIRpX/rt53dg7a10b1wtholodilnik-samsung-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 53.5,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1444825",
+        "title": "Эпилятор BRAUN LEGEPIL SE5-011 Grey BOX MN",
+        "price": 19990,
+        "old_price": 42590,
+        "url": "https://alser.kz/p/braun-legepil-se5-011-grey-box-mn",
+        "brand": "Braun",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://s3s.alser.kz/uploads/products/Rly7jt51/braun-legepil-se5-011-grey-box-mn-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 53.1,
+      "value_score": 96,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1432436",
+        "title": "Пароочиститель Karcher SC 4 EASYFIX (1.512-630.0 107 )",
+        "price": 89990,
+        "old_price": 189990,
+        "url": "https://alser.kz/p/paroocistitel-sc-4-easyfix-1512-6300-107",
+        "brand": "Karcher",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://s3s.alser.kz/uploads/products/paroochistiteli/LavpDHnqv/paroocistitel-sc-4-easyfix-1512-6300-107-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 47.1,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.9
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1450237",
+        "title": "Пылесос хозяйственный Karcher WD 3 P S V-17/4/20, Yellow, 1.628-191.0, (розетка, стальной корпус, 17 л, 1000 Вт)",
+        "price": 49990,
+        "old_price": 104990,
+        "url": "https://alser.kz/p/pylesos-hozajstvennyj-karcher-wd-3-p-s-v-17420-yellow-1628-1910-rozetka-stalnoj-korpus-17-l-1000-vt",
+        "brand": "Karcher",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://s3s.alser.kz/uploads/products/hozajstvennye-pylesosy/B4wEJSyxK/pylesos-hozajstvennyj-karcher-wd-3-p-s-v-17420-yellow-1628-1910-rozetka-stalnoj-korpus-17-l-1000-vt-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 44.4,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.6
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1436480",
+        "title": "Телевизор TCL 65V6B Android 4K UHD",
+        "price": 179990,
+        "old_price": 374990,
+        "url": "https://alser.kz/p/televizor-tcl-65v6b-android-4k-uhd",
+        "brand": "TCL",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://s3s.alser.kz/uploads/products/tcl-tv/DQr7KS7d7/televizor-tcl-65v6b-android-4k-uhd-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 42.3,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.7
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1456033",
+        "title": "Настенный поворотный кронштейн Gembird 40\"-80",
+        "price": 11990,
+        "old_price": 24890,
+        "url": "https://alser.kz/p/nastennyj-povorotnyj-kronstejn-gembird-40-80",
+        "brand": "Gembird",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://s3s.alser.kz/uploads/products/kronshteyny/pj9nnIE0N/nastennyj-povorotnyj-kronstejn-gembird-40-80-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 42.3,
+      "value_score": 89,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.7
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1459981",
+        "title": "Электрическая скороварка Xiaomi Electric Pressure Cooker 4.8L Белый",
+        "price": 30000,
+        "old_price": 62090,
+        "url": "https://alser.kz/p/elektriceskaa-skorovarka-xiaomi-electric-pressure-cooker-48l-belyj",
+        "brand": "Xiaomi",
+        "category": null,
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://s3s.alser.kz/uploads/products/mul-tivarki/GAro7i87wL/elektriceskaa-skorovarka-xiaomi-electric-pressure-cooker-48l-belyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 46.2,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 5.8
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1323175",
+        "title": "Вертикальный пылесос Samsung Jet 60 Turbo (VS15A6031R5/EV), Silver",
+        "price": 89990,
+        "old_price": 184990,
+        "url": "https://alser.kz/p/pylesos-samsung-jet-60-vs15a6031r5ev",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/ZJGxYhyb/pylesos-samsung-jet-60-vs15a6031r5ev-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 51.4,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1323176",
+        "title": "Вертикальный пылесос Samsung Jet 60 Turbo (VS15A6031R4/EV), Violet",
+        "price": 89990,
+        "old_price": 184990,
+        "url": "https://alser.kz/p/pylesos-samsung-jet-60-vs15a6031r4ev",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/ZJGXQsgEb/pylesos-samsung-jet-60-vs15a6031r4ev-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 51.4,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1444869",
+        "title": "Микроволновая печь Samsung MS23DG4504ATBW, Gray, 800 Вт, 23 л, 15 программ, Электронно-механическое управление, Биокерамическая эмаль, Solo",
+        "price": 36990,
+        "old_price": 75990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23dg4504atbw-800-vt-23-l-seryj",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/M1XmnC4EL/mikrovolnovaa-pec-samsung-ms23dg4504atbw-800-vt-23-l-seryj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 51.3,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1441265",
+        "title": "Телевизор Samsung UE43DU7100UXCE 4K UHD LED",
+        "price": 119990,
+        "old_price": 244990,
+        "url": "https://alser.kz/p/televizor-samsung-ue43du7100uxce-4k-uhd-led",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/samsung-tv/g4V4DS9dQv/televizor-samsung-ue43du7100uxce-4k-uhd-led-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 40.0,
+      "value_score": 98,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 11.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1365794",
+        "title": "Хлебопечь Panasonic SD-YR2540HTS",
+        "price": 79990,
+        "old_price": 162990,
+        "url": "https://alser.kz/p/hlebopec-panasonic-sd-yr2540hts",
+        "brand": "Panasonic",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/hlebopechki/oeAxgf5l0/hlebopec-panasonic-sd-yr2540hts-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 50.9,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1262447",
+        "title": "Источник бесперебойного питания VOLTA Active 1500 LED",
+        "price": 29990,
+        "old_price": 60887,
+        "url": "https://alser.kz/p/volta-active-1500-led",
+        "brand": "VOLTA",
+        "category": null,
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/istochnik-besperebojnogo-pitanija/Rl9W0TjQa/volta-active-1500-led-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 50.7,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1270490",
+        "title": "Вытяжка Samsung NK24M5060SS",
+        "price": 79990,
+        "old_price": 160390,
+        "url": "https://alser.kz/p/vytjazhka-nk24m5060ss",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vstraivaemaja-tehnika/zlE5hPla/eRqNfvRj/vytjazhka-nk24m5060ss-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 50.1,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1402775",
+        "title": "Пылесос ручной аккумуляторный Karcher CVH 2, White, 1.198-330.0, (0,15 л, 10 мин, 70 Вт)",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium",
+        "brand": "Karcher",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/18MLRuV7G/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 39.4,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.6
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1300492",
+        "title": "Микроволновая печь Midea AM720C4E-S, Gray, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-midea-am720c4e-s",
+        "brand": "Midea",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/OBNJPTVp9/mikrovolnovaa-pec-midea-am720c4e-s-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 50.0,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1458713",
+        "title": "Тепловентилятор HAUZEN H1, Черный (HZNH1BK), Мощность 1500 Вт, Нагрев 20-35С, Площадь обогрева 25.0 кв.м",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/teploventilator-hauzen-h1-cernyj-hznh1bk-mosnost-1500-vt-nagrev-20-35s-plosad-obogreva-250-kvm",
+        "brand": "HAUZEN ",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/rBNqgIdVj/teploventilator-hauzen-h1-cernyj-hznh1bk-mosnost-1500-vt-nagrev-20-35s-plosad-obogreva-250-kvm-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 50.0,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1449124",
+        "title": "Mонитор 24\" Samsung LS24D360GAIXCI Curved /1920x1080/ 100Hz /4ms/ 250кд/м²/ DP, HDMI",
+        "price": 29990,
+        "old_price": 59990,
+        "url": "https://alser.kz/p/monitor-24-essential-monitor-s3-fhd-100-gc",
+        "brand": "Samsung",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/monitory-igrovye/rBV1BH97o/monitor-24-essential-monitor-s3-fhd-100-gc-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 50.0,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1293720",
+        "title": "Источник бесперебойного питания SVC V-1500-L-LCD",
+        "price": 29990,
+        "old_price": 59990,
+        "url": "https://alser.kz/p/istocnik-besperebojnogo-pitania-svc-v-1500-l-lcd",
+        "brand": null,
+        "category": null,
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/istochnik-besperebojnogo-pitanija/ZJdAQiLqY/istocnik-besperebojnogo-pitania-svc-v-1500-l-lcd-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 50.0,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
     {
       "product": {
         "shop": "shopkz",
@@ -504,6 +1649,58 @@
         "Рисованная?"
       ],
       "inflated_gap": 65.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1394392",
+        "title": "Фен-щетка Rowenta PROMO CF7826F0",
+        "price": 16990,
+        "old_price": 46990,
+        "url": "https://alser.kz/p/fen-setka-rowenta-promo-cf7826f0",
+        "brand": "Rowenta",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://s3s.alser.kz/uploads/products/feny/8q5KKTJXw/fen-setka-rowenta-promo-cf7826f0-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 34.9,
+      "value_score": 83,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1394296",
+        "title": "Фен-Щетка Rowenta CF6330F0 (черный/ золотистый)",
+        "price": 15990,
+        "old_price": 43990,
+        "url": "https://alser.kz/p/fen-setka-rowenta-cf6330f0-cernyj-zolotistyj",
+        "brand": "Rowenta",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://s3s.alser.kz/uploads/products/feny/E40qMu8wm/fen-setka-rowenta-cf6330f0-cernyj-zolotistyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 32.2,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.8
     },
     {
       "product": {
@@ -1082,6 +2279,59 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1432112",
+        "title": "Аэрогриль Tefal Easy Fry Compact (EY145810), Black, 3 л, 1300 Вт, 70-200 °C, 10 программ",
+        "price": 39990,
+        "old_price": 93990,
+        "url": "https://alser.kz/p/aerogril-tefal-east-fry-compact-ey145810",
+        "brand": "Tefal",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/grili/beYOPf1wj/aerogril-tefal-east-fry-compact-ey145810-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 38.9,
+      "value_score": 93,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1417846",
+        "title": "Фен профессиональный Rowenta Pro Expert, Black (CV8810F0), 2100 Вт, 1 насадка",
+        "price": 12990,
+        "old_price": 29990,
+        "url": "https://alser.kz/p/fen-rowenta-cv8810f0",
+        "brand": "Rowenta",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/feny/dneP5UvjR/fen-rowenta-cv8810f0-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 34.7,
+      "value_score": 83,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.3
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "38794",
         "title": "Беспроводной вертикальный пылесос Tefal TY99A8WO",
@@ -1182,31 +2432,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "633171",
-        "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Green 55020EVS",
-        "price": 99890,
-        "old_price": 227890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-green",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1664_0_2_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "295515",
         "title": "Игровой компьютер TechnoGaming 292(AR7-7800X3D/RTX5070TI 16GB/D5 32GB/SSD 2TB/B850 MLG/MSI PANO 130R MLG)",
@@ -1223,7 +2448,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1349,31 +2574,6 @@
       "drop_pct": 55,
       "fair_discount": 0.0,
       "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 55.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633168",
-        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 154990,
-        "old_price": 341890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 0.0,
-      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1523,7 +2723,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1554,6 +2754,32 @@
         "Рисованная?"
       ],
       "inflated_gap": 55.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1383605",
+        "title": "Фен профессиональный Rowenta Karl Lagerfeld Pro Stylist, Black (CV887LF0), 2200 Вт, 3 насадки, ионизация",
+        "price": 17990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/fen-rowenta-cv887lf0",
+        "brand": "Rowenta",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/feny/ljYPACWNV/fen-rowenta-cv887lf0-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 32.3,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.7
     },
     {
       "product": {
@@ -1619,31 +2845,6 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_810_0_1_MYDhNR_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 54.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633170",
-        "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 114990,
-        "old_price": 248890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1663_0_1_o3RAVa_160.webp"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -1782,6 +2983,32 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1386912",
+        "title": "Выпрямитель для волос Rowenta Karl Lagerfeld SF411LF0",
+        "price": 16990,
+        "old_price": 36990,
+        "url": "https://alser.kz/p/vypramitel-dla-volos-rowenta-karl-lagerfeld-sf411lf0",
+        "brand": "Rowenta",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://s3s.alser.kz/uploads/products/vyprjamiteli-dlja-volos/8q5Neseme/vypramitel-dla-volos-rowenta-karl-lagerfeld-sf411lf0-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 21.7,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 32.3
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1709192",
         "title": "Триммер для бороды и усов Panasonic ER217S520, Silver-Black (SN:d607b170-850d-4de8-98b9-0638ce8e6ae8)",
@@ -1832,32 +3059,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "33651",
-        "title": "Игровая мышь Lenovo Legion M600 Wireless (GY51C96033)",
-        "price": 19990,
-        "old_price": 42090,
-        "url": "https://evrika.com/catalog/igrovaya-mysh-lenovo-legion-m600-wireless-gy51c96033/p33651",
-        "brand": "Lenovo",
-        "category": "Компьютерные мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/sbqnsl2JfBBHlmEi0xNqF8kaYkqfE6DRs7asp0Xg.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "622276",
         "title": "Паровая система для ухода за одеждой Tefal Care For You YT2020E0",
@@ -1875,56 +3076,6 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633169",
-        "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Beige 55020EVQ",
-        "price": 116990,
-        "old_price": 248890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-beige",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1662_0_2_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633165",
-        "title": "Смарт-часы Huawei WATCH 5 46mm Purple",
-        "price": 116990,
-        "old_price": 248890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-46mm-purple",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1658_0_1_Eg8TRR_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1952,6 +3103,57 @@
       "value_score": 35,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626607",
+        "title": "Электрический чайник Tefal KI840830",
+        "price": 22790,
+        "old_price": 47990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
+        "brand": "Tefal",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "33651",
+        "title": "Игровая мышь Lenovo Legion M600 Wireless (GY51C96033)",
+        "price": 19990,
+        "old_price": 42090,
+        "url": "https://evrika.com/catalog/igrovaya-mysh-lenovo-legion-m600-wireless-gy51c96033/p33651",
+        "brand": "Lenovo",
+        "category": "Компьютерные мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/sbqnsl2JfBBHlmEi0xNqF8kaYkqfE6DRs7asp0Xg.jpg.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 53.0
@@ -2563,31 +3765,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "626607",
-        "title": "Электрический чайник Tefal KI840830",
-        "price": 23990,
-        "old_price": 47990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
-        "brand": "Tefal",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "640374",
         "title": "Встраиваемая варочная панель Gorenje G641BHF",
         "price": 89990,
@@ -2634,1142 +3811,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "625110",
-        "title": "LED телевизор ARG MS27",
-        "price": 199990,
-        "old_price": 399990,
-        "url": "https://www.sulpak.kz/g/televizoriy-arg-ms27",
-        "brand": "ARG",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3136_0_6_eYcB18_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43365",
-        "title": "Стайлер волос Dreame AirStyle Gold Titanium AMF17A",
-        "price": 74990,
-        "old_price": 147990,
-        "url": "https://evrika.com/catalog/stayler-volos-dreame-airstyle-gold-titanium-amf17a/p43365",
-        "brand": "Dreame",
-        "category": "Фен-щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/NcLHyQOkuyRSawK9WeWFI2jUF2O2XPygD60oQhxo.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "35838",
-        "title": "Мясорубка Moulinex ME552810",
-        "price": 53990,
-        "old_price": 105990,
-        "url": "https://evrika.com/catalog/myasorubka-moulinex-me552810/p35838",
-        "brand": "Moulinex",
-        "category": "Мясорубки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/A1pqLiYNVrY7s5V3TB5IYUwDafjjlkmVavEBbd6K.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45180",
-        "title": "Чехол iPhone 17 Pro Silicone Case with MagSafe – Terra Cotta (MGFJ4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-silicone-case-with-magsafe-terra-cotta-mgfj4zm-a/p45180",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/PMhFqSfhQBmABwHmytnkYngd2EkDGSohq1LKGbQA.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45169",
-        "title": "Чехол iPhone 17 Pro Max Silicone Case with MagSafe – Black (MGFR4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-max-silicone-case-with-magsafe-black-mgfr4zm-a/p45169",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/xUzTJVsSxdDFApN2GoTVzuVjBslsxi3uu4Ym1BhV.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45173",
-        "title": "Чехол iPhone 17 Pro Max Silicone Case with MagSafe – Purple Fog (MGFN4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-max-silicone-case-with-magsafe-purple-fog-mgfn4zm-a/p45173",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/X523rYSXFyRjitsxtlynf4bf99c1vmweJiV6fZcy.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45175",
-        "title": "Чехол iPhone 17 Pro Silicone Case with MagSafe – Black (MGFK4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-silicone-case-with-magsafe-black-mgfk4zm-a/p45175",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/EcRNG45tAjkF9DUtFF3hIOsiYBONYAdO4Wu5zy5v.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45178",
-        "title": "Чехол iPhone 17 Pro Silicone Case with MagSafe – Orange (MGFE4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-silicone-case-with-magsafe-orange-mgfe4zm-a/p45178",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/gdr3CYTdQ9K8SGVSLIZSA0C8LQjTDZYfvyoyFZI0.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45179",
-        "title": "Чехол iPhone 17 Pro Silicone Case with MagSafe – Purple Fog (MGFG4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-silicone-case-with-magsafe-purple-fog-mgfg4zm-a/p45179",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/W7uO0jvJTNfb62pAMhKYPJ61yirElyE0GZAjKL1H.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45421",
-        "title": "Вертикальный пылесос Tefal TY1R17F1",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/vertikalnyy-pylesos-tefal-ty1r17f1/p45421",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/yy9XRDCVxVc4AngSf80RhbqJ8i2vtTbYL0gycglE.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44298",
-        "title": "Утюг Tefal FV2846E0",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/utyug-tefal-fv2846e0/p44298",
-        "brand": "Tefal",
-        "category": "Утюги",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/At82rm0OUH8S4IuYk51KKNma2pmrafOFGvQXGGUq.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1711298",
-        "title": "Блендер Moulinex QuickChef DD65CD32, Steel-Grey (SN:13fc157a-1a3e-4f30-8936-620be2a2dcb1)",
-        "price": 21990,
-        "old_price": 42990,
-        "url": "https://shop.kz/offer/blender-moulinex-quickchef-dd65cd32-steel-grey-sn-13fc157a-1a3e-4f30-8936-620be2a2dcb1/",
-        "brand": "Moulinex",
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://static.shop.kz/upload/iblock/61a/4i40le8a3np45tg0e2hosc4zpsnou5ba/166592n200.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1709462",
-        "title": "Утюг Tefal Express Steam FV2847E0, Grey-Violet (SN:7f492c01-2f0f-418e-8872-0aa9debc97b7)",
-        "price": 18990,
-        "old_price": 36990,
-        "url": "https://shop.kz/offer/utyug-tefal-express-steam-fv2847e0-grey-violet-sn-7f492c01-2f0f-418e-8872-0aa9debc97b7/",
-        "brand": "Tefal",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://static.shop.kz/upload/iblock/40f/z558thhio083fwif19xxc2we71djfh3a/168309o4.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630548",
-        "title": "Мультиварка Midea MB-FS5018D",
-        "price": 32990,
-        "old_price": 64990,
-        "url": "https://www.sulpak.kz/g/multivarki-midea-mb-fs5018d",
-        "brand": "Midea",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_344_234_0_1_H0e0Co_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633167",
-        "title": "Смарт-часы Huawei WATCH 5 46mm Black",
-        "price": 115790,
-        "old_price": 227890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-46mm-black",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1660_0_1_FOqZ3U_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "621968",
-        "title": "Утюг Tefal Express steam (FV2846E0)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://www.sulpak.kz/g/utyugi-tefal-fv2846e0",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_320_782_0_1_DmemQg_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1455506",
-        "title": "Клавиатура беспроводная Transformers TF-GK01, White",
-        "price": 20990,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/klaviatura-besprovodnaa-transformers-tf-gk01-white",
-        "brand": "Transformers",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://s3s.alser.kz/uploads/products/klaviatury/GAELbTgXa/klaviatura-besprovodnaa-transformers-tf-gk01-white-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "33813",
-        "title": "Адаптер TrippLite/USB-C Multiport Adapter, 4K HDMI, USB-A Port, Gbe, Self-Storing Cable and 100W PD 3.0, Black",
-        "price": 14990,
-        "old_price": 28990,
-        "url": "https://evrika.com/catalog/adapter-tripplite-usb-c-multiport-adapter-4k-hdmi-usb-a-port-gbe-self-storing-cable-and-100w-pd-3-0-black/p33813",
-        "brand": "Defender",
-        "category": "Док-станции",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/3C92ichFLNZqKsHNwnNZ3fhyQ0P4q4ytePhItKGs.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47048",
-        "title": "Смарт-часы HUAWEI WATCH 5 (46mm) Brown (Rates-L29L) (55020EVM)",
-        "price": 129990,
-        "old_price": 248990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-46mm-brown-rates-l29l-55020evm/p47048",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/8lur2dGiJKd2Qqa7jsLwRGQuD9t7dkA7uFl7yqhp.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47049",
-        "title": "Смарт-часы HUAWEI WATCH 5 (46mm) Purple (Rates-L39L) (55020EVL)",
-        "price": 129990,
-        "old_price": 248990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-46mm-purple-rates-l39l-55020evl/p47049",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/CrsnibSCGJK5Yyi2Qhuya7eYQPjDNNUKObrdvY2i.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47050",
-        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) White (Soc-L19L) (55020EVR)",
-        "price": 129990,
-        "old_price": 248990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-white-soc-l19l-55020evr/p47050",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/XMA8rT8AHTTaTaNFbyW4Lc5dTM7cKBfSKwRrty9o.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1570452",
-        "title": "Гриль Redmond SteakMaster RGM-M822",
-        "price": 37990,
-        "old_price": 72990,
-        "url": "https://shop.kz/offer/gril-redmond-steakmaster-rgm-m822/",
-        "brand": "REDMOND",
-        "category": "Тостеры, гриль",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://static.shop.kz/upload/iblock/bdc/g836tv0lesxlm8k0rvekqawtmna4r9g5/169780_1.JPG"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "626005",
-        "title": "Стиральная машина Haier HW70-BP12919",
-        "price": 149990,
-        "old_price": 289990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw70-bp12919",
-        "brand": "Haier",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1536_0_1_dg7W02_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633300",
-        "title": "Чайник Moulinex BY6R5130",
-        "price": 22990,
-        "old_price": 43990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-moulinex-by6r5130",
-        "brand": "Moulinex",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_952_0_1_4LmCZT_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47047",
-        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Green (Soc-L19F) (55020EVS)",
-        "price": 119990,
-        "old_price": 227990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-green-soc-l19f-55020evs/p47047",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/qI9OrtCbyxigJejHuhTjcSw2SFQ2gYaKHfabn0lo.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47056",
-        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Gold (Soc-L29M) (55020EVP)",
-        "price": 179990,
-        "old_price": 341990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-gold-soc-l29m-55020evp/p47056",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/FYbMcK9lYjdbpCv4R410nvLHvOApA7ouEOJm5uca.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "41856",
-        "title": "Наушники Samsung Galaxy Buds3 Silver (SM-R530NZAACIS)",
-        "price": 46890,
-        "old_price": 88990,
-        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-silver-sm-r530nzaacis/p41856",
-        "brand": "Samsung",
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/4PQgGyCRelpajzcWtSfGV9FR9d75qk4TJkdWB9rW.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "41925",
-        "title": "Наушники Samsung Galaxy Buds3 Pro Серый (SM-R630NZAACIS)",
-        "price": 65890,
-        "old_price": 124990,
-        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-pro-serebro-sm-r630nzaacis/p41925",
-        "brand": "Samsung",
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/LPOkgdNTW5gbeXZRrhoJSCtyqo71LWo7enVMaalH.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47851",
-        "title": "Внешний аккумулятор ttec ReCharger LCD 10.000mAh PD 20W Powerbank Black (2BB233S)",
-        "price": 12190,
-        "old_price": 22990,
-        "url": "https://evrika.com/catalog/vneshniy-akkumulyator-ttec-recharger-lcd-10-000mah-pd-20w-powerbank-black-2bb233s/p47851",
-        "brand": "TTEC",
-        "category": "Внешние аккумуляторы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/BNslF5ziPDGsr7IAxRHbiT0Ef6esmptD0xRAwdk0.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "634856",
-        "title": "Фен-щетка Rowenta Brush Activ UB9520F0",
-        "price": 29990,
-        "old_price": 56990,
-        "url": "https://www.sulpak.kz/g/fen-shchetki-rowenta-ub9520f0",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_851_179_0_1_dwjJiF_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624504",
-        "title": "Чайник электрический Candy CK-202",
-        "price": 18990,
-        "old_price": 35990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-candy-ck-202",
-        "brand": "Candy",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_819_0_1_H7DjQU_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623718",
-        "title": "Газовая варочная панель Gorenje GW641XHF",
-        "price": 89990,
-        "old_price": 169990,
-        "url": "https://www.sulpak.kz/g/gazoviye-poverhnosti-gorenje-gw641xhf",
-        "brand": "Gorenje",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4095_760_0_1_TtvwKM_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "626006",
-        "title": "Стиральная машина Haier HW70-BP12919S",
-        "price": 159990,
-        "old_price": 299990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw70-bp12919s",
-        "brand": "Haier",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1537_0_1_xFqYCk_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1394296",
-        "title": "Фен-Щетка Rowenta CF6330F0 (черный/ золотистый)",
-        "price": 23590,
-        "old_price": 43990,
-        "url": "https://alser.kz/p/fen-setka-rowenta-cf6330f0-cernyj-zolotistyj",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://s3s.alser.kz/uploads/products/feny/E40qMu8wm/fen-setka-rowenta-cf6330f0-cernyj-zolotistyj-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 46.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "37930",
-        "title": "Робот пылесос Roborock Q7 Max White RU",
-        "price": 157190,
-        "old_price": 289990,
-        "url": "https://evrika.com/catalog/robot-pylesos-robot-vacuum-cleaner-q7-max-white-ru/p37930",
-        "brand": "Xiaomi",
-        "category": "Робот пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Cv702dR3UO78ZEsFzyd2QQ1xqALsm3EvXXPO6jUl.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 46.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "42360",
-        "title": "Игровой монитор 27\" LG UltraGear 27GS60F-B",
-        "price": 67990,
-        "old_price": 124990,
-        "url": "https://evrika.com/catalog/igrovoy-monitor-27-lg-ultragear-27gs60f-b/p42360",
-        "brand": "LG",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/fCzqZVeiJbNBhR3M3h3BVBemLe5Xgz3lzKxU37GT.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 46.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "631703",
-        "title": "OLED телевизор LG OLED83M59LA",
-        "price": 2599990,
-        "old_price": 4849990,
-        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled83m59la",
-        "brand": "LG",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3234_0_1_ou9Kkj_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 46.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1394392",
-        "title": "Фен-щетка Rowenta PROMO CF7826F0",
-        "price": 26090,
-        "old_price": 46990,
-        "url": "https://alser.kz/p/fen-setka-rowenta-promo-cf7826f0",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://s3s.alser.kz/uploads/products/feny/8q5KKTJXw/fen-setka-rowenta-promo-cf7826f0-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 44,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 44.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1386912",
-        "title": "Выпрямитель для волос Rowenta Karl Lagerfeld SF411LF0",
-        "price": 21690,
-        "old_price": 36990,
-        "url": "https://alser.kz/p/vypramitel-dla-volos-rowenta-karl-lagerfeld-sf411lf0",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://s3s.alser.kz/uploads/products/vyprjamiteli-dlja-volos/8q5Neseme/vypramitel-dla-volos-rowenta-karl-lagerfeld-sf411lf0-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 41,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 41.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1370789",
-        "title": "Гладильная система TEFAL IXEO POWER QT2020E0 (черная)",
-        "price": 253990,
-        "old_price": 426990,
-        "url": "https://alser.kz/p/gladilnaa-sistema-ixeo-power-qt2020e0-cernaa",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://s3s.alser.kz/uploads/products/parogeneratory-i-gladilnye-sistemy/Q1nxKhp9r/gladilnaa-sistema-ixeo-power-qt2020e0-cernaa-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 41,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 41.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1277335",
-        "title": "Кронштейн для ТВ MART 602S \"40 – 85\"",
-        "price": 11390,
-        "old_price": 18690,
-        "url": "https://alser.kz/p/kronshtijn-mart-602s-40-80",
-        "brand": "Mart",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://s3s.alser.kz/uploads/products/kronshteyny/pj9nlTWJP/kronshtijn-mart-602s-40-80-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 39,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 39.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1417846",
-        "title": "Фен профессиональный Rowenta Pro Expert, Black (CV8810F0), 2100 Вт, 1 насадка",
-        "price": 19890,
-        "old_price": 29990,
-        "url": "https://alser.kz/p/fen-rowenta-cv8810f0",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://s3s.alser.kz/uploads/products/feny/dneP5UvjR/fen-rowenta-cv8810f0-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 34,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 34.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1379085",
-        "title": "Выпрямитель Rowenta SF1627",
-        "price": 12490,
-        "old_price": 18790,
-        "url": "https://alser.kz/p/vypramitel-rowenta-sf1627",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://s3s.alser.kz/uploads/products/vyprjamiteli-dlja-volos/NZYXZFKaV/vypramitel-rowenta-sf1627-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 34,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 34.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1383716",
-        "title": "Утюг Tefal FV5737E0",
-        "price": 26590,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/utug-tefal-fv5737e0",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://s3s.alser.kz/uploads/products/utjugi/qNbq1tQxY/utug-tefal-fv5737e0-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 34,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 34.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1383605",
-        "title": "Фен профессиональный Rowenta Karl Lagerfeld Pro Stylist, Black (CV887LF0), 2200 Вт, 3 насадки, ионизация",
-        "price": 26590,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/fen-rowenta-cv887lf0",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://s3s.alser.kz/uploads/products/feny/ljYPACWNV/fen-rowenta-cv887lf0-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 34,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 34.0
     }
   ],
   "shops": [
@@ -3783,42 +3824,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-23T23:49:18+00:00",
-      "item_count": 3785,
+      "last_crawl": "2026-09-24T12:13:25+00:00",
+      "item_count": 3789,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-24T05:17:25+00:00",
-      "item_count": 12124,
+      "last_crawl": "2026-09-24T12:13:25+00:00",
+      "item_count": 12125,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-24T05:17:25+00:00",
-      "item_count": 3843,
+      "last_crawl": "2026-09-24T12:13:25+00:00",
+      "item_count": 3855,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-24T05:17:25+00:00",
-      "item_count": 9233,
+      "last_crawl": "2026-09-24T12:13:25+00:00",
+      "item_count": 9286,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-24T05:17:25+00:00",
-      "item_count": 891,
+      "last_crawl": "2026-09-24T12:13:25+00:00",
+      "item_count": 856,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29876,
+    "total_products": 29911,
     "total_deals": 150,
-    "avg_discount": 53.0
+    "avg_discount": 55.0
   }
 }
