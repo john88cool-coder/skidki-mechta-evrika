@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T01:20:03.829113+00:00",
+  "updated_at": "2026-09-25T02:48:59.468767+00:00",
   "deals": [
     {
       "product": {
@@ -2217,32 +2217,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200025445",
-        "title": "Электрочайник KENWOOD ZJP 04.A0G",
-        "price": 19990,
-        "old_price": 28990,
-        "url": "https://www.mechta.kz/product/elektrochaynik-kenwood-zjp-04dota0g/",
-        "brand": "Kenwood",
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/4ccb22d8-f548-4a62-ad24-58b33938625e?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 23.1,
-      "base_price": 25990,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018177",
         "title": "Массажер Kitfort КТ-5906 (для глаз)",
         "price": 13990,
@@ -2369,13 +2343,39 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020489",
+        "title": "Планетарный миксер Kitfort KT-1328",
+        "price": 119990,
+        "old_price": 152990,
+        "url": "https://www.mechta.kz/product/planetarnyy-mikser-kitfort-kt-1328/",
+        "brand": "Kitfort",
+        "category": "Ручные миксеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/cbc1a262-7a5d-4e8b-ba75-43f9ef9a7a72?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 21.6,
+      "base_price": 152990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-25T01:20:00+00:00",
+      "last_crawl": "2026-09-25T02:48:52+00:00",
       "item_count": 7703,
       "status": "ok"
     },
