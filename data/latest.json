@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T01:01:45.236787+00:00",
+  "updated_at": "2026-09-25T08:15:04.208766+00:00",
   "deals": [
     {
       "product": {
@@ -440,6 +440,29 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654089",
+        "title": "Ручной отпариватель Tefal DT1R04F1",
+        "price": 14990,
+        "old_price": 33990,
+        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1r04f1",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_310_0_1_QK8KH8_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -2473,7 +2496,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2748,7 +2771,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3109,31 +3132,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "623248",
-        "title": "Встраиваемый духовой шкаф Candy COSMO miniCOXP06NBB",
-        "price": 89990,
-        "old_price": 189990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-candy-coxp06nbb",
-        "brand": "Candy",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1059_0_1_2fU95Z_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "33651",
         "title": "Игровая мышь Lenovo Legion M600 Wireless (GY51C96033)",
@@ -3154,6 +3152,31 @@
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623248",
+        "title": "Встраиваемый духовой шкаф Candy COSMO miniCOXP06NBB",
+        "price": 89990,
+        "old_price": 189990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-candy-coxp06nbb",
+        "brand": "Candy",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1059_0_1_2fU95Z_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 53.0
@@ -3677,10 +3700,9 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 27.4,
-      "value_score": 81,
-      "is_pick": true,
+      "value_score": 77,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
@@ -3786,31 +3808,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640374",
-        "title": "Встраиваемая варочная панель Gorenje G641BHF",
-        "price": 89990,
-        "old_price": 179990,
-        "url": "https://www.sulpak.kz/g/gazoviye-poverhnosti-gorenje-g641bhf",
-        "brand": "Gorenje",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4095_3080_0_1_zwsGUz_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3824,41 +3821,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-25T01:01:36+00:00",
-      "item_count": 3747,
+      "last_crawl": "2026-09-25T08:14:54+00:00",
+      "item_count": 3774,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-25T01:01:36+00:00",
+      "last_crawl": "2026-09-25T08:14:54+00:00",
       "item_count": 12125,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-25T01:01:36+00:00",
-      "item_count": 3876,
+      "last_crawl": "2026-09-25T08:14:54+00:00",
+      "item_count": 3884,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-25T01:01:36+00:00",
-      "item_count": 9245,
+      "last_crawl": "2026-09-25T08:14:54+00:00",
+      "item_count": 9262,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-25T01:01:36+00:00",
-      "item_count": 835,
+      "last_crawl": "2026-09-25T08:14:54+00:00",
+      "item_count": 836,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29828,
+    "total_products": 29881,
     "total_deals": 150,
     "avg_discount": 55.0
   }
