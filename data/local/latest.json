@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-09-25T05:21:10.336022+00:00",
+  "updated_at": "2026-09-25T11:21:18.091349+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010269",
+        "title": "Вертикальный пылесос Samsung JET 95 Complete (VS20C9544TB/EV)",
+        "price": 49990,
+        "old_price": 314990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-95-complete-vs20c9544tbev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 84,
+        "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 84,
+      "fair_discount": 61.5,
+      "base_price": 129990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.5
+    },
     {
       "product": {
         "shop": "mechta",
@@ -27,6 +56,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 55.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010268",
+        "title": "Вертикальный пылесос Samsung JET 85 Complete (VS20C8524TB/EV)",
+        "price": 49990,
+        "old_price": 284990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-85-complete-vs20c8524tbev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 82,
+        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 82,
+      "fair_discount": 50.0,
+      "base_price": 99990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 32.0
     },
     {
       "product": {
@@ -284,7 +342,7 @@
       "drop_pct": 77,
       "fair_discount": 0.0,
       "base_price": 94990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -630,33 +688,6 @@
       "value_score": 35,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 65.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010268",
-        "title": "Вертикальный пылесос Samsung JET 85 Complete (VS20C8524TB/EV)",
-        "price": 99990,
-        "old_price": 284990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-85-complete-vs20c8524tbev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 65,
-        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 65,
-      "fair_discount": 0.0,
-      "base_price": 99990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 65.0
@@ -1297,32 +1328,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003059",
-        "title": "Телевизор LOEWE LED 43SteamingTV, 4K Ult, Integrated soundbar, Storm Grey",
-        "price": 299990,
-        "old_price": 758990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-43steamingtv-4k-ult-integrated-soundbar-storm-grey/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 299990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000074023",
         "title": "Вентилятор BORK P801",
         "price": 148590,
@@ -1667,6 +1672,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200009250",
+        "title": "Кофеварка ARDESTO ECM-E10B",
+        "price": 37790,
+        "old_price": 54990,
+        "url": "https://www.mechta.kz/product/kofevarka-ardesto-ecm-e10b/",
+        "brand": "Ardesto",
+        "category": "Кофеварки рожковые",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/2b45d781-93e7-11ee-a264-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.3,
+      "base_price": 54990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200010027",
         "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
         "price": 43990,
@@ -1689,6 +1720,33 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011246",
+        "title": "Электробритва PHILIPS SP 9883/36",
+        "price": 179990,
+        "old_price": 430990,
+        "url": "https://www.mechta.kz/product/elektrobritva-philips-sp-988336/",
+        "brand": "Philips",
+        "category": "Электробритвы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/aff994c7-0908-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 30.8,
+      "base_price": 259990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.2
     },
     {
       "product": {
@@ -2005,6 +2063,58 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200005241",
+        "title": "Электробритва WAHL Travel Shaver черный",
+        "price": 11990,
+        "old_price": 15990,
+        "url": "https://www.mechta.kz/product/elektrobritva-wahl-travel-shaver-chernyy/",
+        "brand": "Wahl",
+        "category": "Электробритвы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://pi.mdev.kz/b39ca8f3-cddd-11ed-a259-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.0,
+      "base_price": 15990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013600",
+        "title": "Электробритва WAHL Mobile Shaver",
+        "price": 11990,
+        "old_price": 15990,
+        "url": "https://www.mechta.kz/product/elektrobritva-wahl-mobile-shaver/",
+        "brand": "Wahl",
+        "category": "Электробритвы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://pi.mdev.kz/0e84e109-7bbc-11ef-a269-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.0,
+      "base_price": 15990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200021353",
         "title": "Игровая гарнитура HYPERX AJ0T1AA Cloud Jet (black)",
         "price": 30990,
@@ -2161,6 +2271,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200021636",
+        "title": "Кофеварка ARDESTO FCM-D2100",
+        "price": 10090,
+        "old_price": 12990,
+        "url": "https://www.mechta.kz/product/kofevarka-ardesto-fcm-d2100/",
+        "brand": "Ardesto",
+        "category": "Кофеварки капельные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/ae7355b5-5909-4ac7-bd4a-43a3fe659317?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 22.3,
+      "base_price": 12990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020489",
         "title": "Планетарный миксер Kitfort KT-1328",
         "price": 119990,
@@ -2203,7 +2339,7 @@
       "drop_pct": 21,
       "fair_discount": 21.3,
       "base_price": 60990,
-      "value_score": 60,
+      "value_score": 54,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -2235,146 +2371,14 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014691",
-        "title": "Тостер Kitfort KT-2047",
-        "price": 21890,
-        "old_price": 27790,
-        "url": "https://www.mechta.kz/product/toster-kitfort-kt-2047/",
-        "brand": "Kitfort",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/d6b627d8-9db5-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.2,
-      "base_price": 27790,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000001745",
-        "title": "Вафельница Kitfort KT 1617",
-        "price": 13890,
-        "old_price": 17590,
-        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
-        "brand": "Kitfort",
-        "category": "Вафельницы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 17590,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015919",
-        "title": "Аэрогриль Kitfort KT-2254",
-        "price": 58990,
-        "old_price": 98390,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 20.3,
-      "base_price": 73990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011098",
-        "title": "Аэрогриль Kitfort KT-2208",
-        "price": 47990,
-        "old_price": 76990,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2208/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/cb6d1fda-f312-11ee-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 20.0,
-      "base_price": 59990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 18.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015680",
-        "title": "Аэрогриль Kitfort KT-2228",
-        "price": 55390,
-        "old_price": 77290,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2228/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/28e3eec6-80a9-44ff-a66b-d39b81e01e04?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 17.3,
-      "base_price": 66990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-25T05:21:04+00:00",
-      "item_count": 7717,
+      "last_crawl": "2026-09-25T11:21:05+00:00",
+      "item_count": 7702,
       "status": "ok"
     },
     {
@@ -2414,7 +2418,7 @@
     }
   ],
   "stats": {
-    "total_products": 7717,
+    "total_products": 7702,
     "total_deals": 90,
     "avg_discount": 61.0
   }
