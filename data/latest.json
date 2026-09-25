@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T08:15:04.208766+00:00",
+  "updated_at": "2026-09-25T14:13:59.784125+00:00",
   "deals": [
     {
       "product": {
@@ -52,6 +52,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1413698",
+        "title": "Планшет Galaxy Tab S9 11\" 5G 128GB, SM-X716BZAASKZ, graphite",
+        "price": 159990,
+        "old_price": 519990,
+        "url": "https://alser.kz/p/planset-galaxy-tab-s9-11-5g-128gb-sm-x716bzaaskz-graphite",
+        "brand": "Samsung",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://s3s.alser.kz/uploads/products/planshety-samsung/g4padT1bg/planset-galaxy-tab-s9-11-5g-128gb-sm-x716bzaaskz-graphite-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 54.3,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 14.7
     },
     {
       "product": {
@@ -482,7 +509,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 56.3,
-      "value_score": 96,
+      "value_score": 100,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -559,7 +586,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 55.2,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -665,7 +692,7 @@
       "signal": "deal",
       "drop_pct": 54,
       "fair_discount": 53.5,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -690,7 +717,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 53.5,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1165,32 +1192,6 @@
         "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1293720",
-        "title": "Источник бесперебойного питания SVC V-1500-L-LCD",
-        "price": 29990,
-        "old_price": 59990,
-        "url": "https://alser.kz/p/istocnik-besperebojnogo-pitania-svc-v-1500-l-lcd",
-        "brand": null,
-        "category": null,
-        "group": "other",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/istochnik-besperebojnogo-pitanija/ZJdAQiLqY/istocnik-besperebojnogo-pitania-svc-v-1500-l-lcd-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 50.0,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
       ],
       "inflated_gap": 0.0
     },
@@ -2556,6 +2557,32 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "281321",
+        "title": "Сушильная машина AVA DAV-8000",
+        "price": 39990,
+        "old_price": 89990,
+        "url": "https://www.technodom.kz/p/sushilnaya-mashina-ava-dav-8000-281321",
+        "brand": "Ava",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://api.technodom.kz/f3/api/v1/images/281321_1b.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 20.0,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 36.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "265352",
         "title": "Винный холодильник CASO WineComfort 24",
         "price": 399990,
@@ -3183,31 +3210,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "626607",
-        "title": "Электрический чайник Tefal KI840830",
-        "price": 22790,
-        "old_price": 47990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
-        "brand": "Tefal",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "296587",
         "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
@@ -3508,31 +3510,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "296620",
-        "title": "Компьютер NEO Game A10 (Ci5-13400F/RTX 5060 8GB/32 GB/SSD 1TB/H610M/MSI MAG FORGE M100A)",
-        "price": 635990,
-        "old_price": 1319990,
-        "url": "https://www.technodom.kz/p/kompyuter-neo-game-a10-ci5-13400frtx-5060-8gb32-gbssd-1tbh610mmsi-mag-forge-m100a-296620",
-        "brand": "Neo",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://api.technodom.kz/f3/api/v1/images/296620_1.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "623480",
         "title": "Наушники Samsung Galaxy Buds3 White",
@@ -3808,6 +3785,31 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626607",
+        "title": "Электрический чайник Tefal KI840830",
+        "price": 23990,
+        "old_price": 47990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
+        "brand": "Tefal",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3821,41 +3823,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-25T08:14:54+00:00",
-      "item_count": 3774,
+      "last_crawl": "2026-09-25T14:13:50+00:00",
+      "item_count": 3771,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-25T08:14:54+00:00",
+      "last_crawl": "2026-09-25T14:13:50+00:00",
       "item_count": 12125,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-25T08:14:54+00:00",
-      "item_count": 3884,
+      "last_crawl": "2026-09-25T14:13:50+00:00",
+      "item_count": 3866,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-25T08:14:54+00:00",
-      "item_count": 9262,
+      "last_crawl": "2026-09-25T14:13:50+00:00",
+      "item_count": 9298,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-25T08:14:54+00:00",
-      "item_count": 836,
+      "last_crawl": "2026-09-25T14:13:50+00:00",
+      "item_count": 839,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29881,
+    "total_products": 29899,
     "total_deals": 150,
     "avg_discount": 55.0
   }
