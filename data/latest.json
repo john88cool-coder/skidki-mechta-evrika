@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T14:13:59.784125+00:00",
+  "updated_at": "2026-09-25T19:00:37.307492+00:00",
   "deals": [
     {
       "product": {
@@ -461,7 +461,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.1,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1005,7 +1005,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 40.0,
-      "value_score": 98,
+      "value_score": 94,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1032,7 +1032,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 50.9,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1136,7 +1136,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 50.0,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -3525,14 +3525,14 @@
       },
       "signal": "deal",
       "drop_pct": 51,
-      "fair_discount": 13.6,
-      "value_score": 57,
+      "fair_discount": 11.8,
+      "value_score": 54,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 37.4
+      "inflated_gap": 39.2
     },
     {
       "product": {
@@ -3823,41 +3823,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-25T14:13:50+00:00",
-      "item_count": 3771,
+      "last_crawl": "2026-09-25T19:00:28+00:00",
+      "item_count": 3768,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-25T14:13:50+00:00",
+      "last_crawl": "2026-09-25T19:00:28+00:00",
       "item_count": 12125,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-25T14:13:50+00:00",
-      "item_count": 3866,
+      "last_crawl": "2026-09-25T19:00:28+00:00",
+      "item_count": 3886,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-25T14:13:50+00:00",
-      "item_count": 9298,
+      "last_crawl": "2026-09-25T19:00:28+00:00",
+      "item_count": 9292,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-25T14:13:50+00:00",
-      "item_count": 839,
+      "last_crawl": "2026-09-25T19:00:28+00:00",
+      "item_count": 836,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29899,
+    "total_products": 29907,
     "total_deals": 150,
     "avg_discount": 55.0
   }
