@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T03:20:40.165777+00:00",
+  "updated_at": "2026-09-25T05:21:10.336022+00:00",
   "deals": [
     {
       "product": {
@@ -1208,7 +1208,7 @@
       "signal": "deal",
       "drop_pct": 61,
       "fair_discount": 0.0,
-      "base_price": 17990,
+      "base_price": 19990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -1319,32 +1319,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200025203",
-        "title": "Фен плойка ROWENTA UB 572 LE0 (DS)",
-        "price": 19990,
-        "old_price": 41990,
-        "url": "https://www.mechta.kz/product/fen-ployka-rowenta-ub-572-le0-ds/",
-        "brand": "Rowenta",
-        "category": "Фены-щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://pi.mdev.kz/d001f5f8-86fd-44c5-b139-c61b64c081b7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 52,
-      "fair_discount": 52.4,
-      "base_price": 41990,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -1472,10 +1446,9 @@
       "drop_pct": null,
       "fair_discount": 41.5,
       "base_price": 1269990,
-      "value_score": 79,
-      "is_pick": true,
+      "value_score": 75,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": null
@@ -1559,60 +1532,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020045",
-        "title": "Вертикальный пылесос TEFAL TY 1R17F1",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-ty-1r17f1/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://pi.mdev.kz/ffd1edf4-9664-4b1d-afe5-8737b99beff3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 87,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020046",
-        "title": "Вертикальный пылесос Tefal VERTICAL VACUUM CLEANER TY1C15F1",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-vertical-vacuum-cleaner-ty1c15f1/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://pi.mdev.kz/fd746f10-b935-45fc-b919-9930a4b10ac1?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 87,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.7
     },
     {
       "product": {
@@ -1878,33 +1797,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000083527",
-        "title": "Блендер погружной MOULINEX DD 833810",
-        "price": 20990,
-        "old_price": 43990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-moulinex-dd-833810/",
-        "brand": "Moulinex",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://pi.mdev.kz/cc7072e4-16c0-4e6d-aa9a-75026efd8162?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 52,
-      "fair_discount": 27.6,
-      "base_price": 28990,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 24.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011263",
         "title": "Пылесос Kitfort KT-5162-2",
         "price": 50990,
@@ -2087,32 +1979,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200025320",
-        "title": "Пылесос TEFAL IZ 7021 F0",
-        "price": 139990,
-        "old_price": 186990,
-        "url": "https://www.mechta.kz/product/pylesos-tefal-iz-7021-f0/",
-        "brand": "Tefal",
-        "category": "Моющие пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://pi.mdev.kz/403b0255-45cc-49ba-a26c-b555c0a3c214?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.1,
-      "base_price": 186990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "26260002552",
         "title": "Кофеварка BORK C807",
         "price": 1633590,
@@ -2243,58 +2109,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200025326",
-        "title": "Тостер TEFAL TT 7208E0",
-        "price": 43990,
-        "old_price": 56990,
-        "url": "https://www.mechta.kz/product/toster-tefal-tt-7208e0/",
-        "brand": "Tefal",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://pi.mdev.kz/1b07df92-9c0e-482b-bb7a-cde39904e384?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 22.8,
-      "base_price": 56990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200025327",
-        "title": "Тостер TEFAL TT 720AE0",
-        "price": 43990,
-        "old_price": 56990,
-        "url": "https://www.mechta.kz/product/toster-tefal-tt-720ae0/",
-        "brand": "Tefal",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://pi.mdev.kz/af86de35-afdb-485a-8a14-80ecd43a3d17?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 22.8,
-      "base_price": 56990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200022464",
         "title": "Массажер Kitfort КТ-5957 (для шеи)",
         "price": 16990,
@@ -2369,14 +2183,198 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006636",
+        "title": "Игровая гарнитура HYPERX CLOUD III 727A8AA (Black)",
+        "price": 47990,
+        "old_price": 60990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-cloud-iii-727a8aa-black/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/e819c93a-2deb-42d6-8800-844e5196a381?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.3,
+      "base_price": 60990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006637",
+        "title": "Игровая гарнитура HYPERX CLOUD III 727A9AA (Red)",
+        "price": 47990,
+        "old_price": 60990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-cloud-iii-727a9aa-red/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/4e24c578-1f3d-460f-b514-2e6d2c68301c?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.3,
+      "base_price": 60990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014691",
+        "title": "Тостер Kitfort KT-2047",
+        "price": 21890,
+        "old_price": 27790,
+        "url": "https://www.mechta.kz/product/toster-kitfort-kt-2047/",
+        "brand": "Kitfort",
+        "category": "Тостеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/d6b627d8-9db5-11ef-a26b-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.2,
+      "base_price": 27790,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17000001745",
+        "title": "Вафельница Kitfort KT 1617",
+        "price": 13890,
+        "old_price": 17590,
+        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
+        "brand": "Kitfort",
+        "category": "Вафельницы",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.0,
+      "base_price": 17590,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015919",
+        "title": "Аэрогриль Kitfort KT-2254",
+        "price": 58990,
+        "old_price": 98390,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 20.3,
+      "base_price": 73990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011098",
+        "title": "Аэрогриль Kitfort KT-2208",
+        "price": 47990,
+        "old_price": 76990,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2208/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/cb6d1fda-f312-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 20.0,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015680",
+        "title": "Аэрогриль Kitfort KT-2228",
+        "price": 55390,
+        "old_price": 77290,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2228/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://pi.mdev.kz/28e3eec6-80a9-44ff-a66b-d39b81e01e04?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 17.3,
+      "base_price": 66990,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-25T03:20:34+00:00",
-      "item_count": 7703,
+      "last_crawl": "2026-09-25T05:21:04+00:00",
+      "item_count": 7717,
       "status": "ok"
     },
     {
@@ -2416,7 +2414,7 @@
     }
   ],
   "stats": {
-    "total_products": 7703,
+    "total_products": 7717,
     "total_deals": 90,
     "avg_discount": 61.0
   }
