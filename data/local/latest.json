@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T11:21:02.107837+00:00",
+  "updated_at": "2026-09-26T13:20:46.578955+00:00",
   "deals": [
     {
       "product": {
@@ -76,7 +76,7 @@
       "drop_pct": 82,
       "fair_discount": 50.0,
       "base_price": 99990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1855,6 +1855,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200020503",
+        "title": "Вертикальный пылесос TROUVER Wet and Dry Vacuum M50",
+        "price": 138990,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-trouver-wet-and-dry-vacuum-m50/",
+        "brand": "Trouver",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://pi.mdev.kz/a1160dcb-89d7-4ccf-96ac-5f4aa4bd07aa?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 26.8,
+      "base_price": 189990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011263",
         "title": "Пылесос Kitfort KT-5162-2",
         "price": 50990,
@@ -2115,6 +2141,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019307",
+        "title": "Робот-пылесос TROUVER Robot Vacuum V50 Ultra Complete",
+        "price": 524990,
+        "old_price": 699990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-trouver-robot-vacuum-v50-ultra-complete/",
+        "brand": "Trouver",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://pi.mdev.kz/49c2dcc5-c966-4671-ab0d-3842a744699d?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.0,
+      "base_price": 699990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020933",
         "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
         "price": 97790,
@@ -2319,67 +2371,14 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017241",
-        "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray",
-        "price": 99830,
-        "old_price": 134990,
-        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-wifi-8gb128gb-nebula-gray/",
-        "brand": "Huawei",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://pi.mdev.kz/7d63ff2b-970e-4429-a0e0-3e6e3104bde3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 23.1,
-      "base_price": 129790,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 2.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020926",
-        "title": "Смарт-часы HUAWEI GT 6 Pro (46mm) цвет черный, (ATM-B29)",
-        "price": 127890,
-        "old_price": 206990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-pro-46mm-cvet-chernyy-atm-b29/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/5edef728-d88c-4803-98ab-2e06b4167e13?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 22.4,
-      "base_price": 164890,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.6
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-26T11:20:57+00:00",
-      "item_count": 7697,
+      "last_crawl": "2026-09-26T13:20:41+00:00",
+      "item_count": 7705,
       "status": "ok"
     },
     {
@@ -2419,7 +2418,7 @@
     }
   ],
   "stats": {
-    "total_products": 7697,
+    "total_products": 7705,
     "total_deals": 90,
     "avg_discount": 61.0
   }
