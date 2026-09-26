@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T16:47:29.888519+00:00",
+  "updated_at": "2026-09-26T21:50:06.084259+00:00",
   "deals": [
     {
       "product": {
@@ -2481,6 +2481,31 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "633171",
+        "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Green 55020EVS",
+        "price": 99890,
+        "old_price": 227890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-green",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1664_0_2_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "295515",
         "title": "Игровой компьютер TechnoGaming 292(AR7-7800X3D/RTX5070TI 16GB/D5 32GB/SSD 2TB/B850 MLG/MSI PANO 130R MLG)",
@@ -3784,31 +3809,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "622143",
-        "title": "Наушники ARG F6 Silver",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-silver",
-        "brand": "ARG",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2221_0_1_MJY8Ra_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3822,41 +3822,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-26T16:47:20+00:00",
-      "item_count": 3754,
+      "last_crawl": "2026-09-26T21:49:57+00:00",
+      "item_count": 3681,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-26T16:47:20+00:00",
-      "item_count": 12129,
+      "last_crawl": "2026-09-26T21:49:57+00:00",
+      "item_count": 10387,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-26T16:47:20+00:00",
-      "item_count": 3750,
+      "last_crawl": "2026-09-26T21:49:57+00:00",
+      "item_count": 3751,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-26T16:47:20+00:00",
-      "item_count": 9267,
+      "last_crawl": "2026-09-26T21:49:57+00:00",
+      "item_count": 9266,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-26T16:47:20+00:00",
-      "item_count": 836,
+      "last_crawl": "2026-09-26T21:49:57+00:00",
+      "item_count": 834,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29736,
+    "total_products": 27919,
     "total_deals": 150,
     "avg_discount": 55.0
   }
