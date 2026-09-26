@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T05:23:34.877660+00:00",
+  "updated_at": "2026-09-26T11:49:05.789932+00:00",
   "deals": [
     {
       "product": {
@@ -461,7 +461,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.1,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1005,7 +1005,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 40.0,
-      "value_score": 94,
+      "value_score": 90,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1032,7 +1032,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 50.9,
-      "value_score": 92,
+      "value_score": 88,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1136,7 +1136,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 50.0,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1667,7 +1667,7 @@
       "signal": "deal",
       "drop_pct": 65,
       "fair_discount": 0.0,
-      "value_score": 41,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2658,6 +2658,31 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "633168",
+        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
+        "price": 154990,
+        "old_price": 341890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 55.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "629895",
         "title": "Ручной отпариватель Tefal Pure Pop DT2023F0",
         "price": 19990,
@@ -3160,6 +3185,56 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "633169",
+        "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Beige 55020EVQ",
+        "price": 116990,
+        "old_price": 248890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-beige",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1662_0_2_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633165",
+        "title": "Смарт-часы Huawei WATCH 5 46mm Purple",
+        "price": 116990,
+        "old_price": 248890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-46mm-purple",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1658_0_1_Eg8TRR_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "623248",
         "title": "Встраиваемый духовой шкаф Candy COSMO miniCOXP06NBB",
         "price": 89990,
@@ -3512,7 +3587,7 @@
       "product": {
         "shop": "shopkz",
         "sku": "1272522",
-        "title": "Смартфон vivo Y15s, 32Gb, Mystic Blue (V2120)",
+        "title": "Смартфон vivo Y15s, 32GB, Mystic Blue (V2120)",
         "price": 39990,
         "old_price": 79990,
         "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-mystic-blue-v2120/",
@@ -3587,7 +3662,7 @@
       "product": {
         "shop": "shopkz",
         "sku": "1272252",
-        "title": "Смартфон vivo Y15s, 32Gb, Wave Green (V2120)",
+        "title": "Смартфон vivo Y15s, 32GB, Wave Green (V2120)",
         "price": 39990,
         "old_price": 79990,
         "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-wave-green-v2120/",
@@ -3734,81 +3809,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630933",
-        "title": "Cтационарный блендер Moulinex BlendForce LM420110",
-        "price": 22990,
-        "old_price": 45990,
-        "url": "https://www.sulpak.kz/g/blenderiy-stacionarniye-moulinex-lm420110",
-        "brand": "Moulinex",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_216_0_1_BMGXmB_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "626607",
-        "title": "Электрический чайник Tefal KI840830",
-        "price": 23990,
-        "old_price": 47990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
-        "brand": "Tefal",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640374",
-        "title": "Встраиваемая варочная панель Gorenje G641BHF",
-        "price": 89990,
-        "old_price": 179990,
-        "url": "https://www.sulpak.kz/g/gazoviye-poverhnosti-gorenje-g641bhf",
-        "brand": "Gorenje",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4095_3080_0_1_zwsGUz_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3822,41 +3822,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-26T05:23:26+00:00",
-      "item_count": 3765,
+      "last_crawl": "2026-09-26T11:48:57+00:00",
+      "item_count": 3756,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-26T05:23:26+00:00",
-      "item_count": 12125,
+      "last_crawl": "2026-09-26T11:48:57+00:00",
+      "item_count": 12127,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-26T05:23:26+00:00",
-      "item_count": 3803,
+      "last_crawl": "2026-09-26T11:48:57+00:00",
+      "item_count": 3771,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-26T05:23:26+00:00",
-      "item_count": 9289,
+      "last_crawl": "2026-09-26T11:48:57+00:00",
+      "item_count": 9278,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-26T05:23:26+00:00",
-      "item_count": 837,
+      "last_crawl": "2026-09-26T11:48:57+00:00",
+      "item_count": 835,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29819,
+    "total_products": 29767,
     "total_deals": 150,
     "avg_discount": 55.0
   }
