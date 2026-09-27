@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T19:20:45.421738+00:00",
+  "updated_at": "2026-09-27T21:21:32.631658+00:00",
   "deals": [
     {
       "product": {
@@ -1854,32 +1854,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020503",
-        "title": "Вертикальный пылесос TROUVER Wet and Dry Vacuum M50",
-        "price": 138990,
-        "old_price": 189990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-trouver-wet-and-dry-vacuum-m50/",
-        "brand": "Trouver",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://pi.mdev.kz/a1160dcb-89d7-4ccf-96ac-5f4aa4bd07aa?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 26.8,
-      "base_price": 189990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011263",
         "title": "Пылесос Kitfort KT-5162-2",
         "price": 50990,
@@ -2140,132 +2114,55 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019307",
-        "title": "Робот-пылесос TROUVER Robot Vacuum V50 Ultra Complete",
-        "price": 524990,
-        "old_price": 699990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-trouver-robot-vacuum-v50-ultra-complete/",
-        "brand": "Trouver",
-        "category": "Роботы-пылесосы",
-        "group": "home",
+        "sku": "17200014516",
+        "title": "Мультитриммер PHILIPS MG 5920/15",
+        "price": 29990,
+        "old_price": 53990,
+        "url": "https://www.mechta.kz/product/multitrimmer-philips-mg-592015/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://pi.mdev.kz/49c2dcc5-c966-4671-ab0d-3842a744699d?w=400"
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/20040347-981f-4d9e-af11-c3b8e0b87265?w=400"
       },
       "signal": "drop",
-      "drop_pct": 25,
+      "drop_pct": 44,
       "fair_discount": 25.0,
-      "base_price": 699990,
-      "value_score": 61,
+      "base_price": 39990,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Рисованная?"
       ],
-      "inflated_gap": 0.0
+      "inflated_gap": 19.0
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020933",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
-        "price": 97790,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-seryy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
+        "sku": "26000000319",
+        "title": "Фен PHILIPS BHD 272/00",
+        "price": 29990,
+        "old_price": 45990,
+        "url": "https://www.mechta.kz/product/fen-philips-bhd-27200/",
+        "brand": "Philips",
+        "category": "Фены",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400"
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/5b2ba432-077e-11ea-a22b-005056b6dbd7?w=400"
       },
       "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 24.7,
-      "base_price": 129890,
+      "drop_pct": 35,
+      "fair_discount": 25.0,
+      "base_price": 39990,
       "value_score": 73,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 12.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020932",
-        "title": "Смарт-часы HUAWEI GT 6 (41mm) цвет белый, (KSU-B19)",
-        "price": 97890,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-41mm-cvet-belyy-ksu-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/185c1af7-3850-48fe-b874-464ab90202ed?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 24.6,
-      "base_price": 129890,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020929",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет зеленый, (ATM-B19)",
-        "price": 97990,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-zelenyy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/dbfe166b-3870-4087-9495-d3972faf6b48?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 24.6,
-      "base_price": 129890,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020931",
-        "title": "Смарт-часы HUAWEI GT 6 (41mm) цвет фиолетовый, (KSU-B19)",
-        "price": 97990,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-41mm-cvet-fioletovyy-ksu-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/7773b21d-1313-45dc-b5ad-603298c3fbcb?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 24.6,
-      "base_price": 129890,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.4
+      "inflated_gap": 10.0
     },
     {
       "product": {
@@ -2370,14 +2267,118 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022464",
+        "title": "Массажер Kitfort КТ-5957 (для шеи)",
+        "price": 16990,
+        "old_price": 21890,
+        "url": "https://www.mechta.kz/product/massajer-kitfort-kt-5957-dlya-shei/",
+        "brand": "Kitfort",
+        "category": "Массажёры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/b2e96f3e-fd81-4fcd-a932-f7a3213b96b0?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 22.4,
+      "base_price": 21890,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018944",
+        "title": "Термопот Kitfort КТ-2522",
+        "price": 33990,
+        "old_price": 43790,
+        "url": "https://www.mechta.kz/product/termopot-kitfort-kt-2522/",
+        "brand": "Kitfort",
+        "category": "Термопоты",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/4c1e4d4b-b25b-43f5-bef8-30fcc7b6daa5?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 22.4,
+      "base_price": 43790,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021636",
+        "title": "Кофеварка ARDESTO FCM-D2100",
+        "price": 10090,
+        "old_price": 12990,
+        "url": "https://www.mechta.kz/product/kofevarka-ardesto-fcm-d2100/",
+        "brand": "Ardesto",
+        "category": "Кофеварки капельные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/ae7355b5-5909-4ac7-bd4a-43a3fe659317?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 22.3,
+      "base_price": 12990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020489",
+        "title": "Планетарный миксер Kitfort KT-1328",
+        "price": 119990,
+        "old_price": 152990,
+        "url": "https://www.mechta.kz/product/planetarnyy-mikser-kitfort-kt-1328/",
+        "brand": "Kitfort",
+        "category": "Ручные миксеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/cbc1a262-7a5d-4e8b-ba75-43f9ef9a7a72?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 21.6,
+      "base_price": 152990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-27T19:20:41+00:00",
-      "item_count": 7686,
+      "last_crawl": "2026-09-27T21:20:25+00:00",
+      "item_count": 7689,
       "status": "ok"
     },
     {
@@ -2417,7 +2418,7 @@
     }
   ],
   "stats": {
-    "total_products": 7686,
+    "total_products": 7689,
     "total_deals": 90,
     "avg_discount": 61.0
   }
