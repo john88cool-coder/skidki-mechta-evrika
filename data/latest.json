@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T01:01:40.366519+00:00",
+  "updated_at": "2026-09-27T08:35:10.671222+00:00",
   "deals": [
     {
       "product": {
@@ -1667,7 +1667,7 @@
       "signal": "deal",
       "drop_pct": 65,
       "fair_discount": 0.0,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3210,6 +3210,31 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "633170",
+        "title": "Смарт-часы Huawei WATCH 5 42mm White",
+        "price": 116990,
+        "old_price": 248890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1663_0_1_o3RAVa_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "633169",
         "title": "Смарт часы Huawei Watch 5 SOC-AL00 42mm Beige 55020EVQ",
         "price": 116990,
@@ -3784,31 +3809,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "622142",
-        "title": "Наушники ARG F6 Black",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
-        "brand": "ARG",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3822,41 +3822,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-27T01:01:31+00:00",
-      "item_count": 3750,
+      "last_crawl": "2026-09-27T08:35:04+00:00",
+      "item_count": 3751,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-27T01:01:31+00:00",
-      "item_count": 12129,
+      "last_crawl": "2026-09-27T08:35:04+00:00",
+      "item_count": 12135,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-27T01:01:31+00:00",
-      "item_count": 3758,
+      "last_crawl": "2026-09-27T08:35:04+00:00",
+      "item_count": 3731,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-27T01:01:31+00:00",
-      "item_count": 9264,
+      "last_crawl": "2026-09-27T08:35:04+00:00",
+      "item_count": 9254,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-27T01:01:31+00:00",
+      "last_crawl": "2026-09-27T08:35:04+00:00",
       "item_count": 834,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29735,
+    "total_products": 29705,
     "total_deals": 150,
     "avg_discount": 55.0
   }
