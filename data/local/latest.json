@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T05:20:23.962320+00:00",
+  "updated_at": "2026-09-27T16:55:50.652225+00:00",
   "deals": [
     {
       "product": {
@@ -49,7 +49,7 @@
       "drop_pct": 83,
       "fair_discount": 27.8,
       "base_price": 17990,
-      "value_score": 66,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -368,7 +368,7 @@
       "drop_pct": 76,
       "fair_discount": 20.0,
       "base_price": 49990,
-      "value_score": 52,
+      "value_score": 47,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1477,10 +1477,9 @@
       "drop_pct": null,
       "fair_discount": 41.5,
       "base_price": 1269990,
-      "value_score": 79,
-      "is_pick": true,
+      "value_score": 75,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": null
@@ -1767,7 +1766,7 @@
       "drop_pct": 30,
       "fair_discount": 30.3,
       "base_price": 31390,
-      "value_score": 76,
+      "value_score": 70,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -2377,8 +2376,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-27T05:20:20+00:00",
-      "item_count": 7685,
+      "last_crawl": "2026-09-27T16:55:45+00:00",
+      "item_count": 7688,
       "status": "ok"
     },
     {
@@ -2418,7 +2417,7 @@
     }
   ],
   "stats": {
-    "total_products": 7685,
+    "total_products": 7688,
     "total_deals": 90,
     "avg_discount": 61.0
   }
