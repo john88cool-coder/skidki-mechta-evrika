@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T14:25:20.478286+00:00",
+  "updated_at": "2026-09-27T18:47:00.977441+00:00",
   "deals": [
     {
       "product": {
@@ -176,7 +176,7 @@
       "signal": "deal",
       "drop_pct": 63,
       "fair_discount": 62.8,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -252,7 +252,7 @@
       "signal": "deal",
       "drop_pct": 60,
       "fair_discount": 60.0,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -407,7 +407,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.2,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -434,7 +434,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.2,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -613,7 +613,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 55.0,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -776,31 +776,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 5.9
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623479",
-        "title": "Наушники Samsung Galaxy Buds3 Silver",
-        "price": 43090,
-        "old_price": 88890,
-        "url": "https://www.sulpak.kz/g/naushniki-samsung-galaxy-buds3-sm-r530nzaacis-silver",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2228_0_1_ci0qRC_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -2823,7 +2798,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 32.3,
-      "value_score": 79,
+      "value_score": 75,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -3484,6 +3459,32 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "623479",
+        "title": "Наушники Samsung Galaxy Buds3 Silver",
+        "price": 43090,
+        "old_price": 88890,
+        "url": "https://www.sulpak.kz/g/naushniki-samsung-galaxy-buds3-sm-r530nzaacis-silver",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2228_0_1_ci0qRC_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 0.0,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 52.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "289412",
         "title": "Игровой Компьютер Neo Game A02 (Ci3 12100F/RTX 3050 6GB/16GB/SSD 1TB/H610M/Mana BK/Win11)",
@@ -3822,41 +3823,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-09-27T14:25:14+00:00",
-      "item_count": 3741,
+      "last_crawl": "2026-09-27T18:46:54+00:00",
+      "item_count": 3749,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-27T14:25:14+00:00",
+      "last_crawl": "2026-09-27T18:46:54+00:00",
       "item_count": 12136,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-27T14:25:14+00:00",
-      "item_count": 3765,
+      "last_crawl": "2026-09-27T18:46:54+00:00",
+      "item_count": 3736,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-27T14:25:14+00:00",
-      "item_count": 9231,
+      "last_crawl": "2026-09-27T18:46:54+00:00",
+      "item_count": 9223,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-27T14:25:14+00:00",
-      "item_count": 815,
+      "last_crawl": "2026-09-27T18:46:54+00:00",
+      "item_count": 812,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29688,
+    "total_products": 29656,
     "total_deals": 150,
     "avg_discount": 55.0
   }
