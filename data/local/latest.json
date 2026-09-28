@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:21:42.843622+00:00",
+  "updated_at": "2026-09-28T09:23:53.056750+00:00",
   "deals": [
     {
       "product": {
@@ -103,15 +103,14 @@
       },
       "signal": "deal",
       "drop_pct": 80,
-      "fair_discount": 25.0,
-      "base_price": 39990,
-      "value_score": 57,
+      "fair_discount": 0.0,
+      "base_price": 29990,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 55.0
+      "inflated_gap": 80.0
     },
     {
       "product": {
@@ -392,14 +391,14 @@
       },
       "signal": "deal",
       "drop_pct": 76,
-      "fair_discount": 7.1,
-      "base_price": 69990,
-      "value_score": 39,
+      "fair_discount": 0.0,
+      "base_price": 64990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 68.9
+      "inflated_gap": 76.0
     },
     {
       "product": {
@@ -604,14 +603,14 @@
       },
       "signal": "deal",
       "drop_pct": 67,
-      "fair_discount": 9.1,
-      "base_price": 109990,
-      "value_score": 47,
+      "fair_discount": 0.0,
+      "base_price": 99990,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 57.9
+      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -893,15 +892,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 20.0,
-      "base_price": 24990,
-      "value_score": 48,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 43.0
+      "inflated_gap": 63.0
     },
     {
       "product": {
@@ -922,7 +920,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 99990,
-      "value_score": 35,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -946,14 +944,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 7.1,
-      "base_price": 139990,
-      "value_score": 39,
+      "fair_discount": 0.0,
+      "base_price": 129990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 55.9
+      "inflated_gap": 63.0
     },
     {
       "product": {
@@ -999,7 +997,7 @@
       "signal": "deal",
       "drop_pct": 62,
       "fair_discount": 0.0,
-      "base_price": 149990,
+      "base_price": 139990,
       "value_score": 29,
       "is_pick": false,
       "badges": [
@@ -2347,37 +2345,36 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000001190",
-        "title": "Индукционная плитка OLTO HP-201I",
-        "price": 39990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/indukcionnaya-plitka-olto-hp-201i/",
-        "brand": "Olto",
-        "category": "Настольные плиты",
+        "sku": "17200020488",
+        "title": "Планетарный миксер Kitfort KT-3038-1",
+        "price": 79990,
+        "old_price": 99990,
+        "url": "https://www.mechta.kz/product/planetarnyy-mikser-kitfort-kt-3038-1/",
+        "brand": "Kitfort",
+        "category": "Ручные миксеры",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/ac40b37f-0c60-11eb-a234-005056b6dbd7?w=400"
+        "discount_pct": 20,
+        "image": "https://pi.mdev.kz/d3f0bd06-23b8-4cad-995e-ac53ef4eaf0d?w=400"
       },
       "signal": "drop",
-      "drop_pct": 38,
+      "drop_pct": 20,
       "fair_discount": 20.0,
-      "base_price": 49990,
-      "value_score": 48,
+      "base_price": 99990,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 18.0
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-28T07:21:36+00:00",
-      "item_count": 7684,
+      "last_crawl": "2026-09-28T09:23:37+00:00",
+      "item_count": 7737,
       "status": "ok"
     },
     {
@@ -2417,7 +2414,7 @@
     }
   ],
   "stats": {
-    "total_products": 7684,
+    "total_products": 7737,
     "total_deals": 90,
     "avg_discount": 61.0
   }
