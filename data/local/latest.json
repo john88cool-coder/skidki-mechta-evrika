@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T19:21:11.165931+00:00",
+  "updated_at": "2026-09-28T21:20:31.531196+00:00",
   "deals": [
     {
       "product": {
@@ -1377,6 +1377,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000038227",
+        "title": "Блендер погружной PANASONIC MX-SS40BTQ",
+        "price": 29990,
+        "old_price": 49390,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-panasonic-mx-ss40btq/",
+        "brand": "Panasonic",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/d0e1659c-b845-11ef-a26e-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 36.6,
+      "base_price": 47290,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 2.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200009250",
         "title": "Кофеварка ARDESTO ECM-E10B",
         "price": 37790,
@@ -1902,6 +1929,85 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011240",
+        "title": "Ирригатор PHILIPS HX 3826/33",
+        "price": 69990,
+        "old_price": 104990,
+        "url": "https://www.mechta.kz/product/irrigator-philips-hx-382633/",
+        "brand": "Philips",
+        "category": "Ирригаторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/8a7d756f-083d-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 19.5,
+      "base_price": 86990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025140",
+        "title": "Пароочиститель Kitfort KT-933",
+        "price": 109190,
+        "old_price": 134790,
+        "url": "https://www.mechta.kz/product/paroochistitel-kitfort-kt-933/",
+        "brand": "Kitfort",
+        "category": "Пароочистители",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://pi.mdev.kz/38a06223-b685-4c63-b71b-9dc562b57b26?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 19.0,
+      "base_price": 134790,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019873",
+        "title": "Стиральная машина HISENSE WFQP 8014 VM",
+        "price": 137990,
+        "old_price": 217990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hisense-wfqp-8014-vm/",
+        "brand": "Hisense",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/160949e6-f066-4dad-a718-510d0318c60b?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 18.8,
+      "base_price": 169990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200015680",
         "title": "Аэрогриль Kitfort KT-2228",
         "price": 55390,
@@ -2082,8 +2188,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-28T19:21:03+00:00",
-      "item_count": 7706,
+      "last_crawl": "2026-09-28T21:20:23+00:00",
+      "item_count": 7705,
       "status": "ok"
     },
     {
@@ -2123,8 +2229,8 @@
     }
   ],
   "stats": {
-    "total_products": 7706,
-    "total_deals": 79,
+    "total_products": 7705,
+    "total_deals": 83,
     "avg_discount": 62
   }
 }
