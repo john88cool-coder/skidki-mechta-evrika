@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T17:21:20.359622+00:00",
+  "updated_at": "2026-09-28T19:21:11.165931+00:00",
   "deals": [
     {
       "product": {
@@ -525,7 +525,7 @@
       "drop_pct": 71,
       "fair_discount": 33.3,
       "base_price": 29990,
-      "value_score": 70,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1875,6 +1875,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "30000003991",
+        "title": "Электрическая зубная щетка PHILIPS HX 9914/57",
+        "price": 199990,
+        "old_price": 350990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-991457/",
+        "brand": "Philips",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/51b98f8b-7c97-11eb-a23a-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 249990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200015680",
         "title": "Аэрогриль Kitfort KT-2228",
         "price": 55390,
@@ -2055,8 +2082,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-28T17:21:13+00:00",
-      "item_count": 7707,
+      "last_crawl": "2026-09-28T19:21:03+00:00",
+      "item_count": 7706,
       "status": "ok"
     },
     {
@@ -2096,8 +2123,8 @@
     }
   ],
   "stats": {
-    "total_products": 7707,
-    "total_deals": 78,
-    "avg_discount": 62.0
+    "total_products": 7706,
+    "total_deals": 79,
+    "avg_discount": 62
   }
 }
