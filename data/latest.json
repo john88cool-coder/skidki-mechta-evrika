@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T14:22:32.169891+00:00",
+  "updated_at": "2026-09-28T20:55:03.763547+00:00",
   "deals": [
     {
       "product": {
@@ -149,7 +149,7 @@
       "signal": "deal",
       "drop_pct": 66,
       "fair_discount": 65.7,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -201,7 +201,7 @@
       "signal": "deal",
       "drop_pct": 63,
       "fair_discount": 62.5,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -482,7 +482,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.2,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1217,32 +1217,6 @@
         "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1263810",
-        "title": "Пылесос Kitfort KT-548, Black-Blue",
-        "price": 34990,
-        "old_price": 58290,
-        "url": "https://shop.kz/offer/pylesos-kitfort-kt-548-black-blue/",
-        "brand": "Kitfort",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://static.shop.kz/upload/iblock/861/159182o6.JPG"
-      },
-      "signal": "deal",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
       ],
       "inflated_gap": 0.0
     },
@@ -3661,6 +3635,31 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1272252",
+        "title": "Смартфон vivo Y15s, 32GB, Wave Green (V2120)",
+        "price": 39990,
+        "old_price": 79990,
+        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-wave-green-v2120/",
+        "brand": "vivo",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://static.shop.kz/upload/iblock/9b6/brgghse53ze8nwk1hcrargix13lqzmu2/159539s1.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "7184",
         "title": "Блендер Moulinex LM420110",
@@ -3703,31 +3702,6 @@
       "drop_pct": 50,
       "fair_discount": 0.0,
       "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1272252",
-        "title": "Смартфон vivo Y15s, 32GB, Wave Green (V2120)",
-        "price": 39990,
-        "old_price": 79990,
-        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-wave-green-v2120/",
-        "brand": "vivo",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://static.shop.kz/upload/iblock/9b6/brgghse53ze8nwk1hcrargix13lqzmu2/159539s1.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3810,6 +3784,31 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622142",
+        "title": "Наушники ARG F6 Black",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
+        "brand": "ARG",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3830,34 +3829,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-28T14:22:21+00:00",
-      "item_count": 12139,
+      "last_crawl": "2026-09-28T20:54:54+00:00",
+      "item_count": 12138,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-28T14:22:21+00:00",
-      "item_count": 3791,
+      "last_crawl": "2026-09-28T20:54:54+00:00",
+      "item_count": 3828,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-28T14:22:21+00:00",
-      "item_count": 9379,
+      "last_crawl": "2026-09-28T20:54:54+00:00",
+      "item_count": 9380,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-28T14:22:21+00:00",
-      "item_count": 842,
+      "last_crawl": "2026-09-28T20:54:54+00:00",
+      "item_count": 841,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29902,
+    "total_products": 29938,
     "total_deals": 150,
     "avg_discount": 56.0
   }
