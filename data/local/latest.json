@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T15:20:47.918018+00:00",
+  "updated_at": "2026-09-28T17:21:20.359622+00:00",
   "deals": [
     {
       "product": {
@@ -1325,32 +1325,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006427",
-        "title": "Овощерезка Kitfort KT 1384",
-        "price": 17990,
-        "old_price": 30790,
-        "url": "https://www.mechta.kz/product/ovoshcherezka-kitfort-kt-1384/",
-        "brand": "Kitfort",
-        "category": "Электротерки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/0709a017-1498-11ee-a25b-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.6,
-      "base_price": 30790,
-      "value_score": 83,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013979",
         "title": "Массажер BORK D730bg MOON кресло (бежевый)",
         "price": 742590,
@@ -1399,138 +1373,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008230",
-        "title": "Кухонная машина Kitfort KT-1371(3в1)",
-        "price": 59990,
-        "old_price": 95990,
-        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-kitfort-kt-13713v1/",
-        "brand": "Kitfort",
-        "category": "Кухонные машины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/5e0328af-68e0-11ee-a262-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.5,
-      "base_price": 95990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010039",
-        "title": "Электрочайник Kitfort КТ-6126",
-        "price": 11990,
-        "old_price": 18290,
-        "url": "https://www.mechta.kz/product/elektrochaynik-kitfort-kt-6126/",
-        "brand": "Kitfort",
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://pi.mdev.kz/06b435ac-c983-11ee-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 34.4,
-      "base_price": 18290,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016358",
-        "title": "Массажер Kitfort КТ-5917 (для шеи)",
-        "price": 20990,
-        "old_price": 31490,
-        "url": "https://www.mechta.kz/product/massajer-kitfort-kt-5917-dlya-shei/",
-        "brand": "Kitfort",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/16076024-c459-4755-9826-a100e4743be8?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 33.3,
-      "base_price": 31490,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022104",
-        "title": "Аэрогриль Kitfort KT-8158 (4+6 л)",
-        "price": 53990,
-        "old_price": 80190,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-8158-4plus6-l/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/87cc3492-a0ca-42f2-b39a-9cc9eef8fff2?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 32.7,
-      "base_price": 80190,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019763",
-        "title": "Ирригатор Kitfort КТ-5943 Жёлтый",
-        "price": 12990,
-        "old_price": 18990,
-        "url": "https://www.mechta.kz/product/irrigator-kitfort-kt-5943-jeltyy/",
-        "brand": "Kitfort",
-        "category": "Ирригаторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://pi.mdev.kz/645767ad-412e-486a-8af9-378a830a3a72?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 31.6,
-      "base_price": 18990,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -1610,32 +1452,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 27.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014696",
-        "title": "Пароварка Kitfort KT-4082",
-        "price": 21890,
-        "old_price": 31390,
-        "url": "https://www.mechta.kz/product/parovarka-kitfort-kt-4082/",
-        "brand": "Kitfort",
-        "category": "Пароварки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://pi.mdev.kz/d1eb8069-9d81-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 30.3,
-      "base_price": 31390,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -1735,110 +1551,6 @@
       "fair_discount": 26.3,
       "base_price": 69190,
       "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014306",
-        "title": "Хлебопечь Kitfort KT-311",
-        "price": 41990,
-        "old_price": 56890,
-        "url": "https://www.mechta.kz/product/hlebopech-kitfort-kt-311/",
-        "brand": "Kitfort",
-        "category": "Хлебопечки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://pi.mdev.kz/2c2bff45-9bf9-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 26.2,
-      "base_price": 56890,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022463",
-        "title": "Массажер Kitfort КТ-5958 (для шеи)",
-        "price": 18990,
-        "old_price": 25590,
-        "url": "https://www.mechta.kz/product/massajer-kitfort-kt-5958-dlya-shei/",
-        "brand": "Kitfort",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://pi.mdev.kz/cffdf75e-5caa-4ea6-a2ac-d63f335b63ed?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 25.8,
-      "base_price": 25590,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011300",
-        "title": "Ирригатор Kitfort КТ-2958-2 бело-фисташковый",
-        "price": 11990,
-        "old_price": 16090,
-        "url": "https://www.mechta.kz/product/irrigator-kitfort-kt-2958-2-belo-fistashkovyy/",
-        "brand": "Kitfort",
-        "category": "Ирригаторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://pi.mdev.kz/3e4fe785-0128-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.5,
-      "base_price": 16090,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012049",
-        "title": "Массажер Kitfort КТ-2977 (для головы)",
-        "price": 12990,
-        "old_price": 17390,
-        "url": "https://www.mechta.kz/product/massajer-kitfort-kt-2977-dlya-golovy/",
-        "brand": "Kitfort",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://pi.mdev.kz/87a5203c-2164-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.3,
-      "base_price": 17390,
-      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1979,110 +1691,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011091",
-        "title": "Ледогенератор Kitfort KT-1819",
-        "price": 116490,
-        "old_price": 152990,
-        "url": "https://www.mechta.kz/product/ledogenerator-kitfort-kt-1819/",
-        "brand": "Kitfort",
-        "category": "Ледогенераторы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://pi.mdev.kz/02902374-38e1-4e58-a02e-670cd40b0d4a?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 23.9,
-      "base_price": 152990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018177",
-        "title": "Массажер Kitfort КТ-5906 (для глаз)",
-        "price": 13990,
-        "old_price": 18190,
-        "url": "https://www.mechta.kz/product/massajer-kitfort-kt-5906-dlya-glaz/",
-        "brand": "Kitfort",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://pi.mdev.kz/7fa433ba-8243-49f9-bbb4-8c5bf915d220?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 23.1,
-      "base_price": 18190,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022464",
-        "title": "Массажер Kitfort КТ-5957 (для шеи)",
-        "price": 16990,
-        "old_price": 21890,
-        "url": "https://www.mechta.kz/product/massajer-kitfort-kt-5957-dlya-shei/",
-        "brand": "Kitfort",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/b2e96f3e-fd81-4fcd-a932-f7a3213b96b0?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 22.4,
-      "base_price": 21890,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018944",
-        "title": "Термопот Kitfort КТ-2522",
-        "price": 33990,
-        "old_price": 43790,
-        "url": "https://www.mechta.kz/product/termopot-kitfort-kt-2522/",
-        "brand": "Kitfort",
-        "category": "Термопоты",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/4c1e4d4b-b25b-43f5-bef8-30fcc7b6daa5?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 22.4,
-      "base_price": 43790,
-      "value_score": 56,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200021636",
         "title": "Кофеварка ARDESTO FCM-D2100",
         "price": 10090,
@@ -2161,32 +1769,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020489",
-        "title": "Планетарный миксер Kitfort KT-1328",
-        "price": 119990,
-        "old_price": 152990,
-        "url": "https://www.mechta.kz/product/planetarnyy-mikser-kitfort-kt-1328/",
-        "brand": "Kitfort",
-        "category": "Ручные миксеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/cbc1a262-7a5d-4e8b-ba75-43f9ef9a7a72?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.6,
-      "base_price": 152990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006636",
         "title": "Игровая гарнитура HYPERX CLOUD III 727A8AA (Black)",
         "price": 47990,
@@ -2235,58 +1817,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014691",
-        "title": "Тостер Kitfort KT-2047",
-        "price": 21890,
-        "old_price": 27790,
-        "url": "https://www.mechta.kz/product/toster-kitfort-kt-2047/",
-        "brand": "Kitfort",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/d6b627d8-9db5-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.2,
-      "base_price": 27790,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000001745",
-        "title": "Вафельница Kitfort KT 1617",
-        "price": 13890,
-        "old_price": 17590,
-        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
-        "brand": "Kitfort",
-        "category": "Вафельницы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 17590,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -2345,36 +1875,188 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020488",
-        "title": "Планетарный миксер Kitfort KT-3038-1",
-        "price": 79990,
-        "old_price": 99990,
-        "url": "https://www.mechta.kz/product/planetarnyy-mikser-kitfort-kt-3038-1/",
+        "sku": "17200015680",
+        "title": "Аэрогриль Kitfort KT-2228",
+        "price": 55390,
+        "old_price": 77290,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2228/",
         "brand": "Kitfort",
-        "category": "Ручные миксеры",
+        "category": "Аэрогрили",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://pi.mdev.kz/d3f0bd06-23b8-4cad-995e-ac53ef4eaf0d?w=400"
+        "discount_pct": 28,
+        "image": "https://pi.mdev.kz/28e3eec6-80a9-44ff-a66b-d39b81e01e04?w=400"
       },
       "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 99990,
-      "value_score": 52,
+      "drop_pct": 28,
+      "fair_discount": 17.3,
+      "base_price": 66990,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 0.0
+      "inflated_gap": 10.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012770",
+        "title": "Аэрогриль Kitfort KT-2221",
+        "price": 43690,
+        "old_price": 58790,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2221/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://pi.mdev.kz/cd10f23d-4418-11ef-a267-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 12.6,
+      "base_price": 49990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 13.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015320",
+        "title": "Аэрогриль Kitfort KT-2217",
+        "price": 39990,
+        "old_price": 72890,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2217/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/8c525bb1-ac6d-11ef-a26e-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 11.1,
+      "base_price": 44990,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 33.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004091",
+        "title": "Аэрогриль Kitfort KT-2247",
+        "price": 79990,
+        "old_price": 101990,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2247/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/9db466a7-9166-11ed-a253-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 10.1,
+      "base_price": 88990,
+      "value_score": 36,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 11.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003122",
+        "title": "Аэрогриль Kitfort KT-2215",
+        "price": 49990,
+        "old_price": 72890,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2215/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/cc2143f0-6a13-11ed-a24d-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 9.1,
+      "base_price": 54990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014685",
+        "title": "Аэрогриль Kitfort KT-2202",
+        "price": 42990,
+        "old_price": 62690,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2202/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/d1eb803c-9d81-11ef-a26b-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 8.5,
+      "base_price": 46990,
+      "value_score": 34,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013427",
+        "title": "Аэрогриль Kitfort KT-2249",
+        "price": 69990,
+        "old_price": 104990,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2249/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/ee981c8e-636a-11ef-a269-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 7.9,
+      "base_price": 75990,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.1
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-28T15:20:43+00:00",
-      "item_count": 7706,
+      "last_crawl": "2026-09-28T17:21:13+00:00",
+      "item_count": 7707,
       "status": "ok"
     },
     {
@@ -2414,8 +2096,8 @@
     }
   ],
   "stats": {
-    "total_products": 7706,
-    "total_deals": 90,
-    "avg_discount": 61.0
+    "total_products": 7707,
+    "total_deals": 78,
+    "avg_discount": 62.0
   }
 }
