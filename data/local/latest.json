@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T21:20:31.531196+00:00",
+  "updated_at": "2026-09-28T23:20:22.110702+00:00",
   "deals": [
     {
       "product": {
@@ -1351,32 +1351,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200015598",
-        "title": "Массажер BORK D730bl MOON кресло",
-        "price": 742590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/massajer-bork-d730bl-moon-kreslo/",
-        "brand": "BORK",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/3459b24a-b900-11ef-a26e-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 41.5,
-      "base_price": 1269990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000038227",
         "title": "Блендер погружной PANASONIC MX-SS40BTQ",
         "price": 29990,
@@ -2188,8 +2162,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-28T21:20:23+00:00",
-      "item_count": 7705,
+      "last_crawl": "2026-09-28T23:20:15+00:00",
+      "item_count": 7708,
       "status": "ok"
     },
     {
@@ -2229,8 +2203,8 @@
     }
   ],
   "stats": {
-    "total_products": 7705,
-    "total_deals": 83,
-    "avg_discount": 62
+    "total_products": 7708,
+    "total_deals": 82,
+    "avg_discount": 62.0
   }
 }
