@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T05:20:59.142343+00:00",
+  "updated_at": "2026-09-28T07:21:42.843622+00:00",
   "deals": [
     {
       "product": {
@@ -1327,87 +1327,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000074023",
-        "title": "Вентилятор BORK P801",
-        "price": 148590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/ventilyator-bork-p801/",
-        "brand": "BORK",
-        "category": "Вентиляторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/72725301-e4f1-43c0-adfc-2f5a3ffa415a?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 50.7,
-      "base_price": 301590,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022194",
-        "title": "Воздухоочиститель BORK A504",
-        "price": 40590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/vozduhoochistitel-bork-a504/",
-        "brand": "BORK",
-        "category": "Очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/ad05c899-0de0-4599-96cd-444e0f9158cf?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 49.8,
-      "base_price": 80900,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "26260001175",
-        "title": "Вентилятор BORK P800",
-        "price": 247590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/ventilyator-bork-p800/",
-        "brand": "BORK",
-        "category": "Вентиляторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/2b5e4cfb-bcb8-4784-9e08-756ea98b6501?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 46.5,
-      "base_price": 462390,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006427",
         "title": "Овощерезка Kitfort KT 1384",
         "price": 17990,
@@ -1565,32 +1484,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "26000000915",
-        "title": "Электрический вок BORK G603",
-        "price": 148590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/elektricheskiy-vok-bork-g603/",
-        "brand": "BORK",
-        "category": "Электрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/3bfd0e24-6293-4743-a2a7-a6adb5e8bbd4?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 32.8,
-      "base_price": 221190,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200022104",
         "title": "Аэрогриль Kitfort KT-8158 (4+6 л)",
         "price": 53990,
@@ -1614,32 +1507,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000044663",
-        "title": "Увлажнитель-очиститель воздуха BORK A802",
-        "price": 445590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/uvlajnitel-ochistitel-vozduha-bork-a802/",
-        "brand": "BORK",
-        "category": "Очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/ac49b1ac-5c8b-4294-b6b0-708aab4e29ac?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 32.1,
-      "base_price": 655990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -1771,32 +1638,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000073551",
-        "title": "Планетарный миксер BORK B711",
-        "price": 214590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/planetarnyy-mikser-bork-b711/",
-        "brand": "BORK",
-        "category": "Планетарные миксеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/fdcac329-7f74-4122-aff2-59f86d96ae19?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 28.8,
-      "base_price": 301590,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -1983,32 +1824,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000030790",
-        "title": "Кофеварка BORK C804",
-        "price": 489590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/kofevarka-bork-c804/",
-        "brand": "BORK",
-        "category": "Кофеварки рожковые",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/6b7f8c3d-f1e1-435f-8f5c-7ca06b8d3517?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 25.4,
-      "base_price": 656690,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012049",
         "title": "Массажер Kitfort КТ-2977 (для головы)",
         "price": 12990,
@@ -2031,32 +1846,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "26260002552",
-        "title": "Кофеварка BORK C807",
-        "price": 1633590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/kofevarka-bork-c807/",
-        "brand": "BORK",
-        "category": "Кофеварки рожковые",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/0f0dcdaf-121a-4f44-86f6-725eee04ba3f?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 25.1,
-      "base_price": 2179990,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -2192,32 +1981,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200022195",
-        "title": "Мойка воздуха BORK Q781",
-        "price": 198090,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/moyka-vozduha-bork-q781/",
-        "brand": "BORK",
-        "category": "Мойки воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/0b251677-8ef5-49ee-8e44-291c077cb3a7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.1,
-      "base_price": 261090,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011091",
         "title": "Ледогенератор Kitfort KT-1819",
         "price": 116490,
@@ -2348,6 +2111,58 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200025258",
+        "title": "Полка PANASONIC N-SKT6BKZ для стиральной и сушильной машины (не выдвижная), черная",
+        "price": 17990,
+        "old_price": 22990,
+        "url": "https://www.mechta.kz/product/polka-panasonic-n-skt6bkz-dlya-stiralnoy-i-sushilnoy-mashiny-ne-vydvijnaya-chernaya/",
+        "brand": "Panasonic",
+        "category": "Соединительные элементы для стиральных и сушильных машин",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/90603e27-e210-4fb0-9949-4af9a8340fb9?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 21.7,
+      "base_price": 22990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025259",
+        "title": "Полка PANASONIC N-SKT6WKZ для стиральной и сушильной машины (не выдвижная), белая",
+        "price": 17990,
+        "old_price": 22990,
+        "url": "https://www.mechta.kz/product/polka-panasonic-n-skt6wkz-dlya-stiralnoy-i-sushilnoy-mashiny-ne-vydvijnaya-belaya/",
+        "brand": "Panasonic",
+        "category": "Соединительные элементы для стиральных и сушильных машин",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/8d7221a5-27a7-4a93-a6c7-a497bc9e5f16?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 21.7,
+      "base_price": 22990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020489",
         "title": "Планетарный миксер Kitfort KT-1328",
         "price": 119990,
@@ -2370,14 +2185,199 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006636",
+        "title": "Игровая гарнитура HYPERX CLOUD III 727A8AA (Black)",
+        "price": 47990,
+        "old_price": 60990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-cloud-iii-727a8aa-black/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/e819c93a-2deb-42d6-8800-844e5196a381?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.3,
+      "base_price": 60990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006637",
+        "title": "Игровая гарнитура HYPERX CLOUD III 727A9AA (Red)",
+        "price": 47990,
+        "old_price": 60990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-cloud-iii-727a9aa-red/",
+        "brand": "HyperX",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/4e24c578-1f3d-460f-b514-2e6d2c68301c?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.3,
+      "base_price": 60990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014691",
+        "title": "Тостер Kitfort KT-2047",
+        "price": 21890,
+        "old_price": 27790,
+        "url": "https://www.mechta.kz/product/toster-kitfort-kt-2047/",
+        "brand": "Kitfort",
+        "category": "Тостеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/d6b627d8-9db5-11ef-a26b-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.2,
+      "base_price": 27790,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17000001745",
+        "title": "Вафельница Kitfort KT 1617",
+        "price": 13890,
+        "old_price": 17590,
+        "url": "https://www.mechta.kz/product/vafelnica-kitfort-kt-1617/",
+        "brand": "Kitfort",
+        "category": "Вафельницы",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/2bf7cf76-67a0-11ec-a242-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.0,
+      "base_price": 17590,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015919",
+        "title": "Аэрогриль Kitfort KT-2254",
+        "price": 58990,
+        "old_price": 98390,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 20.3,
+      "base_price": 73990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011098",
+        "title": "Аэрогриль Kitfort KT-2208",
+        "price": 47990,
+        "old_price": 76990,
+        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2208/",
+        "brand": "Kitfort",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/cb6d1fda-f312-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 20.0,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000001190",
+        "title": "Индукционная плитка OLTO HP-201I",
+        "price": 39990,
+        "old_price": 64990,
+        "url": "https://www.mechta.kz/product/indukcionnaya-plitka-olto-hp-201i/",
+        "brand": "Olto",
+        "category": "Настольные плиты",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/ac40b37f-0c60-11eb-a234-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 48,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-28T05:20:54+00:00",
-      "item_count": 7688,
+      "last_crawl": "2026-09-28T07:21:36+00:00",
+      "item_count": 7684,
       "status": "ok"
     },
     {
@@ -2417,7 +2417,7 @@
     }
   ],
   "stats": {
-    "total_products": 7688,
+    "total_products": 7684,
     "total_deals": 90,
     "avg_discount": 61.0
   }
