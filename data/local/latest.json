@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-29T05:21:29.074490+00:00",
+  "updated_at": "2026-09-29T09:21:25.111009+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017735",
+        "title": "Вертикальный пылесос Samsung Bespoke Jet 400W Complete Extra (VS90F40DEK/EV)",
+        "price": 249990,
+        "old_price": 684990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-bespoke-jet-400w-complete-extra-vs90f40dekev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": null
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -362,15 +388,14 @@
       },
       "signal": "deal",
       "drop_pct": 76,
-      "fair_discount": 20.0,
-      "base_price": 49990,
-      "value_score": 44,
+      "fair_discount": 0.0,
+      "base_price": 39990,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 56.0
+      "inflated_gap": 76.0
     },
     {
       "product": {
@@ -788,33 +813,6 @@
       "value_score": 41,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 64.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017735",
-        "title": "Вертикальный пылесос Samsung Bespoke Jet 400W Complete Extra (VS90F40DEK/EV)",
-        "price": 249990,
-        "old_price": 684990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-bespoke-jet-400w-complete-extra-vs90f40dekev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": 0.0,
-      "base_price": 249990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 64.0
@@ -1349,29 +1347,28 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000038227",
-        "title": "Блендер погружной PANASONIC MX-SS40BTQ",
-        "price": 29990,
-        "old_price": 49390,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-panasonic-mx-ss40btq/",
-        "brand": "Panasonic",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
+        "sku": "12000021629",
+        "title": "Тепловая пушка BALLU BKX-3",
+        "price": 13990,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/teplovaya-pushka-ballu-bkx-3/",
+        "brand": "Ballu",
+        "category": "Электрические тепловые пушки",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/d0e1659c-b845-11ef-a26e-005056b6e990?w=400"
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/9ba4671d-34ed-11e4-8550-14dae972ca6d?w=400"
       },
       "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 36.6,
-      "base_price": 47290,
-      "value_score": 91,
-      "is_pick": true,
+      "drop_pct": null,
+      "fair_discount": 36.4,
+      "base_price": 21990,
+      "value_score": 79,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 2.4
+      "inflated_gap": null
     },
     {
       "product": {
@@ -1503,58 +1500,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011263",
-        "title": "Пылесос Kitfort KT-5162-2",
-        "price": 50990,
-        "old_price": 69190,
-        "url": "https://www.mechta.kz/product/pylesos-kitfort-kt-5162-2/",
-        "brand": "Kitfort",
-        "category": "Моющие пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://pi.mdev.kz/d9355f23-fd3b-11ee-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 26.3,
-      "base_price": 69190,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012740",
-        "title": "Пылесос Kitfort KT-5162-3",
-        "price": 50990,
-        "old_price": 69190,
-        "url": "https://www.mechta.kz/product/pylesos-kitfort-kt-5162-3/",
-        "brand": "Kitfort",
-        "category": "Моющие пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://pi.mdev.kz/82301622-44bb-11ef-a267-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 26.3,
-      "base_price": 69190,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -1794,6 +1739,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019246",
+        "title": "Фен DREAME Pocket Ultra Purple",
+        "price": 78890,
+        "old_price": 99990,
+        "url": "https://www.mechta.kz/product/fen-dreame-pocket-ultra-purple/",
+        "brand": "Dreame",
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://pi.mdev.kz/9367536d-cf76-4098-9858-bf62c3db8f53?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.1,
+      "base_price": 99990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000003991",
         "title": "Электрическая зубная щетка PHILIPS HX 9914/57",
         "price": 199990,
@@ -1817,93 +1788,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011240",
-        "title": "Ирригатор PHILIPS HX 3826/33",
-        "price": 69990,
-        "old_price": 104990,
-        "url": "https://www.mechta.kz/product/irrigator-philips-hx-382633/",
-        "brand": "Philips",
-        "category": "Ирригаторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/8a7d756f-083d-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 19.5,
-      "base_price": 86990,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 13.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200025140",
-        "title": "Пароочиститель Kitfort KT-933",
-        "price": 109190,
-        "old_price": 134790,
-        "url": "https://www.mechta.kz/product/paroochistitel-kitfort-kt-933/",
-        "brand": "Kitfort",
-        "category": "Пароочистители",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://pi.mdev.kz/38a06223-b685-4c63-b71b-9dc562b57b26?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.0,
-      "base_price": 134790,
-      "value_score": 56,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019873",
-        "title": "Стиральная машина HISENSE WFQP 8014 VM",
-        "price": 137990,
-        "old_price": 217990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hisense-wfqp-8014-vm/",
-        "brand": "Hisense",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/160949e6-f066-4dad-a718-510d0318c60b?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 18.8,
-      "base_price": 169990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 18.2
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-29T05:21:22+00:00",
-      "item_count": 7730,
+      "last_crawl": "2026-09-29T09:21:18+00:00",
+      "item_count": 7761,
       "status": "ok"
     },
     {
@@ -1943,8 +1835,8 @@
     }
   ],
   "stats": {
-    "total_products": 7730,
-    "total_deals": 72,
+    "total_products": 7761,
+    "total_deals": 68,
     "avg_discount": 63.0
   }
 }
