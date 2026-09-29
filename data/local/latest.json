@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T01:20:16.064534+00:00",
+  "updated_at": "2026-09-29T05:21:29.074490+00:00",
   "deals": [
     {
       "product": {
@@ -47,15 +47,14 @@
       },
       "signal": "deal",
       "drop_pct": 83,
-      "fair_discount": 27.8,
-      "base_price": 17990,
-      "value_score": 58,
+      "fair_discount": 0.0,
+      "base_price": 12990,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 55.2
+      "inflated_gap": 83.0
     },
     {
       "product": {
@@ -259,15 +258,14 @@
       },
       "signal": "deal",
       "drop_pct": 77,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 71,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 43.7
+      "inflated_gap": 77.0
     },
     {
       "product": {
@@ -1692,32 +1690,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200021636",
-        "title": "Кофеварка ARDESTO FCM-D2100",
-        "price": 10090,
-        "old_price": 12990,
-        "url": "https://www.mechta.kz/product/kofevarka-ardesto-fcm-d2100/",
-        "brand": "Ardesto",
-        "category": "Кофеварки капельные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/ae7355b5-5909-4ac7-bd4a-43a3fe659317?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 22.3,
-      "base_price": 12990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200025258",
         "title": "Полка PANASONIC N-SKT6BKZ для стиральной и сушильной машины (не выдвижная), черная",
         "price": 17990,
@@ -1818,60 +1790,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015919",
-        "title": "Аэрогриль Kitfort KT-2254",
-        "price": 58990,
-        "old_price": 98390,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2254/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/6c991e8a-aa8b-48ce-8395-7471467aa4e3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 20.3,
-      "base_price": 73990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011098",
-        "title": "Аэрогриль Kitfort KT-2208",
-        "price": 47990,
-        "old_price": 76990,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2208/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/cb6d1fda-f312-11ee-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 20.0,
-      "base_price": 59990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 18.0
     },
     {
       "product": {
@@ -1978,192 +1896,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 18.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015680",
-        "title": "Аэрогриль Kitfort KT-2228",
-        "price": 55390,
-        "old_price": 77290,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2228/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/28e3eec6-80a9-44ff-a66b-d39b81e01e04?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 17.3,
-      "base_price": 66990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012770",
-        "title": "Аэрогриль Kitfort KT-2221",
-        "price": 43690,
-        "old_price": 58790,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2221/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://pi.mdev.kz/cd10f23d-4418-11ef-a267-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 12.6,
-      "base_price": 49990,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 13.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015320",
-        "title": "Аэрогриль Kitfort KT-2217",
-        "price": 39990,
-        "old_price": 72890,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2217/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/8c525bb1-ac6d-11ef-a26e-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 11.1,
-      "base_price": 44990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 33.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004091",
-        "title": "Аэрогриль Kitfort KT-2247",
-        "price": 79990,
-        "old_price": 101990,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2247/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/9db466a7-9166-11ed-a253-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 10.1,
-      "base_price": 88990,
-      "value_score": 36,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 11.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003122",
-        "title": "Аэрогриль Kitfort KT-2215",
-        "price": 49990,
-        "old_price": 72890,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2215/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/cc2143f0-6a13-11ed-a24d-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 9.1,
-      "base_price": 54990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014685",
-        "title": "Аэрогриль Kitfort KT-2202",
-        "price": 42990,
-        "old_price": 62690,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2202/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/d1eb803c-9d81-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 8.5,
-      "base_price": 46990,
-      "value_score": 34,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 22.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013427",
-        "title": "Аэрогриль Kitfort KT-2249",
-        "price": 69990,
-        "old_price": 104990,
-        "url": "https://www.mechta.kz/product/aerogril-kitfort-kt-2249/",
-        "brand": "Kitfort",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/ee981c8e-636a-11ef-a269-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 7.9,
-      "base_price": 75990,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.1
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-29T01:20:10+00:00",
-      "item_count": 7708,
+      "last_crawl": "2026-09-29T05:21:22+00:00",
+      "item_count": 7730,
       "status": "ok"
     },
     {
@@ -2203,8 +1943,8 @@
     }
   ],
   "stats": {
-    "total_products": 7708,
-    "total_deals": 82,
-    "avg_discount": 62.0
+    "total_products": 7730,
+    "total_deals": 72,
+    "avg_discount": 63.0
   }
 }
