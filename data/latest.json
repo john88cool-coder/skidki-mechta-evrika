@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T08:58:02.416444+00:00",
+  "updated_at": "2026-09-29T16:52:40.067634+00:00",
   "deals": [
     {
       "product": {
@@ -263,31 +263,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1727303",
-        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12700035) (SN:SC02H911SQ6LW)",
-        "price": 299990,
-        "old_price": 739990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12700035-sn-sc02h911sq6lw/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://static.shop.kz/upload/iblock/75f/sc35ec2ax91bg3af6xhtq6x5z4uu76pd/165764_01.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1727300",
         "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90TZQ6M0)",
         "price": 299990,
@@ -507,7 +482,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.2,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -923,7 +898,7 @@
       "signal": "deal",
       "drop_pct": 52,
       "fair_discount": 42.3,
-      "value_score": 85,
+      "value_score": 81,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -3660,6 +3635,31 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1272252",
+        "title": "Смартфон vivo Y15s, 32GB, Wave Green (V2120)",
+        "price": 39990,
+        "old_price": 79990,
+        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-wave-green-v2120/",
+        "brand": "vivo",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://static.shop.kz/upload/iblock/9b6/brgghse53ze8nwk1hcrargix13lqzmu2/159539s1.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "7184",
         "title": "Блендер Moulinex LM420110",
@@ -3702,31 +3702,6 @@
       "drop_pct": 50,
       "fair_discount": 0.0,
       "value_score": 33,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1272252",
-        "title": "Смартфон vivo Y15s, 32GB, Wave Green (V2120)",
-        "price": 39990,
-        "old_price": 79990,
-        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-wave-green-v2120/",
-        "brand": "vivo",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://static.shop.kz/upload/iblock/9b6/brgghse53ze8nwk1hcrargix13lqzmu2/159539s1.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3809,6 +3784,31 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622142",
+        "title": "Наушники ARG F6 Black",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
+        "brand": "ARG",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
     }
   ],
   "shops": [
@@ -3829,34 +3829,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-09-29T08:57:53+00:00",
-      "item_count": 11842,
+      "last_crawl": "2026-09-29T16:52:33+00:00",
+      "item_count": 12114,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-09-29T08:57:53+00:00",
-      "item_count": 3772,
+      "last_crawl": "2026-09-29T16:52:33+00:00",
+      "item_count": 3826,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-09-29T08:57:53+00:00",
-      "item_count": 9416,
+      "last_crawl": "2026-09-29T16:52:33+00:00",
+      "item_count": 9406,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-09-29T08:57:53+00:00",
-      "item_count": 841,
+      "last_crawl": "2026-09-29T16:52:33+00:00",
+      "item_count": 837,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29622,
+    "total_products": 29934,
     "total_deals": 150,
     "avg_discount": 56.0
   }
