@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T09:21:25.111009+00:00",
+  "updated_at": "2026-09-29T11:21:29.699202+00:00",
   "deals": [
     {
       "product": {
@@ -1788,14 +1788,40 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011240",
+        "title": "Ирригатор PHILIPS HX 3826/33",
+        "price": 69990,
+        "old_price": 104990,
+        "url": "https://www.mechta.kz/product/irrigator-philips-hx-382633/",
+        "brand": "Philips",
+        "category": "Ирригаторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/8a7d756f-083d-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 19.5,
+      "base_price": 86990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.5
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-29T09:21:18+00:00",
-      "item_count": 7761,
+      "last_crawl": "2026-09-29T11:21:20+00:00",
+      "item_count": 7760,
       "status": "ok"
     },
     {
@@ -1835,8 +1861,8 @@
     }
   ],
   "stats": {
-    "total_products": 7761,
-    "total_deals": 68,
-    "avg_discount": 63.0
+    "total_products": 7760,
+    "total_deals": 69,
+    "avg_discount": 63
   }
 }
