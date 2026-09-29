@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T11:21:29.699202+00:00",
+  "updated_at": "2026-09-29T13:23:07.852504+00:00",
   "deals": [
     {
       "product": {
@@ -916,7 +916,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 99990,
-      "value_score": 41,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1504,6 +1504,35 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200006228",
+        "title": "Массажер YUNMAI Easy PRO YMFG-M403 blue (Массажный пистолет)",
+        "price": 39990,
+        "old_price": 89990,
+        "url": "https://www.mechta.kz/product/massajer-yunmai-easy-pro-ymfg-m403-blue-massajnyy-pistolet/",
+        "brand": "Xiaomi",
+        "category": "Массажёры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/6429f7f9-0b4f-11ee-a25a-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 56,
+      "fair_discount": 27.3,
+      "base_price": 54970,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200005241",
         "title": "Электробритва WAHL Travel Shaver черный",
         "price": 11990,
@@ -1820,8 +1849,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-29T11:21:20+00:00",
-      "item_count": 7760,
+      "last_crawl": "2026-09-29T13:22:41+00:00",
+      "item_count": 7759,
       "status": "ok"
     },
     {
@@ -1861,8 +1890,8 @@
     }
   ],
   "stats": {
-    "total_products": 7760,
-    "total_deals": 69,
-    "avg_discount": 63
+    "total_products": 7759,
+    "total_deals": 70,
+    "avg_discount": 63.0
   }
 }
