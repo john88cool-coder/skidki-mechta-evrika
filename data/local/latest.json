@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-30T09:22:18.342385+00:00",
+  "updated_at": "2026-09-30T11:22:22.819596+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017414",
+        "title": "Телевизор LG OLED77T49LA",
+        "price": 7999990,
+        "old_price": 31499990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled77t49la/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": null
+      },
+      "signal": "deal",
+      "drop_pct": 75,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -504,33 +530,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017414",
-        "title": "Телевизор LG OLED77T49LA",
-        "price": 7999990,
-        "old_price": 31499990,
-        "url": "https://www.mechta.kz/product/televizor-lg-oled77t49la/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 75,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 75,
-      "fair_discount": 0.0,
-      "base_price": 7999990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 75.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006296",
         "title": "Пылесос GORENJE VC 2301 SPWCY (White)",
         "price": 19990,
@@ -731,7 +730,7 @@
       "drop_pct": 65,
       "fair_discount": 0.0,
       "base_price": 119990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2037,8 +2036,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-30T09:22:11+00:00",
-      "item_count": 7759,
+      "last_crawl": "2026-09-30T11:22:15+00:00",
+      "item_count": 7762,
       "status": "ok"
     },
     {
@@ -2078,7 +2077,7 @@
     }
   ],
   "stats": {
-    "total_products": 7759,
+    "total_products": 7762,
     "total_deals": 77,
     "avg_discount": 62
   }
