@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T11:22:22.819596+00:00",
+  "updated_at": "2026-09-30T13:21:50.751041+00:00",
   "deals": [
     {
       "product": {
@@ -40,13 +40,13 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 74,
-        "image": null
+        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400"
       },
       "signal": "deal",
       "drop_pct": 74,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 31,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -544,15 +544,14 @@
       },
       "signal": "deal",
       "drop_pct": 71,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 67,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 37.7
+      "inflated_gap": 71.0
     },
     {
       "product": {
@@ -2036,8 +2035,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-30T11:22:15+00:00",
-      "item_count": 7762,
+      "last_crawl": "2026-09-30T13:21:22+00:00",
+      "item_count": 7776,
       "status": "ok"
     },
     {
@@ -2077,7 +2076,7 @@
     }
   ],
   "stats": {
-    "total_products": 7762,
+    "total_products": 7776,
     "total_deals": 77,
     "avg_discount": 62
   }
