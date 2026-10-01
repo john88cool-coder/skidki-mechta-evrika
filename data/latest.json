@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:42:36.755960+00:00",
+  "updated_at": "2026-10-01T19:51:23.401543+00:00",
   "deals": [
     {
       "product": {
@@ -160,81 +160,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1727297",
-        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90TCQ6M0)",
-        "price": 299990,
-        "old_price": 739990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90tcq6m0/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://static.shop.kz/upload/iblock/1c1/xpqmn7lzveazkbh7isjhwm2at0e5va41/165765_01.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1727294",
-        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90SRQ6M0)",
-        "price": 299990,
-        "old_price": 739990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90srq6m0/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://static.shop.kz/upload/iblock/7c1/tng3v48xfi29ssbmh7zowtysjowj0l6b/165765_01.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1727288",
-        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90VKQ6M0)",
-        "price": 299990,
-        "old_price": 739990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90vkq6m0/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://static.shop.kz/upload/iblock/6c4/8nwvcntxbbv40lqadfb798wz495y5q7l/165765_01.jpg"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1411240",
         "title": "Гарнитура игровая HyperX Cloud Stinger II Core PC (683L9AA)",
@@ -303,7 +228,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.2,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -355,7 +280,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 56.3,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -604,6 +529,32 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1458484",
+        "title": "Вертикальный моющий пылесос Dreame H12 Pro Flexreach, Black, 18 000 Па, самоочистка, 50 мин",
+        "price": 99990,
+        "old_price": 200990,
+        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min",
+        "brand": "Dreame",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 41.2,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.8
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1300492",
         "title": "Микроволновая печь Midea AM720C4E-S, Gray, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
         "price": 19990,
@@ -719,7 +670,7 @@
       "signal": "deal",
       "drop_pct": 75,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1021,7 +972,7 @@
       "signal": "deal",
       "drop_pct": 67,
       "fair_discount": 0.0,
-      "value_score": 41,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1296,7 +1247,7 @@
       "signal": "deal",
       "drop_pct": 62,
       "fair_discount": 0.0,
-      "value_score": 41,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1502,6 +1453,84 @@
         "Рисованная?"
       ],
       "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1727297",
+        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90TCQ6M0)",
+        "price": 299990,
+        "old_price": 739990,
+        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90tcq6m0/",
+        "brand": "Apple",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://static.shop.kz/upload/iblock/1c1/xpqmn7lzveazkbh7isjhwm2at0e5va41/165765_01.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": 0.0,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 59.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1727294",
+        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90SRQ6M0)",
+        "price": 299990,
+        "old_price": 739990,
+        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90srq6m0/",
+        "brand": "Apple",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://static.shop.kz/upload/iblock/7c1/tng3v48xfi29ssbmh7zowtysjowj0l6b/165765_01.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": 0.0,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 59.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1727288",
+        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90VKQ6M0)",
+        "price": 299990,
+        "old_price": 739990,
+        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90vkq6m0/",
+        "brand": "Apple",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://static.shop.kz/upload/iblock/6c4/8nwvcntxbbv40lqadfb798wz495y5q7l/165765_01.jpg"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": 0.0,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 59.0
     },
     {
       "product": {
@@ -1772,7 +1801,7 @@
       "signal": "deal",
       "drop_pct": 58,
       "fair_discount": 0.0,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -2981,7 +3010,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "value_score": 41,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3006,7 +3035,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3131,7 +3160,7 @@
       "signal": "deal",
       "drop_pct": 52,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3207,7 +3236,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3233,7 +3262,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3664,7 +3693,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3718,32 +3747,6 @@
       "value_score": 30,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1449124",
-        "title": "Mонитор 24\" Samsung LS24D360GAIXCI Curved /1920x1080/ 100Hz /4ms/ 250кд/м²/ DP, HDMI",
-        "price": 29990,
-        "old_price": 59990,
-        "url": "https://alser.kz/p/monitor-24-essential-monitor-s3-fhd-100-gc",
-        "brand": "Samsung",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/monitory-igrovye/rBV1BH97o/monitor-24-essential-monitor-s3-fhd-100-gc-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 50.0
@@ -3817,34 +3820,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-01T13:42:26+00:00",
-      "item_count": 12103,
+      "last_crawl": "2026-10-01T19:51:13+00:00",
+      "item_count": 12127,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-01T13:42:26+00:00",
-      "item_count": 3706,
+      "last_crawl": "2026-10-01T19:51:13+00:00",
+      "item_count": 3673,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-01T13:42:26+00:00",
-      "item_count": 9505,
+      "last_crawl": "2026-10-01T19:51:13+00:00",
+      "item_count": 9499,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-01T13:42:26+00:00",
-      "item_count": 828,
+      "last_crawl": "2026-10-01T19:51:13+00:00",
+      "item_count": 754,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29893,
+    "total_products": 29804,
     "total_deals": 150,
     "avg_discount": 56.0
   }
