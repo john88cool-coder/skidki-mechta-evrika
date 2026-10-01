@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T13:21:50.751041+00:00",
+  "updated_at": "2026-10-01T04:23:56.784653+00:00",
   "deals": [
     {
       "product": {
@@ -30,32 +30,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000005646",
-        "title": "Проектор Samsung SP-LSP9TUAXCE",
-        "price": 999990,
-        "old_price": 3799990,
-        "url": "https://www.mechta.kz/product/proektor-samsung-sp-lsp9tuaxce/",
-        "brand": "Samsung",
-        "category": "Проекторы",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 74,
-        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 74,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200017735",
         "title": "Вертикальный пылесос Samsung Bespoke Jet 400W Complete Extra (VS90F40DEK/EV)",
         "price": 249990,
@@ -77,6 +51,30 @@
       "badges": [
         "Топ-Бренд"
       ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003067",
+        "title": "Телевизор LOEWE LED 55SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
+        "price": 449990,
+        "old_price": 1079990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-led-55steamingtv-4k-ult-integrated-soundbar-aqua-blue/",
+        "brand": "Loewe",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/5b81705f-63d3-11ed-a24d-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [],
       "inflated_gap": null
     },
     {
@@ -312,7 +310,7 @@
       "drop_pct": 77,
       "fair_discount": 0.0,
       "base_price": 144990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -546,39 +544,12 @@
       "drop_pct": 71,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 21,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 71.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006727",
-        "title": "Чехол для планшета APPLE Smart Folio for 10.9-inch iPad Air (4th generation) Pink Citrus (MH093ZM/A)",
-        "price": 19990,
-        "old_price": 63990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-plansheta-apple-smart-folio-for-10dot9-inch-ipad-air-4th-generation-pink-citrus-mh093zma/",
-        "brand": "Apple",
-        "category": "Чехлы для планшетов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://pi.mdev.kz/8912c4b5-f5c8-11eb-a23f-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 69.0
     },
     {
       "product": {
@@ -661,32 +632,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000001094",
-        "title": "Настольный микрофон TRUST GXT 252 Emita PLUS Streaming Microphone",
-        "price": 19990,
-        "old_price": 56990,
-        "url": "https://www.mechta.kz/product/nastolnyy-mikrofon-trust-gxt-252-emita-plus-streaming-microphone/",
-        "brand": "Trust",
-        "category": "Микрофоны",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 65,
-        "image": "https://pi.mdev.kz/5ad38d4d-39ce-11eb-a238-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 65,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 65.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200004465",
         "title": "Вертикальный пылесос TEFAL TY 2079WO",
         "price": 79990,
@@ -761,58 +706,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 65.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016027",
-        "title": "Аэрогриль MIDEA MF-CY80SA2",
-        "price": 49990,
-        "old_price": 139990,
-        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy80sa2/",
-        "brand": "Midea",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": 0.0,
-      "base_price": 49990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 64.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006185",
-        "title": "Картридж лазерный CANON CRG 047",
-        "price": 11990,
-        "old_price": 32890,
-        "url": "https://www.mechta.kz/product/kartridj-lazernyy-canon-crg-047/",
-        "brand": "Canon",
-        "category": "Картриджи",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": "https://pi.mdev.kz/08a6c762-d978-11eb-a23f-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": 0.0,
-      "base_price": 11990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 64.0
     },
     {
       "product": {
@@ -1027,32 +920,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003056",
-        "title": "Телевизор LOEWE OLED65Bild I dr+, SmartTV, 4K Ultra",
-        "price": 799990,
-        "old_price": 2099990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-oled65bild-i-drplus-smarttv-4k-ultra/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 799990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200023597",
         "title": "Чехол для телефона APPLE iPhone 17e Clear Case (MHWC4ZM/A)",
         "price": 14990,
@@ -1157,32 +1024,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014625",
-        "title": "Парогенератор PHILIPS PSG 3010/70",
-        "price": 65990,
-        "old_price": 169990,
-        "url": "https://www.mechta.kz/product/parogenerator-philips-psg-301070/",
-        "brand": "Philips",
-        "category": "Парогенераторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/1122428b-9bee-11ef-a26b-005056b6e990?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 65990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
     },
     {
       "product": {
@@ -1292,28 +1133,185 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000021430",
-        "title": "Картридж лазерный CANON LPB 725",
-        "price": 12990,
-        "old_price": 32890,
-        "url": "https://www.mechta.kz/product/kartridj-lazernyy-canon-lpb-725/",
-        "brand": "Canon",
-        "category": "Картриджи",
-        "group": "computers",
+        "sku": "17200003059",
+        "title": "Телевизор LOEWE LED 43SteamingTV, 4K Ult, Integrated soundbar, Storm Grey",
+        "price": 299990,
+        "old_price": 758990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-led-43steamingtv-4k-ult-integrated-soundbar-storm-grey/",
+        "brand": "Loewe",
+        "category": "Телевизоры",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/4785531a-fc25-11e3-af3d-14dae972ca6d?w=400"
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400"
       },
       "signal": "deal",
-      "drop_pct": 61,
+      "drop_pct": 60,
       "fair_discount": 0.0,
-      "base_price": 12990,
-      "value_score": 41,
+      "base_price": 299990,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 61.0
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013888",
+        "title": "Вертикальный пылесос POLARIS PVCW 8090",
+        "price": 229990,
+        "old_price": 579990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-polaris-pvcw-8090/",
+        "brand": "Polaris",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 229990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016028",
+        "title": "Аэрогриль MIDEA MF-CY110A",
+        "price": 79990,
+        "old_price": 199990,
+        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy110a/",
+        "brand": "Midea",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/cb20961e-7e9e-4181-8126-8b47a6c505ed?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 79990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016105",
+        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
+        "price": 159990,
+        "old_price": 399990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
+        "brand": "Philips",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 159990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006276",
+        "title": "Робот-пылесос ROBOROCK (S81USP/(S8PU02-02) S8 Pro Ultra White",
+        "price": 279990,
+        "old_price": 699990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-roborock-s81usps8pu02-02-s8-pro-ultra-white/",
+        "brand": "Roborock",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/9b377cca-0fe4-11ee-a25b-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 279990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011001",
+        "title": "Клавиатура Varmilo VEM108 Dreams On Board EC V2 Violet",
+        "price": 35990,
+        "old_price": 87990,
+        "url": "https://www.mechta.kz/product/klaviatura-varmilo-vem108-dreams-on-board-ec-v2-violet/",
+        "brand": "Varmilo",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://pi.mdev.kz/6f6e0d98-edb3-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": 0.0,
+      "base_price": 35990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 59.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011246",
+        "title": "Электробритва PHILIPS SP 9883/36",
+        "price": 179990,
+        "old_price": 430990,
+        "url": "https://www.mechta.kz/product/elektrobritva-philips-sp-988336/",
+        "brand": "Philips",
+        "category": "Электробритвы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/aff994c7-0908-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 30.8,
+      "base_price": 259990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.2
     },
     {
       "product": {
@@ -1580,33 +1578,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011246",
-        "title": "Электробритва PHILIPS SP 9883/36",
-        "price": 179990,
-        "old_price": 430990,
-        "url": "https://www.mechta.kz/product/elektrobritva-philips-sp-988336/",
-        "brand": "Philips",
-        "category": "Электробритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/aff994c7-0908-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 58,
-      "fair_discount": 30.8,
-      "base_price": 259990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.2
     },
     {
       "product": {
@@ -1953,6 +1924,60 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019022",
+        "title": "Портативная колонка LG GRAB",
+        "price": 39990,
+        "old_price": 69990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-lg-grab/",
+        "brand": "LG",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/b3070042-620d-46ce-a675-2995d044bf19?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022825",
+        "title": "Стиральная машина INDESIT IM3 712 SS CIS",
+        "price": 135990,
+        "old_price": 169990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-indesit-im3-712-ss-cis/",
+        "brand": "Indesit",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://pi.mdev.kz/9e42c9c8-4b05-449e-bf9a-2163d557235a?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 20.0,
+      "base_price": 169990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000003991",
         "title": "Электрическая зубная щетка PHILIPS HX 9914/57",
         "price": 199990,
@@ -2006,37 +2031,62 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019873",
-        "title": "Стиральная машина HISENSE WFQP 8014 VM",
-        "price": 137990,
-        "old_price": 217990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hisense-wfqp-8014-vm/",
-        "brand": "Hisense",
+        "sku": "17200022826",
+        "title": "Стиральная машина INDESIT IM3 712 WW CIS",
+        "price": 132990,
+        "old_price": 164990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-indesit-im3-712-ww-cis/",
+        "brand": "Indesit",
         "category": "Стиральные машины",
         "group": "home",
         "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/160949e6-f066-4dad-a718-510d0318c60b?w=400"
+        "discount_pct": 19,
+        "image": "https://pi.mdev.kz/c072baa9-d086-4dcb-8469-8477941e6349?w=400"
       },
       "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 18.8,
-      "base_price": 169990,
-      "value_score": 50,
+      "drop_pct": 19,
+      "fair_discount": 19.4,
+      "base_price": 164990,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 18.2
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025439",
+        "title": "Робот-пылесос XIAOMI MI ROBOT VACUUM H40 (White)",
+        "price": 119990,
+        "old_price": 149990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-xiaomi-mi-robot-vacuum-h40-white/",
+        "brand": "Xiaomi",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://pi.mdev.kz/e418436b-5493-4f61-8486-64028994abc4?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 7.7,
+      "base_price": 129990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 12.3
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-09-30T13:21:22+00:00",
-      "item_count": 7776,
+      "last_crawl": "2026-10-01T04:23:46+00:00",
+      "item_count": 7765,
       "status": "ok"
     },
     {
@@ -2076,8 +2126,8 @@
     }
   ],
   "stats": {
-    "total_products": 7776,
-    "total_deals": 77,
-    "avg_discount": 62
+    "total_products": 7765,
+    "total_deals": 79,
+    "avg_discount": 61
   }
 }
