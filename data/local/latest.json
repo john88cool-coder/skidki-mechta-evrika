@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-10-01T05:21:22.761045+00:00",
+  "updated_at": "2026-10-01T10:49:06.208911+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012038",
+        "title": "Компьютерный стол RITMIX TBL-120a регулируемый (black)",
+        "price": 24990,
+        "old_price": 99990,
+        "url": "https://www.mechta.kz/product/kompyuternyy-stol-ritmix-tbl-120a-reguliruemyy-black/",
+        "brand": "Ritmix",
+        "category": "Компьютерные столы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": null
+      },
+      "signal": "deal",
+      "drop_pct": 75,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -51,30 +75,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003067",
-        "title": "Телевизор LOEWE LED 55SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
-        "price": 449990,
-        "old_price": 1079990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-55steamingtv-4k-ult-integrated-soundbar-aqua-blue/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/5b81705f-63d3-11ed-a24d-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -502,32 +502,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012038",
-        "title": "Компьютерный стол RITMIX TBL-120a регулируемый (black)",
-        "price": 24990,
-        "old_price": 99990,
-        "url": "https://www.mechta.kz/product/kompyuternyy-stol-ritmix-tbl-120a-reguliruemyy-black/",
-        "brand": "Ritmix",
-        "category": "Компьютерные столы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 75,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 75,
-      "fair_discount": 0.0,
-      "base_price": 24990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 75.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006296",
         "title": "Пылесос GORENJE VC 2301 SPWCY (White)",
         "price": 19990,
@@ -580,6 +554,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011831",
+        "title": "Телевизор Samsung QLED QE75QN900DUXCE 8K SMART",
+        "price": 1299990,
+        "old_price": 3999990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75qn900duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 68,
+        "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 68,
+      "fair_discount": 27.8,
+      "base_price": 1799990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 40.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200016103",
         "title": "Вертикальный пылесос PHILIPS XC 3133/01",
         "price": 99990,
@@ -628,6 +630,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 67.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "26260001706",
+        "title": "Игровая гарнитура KINGSTON HX-HSCF-BK/EM HyperX Cloud Flight",
+        "price": 19990,
+        "old_price": 59890,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-kingston-hx-hscf-bkem-hyperx-cloud-flight/",
+        "brand": "Kingston",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 20.0,
+      "base_price": 24990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
     },
     {
       "product": {
@@ -806,7 +835,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 99990,
-      "value_score": 41,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -916,6 +945,59 @@
         "Рисованная?"
       ],
       "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003056",
+        "title": "Телевизор LOEWE OLED65Bild I dr+, SmartTV, 4K Ultra",
+        "price": 799990,
+        "old_price": 2099990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-oled65bild-i-drplus-smarttv-4k-ultra/",
+        "brand": "Loewe",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 799990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200005088",
+        "title": "Наушники KAIBOAUDIO с костной проводимостью Buds Wave 1 (белый)",
+        "price": 22990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/naushniki-kaiboaudio-s-kostnoy-provodimostyu-buds-wave-1-belyy/",
+        "brand": "KaiboAudio",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 23.3,
+      "base_price": 29990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 38.7
     },
     {
       "product": {
@@ -1185,6 +1267,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200003089",
+        "title": "Портативная колонка LOEWE WE. HEAR 1 (Cool Grey)",
+        "price": 19990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-loewe-wedot-hear-1-cool-grey/",
+        "brand": "Loewe",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 33.3,
+      "base_price": 29990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200016028",
         "title": "Аэрогриль MIDEA MF-CY110A",
         "price": 79990,
@@ -1211,107 +1320,28 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200016105",
-        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
-        "price": 159990,
-        "old_price": 399990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
+        "sku": "17100000184",
+        "title": "Наушники PHILIPS TAT2206WT/00 TWS",
+        "price": 13990,
+        "old_price": 23980,
+        "url": "https://www.mechta.kz/product/naushniki-philips-tat2206wt00-tws/",
         "brand": "Philips",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
+        "category": "Наушники",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400"
+        "discount_pct": 42,
+        "image": "https://pi.mdev.kz/a353faf9-a4ee-11ec-a245-005056b6dbd7?w=400"
       },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 159990,
-      "value_score": 35,
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 41.7,
+      "base_price": 23980,
+      "value_score": 89,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006276",
-        "title": "Робот-пылесос ROBOROCK (S81USP/(S8PU02-02) S8 Pro Ultra White",
-        "price": 279990,
-        "old_price": 699990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-roborock-s81usps8pu02-02-s8-pro-ultra-white/",
-        "brand": "Roborock",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/9b377cca-0fe4-11ee-a25b-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 279990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011001",
-        "title": "Клавиатура Varmilo VEM108 Dreams On Board EC V2 Violet",
-        "price": 35990,
-        "old_price": 87990,
-        "url": "https://www.mechta.kz/product/klaviatura-varmilo-vem108-dreams-on-board-ec-v2-violet/",
-        "brand": "Varmilo",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://pi.mdev.kz/6f6e0d98-edb3-11ee-a265-005056b6e990?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": 0.0,
-      "base_price": 35990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 59.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011246",
-        "title": "Электробритва PHILIPS SP 9883/36",
-        "price": 179990,
-        "old_price": 430990,
-        "url": "https://www.mechta.kz/product/elektrobritva-philips-sp-988336/",
-        "brand": "Philips",
-        "category": "Электробритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/aff994c7-0908-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": 30.8,
-      "base_price": 259990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.2
+      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -1338,6 +1368,85 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021332",
+        "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
+        "price": 249990,
+        "old_price": 559990,
+        "url": "https://www.mechta.kz/product/televizor-tcl-qd-miniled-55c7k-uhd-android-tv/",
+        "brand": "TCL",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/2b7fb774-3b08-49f3-82fd-c2dff3c6457f?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 37.5,
+      "base_price": 399990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17000000401",
+        "title": "Наушники MONSTER TWS Clarity 6.0 ANC Earphone (Black)",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.mechta.kz/product/naushniki-monster-tws-clarity-6dot0-anc-earphone-black/",
+        "brand": "Monster",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/74090c11-271c-11ec-a23f-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 37.5,
+      "base_price": 31990,
+      "value_score": 80,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17000000402",
+        "title": "Наушники MONSTER TWS Clarity 6.0 ANC Earphone (White)",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.mechta.kz/product/naushniki-monster-tws-clarity-6dot0-anc-earphone-white/",
+        "brand": "Monster",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/74090c18-271c-11ec-a23f-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 37.5,
+      "base_price": 31990,
+      "value_score": 86,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.5
     },
     {
       "product": {
@@ -1503,29 +1612,56 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200007834",
-        "title": "Наушники Bang&Olufsen Beoplay EX Gold Tone",
-        "price": 159990,
-        "old_price": 245990,
-        "url": "https://www.mechta.kz/product/naushniki-bangolufsen-beoplay-ex-gold-tone/",
-        "brand": "Bang & Olufsen",
-        "category": "Наушники",
+        "sku": "17200003215",
+        "title": "Дом. кинотеатр JBL SB 170 Soundbar",
+        "price": 89990,
+        "old_price": 179990,
+        "url": "https://www.mechta.kz/product/dom-kinoteatr-jbl-sb-170-soundbar/",
+        "brand": "JBL",
+        "category": "Саундбары",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/a7e2a16c-7de5-470e-9f0a-a2f99452a337?w=400"
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/93c29044-6b06-11ed-a24d-005056b6dbd7?w=400"
       },
       "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 35.0,
-      "base_price": 245990,
-      "value_score": 83,
+      "drop_pct": 50,
+      "fair_discount": 35.7,
+      "base_price": 139990,
+      "value_score": 84,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 0.0
+      "inflated_gap": 14.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200005125",
+        "title": "Дом. кинотеатр JBL BAR 500 PRO BLACK (JBLBAR500PRO)",
+        "price": 199990,
+        "old_price": 359990,
+        "url": "https://www.mechta.kz/product/dom-kinoteatr-jbl-bar-500-pro-black-jblbar500pro/",
+        "brand": "JBL",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/408aefe5-c473-11ed-a259-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 33.3,
+      "base_price": 299990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.7
     },
     {
       "product": {
@@ -1556,54 +1692,200 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200009250",
-        "title": "Кофеварка ARDESTO ECM-E10B",
-        "price": 37790,
-        "old_price": 54990,
-        "url": "https://www.mechta.kz/product/kofevarka-ardesto-ecm-e10b/",
-        "brand": "Ardesto",
-        "category": "Кофеварки рожковые",
-        "group": "kitchen",
+        "sku": "17200002780",
+        "title": "Выпрямитель для волос Beurer HS 100",
+        "price": 19990,
+        "old_price": 40890,
+        "url": "https://www.mechta.kz/product/vypryamitel-dlya-volos-beurer-hs-100/",
+        "brand": "Beurer",
+        "category": "Выпрямители для волос",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/2b45d781-93e7-11ee-a264-005056b6dbd7?w=400"
+        "discount_pct": 51,
+        "image": "https://pi.mdev.kz/8a106670-76d1-11ed-a250-005056b6dbd7?w=400"
       },
       "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 31.3,
-      "base_price": 54990,
-      "value_score": 72,
+      "drop_pct": 51,
+      "fair_discount": 33.2,
+      "base_price": 29930,
+      "value_score": 75,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Рисованная?"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": 17.8
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200010027",
-        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
-        "price": 43990,
-        "old_price": 63990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-wireless-chernaya/",
-        "brand": "Kingston",
-        "category": "Мыши",
-        "group": "computers",
+        "sku": "17000002056",
+        "title": "Гарнитура для ПК LENOVO 110 Stereo USB Headset (GXD1B67867)",
+        "price": 14990,
+        "old_price": 28990,
+        "url": "https://www.mechta.kz/product/garnitura-dlya-pk-lenovo-110-stereo-usb-headset-gxd1b67867/",
+        "brand": "Lenovo",
+        "category": "Наушники",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400"
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/733ad815-728d-11ec-a242-005056b6dbd7?w=400"
       },
       "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 31.3,
-      "base_price": 63990,
-      "value_score": 72,
+      "drop_pct": 48,
+      "fair_discount": 31.8,
+      "base_price": 21990,
+      "value_score": 83,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": 16.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011939",
+        "title": "Игровая гарнитура SONY INZONE H5 Wireless WH-G500/BZE (Black)",
+        "price": 39990,
+        "old_price": 94990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-h5-wireless-wh-g500bze-black/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/2083b1af-18ce-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 31.0,
+      "base_price": 57990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011940",
+        "title": "Игровая гарнитура SONY INZONE H5 Wireless WH-G500/WZE (White)",
+        "price": 39990,
+        "old_price": 94990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-h5-wireless-wh-g500wze-white/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/2083b1b4-18ce-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 31.0,
+      "base_price": 57990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019752",
+        "title": "Телевизор HISENSE ULED 65U7Q UHD SMART",
+        "price": 379990,
+        "old_price": 739990,
+        "url": "https://www.mechta.kz/product/televizor-hisense-uled-65u7q-uhd-smart/",
+        "brand": "Hisense",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/58715e3b-a439-4859-9360-6da9d54bd010?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 30.9,
+      "base_price": 549990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018070",
+        "title": "Телевизор Samsung LED UE85U8000FUXCE UHD SMART",
+        "price": 559990,
+        "old_price": 1279990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue85u8000fuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 56,
+      "fair_discount": 30.0,
+      "base_price": 799990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018087",
+        "title": "Телевизор Samsung QLED QE85Q7FAAUXCE UHD SMART",
+        "price": 629990,
+        "old_price": 1399990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q7faauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/7daea9cc-9c8a-4bb3-8411-f90224faaedf?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 30.0,
+      "base_price": 899990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.0
     },
     {
       "product": {
@@ -1636,30 +1918,113 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200024125",
-        "title": "Телевизор SAMSUNG MicroRGB MRE55R85HAUXCE UHD SMART",
-        "price": 639990,
-        "old_price": 899990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-microrgb-mre55r85hauxce-uhd-smart/",
+        "sku": "17200018085",
+        "title": "Телевизор Samsung QLED QE75Q7F5AUXCE UHD SMART",
+        "price": 479990,
+        "old_price": 1099990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75q7f5auxce-uhd-smart/",
         "brand": "Samsung",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://pi.mdev.kz/284ad707-607c-4548-a2c8-9807816b2e3a?w=400"
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/6a303dcb-25b2-41c9-bfcd-080930f0f243?w=400"
       },
       "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 28.9,
-      "base_price": 899990,
-      "value_score": 84,
+      "drop_pct": 56,
+      "fair_discount": 29.4,
+      "base_price": 679990,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018115",
+        "title": "Телевизор Samsung Neo QLED QE65QN950FUXCE 8K SMART",
+        "price": 2199990,
+        "old_price": 3399990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn950fuxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/ca681a86-0c24-4d80-a877-87a1d114703c?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 29.0,
+      "base_price": 3099990,
+      "value_score": 78,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": 0.1
+      "inflated_gap": 6.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013945",
+        "title": "Телевизор LED HISENSE 43A6N (SMART UHD)",
+        "price": 99990,
+        "old_price": 199990,
+        "url": "https://www.mechta.kz/product/televizor-led-hisense-43a6n-smart-uhd/",
+        "brand": "Hisense",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/f2bcc319-7c76-11ef-a269-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 28.6,
+      "base_price": 139990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002112",
+        "title": "Игровая гарнитура STEELSERIES Arctis 3 Console (PS5)",
+        "price": 22990,
+        "old_price": 43990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-steelseries-arctis-3-console-ps5/",
+        "brand": "SteelSeries",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/17d86375-3559-11eb-a238-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 28.1,
+      "base_price": 31990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.9
     },
     {
       "product": {
@@ -1690,414 +2055,369 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200021351",
-        "title": "Игровая гарнитура HYPERX A59Z0AA Cloud III S Wireless (red)",
-        "price": 82990,
-        "old_price": 114990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-a59z0aa-cloud-iii-s-wireless-red/",
-        "brand": "HyperX",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/52e39904-214b-4a1f-91b7-056ad47e4f99?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 27.8,
-      "base_price": 114990,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021352",
-        "title": "Игровая гарнитура HYPERX A59YZAA Cloud III S Wireless (black)",
-        "price": 82990,
-        "old_price": 114990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-hyperx-a59yzaa-cloud-iii-s-wireless-black/",
-        "brand": "HyperX",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/1666edb8-0243-4c0f-b036-be48656b5ce4?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 27.8,
-      "base_price": 114990,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006228",
-        "title": "Массажер YUNMAI Easy PRO YMFG-M403 blue (Массажный пистолет)",
-        "price": 39990,
-        "old_price": 89990,
-        "url": "https://www.mechta.kz/product/massajer-yunmai-easy-pro-ymfg-m403-blue-massajnyy-pistolet/",
-        "brand": "Xiaomi",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/6429f7f9-0b4f-11ee-a25a-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 27.3,
-      "base_price": 54970,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018077",
-        "title": "Телевизор Samsung QLED QE75LS03FAUXCE The Frame UHD SMART",
-        "price": 1199990,
-        "old_price": 1799990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75ls03fauxce-the-frame-uhd-smart/",
+        "sku": "17200018090",
+        "title": "Телевизор Samsung Neo QLED QE75QN70FAUXCE UHD SMART",
+        "price": 649990,
+        "old_price": 1449990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn70fauxce-uhd-smart/",
         "brand": "Samsung",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/7454d521-b9aa-4254-bd44-a5b7f2255f39?w=400"
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400"
       },
       "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 25.0,
-      "base_price": 1599990,
-      "value_score": 77,
+      "drop_pct": 55,
+      "fair_discount": 27.8,
+      "base_price": 899990,
+      "value_score": 76,
       "is_pick": false,
       "badges": [
         "Честная скидка",
-        "Топ-Бренд"
+        "Топ-Бренд",
+        "Рисованная?"
       ],
-      "inflated_gap": 8.0
+      "inflated_gap": 27.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018095",
+        "title": "Телевизор Samsung Neo QLED QE85QN80FAUXCE UHD SMART",
+        "price": 1299990,
+        "old_price": 2499990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe85qn80fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/740c55ed-5db0-4ca7-b8e3-36e2d1393558?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 27.8,
+      "base_price": 1799990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018523",
+        "title": "Телевизор HISENSE QLED 75E7Q PRO UHD SMART",
+        "price": 399990,
+        "old_price": 799990,
+        "url": "https://www.mechta.kz/product/televizor-hisense-qled-75e7q-pro-uhd-smart/",
+        "brand": "Hisense",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/86bb8afa-379a-425b-a388-dbecbea3c02d?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 27.3,
+      "base_price": 549990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020569",
+        "title": "Телевизор Samsung QLED QE65Q7F5AUXKZ UHD SMART (KZ)",
+        "price": 349990,
+        "old_price": 639990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q7f5auxkz-uhd-smart-kz/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/f81be613-6b07-441a-affb-25f1ab81e8b9?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 27.1,
+      "base_price": 479990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.9
     },
     {
       "product": {
         "shop": "mechta",
         "sku": "17200018094",
         "title": "Телевизор Samsung Neo QLED QE75QN80FAUXCE UHD SMART",
-        "price": 999990,
+        "price": 949990,
         "old_price": 1599990,
         "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn80fauxce-uhd-smart/",
         "brand": "Samsung",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 38,
+        "discount_pct": 41,
         "image": "https://pi.mdev.kz/ed8480bd-926a-491d-bf3d-a39f87aac9e5?w=400"
       },
       "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 23.1,
+      "drop_pct": 41,
+      "fair_discount": 26.9,
       "base_price": 1299990,
-      "value_score": 68,
+      "value_score": 74,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": 14.9
+      "inflated_gap": 14.1
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018073",
-        "title": "Телевизор Samsung QLED QE50LS03FAUXCE The Frame UHD SMART",
-        "price": 549990,
-        "old_price": 799990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe50ls03fauxce-the-frame-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/a2842108-4d37-44af-955c-7938c40abd25?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 22.5,
-      "base_price": 709990,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 8.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018072",
-        "title": "Телевизор Samsung QLED QE43LS03FAUXCE The Frame UHD SMART",
-        "price": 449990,
-        "old_price": 649990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe43ls03fauxce-the-frame-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/7fc53099-4266-4da4-af99-1f7da993db4f?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 22.4,
-      "base_price": 579990,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 8.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018078",
-        "title": "Телевизор Samsung QLED QE85LS03FAUXCE The Frame UHD SMART",
-        "price": 1899990,
-        "old_price": 2699990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85ls03fauxce-the-frame-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://pi.mdev.kz/29ac1a3c-1bc9-461d-9689-9e5ecbbc340e?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 21.5,
-      "base_price": 2419990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 8.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018074",
-        "title": "Телевизор Samsung QLED QE55LS03FAUXCE The Frame UHD SMART",
-        "price": 629990,
-        "old_price": 949990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03fauxce-the-frame-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://pi.mdev.kz/2b6db77f-9529-4acd-94d3-3e4167f61701?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 21.3,
-      "base_price": 799990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 12.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018075",
-        "title": "Телевизор Samsung QLED QE65LS03FAUXCE The Frame UHD SMART",
-        "price": 829990,
-        "old_price": 1299990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65ls03fauxce-the-frame-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://pi.mdev.kz/1faaf6a9-af05-4796-81e6-c6312961b244?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 17.0,
-      "base_price": 999990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018129",
-        "title": "Телевизор Samsung OLED QE83S90FAEXCE",
+        "sku": "17200018113",
+        "title": "Телевизор Samsung Neo QLED QE85QN900FUXCE 8K SMART",
         "price": 2199990,
-        "old_price": 4239990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe83s90faexce/",
+        "old_price": 4999990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe85qn900fuxce-8k-smart/",
         "brand": "Samsung",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/9d1d0dc9-1333-4f02-888d-68f24b5ca6d6?w=400"
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/01205f57-0579-4119-96de-564155fa1942?w=400"
       },
       "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 13.7,
-      "base_price": 2549990,
-      "value_score": 57,
+      "drop_pct": 56,
+      "fair_discount": 26.7,
+      "base_price": 2999990,
+      "value_score": 74,
       "is_pick": false,
       "badges": [
+        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 34.3
+      "inflated_gap": 29.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018086",
+        "title": "Телевизор Samsung QLED QE75Q7FAAUXCE UHD SMART",
+        "price": 439990,
+        "old_price": 899990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75q7faauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://pi.mdev.kz/cc87d5ca-a07a-4183-adb8-6e42d213f401?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 51,
+      "fair_discount": 26.7,
+      "base_price": 599990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011817",
+        "title": "Телевизор Samsung OLED QE55S90DAUXCE",
+        "price": 549990,
+        "old_price": 989990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe55s90dauxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/61d896d4-1403-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 26.7,
+      "base_price": 749990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018099",
+        "title": "Телевизор Samsung Neo QLED QE75QN85FAUXCE UHD SMART",
+        "price": 1099990,
+        "old_price": 1849990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn85fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/6e760c50-9faa-41f2-98ca-fb6651b9b73d?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 26.7,
+      "base_price": 1499990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 14.3
     },
     {
       "product": {
         "shop": "mechta",
         "sku": "17200018112",
         "title": "Телевизор Samsung Neo QLED QE75QN900FUXCE 8K SMART",
-        "price": 1999990,
+        "price": 1699990,
         "old_price": 3399990,
         "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn900fuxce-8k-smart/",
         "brand": "Samsung",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 41,
+        "discount_pct": 50,
         "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400"
       },
       "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 13.0,
+      "drop_pct": 50,
+      "fair_discount": 26.1,
       "base_price": 2299990,
-      "value_score": 50,
+      "value_score": 73,
       "is_pick": false,
       "badges": [
+        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 28.0
+      "inflated_gap": 23.9
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018107",
-        "title": "Телевизор Samsung Neo QLED QE65QN90FAUXCE UHD SMART",
-        "price": 1099990,
-        "old_price": 1779990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn90fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
+        "sku": "17200010494",
+        "title": "Игровая гарнитура CORSAIR HS55 Surround Headset Carbon",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-corsair-hs55-surround-headset-carbon/",
+        "brand": "Corsair",
+        "category": "Наушники",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/64461c52-8499-4505-8676-c5e154cadbbd?w=400"
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/35f47f7b-d6b2-11ee-a265-005056b6e990?w=400"
       },
       "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 8.3,
-      "base_price": 1199990,
-      "value_score": 50,
+      "drop_pct": 43,
+      "fair_discount": 25.9,
+      "base_price": 26990,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010495",
+        "title": "Игровая гарнитура CORSAIR HS55 Surround Headset White",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-corsair-hs55-surround-headset-white/",
+        "brand": "Corsair",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/35f47f80-d6b2-11ee-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 25.9,
+      "base_price": 26990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011937",
+        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/WZE TWS (White)",
+        "price": 59990,
+        "old_price": 129990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nwze-tws-white/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/5879b6e5-17fe-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 25.0,
+      "base_price": 79990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 29.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019694",
-        "title": "Смартфон HUAWEI Pura 80 Ultra 16/512GB Gold (LMU-LX9)",
-        "price": 599890,
-        "old_price": 828990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-pura-80-ultra-16512gb-gold-lmu-lx9/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/3d255253-d303-46c4-ac87-75034b0fde30?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 7.7,
-      "base_price": 649890,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019695",
-        "title": "Смартфон HUAWEI Pura 80 Ultra 16/512GB Black (LMU-LX9)",
-        "price": 599890,
-        "old_price": 828990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-pura-80-ultra-16512gb-black-lmu-lx9/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/d11c04a8-20fa-4129-a2b6-c8d8d21778a3?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 7.7,
-      "base_price": 649890,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.3
+      "inflated_gap": 29.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-01T05:21:13+00:00",
-      "item_count": 7767,
+      "last_crawl": "2026-10-01T10:48:57+00:00",
+      "item_count": 7757,
       "status": "ok"
     },
     {
@@ -2137,8 +2457,8 @@
     }
   ],
   "stats": {
-    "total_products": 7767,
-    "total_deals": 79,
-    "avg_discount": 61
+    "total_products": 7757,
+    "total_deals": 90,
+    "avg_discount": 61.0
   }
 }
