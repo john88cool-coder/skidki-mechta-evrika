@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T06:19:14.460175+00:00",
+  "updated_at": "2026-10-01T13:42:36.755960+00:00",
   "deals": [
     {
       "product": {
@@ -1646,7 +1646,7 @@
       "signal": "deal",
       "drop_pct": 58,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1981,6 +1981,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640209",
+        "title": "Neo QLED телевизор Samsung 8K QE85QN900FUXCE",
+        "price": 2199990,
+        "old_price": 4999990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe85qn900fuxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20431_0_1_wWOC0p_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 26.7,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.3
     },
     {
       "product": {
@@ -3592,6 +3620,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640210",
+        "title": "Neo QLED телевизор Samsung 8K QE75QN900FUXCE",
+        "price": 1699990,
+        "old_price": 3399990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn900fuxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20432_0_1_Umddlz_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 26.1,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.9
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1270490",
         "title": "Вытяжка Samsung NK24M5060SS",
@@ -3741,58 +3797,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45180",
-        "title": "Чехол iPhone 17 Pro Silicone Case with MagSafe – Terra Cotta (MGFJ4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-silicone-case-with-magsafe-terra-cotta-mgfj4zm-a/p45180",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/PMhFqSfhQBmABwHmytnkYngd2EkDGSohq1LKGbQA.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45169",
-        "title": "Чехол iPhone 17 Pro Max Silicone Case with MagSafe – Black (MGFR4ZM/A)",
-        "price": 19990,
-        "old_price": 38990,
-        "url": "https://evrika.com/catalog/chehol-iphone-17-pro-max-silicone-case-with-magsafe-black-mgfr4zm-a/p45169",
-        "brand": "Apple",
-        "category": "Чехлы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/xUzTJVsSxdDFApN2GoTVzuVjBslsxi3uu4Ym1BhV.jpg.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": 0.0,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 49.0
     }
   ],
   "shops": [
@@ -3813,34 +3817,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-01T06:19:03+00:00",
-      "item_count": 12127,
+      "last_crawl": "2026-10-01T13:42:26+00:00",
+      "item_count": 12103,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-01T06:19:03+00:00",
-      "item_count": 3723,
+      "last_crawl": "2026-10-01T13:42:26+00:00",
+      "item_count": 3706,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-01T06:19:03+00:00",
-      "item_count": 9507,
+      "last_crawl": "2026-10-01T13:42:26+00:00",
+      "item_count": 9505,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-01T06:19:03+00:00",
+      "last_crawl": "2026-10-01T13:42:26+00:00",
       "item_count": 828,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29936,
+    "total_products": 29893,
     "total_deals": 150,
     "avg_discount": 56.0
   }
