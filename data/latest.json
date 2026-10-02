@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T00:13:08.266848+00:00",
+  "updated_at": "2026-10-02T06:03:46.976164+00:00",
   "deals": [
     {
       "product": {
@@ -2759,7 +2759,7 @@
       "signal": "deal",
       "drop_pct": 54,
       "fair_discount": 0.0,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3820,34 +3820,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-02T00:12:56+00:00",
-      "item_count": 12127,
+      "last_crawl": "2026-10-02T06:03:34+00:00",
+      "item_count": 12134,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-02T00:12:56+00:00",
-      "item_count": 3777,
+      "last_crawl": "2026-10-02T06:03:34+00:00",
+      "item_count": 3732,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-02T00:12:56+00:00",
-      "item_count": 9499,
+      "last_crawl": "2026-10-02T06:03:34+00:00",
+      "item_count": 9508,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-02T00:12:56+00:00",
+      "last_crawl": "2026-10-02T06:03:34+00:00",
       "item_count": 739,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29893,
+    "total_products": 29864,
     "total_deals": 150,
     "avg_discount": 56.0
   }
