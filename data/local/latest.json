@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T11:17:23.199982+00:00",
+  "updated_at": "2026-10-02T15:21:42.780818+00:00",
   "deals": [
     {
       "product": {
@@ -54,6 +54,32 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "30000005646",
+        "title": "Проектор Samsung SP-LSP9TUAXCE",
+        "price": 999990,
+        "old_price": 3799990,
+        "url": "https://www.mechta.kz/product/proektor-samsung-sp-lsp9tuaxce/",
+        "brand": "Samsung",
+        "category": "Проекторы",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 74,
+        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 74,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200017735",
         "title": "Вертикальный пылесос Samsung Bespoke Jet 400W Complete Extra (VS90F40DEK/EV)",
         "price": 249990,
@@ -68,6 +94,32 @@
       },
       "signal": "deal",
       "drop_pct": 64,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200007632",
+        "title": "Смартфон Apple iPhone 15 256GB (Black)",
+        "price": 209955,
+        "old_price": 536990,
+        "url": "https://www.mechta.kz/product/smartfon-apple-iphone-15-256gb-black/",
+        "brand": "Apple",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": null
+      },
+      "signal": "deal",
+      "drop_pct": 61,
       "fair_discount": null,
       "base_price": null,
       "value_score": 31,
@@ -362,7 +414,7 @@
       "drop_pct": 77,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 25,
+      "value_score": 20,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -466,7 +518,7 @@
       "drop_pct": 76,
       "fair_discount": 0.0,
       "base_price": 64990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -524,32 +576,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 71.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000084561",
-        "title": "Тумба МАРТ МЕБЕЛЬ Родос 1800",
-        "price": 44990,
-        "old_price": 143990,
-        "url": "https://www.mechta.kz/product/tumba-mart-mebel-rodos-1800/",
-        "brand": "МАРТ",
-        "category": "Тумбы под телевизор",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://pi.mdev.kz/31196c05-0142-11ea-a22b-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": 0.0,
-      "base_price": 44990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 69.0
     },
     {
       "product": {
@@ -1137,33 +1163,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200007632",
-        "title": "Смартфон Apple iPhone 15 256GB (Black)",
-        "price": 209955,
-        "old_price": 536990,
-        "url": "https://www.mechta.kz/product/smartfon-apple-iphone-15-256gb-black/",
-        "brand": "Apple",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 209955,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200019681",
         "title": "Утюг ROWENTA DX1635D1 (DS)",
         "price": 19990,
@@ -1401,6 +1400,60 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000067952",
+        "title": "Кофеварка DELONGHI ECP 35.31",
+        "price": 79990,
+        "old_price": 144990,
+        "url": "https://www.mechta.kz/product/kofevarka-delonghi-ecp-35dot31/",
+        "brand": "DeLonghi",
+        "category": "Кофеварки рожковые",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/8dff6ea5-36cd-11e7-80c9-2c768a5d3553?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 44.8,
+      "base_price": 144990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000003429",
+        "title": "Наушники PANASONIC RB-M300BGE-K",
+        "price": 34990,
+        "old_price": 63290,
+        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-m300bge-k/",
+        "brand": "Panasonic",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/e0899909-82fa-11eb-a23a-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 44.7,
+      "base_price": 63290,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200005326",
         "title": "Ручной отпариватель POLARIS PGS 1460C",
         "price": 18990,
@@ -1506,6 +1559,58 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200014657",
+        "title": "Наушники PANASONIC RB-HF420BGEA",
+        "price": 17990,
+        "old_price": 29990,
+        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-hf420bgea/",
+        "brand": "Panasonic",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/1122429f-9bee-11ef-a26b-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 29990,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000003427",
+        "title": "Наушники PANASONIC RB-HF420BGEK",
+        "price": 17990,
+        "old_price": 29990,
+        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-hf420bgek/",
+        "brand": "Panasonic",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/e0899905-82fa-11eb-a23a-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 29990,
+      "value_score": 94,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200021332",
         "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
         "price": 249990,
@@ -1522,7 +1627,7 @@
       "drop_pct": 55,
       "fair_discount": 37.5,
       "base_price": 399990,
-      "value_score": 71,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1885,34 +1990,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 25.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018108",
-        "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
-        "price": 1749990,
-        "old_price": 2879990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn90fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/db689e9b-bab6-459c-869e-5b30d727936d?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 30.0,
-      "base_price": 2499990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 9.0
     },
     {
       "product": {
@@ -2327,98 +2404,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011937",
-        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/WZE TWS (White)",
-        "price": 59990,
-        "old_price": 129990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nwze-tws-white/",
-        "brand": "Sony",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/5879b6e5-17fe-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011938",
-        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/BZE TWS (Black)",
-        "price": 59990,
-        "old_price": 129990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nbze-tws-black/",
-        "brand": "Sony",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/5879b6de-17fe-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019381",
-        "title": "Телевизор Samsung QLED QE85Q8FAAUXCE UHD SMART",
-        "price": 899990,
-        "old_price": 1899990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q8faauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/c9eff8ae-fed3-4e85-9f3b-b52dda0860e7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 25.0,
-      "base_price": 1199990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-02T07:21:13+00:00",
-      "item_count": 7770,
+      "last_crawl": "2026-10-02T15:21:32+00:00",
+      "item_count": 7760,
       "status": "ok"
     },
     {
@@ -2458,7 +2451,7 @@
     }
   ],
   "stats": {
-    "total_products": 7770,
+    "total_products": 7760,
     "total_deals": 90,
     "avg_discount": 61.0
   }
