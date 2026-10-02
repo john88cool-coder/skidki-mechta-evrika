@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T15:21:42.780818+00:00",
+  "updated_at": "2026-10-02T17:20:49.812180+00:00",
   "deals": [
     {
       "product": {
@@ -1506,32 +1506,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200013979",
-        "title": "Массажер BORK D730bg MOON кресло (бежевый)",
-        "price": 742590,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/massajer-bork-d730bg-moon-kreslo-bejevyy/",
-        "brand": "BORK",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/d87712d7-7eec-11ef-a269-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 41.5,
-      "base_price": 1269990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016308",
         "title": "Блендер погружной POLARIS PHB 1551 WIFI IQ Home Черный",
         "price": 46990,
@@ -2404,14 +2378,42 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011937",
+        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/WZE TWS (White)",
+        "price": 59990,
+        "old_price": 129990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nwze-tws-white/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/5879b6e5-17fe-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 25.0,
+      "base_price": 79990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-02T15:21:32+00:00",
-      "item_count": 7760,
+      "last_crawl": "2026-10-02T17:20:41+00:00",
+      "item_count": 7758,
       "status": "ok"
     },
     {
@@ -2451,7 +2453,7 @@
     }
   ],
   "stats": {
-    "total_products": 7760,
+    "total_products": 7758,
     "total_deals": 90,
     "avg_discount": 61.0
   }
