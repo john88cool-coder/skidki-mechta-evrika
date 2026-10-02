@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T05:25:36.626165+00:00",
+  "updated_at": "2026-10-02T07:21:25.926105+00:00",
   "deals": [
     {
       "product": {
@@ -518,7 +518,7 @@
       "drop_pct": 71,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 24,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -578,6 +578,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 40.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200001305",
+        "title": "Блендер погружной POLARIS PHB 0746 CordLess",
+        "price": 19990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-0746-cordless/",
+        "brand": "Polaris",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 23.1,
+      "base_price": 25990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 43.9
     },
     {
       "product": {
@@ -1294,28 +1321,108 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200016028",
-        "title": "Аэрогриль MIDEA MF-CY110A",
-        "price": 79990,
-        "old_price": 199990,
-        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy110a/",
-        "brand": "Midea",
-        "category": "Аэрогрили",
+        "sku": "17200011026",
+        "title": "Тостер POLARIS PET 0812A Черный/матовый",
+        "price": 14390,
+        "old_price": 28990,
+        "url": "https://www.mechta.kz/product/toster-polaris-pet-0812a-chernyymatovyy/",
+        "brand": "Polaris",
+        "category": "Тостеры",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/cb20961e-7e9e-4181-8126-8b47a6c505ed?w=400"
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/d2e33589-efe3-11ee-a265-005056b6e990?w=400"
       },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 79990,
-      "value_score": 35,
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 50.4,
+      "base_price": 28990,
+      "value_score": 84,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 60.0
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012855",
+        "title": "Блендер погружной POLARIS PHB 1283 Серый",
+        "price": 21990,
+        "old_price": 43990,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-1283-seryy/",
+        "brand": "Polaris",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/c848d4f4-4d98-11ef-a267-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 50.0,
+      "base_price": 43990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200001286",
+        "title": "Кухонная машина POLARIS PKM 1104",
+        "price": 79990,
+        "old_price": 146990,
+        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-polaris-pkm-1104/",
+        "brand": "Polaris",
+        "category": "Кухонные машины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 46,
+        "image": "https://pi.mdev.kz/084bd532-12e2-11ed-a24a-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 46,
+      "fair_discount": 45.6,
+      "base_price": 146990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200005326",
+        "title": "Ручной отпариватель POLARIS PGS 1460C",
+        "price": 18990,
+        "old_price": 32990,
+        "url": "https://www.mechta.kz/product/ruchnoy-otparivatel-polaris-pgs-1460c/",
+        "brand": "Polaris",
+        "category": "Отпариватели для одежды",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://pi.mdev.kz/7551b0cd-d2a1-11ed-a259-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 42.4,
+      "base_price": 32990,
+      "value_score": 83,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -1368,6 +1475,33 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016308",
+        "title": "Блендер погружной POLARIS PHB 1551 WIFI IQ Home Черный",
+        "price": 46990,
+        "old_price": 79990,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-1551-wifi-iq-home-chernyy/",
+        "brand": "Polaris",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/b42d7a5d-b0e3-4c53-beec-5b485da437aa?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 41.3,
+      "base_price": 79990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -1447,167 +1581,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001922",
-        "title": "Портативная колонка Bang&Olufsen Beosound A1 2nd Gen Gold Tone",
-        "price": 126990,
-        "old_price": 201990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-a1-2nd-gen-gold-tone/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/61f7eda6-34ab-11ed-a24a-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 37.1,
-      "base_price": 201990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001923",
-        "title": "Портативная колонка Bang&Olufsen Beosound A1 2nd Gen Pink",
-        "price": 126990,
-        "old_price": 201990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-a1-2nd-gen-pink/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/61f7edab-34ab-11ed-a24a-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 37.1,
-      "base_price": 201990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001924",
-        "title": "Портативная колонка Bang&Olufsen Beosound A1 2nd Gen Nordic Ice",
-        "price": 126990,
-        "old_price": 201990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-a1-2nd-gen-nordic-ice/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/61f7edb3-34ab-11ed-a24a-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 37.1,
-      "base_price": 201990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002580",
-        "title": "Портативная колонка Bang&Olufsen Beosound A1 2nd Gen Grey Mist",
-        "price": 126990,
-        "old_price": 201990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-a1-2nd-gen-grey-mist/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/5703f095-4276-11eb-a238-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 37.1,
-      "base_price": 201990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002581",
-        "title": "Портативная колонка Bang&Olufsen Beosound A1 2nd Gen Black Anthracite",
-        "price": 126990,
-        "old_price": 201990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-a1-2nd-gen-black-anthracite/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/5703f088-4276-11eb-a238-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 37.1,
-      "base_price": 201990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000028262",
-        "title": "Роутер ADSL2+ TP-Link TD-W8961N(RU)",
-        "price": 12590,
-        "old_price": 17990,
-        "url": "https://www.mechta.kz/product/router-adsl2plus-tp-link-td-w8961nru/",
-        "brand": "TP-Link",
-        "category": "Модемы и роутеры xDSL",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://pi.mdev.kz/90a1321f-731e-45ed-b958-d74b92bf293d?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 37.0,
-      "base_price": 19990,
-      "value_score": 85,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -7.0
     },
     {
       "product": {
@@ -1715,6 +1688,32 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200001761",
+        "title": "Настольный гриль POLARIS PGP 2402",
+        "price": 49990,
+        "old_price": 94990,
+        "url": "https://www.mechta.kz/product/nastolnyy-gril-polaris-pgp-2402/",
+        "brand": "Polaris",
+        "category": "Электрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/810ed795-2cef-11ed-a24a-005056b6dbd7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 32.4,
+      "base_price": 73990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.6
     },
     {
       "product": {
@@ -2418,8 +2417,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-02T05:25:23+00:00",
-      "item_count": 7751,
+      "last_crawl": "2026-10-02T07:21:13+00:00",
+      "item_count": 7770,
       "status": "ok"
     },
     {
@@ -2459,7 +2458,7 @@
     }
   ],
   "stats": {
-    "total_products": 7751,
+    "total_products": 7770,
     "total_deals": 90,
     "avg_discount": 61.0
   }
