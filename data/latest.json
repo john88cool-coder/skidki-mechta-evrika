@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T13:00:31.371612+00:00",
+  "updated_at": "2026-10-02T19:40:53.717718+00:00",
   "deals": [
     {
       "product": {
@@ -251,7 +251,7 @@
       "signal": "deal",
       "drop_pct": 57,
       "fair_discount": 57.2,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -303,7 +303,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 56.3,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -330,7 +330,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 55.0,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -418,6 +418,29 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "285606",
+        "title": "Процессор AMD Ryzen 7 7800X3D (C8/T16, (512K L1, 8M L2, 96M L3 Cache) 4.2 up to 5GHz) AM5 OEM",
+        "price": 121990,
+        "old_price": 262990,
+        "url": "https://www.technodom.kz/product/processor-amd-ryzen-7-7800x3d-c8t16-512k-l1-8m-l2-96m-l3-cache-42-5ghz-am5-oem-285606",
+        "brand": "AMD",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": null
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": null,
+      "value_score": 23,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -720,7 +743,7 @@
       "signal": "deal",
       "drop_pct": 75,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1022,7 +1045,7 @@
       "signal": "deal",
       "drop_pct": 67,
       "fair_discount": 0.0,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1272,7 +1295,7 @@
       "signal": "deal",
       "drop_pct": 62,
       "fair_discount": 0.0,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1826,7 +1849,7 @@
       "signal": "deal",
       "drop_pct": 58,
       "fair_discount": 0.0,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -2718,31 +2741,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "285606",
-        "title": "Процессор AMD Ryzen 7 7800X3D (C8/T16, (512K L1, 8M L2, 96M L3 Cache) 4.2 up to 5GHz) AM5 OEM",
-        "price": 121990,
-        "old_price": 262990,
-        "url": "https://www.technodom.kz/product/processor-amd-ryzen-7-7800x3d-c8t16-512k-l1-8m-l2-96m-l3-cache-42-5ghz-am5-oem-285606",
-        "brand": "AMD",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 0.0,
-      "value_score": 23,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 54.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1386912",
         "title": "Выпрямитель для волос Rowenta Karl Lagerfeld SF411LF0",
@@ -3035,7 +3033,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3060,7 +3058,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3160,7 +3158,7 @@
       "signal": "deal",
       "drop_pct": 52,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3236,7 +3234,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3262,7 +3260,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3288,7 +3286,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3514,7 +3512,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3639,7 +3637,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "value_score": 25,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3692,7 +3690,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3819,34 +3817,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-02T13:00:17+00:00",
-      "item_count": 12137,
+      "last_crawl": "2026-10-02T19:40:40+00:00",
+      "item_count": 12140,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-02T13:00:17+00:00",
-      "item_count": 3707,
+      "last_crawl": "2026-10-02T19:40:40+00:00",
+      "item_count": 3742,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-02T13:00:17+00:00",
-      "item_count": 9544,
+      "last_crawl": "2026-10-02T19:40:40+00:00",
+      "item_count": 9559,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-02T13:00:17+00:00",
-      "item_count": 723,
+      "last_crawl": "2026-10-02T19:40:40+00:00",
+      "item_count": 701,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29862,
+    "total_products": 29893,
     "total_deals": 150,
     "avg_discount": 56.0
   }
