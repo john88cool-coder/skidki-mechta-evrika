@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T19:21:10.057552+00:00",
+  "updated_at": "2026-10-02T21:20:22.472518+00:00",
   "deals": [
     {
       "product": {
@@ -1559,32 +1559,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000003427",
-        "title": "Наушники PANASONIC RB-HF420BGEK",
-        "price": 17990,
-        "old_price": 29990,
-        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-hf420bgek/",
-        "brand": "Panasonic",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/e0899905-82fa-11eb-a23a-005056b6dbd7?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 29990,
-      "value_score": 94,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200021332",
         "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
         "price": 249990,
@@ -1660,6 +1634,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011464",
+        "title": "Телевизор Samsung LED UE50DU8500UXCE UHD SMART",
+        "price": 189990,
+        "old_price": 379990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue50du8500uxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/eecc8b19-06d5-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 36.7,
+      "base_price": 299990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 13.3
     },
     {
       "product": {
@@ -2412,8 +2414,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-02T19:21:02+00:00",
-      "item_count": 7758,
+      "last_crawl": "2026-10-02T21:20:16+00:00",
+      "item_count": 7760,
       "status": "ok"
     },
     {
@@ -2453,7 +2455,7 @@
     }
   ],
   "stats": {
-    "total_products": 7758,
+    "total_products": 7760,
     "total_deals": 90,
     "avg_discount": 61.0
   }
