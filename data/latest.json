@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T06:03:46.976164+00:00",
+  "updated_at": "2026-10-02T13:00:31.371612+00:00",
   "deals": [
     {
       "product": {
@@ -80,6 +80,29 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "295906",
+        "title": "Игровой компьютер TechnoGaming 297(AR5-7500F/RTX5060TI 16GB/D5 32GB/SSD 1TB/B650 GAMING WIFI/FSP M580WH)",
+        "price": 892990,
+        "old_price": 2399990,
+        "url": "https://www.technodom.kz/product/igrovoj-pk-technogaming-297ar5-7500frtx5060ti-16gbd5-32gbssd-1tbb650-gaming-wififsp-m580wh-295906",
+        "brand": "TechnoGaming",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": null
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -288,6 +311,33 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "277021",
+        "title": "Моноблок Apple iMac 24 Green (MQRA3RU/A)",
+        "price": 359990,
+        "old_price": 799990,
+        "url": "https://www.technodom.kz/p/monoblok-apple-imac-24-green-m3-spu-8cgpu-8c-8-256-mos-45kmqra3ru-277021",
+        "brand": "Apple",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://api.technodom.kz/f3/api/v1/images/monoblok_apple_imac_24_green_m3_spu_8cgpu_8c_8_256_mos_45kmqra3ru_277021_1.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 55.0,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -795,7 +845,7 @@
       "signal": "deal",
       "drop_pct": 69,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1098,31 +1148,6 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "295906",
-        "title": "Игровой компьютер TechnoGaming 297(AR5-7500F/RTX5060TI 16GB/D5 32GB/SSD 1TB/B650 GAMING WIFI/FSP M580WH)",
-        "price": 892990,
-        "old_price": 2399990,
-        "url": "https://www.technodom.kz/product/igrovoj-pk-technogaming-297ar5-7500frtx5060ti-16gbd5-32gbssd-1tbb650-gaming-wififsp-m580wh-295906",
-        "brand": "TechnoGaming",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1675,7 +1700,7 @@
       "signal": "deal",
       "drop_pct": 58,
       "fair_discount": 0.0,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2358,7 +2383,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 0.0,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2734,7 +2759,7 @@
       "signal": "deal",
       "drop_pct": 54,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3119,31 +3144,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "289412",
-        "title": "Игровой Компьютер Neo Game A02 (Ci3 12100F/RTX 3050 6GB/16GB/SSD 1TB/H610M/Mana BK/Win11)",
-        "price": 299990,
-        "old_price": 627990,
-        "url": "https://www.technodom.kz/product/igrovoy-kompyuter-neo-game-a02-289412",
-        "brand": "Neo PC",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": null
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1450237",
         "title": "Пылесос хозяйственный Karcher WD 3 P S V-17/4/20, Yellow, 1.628-191.0, (розетка, стальной корпус, 17 л, 1000 Вт)",
@@ -3185,7 +3185,7 @@
       "signal": "deal",
       "drop_pct": 52,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3437,15 +3437,14 @@
       },
       "signal": "deal",
       "drop_pct": 50,
-      "fair_discount": 27.4,
-      "value_score": 73,
+      "fair_discount": 14.6,
+      "value_score": 51,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 22.6
+      "inflated_gap": 35.4
     },
     {
       "product": {
@@ -3820,34 +3819,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-02T06:03:34+00:00",
-      "item_count": 12134,
+      "last_crawl": "2026-10-02T13:00:17+00:00",
+      "item_count": 12137,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-02T06:03:34+00:00",
-      "item_count": 3732,
+      "last_crawl": "2026-10-02T13:00:17+00:00",
+      "item_count": 3707,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-02T06:03:34+00:00",
-      "item_count": 9508,
+      "last_crawl": "2026-10-02T13:00:17+00:00",
+      "item_count": 9544,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-02T06:03:34+00:00",
-      "item_count": 739,
+      "last_crawl": "2026-10-02T13:00:17+00:00",
+      "item_count": 723,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29864,
+    "total_products": 29862,
     "total_deals": 150,
     "avg_discount": 56.0
   }
