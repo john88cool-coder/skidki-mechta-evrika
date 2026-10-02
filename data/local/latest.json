@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T17:20:49.812180+00:00",
+  "updated_at": "2026-10-02T19:21:10.057552+00:00",
   "deals": [
     {
       "product": {
@@ -1691,6 +1691,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200002261",
+        "title": "Ноутбук ASUS Zenbook UM425QA-KI175W 14 FHD/AMD Ryzen 5 5600H 3.3 Ghz/8/SSD512/Win11",
+        "price": 299970,
+        "old_price": 524990,
+        "url": "https://www.mechta.kz/product/noutbuk-asus-zenbook-um425qa-ki175w-14-fhdamd-ryzen-5-5600h-3dot3-ghz8ssd512win11/",
+        "brand": "ASUS",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/dc1ff817-e8c4-40c2-972f-8d154aa67d70?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 34.8,
+      "base_price": 459990,
+      "value_score": 87,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 8.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200005125",
         "title": "Дом. кинотеатр JBL BAR 500 PRO BLACK (JBLBAR500PRO)",
         "price": 199990,
@@ -2378,41 +2406,13 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011937",
-        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/WZE TWS (White)",
-        "price": 59990,
-        "old_price": 129990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nwze-tws-white/",
-        "brand": "Sony",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/5879b6e5-17fe-11ef-a265-005056b6e990?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-02T17:20:41+00:00",
+      "last_crawl": "2026-10-02T19:21:02+00:00",
       "item_count": 7758,
       "status": "ok"
     },
