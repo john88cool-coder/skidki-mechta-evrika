@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T11:21:59.585946+00:00",
+  "updated_at": "2026-10-02T04:30:00.787739+00:00",
   "deals": [
     {
       "product": {
@@ -310,7 +310,7 @@
       "drop_pct": 77,
       "fair_discount": 0.0,
       "base_price": 144990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -466,7 +466,7 @@
       "drop_pct": 76,
       "fair_discount": 0.0,
       "base_price": 64990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -518,7 +518,7 @@
       "drop_pct": 71,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 29,
+      "value_score": 24,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1388,7 +1388,7 @@
       "drop_pct": 55,
       "fair_discount": 37.5,
       "base_price": 399990,
-      "value_score": 76,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1586,28 +1586,28 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000021629",
-        "title": "Тепловая пушка BALLU BKX-3",
-        "price": 13990,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/teplovaya-pushka-ballu-bkx-3/",
-        "brand": "Ballu",
-        "category": "Электрические тепловые пушки",
-        "group": "home",
+        "sku": "12000028262",
+        "title": "Роутер ADSL2+ TP-Link TD-W8961N(RU)",
+        "price": 12590,
+        "old_price": 17990,
+        "url": "https://www.mechta.kz/product/router-adsl2plus-tp-link-td-w8961nru/",
+        "brand": "TP-Link",
+        "category": "Модемы и роутеры xDSL",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/9ba4671d-34ed-11e4-8550-14dae972ca6d?w=400"
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/90a1321f-731e-45ed-b958-d74b92bf293d?w=400"
       },
       "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 36.4,
-      "base_price": 21990,
-      "value_score": 79,
+      "drop_pct": 30,
+      "fair_discount": 37.0,
+      "base_price": 19990,
+      "value_score": 85,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": null
+      "inflated_gap": -7.0
     },
     {
       "product": {
@@ -1947,34 +1947,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018115",
-        "title": "Телевизор Samsung Neo QLED QE65QN950FUXCE 8K SMART",
-        "price": 2199990,
-        "old_price": 3399990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn950fuxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/ca681a86-0c24-4d80-a877-87a1d114703c?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 29.0,
-      "base_price": 3099990,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013945",
         "title": "Телевизор LED HISENSE 43A6N (SMART UHD)",
         "price": 99990,
@@ -2025,32 +1997,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 19.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021612",
-        "title": "Телевизор TCL QD-MiniLED 75C6K UHD Android TV",
-        "price": 539990,
-        "old_price": 839990,
-        "url": "https://www.mechta.kz/product/televizor-tcl-qd-miniled-75c6k-uhd-android-tv/",
-        "brand": "TCL",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://pi.mdev.kz/4f19cdc6-1587-4d2f-9aa5-b5332fc527ae?w=400"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 28.0,
-      "base_price": 749990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 8.0
     },
     {
       "product": {
@@ -2410,13 +2356,69 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011938",
+        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/BZE TWS (Black)",
+        "price": 59990,
+        "old_price": 129990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nbze-tws-black/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/5879b6de-17fe-11ef-a265-005056b6e990?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 25.0,
+      "base_price": 79990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019381",
+        "title": "Телевизор Samsung QLED QE85Q8FAAUXCE UHD SMART",
+        "price": 899990,
+        "old_price": 1899990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q8faauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/c9eff8ae-fed3-4e85-9f3b-b52dda0860e7?w=400"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 25.0,
+      "base_price": 1199990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-01T11:21:41+00:00",
+      "last_crawl": "2026-10-02T04:29:48+00:00",
       "item_count": 7756,
       "status": "ok"
     },
