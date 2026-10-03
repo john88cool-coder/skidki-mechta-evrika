@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T12:02:13.971101+00:00",
+  "updated_at": "2026-10-03T16:40:59.633799+00:00",
   "deals": [
     {
       "product": {
@@ -210,33 +210,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1371541",
-        "title": "Микроволновая печь Samsung MS23K3614AW/BW, White, 800 Вт, 23 л, Без программ, Поворотные ручки, Биокерамическая эмаль, Solo",
-        "price": 29990,
-        "old_price": 69990,
-        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23k3614awbw",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/e1qAPtxvO/mikrovolnovaa-pec-samsung-ms23k3614awbw-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 57.2,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1331257",
         "title": "Швабра паровая Kitfort KT-1006",
         "price": 15990,
@@ -277,7 +250,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 55.0,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1857,6 +1830,32 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1371541",
+        "title": "Микроволновая печь Samsung MS23K3614AW/BW, White, 800 Вт, 23 л, Без программ, Поворотные ручки, Биокерамическая эмаль, Solo",
+        "price": 29990,
+        "old_price": 69990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23k3614awbw",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/e1qAPtxvO/mikrovolnovaa-pec-samsung-ms23k3614awbw-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 0.0,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 57.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1417846",
         "title": "Фен профессиональный Rowenta Pro Expert, Black (CV8810F0), 2100 Вт, 1 насадка",
         "price": 12990,
@@ -3282,7 +3281,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3813,34 +3812,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-03T12:02:03+00:00",
-      "item_count": 12143,
+      "last_crawl": "2026-10-03T16:40:48+00:00",
+      "item_count": 12144,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-03T12:02:03+00:00",
-      "item_count": 3665,
+      "last_crawl": "2026-10-03T16:40:48+00:00",
+      "item_count": 3633,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-03T12:02:03+00:00",
-      "item_count": 9553,
+      "last_crawl": "2026-10-03T16:40:48+00:00",
+      "item_count": 9542,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-03T12:02:03+00:00",
-      "item_count": 699,
+      "last_crawl": "2026-10-03T16:40:48+00:00",
+      "item_count": 680,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29811,
+    "total_products": 29750,
     "total_deals": 150,
     "avg_discount": 56.0
   }
