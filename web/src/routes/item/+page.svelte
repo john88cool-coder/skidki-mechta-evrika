@@ -3,7 +3,9 @@
 	import { dashboard, fetchHistory } from '$lib/stores/data.svelte';
 	import { recentPrices, formatChange } from '$lib/utils/history';
 	import PriceChart from '$lib/components/PriceChart.svelte';
-	import { formatPrice, formatDate, shopLabel, badgeTone } from '$lib/utils/format';
+	import { formatPrice, formatDate, shopLabel } from '$lib/utils/format';
+	import { verdictOf } from '$lib/utils/verdict';
+	import VerdictChip from '$lib/components/VerdictChip.svelte';
 	import type { ProductHistory } from '$lib/types';
 	import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check } from '@lucide/svelte';
 	import { favorites, favId } from '$lib/stores/favorites.svelte';
@@ -44,6 +46,15 @@
 		navigator.clipboard.writeText(url).catch(()=>{}); copiedItem=true; setTimeout(()=>copiedItem=false,1400);
 	}
 	let dealForItem = $derived(dashboard.deals.find(d => d.product.shop === (history?.product.shop ?? shop) && d.product.sku === (history?.product.sku ?? sku)));
+	let verdict = $derived(dealForItem ? verdictOf(dealForItem) : null);
+	/** Совет покупателю — вывод из вердикта, а не ещё одна цифра. */
+	let advice = $derived.by(() => {
+		if (!verdict) return null;
+		if (verdict.kind === 'honest') return { tone: 'good', title: 'Можно брать', text: verdict.hint };
+		if (verdict.kind === 'inflated') return { tone: 'warn', title: 'Скидка есть, но меньше заявленной', text: verdict.hint };
+		if (verdict.kind === 'painted') return { tone: 'bad', title: 'Не спешите', text: verdict.hint + ' Реальной выгоды сейчас нет.' };
+		return { tone: 'muted', title: 'Пока рано судить', text: verdict.hint };
+	});
 	let change = $derived.by(() => {
 		if (!history || history.history.length < 2) return null;
 		const first = history.history[0].price;
@@ -64,7 +75,7 @@
 {:else if !history}
 	<div class="rounded-2xl p-12 text-center" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-3)">История этого товара ещё не собрана — нужен хотя бы один обход.</div>
 {:else}
-	<div class="flex gap-4 mb-6">
+	<div class="item-head flex gap-4 mb-6">
 		{#if history.product.image}
 			<img src={history.product.image} alt={history.product.title} loading="lazy" referrerpolicy="no-referrer" class="h-28 w-28 shrink-0 rounded-2xl object-contain p-3" style="background:var(--surface); border:1px solid var(--line)" />
 		{/if}
@@ -75,14 +86,7 @@
 				{#if history.product.category}<span class="text-xs" style="color:var(--ink-4)">· {history.product.category}</span>{/if}
 			</div>
 			<h1 class="mt-2 text-xl font-bold tracking-tight leading-tight" style="color:var(--ink)">{history.product.title}</h1>
-			{#if dealForItem?.badges?.length || dealForItem?.is_pick}
-			<div class="badge-row" style="margin-top:10px">
-				{#each (dealForItem.badges ?? []) as b (b)}<span class="badge badge-{badgeTone(b)}">{b}</span>{/each}
-				{#if dealForItem?.fair_discount != null}<span class="badge badge-fair">честно {dealForItem.fair_discount}%</span>{/if}
-				{#if dealForItem?.value_score != null}<span class="badge badge-score">value {dealForItem.value_score}</span>{/if}
-				{#if dealForItem?.inflated_gap != null && dealForItem.inflated_gap >= 15}<span class="badge badge-warn" title="Завышение зачёркнутой">{dealForItem.inflated_gap} п.п. завышено</span>{/if}
-			</div>
-			{/if}
+			{#if verdict}<div style="margin-top:10px"><VerdictChip {verdict} size="md" /></div>{/if}
 			<div class="mt-3 flex flex-wrap items-baseline gap-3">
 				<span class="font-mono text-3xl font-black tracking-tight" style="color:var(--ink)">{formatPrice(history.product.price)}</span>
 				{#if change}
@@ -91,15 +95,27 @@
 						{formatPrice(Math.abs(change.delta))} ({change.pct.toFixed(1)}%)
 					</span>
 				{/if}
-				<a href={history.product.url} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-semibold" style="color:var(--ink-3)"><ExternalLink size={14} /> В магазине</a>
+				{#if dealForItem?.base_price && dealForItem.base_price > history.product.price * 1.01}
+					<span class="font-mono text-sm" style="color:var(--ink-4)">обычно {formatPrice(dealForItem.base_price)}</span>
+				{:else if history.product.old_price && history.product.old_price > history.product.price}
+					<del class="font-mono text-sm" style="color:var(--ink-4)" title="Зачёркнутая цена магазина">{formatPrice(history.product.old_price)}</del>
+				{/if}
 			</div>
-			<div class="mt-4 flex flex-wrap gap-2">
-				<button onclick={toggleFav} class="inline-flex items-center gap-1.5 h-9 px-4 rounded-full text-sm font-semibold" style="background:{fav ? 'var(--accent)' : 'white'}; color:{fav ? 'white' : 'var(--ink-2)'}; border:1px solid {fav ? 'var(--accent)' : 'var(--line)'}"><Heart size={14} fill={fav ? 'currentColor' : 'none'} /> {fav ? 'В избранном' : 'В избранное'}</button>
-				<button onclick={shareItem} class="inline-flex items-center gap-1.5 h-9 px-4 rounded-full text-sm font-semibold" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-2)">{#if copiedItem}<Check size={14} /> Скопировано{:else}<Share2 size={14} /> Поделиться{/if}</button>
-				<button onclick={copyLink} class="inline-flex items-center gap-1.5 h-9 px-3 rounded-full text-sm font-medium" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-3)">{#if copiedLink}<Check size={14} />{:else}<Copy size={14} />{/if} Ссылка</button>
+			<div class="item-actions mt-4 flex flex-wrap gap-2">
+				<a href={history.product.url} target="_blank" rel="noopener" class="item-btn primary"><ExternalLink size={14} /> В магазин</a>
+				<button onclick={toggleFav} class="item-btn" class:on={fav}><Heart size={14} fill={fav ? 'currentColor' : 'none'} /> {fav ? 'В избранном' : 'В избранное'}</button>
+				<button onclick={shareItem} class="item-btn">{#if copiedItem}<Check size={14} /> Скопировано{:else}<Share2 size={14} /> Поделиться{/if}</button>
+				<button onclick={copyLink} class="item-btn">{#if copiedLink}<Check size={14} />{:else}<Copy size={14} />{/if} Ссылка</button>
 			</div>
 		</div>
 	</div>
+
+	{#if advice}
+		<section class="advice {advice.tone}">
+			<p class="advice-title">{advice.title}</p>
+			<p class="advice-text">{advice.text}</p>
+		</section>
+	{/if}
 
 	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="text-sm font-bold tracking-tight flex items-center gap-2" style="color:var(--ink)"><TrendingDown size={14} /> История цены</h2>
@@ -122,30 +138,49 @@
 	</section>
 
 	{#if dealForItem}
-	{@const related = dashboard.deals.filter(d => d.product.shop !== dealForItem!.product.shop || d.product.sku !== dealForItem!.product.sku).filter(d => (d.product.group && d.product.group === dealForItem!.product.group) || (d.product.brand && d.product.brand === dealForItem!.product.brand)).slice(0,4)}
+	{@const related = dashboard.deals.filter(d => d.product.shop !== dealForItem!.product.shop || d.product.sku !== dealForItem!.product.sku).filter(d => (d.product.group && d.product.group === dealForItem!.product.group) || (d.product.brand && d.product.brand === dealForItem!.product.brand)).sort((a, b) => (verdictOf(b).real ?? -1) - (verdictOf(a).real ?? -1)).slice(0,4)}
 	{#if related.length}
 	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="font-bold tracking-tight" style="color:var(--ink)">Похожие</h2>
-		<p class="text-xs mt-1" style="color:var(--ink-4)">Та же группа/бренд — альтернативы для сравнения.</p>
+		<p class="text-xs mt-1" style="color:var(--ink-4)">Та же группа или бренд — альтернативы для сравнения.</p>
 		<div class="grid gap-2 mt-3">
-			{#each related as r (r.product.shop + r.product.sku)}<a href="{r.product.url}" target="_blank" rel="noopener" class="flex items-center justify-between gap-3 p-3 rounded-xl hover:shadow-[var(--shadow)] transition-shadow" style="border:1px solid var(--line)"><span class="text-sm font-medium truncate" style="color:var(--ink)">{r.product.title}</span><span class="font-mono text-sm font-bold shrink-0" style="color:var(--ink)">{formatPrice(r.product.price)}</span></a>{/each}
+			{#each related as r (r.product.shop + r.product.sku)}<a href="{base}/item?shop={encodeURIComponent(r.product.shop)}&sku={encodeURIComponent(r.product.sku)}" class="related-row"><span class="text-sm font-medium truncate" style="color:var(--ink)">{r.product.title}</span><VerdictChip verdict={verdictOf(r)} /><span class="font-mono text-sm font-bold shrink-0" style="color:var(--ink)">{formatPrice(r.product.price)}</span></a>{/each}
 		</div>
 	</section>
 	{/if}
 	{/if}
 	<section class="stat-grid">
-		<div class="stat-card"><p>Минимум за период</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
-		<div class="stat-card"><p>Медиана</p><p style="color:var(--ink)">{formatPrice(history.stats.median_30d)}</p></div>
+		<div class="stat-card"><p>Минимум за 90 дней</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
+		<div class="stat-card"><p>Обычная цена (медиана)</p><p style="color:var(--ink)">{formatPrice(history.stats.median_30d)}</p></div>
 		<div class="stat-card"><p>Точек наблюдения</p><p style="color:var(--ink)">{history.history.length}</p></div>
 	</section>
 {/if}
 
 <style>
-.badge-row { display:flex; flex-wrap:wrap; gap:6px; }
-.badge { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 7px; border-radius:999px; border:1px solid var(--line); }
-.badge-pick { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
-.badge-fair { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
-.badge-brand { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
-.badge-warn { background: var(--accent-2); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 18%, transparent); }
-.badge-score { background: var(--paper-2); color: var(--ink-2); }
+@media (max-width: 640px) {
+	.item-head { flex-direction: column; }
+	.item-head img { width: 100%; height: 180px; }
+	.item-head :global(.item-actions) { display: grid !important; grid-template-columns: 1fr 1fr; }
+	.item-btn { justify-content: center; }
+}
+.item-btn {
+	display: inline-flex; align-items: center; gap: 6px; height: 38px; padding: 0 16px;
+	border-radius: 999px; font-size: 13px; font-weight: 600; text-decoration: none;
+	background: var(--surface); border: 1px solid var(--line); color: var(--ink-2);
+}
+.item-btn:hover { border-color: var(--ink-3); color: var(--ink); }
+.item-btn.primary { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.item-btn.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.advice { border-radius: var(--radius); padding: 16px 20px; margin-bottom: 20px; border: 1px solid; }
+.advice-title { font-weight: 700; font-size: 16px; letter-spacing: -0.01em; }
+.advice-text { font-size: 14px; margin-top: 4px; opacity: 0.9; }
+.advice.good { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 22%, transparent); }
+.advice.warn { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
+.advice.bad { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
+.advice.muted { background: var(--paper-2); color: var(--ink-3); border-color: var(--line); }
+.related-row {
+	display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 12px;
+	padding: 12px; border-radius: 12px; border: 1px solid var(--line); text-decoration: none;
+}
+.related-row:hover { border-color: var(--ink-4); }
 </style>

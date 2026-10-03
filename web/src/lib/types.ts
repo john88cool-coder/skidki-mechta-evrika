@@ -11,6 +11,8 @@ export interface Product {
 	in_stock: boolean;
 	discount_pct?: number | null;
 	image?: string | null;
+	/** Когда позиция впервые появилась в мониторинге (для сортировки по новизне). */
+	first_seen?: string | null;
 	// scoring (опционально, бэкфилл)
 	fair_discount?: number | null;
 	value_score?: number | null;

@@ -32,6 +32,8 @@ def test_dashboard_lists_deals_and_shop_status(conn, tmp_path):
     assert deal["product"]["sku"] == "1"
     assert deal["drop_pct"] == 50
     assert deal["product"]["title"] == cheap.title
+    # Дата первого появления — для сортировки по новизне на панели.
+    assert deal["product"]["first_seen"].startswith("2026-09-01")
 
 
 def test_dashboard_shop_status_marks_stale_and_broken(conn, tmp_path):
@@ -83,3 +85,23 @@ def test_recent_prices_do_not_pad_short_history(conn, tmp_path):
     row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
     assert len(row["recent_points"]) == 1
     assert row["recent_points"][0]["price"] == 50_000
+
+
+def test_real_price_drop_reaches_dashboard_without_shop_discount(conn, tmp_path):
+    """Цена упала по собственной истории, зачёркнутой цены нет — позиция всё
+    равно на витрине с «обычной ценой» (раньше такие не попадали вовсе)."""
+    from datetime import UTC, datetime
+
+    start = datetime.now(UTC) - timedelta(days=6)
+    seed(conn, product(300_000, sku="bork"), hours=24 * 5, start=start)
+    storage.save_products(conn, [product(150_000, sku="bork")], start + timedelta(days=5, hours=2))
+    seed(conn, product(99_000, sku="flat", old_price=199_000), hours=24 * 5, start=start)
+
+    deals = {d["product"]["sku"]: d for d in _json(_export(conn, tmp_path), "latest.json")["deals"]}
+
+    assert deals["bork"]["signal"] == "drop"
+    assert deals["bork"]["drop_pct"] is None
+    assert deals["bork"]["base_price"] == 300_000
+    assert deals["bork"]["fair_discount"] == 50.0
+    # Зачёркнутая −50% при цене, стоявшей все 5 дней, — честная скидка ноль.
+    assert deals["flat"]["fair_discount"] == 0.0

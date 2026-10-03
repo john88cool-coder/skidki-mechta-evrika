@@ -14,10 +14,10 @@ from statistics import median
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
-from .config import ROOT
+from .config import ROOT, Thresholds
 from .models import Product
 from .scoring import score_product
-from .storage import connect, current_deals, history as spans_history, last_successful_crawl, previous_item_count
+from .storage import connect, current_deals, price_drop_candidates, history as spans_history, last_successful_crawl, previous_item_count
 
 # Только включённые парсеры: каркасы (kaspi, wb, ozon, satu, dns) висели на
 # панели красными «ошибками», хотя их никто не обходит.
@@ -40,9 +40,24 @@ DASHBOARD_LIMIT = 50  # на магазин
 # 50 с её «−80%»), shop.kz и Алсер не попадали вовсе.
 DASHBOARD_TOTAL = 150
 DASHBOARD_PER_SHOP_MIN = 10
+# Лента «реальных снижений»: цена ниже собственной медианы за 14 дней,
+# независимо от того, рисует ли магазин зачёркнутую цену. На живых данных
+# 2026-09-23 147 из 150 «скидок» витрины оказались обычной ценой, а в одной
+# только Мечте 399 позиций реально подешевели на 10%+ — и на сайт не попадали.
+REAL_DROP_PREFILTER_PCT = 8
+REAL_DROP_PER_SHOP = 40
+REAL_DROP_TOTAL = 150
 
 
-def _product_to_dict(p: Product) -> dict:
+def _first_seen(conn, identity: str) -> str | None:
+    """Когда позиция впервые появилась в мониторинге — «новизна» для панели."""
+    row = conn.execute(
+        "SELECT MIN(first_seen) FROM spans WHERE identity = ?", (identity,)
+    ).fetchone()
+    return row[0] if row and row[0] else None
+
+
+def _product_to_dict(p: Product, first_seen: str | None = None) -> dict:
     return {
         "shop": p.shop,
         "sku": p.sku,
@@ -56,10 +71,12 @@ def _product_to_dict(p: Product) -> dict:
         "in_stock": p.in_stock,
         "discount_pct": p.shop_discount_pct,
         "image": p.image,
+        "first_seen": first_seen,
     }
 
 
-def _fair_discount_for(conn, product, at):
+def _fair_and_reference(conn, product, at):
+    """(честная скидка %, медиана окна) — см. _fair_discount_for."""
     # честная скидка по истории ИС: медиана 14д, минимум 3 дня, просадка >= drop threshold
     from datetime import timedelta
     from .config import Thresholds
@@ -69,14 +86,18 @@ def _fair_discount_for(conn, product, at):
     spans = [s for s in spans_history(conn, product.identity, trend_since) if s.in_stock]
     ref = weighted_median(spans, trend_since, at)
     if not ref or coverage_days(spans, at) < th.min_history_days:
-        return None
+        return None, None
     drop = (ref - product.price) / ref * 100
     if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
         # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
         # Иначе нарисованная «−81%» при цене, стоящей неделю, не получала
         # бейдж «Рисованная?» (он требует подтверждённую fair_discount).
-        return 0.0
-    return round(drop, 1)
+        return 0.0, ref
+    return round(drop, 1), ref
+
+
+def _fair_discount_for(conn, product, at):
+    return _fair_and_reference(conn, product, at)[0]
 
 
 def _score_for(conn, product, at):
@@ -93,8 +114,26 @@ def _score_for(conn, product, at):
             age_h = (at - dt).total_seconds()/3600
     except Exception:
         age_h = None
-    fair = _fair_discount_for(conn, product, at)
+    fair, _ref = _fair_and_reference(conn, product, at)
     return score_product(product, fair_discount=fair, age_hours=age_h)
+
+
+def _deal_dict(conn, product: Product, now: datetime, signal: str) -> dict:
+    """Позиция витрины: заявленная скидка магазина + вердикт собственной истории."""
+    fair, ref = _fair_and_reference(conn, product, now)
+    sc = _score_for(conn, product, now)
+    return {
+        "product": _product_to_dict(product, _first_seen(conn, product.identity)),
+        "signal": signal,
+        "drop_pct": product.shop_discount_pct,
+        "fair_discount": fair,
+        # Обычная цена — взвешенная медиана окна тренда (для «обычно X ₸»).
+        "base_price": ref,
+        "value_score": sc.value_score,
+        "is_pick": sc.is_pick,
+        "badges": list(sc.badges),
+        "inflated_gap": sc.inflated_gap,
+    }
 
 
 def _shop_label(shop: str) -> str:
@@ -134,18 +173,8 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> list[Product]:
             shop,
         )
         for product in products:
-            sc = _score_for(conn, product, now)
             picked[product.identity] = product
-            deals.append({
-                "product": _product_to_dict(product),
-                "signal": "deal",
-                "drop_pct": product.shop_discount_pct,
-                "fair_discount": sc.fair_discount,
-                "value_score": sc.value_score,
-                "is_pick": sc.is_pick,
-                "badges": list(sc.badges),
-                "inflated_gap": sc.inflated_gap,
-            })
+            deals.append(_deal_dict(conn, product, now, "deal"))
     # Подозрительные («Рисованная?») — в конец: витрина обещает скидки,
     # проверенные историей, а не самые большие зачёркнутые цены.
     rank = lambda deal: ("Рисованная?" in deal["badges"], -(deal["drop_pct"] or 0))  # noqa: E731
@@ -158,6 +187,30 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> list[Product]:
     taken = {id(d) for d in guaranteed}
     rest = [d for d in deals if id(d) not in taken]
     deals = sorted([*guaranteed, *rest[: max(0, DASHBOARD_TOTAL - len(guaranteed))]], key=rank)
+    shown_ids = {f'{d["product"]["shop"]}:{d["product"]["sku"]}' for d in deals}
+    picked = {identity: product for identity, product in picked.items() if identity in shown_ids}
+
+    # Реальные снижения по собственной истории — независимо от зачёркнутой цены.
+    real: list[dict] = []
+    since = now - timedelta(days=Thresholds().trend_window_days)
+    for shop in SHOPS:
+        per_shop: list[dict] = []
+        for product in price_drop_candidates(
+            conn, since, REAL_DROP_PREFILTER_PCT, DASHBOARD_MIN_PRICE, REAL_DROP_PER_SHOP * 3, shop
+        ):
+            if product.identity in shown_ids:
+                continue
+            deal = _deal_dict(conn, product, now, "drop")
+            if (deal["fair_discount"] or 0) >= Thresholds().drop_pct:
+                per_shop.append(deal)
+                picked[product.identity] = product
+        per_shop.sort(key=lambda d: -(d["fair_discount"] or 0))
+        real += per_shop[:REAL_DROP_PER_SHOP]
+    real.sort(key=lambda d: -(d["fair_discount"] or 0))
+    real = real[:REAL_DROP_TOTAL]
+    real_ids = {f'{d["product"]["shop"]}:{d["product"]["sku"]}' for d in real}
+    picked = {i: p for i, p in picked.items() if i in shown_ids or i in real_ids}
+    deals = [*deals, *real]
 
     shops: list[dict] = []
     for shop in SHOPS:
@@ -232,7 +285,7 @@ def export_history(
 
     for product in deals[:limit]:
         rows = conn.execute(
-            """SELECT first_seen, price, old_price FROM spans
+            """SELECT first_seen, price, old_price, last_seen FROM spans
                WHERE identity = ? AND in_stock = 1 AND last_seen >= ?
                ORDER BY first_seen""",
             (product.identity, since),
@@ -248,6 +301,10 @@ def export_history(
         # Последнее наблюдение — обязательно: график должен кончаться текущей ценой.
         if points and points[-1]["price"] != product.price:
             points.append({"date": rows[-1][0][:10], "price": product.price, "old_price": None})
+        # Конец последнего отрезка: цена, державшаяся 10 дней, — линия, а не точка.
+        last_seen = rows[-1][3][:10]
+        if points and points[-1]["date"] != last_seen:
+            points.append({"date": last_seen, "price": points[-1]["price"], "old_price": points[-1]["old_price"]})
 
         prices = sorted(point["price"] for point in points)
         history[product.identity] = {

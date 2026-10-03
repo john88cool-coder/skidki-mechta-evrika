@@ -8,7 +8,8 @@
 	import { recentPrices, formatChange } from '$lib/utils/history';
 	import { ExternalLink, ArrowUpRight, ImageOff, Clock3, Heart, Share2, Check, Scale } from '@lucide/svelte';
 	import { compare, cmpId } from '$lib/stores/compare.svelte';
-	import { badgeTone, badgeLabel } from '$lib/utils/format';
+	import { verdictOf } from '$lib/utils/verdict';
+	import VerdictChip from './VerdictChip.svelte';
 
 	interface Props { deal: Deal; rank?: number; returnTo?: string }
 	let { deal, rank = 0, returnTo }: Props = $props();
@@ -16,6 +17,9 @@
 	let hasDiscount = $derived(!!product.old_price && product.old_price > product.price);
 	let discount = $derived(hasDiscount ? (1 - product.price / product.old_price!) * 100 : null);
 	let savings = $derived(hasDiscount ? product.old_price! - product.price : 0);
+	let verdict = $derived(verdictOf(deal));
+	// «Обычная цена» — медиана собственной истории; показываем, когда она выше текущей.
+	let usual = $derived(deal.base_price && deal.base_price > product.price * 1.01 ? deal.base_price : null);
 	let historyHref = $derived(`${base}/item?shop=${encodeURIComponent(product.shop)}&sku=${encodeURIComponent(product.sku)}&from=${encodeURIComponent(returnTo ?? page.url.pathname + page.url.search)}`);
 	let id = $derived(favId(product.shop, product.sku));
 	let isFav = $derived(favorites.has(id));
@@ -28,7 +32,7 @@
 	let differentSnapshot = $derived(prices.length > 0 && prices[0].price !== product.price);
 	// Вердикт истории — то, что обещает сайт: двигалась ли цена на самом деле.
 	// «Нарисованная» скидка — цена стоит на месте, растёт только зачёркнутая.
-	let verdict = $derived.by(() => {
+	let historyLine = $derived.by(() => {
 		if (prices.length < 2) return null;
 		const peak = Math.max(...prices.map((p) => p.price));
 		if (peak <= product.price * 1.01) {
@@ -64,7 +68,11 @@
 				<div class="image-placeholder"><ImageOff size={28} /><span>Фото недоступно</span></div>
 			{/if}
 		</a>
-		{#if discount !== null}<span class="discount-pill">{formatPct(discount)} <small>скидка</small></span>{/if}
+		{#if verdict.real}
+			<span class="discount-pill real" title={verdict.hint}>−{Math.round(verdict.real)}% <small>реально</small></span>
+		{:else if discount !== null}
+			<span class="discount-pill" class:painted={verdict.kind === 'painted'} title={verdict.hint}>{formatPct(discount)} <small>{verdict.kind === 'painted' ? 'на ценнике' : 'скидка'}</small></span>
+		{/if}
 		{#if rank > 0}<span class="rank-label">#{String(rank).padStart(2,'0')}</span>{/if}
 		<button
 			class="fav-btn"
@@ -79,23 +87,25 @@
 			<span class="meta-shop">{shopLabel(product.shop)}</span>
 			<span class="meta-stock" class:bad={!product.in_stock}>{product.in_stock ? 'В наличии' : 'Нет в наличии'}</span>
 		</div>
-		{#if deal.badges?.length || deal.is_pick || product.badges?.length}
-			<div class="badge-row">
-				{#each (deal.badges ?? product.badges ?? []) as b (b)}
-					<span class="badge badge-{badgeTone(b)}">{badgeLabel(b)}</span>
-				{/each}
-				{#if deal.fair_discount}<span class="badge badge-fair">по истории −{Math.round(deal.fair_discount)}%</span>{/if}
-				{#if deal.value_score != null}<span class="badge badge-score" title="Value score">{deal.value_score}</span>{/if}
-			</div>
-		{/if}
+		<div class="badge-row"><VerdictChip {verdict} /></div>
 		<h3><a href={historyHref}>{product.title}</a></h3>
 		{#if product.brand}<p class="text-xs mt-1" style="color:var(--ink-4)">{product.brand}{product.category ? ` · ${product.category}` : ''}</p>{/if}
 		<div class="product-price">
 			<strong>{formatPrice(product.price)}</strong>
-			{#if hasDiscount}<del>{formatPrice(product.old_price!)}</del><span class="price-save">−{formatPrice(savings)}</span>{/if}
+			{#if usual}
+				<span class="price-usual">обычно {formatPrice(usual)}</span>
+				<span class="price-save">−{formatPrice(usual - product.price)}</span>
+			{:else if hasDiscount}
+				<del title="Зачёркнутая цена магазина">{formatPrice(product.old_price!)}</del>
+			{/if}
 		</div>
 		{#if source && source.status !== 'ok'}<p class="source-warning"><Clock3 size={12} /> {source.status === 'warning' ? 'Данные магазина устарели' : 'Источник требует проверки'}</p>{/if}
-		{#if verdict}<p class="history-verdict {verdict.tone}">{verdict.text}</p>{/if}
+		{#if verdict.kind === 'inflated' || verdict.kind === 'painted'}
+			<!-- Честной объяснение не нужно: плашка «−N% реально» и «обычно X» уже всё сказали. -->
+			<p class="history-verdict {verdict.kind}">{verdict.hint}</p>
+		{:else if verdict.kind === 'unknown' && historyLine}
+			<p class="history-verdict {historyLine.tone}">{historyLine.text}</p>
+		{/if}
 		<details class="card-history" aria-label={`Последние цены: ${product.title}`}>
 			<summary class="history-heading"><h4>История цены</h4><span>{prices.length ? `${prices.length} ${plural(prices.length, 'замер', 'замера', 'замеров')}` : '—'}</span></summary>
 			{#if priceHistory.loading}<p class="history-message" role="status">Загружаем наблюдения…</p>
@@ -140,8 +150,9 @@
 		font-size: 12px; font-weight: 600; line-height: 1.35;
 		border: 1px solid transparent;
 	}
-	.history-verdict.down { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
-	.history-verdict.flat { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
+	.history-verdict.honest, .history-verdict.down { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
+	.history-verdict.inflated, .history-verdict.flat { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
+	.history-verdict.painted { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
 	details.card-history > summary { cursor: pointer; list-style: none; }
 	details.card-history > summary::-webkit-details-marker { display: none; }
 	details.card-history > summary h4::after { content: ' ▾'; color: var(--ink-4); }
@@ -149,9 +160,5 @@
 	details.card-history:not([open]) { padding-bottom: 0; }
 	.badge-row { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
 	.badge { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 7px; border-radius:999px; border:1px solid var(--line); }
-	.badge-pick { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
-	.badge-fair { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
-	.badge-brand { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
-	.badge-warn { background: var(--accent-2); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 18%, transparent); }
 	.badge-score { background: var(--paper-2); color: var(--ink-2); }
 </style>

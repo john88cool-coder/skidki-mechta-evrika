@@ -237,6 +237,41 @@ def current_deals(
     return [_product(row) for row in rows]
 
 
+def price_drop_candidates(
+    conn: sqlite3.Connection,
+    since: datetime,
+    min_pct: float,
+    min_price: int,
+    limit: int,
+    shop: str | None = None,
+) -> list[Product]:
+    """Позиции, чья текущая цена заметно ниже пика за окно — кандидаты в
+    «реальные снижения» по собственной истории, независимо от зачёркнутой цены.
+
+    Грубый дешёвый фильтр на SQL; точная оценка (взвешенная медиана окна,
+    глубина истории) делается потом по каждому кандидату.
+    """
+    rows = conn.execute(
+        """WITH peak AS (
+               SELECT identity, MAX(price) AS peak FROM spans
+               WHERE in_stock = 1 AND last_seen >= ? GROUP BY identity)
+           SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  s.price, s.old_price, s.in_stock, s.stock_note, peak.peak
+           FROM products p
+           JOIN peak ON peak.identity = p.identity
+           JOIN spans s ON s.id = (
+               SELECT id FROM spans WHERE identity = p.identity
+               ORDER BY last_seen DESC, id DESC LIMIT 1)
+           WHERE s.in_stock = 1 AND s.price >= ?
+                 AND (? IS NULL OR p.shop = ?)
+                 AND (peak.peak - s.price) * 100.0 / peak.peak >= ?
+           ORDER BY (peak.peak - s.price) * 1.0 / peak.peak DESC
+           LIMIT ?""",
+        (since.isoformat(timespec="seconds"), min_price, shop, shop, min_pct, limit),
+    ).fetchall()
+    return [_product(row) for row in rows]
+
+
 def _product(row: sqlite3.Row) -> Product:
     """Позиция по строке products + её последнего отрезка."""
     return Product(

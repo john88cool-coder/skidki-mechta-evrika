@@ -1,68 +1,95 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { dashboard } from '$lib/stores/data.svelte';
 	import ShopStatusCard from '$lib/components/ShopStatusCard.svelte';
-	import { groupLabel, formatPrice, formatPctValue } from '$lib/utils/format';
-	import { RefreshCw, Store } from '@lucide/svelte';
+	import { formatPrice } from '$lib/utils/format';
+	import { verdictOf, realRank } from '$lib/utils/verdict';
+	import { RefreshCw } from '@lucide/svelte';
 
 	let perShop = $derived(
-		dashboard.shops.map((shop) => {
-			const deals = dashboard.deals.filter((d) => d.product.shop === shop.name);
-			const avg = deals.length ? deals.reduce((s, d) => s + (d.drop_pct ?? 0), 0) / deals.length : 0;
-			const best = deals.reduce<(typeof deals)[number] | null>((acc, d) => (!acc || (d.drop_pct ?? 0) > (acc.drop_pct ?? 0) ? d : acc), null);
-			return { shop, deals: deals.length, avg, best };
-		})
+		dashboard.shops
+			.map((shop) => {
+				const deals = dashboard.deals.filter((d) => d.product.shop === shop.name);
+				const claimed = deals.filter((d) => d.drop_pct);
+				const checked = claimed.filter((d) => verdictOf(d).kind !== 'unknown');
+				const painted = checked.filter((d) => verdictOf(d).kind === 'painted').length;
+				const real = deals.filter((d) => { const k = verdictOf(d).kind; return k === 'honest' || k === 'inflated'; })
+					.sort((a, b) => realRank(b) - realRank(a));
+				return { shop, claimed: claimed.length, checked: checked.length, painted, real, share: checked.length ? painted / checked.length : null };
+			})
+			// Честные — выше: сортировка по доле нарисованных.
+			.sort((a, b) => (a.share ?? 2) - (b.share ?? 2))
 	);
 </script>
 
 <svelte:head><title>Магазины — skidki</title></svelte:head>
 
-<div class="flex items-end justify-between gap-4 mb-6">
+<div class="flex flex-wrap items-end justify-between gap-4 mb-6">
 	<div>
 		<p class="page-eyebrow">Источники</p>
-		<h1 class="page-heading" style="font-size:clamp(26px,3vw,34px)">Магазины</h1>
-		<p class="page-description">Статус обходов, наполненность и лучшие находки по каждому источнику.</p>
+		<h1 class="page-heading">Честность <em>магазинов</em></h1>
+		<p class="page-description">
+			Какая доля скидок на ценниках подтверждается историей цены и сколько товаров в магазине реально подешевело. Честные — выше.
+		</p>
 	</div>
-	<button onclick={() => dashboard.refresh()} class="inline-flex items-center gap-2 h-10 px-4 rounded-full text-sm font-semibold shrink-0" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-2)">
+	<button onclick={() => dashboard.refresh()} class="reset-btn">
 		<RefreshCw size={14} class={dashboard.loading ? 'animate-spin' : ''} /> Обновить
 	</button>
 </div>
 
 <div class="grid gap-4">
-	{#each perShop as row (row.shop.name)}
-		<div class="rounded-2xl p-5" style="background:var(--surface); border:1px solid var(--line)">
-			<ShopStatusCard shop={row.shop} />
-			<div class="mt-4 grid grid-cols-3 gap-3">
-				<div class="rounded-xl px-3 py-3" style="background:var(--paper-2); border:1px solid var(--line)">
-					<p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">В топе</p>
-					<p class="font-mono text-lg font-bold mt-1" style="color:var(--ink)">{row.deals}</p>
-				</div>
-				<div class="rounded-xl px-3 py-3" style="background:var(--paper-2); border:1px solid var(--line)">
-					<p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Средняя</p>
-					<p class="font-mono text-lg font-bold mt-1" style="color:var(--ink)">{row.deals ? `−${formatPctValue(row.avg)}%` : "—"}</p>
-				</div>
-				<div class="rounded-xl px-3 py-3" style="background:var(--paper-2); border:1px solid var(--line)">
-					<p class="text-[11px] font-bold tracking-widest uppercase" style="color:var(--ink-4)">Лучшая</p>
-					{#if row.best}
-						<a href={row.best.product.url} target="_blank" rel="noopener" class="font-mono text-sm font-bold hover:underline underline-offset-4" style="color:var(--accent)" title={row.best.product.title}>
-							−{Math.round(row.best.drop_pct ?? 0)}% · {formatPrice(row.best.product.price)}
-						</a>
-					{:else}<p class="font-mono text-sm font-bold mt-1" style="color:var(--ink-4)">—</p>{/if}
+	{#each perShop as row, i (row.shop.name)}
+		<div class="shop-block">
+			<div class="shop-rank">{i + 1}</div>
+			<div class="min-w-0 flex-1">
+				<ShopStatusCard shop={row.shop} />
+				<div class="shop-stats">
+					<div class="stat">
+						<p>Нарисовано</p>
+						<p class="big" class:bad={(row.share ?? 0) >= 0.5}>{row.share === null ? '—' : Math.round(row.share * 100) + '%'}</p>
+						<p class="sub">{row.checked ? `${row.painted} из ${row.checked} проверенных` : 'нечего проверить'}</p>
+					</div>
+					<div class="stat">
+						<p>Реально подешевело</p>
+						<p class="big good">{row.real.length}</p>
+						<p class="sub"><a href="{base}/deals?v=real&shop={row.shop.name}">смотреть →</a></p>
+					</div>
+					<div class="stat">
+						<p>Лучшее снижение</p>
+						{#if row.real[0]}
+							<a class="best" href="{base}/item?shop={encodeURIComponent(row.real[0].product.shop)}&sku={encodeURIComponent(row.real[0].product.sku)}" title={row.real[0].product.title}>
+								<b>−{Math.round(verdictOf(row.real[0]).real ?? 0)}%</b> · {formatPrice(row.real[0].product.price)}
+							</a>
+							<p class="sub truncate">{row.real[0].product.title}</p>
+						{:else}<p class="big" style="color:var(--ink-4)">—</p>{/if}
+					</div>
 				</div>
 			</div>
 		</div>
 	{/each}
 </div>
 
-<section class="mt-8">
-	<h2 class="flex items-center gap-2 text-lg font-bold tracking-tight" style="color:var(--ink)"><Store size={16} /> Скидки по группам</h2>
-	<div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-		{#each Object.entries(dashboard.deals.reduce<Record<string, number>>((acc, d) => { const k = d.product.group ?? 'other'; acc[k] = (acc[k] ?? 0) + 1; return acc; }, {})) as [key, count] (key)}
-			<div class="flex items-center justify-between rounded-xl px-4 py-3" style="background:var(--surface); border:1px solid var(--line)">
-				<span class="text-sm font-medium" style="color:var(--ink-2)">{groupLabel(key)}</span>
-				<span class="font-mono font-bold px-2.5 py-1 rounded-full text-sm" style="background:var(--paper-2); color:var(--ink)">{count}</span>
-			</div>
-		{:else}
-			<p class="text-sm" style="color:var(--ink-4)">Нет данных</p>
-		{/each}
-	</div>
-</section>
+<style>
+	.shop-block { display: flex; gap: 16px; padding: 18px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+	.shop-rank {
+		width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0; display: grid; place-items: center;
+		font-family: var(--font-mono); font-weight: 700; background: var(--paper-2); color: var(--ink-3); border: 1px solid var(--line);
+	}
+	.shop-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+	.stat { border-radius: 12px; padding: 10px 12px; background: var(--paper-2); border: 1px solid var(--line); min-width: 0; }
+	.stat p:first-child { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-4); }
+	.stat .big { font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: var(--ink); margin-top: 2px; }
+	.stat .big.bad { color: var(--bad); }
+	.stat .big.good { color: var(--success); }
+	.stat .sub { font-size: 12px; color: var(--ink-4); margin-top: 2px; }
+	.stat .sub a { color: var(--ink-3); text-decoration: none; }
+	.stat .sub a:hover { color: var(--ink); }
+	.best { display: inline-block; margin-top: 4px; font-family: var(--font-mono); font-size: 14px; color: var(--ink); text-decoration: none; }
+	.best b { color: var(--success); }
+	.best:hover { text-decoration: underline; text-underline-offset: 3px; }
+	@media (max-width: 640px) {
+		.shop-block { padding: 14px; gap: 10px; }
+		.shop-rank { display: none; }
+		.shop-stats { grid-template-columns: minmax(0, 1fr); }
+	}
+</style>

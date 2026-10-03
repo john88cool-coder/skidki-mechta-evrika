@@ -18,12 +18,24 @@
 		const labels = data.map((p) => (labelFormatter ? labelFormatter(p.date) : p.date));
 		const prices = data.map((p) => p.price);
 		const lowest = prices.length ? Math.min(...prices) : 0;
-		const ink = dark ? '#8ea69d' : '#5a6b64';
+		// Зачёркнутая цена магазина — вторая линия: на ней видно, как «скидку»
+		// рисуют от растущей старой цены при неподвижной реальной.
+		const olds = data.map((p) => (p.old_price && p.old_price > p.price ? p.old_price : null));
+		const hasOld = olds.some((v) => v !== null);
+		// Ровная цена давала ось 20k…80k и линию-ниточку: держим запас ±12%.
+		const all = [...prices, ...(olds.filter((v) => v !== null) as number[])];
+		const hi = all.length ? Math.max(...all) : 0;
+		const lo = all.length ? Math.min(...all) : 0;
+		const pad = Math.max((hi - lo) * 0.12, hi * 0.06, 1);
+		const ink = dark ? '#93aaa1' : '#5a6b64';
 		const gridLine = dark ? '#1e2e28' : '#ede9e3';
 		const accent = dark ? '#ff6b4a' : '#ff3b1f';
 		return {
 			backgroundColor: 'transparent',
-			grid: { top: 14, right: 14, bottom: 28, left: 62 },
+			grid: { top: hasOld ? 30 : 14, right: 16, bottom: 28, left: 56 },
+			legend: hasOld
+				? { top: 0, right: 0, itemWidth: 14, itemHeight: 2, textStyle: { color: ink, fontSize: 11 }, data: ['Цена', 'На ценнике'] }
+				: undefined,
 			xAxis: {
 				type: 'category',
 				boundaryGap: false,
@@ -34,13 +46,15 @@
 			},
 			yAxis: {
 				type: 'value',
-				scale: true,
+				min: Math.max(0, Math.floor((lo - pad) / 1000) * 1000),
+				max: Math.ceil((hi + pad) / 1000) * 1000,
 				axisLine: { show: false },
 				splitLine: { lineStyle: { color: gridLine } },
 				axisLabel: { color: ink, fontSize: 10, fontFamily: 'JetBrains Mono', formatter: (v: number) => `${Math.round(v / 1000)}k` }
 			},
 			series: [
 				{
+					name: 'Цена',
 					type: 'line',
 					data: prices,
 					step: 'end',
@@ -53,7 +67,7 @@
 						silent: true,
 						symbol: 'none',
 						lineStyle: { color: dark ? '#3a5a4a' : '#b8c8bd', type: 'dashed', width: 1 },
-						label: { color: ink, fontSize: 10, formatter: 'минимум' },
+						label: { color: ink, fontSize: 10, formatter: 'минимум', position: 'insideStartTop' },
 						data: [{ yAxis: lowest }]
 					},
 					areaStyle: {
@@ -62,7 +76,19 @@
 							{ offset: 1, color: 'rgba(255,59,31,0)' }
 						])
 					}
-				}
+				},
+				...(hasOld
+					? [{
+						name: 'На ценнике',
+						type: 'line' as const,
+						data: olds,
+						step: 'end' as const,
+						showSymbol: false,
+						connectNulls: false,
+						lineStyle: { color: ink, width: 1.4, type: 'dashed' as const, opacity: 0.8 },
+						itemStyle: { color: ink }
+					}]
+					: [])
 			],
 			tooltip: {
 				trigger: 'axis',
@@ -72,8 +98,11 @@
 				padding: [8, 10],
 				textStyle: { color: dark ? '#eef4f0' : '#0e1a15', fontSize: 12 },
 				formatter: (params: unknown) => {
-					const p = Array.isArray(params) ? (params as any[])[0] : params as any;
-					return `${p.name}<br/><b>${formatPrice(p.value as number)}</b>`;
+					const list = (Array.isArray(params) ? params : [params]) as any[];
+					const rows = list
+						.filter((p) => p.value != null)
+						.map((p) => `${p.seriesName === 'На ценнике' ? 'на ценнике ' : ''}<b>${formatPrice(p.value as number)}</b>`);
+					return `${list[0]?.name ?? ''}<br/>${rows.join('<br/>')}`;
 				}
 			}
 		};

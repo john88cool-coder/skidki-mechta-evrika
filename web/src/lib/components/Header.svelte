@@ -69,5 +69,10 @@
 		font-family: var(--font-mono); font-size: 10px; font-weight: 700;
 		background: var(--accent); color: white; line-height: 1;
 	}
+	@media (max-width: 640px) {
+		/* В таббаре цифра — наложением на иконку: иначе пункт вырастает в высоту. */
+		.app-navigation a { position: relative; }
+		.fav-badge { position: absolute; top: 3px; left: calc(50% + 6px); min-width: 16px; height: 16px; font-size: 9px; padding: 0 4px; }
+	}
 	.app-navigation a[aria-current='page'] .fav-badge { background: var(--paper); color: var(--ink); }
 </style>
