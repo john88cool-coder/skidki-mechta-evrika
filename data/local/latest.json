@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:23:43.923627+00:00",
+  "updated_at": "2026-10-03T21:20:24.201349+00:00",
   "deals": [
     {
       "product": {
@@ -14,7 +14,8 @@
         "group": "computers",
         "in_stock": true,
         "discount_pct": 75,
-        "image": null
+        "image": null,
+        "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "deal",
       "drop_pct": 75,
@@ -38,7 +39,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 75,
-        "image": null
+        "image": null,
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 75,
@@ -64,7 +66,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 69,
-        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -90,7 +93,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 64,
-        "image": null
+        "image": null,
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -116,7 +120,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 61,
-        "image": null
+        "image": null,
+        "first_seen": "2026-09-18T11:23:33+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -142,7 +147,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 84,
-        "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 84,
@@ -171,7 +177,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 83,
-        "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 83,
@@ -197,7 +204,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 82,
-        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 82,
@@ -226,7 +234,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 80,
-        "image": "https://pi.mdev.kz/80c27b5a-5ded-11ef-a269-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/80c27b5a-5ded-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 80,
@@ -252,7 +261,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 80,
-        "image": "https://pi.mdev.kz/8cb43056-11e3-41b4-b3b5-f9214dbbe253?w=400"
+        "image": "https://pi.mdev.kz/8cb43056-11e3-41b4-b3b5-f9214dbbe253?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 80,
@@ -278,7 +288,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 78,
-        "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400"
+        "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -304,7 +315,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 78,
-        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400"
+        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400",
+        "first_seen": "2026-09-19T23:20:06+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -330,7 +342,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 78,
-        "image": "https://pi.mdev.kz/94c5c00a-ae78-4ce0-8d48-a9578339996e?w=400"
+        "image": "https://pi.mdev.kz/94c5c00a-ae78-4ce0-8d48-a9578339996e?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -356,7 +369,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 77,
-        "image": "https://pi.mdev.kz/d10c45e9-25d7-4f5d-84f1-c1f28df4f48f?w=400"
+        "image": "https://pi.mdev.kz/d10c45e9-25d7-4f5d-84f1-c1f28df4f48f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -382,7 +396,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -408,7 +423,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -434,7 +450,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 77,
-        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -460,7 +477,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 77,
-        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -486,7 +504,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 76,
-        "image": "https://pi.mdev.kz/b05908a3-028a-46b2-b788-b2c680f7a1c1?w=400"
+        "image": "https://pi.mdev.kz/b05908a3-028a-46b2-b788-b2c680f7a1c1?w=400",
+        "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -512,7 +531,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 76,
-        "image": "https://pi.mdev.kz/65039785-66ec-11ec-a242-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/65039785-66ec-11ec-a242-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -538,7 +558,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 76,
-        "image": "https://pi.mdev.kz/96fa9660-7a99-11ed-a250-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/96fa9660-7a99-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -564,7 +585,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 74,
-        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 74,
@@ -591,7 +613,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 71,
-        "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
+        "first_seen": "2026-09-14T09:21:42+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -617,7 +640,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 68,
-        "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 68,
@@ -645,7 +669,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 67,
-        "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400"
+        "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -672,7 +697,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 67,
-        "image": "https://pi.mdev.kz/be52c93f-0e9e-43cd-b7a1-b756b3259f53?w=400"
+        "image": "https://pi.mdev.kz/be52c93f-0e9e-43cd-b7a1-b756b3259f53?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -698,7 +724,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 67,
-        "image": "https://pi.mdev.kz/8b385d5f-6653-11ee-a262-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/8b385d5f-6653-11ee-a262-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -724,7 +751,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 67,
-        "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -751,7 +779,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 65,
-        "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400"
+        "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -777,7 +806,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 65,
-        "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400"
+        "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400",
+        "first_seen": "2026-09-14T09:21:42+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -803,7 +833,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 65,
-        "image": "https://pi.mdev.kz/eefa73f4-5f59-4981-a48c-2e1cc20b92ee?w=400"
+        "image": "https://pi.mdev.kz/eefa73f4-5f59-4981-a48c-2e1cc20b92ee?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -829,7 +860,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/84e11b34-8529-11ef-a269-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/84e11b34-8529-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -856,7 +888,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/ecce760e-849c-11ef-a269-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/ecce760e-849c-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -883,7 +916,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -909,7 +943,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/9026820e-c9f2-40f2-bbd1-2004cc1ef3de?w=400"
+        "image": "https://pi.mdev.kz/9026820e-c9f2-40f2-bbd1-2004cc1ef3de?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -935,7 +970,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/e5b88f95-8cd1-4aa5-9633-52cc804ef644?w=400"
+        "image": "https://pi.mdev.kz/e5b88f95-8cd1-4aa5-9633-52cc804ef644?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -961,7 +997,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -987,7 +1024,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/9b377cc4-0fe4-11ee-a25b-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/9b377cc4-0fe4-11ee-a25b-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1013,7 +1051,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400"
+        "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1039,7 +1078,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1065,7 +1105,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400"
+        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1092,7 +1133,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/102b3183-76b4-4c6e-8c07-4bdd28077ba7?w=400"
+        "image": "https://pi.mdev.kz/102b3183-76b4-4c6e-8c07-4bdd28077ba7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1119,7 +1161,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/f1f7a8ff-76c9-4bea-bd87-2df7e99eb247?w=400"
+        "image": "https://pi.mdev.kz/f1f7a8ff-76c9-4bea-bd87-2df7e99eb247?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1146,7 +1189,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/cb36a86b-e330-496e-bf45-e54ad0dfb5fc?w=400"
+        "image": "https://pi.mdev.kz/cb36a86b-e330-496e-bf45-e54ad0dfb5fc?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1173,7 +1217,8 @@
         "group": "phones",
         "in_stock": true,
         "discount_pct": 62,
-        "image": "https://pi.mdev.kz/63e022d5-ef0a-4218-89ec-3ad0bd97d689?w=400"
+        "image": "https://pi.mdev.kz/63e022d5-ef0a-4218-89ec-3ad0bd97d689?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1200,7 +1245,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 61,
-        "image": "https://pi.mdev.kz/f38b10e8-851d-4564-9170-6850e0b0b49a?w=400"
+        "image": "https://pi.mdev.kz/f38b10e8-851d-4564-9170-6850e0b0b49a?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1226,7 +1272,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 61,
-        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1252,7 +1299,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 61,
-        "image": "https://pi.mdev.kz/40acfa7d-ad66-4c09-bd78-6b3ee4984dca?w=400"
+        "image": "https://pi.mdev.kz/40acfa7d-ad66-4c09-bd78-6b3ee4984dca?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1278,7 +1326,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 60,
-        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1304,7 +1353,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 60,
-        "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1330,7 +1380,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/d2e33589-efe3-11ee-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/d2e33589-efe3-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1356,7 +1407,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/c848d4f4-4d98-11ef-a267-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/c848d4f4-4d98-11ef-a267-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1383,7 +1435,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 46,
-        "image": "https://pi.mdev.kz/084bd532-12e2-11ed-a24a-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/084bd532-12e2-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 46,
@@ -1410,7 +1463,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 45,
-        "image": "https://pi.mdev.kz/8dff6ea5-36cd-11e7-80c9-2c768a5d3553?w=400"
+        "image": "https://pi.mdev.kz/8dff6ea5-36cd-11e7-80c9-2c768a5d3553?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -1437,7 +1491,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 45,
-        "image": "https://pi.mdev.kz/e0899909-82fa-11eb-a23a-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/e0899909-82fa-11eb-a23a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -1464,7 +1519,8 @@
         "group": "home",
         "in_stock": true,
         "discount_pct": 42,
-        "image": "https://pi.mdev.kz/7551b0cd-d2a1-11ed-a259-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/7551b0cd-d2a1-11ed-a259-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 42,
@@ -1490,7 +1546,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 42,
-        "image": "https://pi.mdev.kz/a353faf9-a4ee-11ec-a245-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/a353faf9-a4ee-11ec-a245-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 42,
@@ -1516,7 +1573,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 41,
-        "image": "https://pi.mdev.kz/b42d7a5d-b0e3-4c53-beec-5b485da437aa?w=400"
+        "image": "https://pi.mdev.kz/b42d7a5d-b0e3-4c53-beec-5b485da437aa?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -1543,7 +1601,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 40,
-        "image": "https://pi.mdev.kz/1122429f-9bee-11ef-a26b-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/1122429f-9bee-11ef-a26b-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -1569,7 +1628,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 55,
-        "image": "https://pi.mdev.kz/2b7fb774-3b08-49f3-82fd-c2dff3c6457f?w=400"
+        "image": "https://pi.mdev.kz/2b7fb774-3b08-49f3-82fd-c2dff3c6457f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -1596,7 +1656,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/74090c11-271c-11ec-a23f-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/74090c11-271c-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1622,7 +1683,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/74090c18-271c-11ec-a23f-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/74090c18-271c-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1648,7 +1710,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/eecc8b19-06d5-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/eecc8b19-06d5-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1676,7 +1739,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/93c29044-6b06-11ed-a24d-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/93c29044-6b06-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1703,7 +1767,8 @@
         "group": "computers",
         "in_stock": true,
         "discount_pct": 43,
-        "image": "https://pi.mdev.kz/dc1ff817-e8c4-40c2-972f-8d154aa67d70?w=400"
+        "image": "https://pi.mdev.kz/dc1ff817-e8c4-40c2-972f-8d154aa67d70?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -1731,7 +1796,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 60,
-        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 60,
@@ -1758,7 +1824,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 44,
-        "image": "https://pi.mdev.kz/408aefe5-c473-11ed-a259-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/408aefe5-c473-11ed-a259-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -1785,7 +1852,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 43,
-        "image": "https://pi.mdev.kz/ba55cf0f-09ad-45d4-b7ed-b1148122ac80?w=400"
+        "image": "https://pi.mdev.kz/ba55cf0f-09ad-45d4-b7ed-b1148122ac80?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -1811,7 +1879,8 @@
         "group": "beauty",
         "in_stock": true,
         "discount_pct": 51,
-        "image": "https://pi.mdev.kz/8a106670-76d1-11ed-a250-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/8a106670-76d1-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 51,
@@ -1838,7 +1907,8 @@
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 47,
-        "image": "https://pi.mdev.kz/810ed795-2cef-11ed-a24a-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/810ed795-2cef-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 47,
@@ -1864,7 +1934,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 48,
-        "image": "https://pi.mdev.kz/733ad815-728d-11ec-a242-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/733ad815-728d-11ec-a242-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -1892,7 +1963,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 58,
-        "image": "https://pi.mdev.kz/2083b1af-18ce-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/2083b1af-18ce-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1921,7 +1993,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 58,
-        "image": "https://pi.mdev.kz/2083b1b4-18ce-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/2083b1b4-18ce-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1950,7 +2023,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 49,
-        "image": "https://pi.mdev.kz/58715e3b-a439-4859-9360-6da9d54bd010?w=400"
+        "image": "https://pi.mdev.kz/58715e3b-a439-4859-9360-6da9d54bd010?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 49,
@@ -1977,7 +2051,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 56,
-        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400"
+        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
@@ -2006,7 +2081,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 55,
-        "image": "https://pi.mdev.kz/7daea9cc-9c8a-4bb3-8411-f90224faaedf?w=400"
+        "image": "https://pi.mdev.kz/7daea9cc-9c8a-4bb3-8411-f90224faaedf?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -2035,7 +2111,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 56,
-        "image": "https://pi.mdev.kz/6a303dcb-25b2-41c9-bfcd-080930f0f243?w=400"
+        "image": "https://pi.mdev.kz/6a303dcb-25b2-41c9-bfcd-080930f0f243?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
@@ -2064,7 +2141,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/f2bcc319-7c76-11ef-a269-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/f2bcc319-7c76-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-21T09:20:51+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -2091,7 +2169,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 48,
-        "image": "https://pi.mdev.kz/17d86375-3559-11eb-a238-005056b6dbd7?w=400"
+        "image": "https://pi.mdev.kz/17d86375-3559-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -2118,7 +2197,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 55,
-        "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400"
+        "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -2146,7 +2226,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 48,
-        "image": "https://pi.mdev.kz/740c55ed-5db0-4ca7-b8e3-36e2d1393558?w=400"
+        "image": "https://pi.mdev.kz/740c55ed-5db0-4ca7-b8e3-36e2d1393558?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -2174,7 +2255,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/86bb8afa-379a-425b-a388-dbecbea3c02d?w=400"
+        "image": "https://pi.mdev.kz/86bb8afa-379a-425b-a388-dbecbea3c02d?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -2201,7 +2283,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 45,
-        "image": "https://pi.mdev.kz/f81be613-6b07-441a-affb-25f1ab81e8b9?w=400"
+        "image": "https://pi.mdev.kz/f81be613-6b07-441a-affb-25f1ab81e8b9?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -2229,7 +2312,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 41,
-        "image": "https://pi.mdev.kz/ed8480bd-926a-491d-bf3d-a39f87aac9e5?w=400"
+        "image": "https://pi.mdev.kz/ed8480bd-926a-491d-bf3d-a39f87aac9e5?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -2256,7 +2340,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 56,
-        "image": "https://pi.mdev.kz/01205f57-0579-4119-96de-564155fa1942?w=400"
+        "image": "https://pi.mdev.kz/01205f57-0579-4119-96de-564155fa1942?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
@@ -2284,7 +2369,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 51,
-        "image": "https://pi.mdev.kz/cc87d5ca-a07a-4183-adb8-6e42d213f401?w=400"
+        "image": "https://pi.mdev.kz/cc87d5ca-a07a-4183-adb8-6e42d213f401?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 51,
@@ -2312,7 +2398,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 44,
-        "image": "https://pi.mdev.kz/61d896d4-1403-11ef-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/61d896d4-1403-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -2340,7 +2427,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 41,
-        "image": "https://pi.mdev.kz/6e760c50-9faa-41f2-98ca-fb6651b9b73d?w=400"
+        "image": "https://pi.mdev.kz/6e760c50-9faa-41f2-98ca-fb6651b9b73d?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -2367,7 +2455,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400"
+        "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -2395,7 +2484,8 @@
         "group": "tv",
         "in_stock": true,
         "discount_pct": 43,
-        "image": "https://pi.mdev.kz/35f47f7b-d6b2-11ee-a265-005056b6e990?w=400"
+        "image": "https://pi.mdev.kz/35f47f7b-d6b2-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -2414,7 +2504,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-03T19:23:24+00:00",
+      "last_crawl": "2026-10-03T21:20:17+00:00",
       "item_count": 7741,
       "status": "ok"
     },
