@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T05:41:39.153846+00:00",
+  "updated_at": "2026-10-03T12:02:13.971101+00:00",
   "deals": [
     {
       "product": {
@@ -444,33 +444,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1444869",
-        "title": "Микроволновая печь Samsung MS23DG4504ATBW, Gray, 800 Вт, 23 л, 15 программ, Электронно-механическое управление, Биокерамическая эмаль, Solo",
-        "price": 36990,
-        "old_price": 75990,
-        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23dg4504atbw-800-vt-23-l-seryj",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/M1XmnC4EL/mikrovolnovaa-pec-samsung-ms23dg4504atbw-800-vt-23-l-seryj-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 51,
-      "fair_discount": 51.3,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1441265",
         "title": "Телевизор Samsung UE43DU7100UXCE 4K UHD LED",
         "price": 119990,
@@ -815,7 +788,7 @@
       "signal": "deal",
       "drop_pct": 69,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2378,7 +2351,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 0.0,
-      "value_score": 26,
+      "value_score": 23,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2478,7 +2451,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 0.0,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2729,7 +2702,7 @@
       "signal": "deal",
       "drop_pct": 54,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2855,7 +2828,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3180,7 +3153,7 @@
       "signal": "deal",
       "drop_pct": 52,
       "fair_discount": 0.0,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3253,6 +3226,32 @@
         "in_stock": true,
         "discount_pct": 51,
         "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/ZJGXQsgEb/pylesos-samsung-jet-60-vs15a6031r4ev-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 0.0,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 51.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1444869",
+        "title": "Микроволновая печь Samsung MS23DG4504ATBW, Gray, 800 Вт, 23 л, 15 программ, Электронно-механическое управление, Биокерамическая эмаль, Solo",
+        "price": 36990,
+        "old_price": 75990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23dg4504atbw-800-vt-23-l-seryj",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/M1XmnC4EL/mikrovolnovaa-pec-samsung-ms23dg4504atbw-800-vt-23-l-seryj-w160.webp"
       },
       "signal": "deal",
       "drop_pct": 51,
@@ -3814,34 +3813,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-03T05:41:27+00:00",
-      "item_count": 12141,
+      "last_crawl": "2026-10-03T12:02:03+00:00",
+      "item_count": 12143,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-03T05:41:27+00:00",
-      "item_count": 3697,
+      "last_crawl": "2026-10-03T12:02:03+00:00",
+      "item_count": 3665,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-03T05:41:27+00:00",
-      "item_count": 9563,
+      "last_crawl": "2026-10-03T12:02:03+00:00",
+      "item_count": 9553,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-03T05:41:27+00:00",
-      "item_count": 700,
+      "last_crawl": "2026-10-03T12:02:03+00:00",
+      "item_count": 699,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29852,
+    "total_products": 29811,
     "total_deals": 150,
     "avg_discount": 56.0
   }
