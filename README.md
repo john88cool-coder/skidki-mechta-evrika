@@ -7,7 +7,7 @@
 истории.
 
 - **mechta.kz** — все товары 6 разделов (~7 600), JSON API каталога через Playwright.
-- **evrika.com** — ~150 листовых категорий тех же разделов, `__NEXT_DATA__` через Playwright.
+- **evrika.com** — ~150 листовых категорий тех же разделов, SSR-карточки каталога и RSC-поток (App Router) через Playwright.
 - **shop.kz** — 38 разделов /offers/<slug>/ (Битрикс, SSR), карточки в `data-product` JSON.
 - **sulpak.kz** — 50 категорий /f/<className>/, SSR + AJAX /Filter/LoadProducts.
 - **technodom.kz** — 6 корней каталога через API katalog/api/v2 (сортировка по скидке),
