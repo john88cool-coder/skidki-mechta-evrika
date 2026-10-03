@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T13:21:21.579580+00:00",
+  "updated_at": "2026-10-03T15:20:54.927939+00:00",
   "deals": [
     {
       "product": {
@@ -54,32 +54,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000005646",
-        "title": "Проектор Samsung SP-LSP9TUAXCE",
-        "price": 999990,
-        "old_price": 3799990,
-        "url": "https://www.mechta.kz/product/proektor-samsung-sp-lsp9tuaxce/",
-        "brand": "Samsung",
-        "category": "Проекторы",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 74,
-        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400"
-      },
-      "signal": "deal",
-      "drop_pct": 74,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011457",
         "title": "Телевизор Samsung OLED QE77S95DAUXCE",
         "price": 799990,
@@ -96,7 +70,7 @@
       "drop_pct": 69,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 39,
+      "value_score": 34,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -576,6 +550,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 76.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000005646",
+        "title": "Проектор Samsung SP-LSP9TUAXCE",
+        "price": 999990,
+        "old_price": 3799990,
+        "url": "https://www.mechta.kz/product/proektor-samsung-sp-lsp9tuaxce/",
+        "brand": "Samsung",
+        "category": "Проекторы",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 74,
+        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400"
+      },
+      "signal": "deal",
+      "drop_pct": 74,
+      "fair_discount": 0.0,
+      "base_price": 999990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 74.0
     },
     {
       "product": {
@@ -1955,7 +1956,7 @@
       "drop_pct": 49,
       "fair_discount": 30.9,
       "base_price": 549990,
-      "value_score": 67,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2413,8 +2414,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-03T13:21:16+00:00",
-      "item_count": 7743,
+      "last_crawl": "2026-10-03T15:20:50+00:00",
+      "item_count": 7742,
       "status": "ok"
     },
     {
@@ -2454,7 +2455,7 @@
     }
   ],
   "stats": {
-    "total_products": 7743,
+    "total_products": 7742,
     "total_deals": 90,
     "avg_discount": 61.0
   }
