@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T20:14:48.535746+00:00",
+  "updated_at": "2026-10-03T21:43:01.101971+00:00",
   "deals": [
     {
       "product": {
@@ -2008,16 +2008,14 @@
       },
       "signal": "deal",
       "drop_pct": 57,
-      "fair_discount": 38.9,
-      "base_price": 65490,
-      "value_score": 85,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 39990,
+      "value_score": 33,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 18.1
+      "inflated_gap": 57.0
     },
     {
       "product": {
@@ -4087,35 +4085,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000022617",
-        "title": "Монитор Samsung 27&quot; ViewFinity S6 LS27D604UAIXCI",
-        "price": 202743,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-samsung-65-1007",
-        "brand": "Samsung",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_1007_3_2_160.webp",
-        "first_seen": "2026-09-30T13:01:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 96.3,
-      "base_price": 5500000,
-      "value_score": 100,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7579,6 +7548,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650951",
+        "title": "Кофемашина Trouver Virtuoso 10 Pro Gold",
+        "price": 217990,
+        "old_price": 289990,
+        "url": "https://www.sulpak.kz/g/kofemashiniy-trouver-virtuoso-10-pro-black",
+        "brand": "Trouver",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_234_0_1_Ohh6S3_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 19.3,
+      "base_price": 269990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "40021",
         "title": "Фен BORK F730 gg",
@@ -7695,41 +7691,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-03T20:14:33+00:00",
+      "last_crawl": "2026-10-03T21:42:46+00:00",
       "item_count": 3874,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-03T20:14:33+00:00",
+      "last_crawl": "2026-10-03T21:42:46+00:00",
       "item_count": 12144,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-03T20:14:33+00:00",
-      "item_count": 3622,
+      "last_crawl": "2026-10-03T21:42:46+00:00",
+      "item_count": 3618,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-03T20:14:33+00:00",
-      "item_count": 9543,
+      "last_crawl": "2026-10-03T21:42:46+00:00",
+      "item_count": 9545,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-03T20:14:33+00:00",
+      "last_crawl": "2026-10-03T21:42:46+00:00",
       "item_count": 675,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29858,
+    "total_products": 29856,
     "total_deals": 280,
     "avg_discount": 50.0
   }
