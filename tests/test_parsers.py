@@ -13,8 +13,13 @@ def mechta_data():
 
 
 @pytest.fixture(scope="module")
-def evrika_data():
-    return evrika.next_data((FIXTURES / "evrika_category.html").read_text(encoding="utf-8"))
+def evrika_html():
+    return (FIXTURES / "evrika_category.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(scope="module")
+def evrika_menu_html():
+    return (FIXTURES / "evrika_menutree.html").read_text(encoding="utf-8")
 
 
 @pytest.fixture(scope="module")
@@ -72,9 +77,9 @@ def test_mechta_image_from_images(mechta_data):
     assert first.image.endswith("?w=400")
 
 
-def test_evrika_image_from_images(evrika_data):
-    """Миниатюра — первый medium/webp из images (cdn.evrika.com)."""
-    products, _ = evrika.parse_products(evrika_data)
+def test_evrika_image_from_card(evrika_html):
+    """Миниатюра — data-original-src карточки (cdn.evrika.com)."""
+    products, _ = evrika.parse_page(evrika_html)
     with_image = [p for p in products if p.image]
     assert with_image, "ни у одной позиции фикстуры нет картинки"
     assert with_image[0].image.startswith("https://cdn.evrika.com/storage/products/images/medium/")
@@ -130,22 +135,35 @@ def test_mechta_api_url_respects_page_size_limit():
     assert "sort=" not in mechta.api_url("tv-audio-video", 3)  # robots.txt: Disallow *sort=*
 
 
-def test_evrika_parse(evrika_data):
-    products, last_page = evrika.parse_products(evrika_data)
-    assert last_page == 2
-    assert len(products) == 4
+def test_evrika_parse(evrika_html):
+    products, last_page = evrika.parse_page(evrika_html, group="phones", category="Смарт-часы")
+    assert last_page == 3
+    assert len(products) == 2
     first = products[0]
     assert first.shop == "evrika"
+    assert first.sku == "45216"
+    assert first.price == 159_990
+    assert first.old_price == 174_990
+    assert first.group == "phones" and first.category == "Смарт-часы"
     assert first.url.startswith("https://evrika.com/catalog/") and f"/p{first.sku}" in first.url
     assert "\xa0" not in first.title
-    discounted = [p for p in products if p.old_price]
-    assert discounted and all(p.old_price > p.price for p in discounted)
-    assert all(p.in_stock for p in products)
+    # наличие — из JSON-LD: Apple Watch в наличии, Garmin — нет
+    assert [p.in_stock for p in products] == [True, False]
 
 
-def test_evrika_leaf_categories_from_live_tree(evrika_data):
-    leaves = evrika.leaf_categories(evrika.menu_tree(evrika_data), {cid for cid, _ in EVRIKA_ROOTS})
-    assert len(leaves) == 150  # разведка 2026-09-13
+def test_evrika_parse_empty_but_valid_page():
+    """Пустая листовая категория: состояние react-query есть, карточек нет."""
+    html = '<script>self.__next_f.push([1,"3:[\\"$\\",\\"$L1\\",null,{\\"state\\":{\\"mutations\\":[],\\"queries\\":[]}}])"])</script>'
+    products, last_page = evrika.parse_page(html)
+    assert products == [] and last_page == 1
+
+
+def test_evrika_leaf_categories_from_rsc_tree(evrika_menu_html):
+    """Дерево — реальное (282 узла, вырезка RSC-потока корневой категории)."""
+    tree = evrika.menu_tree(evrika.flight_state(evrika_menu_html))
+    assert len(tree) == 282
+    leaves = evrika.leaf_categories(tree, {cid for cid, _ in EVRIKA_ROOTS})
+    assert len(leaves) == 151  # 150 по разведке 2026-09-13 + 1 новая категория
     assert (310, "smart-chasy") in leaves
 
 
@@ -168,7 +186,9 @@ def test_evrika_category_url():
 
 def test_evrika_challenge_page_is_an_error():
     with pytest.raises(ValueError):
-        evrika.next_data("<html><title>Just a moment...</title></html>")
+        evrika.flight_state("<html><title>Just a moment...</title></html>")
+    with pytest.raises(ValueError):
+        evrika.parse_page("<html><title>Just a moment...</title></html>")
 
 
 def test_technodom_parse(technodom_data):

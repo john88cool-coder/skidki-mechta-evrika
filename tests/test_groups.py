@@ -13,7 +13,12 @@ from skidki.parsers import evrika, mechta
 
 @pytest.fixture(scope="module")
 def evrika_data():
-    return evrika.next_data((FIXTURES / "evrika_category.html").read_text(encoding="utf-8"))
+    return evrika.flight_state((FIXTURES / "evrika_menutree.html").read_text(encoding="utf-8"))
+
+
+@pytest.fixture(scope="module")
+def evrika_html():
+    return (FIXTURES / "evrika_category.html").read_text(encoding="utf-8")
 
 
 def test_evrika_groups_follow_mechta_menu(evrika_data):
@@ -41,8 +46,8 @@ def test_evrika_groups_follow_mechta_menu(evrika_data):
     assert {cid: groups[cid] for cid in expected} == expected
 
 
-def test_parsers_tag_products_with_group(evrika_data):
-    items, _ = evrika.parse_products(evrika_data, "phones")
+def test_parsers_tag_products_with_group(evrika_html):
+    items, _ = evrika.parse_page(evrika_html, "phones")
     assert items and all(p.group == "phones" for p in items)
     data = json.loads((FIXTURES / "mechta_products.json").read_text(encoding="utf-8"))
     assert all(p.group == "tv" for p in mechta.parse(data, "tv"))
