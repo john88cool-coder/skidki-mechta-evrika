@@ -1,32 +1,6 @@
 {
-  "updated_at": "2026-10-02T19:40:53.717718+00:00",
+  "updated_at": "2026-10-03T00:08:55.593772+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1432466",
-        "title": "Электрическая бритва BRAUN 61-N1000s BLK",
-        "price": 29990,
-        "old_price": 102990,
-        "url": "https://alser.kz/p/braun-elektriceskaa-britva-61-n1000s-blk",
-        "brand": "Braun",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://s3s.alser.kz/uploads/products/jelektrobritvy-dlja-muzhchin/mjN7MTpZq/braun-elektriceskaa-britva-61-n1000s-blk-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 71,
-      "fair_discount": 70.9,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
     {
       "product": {
         "shop": "alser",
@@ -284,33 +258,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1254672",
-        "title": "Пылесос контейнерный Samsung VC3100M, Gray, VC18M31C0HG/EV, (Управление на ручке, 2 л, 1800/380 Вт)",
-        "price": 34990,
-        "old_price": 79990,
-        "url": "https://alser.kz/p/pylesos-samsung-vc18m31c0hg-1800vt-chernyj",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/B4weoh5VG/pylesos-samsung-vc18m31c0hg-1800vt-chernyj-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 56.3,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -827,6 +774,31 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1432466",
+        "title": "Электрическая бритва BRAUN 61-N1000s BLK",
+        "price": 29990,
+        "old_price": 102990,
+        "url": "https://alser.kz/p/braun-elektriceskaa-britva-61-n1000s-blk",
+        "brand": "Braun",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://s3s.alser.kz/uploads/products/jelektrobritvy-dlja-muzhchin/mjN7MTpZq/braun-elektriceskaa-britva-61-n1000s-blk-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": 0.0,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 71.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "233318",
         "title": "Пароварка WMF 415360711 (Lono Sous-Vide)",
@@ -902,6 +874,31 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "631026",
+        "title": "Робот-пылесос Tefal RG9177WH",
+        "price": 114990,
+        "old_price": 362990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-tefal-rg9177wh",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 68,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 68,
+      "fair_discount": 0.0,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 68.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "284537",
         "title": "Гриль Polaris PGP-3010 SMOKELESS",
@@ -950,31 +947,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 68.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "631026",
-        "title": "Робот-пылесос Tefal RG9177WH",
-        "price": 119990,
-        "old_price": 362990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-tefal-rg9177wh",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 67,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 67,
-      "fair_discount": 0.0,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -2204,14 +2176,13 @@
       },
       "signal": "deal",
       "drop_pct": 56,
-      "fair_discount": 20.0,
-      "value_score": 54,
+      "fair_discount": 0.0,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 36.0
+      "inflated_gap": 56.0
     },
     {
       "product": {
@@ -2234,6 +2205,32 @@
       "value_score": 31,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1254672",
+        "title": "Пылесос контейнерный Samsung VC3100M, Gray, VC18M31C0HG/EV, (Управление на ручке, 2 л, 1800/380 Вт)",
+        "price": 34990,
+        "old_price": 79990,
+        "url": "https://alser.kz/p/pylesos-samsung-vc18m31c0hg-1800vt-chernyj",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/B4weoh5VG/pylesos-samsung-vc18m31c0hg-1800vt-chernyj-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 56.0
@@ -2782,7 +2779,7 @@
       "signal": "deal",
       "drop_pct": 54,
       "fair_discount": 0.0,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3512,7 +3509,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3817,34 +3814,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-02T19:40:40+00:00",
+      "last_crawl": "2026-10-03T00:08:43+00:00",
       "item_count": 12140,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-02T19:40:40+00:00",
-      "item_count": 3742,
+      "last_crawl": "2026-10-03T00:08:43+00:00",
+      "item_count": 3671,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-02T19:40:40+00:00",
-      "item_count": 9559,
+      "last_crawl": "2026-10-03T00:08:43+00:00",
+      "item_count": 9557,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-02T19:40:40+00:00",
-      "item_count": 701,
+      "last_crawl": "2026-10-03T00:08:43+00:00",
+      "item_count": 700,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29893,
+    "total_products": 29819,
     "total_deals": 150,
     "avg_discount": 56.0
   }
