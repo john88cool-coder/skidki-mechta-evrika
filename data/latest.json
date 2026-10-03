@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T00:08:55.593772+00:00",
+  "updated_at": "2026-10-03T05:41:39.153846+00:00",
   "deals": [
     {
       "product": {
@@ -440,31 +440,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1436480",
-        "title": "Телевизор TCL 65V6B Android 4K UHD",
-        "price": 179990,
-        "old_price": 374990,
-        "url": "https://alser.kz/p/televizor-tcl-65v6b-android-4k-uhd",
-        "brand": "TCL",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://s3s.alser.kz/uploads/products/tcl-tv/DQr7KS7d7/televizor-tcl-65v6b-android-4k-uhd-w160.webp"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 42.3,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 9.7
     },
     {
       "product": {
@@ -3165,6 +3140,31 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1436480",
+        "title": "Телевизор TCL 65V6B Android 4K UHD",
+        "price": 179990,
+        "old_price": 374990,
+        "url": "https://alser.kz/p/televizor-tcl-65v6b-android-4k-uhd",
+        "brand": "TCL",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://s3s.alser.kz/uploads/products/tcl-tv/DQr7KS7d7/televizor-tcl-65v6b-android-4k-uhd-w160.webp"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 0.0,
+      "value_score": 23,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 52.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1456033",
         "title": "Настенный поворотный кронштейн Gembird 40\"-80",
         "price": 11990,
@@ -3814,34 +3814,34 @@
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-03T00:08:43+00:00",
-      "item_count": 12140,
+      "last_crawl": "2026-10-03T05:41:27+00:00",
+      "item_count": 12141,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-03T00:08:43+00:00",
-      "item_count": 3671,
+      "last_crawl": "2026-10-03T05:41:27+00:00",
+      "item_count": 3697,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-03T00:08:43+00:00",
-      "item_count": 9557,
+      "last_crawl": "2026-10-03T05:41:27+00:00",
+      "item_count": 9563,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-03T00:08:43+00:00",
+      "last_crawl": "2026-10-03T05:41:27+00:00",
       "item_count": 700,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29819,
+    "total_products": 29852,
     "total_deals": 150,
     "avg_discount": 56.0
   }
