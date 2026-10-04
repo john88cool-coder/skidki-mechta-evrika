@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T15:41:25.778685+00:00",
+  "updated_at": "2026-10-04T20:00:33.303042+00:00",
   "deals": [
     {
       "product": {
@@ -57,35 +57,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1226242",
-        "title": "Варочная поверхность Samsung NA-64H3010AS",
-        "price": 59990,
-        "old_price": 174990,
-        "url": "https://alser.kz/p/varochnaja-poverhnost-samsung-na-64h3010as",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/DQwrJC0oXe/varochnaja-poverhnost-samsung-na-64h3010as-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": 65.7,
-      "base_price": 174990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "295906",
         "title": "Игровой компьютер TechnoGaming 297(AR5-7500F/RTX5060TI 16GB/D5 32GB/SSD 1TB/B650 GAMING WIFI/FSP M580WH)",
@@ -135,34 +106,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1433833",
-        "title": "Газовая поверхность Hansa BHGI83130",
-        "price": 89990,
-        "old_price": 239990,
-        "url": "https://alser.kz/p/bhgi83130-gazovaa-poverhnost-hansa",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/ljGXgivdy/bhgi83130-gazovaa-poverhnost-hansa-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 62.5,
-      "base_price": 239990,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -1125,6 +1068,34 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1226242",
+        "title": "Варочная поверхность Samsung NA-64H3010AS",
+        "price": 59990,
+        "old_price": 174990,
+        "url": "https://alser.kz/p/varochnaja-poverhnost-samsung-na-64h3010as",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/DQwrJC0oXe/varochnaja-poverhnost-samsung-na-64h3010as-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 0.0,
+      "base_price": 59990,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 66.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "25284",
         "title": "Вентилятор Tefal VF3910F0",
@@ -1252,6 +1223,33 @@
       "fair_discount": 0.0,
       "base_price": 105990,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1433833",
+        "title": "Газовая поверхность Hansa BHGI83130",
+        "price": 89990,
+        "old_price": 239990,
+        "url": "https://alser.kz/p/bhgi83130-gazovaa-poverhnost-hansa",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/ljGXgivdy/bhgi83130-gazovaa-poverhnost-hansa-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 89990,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1794,7 +1792,7 @@
       "drop_pct": 59,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2503,7 +2501,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 14990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4863,7 +4861,7 @@
       "drop_pct": 34,
       "fair_discount": 34.2,
       "base_price": 607990,
-      "value_score": 82,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -7455,68 +7453,14 @@
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 19.9,
-      "base_price": 16090,
-      "value_score": 54,
+      "fair_discount": 19.6,
+      "base_price": 16039,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650950",
-        "title": "Кофемашина Trouver Virtuoso 10 Pro White",
-        "price": 217990,
-        "old_price": 289990,
-        "url": "https://www.sulpak.kz/g/kofemashiniy-trouver-virtuoso-10-pro-white",
-        "brand": "Trouver",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_233_0_1_Ur2HTx_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 19.3,
-      "base_price": 269990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650951",
-        "title": "Кофемашина Trouver Virtuoso 10 Pro Gold",
-        "price": 217990,
-        "old_price": 289990,
-        "url": "https://www.sulpak.kz/g/kofemashiniy-trouver-virtuoso-10-pro-black",
-        "brand": "Trouver",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_234_0_1_Ohh6S3_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 19.3,
-      "base_price": 269990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
     },
     {
       "product": {
@@ -7571,6 +7515,61 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "635944",
+        "title": "Смартфон Huawei Nova Y73 8/256GB Blue",
+        "price": 89990,
+        "old_price": 103890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-y73-8256gb-blue",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6647_0_6_Fs5M1r_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 18.1,
+      "base_price": 109890,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -5.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642303",
+        "title": "Смарт-часы HUAWEI Watch GT 6 Pro (46mm) Brown Atum-B29W",
+        "price": 135890,
+        "old_price": 206890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-brown-atum-b29w",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2230_0_1_3uWxn8_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 17.6,
+      "base_price": 164890,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.4
     },
     {
       "product": {
@@ -7663,41 +7662,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-04T15:41:18+00:00",
-      "item_count": 3855,
+      "last_crawl": "2026-10-04T20:00:21+00:00",
+      "item_count": 3854,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-04T15:41:18+00:00",
+      "last_crawl": "2026-10-04T20:00:21+00:00",
       "item_count": 12149,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-04T15:41:18+00:00",
-      "item_count": 3647,
+      "last_crawl": "2026-10-04T20:00:21+00:00",
+      "item_count": 3683,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-04T15:41:18+00:00",
-      "item_count": 9539,
+      "last_crawl": "2026-10-04T20:00:21+00:00",
+      "item_count": 9535,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-04T15:41:18+00:00",
-      "item_count": 670,
+      "last_crawl": "2026-10-04T20:00:21+00:00",
+      "item_count": 667,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29860,
+    "total_products": 29888,
     "total_deals": 279,
     "avg_discount": 50
   }
