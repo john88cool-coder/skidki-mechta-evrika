@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T21:43:01.101971+00:00",
+  "updated_at": "2026-10-04T01:08:53.888177+00:00",
   "deals": [
     {
       "product": {
@@ -905,33 +905,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "631026",
-        "title": "Робот-пылесос Tefal RG9177WH",
-        "price": 114990,
-        "old_price": 362990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-tefal-rg9177wh",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 68,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 68,
-      "fair_discount": 0.0,
-      "base_price": 119990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 68.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "284537",
         "title": "Гриль Polaris PGP-3010 SMOKELESS",
@@ -984,6 +957,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 68.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631026",
+        "title": "Робот-пылесос Tefal RG9177WH",
+        "price": 119990,
+        "old_price": 362990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-tefal-rg9177wh",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 0.0,
+      "base_price": 119990,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -1738,7 +1738,7 @@
       "drop_pct": 59,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2447,7 +2447,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 14990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3097,7 +3097,7 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "base_price": 89990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -7691,41 +7691,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-03T21:42:46+00:00",
-      "item_count": 3874,
+      "last_crawl": "2026-10-04T01:08:39+00:00",
+      "item_count": 3870,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-03T21:42:46+00:00",
+      "last_crawl": "2026-10-04T01:08:39+00:00",
       "item_count": 12144,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-03T21:42:46+00:00",
-      "item_count": 3618,
+      "last_crawl": "2026-10-04T01:08:39+00:00",
+      "item_count": 3629,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-03T21:42:46+00:00",
+      "last_crawl": "2026-10-04T01:08:39+00:00",
       "item_count": 9545,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-03T21:42:46+00:00",
+      "last_crawl": "2026-10-04T01:08:39+00:00",
       "item_count": 675,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29856,
+    "total_products": 29863,
     "total_deals": 280,
     "avg_discount": 50.0
   }
