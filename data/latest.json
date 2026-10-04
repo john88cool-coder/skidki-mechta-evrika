@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T08:48:00.712816+00:00",
+  "updated_at": "2026-10-04T15:41:25.778685+00:00",
   "deals": [
     {
       "product": {
@@ -416,6 +416,35 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1322817",
+        "title": "Пылесос контейнерный LG VC5420NHTCG, Gray (Управление на ручке, 4 насадки, 1,3 л, 2000/380 Вт)",
+        "price": 29990,
+        "old_price": 64990,
+        "url": "https://alser.kz/p/pylesos-lg-vc5420nhtcg-iron-gray",
+        "brand": "LG",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://s3s.alser.kz/uploads/products/pylesosy/WoGVvCqpp/pylesos-lg-vc5420nhtcg-iron-gray-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 53.9,
+      "base_price": 64990,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1259056",
         "title": "Микроволновая печь Midea AM720C4E-W, White, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
         "price": 19990,
@@ -580,6 +609,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "41856",
+        "title": "Наушники Samsung Galaxy Buds3 Silver (SM-R530NZAACIS)",
+        "price": 46890,
+        "old_price": 88990,
+        "url": "https://evrika.com/catalog/naushniki-samsung-galaxy-buds3-silver-sm-r530nzaacis/p41856",
+        "brand": "Samsung",
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/4PQgGyCRelpajzcWtSfGV9FR9d75qk4TJkdWB9rW.jpg.webp",
+        "first_seen": "2026-09-20T05:19:00+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -1900,7 +1956,7 @@
       "drop_pct": 58,
       "fair_discount": 0.0,
       "base_price": 139990,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -2092,39 +2148,12 @@
       "drop_pct": 57,
       "fair_discount": 0.0,
       "base_price": 12990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 57.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "38794",
-        "title": "Беспроводной вертикальный пылесос Tefal TY99A8WO",
-        "price": 189990,
-        "old_price": 432990,
-        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesos-tefal-ty99a8wo/p38794",
-        "brand": null,
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/KgOZsjDa7HNaN3VAxqmKBMpJ7EqiwHAxEB3pbtOE.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "base_price": 189990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
     },
     {
       "product": {
@@ -2177,6 +2206,33 @@
       "fair_discount": 0.0,
       "base_price": 14990,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38794",
+        "title": "Беспроводной вертикальный пылесос Tefal TY99A8WO",
+        "price": 189990,
+        "old_price": 432990,
+        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesos-tefal-ty99a8wo/p38794",
+        "brand": null,
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/KgOZsjDa7HNaN3VAxqmKBMpJ7EqiwHAxEB3pbtOE.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "base_price": 189990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4033,61 +4089,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1270490",
-        "title": "Вытяжка Samsung NK24M5060SS",
-        "price": 79990,
-        "old_price": 160390,
-        "url": "https://alser.kz/p/vytjazhka-nk24m5060ss",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vstraivaemaja-tehnika/zlE5hPla/eRqNfvRj/vytjazhka-nk24m5060ss-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 79990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1402775",
-        "title": "Пылесос ручной аккумуляторный Karcher CVH 2, White, 1.198-330.0, (0,15 л, 10 мин, 70 Вт)",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium",
-        "brand": "Karcher",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/18MLRuV7G/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 30,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "653854",
         "title": "Монитор Samsung LS49DG932SIXCI",
@@ -4676,62 +4677,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1459037",
-        "title": "Смартфон Honor X7d 6/128GB, Velvet Black",
-        "price": 79990,
-        "old_price": 129990,
-        "url": "https://alser.kz/p/smartfon-honor-x7d-6128gb-velvet-black",
-        "brand": "Honor",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://s3s.alser.kz/uploads/products/honor-smartfondary/9AyjNIWWj9/smartfon-honor-x7d-6128gb-velvet-black-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 38.5,
-      "base_price": 129990,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1459038",
-        "title": "Смартфон Honor X7d 6/128GB, Meteor Silver",
-        "price": 79990,
-        "old_price": 129990,
-        "url": "https://alser.kz/p/smartfon-honor-x7d-6128gb-meteor-silver",
-        "brand": "Honor",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://s3s.alser.kz/uploads/products/honor-smartfondary/9AyjXiBJN/smartfon-honor-x7d-6128gb-meteor-silver-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 38.5,
-      "base_price": 129990,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "286092",
         "title": "Кастрюля 5,3л 24см Polaris Loretto-24C",
@@ -4860,7 +4805,7 @@
       "drop_pct": 34,
       "fair_discount": 34.2,
       "base_price": 607990,
-      "value_score": 88,
+      "value_score": 84,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4918,7 +4863,7 @@
       "drop_pct": 34,
       "fair_discount": 34.2,
       "base_price": 607990,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -6222,7 +6167,7 @@
       "drop_pct": 28,
       "fair_discount": 28.3,
       "base_price": 52990,
-      "value_score": 68,
+      "value_score": 65,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6614,33 +6559,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -11.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000016625",
-        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
-        "price": 139136,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.4,
-      "base_price": 189000,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7329,33 +7247,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "621726",
-        "title": "Гарнитура Jabra Evolve2 65, Link380a MS Stereo 26599-999-999",
-        "price": 107557,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2390",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2390_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 21.5,
-      "base_price": 137000,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "640249",
         "title": "QLED Телевизор The Frame Samsung QE85LS03FAUXCE",
         "price": 1899990,
@@ -7602,6 +7493,60 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650951",
+        "title": "Кофемашина Trouver Virtuoso 10 Pro Gold",
+        "price": 217990,
+        "old_price": 289990,
+        "url": "https://www.sulpak.kz/g/kofemashiniy-trouver-virtuoso-10-pro-black",
+        "brand": "Trouver",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_234_0_1_Ohh6S3_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 19.3,
+      "base_price": 269990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653622",
+        "title": "Наушники AULA S6 White",
+        "price": 10590,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-aula-s6-white",
+        "brand": "AULA",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4348_0_1_RMXLjd_160.webp",
+        "first_seen": "2026-09-24T17:36:48+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 18.5,
+      "base_price": 12990,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "40021",
         "title": "Фен BORK F730 gg",
@@ -7718,42 +7663,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-04T08:47:49+00:00",
-      "item_count": 3872,
+      "last_crawl": "2026-10-04T15:41:18+00:00",
+      "item_count": 3855,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-04T08:47:49+00:00",
-      "item_count": 12145,
+      "last_crawl": "2026-10-04T15:41:18+00:00",
+      "item_count": 12149,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-04T08:47:49+00:00",
-      "item_count": 3652,
+      "last_crawl": "2026-10-04T15:41:18+00:00",
+      "item_count": 3647,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-04T08:47:49+00:00",
-      "item_count": 9541,
+      "last_crawl": "2026-10-04T15:41:18+00:00",
+      "item_count": 9539,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-04T08:47:49+00:00",
-      "item_count": 674,
+      "last_crawl": "2026-10-04T15:41:18+00:00",
+      "item_count": 670,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29884,
-    "total_deals": 281,
+    "total_products": 29860,
+    "total_deals": 279,
     "avg_discount": 50
   }
 }
