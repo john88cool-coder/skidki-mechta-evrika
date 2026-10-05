@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T15:07:30.619954+00:00",
+  "updated_at": "2026-10-05T23:00:29.640437+00:00",
   "deals": [
     {
       "product": {
@@ -187,6 +187,31 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38020",
+        "title": "Выпрямитель Rowenta SF321LF0",
+        "price": 15990,
+        "old_price": 35990,
+        "url": "https://evrika.com/catalog/vypryamitel-rowenta-sf321lf0/p38020",
+        "brand": null,
+        "category": "Выпрямители",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/jrn2tLBOr5XBHbRcAEQx4nP19INzSVNVQ1lv6ZQ7.jpg.webp",
+        "first_seen": "2026-09-23T14:02:46+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -412,6 +437,31 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "42597",
+        "title": "Пылесос Tefal TW4B25EA",
+        "price": 59990,
+        "old_price": 124990,
+        "url": "https://evrika.com/catalog/pylesos-tefal-tw4b25ea/p42597",
+        "brand": null,
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/GsfEhTEGRX0FRRnuHcyIrKaE8JsHY82DdwWfMefG.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1441265",
         "title": "Телевизор Samsung UE43DU7100UXCE 4K UHD LED",
@@ -496,6 +546,31 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "44295",
+        "title": "Чайник Moulinex BY6R5130",
+        "price": 22990,
+        "old_price": 43990,
+        "url": "https://evrika.com/catalog/chaynik-moulinex-by6r5130/p44295",
+        "brand": null,
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/JrhRe3CFA85DJIbwEA45GPywZfbJf8ogkY4Tv91I.jpg.webp",
+        "first_seen": "2026-10-05T23:00:21+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 48,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "626005",
         "title": "Стиральная машина Haier HW70-BP12919",
@@ -564,6 +639,56 @@
       },
       "signal": "deal",
       "drop_pct": 47,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47456",
+        "title": "Чайник Tefal KO270130",
+        "price": 16990,
+        "old_price": 30990,
+        "url": "https://evrika.com/catalog/chaynik-tefal-ko270130/p47456",
+        "brand": null,
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/gEqtz5eBPQd3PQWBWE2x1P0OURfDcmaA11ZmIuw7.jpg.webp",
+        "first_seen": "2026-10-05T23:00:21+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 45,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44465",
+        "title": "Сэндвичница Tefal UltraCompact SW383D10 черный",
+        "price": 33990,
+        "old_price": 60990,
+        "url": "https://evrika.com/catalog/sendvichnica-sw383d10/p44465",
+        "brand": null,
+        "category": "Грили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/EQ9R995Hl6i8KTXFdqGUeWRI2cyGN3q4C9COkR2l.jpg.webp",
+        "first_seen": "2026-10-05T23:00:21+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 44,
       "fair_discount": null,
       "base_price": null,
       "value_score": 35,
@@ -1271,7 +1396,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 39990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1906,33 +2031,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "10971",
-        "title": "Вытяжка Electrolux EFC226V",
-        "price": 94990,
-        "old_price": 222990,
-        "url": "https://evrika.com/catalog/vytyazhka-electrolux-efc226v/p10971",
-        "brand": null,
-        "category": "Вытяжки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/V8AIjfOGYOrq3F9CHqsXRmX5Al2ltms6SCUoZA6i.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 0.0,
-      "base_price": 94990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 57.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "625187",
         "title": "Стиральная машина Haier HW100-BD14378S",
@@ -1959,6 +2057,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "10971",
+        "title": "Вытяжка Electrolux EFC226V",
+        "price": 94990,
+        "old_price": 222990,
+        "url": "https://evrika.com/catalog/vytyazhka-electrolux-efc226v/p10971",
+        "brand": null,
+        "category": "Вытяжки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/V8AIjfOGYOrq3F9CHqsXRmX5Al2ltms6SCUoZA6i.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 0.0,
+      "base_price": 94990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 57.0
     },
     {
       "product": {
@@ -2126,33 +2251,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "38794",
-        "title": "Беспроводной вертикальный пылесос Tefal TY99A8WO",
-        "price": 189990,
-        "old_price": 432990,
-        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesos-tefal-ty99a8wo/p38794",
-        "brand": null,
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/KgOZsjDa7HNaN3VAxqmKBMpJ7EqiwHAxEB3pbtOE.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "base_price": 189990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "640209",
         "title": "Neo QLED телевизор Samsung 8K QE85QN900FUXCE",
@@ -2180,6 +2278,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38794",
+        "title": "Беспроводной вертикальный пылесос Tefal TY99A8WO",
+        "price": 189990,
+        "old_price": 432990,
+        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesos-tefal-ty99a8wo/p38794",
+        "brand": null,
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/KgOZsjDa7HNaN3VAxqmKBMpJ7EqiwHAxEB3pbtOE.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "base_price": 189990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
     },
     {
       "product": {
@@ -3948,145 +4073,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "625110",
-        "title": "LED телевизор ARG MS27",
-        "price": 199990,
-        "old_price": 399990,
-        "url": "https://www.sulpak.kz/g/televizoriy-arg-ms27",
-        "brand": "ARG",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3136_0_6_eYcB18_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 199990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640210",
-        "title": "Neo QLED телевизор Samsung 8K QE75QN900FUXCE",
-        "price": 1699990,
-        "old_price": 3399990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn900fuxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20432_0_1_Umddlz_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 26.1,
-      "base_price": 2299990,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.9
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1458484",
-        "title": "Вертикальный моющий пылесос Dreame H12 Pro Flexreach, Black, 18 000 Па, самоочистка, 50 мин",
-        "price": 99990,
-        "old_price": 200990,
-        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min",
-        "brand": "Dreame",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp",
-        "first_seen": "2026-09-19T16:16:46+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 99990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1270490",
-        "title": "Вытяжка Samsung NK24M5060SS",
-        "price": 79990,
-        "old_price": 160390,
-        "url": "https://alser.kz/p/vytjazhka-nk24m5060ss",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vstraivaemaja-tehnika/zlE5hPla/eRqNfvRj/vytjazhka-nk24m5060ss-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 79990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1402775",
-        "title": "Пылесос ручной аккумуляторный Karcher CVH 2, White, 1.198-330.0, (0,15 л, 10 мин, 70 Вт)",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium",
-        "brand": "Karcher",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/18MLRuV7G/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "653854",
         "title": "Монитор Samsung LS49DG932SIXCI",
         "price": 769990,
@@ -4133,7 +4119,7 @@
       "drop_pct": null,
       "fair_discount": 84.6,
       "base_price": 5500000,
-      "value_score": 86,
+      "value_score": 90,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -5813,34 +5799,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "631704",
-        "title": "Смартфон Honor Magic 7 12/256GB Black",
-        "price": 389990,
-        "old_price": 569990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-magic-7-12256gb-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6433_0_1_RRkXAq_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 29.1,
-      "base_price": 549990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 2.9
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "275897",
         "title": "Электрическая варочная панель Midea MCH-B641C",
@@ -6588,6 +6546,36 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640210",
+        "title": "Neo QLED телевизор Samsung 8K QE75QN900FUXCE",
+        "price": 1699990,
+        "old_price": 3399990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn900fuxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20432_0_1_Umddlz_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 26.1,
+      "base_price": 2299990,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.9
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "275867",
         "title": "Сковорода 24см Polaris ECO collection-24F",
@@ -6920,7 +6908,7 @@
         "shop": "sulpak",
         "sku": "3000041763",
         "title": "Монитор iiyama ProLite XB2497HSU-W1 24&quot;",
-        "price": 72086,
+        "price": 72058,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-iiyama-65-1191",
         "brand": "Iiyama",
@@ -7306,18 +7294,18 @@
         "sku": "654640",
         "title": "Вытяжка Midea MH60P450GB Телескопическая черная",
         "price": 79990,
-        "old_price": null,
+        "old_price": 99990,
         "url": "https://www.sulpak.kz/g/viytyazhki-midea-mh60p450gb-teleskopicheskaya-chernaya",
         "brand": "Midea",
         "category": null,
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": null,
+        "discount_pct": 20,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_12_3065_0_1_djh6Wz_160.webp",
         "first_seen": "2026-09-30T13:01:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
+      "drop_pct": 20,
       "fair_discount": 20.0,
       "base_price": 99990,
       "value_score": 58,
@@ -7325,7 +7313,7 @@
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": null
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -7999,42 +7987,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-05T15:07:15+00:00",
-      "item_count": 3860,
+      "last_crawl": "2026-10-05T23:00:21+00:00",
+      "item_count": 3883,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-05T15:07:15+00:00",
+      "last_crawl": "2026-10-05T23:00:21+00:00",
       "item_count": 12147,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-05T15:07:15+00:00",
-      "item_count": 3682,
+      "last_crawl": "2026-10-05T23:00:21+00:00",
+      "item_count": 3705,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-05T15:07:15+00:00",
-      "item_count": 9535,
+      "last_crawl": "2026-10-05T23:00:21+00:00",
+      "item_count": 9534,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-05T15:07:15+00:00",
-      "item_count": 683,
+      "last_crawl": "2026-10-05T23:00:21+00:00",
+      "item_count": 665,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29907,
+    "total_products": 29934,
     "total_deals": 292,
-    "avg_discount": 49.0
+    "avg_discount": 48.0
   }
 }
