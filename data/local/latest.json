@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T05:22:03.838352+00:00",
+  "updated_at": "2026-10-05T09:21:37.669252+00:00",
   "deals": [
     {
       "product": {
@@ -879,6 +879,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200013261",
+        "title": "Гладильный паровой шкаф TEFAL YT 2020E0",
+        "price": 229990,
+        "old_price": 642990,
+        "url": "https://www.mechta.kz/product/gladilnyy-parovoy-shkaf-tefal-yt-2020e0/",
+        "brand": "Tefal",
+        "category": "Паровые шкафы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/6eb2f59f-4a33-4dc4-b23e-66d0f13b7dd9?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 23.3,
+      "base_price": 299990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 40.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "12000071332",
         "title": "Конвектор TEFAL CQ 3031 FO",
         "price": 25990,
@@ -1336,33 +1364,6 @@
       "drop_pct": 60,
       "fair_discount": 0.0,
       "base_price": 79990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016105",
-        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
-        "price": 159990,
-        "old_price": 399990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
-        "brand": "Philips",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 159990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -2017,6 +2018,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018087",
+        "title": "Телевизор Samsung QLED QE85Q7FAAUXCE UHD SMART",
+        "price": 629990,
+        "old_price": 1399990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q7faauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/7daea9cc-9c8a-4bb3-8411-f90224faaedf?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 30.0,
+      "base_price": 899990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200018085",
         "title": "Телевизор Samsung QLED QE75Q7F5AUXCE UHD SMART",
         "price": 479990,
@@ -2218,34 +2249,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018094",
-        "title": "Телевизор Samsung Neo QLED QE75QN80FAUXCE UHD SMART",
-        "price": 949990,
-        "old_price": 1599990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn80fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/ed8480bd-926a-491d-bf3d-a39f87aac9e5?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 26.9,
-      "base_price": 1299990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 14.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018113",
         "title": "Телевизор Samsung Neo QLED QE85QN900FUXCE 8K SMART",
         "price": 2199990,
@@ -2329,34 +2332,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018099",
-        "title": "Телевизор Samsung Neo QLED QE75QN85FAUXCE UHD SMART",
-        "price": 1099990,
-        "old_price": 1849990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn85fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/6e760c50-9faa-41f2-98ca-fb6651b9b73d?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 26.7,
-      "base_price": 1499990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 14.3
     },
     {
       "product": {
@@ -2500,14 +2475,43 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019381",
+        "title": "Телевизор Samsung QLED QE85Q8FAAUXCE UHD SMART",
+        "price": 899990,
+        "old_price": 1899990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q8faauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/c9eff8ae-fed3-4e85-9f3b-b52dda0860e7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 25.0,
+      "base_price": 1199990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-05T05:21:55+00:00",
-      "item_count": 7727,
+      "last_crawl": "2026-10-05T09:21:26+00:00",
+      "item_count": 7725,
       "status": "ok"
     },
     {
@@ -2547,8 +2551,8 @@
     }
   ],
   "stats": {
-    "total_products": 7727,
+    "total_products": 7725,
     "total_deals": 90,
-    "avg_discount": 60.5
+    "avg_discount": 61.0
   }
 }
