@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T03:20:10.392306+00:00",
+  "updated_at": "2026-10-05T04:47:55.521356+00:00",
   "deals": [
     {
       "product": {
@@ -73,12 +73,39 @@
       "drop_pct": 69,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 34,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000077979",
+        "title": "Тепловентилятор TEFAL SE 9260 F0",
+        "price": 14990,
+        "old_price": 41990,
+        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9260-f0/",
+        "brand": "Tefal",
+        "category": "Тепловентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 50.0,
+      "base_price": 29990,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.0
     },
     {
       "product": {
@@ -440,33 +467,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000007171",
-        "title": "Очиститель воздуха TEFAL QF5030F0 (2в1)",
-        "price": 49990,
-        "old_price": 218990,
-        "url": "https://www.mechta.kz/product/ochistitel-vozduha-tefal-qf5030f0-2v1/",
-        "brand": "Tefal",
-        "category": "Очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 49990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200003815",
         "title": "Робот-пылесос TEFAL RG 8597 WH",
         "price": 94990,
@@ -769,6 +769,35 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200006735",
+        "title": "Игровая гарнитура ASUS ROG Strix Go",
+        "price": 19990,
+        "old_price": 58990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-asus-rog-strix-go/",
+        "brand": "ASUS",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://pi.mdev.kz/3074ced8-61a3-11ee-a262-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 44.5,
+      "base_price": 35990,
+      "value_score": 94,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200004465",
         "title": "Вертикальный пылесос TEFAL TY 2079WO",
         "price": 79990,
@@ -786,7 +815,7 @@
       "drop_pct": 65,
       "fair_discount": 0.0,
       "base_price": 79990,
-      "value_score": 35,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -850,58 +879,60 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014022",
-        "title": "Чехол для телефона APPLE iPhone 16 Pro Clear Case with MagSafe (MA7E4ZM/A)",
-        "price": 14990,
-        "old_price": 40990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-16-pro-clear-case-with-magsafe-ma7e4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
+        "sku": "12000071332",
+        "title": "Конвектор TEFAL CQ 3031 FO",
+        "price": 25990,
+        "old_price": 70990,
+        "url": "https://www.mechta.kz/product/konvektor-tefal-cq-3031-fo/",
+        "brand": "Tefal",
+        "category": "Конвекторы",
+        "group": "home",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/84e11b34-8529-11ef-a269-005056b6e990?w=400",
+        "image": "https://pi.mdev.kz/04c4afff-ca0e-11e7-80c2-1866daf08915?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
+      "fair_discount": 48.0,
+      "base_price": 49990,
+      "value_score": 90,
+      "is_pick": true,
       "badges": [
-        "Топ-Бренд",
+        "Выбор ИС",
+        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 63.0
+      "inflated_gap": 15.0
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014096",
-        "title": "Чехол для телефона APPLE iPhone 16 Pro Silicone Case with MagSafe - Ultramarine (MYYP3ZM/A)",
-        "price": 14990,
-        "old_price": 40990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-16-pro-silicone-case-with-magsafe---ultramarine-myyp3zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
+        "sku": "12000071331",
+        "title": "Конвектор TEFAL CQ 3030 FO",
+        "price": 25990,
+        "old_price": 70990,
+        "url": "https://www.mechta.kz/product/konvektor-tefal-cq-3030-fo/",
+        "brand": "Tefal",
+        "category": "Конвекторы",
+        "group": "home",
         "in_stock": true,
         "discount_pct": 63,
-        "image": "https://pi.mdev.kz/ecce760e-849c-11ef-a269-005056b6e990?w=400",
+        "image": "https://pi.mdev.kz/5aca6820-c9cb-11e7-80c2-1866daf08915?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
+      "fair_discount": 48.0,
+      "base_price": 49990,
+      "value_score": 90,
+      "is_pick": true,
       "badges": [
-        "Топ-Бренд",
+        "Выбор ИС",
+        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 63.0
+      "inflated_gap": 15.0
     },
     {
       "product": {
@@ -924,33 +955,6 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "value_score": 25,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021484",
-        "title": "Вертикальный пылесос Tefal X-Clean 2 2в1 GF2251F3",
-        "price": 99990,
-        "old_price": 269990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-clean-2-2v1-gf2251f3/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/9026820e-c9f2-40f2-bbd1-2004cc1ef3de?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 99990,
-      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1005,6 +1009,33 @@
       "fair_discount": 0.0,
       "base_price": 349990,
       "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000007171",
+        "title": "Очиститель воздуха TEFAL QF5030F0 (2в1)",
+        "price": 81990,
+        "old_price": 218990,
+        "url": "https://www.mechta.kz/product/ochistitel-vozduha-tefal-qf5030f0-2v1/",
+        "brand": "Tefal",
+        "category": "Очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1123,145 +1154,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200023597",
-        "title": "Чехол для телефона APPLE iPhone 17e Clear Case (MHWC4ZM/A)",
-        "price": 14990,
-        "old_price": 38990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17e-clear-case-mhwc4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/102b3183-76b4-4c6e-8c07-4bdd28077ba7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023594",
-        "title": "Чехол для телефона APPLE iPhone 17e Silicone Case – Vanilla (MHWG4ZM/A)",
-        "price": 14990,
-        "old_price": 38990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17e-silicone-case--vanilla-mhwg4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/f1f7a8ff-76c9-4bea-bd87-2df7e99eb247?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023596",
-        "title": "Чехол для телефона APPLE iPhone 17e Silicone Case – Soft Pink (MHWJ4ZM/A)",
-        "price": 14990,
-        "old_price": 38990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17e-silicone-case--soft-pink-mhwj4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/cb36a86b-e330-496e-bf45-e54ad0dfb5fc?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023595",
-        "title": "Чехол для телефона APPLE iPhone 17e Silicone Case – Bright Guava (MHWH4ZM/A)",
-        "price": 14990,
-        "old_price": 38990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17e-silicone-case--bright-guava-mhwh4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/63e022d5-ef0a-4218-89ec-3ad0bd97d689?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019681",
-        "title": "Утюг ROWENTA DX1635D1 (DS)",
-        "price": 19990,
-        "old_price": 50990,
-        "url": "https://www.mechta.kz/product/utyug-rowenta-dx1635d1-ds/",
-        "brand": "Rowenta",
-        "category": "Утюги",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/f38b10e8-851d-4564-9170-6850e0b0b49a?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013428",
         "title": "Вертикальный пылесос Kitfort KT-594",
         "price": 29990,
@@ -1285,6 +1177,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000077796",
+        "title": "Тепловентилятор TEFAL SE 9420 F0",
+        "price": 40990,
+        "old_price": 103990,
+        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9420-f0/",
+        "brand": "Tefal",
+        "category": "Тепловентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 31.7,
+      "base_price": 59990,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.3
     },
     {
       "product": {
@@ -1361,6 +1282,88 @@
       "fair_discount": 0.0,
       "base_price": 229990,
       "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003089",
+        "title": "Портативная колонка LOEWE WE. HEAR 1 (Cool Grey)",
+        "price": 19990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-loewe-wedot-hear-1-cool-grey/",
+        "brand": "Loewe",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 33.3,
+      "base_price": 29990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016028",
+        "title": "Аэрогриль MIDEA MF-CY110A",
+        "price": 79990,
+        "old_price": 199990,
+        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy110a/",
+        "brand": "Midea",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/cb20961e-7e9e-4181-8126-8b47a6c505ed?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 79990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016105",
+        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
+        "price": 159990,
+        "old_price": 399990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
+        "brand": "Philips",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 159990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1591,33 +1594,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014657",
-        "title": "Наушники PANASONIC RB-HF420BGEA",
-        "price": 17990,
-        "old_price": 29990,
-        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-hf420bgea/",
-        "brand": "Panasonic",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/1122429f-9bee-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 29990,
-      "value_score": 88,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200021332",
         "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
         "price": 249990,
@@ -1635,7 +1611,7 @@
       "drop_pct": 55,
       "fair_discount": 37.5,
       "base_price": 399990,
-      "value_score": 68,
+      "value_score": 76,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1782,34 +1758,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 8.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003089",
-        "title": "Портативная колонка LOEWE WE. HEAR 1 (Cool Grey)",
-        "price": 19990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-loewe-wedot-hear-1-cool-grey/",
-        "brand": "Loewe",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 60,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.7
     },
     {
       "product": {
@@ -1970,10 +1918,9 @@
       "drop_pct": 58,
       "fair_discount": 31.0,
       "base_price": 57990,
-      "value_score": 81,
-      "is_pick": true,
+      "value_score": 73,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
@@ -2058,45 +2005,14 @@
       "drop_pct": 56,
       "fair_discount": 30.0,
       "base_price": 799990,
-      "value_score": 80,
-      "is_pick": true,
+      "value_score": 72,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 26.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018087",
-        "title": "Телевизор Samsung QLED QE85Q7FAAUXCE UHD SMART",
-        "price": 629990,
-        "old_price": 1399990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q7faauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/7daea9cc-9c8a-4bb3-8411-f90224faaedf?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 30.0,
-      "base_price": 899990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.0
     },
     {
       "product": {
@@ -2498,14 +2414,100 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010495",
+        "title": "Игровая гарнитура CORSAIR HS55 Surround Headset White",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-corsair-hs55-surround-headset-white/",
+        "brand": "Corsair",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/35f47f80-d6b2-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 25.9,
+      "base_price": 26990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011937",
+        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/WZE TWS (White)",
+        "price": 59990,
+        "old_price": 129990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nwze-tws-white/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/5879b6e5-17fe-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 25.0,
+      "base_price": 79990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011938",
+        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/BZE TWS (Black)",
+        "price": 59990,
+        "old_price": 129990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nbze-tws-black/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/5879b6de-17fe-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 25.0,
+      "base_price": 79990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-04T03:20:06+00:00",
-      "item_count": 7742,
+      "last_crawl": "2026-10-05T04:47:42+00:00",
+      "item_count": 7723,
       "status": "ok"
     },
     {
@@ -2545,8 +2547,8 @@
     }
   ],
   "stats": {
-    "total_products": 7742,
+    "total_products": 7723,
     "total_deals": 90,
-    "avg_discount": 61.0
+    "avg_discount": 60.5
   }
 }
