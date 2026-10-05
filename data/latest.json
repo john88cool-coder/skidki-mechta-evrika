@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T23:31:54.498923+00:00",
+  "updated_at": "2026-10-05T06:05:00.876362+00:00",
   "deals": [
     {
       "product": {
@@ -54,6 +54,35 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 14.7
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "265771",
+        "title": "Монитор Игровой 25\" Samsung G4 LS25BG400EIXCI 1920x1080 16:9 IPS 240ГЦ (2HDMI+DP) Black",
+        "price": 50990,
+        "old_price": 159990,
+        "url": "https://www.technodom.kz/p/monitor-igrovoj-25-samsung-g4-ls25bg400eixci-1920x1080-169-ips-240gc-2hdmidp-black-265771",
+        "brand": "Samsung",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 68,
+        "image": "https://api.technodom.kz/f3/api/v1/images/265771_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 68,
+      "fair_discount": 57.5,
+      "base_price": 119990,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 10.5
     },
     {
       "product": {
@@ -416,34 +445,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1458484",
-        "title": "Вертикальный моющий пылесос Dreame H12 Pro Flexreach, Black, 18 000 Па, самоочистка, 50 мин",
-        "price": 99990,
-        "old_price": 200990,
-        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min",
-        "brand": "Dreame",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp",
-        "first_seen": "2026-09-19T16:16:46+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 41.2,
-      "base_price": 169990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 8.8
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1300492",
         "title": "Микроволновая печь Midea AM720C4E-S, Gray, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
         "price": 19990,
@@ -467,6 +468,31 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626005",
+        "title": "Стиральная машина Haier HW70-BP12919",
+        "price": 149990,
+        "old_price": 289990,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw70-bp12919",
+        "brand": "Haier",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1536_0_1_dg7W02_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 48,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -2145,10 +2171,9 @@
       "drop_pct": 56,
       "fair_discount": 26.7,
       "base_price": 2999990,
-      "value_score": 80,
-      "is_pick": true,
+      "value_score": 76,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
@@ -2425,6 +2450,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1709192",
+        "title": "Триммер для бороды и усов Panasonic ER217S520, Silver-Black (SN:d607b170-850d-4de8-98b9-0638ce8e6ae8)",
+        "price": 16990,
+        "old_price": 37990,
+        "url": "https://shop.kz/offer/trimmer-dlya-borody-i-usov-panasonic-er217s520-silver-black-sn-d607b170-850d-4de8-98b9-0638ce8e6ae8/",
+        "brand": "Panasonic",
+        "category": "Машинки для стрижки, триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://static.shop.kz/upload/iblock/aa3/6wii4bqa4e7d1ynuo3jf65rdpxtn42ft/169909n1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 0.0,
+      "base_price": 16990,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 55.0
     },
     {
       "product": {
@@ -2969,33 +3021,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1709192",
-        "title": "Триммер для бороды и усов Panasonic ER217S520, Silver-Black (SN:d607b170-850d-4de8-98b9-0638ce8e6ae8)",
-        "price": 16990,
-        "old_price": 35990,
-        "url": "https://shop.kz/offer/trimmer-dlya-borody-i-usov-panasonic-er217s520-silver-black-sn-d607b170-850d-4de8-98b9-0638ce8e6ae8/",
-        "brand": "Panasonic",
-        "category": "Машинки для стрижки, триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://static.shop.kz/upload/iblock/aa3/6wii4bqa4e7d1ynuo3jf65rdpxtn42ft/169909n1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 16990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "622202",
         "title": "Комбинированная плита Gorenje GK6A20WF",
@@ -3176,33 +3201,6 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "base_price": 11990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "281439",
-        "title": "Гриль AVA ELMC -2100DG",
-        "price": 32990,
-        "old_price": 69990,
-        "url": "https://www.technodom.kz/p/gril-ava-elmc-2100dg-281439",
-        "brand": "Ava",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/gril_ava_elmc_2100dg_281439_01.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 32990,
       "value_score": 31,
       "is_pick": false,
       "badges": [
@@ -4032,6 +4030,33 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1458484",
+        "title": "Вертикальный моющий пылесос Dreame H12 Pro Flexreach, Black, 18 000 Па, самоочистка, 50 мин",
+        "price": 99990,
+        "old_price": 200990,
+        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min",
+        "brand": "Dreame",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp",
+        "first_seen": "2026-09-19T16:16:46+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 99990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1270490",
         "title": "Вытяжка Samsung NK24M5060SS",
         "price": 79990,
@@ -4053,33 +4078,6 @@
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1402775",
-        "title": "Пылесос ручной аккумуляторный Karcher CVH 2, White, 1.198-330.0, (0,15 л, 10 мин, 70 Вт)",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium",
-        "brand": "Karcher",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/18MLRuV7G/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 50.0
@@ -4310,31 +4308,31 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1413735",
-        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Графит",
-        "price": 130000,
-        "old_price": 239990,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-grafit",
-        "brand": "Яндекс",
-        "category": null,
-        "group": "tv",
+        "shop": "technodom",
+        "sku": "261565",
+        "title": "Беспроводной пылесос Tefal X-Force Flex 15.60 Pro TY-99F1WO",
+        "price": 274990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/vertikalnyj-pylesos-tefal-ty-99f1-261565",
+        "brand": "Tefal",
+        "category": "Бытовая техника",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/bxQlRIbPa4/umnaa-kolonka-andeksstancia-maks-s-zigbee-grafit-w160.webp",
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/261565_1zz.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 46,
-      "fair_discount": 45.8,
-      "base_price": 239990,
-      "value_score": 90,
+      "drop_pct": null,
+      "fair_discount": 45.7,
+      "base_price": 505990,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 0.2
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6277,10 +6275,9 @@
       "drop_pct": null,
       "fair_discount": 27.3,
       "base_price": 1993175,
-      "value_score": 81,
-      "is_pick": true,
+      "value_score": 77,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
       ],
@@ -6969,33 +6966,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "293852",
-        "title": "Холодильник Toshiba GR-RS755WI-PMJ(06)",
-        "price": 609990,
-        "old_price": 699990,
-        "url": "https://www.technodom.kz/p/holodilnik-toshiba-gr-rs755wi-pmj06-293852",
-        "brand": "Toshiba",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://api.technodom.kz/f3/api/v1/images/293852_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 23.8,
-      "base_price": 799990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -10.8
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "653383",
         "title": "NeoQLED телевизор Samsung QE75QN80HAUXCE",
@@ -7410,33 +7380,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "635944",
-        "title": "Смартфон Huawei Nova Y73 8/256GB Blue",
-        "price": 89990,
-        "old_price": 103890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-y73-8256gb-blue",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6647_0_6_Fs5M1r_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 18.1,
-      "base_price": 109890,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -5.1
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "47092",
         "title": "Кофеварка Эспрессо BORK C701",
@@ -7516,6 +7459,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 16.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654282",
+        "title": "Робот пылесос Dreame F21 PRO",
+        "price": 139990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f21-pro",
+        "brand": "Dreame",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_287_0_1_5avaJ1_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 17.6,
+      "base_price": 169990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7655,17 +7625,17 @@
     {
       "product": {
         "shop": "evrika",
-        "sku": "45534",
-        "title": "Смарт-часы HUAWEI WATCH FIT 4 Pro Blue",
+        "sku": "45393",
+        "title": "HUAWEI WATCH FIT 4 Pro Green",
         "price": 79890,
         "old_price": 113990,
-        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-blue/p45534",
+        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-green/p45393",
         "brand": null,
         "category": "Смарт-часы",
         "group": "phones",
         "in_stock": true,
         "discount_pct": 30,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/cJBdRrsBgD8jB6rpj8wWWOwI9BngLVXyCF03ntCZ.jpg.webp",
+        "image": "https://cdn.evrika.com/storage/products/images/medium/k8ZPXXrX5RIteHFMyzU53q5pVlGVSW9rpQbv6hqc.jpg.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -7682,17 +7652,17 @@
     {
       "product": {
         "shop": "evrika",
-        "sku": "45393",
-        "title": "HUAWEI WATCH FIT 4 Pro Green",
+        "sku": "45534",
+        "title": "Смарт-часы HUAWEI WATCH FIT 4 Pro Blue",
         "price": 79890,
         "old_price": 113990,
-        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-green/p45393",
+        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-blue/p45534",
         "brand": null,
         "category": "Смарт-часы",
         "group": "phones",
         "in_stock": true,
         "discount_pct": 30,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/k8ZPXXrX5RIteHFMyzU53q5pVlGVSW9rpQbv6hqc.jpg.webp",
+        "image": "https://cdn.evrika.com/storage/products/images/medium/cJBdRrsBgD8jB6rpj8wWWOwI9BngLVXyCF03ntCZ.jpg.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -8024,42 +7994,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-04T23:31:43+00:00",
-      "item_count": 3856,
+      "last_crawl": "2026-10-05T06:04:50+00:00",
+      "item_count": 3859,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-04T23:31:43+00:00",
-      "item_count": 12149,
+      "last_crawl": "2026-10-05T06:04:50+00:00",
+      "item_count": 12148,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-04T23:31:43+00:00",
-      "item_count": 3684,
+      "last_crawl": "2026-10-05T06:04:50+00:00",
+      "item_count": 3654,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-04T23:31:43+00:00",
-      "item_count": 9538,
+      "last_crawl": "2026-10-05T06:04:50+00:00",
+      "item_count": 9541,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-04T23:31:43+00:00",
+      "last_crawl": "2026-10-05T06:04:50+00:00",
       "item_count": 667,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29894,
-    "total_deals": 293,
-    "avg_discount": 50
+    "total_products": 29869,
+    "total_deals": 292,
+    "avg_discount": 50.0
   }
 }
