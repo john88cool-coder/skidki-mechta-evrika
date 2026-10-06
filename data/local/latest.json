@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T04:20:38.211285+00:00",
+  "updated_at": "2026-10-06T05:21:38.562656+00:00",
   "deals": [
     {
       "product": {
@@ -269,33 +269,6 @@
       "fair_discount": 0.0,
       "base_price": 29990,
       "value_score": 25,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 80.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000015574",
-        "title": "Тумба МАРТ МЕБЕЛЬ Гранд",
-        "price": 10000,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/tumba-mart-mebel-grand/",
-        "brand": "МАРТ",
-        "category": "Тумбы под телевизор",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 80,
-        "image": "https://pi.mdev.kz/8cb43056-11e3-41b4-b3b5-f9214dbbe253?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 80,
-      "fair_discount": 0.0,
-      "base_price": 10000,
-      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1364,6 +1337,33 @@
       "drop_pct": 60,
       "fair_discount": 0.0,
       "base_price": 79990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016105",
+        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
+        "price": 159990,
+        "old_price": 399990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
+        "brand": "Philips",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 159990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -2510,8 +2510,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-06T04:20:29+00:00",
-      "item_count": 7699,
+      "last_crawl": "2026-10-06T05:21:31+00:00",
+      "item_count": 7692,
       "status": "ok"
     },
     {
@@ -2551,8 +2551,8 @@
     }
   ],
   "stats": {
-    "total_products": 7699,
+    "total_products": 7692,
     "total_deals": 90,
-    "avg_discount": 61.0
+    "avg_discount": 60.5
   }
 }
