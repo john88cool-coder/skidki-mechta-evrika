@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T07:21:28.332048+00:00",
+  "updated_at": "2026-10-06T11:09:24.007904+00:00",
   "deals": [
     {
       "product": {
@@ -44,33 +44,6 @@
       },
       "signal": "deal",
       "drop_pct": 75,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011457",
-        "title": "Телевизор Samsung OLED QE77S95DAUXCE",
-        "price": 799990,
-        "old_price": 2619990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s95dauxce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
       "fair_discount": null,
       "base_price": null,
       "value_score": 31,
@@ -179,17 +152,15 @@
       },
       "signal": "deal",
       "drop_pct": 84,
-      "fair_discount": 61.5,
-      "base_price": 129990,
-      "value_score": 86,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "value_score": 31,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 22.5
+      "inflated_gap": 84.0
     },
     {
       "product": {
@@ -403,7 +374,7 @@
       "drop_pct": 77,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 25,
+      "value_score": 20,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -599,6 +570,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 71.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011457",
+        "title": "Телевизор Samsung OLED QE77S95DAUXCE",
+        "price": 799990,
+        "old_price": 2619990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s95dauxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 0.0,
+      "base_price": 799990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 69.0
     },
     {
       "product": {
@@ -1568,6 +1567,62 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200016308",
+        "title": "Блендер погружной POLARIS PHB 1551 WIFI IQ Home Черный",
+        "price": 46990,
+        "old_price": 79990,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-1551-wifi-iq-home-chernyy/",
+        "brand": "Polaris",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/b42d7a5d-b0e3-4c53-beec-5b485da437aa?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 41.3,
+      "base_price": 79990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "26260001692",
+        "title": "Бутербродница MOULINEX SW 611812",
+        "price": 42990,
+        "old_price": 86990,
+        "url": "https://www.mechta.kz/product/buterbrodnica-moulinex-sw-611812/",
+        "brand": "Moulinex",
+        "category": "Сэндвичницы (Бутербродницы)",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://pi.mdev.kz/5129d9bd-3122-4790-801f-07df0459df58?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 51,
+      "fair_discount": 41.1,
+      "base_price": 72990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200021332",
         "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
         "price": 249990,
@@ -1951,7 +2006,7 @@
       "drop_pct": 49,
       "fair_discount": 30.9,
       "base_price": 549990,
-      "value_score": 67,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2448,71 +2503,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019381",
-        "title": "Телевизор Samsung QLED QE85Q8FAAUXCE UHD SMART",
-        "price": 899990,
-        "old_price": 1899990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q8faauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/c9eff8ae-fed3-4e85-9f3b-b52dda0860e7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 25.0,
-      "base_price": 1199990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012274",
-        "title": "Стиральная машина GRUNDIG W 5P57H21 A",
-        "price": 149990,
-        "old_price": 289990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-w-5p57h21-a/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/94294368-2d2a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 25.0,
-      "base_price": 199990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-06T07:21:14+00:00",
-      "item_count": 7698,
+      "last_crawl": "2026-10-06T11:09:15+00:00",
+      "item_count": 7711,
       "status": "ok"
     },
     {
@@ -2552,7 +2550,7 @@
     }
   ],
   "stats": {
-    "total_products": 7698,
+    "total_products": 7711,
     "total_deals": 90,
     "avg_discount": 61.0
   }
