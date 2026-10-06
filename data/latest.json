@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T15:34:47.475481+00:00",
+  "updated_at": "2026-10-06T21:20:17.583323+00:00",
   "deals": [
     {
       "product": {
@@ -19,31 +19,6 @@
       },
       "signal": "deal",
       "drop_pct": 75,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "33756",
-        "title": "Монитор 23.8\" Acer Nitro RX241YPbmiiphx (UM.QR1EEP05)",
-        "price": 49990,
-        "old_price": 158990,
-        "url": "https://evrika.com/catalog/monitor-238-acer-nitro-rx241ypbmiiphx-umqr1eep05/p33756",
-        "brand": null,
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/I589TJLFtcXnKtf7x4tDDB6Yg6WcbER8WeMBvOdK.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
       "fair_discount": null,
       "base_price": null,
       "value_score": 35,
@@ -444,31 +419,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "48565",
-        "title": "Гарнитура беспроводная Logitech Pro X Lightspeed (981-000907)",
-        "price": 54990,
-        "old_price": 119990,
-        "url": "https://evrika.com/catalog/garnitura-besprovodnaya-logitech-pro-x-lightspeed-981-000907/p48565",
-        "brand": null,
-        "category": "Наушники с микрофоном",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/1bK5LCVgj0AKtbEmk9fH56v4Dus6TZLfdXhirL8F.jpg.webp",
-        "first_seen": "2026-10-03T20:14:33+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "285606",
         "title": "Процессор AMD Ryzen 7 7800X3D (C8/T16, (512K L1, 8M L2, 96M L3 Cache) 4.2 up to 5GHz) AM5 OEM",
@@ -669,31 +619,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "48653",
-        "title": "Электробритва Braun 52-A1650sLGHTBLU",
-        "price": 51990,
-        "old_price": 97390,
-        "url": "https://evrika.com/catalog/britva-braun-52-a1650slghtblu/p48653",
-        "brand": null,
-        "category": "Бритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/BmgMYmtOzyGIyG5M8eZIDzfQpOq1ypMS55mrhHrW.jpg.webp",
-        "first_seen": "2026-10-03T20:14:33+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -1035,6 +960,33 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "value_score": 27,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 69.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "33756",
+        "title": "Монитор 23.8\" Acer Nitro RX241YPbmiiphx (UM.QR1EEP05)",
+        "price": 49990,
+        "old_price": 158990,
+        "url": "https://evrika.com/catalog/monitor-238-acer-nitro-rx241ypbmiiphx-umqr1eep05/p33756",
+        "brand": null,
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/I589TJLFtcXnKtf7x4tDDB6Yg6WcbER8WeMBvOdK.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3410,6 +3362,33 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "48565",
+        "title": "Гарнитура беспроводная Logitech Pro X Lightspeed (981-000907)",
+        "price": 54990,
+        "old_price": 119990,
+        "url": "https://evrika.com/catalog/garnitura-besprovodnaya-logitech-pro-x-lightspeed-981-000907/p48565",
+        "brand": null,
+        "category": "Наушники с микрофоном",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/1bK5LCVgj0AKtbEmk9fH56v4Dus6TZLfdXhirL8F.jpg.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 0.0,
+      "base_price": 54990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 54.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "43346",
         "title": "Проводная мышь Acer Predator Cestus 315 (GP.MCE11.014)",
         "price": 12990,
@@ -4079,6 +4058,33 @@
       "fair_discount": 0.0,
       "base_price": 14990,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622142",
+        "title": "Наушники ARG F6 Black",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
+        "brand": "ARG",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -5330,34 +5336,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "978399",
-        "title": "Морозильная камера Ardesto FRM-250MCH, White",
-        "price": 99990,
-        "old_price": 159990,
-        "url": "https://shop.kz/offer/morozilnaya-kamera-ardesto-frm-250mch-white/",
-        "brand": "Ardesto",
-        "category": "Морозильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://static.shop.kz/upload/iblock/09c/151045_5.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 33.3,
-      "base_price": 149900,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.7
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "212534",
         "title": "Газовая варочная панель Midea MG-685TGB",
@@ -5972,60 +5950,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 9.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "978348",
-        "title": "Кофемолка Ardesto WCG-8301, Black",
-        "price": 12590,
-        "old_price": 17990,
-        "url": "https://shop.kz/offer/kofemolka-ardesto-wcg-8301-black/",
-        "brand": "Ardesto",
-        "category": "Кофемолки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://static.shop.kz/upload/iblock/40f/151050_6.JPG",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 30.0,
-      "base_price": 17990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000025691",
-        "title": "Электробритва Remington XR1500 41213560100",
-        "price": 41990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/elektrobritviy-remington-27-454",
-        "brand": "Remington",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_27_454_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 30.0,
-      "base_price": 59990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7865,6 +7789,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "654184",
+        "title": "Neo QLED телевизор Samsung QE75QN70HAUXCE",
+        "price": 879990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn70hauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_21227_0_1_8VHig7_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 1099990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1260045",
         "title": "Клавиатура игровая Logitech G213 Prodigy",
@@ -8272,6 +8224,60 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "46904",
+        "title": "Монитор LG 23.8 24G411-B (1920x1080)/ 144 Hz/ 1 ms",
+        "price": 49990,
+        "old_price": 69990,
+        "url": "https://evrika.com/catalog/monitor-lg-23-8-24g411-b-1920x1080-144-hz-1-ms/p46904",
+        "brand": null,
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/qjyQYDFwnrmP5eIkbqXzQgbpJb6KKJWHSQX0TQsX.jpeg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 15.3,
+      "base_price": 58990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "40780",
+        "title": "Встраиваемая посудомоечная машина LG QuadWash DB242TX",
+        "price": 264990,
+        "old_price": 311990,
+        "url": "https://evrika.com/catalog/posudomoechnaya-mashina-lg-db242tx/p40780",
+        "brand": null,
+        "category": "Встраиваемые посудомоечные машины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/C0ndLSeiS1P8KLmRJ15W1grFKSya87EHaOLWwphJ.jpg.webp",
+        "first_seen": "2026-09-21T13:16:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.1,
+      "base_price": 311990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
     }
   ],
   "shops": [
@@ -8285,41 +8291,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-06T15:34:30+00:00",
-      "item_count": 2475,
+      "last_crawl": "2026-10-06T21:20:00+00:00",
+      "item_count": 2474,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-06T15:34:30+00:00",
+      "last_crawl": "2026-10-06T21:20:00+00:00",
       "item_count": 12154,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-06T15:34:30+00:00",
-      "item_count": 3691,
+      "last_crawl": "2026-10-06T21:20:00+00:00",
+      "item_count": 3655,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-06T15:34:30+00:00",
-      "item_count": 9570,
+      "last_crawl": "2026-10-06T21:20:00+00:00",
+      "item_count": 9567,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-06T15:34:30+00:00",
-      "item_count": 626,
+      "last_crawl": "2026-10-06T21:20:00+00:00",
+      "item_count": 622,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28516,
+    "total_products": 28472,
     "total_deals": 300,
     "avg_discount": 50.5
   }
