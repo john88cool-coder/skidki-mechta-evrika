@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T05:21:38.562656+00:00",
+  "updated_at": "2026-10-06T07:21:28.332048+00:00",
   "deals": [
     {
       "product": {
@@ -852,6 +852,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200017961",
+        "title": "Стиральная машина GRUNDIG GWI P7104 A",
+        "price": 219990,
+        "old_price": 619990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gwi-p7104-a/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 65,
+        "image": "https://pi.mdev.kz/39ea9909-131e-4f4e-9551-d6176c5de761?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 65,
+      "fair_discount": 20.0,
+      "base_price": 274990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 45.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200013261",
         "title": "Гладильный паровой шкаф TEFAL YT 2020E0",
         "price": 229990,
@@ -1347,33 +1375,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200016105",
-        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
-        "price": 159990,
-        "old_price": 399990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
-        "brand": "Philips",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 159990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011026",
         "title": "Тостер POLARIS PET 0812A Черный/матовый",
         "price": 14390,
@@ -1563,34 +1564,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016308",
-        "title": "Блендер погружной POLARIS PHB 1551 WIFI IQ Home Черный",
-        "price": 46990,
-        "old_price": 79990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-1551-wifi-iq-home-chernyy/",
-        "brand": "Polaris",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/b42d7a5d-b0e3-4c53-beec-5b485da437aa?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 41.3,
-      "base_price": 79990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -2504,14 +2477,42 @@
         "Рисованная?"
       ],
       "inflated_gap": 28.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012274",
+        "title": "Стиральная машина GRUNDIG W 5P57H21 A",
+        "price": 149990,
+        "old_price": 289990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-w-5p57h21-a/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/94294368-2d2a-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 25.0,
+      "base_price": 199990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-06T05:21:31+00:00",
-      "item_count": 7692,
+      "last_crawl": "2026-10-06T07:21:14+00:00",
+      "item_count": 7698,
       "status": "ok"
     },
     {
@@ -2551,8 +2552,8 @@
     }
   ],
   "stats": {
-    "total_products": 7692,
+    "total_products": 7698,
     "total_deals": 90,
-    "avg_discount": 60.5
+    "avg_discount": 61.0
   }
 }
