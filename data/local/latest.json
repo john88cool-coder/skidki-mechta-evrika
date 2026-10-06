@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T11:09:24.007904+00:00",
+  "updated_at": "2026-10-06T11:22:29.669231+00:00",
   "deals": [
     {
       "product": {
@@ -207,17 +207,15 @@
       },
       "signal": "deal",
       "drop_pct": 82,
-      "fair_discount": 50.0,
-      "base_price": 99990,
-      "value_score": 86,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "value_score": 31,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 32.0
+      "inflated_gap": 82.0
     },
     {
       "product": {
@@ -564,7 +562,7 @@
       "drop_pct": 71,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 24,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1623,6 +1621,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "26260001314",
+        "title": "Панель для гриля TEFAL XA 725870",
+        "price": 22990,
+        "old_price": 45990,
+        "url": "https://www.mechta.kz/product/panel-dlya-grilya-tefal-xa-725870/",
+        "brand": "Tefal",
+        "category": "Панели для грилей и мультипекарей",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/be42ec2b-9e43-11ea-a22e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 41.0,
+      "base_price": 38990,
+      "value_score": 95,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200021332",
         "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
         "price": 249990,
@@ -1640,7 +1666,7 @@
       "drop_pct": 55,
       "fair_discount": 37.5,
       "base_price": 399990,
-      "value_score": 71,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2474,43 +2500,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011938",
-        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/BZE TWS (Black)",
-        "price": 59990,
-        "old_price": 129990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nbze-tws-black/",
-        "brand": "Sony",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/5879b6de-17fe-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-06T11:09:15+00:00",
-      "item_count": 7711,
+      "last_crawl": "2026-10-06T11:22:20+00:00",
+      "item_count": 7715,
       "status": "ok"
     },
     {
@@ -2550,7 +2547,7 @@
     }
   ],
   "stats": {
-    "total_products": 7711,
+    "total_products": 7715,
     "total_deals": 90,
     "avg_discount": 61.0
   }
