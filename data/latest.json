@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T21:20:17.583323+00:00",
+  "updated_at": "2026-10-07T01:56:12.956239+00:00",
   "deals": [
     {
       "product": {
@@ -240,7 +240,7 @@
       "drop_pct": 56,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -435,6 +435,31 @@
       },
       "signal": "deal",
       "drop_pct": 54,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 23,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "224568",
+        "title": "Аксесс. Воздухоочист. BORK Фильтр активной стерилизации AA704E",
+        "price": 11990,
+        "old_price": 25490,
+        "url": "https://www.technodom.kz/p/aksess-bork-filtr-aa704e-224568",
+        "brand": "Bork",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://api.technodom.kz/f3/api/v1/images/224568_1y.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
       "fair_discount": null,
       "base_price": null,
       "value_score": 23,
@@ -941,33 +966,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "272555",
-        "title": "Наушники Накладные SoundCore Life Tune",
-        "price": 19990,
-        "old_price": 64990,
-        "url": "https://www.technodom.kz/p/naushniki-nakladnye-soundcore-life-tune-272555",
-        "brand": "SoundCore",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://api.technodom.kz/f3/api/v1/images/naushniki_nakladnye_soundcore_life_tune_272555_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 69.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "33756",
         "title": "Монитор 23.8\" Acer Nitro RX241YPbmiiphx (UM.QR1EEP05)",
@@ -987,6 +985,33 @@
       "fair_discount": 0.0,
       "base_price": 49990,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 69.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "272555",
+        "title": "Наушники Накладные SoundCore Life Tune",
+        "price": 19990,
+        "old_price": 64990,
+        "url": "https://www.technodom.kz/p/naushniki-nakladnye-soundcore-life-tune-272555",
+        "brand": "SoundCore",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://api.technodom.kz/f3/api/v1/images/naushniki_nakladnye_soundcore_life_tune_272555_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3633,33 +3658,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "224568",
-        "title": "Аксесс. Воздухоочист. BORK Фильтр активной стерилизации AA704E",
-        "price": 11990,
-        "old_price": 25490,
-        "url": "https://www.technodom.kz/p/aksess-bork-filtr-aa704e-224568",
-        "brand": "Bork",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/224568_1y.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 11990,
-      "value_score": 23,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "224571",
         "title": "Аксесс. Воздухоочист. BORK Спец. фильтр AA704C",
         "price": 11990,
@@ -4592,35 +4590,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453269",
-        "title": "Смартфон Samsung Galaxy A56 5G 128GB, Awesome Olive (SM-A566EZGASKZ)",
-        "price": 119990,
-        "old_price": 219990,
-        "url": "https://alser.kz/p/smartfon-samsung-galaxy-a56-5g-128gb-awesome-olive-sm-a566ezgaskz",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://s3s.alser.kz/uploads/products/smartfony-samsung/L1eVZHN87/smartfon-samsung-galaxy-a56-5g-128gb-awesome-olive-sm-a566ezgaskz-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 45.5,
-      "base_price": 219990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -6204,33 +6173,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "654688",
-        "title": "Чайник электрический Редмонд KM244 Серый KM244",
-        "price": 29194,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-km244",
-        "brand": "",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_1110_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 28.6,
-      "base_price": 40890,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "624033",
         "title": "Монитор Samsung 27″ Odyssey G3 LS27DG300EIXCI LS27DG300EIXCI",
         "price": 74990,
@@ -6624,24 +6566,24 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000012221",
-        "title": "Чайник электрический Russell Hobbs 26420-70 25019016001",
-        "price": 50727,
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 63026,
         "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-879",
-        "brand": "Russell Hobbs",
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
         "category": null,
-        "group": "kitchen",
+        "group": "computers",
         "in_stock": true,
         "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_879_3_2_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
       "fair_discount": 27.5,
-      "base_price": 69990,
-      "value_score": 72,
+      "base_price": 86890,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6702,33 +6644,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -8.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 63053,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 27.4,
-      "base_price": 86890,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7181,34 +7096,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "652785",
-        "title": "Ноутбук Asus Vivobook 15 i5 320 16GB / SSD 512GB / Intel Graphics / Win 11 Home / 90NB17I1-M01MS0",
-        "price": 399990,
-        "old_price": 529990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-vivobook-15-90nb17i1-m01ms0-i5165suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9746_0_6_7pqPrE_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 24.5,
-      "base_price": 529990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "47585",
         "title": "Телевизор Samsung 85\" NeoQLED 4K QE85QN80HAUXCE",
@@ -7259,33 +7146,6 @@
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "628437",
-        "title": "Чайник электрический Russell Hobbs 24360-70",
-        "price": 28963,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-872",
-        "brand": "Russell Hobbs",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_872_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 23.8,
-      "base_price": 37990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
       ],
       "inflated_gap": null
     },
@@ -7428,6 +7288,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652785",
+        "title": "Ноутбук Asus Vivobook 15 i5 320 16GB / SSD 512GB / Intel Graphics / Win 11 Home / 90NB17I1-M01MS0",
+        "price": 399990,
+        "old_price": 529990,
+        "url": "https://www.sulpak.kz/g/noutbuki-asus-vivobook-15-90nb17i1-m01ms0-i5165suw11p",
+        "brand": "Asus",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9746_0_6_7pqPrE_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 22.6,
+      "base_price": 516990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 2.4
     },
     {
       "product": {
@@ -7929,6 +7817,61 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "620564",
+        "title": "Кран водонагреватель проточной воды AQUA BEF-008B",
+        "price": 12890,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/protochniye-vodonagrevateli-aqua-4228-25",
+        "brand": "Aqua",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4228_25_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 19.6,
+      "base_price": 16039,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631030",
+        "title": "Пылесос Tefal Swift Power Cyclonic TW2947EA",
+        "price": 52990,
+        "old_price": 91990,
+        "url": "https://www.sulpak.kz/g/piylesosiy-tefal-tw2947ea",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1209_0_1_flWU8o_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 18.5,
+      "base_price": 64990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.5
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "40021",
         "title": "Фен BORK F730 gg",
@@ -8038,6 +7981,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "654282",
+        "title": "Робот пылесос Dreame F21 PRO",
+        "price": 139990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f21-pro",
+        "brand": "Dreame",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_287_0_1_5avaJ1_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 17.6,
+      "base_price": 169990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "39980",
         "title": "Блендер погружной BORK B784",
@@ -8062,6 +8032,35 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1319939",
+        "title": "Духовой шкаф Samsung NV68A1110BB/WT",
+        "price": 119990,
+        "old_price": 239990,
+        "url": "https://alser.kz/p/nv68a1110bbwtvstraivaemaa-duhovka-samsung",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/duhovye-shkafy/OBNQ0Ibvo/nv68a1110bbwtvstraivaemaa-duhovka-samsung-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 17.2,
+      "base_price": 144990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 32.8
     },
     {
       "product": {
@@ -8291,41 +8290,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-06T21:20:00+00:00",
-      "item_count": 2474,
+      "last_crawl": "2026-10-07T01:55:56+00:00",
+      "item_count": 2460,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-06T21:20:00+00:00",
+      "last_crawl": "2026-10-07T01:55:56+00:00",
       "item_count": 12154,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-06T21:20:00+00:00",
-      "item_count": 3655,
+      "last_crawl": "2026-10-07T01:55:56+00:00",
+      "item_count": 3722,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-06T21:20:00+00:00",
+      "last_crawl": "2026-10-07T01:55:56+00:00",
       "item_count": 9567,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-06T21:20:00+00:00",
-      "item_count": 622,
+      "last_crawl": "2026-10-07T01:55:56+00:00",
+      "item_count": 581,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28472,
+    "total_products": 28484,
     "total_deals": 300,
     "avg_discount": 50.5
   }
