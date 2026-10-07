@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T09:03:37.405112+00:00",
+  "updated_at": "2026-10-07T17:46:22.634363+00:00",
   "deals": [
     {
       "product": {
@@ -104,7 +104,7 @@
       "drop_pct": 64,
       "fair_discount": 52.4,
       "base_price": 62990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -157,7 +157,7 @@
       "drop_pct": 62,
       "fair_discount": 61.5,
       "base_price": 129990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -192,33 +192,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 13.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1331257",
-        "title": "Швабра паровая Kitfort KT-1006",
-        "price": 15990,
-        "old_price": 37290,
-        "url": "https://alser.kz/p/svabra-parovaa-kitfort-kt-1006",
-        "brand": "Kitfort",
-        "category": null,
-        "group": "other",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://cdn.alser.kz/products/no_photo/no_photo.png",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 57.1,
-      "base_price": 37290,
-      "value_score": 82,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -351,7 +324,7 @@
       "drop_pct": 55,
       "fair_discount": 55.2,
       "base_price": 66990,
-      "value_score": 100,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -491,6 +464,34 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "44700",
+        "title": "Телевизор Samsung 75\" Neo QLED 4K QE75QN90FAUXCE",
+        "price": 1499990,
+        "old_price": 2879990,
+        "url": "https://evrika.com/catalog/televizor-75-qe75qn90fauxce-neoqled-4k/p44700",
+        "brand": null,
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/R9YfmEzXX3vPeZO4u6b6dbSYu7iEWLiX1iKxW8Wh.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 48,
+      "fair_discount": 40.0,
+      "base_price": 2499990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "44295",
         "title": "Чайник Moulinex BY6R5130",
         "price": 22990,
@@ -537,6 +538,35 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640215",
+        "title": "Neo QLED телевизор Samsung QE75QN90FAUXCE",
+        "price": 1499990,
+        "old_price": 2879990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn90fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20437_0_1_w23aqV_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 48,
+      "fair_discount": 40.0,
+      "base_price": 2499990,
+      "value_score": 98,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 8.0
     },
     {
       "product": {
@@ -954,7 +984,7 @@
       "drop_pct": 69,
       "fair_discount": 0.0,
       "base_price": 49990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1501,7 +1531,7 @@
       "drop_pct": 62,
       "fair_discount": 37.5,
       "base_price": 39990,
-      "value_score": 86,
+      "value_score": 81,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1939,7 +1969,7 @@
       "drop_pct": 59,
       "fair_discount": 27.8,
       "base_price": 17990,
-      "value_score": 72,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1967,7 +1997,7 @@
       "drop_pct": 59,
       "fair_discount": 40.0,
       "base_price": 49990,
-      "value_score": 98,
+      "value_score": 94,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -2024,7 +2054,7 @@
       "drop_pct": 59,
       "fair_discount": 31.3,
       "base_price": 15990,
-      "value_score": 74,
+      "value_score": 69,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2466,7 +2496,7 @@
       "drop_pct": 57,
       "fair_discount": 25.0,
       "base_price": 39990,
-      "value_score": 77,
+      "value_score": 73,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2495,7 +2525,7 @@
       "drop_pct": 57,
       "fair_discount": 40.0,
       "base_price": 49990,
-      "value_score": 88,
+      "value_score": 84,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -2503,6 +2533,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1331257",
+        "title": "Швабра паровая Kitfort KT-1006",
+        "price": 15990,
+        "old_price": 37290,
+        "url": "https://alser.kz/p/svabra-parovaa-kitfort-kt-1006",
+        "brand": "Kitfort",
+        "category": null,
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://cdn.alser.kz/products/no_photo/no_photo.png",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 0.0,
+      "base_price": 15990,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 57.0
     },
     {
       "product": {
@@ -3482,7 +3539,7 @@
       "drop_pct": 54,
       "fair_discount": 30.4,
       "base_price": 22990,
-      "value_score": 76,
+      "value_score": 72,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -3872,33 +3929,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "624592",
-        "title": "Наушники ARG A046 Black",
-        "price": 14990,
-        "old_price": 29990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-a046-black",
-        "brand": "ARG",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2246_0_1_oWpucA_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "44460",
         "title": "Ручной отпариватель Tefal DT1R04F1",
@@ -4036,50 +4066,23 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "654089",
-        "title": "Ручной отпариватель Tefal DT1R04F1",
-        "price": 16990,
-        "old_price": 33990,
-        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1r04f1",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_310_0_1_QK8KH8_160.webp",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "622142",
-        "title": "Наушники ARG F6 Black",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
+        "sku": "624592",
+        "title": "Наушники ARG A046 Black",
+        "price": 14990,
+        "old_price": 29990,
+        "url": "https://www.sulpak.kz/g/naushniki-arg-a046-black",
         "brand": "ARG",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2246_0_1_oWpucA_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 19990,
+      "base_price": 14990,
       "value_score": 31,
       "is_pick": false,
       "badges": [
@@ -4314,34 +4317,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1365794",
-        "title": "Хлебопечь Panasonic SD-YR2540HTS",
-        "price": 79990,
-        "old_price": 162990,
-        "url": "https://alser.kz/p/hlebopec-panasonic-sd-yr2540hts",
-        "brand": "Panasonic",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://s3s.alser.kz/uploads/products/hlebopechki/oeAxgf5l0/hlebopec-panasonic-sd-yr2540hts-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 51,
-      "fair_discount": 50.9,
-      "base_price": 162990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "286094",
         "title": "Набор посуды 6пр. Polaris Loretto-06S",
@@ -4367,33 +4342,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -30.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1300492",
-        "title": "Микроволновая печь Midea AM720C4E-S, Gray, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/mikrovolnovaa-pec-midea-am720c4e-s",
-        "brand": "Midea",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/OBNJPTVp9/mikrovolnovaa-pec-midea-am720c4e-s-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 50.0,
-      "base_price": 39990,
-      "value_score": 82,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -4592,64 +4540,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1319477",
-        "title": "Сушильная машина Samsung DV90T6240LX/LP",
-        "price": 239990,
-        "old_price": 439990,
-        "url": "https://alser.kz/p/dv90t6240lxlpsusilnaa-masina-samsung",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://s3s.alser.kz/uploads/products/sushil-nye-avtomaty/bxGaKSXxe/dv90t6240lxlpsusilnaa-masina-samsung-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 45.5,
-      "base_price": 439990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453268",
-        "title": "Смартфон Samsung Galaxy A56 5G 128GB, Awesome Lightgray (SM-A566EZAASKZ)",
-        "price": 119990,
-        "old_price": 219890,
-        "url": "https://alser.kz/p/smartfon-samsung-galaxy-a56-5g-128gb-awesome-lightgray-sm-a566ezaaskz",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://s3s.alser.kz/uploads/products/smartfony-samsung/X8e7lc18G/smartfon-samsung-galaxy-a56-5g-128gb-awesome-lightgray-sm-a566ezaaskz-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 45.4,
-      "base_price": 219890,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1442376",
         "title": "Фен складной Dreame Pocket, Gold (AHD51), 1300 Вт, 2 насадки, ионизация, чехол",
         "price": 19990,
@@ -4751,7 +4641,7 @@
       "drop_pct": 15,
       "fair_discount": 40.0,
       "base_price": 109990,
-      "value_score": 98,
+      "value_score": 94,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -5377,7 +5267,7 @@
       "drop_pct": 54,
       "fair_discount": 33.3,
       "base_price": 29990,
-      "value_score": 81,
+      "value_score": 76,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5884,7 +5774,7 @@
       "drop_pct": 52,
       "fair_discount": 30.4,
       "base_price": 22990,
-      "value_score": 76,
+      "value_score": 72,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5918,62 +5808,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44700",
-        "title": "Телевизор Samsung 75\" Neo QLED 4K QE75QN90FAUXCE",
-        "price": 1749990,
-        "old_price": 2879990,
-        "url": "https://evrika.com/catalog/televizor-75-qe75qn90fauxce-neoqled-4k/p44700",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/R9YfmEzXX3vPeZO4u6b6dbSYu7iEWLiX1iKxW8Wh.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 30.0,
-      "base_price": 2499990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 9.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640215",
-        "title": "Neo QLED телевизор Samsung QE75QN90FAUXCE",
-        "price": 1749990,
-        "old_price": 2879990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn90fauxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20437_0_1_w23aqV_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 30.0,
-      "base_price": 2499990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 9.0
     },
     {
       "product": {
@@ -6283,6 +6117,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "635808",
+        "title": "Хозяйственный пылесос Karcher KWD 1 W V-12/4/18 (BY-)",
+        "price": 37990,
+        "old_price": 52990,
+        "url": "https://www.sulpak.kz/g/piylesosiy-karcher-kwd-1-w-v-12418-by-",
+        "brand": "Karcher",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1263_0_1_H3vIjA_160.webp",
+        "first_seen": "2026-09-30T05:58:34+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 28.3,
+      "base_price": 52990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "294623",
         "title": "Мультипортовый адаптер CANYON 13in1 (DS-16)",
@@ -6566,7 +6427,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 63001,
+        "price": 62989,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -6774,7 +6635,7 @@
       "drop_pct": 45,
       "fair_discount": 26.7,
       "base_price": 149990,
-      "value_score": 70,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6870,6 +6731,33 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1622362",
+        "title": "Кофеварка Russell Hobbs 24390-56, White",
+        "price": 44090,
+        "old_price": 58990,
+        "url": "https://shop.kz/offer/kofevarka-russell-hobbs-24390-56-white/",
+        "brand": "Russell Hobbs",
+        "category": "Кофеварки, кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://static.shop.kz/upload/iblock/6e9/96jb605vqiwiq2842e4xrxh9fxt218s3/174529s2.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.3,
+      "base_price": 58990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "654030",
         "title": "MicroRGB телевизор Samsung MRE75R85HAUXCE",
@@ -6944,7 +6832,7 @@
       "drop_pct": 53,
       "fair_discount": 25.0,
       "base_price": 39990,
-      "value_score": 67,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6972,7 +6860,7 @@
       "drop_pct": 52,
       "fair_discount": 25.0,
       "base_price": 39990,
-      "value_score": 67,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7000,7 +6888,7 @@
       "drop_pct": 50,
       "fair_discount": 25.0,
       "base_price": 39990,
-      "value_score": 67,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7028,7 +6916,7 @@
       "drop_pct": 50,
       "fair_discount": 25.0,
       "base_price": 39990,
-      "value_score": 67,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7167,7 +7055,7 @@
       "drop_pct": 48,
       "fair_discount": 23.5,
       "base_price": 16990,
-      "value_score": 64,
+      "value_score": 60,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7223,7 +7111,7 @@
       "drop_pct": 53,
       "fair_discount": 23.1,
       "base_price": 259990,
-      "value_score": 64,
+      "value_score": 59,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7344,6 +7232,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640217",
+        "title": "Neo QLED телевизор Samsung QE55QN90FAUXCE",
+        "price": 699990,
+        "old_price": 1179990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe55qn90fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20439_0_1_HGj7Na_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 22.2,
+      "base_price": 899990,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.8
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1457778",
         "title": "Кухонная плита Artel Apetito 01-G серый",
@@ -7390,7 +7307,7 @@
       "drop_pct": 46,
       "fair_discount": 22.2,
       "base_price": 89990,
-      "value_score": 57,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7424,6 +7341,34 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623365",
+        "title": "Саундбар LG S60T",
+        "price": 134190,
+        "old_price": 169990,
+        "url": "https://www.sulpak.kz/g/saundbariy-lg-s60t",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_776_170_0_6_083yND_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.1,
+      "base_price": 169990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -7611,7 +7556,7 @@
       "drop_pct": 20,
       "fair_discount": 20.0,
       "base_price": 99990,
-      "value_score": 53,
+      "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -7732,6 +7677,34 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1272941",
+        "title": "Мясорубка Moulinex ME306832",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/myasorubka-moulinex-me306832",
+        "brand": "Moulinex",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/mjasorubki/489kahwqj/myasorubka-moulinex-me306832-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 20.0,
+      "base_price": 24990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1432452",
         "title": "Посудомоечная машина Hansa ZWM536SH",
         "price": 39990,
@@ -7777,13 +7750,40 @@
       "drop_pct": 44,
       "fair_discount": 20.0,
       "base_price": 49990,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
       "inflated_gap": 24.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1622746",
+        "title": "Парогенератор Centek CT-2302, White",
+        "price": 40790,
+        "old_price": 55590,
+        "url": "https://shop.kz/offer/parogenerator-centek-ct-2302-white/",
+        "brand": "Centek",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://static.shop.kz/upload/iblock/a98/prkl9s3to86bva1ni56tjojfk9k7dtaf/175704s1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 19.7,
+      "base_price": 50790,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.3
     },
     {
       "product": {
@@ -7814,34 +7814,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "631030",
-        "title": "Пылесос Tefal Swift Power Cyclonic TW2947EA",
-        "price": 52990,
-        "old_price": 91990,
-        "url": "https://www.sulpak.kz/g/piylesosiy-tefal-tw2947ea",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1209_0_1_flWU8o_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 18.5,
-      "base_price": 64990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.5
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "40021",
         "title": "Фен BORK F730 gg",
@@ -7866,6 +7838,33 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1525053",
+        "title": "Электрощипцы для завивки Scarlett SC-HS60010, Black",
+        "price": 14100,
+        "old_price": 17290,
+        "url": "https://shop.kz/offer/elektroshchiptsy-dlya-zavivki-scarlett-sc-hs60010-black/",
+        "brand": "Scarlett",
+        "category": "Фены, электрощипцы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://static.shop.kz/upload/iblock/865/t04arhfnzm717glf20gwpmslerosiaos/16723712.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 18.4,
+      "base_price": 17290,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -7942,33 +7941,6 @@
       "drop_pct": null,
       "fair_discount": 17.8,
       "base_price": 542090,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654282",
-        "title": "Робот пылесос Dreame F21 PRO",
-        "price": 139990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f21-pro",
-        "brand": "Dreame",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_287_0_1_5avaJ1_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 17.6,
-      "base_price": 169990,
       "value_score": 54,
       "is_pick": false,
       "badges": [
@@ -8058,6 +8030,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 7.9
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "578840",
+        "title": "Электробритва Panasonic ES-3042S520",
+        "price": 24590,
+        "old_price": 31990,
+        "url": "https://shop.kz/offer/elektrobritva-panasonic-es-3042s520/",
+        "brand": "Panasonic",
+        "category": "Электробритвы, эпиляторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://static.shop.kz/upload/iblock/379/134558_1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 16.9,
+      "base_price": 29590,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.1
     },
     {
       "product": {
@@ -8224,6 +8223,34 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1453325",
+        "title": "Вертикальный моющий пылесос Trouver M10 Pro , Самоочистка, 300Вт, 40 мин",
+        "price": 109990,
+        "old_price": 199990,
+        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min",
+        "brand": "Trouver",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/Q1GGwc91B/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 15.4,
+      "base_price": 129990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.6
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "46904",
         "title": "Монитор LG 23.8 24G411-B (1920x1080)/ 144 Hz/ 1 ms",
@@ -8248,33 +8275,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 13.7
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40780",
-        "title": "Встраиваемая посудомоечная машина LG QuadWash DB242TX",
-        "price": 264990,
-        "old_price": 311990,
-        "url": "https://evrika.com/catalog/posudomoechnaya-mashina-lg-db242tx/p40780",
-        "brand": null,
-        "category": "Встраиваемые посудомоечные машины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/C0ndLSeiS1P8KLmRJ15W1grFKSya87EHaOLWwphJ.jpg.webp",
-        "first_seen": "2026-09-21T13:16:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 15.1,
-      "base_price": 311990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
     }
   ],
   "shops": [
@@ -8288,41 +8288,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-07T09:03:21+00:00",
-      "item_count": 2472,
+      "last_crawl": "2026-10-07T17:46:04+00:00",
+      "item_count": 2471,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-07T09:03:21+00:00",
-      "item_count": 12154,
+      "last_crawl": "2026-10-07T17:46:04+00:00",
+      "item_count": 12152,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-07T09:03:21+00:00",
-      "item_count": 3667,
+      "last_crawl": "2026-10-07T17:46:04+00:00",
+      "item_count": 3731,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-07T09:03:21+00:00",
-      "item_count": 9629,
+      "last_crawl": "2026-10-07T17:46:04+00:00",
+      "item_count": 9626,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-07T09:03:21+00:00",
-      "item_count": 493,
+      "last_crawl": "2026-10-07T17:46:04+00:00",
+      "item_count": 440,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28415,
+    "total_products": 28420,
     "total_deals": 300,
     "avg_discount": 50.0
   }
