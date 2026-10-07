@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T01:56:12.956239+00:00",
+  "updated_at": "2026-10-07T09:03:37.405112+00:00",
   "deals": [
     {
       "product": {
@@ -352,35 +352,6 @@
       "fair_discount": 55.2,
       "base_price": 66990,
       "value_score": 100,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1254617",
-        "title": "Пылесос контейнерный Samsung VC2100M, Red, VC18M21C0VR/EV, (Управление на корпусе, 3 насадки, 1,5 л, 1800/380 Вт)",
-        "price": 29990,
-        "old_price": 66990,
-        "url": "https://alser.kz/p/pylesos-samsung-vc18m21c0vr-1800vt-krasnyj",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/7qMpjUZ5q/pylesos-samsung-vc18m21c0vr-1800vt-krasnyj-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 55.2,
-      "base_price": 66990,
-      "value_score": 92,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -955,10 +926,9 @@
       "drop_pct": 70,
       "fair_discount": 33.3,
       "base_price": 44990,
-      "value_score": 81,
-      "is_pick": true,
+      "value_score": 76,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Рисованная?"
       ],
@@ -3549,6 +3519,34 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1288110",
+        "title": "Струйный принтер Epson M1100",
+        "price": 49990,
+        "old_price": 108790,
+        "url": "https://alser.kz/p/strujnyj-printer-epson-m1100-a4-1440x720dpi-32strmin-usb-20-c11cg95405",
+        "brand": "Epson",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://s3s.alser.kz/uploads/products/printery-snpch/M1X7OFRxD/strujnyj-printer-epson-m1100-a4-1440x720dpi-32strmin-usb-20-c11cg95405-w160.webp",
+        "first_seen": "2026-09-19T16:16:46+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 28.6,
+      "base_price": 69990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.4
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "622202",
         "title": "Комбинированная плита Gorenje GK6A20WF",
@@ -4223,7 +4221,7 @@
       "drop_pct": 54,
       "fair_discount": 53.9,
       "base_price": 129990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4993,6 +4991,34 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "276480",
+        "title": "Столовый набор 32пр Белый Empire H2023-553",
+        "price": 34990,
+        "old_price": 53990,
+        "url": "https://www.technodom.kz/p/stolovyj-nabor-32pr-belyj-empire-h2023-553-276480",
+        "brand": "Empire",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://api.technodom.kz/f3/api/v1/images/stolovyj_nabor_32pr_belyj_empire_h2023_553_276480_12as.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.2,
+      "base_price": 53990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "219631",
         "title": "Ковш 1,3л Polaris Monolit-16SP",
         "price": 12990,
@@ -5609,7 +5635,7 @@
       "drop_pct": 32,
       "fair_discount": 32.3,
       "base_price": 132990,
-      "value_score": 85,
+      "value_score": 81,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -6257,34 +6283,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1288110",
-        "title": "Струйный принтер Epson M1100",
-        "price": 49990,
-        "old_price": 108790,
-        "url": "https://alser.kz/p/strujnyj-printer-epson-m1100-a4-1440x720dpi-32strmin-usb-20-c11cg95405",
-        "brand": "Epson",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://s3s.alser.kz/uploads/products/printery-snpch/M1X7OFRxD/strujnyj-printer-epson-m1100-a4-1440x720dpi-32strmin-usb-20-c11cg95405-w160.webp",
-        "first_seen": "2026-09-19T16:16:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 28.6,
-      "base_price": 69990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.4
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "294623",
         "title": "Мультипортовый адаптер CANYON 13in1 (DS-16)",
@@ -6568,7 +6566,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 63026,
+        "price": 63001,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -6665,10 +6663,9 @@
       "drop_pct": null,
       "fair_discount": 27.3,
       "base_price": 1993175,
-      "value_score": 81,
-      "is_pick": true,
+      "value_score": 77,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
       ],
@@ -6729,33 +6726,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "275868",
-        "title": "Сковорода 26см Polaris ECO collection-26F",
-        "price": 18990,
-        "old_price": 24990,
-        "url": "https://www.technodom.kz/p/skovoroda-26sm-polaris-eco-collection-26f-275868",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://api.technodom.kz/f3/api/v1/images/skovoroda_26sm_polaris_eco_collection_26f_275868_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 26.9,
-      "base_price": 25990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -2.9
     },
     {
       "product": {
@@ -7420,7 +7390,7 @@
       "drop_pct": 46,
       "fair_discount": 22.2,
       "base_price": 89990,
-      "value_score": 62,
+      "value_score": 57,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7641,7 +7611,7 @@
       "drop_pct": 20,
       "fair_discount": 20.0,
       "base_price": 99990,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -7833,8 +7803,8 @@
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 19.6,
-      "base_price": 16039,
+      "fair_discount": 19.4,
+      "base_price": 15990,
       "value_score": 53,
       "is_pick": false,
       "badges": [
@@ -8091,6 +8061,34 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1433294",
+        "title": "Вертикальный пылесос Trouver J30, Black (VJ12A), 2 в 1, подсветка, 150 Вт, 60 мин, 5 насадок",
+        "price": 39990,
+        "old_price": 79990,
+        "url": "https://alser.kz/p/besprovodnoj-vertikalnyj-pylesos-dreame-cordless-vacuum-cleaner-trouver-j30",
+        "brand": "Trouver",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/VXwdRTBnj/besprovodnoj-vertikalnyj-pylesos-dreame-cordless-vacuum-cleaner-trouver-j30-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 16.7,
+      "base_price": 47990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 33.3
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "40984",
         "title": "Холодильник LG Side-by-Side GC-Q257CAFV",
@@ -8271,7 +8269,7 @@
       "drop_pct": 15,
       "fair_discount": 15.1,
       "base_price": 311990,
-      "value_score": 45,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -8290,42 +8288,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-07T01:55:56+00:00",
-      "item_count": 2460,
+      "last_crawl": "2026-10-07T09:03:21+00:00",
+      "item_count": 2472,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-07T01:55:56+00:00",
+      "last_crawl": "2026-10-07T09:03:21+00:00",
       "item_count": 12154,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-07T01:55:56+00:00",
-      "item_count": 3722,
+      "last_crawl": "2026-10-07T09:03:21+00:00",
+      "item_count": 3667,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-07T01:55:56+00:00",
-      "item_count": 9567,
+      "last_crawl": "2026-10-07T09:03:21+00:00",
+      "item_count": 9629,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-07T01:55:56+00:00",
-      "item_count": 581,
+      "last_crawl": "2026-10-07T09:03:21+00:00",
+      "item_count": 493,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28484,
+    "total_products": 28415,
     "total_deals": 300,
-    "avg_discount": 50.5
+    "avg_discount": 50.0
   }
 }
