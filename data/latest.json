@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T17:46:22.634363+00:00",
+  "updated_at": "2026-10-07T23:28:17.696889+00:00",
   "deals": [
     {
       "product": {
@@ -4178,35 +4178,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1322817",
-        "title": "Пылесос контейнерный LG VC5420NHTCG, Gray (Управление на ручке, 4 насадки, 1,3 л, 2000/380 Вт)",
-        "price": 29990,
-        "old_price": 64990,
-        "url": "https://alser.kz/p/pylesos-lg-vc5420nhtcg-iron-gray",
-        "brand": "LG",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://s3s.alser.kz/uploads/products/pylesosy/WoGVvCqpp/pylesos-lg-vc5420nhtcg-iron-gray-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 53.9,
-      "base_price": 64990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1456435",
         "title": "Мультистайлер Dreame Dazzle, Gold, 1400 Вт, 5 насадок, 3 режима",
         "price": 59990,
@@ -5702,6 +5673,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "625498",
+        "title": "Наушники Apple AirPods 4th Gen with Active Noise Cancellation (MXP93ZE/A)",
+        "price": 86590,
+        "old_price": 125990,
+        "url": "https://www.sulpak.kz/g/naushniki-apple-mxp93zea",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2262_0_1_uL1KYf_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.9,
+      "base_price": 125290,
+      "value_score": 87,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "292294",
         "title": "Встраиваемая электрическая варочная панель Midea MCH-B633CK",
@@ -5918,34 +5918,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 22.6
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "631704",
-        "title": "Смартфон Honor Magic 7 12/256GB Black",
-        "price": 389990,
-        "old_price": 569990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-magic-7-12256gb-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6433_0_1_RRkXAq_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 29.1,
-      "base_price": 549990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 2.9
     },
     {
       "product": {
@@ -6168,35 +6140,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "625498",
-        "title": "Наушники Apple AirPods 4th Gen with Active Noise Cancellation (MXP93ZE/A)",
-        "price": 89990,
-        "old_price": 125990,
-        "url": "https://www.sulpak.kz/g/naushniki-apple-mxp93zea",
-        "brand": "Apple",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2262_0_1_uL1KYf_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 28.2,
-      "base_price": 125290,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.8
     },
     {
       "product": {
@@ -6427,7 +6370,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 62989,
+        "price": 62978,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -6524,9 +6467,10 @@
       "drop_pct": null,
       "fair_discount": 27.3,
       "base_price": 1993175,
-      "value_score": 77,
-      "is_pick": false,
+      "value_score": 81,
+      "is_pick": true,
       "badges": [
+        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
       ],
@@ -7317,61 +7261,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "655661",
-        "title": "Чайник Gorenje K17GXG",
-        "price": 14990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-gorenje-k17gxg",
-        "brand": "Gorenje",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_1112_0_1_XMVYqC_160.webp",
-        "first_seen": "2026-09-28T20:54:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 21.1,
-      "base_price": 18990,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623365",
-        "title": "Саундбар LG S60T",
-        "price": 134190,
-        "old_price": 169990,
-        "url": "https://www.sulpak.kz/g/saundbariy-lg-s60t",
-        "brand": "LG",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_776_170_0_6_083yND_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.1,
-      "base_price": 169990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1432457",
         "title": "Игровой Монитор 28” Samsung Odyssey G7 Smart LS28BG700EIXCI",
@@ -7398,6 +7287,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 32.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631704",
+        "title": "Смартфон Honor Magic 7 12/256GB Black",
+        "price": 389990,
+        "old_price": 569990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-magic-7-12256gb-black",
+        "brand": "HONOR",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6433_0_1_RRkXAq_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 21.0,
+      "base_price": 493490,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
     },
     {
       "product": {
@@ -7814,6 +7730,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "631030",
+        "title": "Пылесос Tefal Swift Power Cyclonic TW2947EA",
+        "price": 52990,
+        "old_price": 91990,
+        "url": "https://www.sulpak.kz/g/piylesosiy-tefal-tw2947ea",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1209_0_1_flWU8o_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 18.5,
+      "base_price": 64990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.5
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "40021",
         "title": "Фен BORK F730 gg",
@@ -7865,6 +7809,35 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623361",
+        "title": "Саундбар LG SG10TY",
+        "price": 244990,
+        "old_price": 439990,
+        "url": "https://www.sulpak.kz/g/saundbariy-lg-sg10ty",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_776_166_0_6_95Vr6D_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 18.3,
+      "base_price": 299990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.7
     },
     {
       "product": {
@@ -8275,6 +8248,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 13.7
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1455882",
+        "title": "Монитор XTREON 24.5\" XT2553E 240Гц FHD VA, 300.0 кд/м2, 1мс, HDMI/DP",
+        "price": 34000,
+        "old_price": 72490,
+        "url": "https://alser.kz/p/monitor-xtreon-245-xt2553e-240gc-fhd-va-3000-kdm2-1ms-hdmidp",
+        "brand": "XTREON",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://s3s.alser.kz/uploads/products/vse-monitory/pjV9PIOrp/monitor-xtreon-245-xt2553e-240gc-fhd-va-3000-kdm2-1ms-hdmidp-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 15.0,
+      "base_price": 40000,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 38.0
     }
   ],
   "shops": [
@@ -8288,41 +8289,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-07T17:46:04+00:00",
-      "item_count": 2471,
+      "last_crawl": "2026-10-07T23:28:00+00:00",
+      "item_count": 2477,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-07T17:46:04+00:00",
+      "last_crawl": "2026-10-07T23:28:00+00:00",
       "item_count": 12152,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-07T17:46:04+00:00",
-      "item_count": 3731,
+      "last_crawl": "2026-10-07T23:28:00+00:00",
+      "item_count": 3711,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-07T17:46:04+00:00",
-      "item_count": 9626,
+      "last_crawl": "2026-10-07T23:28:00+00:00",
+      "item_count": 9628,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-07T17:46:04+00:00",
-      "item_count": 440,
+      "last_crawl": "2026-10-07T23:28:00+00:00",
+      "item_count": 438,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28420,
+    "total_products": 28406,
     "total_deals": 300,
     "avg_discount": 50.0
   }
