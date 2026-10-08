@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T05:21:21.722658+00:00",
+  "updated_at": "2026-10-08T07:22:18.140708+00:00",
   "deals": [
     {
       "product": {
@@ -1429,6 +1429,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200012616",
+        "title": "Сушильная машина BEKO B3T 68230",
+        "price": 169990,
+        "old_price": 339990,
+        "url": "https://www.mechta.kz/product/sushilnaya-mashina-beko-b3t-68230/",
+        "brand": "Beko",
+        "category": "Сушильные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/5486a668-39e1-11ef-a267-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 50.0,
+      "base_price": 339990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200001286",
         "title": "Кухонная машина POLARIS PKM 1104",
         "price": 79990,
@@ -2278,34 +2306,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018094",
-        "title": "Телевизор Samsung Neo QLED QE75QN80FAUXCE UHD SMART",
-        "price": 949990,
-        "old_price": 1599990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn80fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/ed8480bd-926a-491d-bf3d-a39f87aac9e5?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 26.9,
-      "base_price": 1299990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 14.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018113",
         "title": "Телевизор Samsung Neo QLED QE85QN900FUXCE 8K SMART",
         "price": 2199990,
@@ -2393,34 +2393,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018099",
-        "title": "Телевизор Samsung Neo QLED QE75QN85FAUXCE UHD SMART",
-        "price": 1099990,
-        "old_price": 1849990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn85fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/6e760c50-9faa-41f2-98ca-fb6651b9b73d?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 26.7,
-      "base_price": 1499990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 14.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018112",
         "title": "Телевизор Samsung Neo QLED QE75QN900FUXCE 8K SMART",
         "price": 1699990,
@@ -2502,14 +2474,43 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011937",
+        "title": "Игровая гарнитура SONY INZONE Buds WF-G700N/WZE TWS (White)",
+        "price": 59990,
+        "old_price": 129990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-sony-inzone-buds-wf-g700nwze-tws-white/",
+        "brand": "Sony",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/5879b6e5-17fe-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 25.0,
+      "base_price": 79990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-08T05:21:16+00:00",
-      "item_count": 7716,
+      "last_crawl": "2026-10-08T07:21:56+00:00",
+      "item_count": 7710,
       "status": "ok"
     },
     {
@@ -2549,7 +2550,7 @@
     }
   ],
   "stats": {
-    "total_products": 7716,
+    "total_products": 7710,
     "total_deals": 90,
     "avg_discount": 61.0
   }
