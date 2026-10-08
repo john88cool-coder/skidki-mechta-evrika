@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T23:28:17.696889+00:00",
+  "updated_at": "2026-10-08T06:30:27.465746+00:00",
   "deals": [
     {
       "product": {
@@ -25,35 +25,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1413698",
-        "title": "Планшет Galaxy Tab S9 11\" 5G 128GB, SM-X716BZAASKZ, graphite",
-        "price": 159990,
-        "old_price": 519990,
-        "url": "https://alser.kz/p/planset-galaxy-tab-s9-11-5g-128gb-sm-x716bzaaskz-graphite",
-        "brand": "Samsung",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://s3s.alser.kz/uploads/products/planshety-samsung/g4padT1bg/planset-galaxy-tab-s9-11-5g-128gb-sm-x716bzaaskz-graphite-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": 54.3,
-      "base_price": 349990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 14.7
     },
     {
       "product": {
@@ -220,6 +191,31 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "295515",
+        "title": "Игровой компьютер TechnoGaming 292(AR7-7800X3D/RTX5070TI 16GB/D5 32GB/SSD 2TB/B850 MLG/MSI PANO 130R MLG)",
+        "price": 1500990,
+        "old_price": 3429990,
+        "url": "https://www.technodom.kz/p/igrovoy-pk-technogaming-292-ar7-7800x3d-rtx5070ti-16gb-d5-32gb-ssd-2tb-b850-mlg-msi-pano-130r-mlg-295515",
+        "brand": "TechnoGaming",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://api.technodom.kz/f3/api/v1/images/295515_1aa.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1448063",
         "title": "Кондиционер Inverter AUX ASW-H12A4/CAR3DI, White, (WindFree, Wi-Fi, 25-35 м², 12 000 BTU, 7 режимов)",
@@ -267,35 +263,6 @@
       "fair_discount": 55.0,
       "base_price": 799990,
       "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "269518",
-        "title": "Ноутбук Apple MacBook Pro Space Grey 2023 M2 Pro / 16ГБ / 512SSD / 16 / Mac OS Ventura / (MNW83RU/A)",
-        "price": 710990,
-        "old_price": 1579990,
-        "url": "https://www.technodom.kz/p/noutbuk-apple-macbook-pro-16-space-grey-2023-mnw83ru-269518",
-        "brand": "Apple",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://api.technodom.kz/f3/api/v1/images/noutbuk_apple_macbook_pro_16_space_grey_2023_mnw83ru_269518_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 55.0,
-      "base_price": 1579990,
-      "value_score": 100,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -649,6 +616,34 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1617790",
+        "title": "Отпариватель Tefal Pro Style One IT2460E0, White-Turquoise",
+        "price": 49990,
+        "old_price": 94000,
+        "url": "https://shop.kz/offer/otparivatel-tefal-pro-style-one-it2460e0-white-turquoise/",
+        "brand": "Tefal",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://static.shop.kz/upload/iblock/1d9/e1vbmnpvwsfm277dxfi44zdolkgizynq/173762o200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 46.8,
+      "base_price": 94000,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "48895",
         "title": "Варочная панель Electrolux EHF6547FXK",
@@ -773,6 +768,61 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1056855",
+        "title": "Гарнитура Logitech H340, Black",
+        "price": 12990,
+        "old_price": 21990,
+        "url": "https://shop.kz/offer/garnitura-logitech-h340-black/",
+        "brand": "Logitech",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://static.shop.kz/upload/iblock/016/112151_1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 41,
+      "fair_discount": 29.8,
+      "base_price": 18500,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1712849",
+        "title": "Отпариватель Russell Hobbs 27600-56, Blue",
+        "price": 77290,
+        "old_price": 128990,
+        "url": "https://shop.kz/offer/otparivatel-russell-hobbs-27600-56-blue/",
+        "brand": "Russell Hobbs",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://static.shop.kz/upload/iblock/44d/lk0b6myo0xemxyj5jy9js8g1p1hmqeve/193389s1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 40,
+      "fair_discount": 40.1,
+      "base_price": 128990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -956,13 +1006,41 @@
       "drop_pct": 70,
       "fair_discount": 33.3,
       "base_price": 44990,
-      "value_score": 76,
+      "value_score": 73,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
       "inflated_gap": 36.7
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1413698",
+        "title": "Планшет Galaxy Tab S9 11\" 5G 128GB, SM-X716BZAASKZ, graphite",
+        "price": 159990,
+        "old_price": 519990,
+        "url": "https://alser.kz/p/planset-galaxy-tab-s9-11-5g-128gb-sm-x716bzaaskz-graphite",
+        "brand": "Samsung",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://s3s.alser.kz/uploads/products/planshety-samsung/g4padT1bg/planset-galaxy-tab-s9-11-5g-128gb-sm-x716bzaaskz-graphite-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 0.0,
+      "base_price": 159990,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 69.0
     },
     {
       "product": {
@@ -2731,33 +2809,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "295515",
-        "title": "Игровой компьютер TechnoGaming 292(AR7-7800X3D/RTX5070TI 16GB/D5 32GB/SSD 2TB/B850 MLG/MSI PANO 130R MLG)",
-        "price": 1500990,
-        "old_price": 3429990,
-        "url": "https://www.technodom.kz/p/igrovoy-pk-technogaming-292-ar7-7800x3d-rtx5070ti-16gb-d5-32gb-ssd-2tb-b850-mlg-msi-pano-130r-mlg-295515",
-        "brand": "TechnoGaming",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295515_1aa.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "base_price": 1500990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "276508",
         "title": "Кофеварка рожковая Rondell RDE-1106",
         "price": 45990,
@@ -3114,6 +3165,34 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "269518",
+        "title": "Ноутбук Apple MacBook Pro Space Grey 2023 M2 Pro / 16ГБ / 512SSD / 16 / Mac OS Ventura / (MNW83RU/A)",
+        "price": 710990,
+        "old_price": 1579990,
+        "url": "https://www.technodom.kz/p/noutbuk-apple-macbook-pro-16-space-grey-2023-mnw83ru-269518",
+        "brand": "Apple",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://api.technodom.kz/f3/api/v1/images/noutbuk_apple_macbook_pro_16_space_grey_2023_mnw83ru_269518_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 0.0,
+      "base_price": 710990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 55.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "280981",
         "title": "Насадка противень для запекания Tefal XA-735810 на OptiGrill 2in1 XL",
         "price": 22990,
@@ -3359,33 +3438,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1725987",
-        "title": "Колонка портативная Sven PS-420 (2.0), Black (SN:9e1e8fc7-f43b-46cb-ac7e-37ee397ca8b9)",
-        "price": 12904,
-        "old_price": 27990,
-        "url": "https://shop.kz/offer/kolonka-portativnaya-sven-ps-420-2-0-black-sn-9e1e8fc7-f43b-46cb-ac7e-37ee397ca8b9/",
-        "brand": "Sven",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://static.shop.kz/upload/iblock/414/qa64rpa9v8xopl0ndfz0kcdmwn11kkgw/133647_1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 0.0,
-      "base_price": 12904,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 54.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "622270",
         "title": "Чайник Candy CK-203",
@@ -3459,6 +3511,33 @@
       "fair_discount": 0.0,
       "base_price": 12990,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 54.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1725987",
+        "title": "Колонка портативная Sven PS-420 (2.0), Black (SN:9e1e8fc7-f43b-46cb-ac7e-37ee397ca8b9)",
+        "price": 12904,
+        "old_price": 27990,
+        "url": "https://shop.kz/offer/kolonka-portativnaya-sven-ps-420-2-0-black-sn-9e1e8fc7-f43b-46cb-ac7e-37ee397ca8b9/",
+        "brand": "Sven",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://static.shop.kz/upload/iblock/414/qa64rpa9v8xopl0ndfz0kcdmwn11kkgw/133647_1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 0.0,
+      "base_price": 12904,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3847,60 +3926,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1272522",
-        "title": "Смартфон vivo Y15s, 32GB, Mystic Blue (V2120)",
-        "price": 39990,
-        "old_price": 79990,
-        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-mystic-blue-v2120/",
-        "brand": "vivo",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://static.shop.kz/upload/iblock/4a6/q2flwxsxko6ys27ts1oh0c21og0l7m4y/159538s1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 39990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1272252",
-        "title": "Смартфон vivo Y15s, 32GB, Wave Green (V2120)",
-        "price": 39990,
-        "old_price": 79990,
-        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-wave-green-v2120/",
-        "brand": "vivo",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://static.shop.kz/upload/iblock/9b6/brgghse53ze8nwk1hcrargix13lqzmu2/159539s1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 39990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "623481",
         "title": "Наушники Samsung Galaxy Buds3 Pro Silver",
@@ -4039,50 +4064,23 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1682513",
-        "title": "Отпариватель Scarlett SC-GS130S03, White-Violet (SN:95b29162-0b8f-4c57-a7a5-97bbb6b8c892)",
-        "price": 23990,
-        "old_price": 47690,
-        "url": "https://shop.kz/offer/otparivatel-scarlett-sc-gs130s03-white-violet-sn-95b29162-0b8f-4c57-a7a5-97bbb6b8c892/",
-        "brand": "Scarlett",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://static.shop.kz/upload/iblock/53f/jnney7rstcyv7dz1ns00086yjwdc07sq/157980s200.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 23990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624592",
-        "title": "Наушники ARG A046 Black",
-        "price": 14990,
-        "old_price": 29990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-a046-black",
-        "brand": "ARG",
-        "category": null,
+        "sku": "1272522",
+        "title": "Смартфон vivo Y15s, 32GB, Mystic Blue (V2120)",
+        "price": 39990,
+        "old_price": 79990,
+        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-mystic-blue-v2120/",
+        "brand": "vivo",
+        "category": "Смартфоны",
         "group": "phones",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2246_0_1_oWpucA_160.webp",
+        "image": "https://static.shop.kz/upload/iblock/4a6/q2flwxsxko6ys27ts1oh0c21og0l7m4y/159538s1.jpg",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 14990,
+      "base_price": 39990,
       "value_score": 31,
       "is_pick": false,
       "badges": [
@@ -4149,34 +4147,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "81277",
-        "title": "Электрическая варочная панель Hansa BHC-66206",
-        "price": 129990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/vstrpoverhnost-hansa-bhc-81277",
-        "brand": "Hansa",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/81277_1v.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 56.7,
-      "base_price": 299990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1456435",
         "title": "Мультистайлер Dreame Dazzle, Gold, 1400 Вт, 5 насадок, 3 режима",
@@ -4195,69 +4165,13 @@
       "drop_pct": 54,
       "fair_discount": 53.9,
       "base_price": 129990,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1259056",
-        "title": "Микроволновая печь Midea AM720C4E-W, White, 700 Вт, 20 л, 8 программ, Электронное управление, Эмаль, Solo",
-        "price": 19990,
-        "old_price": 42990,
-        "url": "https://alser.kz/p/mikrovolnovaa-pec-midea-am720c4e-w",
-        "brand": "Midea",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/e1qOyiedM/mikrovolnovaa-pec-midea-am720c4e-w-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 53.5,
-      "base_price": 42990,
-      "value_score": 82,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1446958",
-        "title": "Холодильник Samsung RT53DG7A10B1WT",
-        "price": 299990,
-        "old_price": 644990,
-        "url": "https://alser.kz/p/rt53dg7a10b1wtholodilnik-samsung",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://s3s.alser.kz/uploads/products/zogargy-mzdatkyspen/AxrWvIRpX/rt53dg7a10b1wtholodilnik-samsung-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 53.5,
-      "base_price": 644990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -4537,6 +4451,33 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1455923",
+        "title": "Машинка для стрижки волос Polaris, Black (PHC-3017RC), 5 насадок",
+        "price": 14990,
+        "old_price": 25990,
+        "url": "https://alser.kz/p/masinka-dla-strizki-volos-polaris-black-phc-3017rc-5-nasadok",
+        "brand": "Polaris",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://s3s.alser.kz/uploads/products/mashinki-dlja-strizhki-volos/ZJdqmHDKZ/masinka-dla-strizki-volos-polaris-black-phc-3017rc-5-nasadok-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 42.3,
+      "base_price": 25990,
+      "value_score": 85,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "269396",
         "title": "Мини-ПК Apple Mac Mini (M2-256-MOS) (MMFJ3RU/A)",
@@ -4651,6 +4592,34 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "39334",
+        "title": "Саундбар LG SC9S",
+        "price": 247490,
+        "old_price": 409990,
+        "url": "https://evrika.com/catalog/saundbar-lg-sc9s/p39334",
+        "brand": null,
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/YKXgpOGFYOtOCxdETHmOsAHSONJEJ6PcErZECqhU.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 39.6,
+      "base_price": 409990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "286462",
         "title": "МФУ струйное HP DeskJet IA 2876 A4-W (6W7E6C)",
@@ -4761,6 +4730,34 @@
         "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1451274",
+        "title": "Мультистайлер Dreame AirStyle Pro, Rose Gold (1300Вт, 7 насадок, Ионизация, 3 режима)",
+        "price": 99990,
+        "old_price": 159990,
+        "url": "https://alser.kz/p/multistajler-dreame-airstyle-pro-rose-gold-1300vt-7-nasadok-ionizacia-3-rezima",
+        "brand": "Dreame",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://s3s.alser.kz/uploads/products/stajlery/WoL7XIJKeE/multistajler-dreame-airstyle-pro-rose-gold-1300vt-7-nasadok-ionizacia-3-rezima-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 37.5,
+      "base_price": 159990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
       ],
       "inflated_gap": 0.5
     },
@@ -5249,6 +5246,34 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1445527",
+        "title": "Мышка игровая беспроводная Logitech G309 Белая (910-007207)",
+        "price": 19990,
+        "old_price": 42490,
+        "url": "https://alser.kz/p/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207",
+        "brand": "Logitech",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://s3s.alser.kz/uploads/products/myshi/dn5j8im55/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 33.3,
+      "base_price": 29990,
+      "value_score": 81,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.7
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1373860",
         "title": "МФУ HP LaserJet M141a (7MD73A)",
         "price": 39990,
@@ -5309,34 +5334,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1445527",
-        "title": "Мышка игровая беспроводная Logitech G309 Белая (910-007207)",
-        "price": 19990,
-        "old_price": 42490,
-        "url": "https://alser.kz/p/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207",
-        "brand": "Logitech",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://s3s.alser.kz/uploads/products/myshi/dn5j8im55/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 81,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.7
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1445013",
         "title": "Робот-пылесос Dreame D9 Max Gen 2, White (WHT RLD34GA), 6 000 Па, 250 м²",
         "price": 59990,
@@ -5361,6 +5358,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 11.7
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1443504",
+        "title": "Вертикальный пылесос Karcher VC 6 Cordless OurFamily, Black (1.198-670.0)",
+        "price": 79990,
+        "old_price": 139990,
+        "url": "https://alser.kz/p/vertikalnyj-pylesos-karcher-vc-6-cordless-ourfamily-black-1198-6700",
+        "brand": "Karcher",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/rBGrWiMNp/vertikalnyj-pylesos-karcher-vc-6-cordless-ourfamily-black-1198-6700-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 33.3,
+      "base_price": 119990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.7
     },
     {
       "product": {
@@ -5496,13 +5520,40 @@
       "drop_pct": 32,
       "fair_discount": 32.3,
       "base_price": 132990,
-      "value_score": 81,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48282",
+        "title": "Lenovo IdeaPad Slim3 16Gb|512Gb|16|Ultra 5-322|Win11 Серый",
+        "price": 389990,
+        "old_price": 574990,
+        "url": "https://evrika.com/catalog/noutbuk-lenovo-ips-3-16iph11-16-ultra-5-322-16gb-512gb-ssd-intel-graphics-win11/p48282",
+        "brand": null,
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/v2mwr7k0dlR0hzcuPhb87f1BGdtqupDOF3fy9wx8.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 32.2,
+      "base_price": 574990,
+      "value_score": 79,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -5948,6 +5999,34 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1543461",
+        "title": "Отпариватель Tefal Tweeny Nano DV9001E0, Black-Silver",
+        "price": 21990,
+        "old_price": 30990,
+        "url": "https://shop.kz/offer/otparivatel-tefal-tweeny-nano-dv9001e0-black-silver/",
+        "brand": "Tefal",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://static.shop.kz/upload/iblock/80f/i09bqdiesu7zee0rho8fc4cchtmmlndp/168331o3.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 29.0,
+      "base_price": 30990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "654032",
         "title": "MicroRGB телевизор Samsung MRE55R85HAUXCE",
@@ -6339,6 +6418,35 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1394625",
+        "title": "Монитор 27\" Samsung Gaming Odyssey G6 Smart LS27BG650EIXCI VA Curved/2560 x 1440/240GHz/1ms/350 кд/м2/DP, 2xHDMI",
+        "price": 129990,
+        "old_price": 225989,
+        "url": "https://alser.kz/p/monitor-27-samsung-ls27bg650eixci-va-curved-2560-x-1440-240ghz-1ms-350-kdm2-hdmi",
+        "brand": "Samsung",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://s3s.alser.kz/uploads/products/monitory-igrovye/jeVrJuYYEe/monitor-27-samsung-ls27bg650eixci-va-curved-2560-x-1440-240ghz-1ms-350-kdm2-hdmi-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 27.8,
+      "base_price": 179990,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 14.2
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1455784",
         "title": "Стиральная машина Beko B3WFR572AB",
         "price": 129990,
@@ -6370,7 +6478,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 62978,
+        "price": 62966,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -6534,30 +6642,30 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "39334",
-        "title": "Саундбар LG SC9S",
-        "price": 299990,
-        "old_price": 409990,
-        "url": "https://evrika.com/catalog/saundbar-lg-sc9s/p39334",
-        "brand": null,
-        "category": "Саундбары",
-        "group": "tv",
+        "shop": "technodom",
+        "sku": "275868",
+        "title": "Сковорода 26см Polaris ECO collection-26F",
+        "price": 18990,
+        "old_price": 24990,
+        "url": "https://www.technodom.kz/p/skovoroda-26sm-polaris-eco-collection-26f-275868",
+        "brand": "Polaris",
+        "category": "Техника для кухни",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/YKXgpOGFYOtOCxdETHmOsAHSONJEJ6PcErZECqhU.jpg.webp",
+        "discount_pct": 24,
+        "image": "https://api.technodom.kz/f3/api/v1/images/skovoroda_26sm_polaris_eco_collection_26f_275868_1.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 26.8,
-      "base_price": 409990,
+      "drop_pct": 24,
+      "fair_discount": 26.9,
+      "base_price": 25990,
       "value_score": 70,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 0.2
+      "inflated_gap": -2.9
     },
     {
       "product": {
@@ -6759,6 +6867,34 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1303581",
+        "title": "Газовый проточный водонагреватель Ariston FAST R ONM 10 NG RU",
+        "price": 29990,
+        "old_price": 61990,
+        "url": "https://alser.kz/p/fast-r-onm-10-ng-rugazovyj-protocnyj-vodonagrevatel-ariston",
+        "brand": "Ariston",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://s3s.alser.kz/uploads/products/vodonagrevateli/NZYpnC7oZ/fast-r-onm-10-ng-rugazovyj-protocnyj-vodonagrevatel-ariston-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 52,
+      "fair_discount": 25.0,
+      "base_price": 39990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1380551",
         "title": "Клавиатура беспроводная Logitech MX Keys Mini Pale Grey BT/RUS (920-010502)",
         "price": 29990,
@@ -6787,30 +6923,30 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1303581",
-        "title": "Газовый проточный водонагреватель Ariston FAST R ONM 10 NG RU",
+        "sku": "1455755",
+        "title": "Кухонный комбайн FAKIR MAGICHEF STAND MIXER",
         "price": 29990,
-        "old_price": 61990,
-        "url": "https://alser.kz/p/fast-r-onm-10-ng-rugazovyj-protocnyj-vodonagrevatel-ariston",
-        "brand": "Ariston",
+        "old_price": 54890,
+        "url": "https://alser.kz/p/kuhonnyj-kombajn-fakir-magichef-stand-mixer",
+        "brand": "Fakir",
         "category": null,
-        "group": "home",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://s3s.alser.kz/uploads/products/vodonagrevateli/NZYpnC7oZ/fast-r-onm-10-ng-rugazovyj-protocnyj-vodonagrevatel-ariston-w160.webp",
+        "discount_pct": 45,
+        "image": "https://s3s.alser.kz/uploads/products/blenderyi-i-miksery/ZJdNxCXA4E/kuhonnyj-kombajn-fakir-magichef-stand-mixer-w160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 52,
+      "drop_pct": 45,
       "fair_discount": 25.0,
       "base_price": 39990,
-      "value_score": 63,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 27.0
+      "inflated_gap": 20.0
     },
     {
       "product": {
@@ -6871,30 +7007,56 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1455755",
-        "title": "Кухонный комбайн FAKIR MAGICHEF STAND MIXER",
-        "price": 29990,
-        "old_price": 54890,
-        "url": "https://alser.kz/p/kuhonnyj-kombajn-fakir-magichef-stand-mixer",
-        "brand": "Fakir",
+        "sku": "1415420",
+        "title": "Электрическая плита Hansa FCCX68103",
+        "price": 119990,
+        "old_price": 185990,
+        "url": "https://alser.kz/p/fccx68103-elektriceskaa-plita-hansa",
+        "brand": "Hansa",
         "category": null,
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://s3s.alser.kz/uploads/products/blenderyi-i-miksery/ZJdNxCXA4E/kuhonnyj-kombajn-fakir-magichef-stand-mixer-w160.webp",
+        "discount_pct": 35,
+        "image": "https://s3s.alser.kz/uploads/products/plity/489vyTnKM/fccx68103-elektriceskaa-plita-hansa-w160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 45,
+      "drop_pct": 35,
       "fair_discount": 25.0,
-      "base_price": 39990,
+      "base_price": 159990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1034271",
+        "title": "Увлажнитель воздуха Kitfort KT-2819, Black",
+        "price": 11000,
+        "old_price": 16090,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2819-black/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://static.shop.kz/upload/iblock/c1b/152804_3.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 24.7,
+      "base_price": 14600,
       "value_score": 67,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 20.0
+      "inflated_gap": 7.3
     },
     {
       "product": {
@@ -7206,30 +7368,30 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1457778",
-        "title": "Кухонная плита Artel Apetito 01-G серый",
-        "price": 69990,
-        "old_price": 132990,
-        "url": "https://alser.kz/p/kuhonnaa-plita-artel-apetito-01-g-seryj",
-        "brand": "ARTEL",
+        "sku": "1385981",
+        "title": "Мышь беспроводная Logitech Mx Master 3S Pale Grey (910-006560)",
+        "price": 34990,
+        "old_price": 56990,
+        "url": "https://alser.kz/p/myska-besprovodnaa-logitech-mx-master-3s-pale-grey-910-006560",
+        "brand": "Logitech",
         "category": null,
-        "group": "kitchen",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://s3s.alser.kz/uploads/products/plity/NZYxOIAB/kuhonnaa-plita-artel-apetito-01-g-seryj-w160.webp",
+        "discount_pct": 39,
+        "image": "https://s3s.alser.kz/uploads/products/myshi/ZJvwMIRQ/myska-besprovodnaa-logitech-mx-master-3s-pale-grey-910-006560-w160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 47,
+      "drop_pct": 39,
       "fair_discount": 22.2,
-      "base_price": 89990,
-      "value_score": 68,
+      "base_price": 44990,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 24.8
+      "inflated_gap": 16.8
     },
     {
       "product": {
@@ -7258,6 +7420,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.8
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1457778",
+        "title": "Кухонная плита Artel Apetito 01-G серый",
+        "price": 69990,
+        "old_price": 132990,
+        "url": "https://alser.kz/p/kuhonnaa-plita-artel-apetito-01-g-seryj",
+        "brand": "ARTEL",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://s3s.alser.kz/uploads/products/plity/NZYxOIAB/kuhonnaa-plita-artel-apetito-01-g-seryj-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 22.2,
+      "base_price": 89990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.8
     },
     {
       "product": {
@@ -7426,6 +7616,34 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1078260",
+        "title": "Гарнитура Edifier G2 II, Black",
+        "price": 14400,
+        "old_price": 21990,
+        "url": "https://shop.kz/offer/garnitura-edifier-g2-ii-black/",
+        "brand": "Edifier",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/e95/154441_10.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 20.0,
+      "base_price": 17990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "648348",
         "title": "Монитор Samsung LS24F330EAIXCI",
@@ -7565,34 +7783,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1445526",
-        "title": "Мышка игровая беспроводная Logitech G309 Черная (910-007199)",
-        "price": 19990,
-        "old_price": 42490,
-        "url": "https://alser.kz/p/myska-igrovaa-besprovodnaa-logitech-g309-cernaa-910-007199",
-        "brand": "Logitech",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://s3s.alser.kz/uploads/products/myshi/59kOquAym/myska-igrovaa-besprovodnaa-logitech-g309-cernaa-910-007199-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 20.0,
-      "base_price": 24990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 33.0
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
         "price": 19990,
@@ -7621,30 +7811,58 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1432452",
-        "title": "Посудомоечная машина Hansa ZWM536SH",
-        "price": 39990,
-        "old_price": 79990,
-        "url": "https://alser.kz/p/posudomoecnaa-masina-hansa-zwm536sh",
-        "brand": "Hansa",
+        "sku": "1383599",
+        "title": "Фен-щетка Rowenta CF952LF0",
+        "price": 19990,
+        "old_price": 33990,
+        "url": "https://alser.kz/p/fen-setka-rowenta-cf952lf0",
+        "brand": "Rowenta",
         "category": null,
-        "group": "other",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/ystel-sti/E40pKCaaE/posudomoecnaa-masina-hansa-zwm536sh-w160.webp",
+        "discount_pct": 41,
+        "image": "https://s3s.alser.kz/uploads/products/feny/jevP9FQ7P/fen-setka-rowenta-cf952lf0-w160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 50,
+      "drop_pct": 41,
       "fair_discount": 20.0,
-      "base_price": 49990,
+      "base_price": 24990,
       "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 30.0
+      "inflated_gap": 21.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1445526",
+        "title": "Мышка игровая беспроводная Logitech G309 Черная (910-007199)",
+        "price": 19990,
+        "old_price": 42490,
+        "url": "https://alser.kz/p/myska-igrovaa-besprovodnaa-logitech-g309-cernaa-910-007199",
+        "brand": "Logitech",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://s3s.alser.kz/uploads/products/myshi/59kOquAym/myska-igrovaa-besprovodnaa-logitech-g309-cernaa-910-007199-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 20.0,
+      "base_price": 24990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 33.0
     },
     {
       "product": {
@@ -7676,6 +7894,62 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1382398",
+        "title": "Клавитаура беспроводная Logitech МX Keys Mini GRAPHITE RUS/2.4GHZ/BT (920-010501)",
+        "price": 39990,
+        "old_price": 62990,
+        "url": "https://alser.kz/p/klavitaura-besprovodnaa-logitech-mx-keys-mini-graphite-rus24ghzbt-920-010501",
+        "brand": "Logitech",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://s3s.alser.kz/uploads/products/klaviatury/9AqxRIOXr/klavitaura-besprovodnaa-logitech-mx-keys-mini-graphite-rus24ghzbt-920-010501-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1385982",
+        "title": "Мышь беспроводная Logitech MX Master 3S Graphite (910-006559)",
+        "price": 39990,
+        "old_price": 61577,
+        "url": "https://alser.kz/p/myska-besprovodnaa-logitech-mx-master-3s-graphite-910-006559",
+        "brand": "Logitech",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://s3s.alser.kz/uploads/products/myshi/KmElkcAPd/myska-besprovodnaa-logitech-mx-master-3s-graphite-910-006559-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1622746",
         "title": "Парогенератор Centek CT-2302, White",
@@ -7700,6 +7974,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 7.3
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1709789",
+        "title": "Гарнитура ASUS TUF Gaming H1 Gen II, Black",
+        "price": 28200,
+        "old_price": 34990,
+        "url": "https://shop.kz/offer/garnitura-asus-tuf-gaming-h1-gen-ii-black/",
+        "brand": "ASUS",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://static.shop.kz/upload/iblock/582/29twgub3vrg3vkwne9j5tlrrrbkp7m5y/192148n1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 19.4,
+      "base_price": 34990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -7755,6 +8057,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.5
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48263",
+        "title": "Lenovo IdeaPad Slim3 16Gb|512Gb|15.6|Ryzen 7-5825U|Win11 Серый",
+        "price": 399990,
+        "old_price": 489990,
+        "url": "https://evrika.com/catalog/noutbuk-lenovo-ips-3-15abr8-15-6-ryzen-7-5825u-16gb-512gb-ssd-radeon-graphics-win11/p48263",
+        "brand": null,
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/89Nc1xIR2pVOFuQxlCburVCpGEjuOzvwcPsxghAW.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 18.4,
+      "base_price": 489990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -7870,6 +8199,34 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "43215",
+        "title": "Саундбар LG S80TR",
+        "price": 245790,
+        "old_price": 409990,
+        "url": "https://evrika.com/catalog/saundbar-lg-s80tr/p43215",
+        "brand": null,
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/eFfo5b9DUwV1naXy9oPRxNIeUrjob1s7szqMKOXs.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 18.1,
+      "base_price": 299990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.9
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "47092",
         "title": "Кофеварка Эспрессо BORK C701",
         "price": 346500,
@@ -7920,362 +8277,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "39980",
-        "title": "Блендер погружной BORK B784",
-        "price": 132000,
-        "old_price": null,
-        "url": "https://evrika.com/catalog/blender-pogruzhnoy-bork-b784/p39980",
-        "brand": null,
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/nz0qsHWpjHVDsqoBEFUdIPmLzyvpxidi1VT5yRhL.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 17.5,
-      "base_price": 160000,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1319939",
-        "title": "Духовой шкаф Samsung NV68A1110BB/WT",
-        "price": 119990,
-        "old_price": 239990,
-        "url": "https://alser.kz/p/nv68a1110bbwtvstraivaemaa-duhovka-samsung",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/duhovye-shkafy/OBNQ0Ibvo/nv68a1110bbwtvstraivaemaa-duhovka-samsung-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 17.2,
-      "base_price": 144990,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 32.8
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45776",
-        "title": "Выпрямитель для волос Dreame Aerostraight Gold",
-        "price": 144990,
-        "old_price": 192990,
-        "url": "https://evrika.com/catalog/vypryamitel-dlya-volos-dreame-aerostraight-gold/p45776",
-        "brand": null,
-        "category": "Выпрямители",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Cvf99lnAxG3YJoxf4FljlS8szTCQhR5Le3bRWAvj.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 17.1,
-      "base_price": 174990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.9
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "578840",
-        "title": "Электробритва Panasonic ES-3042S520",
-        "price": 24590,
-        "old_price": 31990,
-        "url": "https://shop.kz/offer/elektrobritva-panasonic-es-3042s520/",
-        "brand": "Panasonic",
-        "category": "Электробритвы, эпиляторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://static.shop.kz/upload/iblock/379/134558_1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 16.9,
-      "base_price": 29590,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1433294",
-        "title": "Вертикальный пылесос Trouver J30, Black (VJ12A), 2 в 1, подсветка, 150 Вт, 60 мин, 5 насадок",
-        "price": 39990,
-        "old_price": 79990,
-        "url": "https://alser.kz/p/besprovodnoj-vertikalnyj-pylesos-dreame-cordless-vacuum-cleaner-trouver-j30",
-        "brand": "Trouver",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/VXwdRTBnj/besprovodnoj-vertikalnyj-pylesos-dreame-cordless-vacuum-cleaner-trouver-j30-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 16.7,
-      "base_price": 47990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 33.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40984",
-        "title": "Холодильник LG Side-by-Side GC-Q257CAFV",
-        "price": 979990,
-        "old_price": 1169990,
-        "url": "https://evrika.com/catalog/holodilnik-lg-gc-q257cafv/p40984",
-        "brand": null,
-        "category": "Холодильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/FsZ9Ldi3jMFFa9KQwG4eCNQdk7ZC8nCxYXPvXivD.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 16.2,
-      "base_price": 1169990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "48331",
-        "title": "Asus Vivobook 15 16Gb|512Gb|15.6|Core 5-320|Win11",
-        "price": 419990,
-        "old_price": 539990,
-        "url": "https://evrika.com/catalog/noutbuk-asus-vivobook-15-x1504ma-bq813w-15-6-core-5-320-16gb-512gb-ssd-intel-graphics-win11/p48331",
-        "brand": null,
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/IMijFRayUSAN5h2t92nBsy04pDfcGiTWjTO6oUl8.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 16.0,
-      "base_price": 499990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45392",
-        "title": "HUAWEI WATCH FIT 4 Pro Black",
-        "price": 79890,
-        "old_price": 113990,
-        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-black/p45392",
-        "brand": null,
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/RzPsv7VpEr2B0LEpse3Tl05E7mCMrFc1C4nJ9qJw.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 15.9,
-      "base_price": 94990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45393",
-        "title": "HUAWEI WATCH FIT 4 Pro Green",
-        "price": 79890,
-        "old_price": 113990,
-        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-green/p45393",
-        "brand": null,
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/k8ZPXXrX5RIteHFMyzU53q5pVlGVSW9rpQbv6hqc.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 15.9,
-      "base_price": 94990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45534",
-        "title": "Смарт-часы HUAWEI WATCH FIT 4 Pro Blue",
-        "price": 79890,
-        "old_price": 113990,
-        "url": "https://evrika.com/catalog/huawei-watch-fit-4-pro-blue/p45534",
-        "brand": null,
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/cJBdRrsBgD8jB6rpj8wWWOwI9BngLVXyCF03ntCZ.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 15.9,
-      "base_price": 94990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453325",
-        "title": "Вертикальный моющий пылесос Trouver M10 Pro , Самоочистка, 300Вт, 40 мин",
-        "price": 109990,
-        "old_price": 199990,
-        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min",
-        "brand": "Trouver",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/Q1GGwc91B/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 15.4,
-      "base_price": 129990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.6
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "46904",
-        "title": "Монитор LG 23.8 24G411-B (1920x1080)/ 144 Hz/ 1 ms",
-        "price": 49990,
-        "old_price": 69990,
-        "url": "https://evrika.com/catalog/monitor-lg-23-8-24g411-b-1920x1080-144-hz-1-ms/p46904",
-        "brand": null,
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/qjyQYDFwnrmP5eIkbqXzQgbpJb6KKJWHSQX0TQsX.jpeg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 15.3,
-      "base_price": 58990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 13.7
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1455882",
-        "title": "Монитор XTREON 24.5\" XT2553E 240Гц FHD VA, 300.0 кд/м2, 1мс, HDMI/DP",
-        "price": 34000,
-        "old_price": 72490,
-        "url": "https://alser.kz/p/monitor-xtreon-245-xt2553e-240gc-fhd-va-3000-kdm2-1ms-hdmidp",
-        "brand": "XTREON",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://s3s.alser.kz/uploads/products/vse-monitory/pjV9PIOrp/monitor-xtreon-245-xt2553e-240gc-fhd-va-3000-kdm2-1ms-hdmidp-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 15.0,
-      "base_price": 40000,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 38.0
     }
   ],
   "shops": [
@@ -8289,41 +8290,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-07T23:28:00+00:00",
-      "item_count": 2477,
+      "last_crawl": "2026-10-08T06:30:12+00:00",
+      "item_count": 2476,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-07T23:28:00+00:00",
-      "item_count": 12152,
+      "last_crawl": "2026-10-08T06:30:12+00:00",
+      "item_count": 12151,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-07T23:28:00+00:00",
-      "item_count": 3711,
+      "last_crawl": "2026-10-08T06:30:12+00:00",
+      "item_count": 3727,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-07T23:28:00+00:00",
+      "last_crawl": "2026-10-08T06:30:12+00:00",
       "item_count": 9628,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-07T23:28:00+00:00",
-      "item_count": 438,
+      "last_crawl": "2026-10-08T06:30:12+00:00",
+      "item_count": 440,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28406,
+    "total_products": 28422,
     "total_deals": 300,
     "avg_discount": 50.0
   }
