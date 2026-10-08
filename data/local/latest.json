@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T13:21:28.700640+00:00",
+  "updated_at": "2026-10-08T04:55:23.581071+00:00",
   "deals": [
     {
       "product": {
@@ -320,7 +320,7 @@
       "drop_pct": 78,
       "fair_discount": 0.0,
       "base_price": 62990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1513,6 +1513,35 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200024896",
+        "title": "Ноутбук LENOVO IdeaPad Slim 3 15IPH11 (83UR001LRK)/15.3 WUXGA/Core Ultra 5 322 1.9 Ghz/24/SSD512/Dos",
+        "price": 349990,
+        "old_price": 629990,
+        "url": "https://www.mechta.kz/product/noutbuk-lenovo-ideapad-slim-3-15iph11-83ur001lrk15dot3-wuxgacore-ultra-5-322-1dot9-ghz24ssd512dos/",
+        "brand": "Lenovo",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/39f94187-4486-4d4d-9378-c2a610ca63ce?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 44.4,
+      "base_price": 629990,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200005326",
         "title": "Ручной отпариватель POLARIS PGS 1460C",
         "price": 18990,
@@ -1591,33 +1620,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014657",
-        "title": "Наушники PANASONIC RB-HF420BGEA",
-        "price": 17990,
-        "old_price": 29990,
-        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-hf420bgea/",
-        "brand": "Panasonic",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/1122429f-9bee-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 29990,
-      "value_score": 88,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -2236,7 +2238,7 @@
       "drop_pct": 50,
       "fair_discount": 27.3,
       "base_price": 549990,
-      "value_score": 65,
+      "value_score": 61,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2506,8 +2508,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-07T13:21:20+00:00",
-      "item_count": 7714,
+      "last_crawl": "2026-10-08T04:55:15+00:00",
+      "item_count": 7717,
       "status": "ok"
     },
     {
@@ -2547,7 +2549,7 @@
     }
   ],
   "stats": {
-    "total_products": 7714,
+    "total_products": 7717,
     "total_deals": 90,
     "avg_discount": 61.0
   }
