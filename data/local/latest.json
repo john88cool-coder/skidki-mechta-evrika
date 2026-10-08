@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-08T07:22:18.140708+00:00",
+  "updated_at": "2026-10-08T11:21:45.938507+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003815",
+        "title": "Робот-пылесос TEFAL RG 8597 WH",
+        "price": 94990,
+        "old_price": 414990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8597-wh/",
+        "brand": "Tefal",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -429,33 +454,6 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "value_score": 17,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003815",
-        "title": "Робот-пылесос TEFAL RG 8597 WH",
-        "price": 94990,
-        "old_price": 414990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8597-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 94990,
-      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2352,7 +2350,7 @@
       "drop_pct": 51,
       "fair_discount": 26.7,
       "base_price": 599990,
-      "value_score": 74,
+      "value_score": 70,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2509,8 +2507,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-08T07:21:56+00:00",
-      "item_count": 7710,
+      "last_crawl": "2026-10-08T11:21:37+00:00",
+      "item_count": 7707,
       "status": "ok"
     },
     {
@@ -2550,7 +2548,7 @@
     }
   ],
   "stats": {
-    "total_products": 7710,
+    "total_products": 7707,
     "total_deals": 90,
     "avg_discount": 61.0
   }
