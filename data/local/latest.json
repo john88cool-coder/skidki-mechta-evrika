@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T11:22:24.645939+00:00",
+  "updated_at": "2026-10-09T14:56:31.607597+00:00",
   "deals": [
     {
       "product": {
@@ -1574,33 +1574,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200005326",
-        "title": "Ручной отпариватель POLARIS PGS 1460C",
-        "price": 18990,
-        "old_price": 32990,
-        "url": "https://www.mechta.kz/product/ruchnoy-otparivatel-polaris-pgs-1460c/",
-        "brand": "Polaris",
-        "category": "Отпариватели для одежды",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/7551b0cd-d2a1-11ed-a259-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.4,
-      "base_price": 32990,
-      "value_score": 83,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018108",
         "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
         "price": 1499990,
@@ -1736,6 +1709,35 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018078",
+        "title": "Телевизор Samsung QLED QE85LS03FAUXCE The Frame UHD SMART",
+        "price": 1519990,
+        "old_price": 2699990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85ls03fauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/29ac1a3c-1bc9-461d-9689-9e5ecbbc340e?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 37.2,
+      "base_price": 2419990,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 6.8
     },
     {
       "product": {
@@ -1910,33 +1912,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018610",
-        "title": "Телевизор TCL QD-MiniLED 98C6K UHD Android TV",
-        "price": 1199990,
-        "old_price": 2099990,
-        "url": "https://www.mechta.kz/product/televizor-tcl-qd-miniled-98c6k-uhd-android-tv/",
-        "brand": "TCL",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/ba55cf0f-09ad-45d4-b7ed-b1148122ac80?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 33.3,
-      "base_price": 1799990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 9.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200002780",
         "title": "Выпрямитель для волос Beurer HS 100",
         "price": 19990,
@@ -1961,6 +1936,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018074",
+        "title": "Телевизор Samsung QLED QE55LS03FAUXCE The Frame UHD SMART",
+        "price": 534990,
+        "old_price": 949990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03fauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/2b6db77f-9529-4acd-94d3-3e4167f61701?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 33.1,
+      "base_price": 799990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 10.9
     },
     {
       "product": {
@@ -2517,8 +2521,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-09T11:22:07+00:00",
-      "item_count": 7709,
+      "last_crawl": "2026-10-09T14:56:18+00:00",
+      "item_count": 7731,
       "status": "ok"
     },
     {
@@ -2558,7 +2562,7 @@
     }
   ],
   "stats": {
-    "total_products": 7709,
+    "total_products": 7731,
     "total_deals": 90,
     "avg_discount": 61.5
   }
