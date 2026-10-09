@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T15:21:09.234308+00:00",
+  "updated_at": "2026-10-09T17:53:05.823414+00:00",
   "deals": [
     {
       "product": {
@@ -401,7 +401,7 @@
       "drop_pct": 78,
       "fair_discount": 0.0,
       "base_price": 62990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1574,35 +1574,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018108",
-        "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
-        "price": 1499990,
-        "old_price": 2879990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn90fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/db689e9b-bab6-459c-869e-5b30d727936d?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 40.0,
-      "base_price": 2499990,
-      "value_score": 98,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 8.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200014146",
         "title": "Триммер для бороды BRAUN BT 3411",
         "price": 14990,
@@ -2021,36 +1992,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 16.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018129",
-        "title": "Телевизор Samsung OLED QE83S90FAEXCE",
-        "price": 1759990,
-        "old_price": 4239990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe83s90faexce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/9d1d0dc9-1333-4f02-888d-68f24b5ca6d6?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 58,
-      "fair_discount": 31.0,
-      "base_price": 2549990,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
     },
     {
       "product": {
@@ -2515,14 +2456,70 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010494",
+        "title": "Игровая гарнитура CORSAIR HS55 Surround Headset Carbon",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-corsair-hs55-surround-headset-carbon/",
+        "brand": "Corsair",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/35f47f7b-d6b2-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 25.9,
+      "base_price": 26990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010495",
+        "title": "Игровая гарнитура CORSAIR HS55 Surround Headset White",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-corsair-hs55-surround-headset-white/",
+        "brand": "Corsair",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/35f47f80-d6b2-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 25.9,
+      "base_price": 26990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-09T15:21:01+00:00",
-      "item_count": 7731,
+      "last_crawl": "2026-10-09T17:51:54+00:00",
+      "item_count": 7729,
       "status": "ok"
     },
     {
@@ -2562,7 +2559,7 @@
     }
   ],
   "stats": {
-    "total_products": 7731,
+    "total_products": 7729,
     "total_deals": 90,
     "avg_discount": 61.5
   }
