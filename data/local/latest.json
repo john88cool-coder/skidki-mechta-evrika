@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T05:40:12.558005+00:00",
+  "updated_at": "2026-10-09T07:21:13.713217+00:00",
   "deals": [
     {
       "product": {
@@ -601,6 +601,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011819",
+        "title": "Телевизор Samsung QLED QE65QN900DUXCE 8K SMART",
+        "price": 739990,
+        "old_price": 2949990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn900duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 75,
+      "fair_discount": 53.8,
+      "base_price": 1599990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000005646",
         "title": "Проектор Samsung SP-LSP9TUAXCE",
         "price": 999990,
@@ -1019,6 +1049,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011468",
+        "title": "Телевизор Samsung LED UE65DU7100UXCE UHD SMART",
+        "price": 179990,
+        "old_price": 489990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue65du7100uxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/1fd1538c-1ca9-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 40.0,
+      "base_price": 299990,
+      "value_score": 92,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006986",
         "title": "Вертикальный пылесос WADE SV-01 синий",
         "price": 19990,
@@ -1319,60 +1379,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003059",
-        "title": "Телевизор LOEWE LED 43SteamingTV, 4K Ult, Integrated soundbar, Storm Grey",
-        "price": 299990,
-        "old_price": 758990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-43steamingtv-4k-ult-integrated-soundbar-storm-grey/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 299990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013888",
-        "title": "Вертикальный пылесос POLARIS PVCW 8090",
-        "price": 229990,
-        "old_price": 579990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-polaris-pvcw-8090/",
-        "brand": "Polaris",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 229990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011026",
         "title": "Тостер POLARIS PET 0812A Черный/матовый",
         "price": 14390,
@@ -1651,30 +1657,31 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200016308",
-        "title": "Блендер погружной POLARIS PHB 1551 WIFI IQ Home Черный",
-        "price": 46990,
-        "old_price": 79990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-1551-wifi-iq-home-chernyy/",
-        "brand": "Polaris",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
+        "sku": "17200018108",
+        "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
+        "price": 1499990,
+        "old_price": 2879990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn90fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/b42d7a5d-b0e3-4c53-beec-5b485da437aa?w=400",
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/db689e9b-bab6-459c-869e-5b30d727936d?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 41.3,
-      "base_price": 79990,
-      "value_score": 89,
+      "drop_pct": 48,
+      "fair_discount": 40.0,
+      "base_price": 2499990,
+      "value_score": 98,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка"
+        "Честная скидка",
+        "Топ-Бренд"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": 8.0
     },
     {
       "product": {
@@ -2507,7 +2514,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-09T05:40:02+00:00",
+      "last_crawl": "2026-10-09T07:21:03+00:00",
       "item_count": 7712,
       "status": "ok"
     },
@@ -2550,6 +2557,6 @@
   "stats": {
     "total_products": 7712,
     "total_deals": 90,
-    "avg_discount": 61.0
+    "avg_discount": 61.5
   }
 }
