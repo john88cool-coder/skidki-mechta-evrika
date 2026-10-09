@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-09T09:21:57.062459+00:00",
+  "updated_at": "2026-10-09T11:22:24.645939+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010268",
+        "title": "Вертикальный пылесос Samsung JET 85 Complete (VS20C8524TB/EV)",
+        "price": 49990,
+        "old_price": 284990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-85-complete-vs20c8524tbev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 82,
+        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 82,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -299,34 +326,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 83.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010268",
-        "title": "Вертикальный пылесос Samsung JET 85 Complete (VS20C8524TB/EV)",
-        "price": 49990,
-        "old_price": 284990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-85-complete-vs20c8524tbev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 82,
-        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 82,
-      "fair_discount": 0.0,
-      "base_price": 49990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 82.0
     },
     {
       "product": {
@@ -842,7 +841,7 @@
       "drop_pct": 67,
       "fair_discount": 20.0,
       "base_price": 24990,
-      "value_score": 47,
+      "value_score": 44,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1602,61 +1601,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000031385",
-        "title": "Мороженница BORK E801",
-        "price": 199990,
-        "old_price": 346590,
-        "url": "https://www.mechta.kz/product/morojennica-bork-e801/",
-        "brand": "BORK",
-        "category": "Мороженицы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.3,
-      "base_price": 346590,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17100000184",
-        "title": "Наушники PHILIPS TAT2206WT/00 TWS",
-        "price": 13990,
-        "old_price": 23980,
-        "url": "https://www.mechta.kz/product/naushniki-philips-tat2206wt00-tws/",
-        "brand": "Philips",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/a353faf9-a4ee-11ec-a245-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.7,
-      "base_price": 23980,
-      "value_score": 89,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018108",
         "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
         "price": 1499990,
@@ -1682,6 +1626,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 8.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014146",
+        "title": "Триммер для бороды BRAUN BT 3411",
+        "price": 14990,
+        "old_price": 33590,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-braun-bt-3411/",
+        "brand": "Braun",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/fbe9bcbc-89e4-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 39.9,
+      "base_price": 24930,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.1
     },
     {
       "product": {
@@ -1821,6 +1793,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012538",
+        "title": "Эпилятор BRAUN SE1-000 PNK BOX MN",
+        "price": 14990,
+        "old_price": 31990,
+        "url": "https://www.mechta.kz/product/epilyator-braun-se1-000-pnk-box-mn/",
+        "brand": "Braun",
+        "category": "Эпиляторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/3a7e06be-352e-11ef-a267-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 34.8,
+      "base_price": 22990,
+      "value_score": 83,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.2
     },
     {
       "product": {
@@ -2021,6 +2021,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018129",
+        "title": "Телевизор Samsung OLED QE83S90FAEXCE",
+        "price": 1759990,
+        "old_price": 4239990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe83s90faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/9d1d0dc9-1333-4f02-888d-68f24b5ca6d6?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 31.0,
+      "base_price": 2549990,
+      "value_score": 87,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011939",
         "title": "Игровая гарнитура SONY INZONE H5 Wireless WH-G500/BZE (Black)",
         "price": 39990,
@@ -2104,6 +2134,36 @@
         "Рисованная?"
       ],
       "inflated_gap": 18.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018112",
+        "title": "Телевизор Samsung Neo QLED QE75QN900FUXCE 8K SMART",
+        "price": 1599990,
+        "old_price": 3399990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn900fuxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 30.4,
+      "base_price": 2299990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.6
     },
     {
       "product": {
@@ -2451,71 +2511,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018112",
-        "title": "Телевизор Samsung Neo QLED QE75QN900FUXCE 8K SMART",
-        "price": 1699990,
-        "old_price": 3399990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn900fuxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 26.1,
-      "base_price": 2299990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010494",
-        "title": "Игровая гарнитура CORSAIR HS55 Surround Headset Carbon",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-corsair-hs55-surround-headset-carbon/",
-        "brand": "Corsair",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/35f47f7b-d6b2-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 25.9,
-      "base_price": 26990,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.1
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-09T09:21:47+00:00",
-      "item_count": 7712,
+      "last_crawl": "2026-10-09T11:22:07+00:00",
+      "item_count": 7709,
       "status": "ok"
     },
     {
@@ -2555,7 +2558,7 @@
     }
   ],
   "stats": {
-    "total_products": 7712,
+    "total_products": 7709,
     "total_deals": 90,
     "avg_discount": 61.5
   }
