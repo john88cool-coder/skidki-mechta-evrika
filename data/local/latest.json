@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-10-09T21:20:12.989276+00:00",
+  "updated_at": "2026-10-09T23:20:14.221837+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010269",
+        "title": "Вертикальный пылесос Samsung JET 95 Complete (VS20C9544TB/EV)",
+        "price": 49990,
+        "old_price": 314990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-95-complete-vs20c9544tbev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 84,
+        "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 84,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -271,34 +298,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010269",
-        "title": "Вертикальный пылесос Samsung JET 95 Complete (VS20C9544TB/EV)",
-        "price": 49990,
-        "old_price": 314990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-95-complete-vs20c9544tbev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 84,
-        "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 84,
-      "fair_discount": 0.0,
-      "base_price": 49990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 84.0
     },
     {
       "product": {
@@ -1857,36 +1856,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018085",
-        "title": "Телевизор Samsung QLED QE75Q7F5AUXCE UHD SMART",
-        "price": 479990,
-        "old_price": 1099990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75q7f5auxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/6a303dcb-25b2-41c9-bfcd-080930f0f243?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 29.4,
-      "base_price": 679990,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013945",
         "title": "Телевизор LED HISENSE 43A6N (SMART UHD)",
         "price": 99990,
@@ -1915,64 +1884,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018090",
-        "title": "Телевизор Samsung Neo QLED QE75QN70FAUXCE UHD SMART",
-        "price": 649990,
-        "old_price": 1449990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn70fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 27.8,
-      "base_price": 899990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018095",
-        "title": "Телевизор Samsung Neo QLED QE85QN80FAUXCE UHD SMART",
-        "price": 1299990,
-        "old_price": 2499990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe85qn80fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/740c55ed-5db0-4ca7-b8e3-36e2d1393558?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 27.8,
-      "base_price": 1799990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018523",
         "title": "Телевизор HISENSE QLED 75E7Q PRO UHD SMART",
         "price": 399990,
@@ -1997,64 +1908,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 22.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020569",
-        "title": "Телевизор Samsung QLED QE65Q7F5AUXKZ UHD SMART (KZ)",
-        "price": 349990,
-        "old_price": 639990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q7f5auxkz-uhd-smart-kz/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/f81be613-6b07-441a-affb-25f1ab81e8b9?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 27.1,
-      "base_price": 479990,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018113",
-        "title": "Телевизор Samsung Neo QLED QE85QN900FUXCE 8K SMART",
-        "price": 2199990,
-        "old_price": 4999990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe85qn900fuxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/01205f57-0579-4119-96de-564155fa1942?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 26.7,
-      "base_price": 2999990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.3
     },
     {
       "product": {
@@ -2088,35 +1941,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019381",
-        "title": "Телевизор Samsung QLED QE85Q8FAAUXCE UHD SMART",
-        "price": 899990,
-        "old_price": 1899990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q8faauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/c9eff8ae-fed3-4e85-9f3b-b52dda0860e7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 25.0,
-      "base_price": 1199990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012274",
         "title": "Стиральная машина GRUNDIG W 5P57H21 A",
         "price": 149990,
@@ -2141,64 +1965,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018093",
-        "title": "Телевизор Samsung Neo QLED QE65QN80FAUXCE UHD SMART",
-        "price": 599990,
-        "old_price": 1099990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn80fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/d4510e01-702f-4ebe-a331-27634517958a?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 25.0,
-      "base_price": 799990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018089",
-        "title": "Телевизор Samsung Neo QLED QE65QN70FAUXCE UHD SMART",
-        "price": 529990,
-        "old_price": 979990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn70fauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://pi.mdev.kz/e6f6bf58-a81f-42ac-8537-f156cdbff23c?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 46,
-      "fair_discount": 24.3,
-      "base_price": 699990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.7
     },
     {
       "product": {
@@ -2289,35 +2055,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018112",
-        "title": "Телевизор Samsung Neo QLED QE75QN900FUXCE 8K SMART",
-        "price": 1599990,
-        "old_price": 3399990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn900fuxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 20.0,
-      "base_price": 1999990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 33.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018097",
         "title": "Телевизор Samsung Neo QLED QE55QN85FAUXCE UHD SMART",
         "price": 423990,
@@ -2343,35 +2080,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 33.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020571",
-        "title": "Телевизор Samsung QLED QE65Q8FAAUXKZ UHD SMART (KZ)",
-        "price": 399990,
-        "old_price": 799990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q8faauxkz-uhd-smart-kz/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/d5af179a-e495-4ef8-914b-f64b01719dd1?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 20.0,
-      "base_price": 499990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
     },
     {
       "product": {
@@ -2517,14 +2225,296 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018119",
+        "title": "Телевизор Samsung OLED QE65S85FAEXCE",
+        "price": 783990,
+        "old_price": 1399990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe65s85faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/20e8c7b0-5e4b-4c90-8a6a-24081d64c8f7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 20.0,
+      "base_price": 979990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018078",
+        "title": "Телевизор Samsung QLED QE85LS03FAUXCE The Frame UHD SMART",
+        "price": 1519990,
+        "old_price": 2699990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85ls03fauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/29ac1a3c-1bc9-461d-9689-9e5ecbbc340e?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 20.0,
+      "base_price": 1899990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013947",
+        "title": "Телевизор HISENSE QLED 65E7NQ UHD SMART",
+        "price": 249990,
+        "old_price": 474990,
+        "url": "https://www.mechta.kz/product/televizor-hisense-qled-65e7nq-uhd-smart/",
+        "brand": "Hisense",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/f67086ef-7eeb-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-21T09:20:51+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 19.4,
+      "base_price": 309990,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018107",
+        "title": "Телевизор Samsung Neo QLED QE65QN90FAUXCE UHD SMART",
+        "price": 899990,
+        "old_price": 1779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn90fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/64461c52-8499-4505-8676-c5e154cadbbd?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 18.2,
+      "base_price": 1099990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018074",
+        "title": "Телевизор Samsung QLED QE55LS03FAUXCE The Frame UHD SMART",
+        "price": 534990,
+        "old_price": 949990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03fauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/2b6db77f-9529-4acd-94d3-3e4167f61701?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 15.1,
+      "base_price": 629990,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018123",
+        "title": "Телевизор Samsung OLED QE83S85FAEXCE",
+        "price": 1999990,
+        "old_price": 3549990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe83s85faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/78c78086-d29a-4195-8033-87921eef8e29?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 14.9,
+      "base_price": 2349990,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018108",
+        "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
+        "price": 1499990,
+        "old_price": 2879990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn90fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/db689e9b-bab6-459c-869e-5b30d727936d?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 14.3,
+      "base_price": 1749990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 33.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022204",
+        "title": "Стайлер HAUZEN Air Style Pro (Сиреневый)",
+        "price": 59990,
+        "old_price": 109990,
+        "url": "https://www.mechta.kz/product/stayler-hauzen-air-style-pro-sirenevyy/",
+        "brand": "Hauzen",
+        "category": "Стайлеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/f702d80d-2e69-4c42-a880-83303d95292b?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 14.3,
+      "base_price": 69990,
+      "value_score": 34,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020570",
+        "title": "Телевизор Samsung QLED QE65Q7FAAUXKZ UHD SMART (KZ)",
+        "price": 419990,
+        "old_price": 739990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q7faauxkz-uhd-smart-kz/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/15d7a460-04b4-4415-8e85-37ad08e3ebc3?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 12.5,
+      "base_price": 479990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200001773",
+        "title": "Сушилка для овощей и фруктов Polaris PFD 2505",
+        "price": 17890,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/sushilka-dlya-ovoshchey-i-fruktov-polaris-pfd-2505/",
+        "brand": "Polaris",
+        "category": "Сушилки для овощей и фруктов",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/b52ecd9d-0e00-4bd8-83ac-9537a64106fe?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 10.5,
+      "base_price": 19990,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 38.5
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-09T21:20:06+00:00",
-      "item_count": 7730,
+      "last_crawl": "2026-10-09T23:20:06+00:00",
+      "item_count": 7734,
       "status": "ok"
     },
     {
@@ -2564,7 +2554,7 @@
     }
   ],
   "stats": {
-    "total_products": 7730,
+    "total_products": 7734,
     "total_deals": 90,
     "avg_discount": 61.5
   }
