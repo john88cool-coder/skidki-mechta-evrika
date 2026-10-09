@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T17:20:01.707909+00:00",
+  "updated_at": "2026-10-09T23:02:26.011679+00:00",
   "deals": [
     {
       "product": {
@@ -4110,63 +4110,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "653854",
-        "title": "Монитор Samsung LS49DG932SIXCI",
-        "price": 769990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-samsung-ls49dg932sixci",
-        "brand": "Samsung",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_1274_0_1_B1CoCU_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 86.0,
-      "base_price": 5500000,
-      "value_score": 100,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000040963",
-        "title": "Ноутбук MSI Katana 17 HX B14WFK-404XKZ 17,3&quot; FHD 144Hz i5-14450HX 16GB 1TB RTX5060 DOS",
-        "price": 846253,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/noutbuki-62-9552",
-        "brand": "",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9552_0_6_JjbTsi_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 84.6,
-      "base_price": 5500000,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "261565",
         "title": "Беспроводной пылесос Tefal X-Force Flex 15.60 Pro TY-99F1WO",
@@ -4196,34 +4139,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "286094",
-        "title": "Набор посуды 6пр. Polaris Loretto-06S",
-        "price": 39990,
-        "old_price": 49990,
-        "url": "https://www.technodom.kz/p/nabor-posudi-6pr-polaris-loretto-06s-286094",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://api.technodom.kz/f3/api/v1/images/286094.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 50.0,
-      "base_price": 79990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -30.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "254106",
         "title": "Гриль-барбекю электрический Kitfort KT-1658",
         "price": 94990,
@@ -4248,89 +4163,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "269704",
-        "title": "Монитор Игровой 27\" Samsung G6 LS27BG650EIXCI 2560x1440 16:9 VA 240ГЦ (2HDMI+DP) Curved Black",
-        "price": 130990,
-        "old_price": 199990,
-        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-samsung-g6-269704",
-        "brand": "Samsung",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://api.technodom.kz/f3/api/v1/images/monitor_igrovoj_27_samsung_g6_269704_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 48.6,
-      "base_price": 254990,
-      "value_score": 100,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -13.6
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "219622",
-        "title": "Кастрюля 4л Polaris Monolit-24C",
-        "price": 16990,
-        "old_price": 32990,
-        "url": "https://www.technodom.kz/p/kastryulya-koval-4l-polaris-monolit-24c-219622",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://api.technodom.kz/f3/api/v1/images/219622_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 48.5,
-      "base_price": 32990,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "275870",
-        "title": "Сковорода-гриль 28см Polaris ECO collection-28G",
-        "price": 17990,
-        "old_price": 28990,
-        "url": "https://www.technodom.kz/p/skovoroda-gril-28sm-polaris-eco-collection-28g-275870",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://api.technodom.kz/f3/api/v1/images/skovoroda_gril_28sm_polaris_eco_collection_28g_275870_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 47.1,
-      "base_price": 33990,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -9.1
     },
     {
       "product": {
@@ -4414,34 +4246,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "638927",
-        "title": "Гарнитура Jabra Biz 1100 USB-A EDU stereo 1159-0159-EDU",
-        "price": 39615,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-1159-0159-edu",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3591_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 41.8,
-      "base_price": 68040,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -4584,34 +4388,6 @@
         "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "286092",
-        "title": "Кастрюля 5,3л 24см Polaris Loretto-24C",
-        "price": 24990,
-        "old_price": 39990,
-        "url": "https://www.technodom.kz/p/kastryulya-53l-24sm-polaris-loretto-24c-286092",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://api.technodom.kz/f3/api/v1/images/286092_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.5,
-      "base_price": 39990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
       ],
       "inflated_gap": 0.5
     },
@@ -4927,33 +4703,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "219631",
-        "title": "Ковш 1,3л Polaris Monolit-16SP",
-        "price": 12990,
-        "old_price": 16990,
-        "url": "https://www.technodom.kz/p/kovsh-koval-13l-polaris-monolit-16sp-219631",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://api.technodom.kz/f3/api/v1/images/219631_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 35.0,
-      "base_price": 19990,
-      "value_score": 83,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -11.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1382413",
         "title": "Выпрямитель Rowenta SF323LF0",
@@ -5006,6 +4755,35 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "269704",
+        "title": "Монитор Игровой 27\" Samsung G6 LS27BG650EIXCI 2560x1440 16:9 VA 240ГЦ (2HDMI+DP) Curved Black",
+        "price": 130990,
+        "old_price": 199990,
+        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-samsung-g6-269704",
+        "brand": "Samsung",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://api.technodom.kz/f3/api/v1/images/monitor_igrovoj_27_samsung_g6_269704_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 34.5,
+      "base_price": 199990,
+      "value_score": 92,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -5149,62 +4927,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "267995",
-        "title": "Принтер лазерный HP LaserJet Pro M4003dn A4-D-W-N (2Z609A)",
-        "price": 175990,
-        "old_price": 258990,
-        "url": "https://www.technodom.kz/p/printer-lazernyj-hp-laserjet-pro-m4003dn-a4-d-w-n-2z609a-267995",
-        "brand": "HP",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://api.technodom.kz/f3/api/v1/images/printer_lazernyj_hp_laserjet_pro_m4003dn_a4_d_w_n_2z609a_267995_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 32.0,
-      "base_price": 258990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "275871",
-        "title": "Сковорода блинная 22см Polaris ECO collection-22PC",
-        "price": 14990,
-        "old_price": 21990,
-        "url": "https://www.technodom.kz/p/skovoroda-blinnaya-22sm-polaris-eco-collection-22pc-275871",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://api.technodom.kz/f3/api/v1/images/skovoroda_blinnaya_22sm_polaris_eco_collection_22pc_275871_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 31.8,
-      "base_price": 21990,
-      "value_score": 79,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "288242",
         "title": "Наушники Redmi, Buds 6 Night Black",
         "price": 14990,
@@ -5285,33 +5007,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 8.6
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "275869",
-        "title": "Сковорода 28см Polaris ECO collection-28F",
-        "price": 19990,
-        "old_price": 26990,
-        "url": "https://www.technodom.kz/p/skovoroda-28sm-polaris-eco-collection-28f-275869",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://api.technodom.kz/f3/api/v1/images/skovoroda_28sm_polaris_eco_collection_28f_275869_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 31.0,
-      "base_price": 28990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -5.0
     },
     {
       "product": {
@@ -5567,33 +5262,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "288506",
-        "title": "Набор посуды 6пр. Polaris MasterKeep-6S",
-        "price": 49990,
-        "old_price": 57990,
-        "url": "https://www.technodom.kz/p/nabor-posudy-6pr-polaris-masterkeep-6s-288506",
-        "brand": "Polaris",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://api.technodom.kz/f3/api/v1/images/nabor_posudy_6pr_polaris_masterkeep_6s_288506_01.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 28.6,
-      "base_price": 69990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -14.6
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "284833",
         "title": "Сушильная машина Electrolux EW7D585UCE",
         "price": 499990,
@@ -5757,6 +5425,33 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "48419",
+        "title": "Фен-Стайлер AENO AHS0001",
+        "price": 64990,
+        "old_price": 89990,
+        "url": "https://evrika.com/catalog/fen-stayler-aeno-ahs0001/p48419",
+        "brand": null,
+        "category": "Фен-щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/DSHRJaQXS0w6DH82usIagFsAMYhZcXFoS6WiLFWK.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 27.8,
+      "base_price": 89990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "624032",
         "title": "Монитор Samsung 24″ Odyssey G3 LS24DG300EIXCI LS24DG300EIXCI",
@@ -5815,6 +5510,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "276923",
+        "title": "Морозильная камера ларь Midea MDRC345FZF01",
+        "price": 129990,
+        "old_price": 179990,
+        "url": "https://www.technodom.kz/p/morozilnik-midea-mdrc345fzf01-276923",
+        "brand": "Midea",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://api.technodom.kz/f3/api/v1/images/276923_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 27.8,
+      "base_price": 179990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1455784",
         "title": "Стиральная машина Beko B3WFR572AB",
@@ -5840,6 +5562,144 @@
         "Рисованная?"
       ],
       "inflated_gap": 19.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "295663",
+        "title": "Монитор 27\" MSI PRO MP272PMG IPS 1920x1080 16:9 120Гц (HDMI+DP)",
+        "price": 99990,
+        "old_price": 137990,
+        "url": "https://www.technodom.kz/p/monitor-27-msi-pro-mp272pmg-ips-1920x1080-16-9-120gts-hdmi-dp-295663",
+        "brand": "MSI",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://api.technodom.kz/f3/api/v1/images/295663_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 27.5,
+      "base_price": 137990,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "293248",
+        "title": "Игровой монитор 27\" LG OLED 27GX790A-B 2560x1440 16:9 OLED 480ГЦ (2HDMI+DP) Black",
+        "price": 399990,
+        "old_price": 549990,
+        "url": "https://www.technodom.kz/p/igrovoj-monitor-27-lg-oled-27gx790a-b-2560x1440-169-oled-480gc-2hdmidp-black-293248",
+        "brand": "LG",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://api.technodom.kz/f3/api/v1/images/293248_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 27.3,
+      "base_price": 549990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "288868",
+        "title": "Стиральная машина Hotpoint WSH6090VWW",
+        "price": 149990,
+        "old_price": 204990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh6090vww-288868",
+        "brand": "Hotpoint",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288868_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 26.8,
+      "base_price": 204990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "300291",
+        "title": "Телевизор Hisense 32A4S",
+        "price": 109990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/televizor-hisense-32a4s-300291",
+        "brand": "Hisense",
+        "category": "ТВ, аудио, фото, видео",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/300291_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 26.7,
+      "base_price": 149990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "295666",
+        "title": "Монитор 32\" MSI Summit MS321UP IPS 3840x2160 16:9 60Гц (2HDMI+DP)",
+        "price": 299990,
+        "old_price": 408990,
+        "url": "https://www.technodom.kz/p/monitor-32-msi-summit-ms321up-ips-3840x2160-16-9-60gts-2hdmi-dp-295666",
+        "brand": "MSI",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://api.technodom.kz/f3/api/v1/images/295666_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 26.7,
+      "base_price": 408990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -5871,6 +5731,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "294622",
+        "title": "Мультипортовый адаптер CANYON 8in1 (DS-14)",
+        "price": 27990,
+        "old_price": 37990,
+        "url": "https://www.technodom.kz/p/multiportoviy-adapter-canyon-8in1-ds-14-294622",
+        "brand": "Canyon",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/294622_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 26.3,
+      "base_price": 37990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "635240",
         "title": "Монитор Samsung 24&quot; S3 LS24D364GAIXCI",
@@ -5897,6 +5784,60 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "288870",
+        "title": "Стиральная машина Hotpoint WSH7290VWB",
+        "price": 159990,
+        "old_price": 214990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh7290vwb-288870",
+        "brand": "Hotpoint",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288870_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 25.6,
+      "base_price": 214990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "288873",
+        "title": "Стиральная машина Hotpoint WSH8291VWX",
+        "price": 189990,
+        "old_price": 254990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh8291vwx-288873",
+        "brand": "Hotpoint",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288873_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.5,
+      "base_price": 254990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -6194,7 +6135,7 @@
       "drop_pct": null,
       "fair_discount": 22.5,
       "base_price": 399990,
-      "value_score": 58,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -7008,7 +6949,7 @@
       "drop_pct": 50,
       "fair_discount": 20.0,
       "base_price": 1099990,
-      "value_score": 68,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7045,6 +6986,93 @@
         "Рисованная?"
       ],
       "inflated_gap": 28.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631682",
+        "title": "QNED телевизор LG 86QNED82A6B",
+        "price": 959990,
+        "old_price": 1794990,
+        "url": "https://www.sulpak.kz/g/televizoriy-lg-86qned82a6b",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3213_0_6_y6Omsj_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 20.0,
+      "base_price": 1199990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640255",
+        "title": "QLED телевизор Samsung QE85Q8FAAUXCE",
+        "price": 959990,
+        "old_price": 1899990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe85q8faauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20477_0_1_rAO8jB_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 20.0,
+      "base_price": 1199990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631695",
+        "title": "OLED телевизор LG OLED65M59LA",
+        "price": 1119990,
+        "old_price": 2259990,
+        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled65m59la",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3226_0_1_Rox0S9_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 20.0,
+      "base_price": 1399990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
     },
     {
       "product": {
@@ -8000,6 +8028,31 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "43784",
+        "title": "Беспроводной вертикальный пылесоc Dreame R10 Pro Aqua",
+        "price": 179990,
+        "old_price": 199990,
+        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesoc-dreame-r10-pro-aqua/p43784",
+        "brand": null,
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/63sk9ZKHSTLEnOJVPK1d1Y90OKtxExABC5HE9K5W.png.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 10.0,
+      "base_price": 199990,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1680173",
         "title": "Колонки Edifier M60 (2.0), Classic Oak",
@@ -8189,42 +8242,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-09T17:19:44+00:00",
-      "item_count": 2512,
+      "last_crawl": "2026-10-09T23:02:06+00:00",
+      "item_count": 2510,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-09T17:19:44+00:00",
+      "last_crawl": "2026-10-09T23:02:06+00:00",
       "item_count": 12156,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-09T17:19:44+00:00",
-      "item_count": 3704,
+      "last_crawl": "2026-10-09T23:02:06+00:00",
+      "item_count": 3681,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-09T17:19:44+00:00",
-      "item_count": 9640,
+      "last_crawl": "2026-10-09T23:02:06+00:00",
+      "item_count": 9641,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-09T17:19:44+00:00",
+      "last_crawl": "2026-10-09T23:02:06+00:00",
       "item_count": 174,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28186,
-    "total_deals": 298,
+    "total_products": 28162,
+    "total_deals": 300,
     "avg_discount": 50.0
   }
 }
