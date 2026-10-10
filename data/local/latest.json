@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T07:21:25.064006+00:00",
+  "updated_at": "2026-10-10T09:20:56.379833+00:00",
   "deals": [
     {
       "product": {
@@ -152,7 +152,7 @@
       "drop_pct": 71,
       "fair_discount": 57.1,
       "base_price": 349890,
-      "value_score": 94,
+      "value_score": 90,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -181,7 +181,7 @@
       "drop_pct": 71,
       "fair_discount": 57.1,
       "base_price": 349890,
-      "value_score": 94,
+      "value_score": 90,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1402,34 +1402,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000067952",
-        "title": "Кофеварка DELONGHI ECP 35.31",
-        "price": 79990,
-        "old_price": 144990,
-        "url": "https://www.mechta.kz/product/kofevarka-delonghi-ecp-35dot31/",
-        "brand": "DeLonghi",
-        "category": "Кофеварки рожковые",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/8dff6ea5-36cd-11e7-80c9-2c768a5d3553?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 44.8,
-      "base_price": 144990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200024896",
         "title": "Ноутбук LENOVO IdeaPad Slim 3 15IPH11 (83UR001LRK)/15.3 WUXGA/Core Ultra 5 322 1.9 Ghz/24/SSD512/Dos",
         "price": 349990,
@@ -1539,35 +1511,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 18.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200002261",
-        "title": "Ноутбук ASUS Zenbook UM425QA-KI175W 14 FHD/AMD Ryzen 5 5600H 3.3 Ghz/8/SSD512/Win11",
-        "price": 299970,
-        "old_price": 524990,
-        "url": "https://www.mechta.kz/product/noutbuk-asus-zenbook-um425qa-ki175w-14-fhdamd-ryzen-5-5600h-3dot3-ghz8ssd512win11/",
-        "brand": "ASUS",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/dc1ff817-e8c4-40c2-972f-8d154aa67d70?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 34.8,
-      "base_price": 459990,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 8.2
     },
     {
       "product": {
@@ -2259,8 +2202,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-10T07:21:13+00:00",
-      "item_count": 7728,
+      "last_crawl": "2026-10-10T09:20:48+00:00",
+      "item_count": 7727,
       "status": "ok"
     },
     {
@@ -2300,8 +2243,8 @@
     }
   ],
   "stats": {
-    "total_products": 7728,
-    "total_deals": 81,
+    "total_products": 7727,
+    "total_deals": 79,
     "avg_discount": 63
   }
 }
