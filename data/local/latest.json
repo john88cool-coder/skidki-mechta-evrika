@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T05:20:23.916026+00:00",
+  "updated_at": "2026-10-10T07:21:25.064006+00:00",
   "deals": [
     {
       "product": {
@@ -1430,34 +1430,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000003429",
-        "title": "Наушники PANASONIC RB-M300BGE-K",
-        "price": 34990,
-        "old_price": 63290,
-        "url": "https://www.mechta.kz/product/naushniki-panasonic-rb-m300bge-k/",
-        "brand": "Panasonic",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/e0899909-82fa-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 44.7,
-      "base_price": 63290,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200024896",
         "title": "Ноутбук LENOVO IdeaPad Slim 3 15IPH11 (83UR001LRK)/15.3 WUXGA/Core Ultra 5 322 1.9 Ghz/24/SSD512/Dos",
         "price": 349990,
@@ -1795,35 +1767,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011828",
-        "title": "Телевизор Samsung QLED QE65QN85DBUXCE UHD SMART",
-        "price": 645990,
-        "old_price": 1249990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn85dbuxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/1fd153af-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 23.6,
-      "base_price": 845990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 24.4
     },
     {
       "product": {
@@ -2316,8 +2259,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-10T05:20:17+00:00",
-      "item_count": 7729,
+      "last_crawl": "2026-10-10T07:21:13+00:00",
+      "item_count": 7728,
       "status": "ok"
     },
     {
@@ -2357,8 +2300,8 @@
     }
   ],
   "stats": {
-    "total_products": 7729,
-    "total_deals": 83,
-    "avg_discount": 62
+    "total_products": 7728,
+    "total_deals": 81,
+    "avg_discount": 63
   }
 }
