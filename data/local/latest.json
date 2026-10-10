@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T03:20:12.245892+00:00",
+  "updated_at": "2026-10-10T05:20:23.916026+00:00",
   "deals": [
     {
       "product": {
@@ -755,15 +755,14 @@
       },
       "signal": "deal",
       "drop_pct": 67,
-      "fair_discount": 23.1,
-      "base_price": 25990,
-      "value_score": 58,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 43.9
+      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -1375,61 +1374,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011026",
-        "title": "Тостер POLARIS PET 0812A Черный/матовый",
-        "price": 14390,
-        "old_price": 28990,
-        "url": "https://www.mechta.kz/product/toster-polaris-pet-0812a-chernyymatovyy/",
-        "brand": "Polaris",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/d2e33589-efe3-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 50.4,
-      "base_price": 28990,
-      "value_score": 84,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012855",
-        "title": "Блендер погружной POLARIS PHB 1283 Серый",
-        "price": 21990,
-        "old_price": 43990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-polaris-phb-1283-seryy/",
-        "brand": "Polaris",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/c848d4f4-4d98-11ef-a267-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 50.0,
-      "base_price": 43990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012616",
         "title": "Сушильная машина BEKO B3T 68230",
         "price": 169990,
@@ -1454,34 +1398,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001286",
-        "title": "Кухонная машина POLARIS PKM 1104",
-        "price": 79990,
-        "old_price": 146990,
-        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-polaris-pkm-1104/",
-        "brand": "Polaris",
-        "category": "Кухонные машины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://pi.mdev.kz/084bd532-12e2-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 46,
-      "fair_discount": 45.6,
-      "base_price": 146990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -1627,35 +1543,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011464",
-        "title": "Телевизор Samsung LED UE50DU8500UXCE UHD SMART",
-        "price": 189990,
-        "old_price": 379990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue50du8500uxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/eecc8b19-06d5-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 36.7,
-      "base_price": 299990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 13.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012538",
         "title": "Эпилятор BRAUN SE1-000 PNK BOX MN",
         "price": 14990,
@@ -1709,33 +1596,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 8.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001761",
-        "title": "Настольный гриль POLARIS PGP 2402",
-        "price": 49990,
-        "old_price": 94990,
-        "url": "https://www.mechta.kz/product/nastolnyy-gril-polaris-pgp-2402/",
-        "brand": "Polaris",
-        "category": "Электрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/810ed795-2cef-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 32.4,
-      "base_price": 73990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.6
     },
     {
       "product": {
@@ -2450,41 +2310,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 30.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001773",
-        "title": "Сушилка для овощей и фруктов Polaris PFD 2505",
-        "price": 17890,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/sushilka-dlya-ovoshchey-i-fruktov-polaris-pfd-2505/",
-        "brand": "Polaris",
-        "category": "Сушилки для овощей и фруктов",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://pi.mdev.kz/b52ecd9d-0e00-4bd8-83ac-9537a64106fe?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 10.5,
-      "base_price": 19990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 38.5
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-10T03:20:06+00:00",
-      "item_count": 7734,
+      "last_crawl": "2026-10-10T05:20:17+00:00",
+      "item_count": 7729,
       "status": "ok"
     },
     {
@@ -2524,8 +2357,8 @@
     }
   ],
   "stats": {
-    "total_products": 7734,
-    "total_deals": 89,
+    "total_products": 7729,
+    "total_deals": 83,
     "avg_discount": 62
   }
 }
