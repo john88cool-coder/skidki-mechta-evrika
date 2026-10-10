@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T12:57:23.341608+00:00",
+  "updated_at": "2026-10-10T19:01:25.746244+00:00",
   "deals": [
     {
       "product": {
@@ -153,6 +153,31 @@
         "discount_pct": 63,
         "image": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1331680",
+        "title": "Компактная акустика 2.1 Trust TYTAN черный",
+        "price": 15990,
+        "old_price": 43000,
+        "url": "https://alser.kz/p/kompaktnaa-akustika-21-trust-tytan-cernyj",
+        "brand": "Trust",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki/w97GaSqBn/kompaktnaa-akustika-21-trust-tytan-cernyj-w160.webp",
+        "first_seen": "2026-09-19T16:16:46+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -561,7 +586,7 @@
       "drop_pct": 49,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 41,
+      "value_score": 37,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1325,33 +1350,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1331680",
-        "title": "Компактная акустика 2.1 Trust TYTAN черный",
-        "price": 15990,
-        "old_price": 43000,
-        "url": "https://alser.kz/p/kompaktnaa-akustika-21-trust-tytan-cernyj",
-        "brand": "Trust",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki/w97GaSqBn/kompaktnaa-akustika-21-trust-tytan-cernyj-w160.webp",
-        "first_seen": "2026-09-19T16:16:46+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 15990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
     },
     {
       "product": {
@@ -2208,7 +2206,7 @@
         "shop": "sulpak",
         "sku": "625187",
         "title": "Стиральная машина Haier HW100-BD14378S",
-        "price": 308490,
+        "price": 308290,
         "old_price": 719990,
         "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw100-bd14378s",
         "brand": "Haier",
@@ -2221,7 +2219,7 @@
       },
       "signal": "deal",
       "drop_pct": 57,
-      "fair_discount": 32.9,
+      "fair_discount": 33.0,
       "base_price": 459990,
       "value_score": 86,
       "is_pick": true,
@@ -2230,7 +2228,7 @@
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 24.1
+      "inflated_gap": 24.0
     },
     {
       "product": {
@@ -2586,7 +2584,7 @@
       "drop_pct": 56,
       "fair_discount": 20.0,
       "base_price": 1499990,
-      "value_score": 62,
+      "value_score": 57,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4894,6 +4892,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 58982,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 32.1,
+      "base_price": 86890,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "289310",
         "title": "Встраиваемая посудомоечная машина Midea MDWB-4529TQ",
@@ -4973,33 +4998,6 @@
         "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 59457,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 31.6,
-      "base_price": 86890,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
       ],
       "inflated_gap": null
     },
@@ -5831,34 +5829,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "652781",
-        "title": "Ноутбук ASUS Zenbook A14 90NB1502-M018P0 Qualcomm Snapdragon X Elite X126100 16 GB / SSD 512GB / Qualcomm® Adreno™ GPU / Windows 11 Home / QXE165SUW11P",
-        "price": 621990,
-        "old_price": 829990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-zenbook-a14-90nb1502-m018p0-qxe165suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9742_0_1_Ki9mVl_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.1,
-      "base_price": 829990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1303581",
         "title": "Газовый проточный водонагреватель Ariston FAST R ONM 10 NG RU",
@@ -6049,34 +6019,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652785",
-        "title": "Ноутбук Asus Vivobook 15 i5 320 16GB / SSD 512GB / Intel Graphics / Win 11 Home / 90NB17I1-M01MS0",
-        "price": 399990,
-        "old_price": 529990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-vivobook-15-90nb17i1-m01ms0-i5165suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9746_0_6_7pqPrE_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 22.6,
-      "base_price": 516990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 2.4
     },
     {
       "product": {
@@ -6325,33 +6267,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000042016",
-        "title": "Гарнитура Fanvil HT302U",
-        "price": 10007,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4037",
-        "brand": "",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.2,
-      "base_price": 12546,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6951,6 +6866,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640226",
+        "title": "OLED телевизор Samsung QE65S90FAEXCE",
+        "price": 879990,
+        "old_price": 1699990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65s90faexce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20448_0_1_zC8ry0_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 20.0,
+      "base_price": 1099990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -7113,33 +7057,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000022440",
-        "title": "Моноблок 27&quot; XG Atlas GL70",
-        "price": 198990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.8,
-      "base_price": 245000,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7360,6 +7277,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "642310",
+        "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
+        "price": 100590,
+        "old_price": 154890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2237_0_1_GsmnI1_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 16.2,
+      "base_price": 119990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.8
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1617610",
         "title": "Электробритва Centek CT-2150, Silver",
@@ -7439,6 +7384,31 @@
         "Честная скидка"
       ],
       "inflated_gap": 8.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "637434",
+        "title": "Смартфон Huawei Pura 80 Ultra Black",
+        "price": 599890,
+        "old_price": 828890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-pura-80-ultra-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7157_0_1_cCBdBG_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 14.8,
+      "base_price": 704048,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 13.2
     },
     {
       "product": {
@@ -7543,6 +7513,33 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652738",
+        "title": "Ноутбук Lenovo IdeaPad Slim 3 15AMN8 / AMD Ryzen 5 40 / 16GB / SSD 512GB / Radeon Graphics 610M / Win 11 / 82XQ01SLRK",
+        "price": 349990,
+        "old_price": 399990,
+        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-ideapad-slim-3-15amn8-82xq01slrk-r5165sun",
+        "brand": "Lenovo",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9699_0_6_LcrXZe_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 14.0,
+      "base_price": 406990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -1.0
     },
     {
       "product": {
@@ -7748,33 +7745,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1724186",
-        "title": "Ультрабук ASUS Zenbook 14 UX3405CA, OLED (90NB14W2-M02F50)",
-        "price": 699990,
-        "old_price": 829990,
-        "url": "https://shop.kz/offer/ultrabuk-asus-zenbook-14-ux3405ca-oled-90nb14w2-m02f50/",
-        "brand": "ASUS",
-        "category": "Ультрабуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://static.shop.kz/upload/iblock/b09/lb3k1xqbmzsknbbf5hldqd56sj7az34k/197155n1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 11.4,
-      "base_price": 789990,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 4.6
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "43013",
         "title": "МФУ Epson EcoTank L8100 (C11CK94401)",
@@ -7876,58 +7846,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1700729",
-        "title": "Ультрабук ASUS Zenbook 14 UX3407QA, OLED (90NB1502-M00MN0)",
-        "price": 549990,
-        "old_price": 619990,
-        "url": "https://shop.kz/offer/ultrabuk-asus-zenbook-14-ux3407qa-oled-90nb1502-m00mn0/",
-        "brand": "ASUS",
-        "category": "Ультрабуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 11,
-        "image": "https://static.shop.kz/upload/iblock/de6/jetntwznm5uor66i1rorw6zqa98jls5a/188473o200.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 11,
-      "fair_discount": 11.0,
-      "base_price": 617990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45391",
-        "title": "HUAWEI WATCH FIT 4 Black",
-        "price": 57890,
-        "old_price": 71990,
-        "url": "https://evrika.com/catalog/huawei-watch-fit-4-black/p45391",
-        "brand": null,
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ZUkghSMJMwkMnpy723AwFwZBekIUEq2hWoTS3ShH.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 10.9,
-      "base_price": 64990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 9.1
     },
     {
       "product": {
@@ -8131,58 +8049,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1699391",
-        "title": "Наушники Music Public Kingdom HP500, Black",
-        "price": 20990,
-        "old_price": null,
-        "url": "https://shop.kz/offer/naushniki-music-public-kingdom-hp500-black/",
-        "brand": "Music Public Kingdom",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/4c6/xjjuzwtm08fr95vl4rk71wg6s7d2a76v/188225s200.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 8.7,
-      "base_price": 22990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1718198",
-        "title": "Ультрабук ASUS Zenbook 14 UX3407QA, OLED (90NB1501-M00RK0)",
-        "price": 549990,
-        "old_price": 639990,
-        "url": "https://shop.kz/offer/ultrabuk-asus-zenbook-14-ux3407qa-oled-90nb1501-m00rk0/",
-        "brand": "ASUS",
-        "category": "Ультрабуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://static.shop.kz/upload/iblock/28b/ovthangj44gvt27b16iv1y1cgm14cz1f/195193o1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 8.3,
-      "base_price": 599900,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1415004",
         "title": "Газоэлектрическая плита Hansa FCMW68123",
@@ -8207,6 +8073,56 @@
         "Рисованная?"
       ],
       "inflated_gap": 32.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45024",
+        "title": "Apple iPhone 17 256GB Black MG6J4HX/A",
+        "price": 559990,
+        "old_price": 633990,
+        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-black-mg6j4hx-a/p45024",
+        "brand": null,
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/Bma2P2Sv6E1slvYMt4wlveSFGWdiXyF30jXLpdQH.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 8.2,
+      "base_price": 609990,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 3.8
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1518498",
+        "title": "Отпариватель Tefal Access Steam First DT6130E0, White-Blue",
+        "price": 33990,
+        "old_price": 36990,
+        "url": "https://shop.kz/offer/otparivatel-tefal-access-steam-first-dt6130e0-white-blue/",
+        "brand": "Tefal",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 8,
+        "image": "https://static.shop.kz/upload/iblock/22d/wetkqbok2dtas9yw675sq3j6chmfc59k/00000166579_12.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 8,
+      "fair_discount": 8.1,
+      "base_price": 36990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.1
     }
   ],
   "shops": [
@@ -8220,42 +8136,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-10T12:57:08+00:00",
-      "item_count": 2525,
+      "last_crawl": "2026-10-10T19:01:09+00:00",
+      "item_count": 2522,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-10T12:57:08+00:00",
-      "item_count": 12163,
+      "last_crawl": "2026-10-10T19:01:09+00:00",
+      "item_count": 12164,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-10T12:57:08+00:00",
-      "item_count": 3686,
+      "last_crawl": "2026-10-10T19:01:09+00:00",
+      "item_count": 3687,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-10T12:57:08+00:00",
-      "item_count": 9619,
+      "last_crawl": "2026-10-10T19:01:09+00:00",
+      "item_count": 9604,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-10T12:57:08+00:00",
+      "last_crawl": "2026-10-10T19:01:09+00:00",
       "item_count": 174,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28167,
-    "total_deals": 300,
-    "avg_discount": 50.0
+    "total_products": 28151,
+    "total_deals": 297,
+    "avg_discount": 50
   }
 }
