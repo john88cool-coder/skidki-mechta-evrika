@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T19:01:25.746244+00:00",
+  "updated_at": "2026-10-10T23:55:29.201112+00:00",
   "deals": [
     {
       "product": {
@@ -48,7 +48,7 @@
       "drop_pct": 68,
       "fair_discount": 57.5,
       "base_price": 119990,
-      "value_score": 92,
+      "value_score": 100,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -130,7 +130,7 @@
       "drop_pct": 63,
       "fair_discount": 50.0,
       "base_price": 39990,
-      "value_score": 96,
+      "value_score": 92,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2584,7 +2584,7 @@
       "drop_pct": 56,
       "fair_discount": 20.0,
       "base_price": 1499990,
-      "value_score": 57,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4216,6 +4216,35 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "275042",
+        "title": "Стиральная машина LG TW4V5EG2S",
+        "price": 299990,
+        "old_price": 529990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-lg-tw4v5eg2s-275042",
+        "brand": "LG",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://api.technodom.kz/f3/api/v1/images/275042_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 43.4,
+      "base_price": 529990,
+      "value_score": 92,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1455923",
         "title": "Машинка для стрижки волос Polaris, Black (PHC-3017RC), 5 насадок",
@@ -4837,6 +4866,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 58600,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 32.6,
+      "base_price": 86890,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "295660",
         "title": "Монитор 27\" MSI MAG 275QF IPS 2560x1440 16:9 180Гц (2HDMI+DP)",
@@ -4889,33 +4945,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 58982,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 32.1,
-      "base_price": 86890,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -5189,7 +5218,7 @@
       "drop_pct": 37,
       "fair_discount": 29.4,
       "base_price": 169990,
-      "value_score": 70,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5719,35 +5748,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "635240",
-        "title": "Монитор Samsung 24&quot; S3 LS24D364GAIXCI",
-        "price": 44990,
-        "old_price": 60990,
-        "url": "https://www.sulpak.kz/g/monitoriy-samsung-ls24d364gaixci",
-        "brand": "Samsung",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_1035_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 26.2,
-      "base_price": 60990,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "288870",
         "title": "Стиральная машина Hotpoint WSH7290VWB",
@@ -5772,33 +5772,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "288873",
-        "title": "Стиральная машина Hotpoint WSH8291VWX",
-        "price": 189990,
-        "old_price": 254990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh8291vwx-288873",
-        "brand": "Hotpoint",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288873_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.5,
-      "base_price": 254990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -6895,6 +6868,64 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "631682",
+        "title": "QNED телевизор LG 86QNED82A6B",
+        "price": 959990,
+        "old_price": 1794990,
+        "url": "https://www.sulpak.kz/g/televizoriy-lg-86qned82a6b",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3213_0_6_y6Omsj_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 20.0,
+      "base_price": 1199990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640255",
+        "title": "QLED телевизор Samsung QE85Q8FAAUXCE",
+        "price": 959990,
+        "old_price": 1899990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe85q8faauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20477_0_1_rAO8jB_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 20.0,
+      "base_price": 1199990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -7516,33 +7547,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "652738",
-        "title": "Ноутбук Lenovo IdeaPad Slim 3 15AMN8 / AMD Ryzen 5 40 / 16GB / SSD 512GB / Radeon Graphics 610M / Win 11 / 82XQ01SLRK",
-        "price": 349990,
-        "old_price": 399990,
-        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-ideapad-slim-3-15amn8-82xq01slrk-r5165sun",
-        "brand": "Lenovo",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9699_0_6_LcrXZe_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 14.0,
-      "base_price": 406990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -1.0
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1714475",
         "title": "Телевизор Dreame 65S100, 65\"",
@@ -7692,31 +7696,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "48179",
-        "title": "Телевизор Samsung 75\" Crystal UHD UE75U8000HUXCE",
-        "price": 599990,
-        "old_price": 679990,
-        "url": "https://evrika.com/catalog/televizor-75-samsung-ue75u8000huxce/p48179",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Wtsap5JQRpWwx37FOiITrm1etWO3w1854anpIKc0.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 11.8,
-      "base_price": 679990,
-      "value_score": 36,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -8136,42 +8115,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-10T19:01:09+00:00",
+      "last_crawl": "2026-10-10T23:55:13+00:00",
       "item_count": 2522,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-10T19:01:09+00:00",
+      "last_crawl": "2026-10-10T23:55:13+00:00",
       "item_count": 12164,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-10T19:01:09+00:00",
-      "item_count": 3687,
+      "last_crawl": "2026-10-10T23:55:13+00:00",
+      "item_count": 3689,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-10T19:01:09+00:00",
-      "item_count": 9604,
+      "last_crawl": "2026-10-10T23:55:13+00:00",
+      "item_count": 9602,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-10T19:01:09+00:00",
-      "item_count": 174,
+      "last_crawl": "2026-10-10T23:55:13+00:00",
+      "item_count": 173,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28151,
-    "total_deals": 297,
-    "avg_discount": 50
+    "total_products": 28150,
+    "total_deals": 296,
+    "avg_discount": 50.0
   }
 }
