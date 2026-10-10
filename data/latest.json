@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T06:16:50.545501+00:00",
+  "updated_at": "2026-10-10T12:57:23.341608+00:00",
   "deals": [
     {
       "product": {
@@ -1317,7 +1317,7 @@
       "drop_pct": 63,
       "fair_discount": 42.9,
       "base_price": 34990,
-      "value_score": 100,
+      "value_score": 95,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2281,7 +2281,7 @@
       "drop_pct": 57,
       "fair_discount": 40.0,
       "base_price": 24990,
-      "value_score": 98,
+      "value_score": 94,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -3487,7 +3487,7 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "base_price": 199990,
-      "value_score": 24,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3543,7 +3543,7 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "base_price": 1699990,
-      "value_score": 39,
+      "value_score": 45,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3929,7 +3929,7 @@
       "drop_pct": 52,
       "fair_discount": 20.0,
       "base_price": 499990,
-      "value_score": 68,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4407,7 +4407,7 @@
       "drop_pct": 38,
       "fair_discount": 37.5,
       "base_price": 159990,
-      "value_score": 91,
+      "value_score": 88,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4979,6 +4979,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 59457,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 31.6,
+      "base_price": 86890,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "631525",
         "title": "Кофемашина Krups Evidence Plus EA894T10",
         "price": 439990,
@@ -5003,33 +5030,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 8.6
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 59832,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 31.1,
-      "base_price": 86890,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6098,7 +6098,7 @@
       "drop_pct": null,
       "fair_discount": 22.5,
       "base_price": 399990,
-      "value_score": 58,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6125,7 +6125,7 @@
       "drop_pct": null,
       "fair_discount": 22.4,
       "base_price": 750983,
-      "value_score": 68,
+      "value_score": 72,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6526,6 +6526,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "650355",
+        "title": "Mini LED телевизор Dreame 65&quot; Aura 65S100",
+        "price": 455990,
+        "old_price": 659990,
+        "url": "https://www.sulpak.kz/g/televizoriy-dreame-65-aura-mini-led-4k-tv-65s100",
+        "brand": "Dreame",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20788_0_6_efKgVL_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 20.0,
+      "base_price": 569990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "640213",
         "title": "Neo QLED телевизор Samsung QE98QN90FAUXCE",
         "price": 4239990,
@@ -6913,7 +6940,7 @@
       "drop_pct": 50,
       "fair_discount": 20.0,
       "base_price": 1099990,
-      "value_score": 62,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6921,35 +6948,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640226",
-        "title": "OLED телевизор Samsung QE65S90FAEXCE",
-        "price": 879990,
-        "old_price": 1699990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65s90faexce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20448_0_1_zC8ry0_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 20.0,
-      "base_price": 1099990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.0
     },
     {
       "product": {
@@ -7625,6 +7623,56 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1684313",
+        "title": "Холодильник Бирюса M6133, Metallic",
+        "price": 162300,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-m6133-metallic/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/ab3/hcgw42fc90wcppailmpu1kmpupz9960x/185141s200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 12.8,
+      "base_price": 186200,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1713254",
+        "title": "Bluetooth гарнитура Logitech A20 X, White",
+        "price": 69990,
+        "old_price": 89990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-logitech-a20-x-white/",
+        "brand": "Logitech",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://static.shop.kz/upload/iblock/de6/pjyloas2iryyuevrmd6bqm4dz20bnipl/193627d1.JPG",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 12.5,
+      "base_price": 79990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 9.5
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "47633",
         "title": "Телевизор Hisense 50E77SL RU",
@@ -7669,6 +7717,31 @@
       "fair_discount": 11.8,
       "base_price": 679990,
       "value_score": 36,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1713845",
+        "title": "Bluetooth гарнитура Soundcore H30i, Black",
+        "price": 14990,
+        "old_price": 16990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-soundcore-h30i-black/",
+        "brand": "Soundcore",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://static.shop.kz/upload/iblock/d4f/xu3exhysy34kct10isc4e6rd5ejnrao2/193825S1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 11.8,
+      "base_price": 16990,
+      "value_score": 44,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.2
@@ -7806,6 +7879,33 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1700729",
+        "title": "Ультрабук ASUS Zenbook 14 UX3407QA, OLED (90NB1502-M00MN0)",
+        "price": 549990,
+        "old_price": 619990,
+        "url": "https://shop.kz/offer/ultrabuk-asus-zenbook-14-ux3407qa-oled-90nb1502-m00mn0/",
+        "brand": "ASUS",
+        "category": "Ультрабуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 11,
+        "image": "https://static.shop.kz/upload/iblock/de6/jetntwznm5uor66i1rorw6zqa98jls5a/188473o200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 11,
+      "fair_discount": 11.0,
+      "base_price": 617990,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "45391",
         "title": "HUAWEI WATCH FIT 4 Black",
@@ -7931,6 +8031,31 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1708283",
+        "title": "Морозильная камера Бирюса 416, White",
+        "price": 144300,
+        "old_price": null,
+        "url": "https://shop.kz/offer/morozilnaya-kamera-biryusa-416-white/",
+        "brand": "Бирюса",
+        "category": "Морозильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/77f/1xwsh8wl9nixg9t4hrsgnvash0qim4e3/190882o1.JPG",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.2,
+      "base_price": 158900,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "45025",
         "title": "Apple iPhone 17 256GB White MG6K4HX/A",
@@ -8007,6 +8132,31 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1699391",
+        "title": "Наушники Music Public Kingdom HP500, Black",
+        "price": 20990,
+        "old_price": null,
+        "url": "https://shop.kz/offer/naushniki-music-public-kingdom-hp500-black/",
+        "brand": "Music Public Kingdom",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/4c6/xjjuzwtm08fr95vl4rk71wg6s7d2a76v/188225s200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 8.7,
+      "base_price": 22990,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "1718198",
         "title": "Ультрабук ASUS Zenbook 14 UX3407QA, OLED (90NB1501-M00RK0)",
         "price": 549990,
@@ -8057,31 +8207,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 32.7
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45024",
-        "title": "Apple iPhone 17 256GB Black MG6J4HX/A",
-        "price": 559990,
-        "old_price": 633990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-black-mg6j4hx-a/p45024",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Bma2P2Sv6E1slvYMt4wlveSFGWdiXyF30jXLpdQH.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 8.2,
-      "base_price": 609990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 3.8
     }
   ],
   "shops": [
@@ -8095,42 +8220,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-10T06:16:32+00:00",
-      "item_count": 2506,
+      "last_crawl": "2026-10-10T12:57:08+00:00",
+      "item_count": 2525,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-10T06:16:32+00:00",
-      "item_count": 12155,
+      "last_crawl": "2026-10-10T12:57:08+00:00",
+      "item_count": 12163,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-10T06:16:32+00:00",
-      "item_count": 3687,
+      "last_crawl": "2026-10-10T12:57:08+00:00",
+      "item_count": 3686,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-10T06:16:32+00:00",
-      "item_count": 9627,
+      "last_crawl": "2026-10-10T12:57:08+00:00",
+      "item_count": 9619,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-10T06:16:32+00:00",
+      "last_crawl": "2026-10-10T12:57:08+00:00",
       "item_count": 174,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28149,
-    "total_deals": 295,
-    "avg_discount": 50
+    "total_products": 28167,
+    "total_deals": 300,
+    "avg_discount": 50.0
   }
 }
