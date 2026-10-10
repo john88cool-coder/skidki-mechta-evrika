@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T23:20:14.221837+00:00",
+  "updated_at": "2026-10-10T01:20:13.941333+00:00",
   "deals": [
     {
       "product": {
@@ -1826,36 +1826,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018087",
-        "title": "Телевизор Samsung QLED QE85Q7FAAUXCE UHD SMART",
-        "price": 629990,
-        "old_price": 1399990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85q7faauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/7daea9cc-9c8a-4bb3-8411-f90224faaedf?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 30.0,
-      "base_price": 899990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013945",
         "title": "Телевизор LED HISENSE 43A6N (SMART UHD)",
         "price": 99990,
@@ -2513,7 +2483,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-09T23:20:06+00:00",
+      "last_crawl": "2026-10-10T01:20:08+00:00",
       "item_count": 7734,
       "status": "ok"
     },
@@ -2555,7 +2525,7 @@
   ],
   "stats": {
     "total_products": 7734,
-    "total_deals": 90,
-    "avg_discount": 61.5
+    "total_deals": 89,
+    "avg_discount": 62
   }
 }
