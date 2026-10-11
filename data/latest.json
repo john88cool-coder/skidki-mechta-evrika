@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T23:55:29.201112+00:00",
+  "updated_at": "2026-10-11T06:11:39.233709+00:00",
   "deals": [
     {
       "product": {
@@ -323,34 +323,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1417849",
-        "title": "Струйный МФУ Canon Pixma G3430",
-        "price": 49990,
-        "old_price": 109990,
-        "url": "https://alser.kz/p/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm",
-        "brand": "Canon",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://s3s.alser.kz/uploads/products/printery-snpch/NZYQeuJkB/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 50.0,
-      "base_price": 99990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
     },
     {
       "product": {
@@ -3111,6 +3083,33 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1417849",
+        "title": "Струйный МФУ Canon Pixma G3430",
+        "price": 49990,
+        "old_price": 109990,
+        "url": "https://alser.kz/p/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm",
+        "brand": "Canon",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/printery-snpch/NZYQeuJkB/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 55.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1709177",
         "title": "Проигрыватель виниловых пластинок Pro-Ject VT-E R, Red (SN:185024182)",
@@ -4866,33 +4865,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 58600,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 32.6,
-      "base_price": 86890,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "295660",
         "title": "Монитор 27\" MSI MAG 275QF IPS 2560x1440 16:9 180Гц (2HDMI+DP)",
@@ -5694,33 +5666,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000016625",
-        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
-        "price": 139136,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.4,
-      "base_price": 189000,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "294622",
         "title": "Мультипортовый адаптер CANYON 8in1 (DS-14)",
@@ -6162,33 +6107,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "621726",
-        "title": "Гарнитура Jabra Evolve2 65, Link380a MS Stereo 26599-999-999",
-        "price": 107557,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2390",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2390_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 21.5,
-      "base_price": 137000,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "631704",
         "title": "Смартфон Honor Magic 7 12/256GB Black",
         "price": 389990,
@@ -6206,7 +6124,7 @@
       "drop_pct": 32,
       "fair_discount": 21.0,
       "base_price": 493490,
-      "value_score": 66,
+      "value_score": 61,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6289,7 +6207,7 @@
       "drop_pct": 40,
       "fair_discount": 20.0,
       "base_price": 679990,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6926,6 +6844,122 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "631695",
+        "title": "OLED телевизор LG OLED65M59LA",
+        "price": 1119990,
+        "old_price": 2259990,
+        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled65m59la",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3226_0_1_Rox0S9_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 20.0,
+      "base_price": 1399990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640211",
+        "title": "Neo QLED телевизор Samsung 8K QE65QN900FUXCE",
+        "price": 1199990,
+        "old_price": 2149990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65qn900fuxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20433_0_1_uVTn08_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 20.0,
+      "base_price": 1499990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640222",
+        "title": "OLED телевизор Samsung QE65S95FAUXCE",
+        "price": 1255990,
+        "old_price": 2199990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65s95fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20444_0_1_mXqFIy_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 1569990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640225",
+        "title": "OLED телевизор Samsung QE77S90FAEXCE",
+        "price": 1399990,
+        "old_price": 2749990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe77s90faexce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20447_0_1_qi8LvF_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 20.0,
+      "base_price": 1749990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -7415,31 +7449,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 8.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "637434",
-        "title": "Смартфон Huawei Pura 80 Ultra Black",
-        "price": 599890,
-        "old_price": 828890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-pura-80-ultra-black",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7157_0_1_cCBdBG_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 14.8,
-      "base_price": 704048,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 13.2
     },
     {
       "product": {
@@ -8115,41 +8124,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-10T23:55:13+00:00",
-      "item_count": 2522,
+      "last_crawl": "2026-10-11T06:11:22+00:00",
+      "item_count": 2514,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-10T23:55:13+00:00",
-      "item_count": 12164,
+      "last_crawl": "2026-10-11T06:11:22+00:00",
+      "item_count": 12165,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-10T23:55:13+00:00",
-      "item_count": 3689,
+      "last_crawl": "2026-10-11T06:11:22+00:00",
+      "item_count": 3725,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-10T23:55:13+00:00",
-      "item_count": 9602,
+      "last_crawl": "2026-10-11T06:11:22+00:00",
+      "item_count": 9606,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-10T23:55:13+00:00",
+      "last_crawl": "2026-10-11T06:11:22+00:00",
       "item_count": 173,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28150,
+    "total_products": 28183,
     "total_deals": 296,
     "avg_discount": 50.0
   }
