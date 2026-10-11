@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T06:11:39.233709+00:00",
+  "updated_at": "2026-10-11T13:15:24.382417+00:00",
   "deals": [
     {
       "product": {
@@ -219,6 +219,58 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1401856",
+        "title": "Встраиваемая посудомоечная машина Hansa ZIM446KH",
+        "price": 99990,
+        "old_price": 249990,
+        "url": "https://alser.kz/p/zim446khvstraivaemaa-posudomoecnaa-masina",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://s3s.alser.kz/uploads/products/posudomoechnye-mashiny/NZYbdcMbO/zim446khvstraivaemaa-posudomoecnaa-masina-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1371540",
+        "title": "Микроволновая печь Samsung MS23K3614AK/BW, Black, 800 Вт, 23 л, Без программ, Поворотные ручки, Биокерамическая эмаль, Solo",
+        "price": 29990,
+        "old_price": 69990,
+        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23k3614akbw",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/GAqbBhxKG/mikrovolnovaa-pec-samsung-ms23k3614akbw-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1331257",
         "title": "Швабра паровая Kitfort KT-1006",
         "price": 15990,
@@ -323,6 +375,56 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1445057",
+        "title": "Смартфон Vivo Y28 8/128GB, Gleaming Orange",
+        "price": 50000,
+        "old_price": 111220,
+        "url": "https://alser.kz/p/smartfon-vivo-y28-8128gb-gleaming-orange",
+        "brand": "Vivo",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/smartfony-vivo/B4y1AIApv/smartfon-vivo-y28-8128gb-gleaming-orange-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 23,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1383605",
+        "title": "Фен профессиональный Rowenta Karl Lagerfeld Pro Stylist, Black (CV887LF0), 2200 Вт, 3 насадки, ионизация",
+        "price": 17990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/fen-rowenta-cv887lf0",
+        "brand": "Rowenta",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/feny/ljYPACWNV/fen-rowenta-cv887lf0-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -558,7 +660,7 @@
       "drop_pct": 49,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -824,7 +926,7 @@
       "drop_pct": 75,
       "fair_discount": 0.0,
       "base_price": 739980,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1314,7 +1416,7 @@
       "drop_pct": 63,
       "fair_discount": 42.9,
       "base_price": 34990,
-      "value_score": 95,
+      "value_score": 92,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1702,61 +1804,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1401856",
-        "title": "Встраиваемая посудомоечная машина Hansa ZIM446KH",
-        "price": 99990,
-        "old_price": 249990,
-        "url": "https://alser.kz/p/zim446khvstraivaemaa-posudomoecnaa-masina",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://s3s.alser.kz/uploads/products/posudomoechnye-mashiny/NZYbdcMbO/zim446khvstraivaemaa-posudomoecnaa-masina-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 99990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1727297",
-        "title": "Ноутбук Apple MacBook Air A2337 с дисплеем Retina (Z12A0008K) (SN:SC02H90TCQ6M0)",
-        "price": 299990,
-        "old_price": 739990,
-        "url": "https://shop.kz/offer/noutbuk-apple-macbook-air-a2337-s-displeem-retina-z12a0008k-sn-sc02h90tcq6m0/",
-        "brand": "Apple",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://static.shop.kz/upload/iblock/1c1/xpqmn7lzveazkbh7isjhwm2at0e5va41/165765_01.jpg",
-        "first_seen": "2026-09-28T14:22:21+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": 0.0,
-      "base_price": 299990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 59.0
     },
     {
       "product": {
@@ -2251,7 +2298,7 @@
       "drop_pct": 57,
       "fair_discount": 40.0,
       "base_price": 24990,
-      "value_score": 94,
+      "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2337,34 +2384,6 @@
       "value_score": 27,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 57.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1371540",
-        "title": "Микроволновая печь Samsung MS23K3614AK/BW, Black, 800 Вт, 23 л, Без программ, Поворотные ручки, Биокерамическая эмаль, Solo",
-        "price": 29990,
-        "old_price": 69990,
-        "url": "https://alser.kz/p/mikrovolnovaa-pec-samsung-ms23k3614akbw",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://s3s.alser.kz/uploads/products/mikrovolnovye-pechi/GAqbBhxKG/mikrovolnovaa-pec-samsung-ms23k3614akbw-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 0.0,
-      "base_price": 29990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 57.0
@@ -3030,60 +3049,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1445057",
-        "title": "Смартфон Vivo Y28 8/128GB, Gleaming Orange",
-        "price": 50000,
-        "old_price": 111220,
-        "url": "https://alser.kz/p/smartfon-vivo-y28-8128gb-gleaming-orange",
-        "brand": "Vivo",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://s3s.alser.kz/uploads/products/smartfony-vivo/B4y1AIApv/smartfon-vivo-y28-8128gb-gleaming-orange-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 0.0,
-      "base_price": 50000,
-      "value_score": 23,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 55.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1383605",
-        "title": "Фен профессиональный Rowenta Karl Lagerfeld Pro Stylist, Black (CV887LF0), 2200 Вт, 3 насадки, ионизация",
-        "price": 17990,
-        "old_price": 39990,
-        "url": "https://alser.kz/p/fen-rowenta-cv887lf0",
-        "brand": "Rowenta",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://s3s.alser.kz/uploads/products/feny/ljYPACWNV/fen-rowenta-cv887lf0-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 0.0,
-      "base_price": 17990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 55.0
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1417849",
         "title": "Струйный МФУ Canon Pixma G3430",
         "price": 49990,
@@ -3568,7 +3533,7 @@
       "drop_pct": 53,
       "fair_discount": 20.0,
       "base_price": 2299990,
-      "value_score": 62,
+      "value_score": 57,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -3926,7 +3891,7 @@
       "drop_pct": 52,
       "fair_discount": 20.0,
       "base_price": 499990,
-      "value_score": 63,
+      "value_score": 60,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4100,6 +4065,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 51.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1272522",
+        "title": "Смартфон vivo Y15s, 32GB, Mystic Blue (V2120)",
+        "price": 39990,
+        "old_price": 79990,
+        "url": "https://shop.kz/offer/smartfon-vivo-y15s-32gb-mystic-blue-v2120/",
+        "brand": "vivo",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://static.shop.kz/upload/iblock/4a6/q2flwxsxko6ys27ts1oh0c21og0l7m4y/159538s1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 39990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
     },
     {
       "product": {
@@ -5747,6 +5739,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "642305",
+        "title": "Смарт часы HUAWEI Watch GT 6 (46mm) Black Atum-B19F",
+        "price": 104590,
+        "old_price": 154890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-46mm-black-atum-b19f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2232_0_1_zz3BSS_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 25.2,
+      "base_price": 139890,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.8
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1303581",
         "title": "Газовый проточный водонагреватель Ariston FAST R ONM 10 NG RU",
@@ -6013,7 +6032,7 @@
       "drop_pct": null,
       "fair_discount": 22.2,
       "base_price": 757983,
-      "value_score": 72,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6107,33 +6126,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "631704",
-        "title": "Смартфон Honor Magic 7 12/256GB Black",
-        "price": 389990,
-        "old_price": 569990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-magic-7-12256gb-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6433_0_1_RRkXAq_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 21.0,
-      "base_price": 493490,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "636948",
         "title": "TWS Наушники Samsung Galaxy Buds Core SM-R410NZKACIS Black",
         "price": 20590,
@@ -6158,6 +6150,33 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000042016",
+        "title": "Гарнитура Fanvil HT302U",
+        "price": 10007,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-83-4037",
+        "brand": "",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.2,
+      "base_price": 12546,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6815,151 +6834,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "640255",
-        "title": "QLED телевизор Samsung QE85Q8FAAUXCE",
-        "price": 959990,
-        "old_price": 1899990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe85q8faauxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20477_0_1_rAO8jB_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 20.0,
-      "base_price": 1199990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "631695",
-        "title": "OLED телевизор LG OLED65M59LA",
-        "price": 1119990,
-        "old_price": 2259990,
-        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled65m59la",
-        "brand": "LG",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3226_0_1_Rox0S9_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 20.0,
-      "base_price": 1399990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640211",
-        "title": "Neo QLED телевизор Samsung 8K QE65QN900FUXCE",
-        "price": 1199990,
-        "old_price": 2149990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65qn900fuxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20433_0_1_uVTn08_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 20.0,
-      "base_price": 1499990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 24.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640222",
-        "title": "OLED телевизор Samsung QE65S95FAUXCE",
-        "price": 1255990,
-        "old_price": 2199990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65s95fauxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20444_0_1_mXqFIy_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 20.0,
-      "base_price": 1569990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640225",
-        "title": "OLED телевизор Samsung QE77S90FAEXCE",
-        "price": 1399990,
-        "old_price": 2749990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe77s90faexce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20447_0_1_qi8LvF_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 20.0,
-      "base_price": 1749990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -7122,6 +6996,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000022440",
+        "title": "Моноблок 27&quot; XG Atlas GL70",
+        "price": 198990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 18.8,
+      "base_price": 245000,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7452,6 +7353,31 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "637434",
+        "title": "Смартфон Huawei Pura 80 Ultra Black",
+        "price": 599890,
+        "old_price": 828890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-pura-80-ultra-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7157_0_1_cCBdBG_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 14.8,
+      "base_price": 704048,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 13.2
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1514262",
         "title": "Кофеварка Centek CT-1145, Steel-Black",
@@ -7553,6 +7479,61 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652738",
+        "title": "Ноутбук Lenovo IdeaPad Slim 3 15AMN8 / AMD Ryzen 5 40 / 16GB / SSD 512GB / Radeon Graphics 610M / Win 11 / 82XQ01SLRK",
+        "price": 349990,
+        "old_price": 399990,
+        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-ideapad-slim-3-15amn8-82xq01slrk-r5165sun",
+        "brand": "Lenovo",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9699_0_6_LcrXZe_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 14.0,
+      "base_price": 406990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -1.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640244",
+        "title": "Neo QLED телевизор Samsung QE65QN70FAUXCE",
+        "price": 559990,
+        "old_price": 979990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65qn70fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20466_0_1_6nVBjf_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.8,
+      "base_price": 649990,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.2
     },
     {
       "product": {
@@ -8124,41 +8105,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-11T06:11:22+00:00",
-      "item_count": 2514,
+      "last_crawl": "2026-10-11T13:15:08+00:00",
+      "item_count": 2521,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-11T06:11:22+00:00",
-      "item_count": 12165,
+      "last_crawl": "2026-10-11T13:15:08+00:00",
+      "item_count": 12167,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-11T06:11:22+00:00",
-      "item_count": 3725,
+      "last_crawl": "2026-10-11T13:15:08+00:00",
+      "item_count": 3660,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-11T06:11:22+00:00",
-      "item_count": 9606,
+      "last_crawl": "2026-10-11T13:15:08+00:00",
+      "item_count": 9580,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-11T06:11:22+00:00",
-      "item_count": 173,
+      "last_crawl": "2026-10-11T13:15:08+00:00",
+      "item_count": 172,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28183,
+    "total_products": 28100,
     "total_deals": 296,
     "avg_discount": 50.0
   }
