@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T13:15:24.382417+00:00",
+  "updated_at": "2026-10-11T19:23:31.154556+00:00",
   "deals": [
     {
       "product": {
@@ -56,6 +56,33 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 10.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1226242",
+        "title": "Варочная поверхность Samsung NA-64H3010AS",
+        "price": 59990,
+        "old_price": 174990,
+        "url": "https://alser.kz/p/varochnaja-poverhnost-samsung-na-64h3010as",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/DQwrJC0oXe/varochnaja-poverhnost-samsung-na-64h3010as-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -178,6 +205,31 @@
         "discount_pct": 63,
         "image": "https://s3s.alser.kz/uploads/products/kolonki/w97GaSqBn/kompaktnaa-akustika-21-trust-tytan-cernyj-w160.webp",
         "first_seen": "2026-09-19T16:16:46+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1433833",
+        "title": "Газовая поверхность Hansa BHGI83130",
+        "price": 89990,
+        "old_price": 239990,
+        "url": "https://alser.kz/p/bhgi83130-gazovaa-poverhnost-hansa",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/ljGXgivdy/bhgi83130-gazovaa-poverhnost-hansa-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -638,31 +690,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630636",
-        "title": "Наушники Huawei FreeBuds SE 3 T0016 Black FreeBuds SE 3 Black (ULC-CT020)",
-        "price": 13290,
-        "old_price": 25890,
-        "url": "https://www.sulpak.kz/g/naushniki-huawei-ulc-ct020",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2300_0_2_160.webp",
-        "first_seen": "2026-10-08T13:56:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 49,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -1289,34 +1316,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1226242",
-        "title": "Варочная поверхность Samsung NA-64H3010AS",
-        "price": 59990,
-        "old_price": 174990,
-        "url": "https://alser.kz/p/varochnaja-poverhnost-samsung-na-64h3010as",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/DQwrJC0oXe/varochnaja-poverhnost-samsung-na-64h3010as-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": 0.0,
-      "base_price": 59990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 66.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "25283",
         "title": "Вентилятор Tefal VF4420F0",
@@ -1424,33 +1423,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1433833",
-        "title": "Газовая поверхность Hansa BHGI83130",
-        "price": 89990,
-        "old_price": 239990,
-        "url": "https://alser.kz/p/bhgi83130-gazovaa-poverhnost-hansa",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/ljGXgivdy/bhgi83130-gazovaa-poverhnost-hansa-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 89990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
     },
     {
       "product": {
@@ -3129,6 +3101,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "622270",
+        "title": "Чайник Candy CK-203",
+        "price": 10990,
+        "old_price": 23990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-candy-ck-203",
+        "brand": "Candy",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_810_0_1_MYDhNR_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 0.0,
+      "base_price": 10990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 54.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "48565",
         "title": "Гарнитура беспроводная Logitech Pro X Lightspeed (981-000907)",
@@ -3202,33 +3201,6 @@
       "drop_pct": 54,
       "fair_discount": 0.0,
       "base_price": 12990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 54.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "622270",
-        "title": "Чайник Candy CK-203",
-        "price": 10990,
-        "old_price": 23990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-candy-ck-203",
-        "brand": "Candy",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_810_0_1_MYDhNR_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 0.0,
-      "base_price": 10990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -3533,7 +3505,7 @@
       "drop_pct": 53,
       "fair_discount": 20.0,
       "base_price": 2299990,
-      "value_score": 57,
+      "value_score": 62,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4065,6 +4037,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 51.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640215",
+        "title": "Neo QLED телевизор Samsung QE75QN90FAUXCE",
+        "price": 1399990,
+        "old_price": 2879990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn90fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20437_0_1_w23aqV_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 20.0,
+      "base_price": 1749990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
     },
     {
       "product": {
@@ -4762,7 +4763,7 @@
       "drop_pct": null,
       "fair_discount": 34.7,
       "base_price": 130600,
-      "value_score": 83,
+      "value_score": 78,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -6032,7 +6033,7 @@
       "drop_pct": null,
       "fair_discount": 22.2,
       "base_price": 757983,
-      "value_score": 67,
+      "value_score": 72,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6153,33 +6154,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000042016",
-        "title": "Гарнитура Fanvil HT302U",
-        "price": 10007,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4037",
-        "brand": "",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.2,
-      "base_price": 12546,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "45486",
         "title": "Телевизор LG 75\" NanoCell 4K UHD Smart 75NANO81A6A",
@@ -6289,35 +6263,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 15.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640215",
-        "title": "Neo QLED телевизор Samsung QE75QN90FAUXCE",
-        "price": 1399990,
-        "old_price": 2879990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn90fauxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20437_0_1_w23aqV_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 51,
-      "fair_discount": 20.0,
-      "base_price": 1749990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
     },
     {
       "product": {
@@ -6834,6 +6779,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640255",
+        "title": "QLED телевизор Samsung QE85Q8FAAUXCE",
+        "price": 959990,
+        "old_price": 1899990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe85q8faauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20477_0_1_rAO8jB_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 20.0,
+      "base_price": 1199990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -6999,33 +6973,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000022440",
-        "title": "Моноблок 27&quot; XG Atlas GL70",
-        "price": 198990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.8,
-      "base_price": 245000,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48263",
         "title": "Lenovo IdeaPad Slim3 16Gb|512Gb|15.6|Ryzen 7-5825U|Win11 Серый",
@@ -7071,7 +7018,7 @@
       "drop_pct": 34,
       "fair_discount": 18.4,
       "base_price": 304990,
-      "value_score": 55,
+      "value_score": 51,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7323,6 +7270,62 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.6
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652055",
+        "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Dark Blue Chitu-B19F",
+        "price": 126890,
+        "old_price": 189890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-runner-2-dark-blue-chitu-b19f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6248_0_6_TcQC0f_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 15.3,
+      "base_price": 149890,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652057",
+        "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Midnight Black Chitu-B19FB",
+        "price": 126890,
+        "old_price": 189890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-runner-2-midnight-black-chitu-b19fb",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6250_0_6_Qen8kb_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 15.3,
+      "base_price": 149890,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.7
     },
     {
       "product": {
@@ -7639,6 +7642,81 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "45025",
+        "title": "Apple iPhone 17 256GB White MG6K4HX/A",
+        "price": 554990,
+        "old_price": 633990,
+        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-white-mg6k4hx-a/p45025",
+        "brand": null,
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/uaEtKkVMbgeFWnjb8QQDTUm9qYTiAuJwJgGWQVKk.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 12.5,
+      "base_price": 633990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45026",
+        "title": "Apple iPhone 17 256GB Mist Blue MG6L4HX/A",
+        "price": 554990,
+        "old_price": 633990,
+        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-mist-blue-mg6l4hx-a/p45026",
+        "brand": null,
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/EiIN76Z4g1r42uKgUfQvIdSM81rt3o7j1sVA4QyS.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 12.5,
+      "base_price": 633990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45028",
+        "title": "Apple iPhone 17 256GB Sage MG6N4HX/A",
+        "price": 554990,
+        "old_price": 633990,
+        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-sage-mg6n4hx-a/p45028",
+        "brand": null,
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/kkqzezSy4JWImfKaO0NPlz3Bb7wYtSbm4xqDJiyu.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 12.5,
+      "base_price": 633990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1713254",
         "title": "Bluetooth гарнитура Logitech A20 X, White",
@@ -7711,6 +7789,31 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45024",
+        "title": "Apple iPhone 17 256GB Black MG6J4HX/A",
+        "price": 559990,
+        "old_price": 633990,
+        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-black-mg6j4hx-a/p45024",
+        "brand": null,
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/Bma2P2Sv6E1slvYMt4wlveSFGWdiXyF30jXLpdQH.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 11.7,
+      "base_price": 633990,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -7869,6 +7972,31 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "45027",
+        "title": "Apple iPhone 17 256GB Lavender MG6M4HX/A",
+        "price": 569990,
+        "old_price": 633990,
+        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-lavender-mg6m4hx-a/p45027",
+        "brand": null,
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/QhMsjEfrMnU10Z2LJE9SfE9MGpNizKhZvSopG2ZO.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 10.1,
+      "base_price": 633990,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "43784",
         "title": "Беспроводной вертикальный пылесоc Dreame R10 Pro Aqua",
         "price": 179990,
@@ -7943,81 +8071,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "45025",
-        "title": "Apple iPhone 17 256GB White MG6K4HX/A",
-        "price": 554990,
-        "old_price": 633990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-white-mg6k4hx-a/p45025",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/uaEtKkVMbgeFWnjb8QQDTUm9qYTiAuJwJgGWQVKk.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 9.0,
-      "base_price": 609990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 3.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45026",
-        "title": "Apple iPhone 17 256GB Mist Blue MG6L4HX/A",
-        "price": 554990,
-        "old_price": 633990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-mist-blue-mg6l4hx-a/p45026",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/EiIN76Z4g1r42uKgUfQvIdSM81rt3o7j1sVA4QyS.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 9.0,
-      "base_price": 609990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 3.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45028",
-        "title": "Apple iPhone 17 256GB Sage MG6N4HX/A",
-        "price": 554990,
-        "old_price": 633990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-sage-mg6n4hx-a/p45028",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/kkqzezSy4JWImfKaO0NPlz3Bb7wYtSbm4xqDJiyu.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 9.0,
-      "base_price": 609990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 3.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1415004",
         "title": "Газоэлектрическая плита Hansa FCMW68123",
@@ -8042,31 +8095,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 32.7
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45024",
-        "title": "Apple iPhone 17 256GB Black MG6J4HX/A",
-        "price": 559990,
-        "old_price": 633990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-17-256gb-black-mg6j4hx-a/p45024",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Bma2P2Sv6E1slvYMt4wlveSFGWdiXyF30jXLpdQH.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 8.2,
-      "base_price": 609990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 3.8
     },
     {
       "product": {
@@ -8105,42 +8133,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-11T13:15:08+00:00",
+      "last_crawl": "2026-10-11T19:23:14+00:00",
       "item_count": 2521,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-11T13:15:08+00:00",
-      "item_count": 12167,
+      "last_crawl": "2026-10-11T19:23:14+00:00",
+      "item_count": 12172,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-11T13:15:08+00:00",
-      "item_count": 3660,
+      "last_crawl": "2026-10-11T19:23:14+00:00",
+      "item_count": 3624,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-11T13:15:08+00:00",
-      "item_count": 9580,
+      "last_crawl": "2026-10-11T19:23:14+00:00",
+      "item_count": 9575,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-11T13:15:08+00:00",
-      "item_count": 172,
+      "last_crawl": "2026-10-11T19:23:14+00:00",
+      "item_count": 175,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28100,
-    "total_deals": 296,
-    "avg_discount": 50.0
+    "total_products": 28067,
+    "total_deals": 297,
+    "avg_discount": 50
   }
 }
