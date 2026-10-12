@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T15:53:29.388766+00:00",
+  "updated_at": "2026-10-12T23:22:22.729809+00:00",
   "deals": [
     {
       "product": {
@@ -5146,7 +5146,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190664,
+        "price": 190624,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -5159,7 +5159,7 @@
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 31.4,
+      "fair_discount": 31.5,
       "base_price": 278090,
       "value_score": 78,
       "is_pick": true,
@@ -6756,6 +6756,33 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "48661",
+        "title": "Кофемашина Delonghi ECAM310.60.GB",
+        "price": 369990,
+        "old_price": null,
+        "url": "https://evrika.com/catalog/kofemashina-delonghi-ecam310-60-gb/p48661",
+        "brand": null,
+        "category": "Кофеварки и кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/oW7J9VhZnxLYXprrcMPOCu9FI8EmuLeXEYUuwuAU.webp.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 21.3,
+      "base_price": 469990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "39924",
         "title": "Яндекс станция с Zigbee (YNDX-00053 Beige)",
         "price": 189990,
@@ -6914,33 +6941,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -5.6
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000042016",
-        "title": "Гарнитура Fanvil HT302U",
-        "price": 10007,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4037",
-        "brand": "",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.2,
-      "base_price": 12546,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7242,35 +7242,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640255",
-        "title": "QLED телевизор Samsung QE85Q8FAAUXCE",
-        "price": 959990,
-        "old_price": 1899990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe85q8faauxce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20477_0_1_rAO8jB_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 20.0,
-      "base_price": 1199990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
     },
     {
       "product": {
@@ -7684,33 +7655,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000022440",
-        "title": "Моноблок 27&quot; XG Atlas GL70",
-        "price": 198990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.8,
-      "base_price": 245000,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "44767",
         "title": "Телевизор Яндекс Бейсик с Алисой 55\" YNDX-00080 LED 4K UHD Smart",
@@ -8012,33 +7956,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "47848",
-        "title": "Умная колонка Яндекс Станция 3 с Zigbee Фиолетовый (YNDX-00060PPL)",
-        "price": 154990,
-        "old_price": 186990,
-        "url": "https://evrika.com/catalog/umnaya-kolonka-yandeks-stanciya-3-s-zigbee-fioletovyy-yndx-00060ppl/p47848",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/94baX2G1UQll97uv7SNQVh6AG3DYi6gUPTMpSItY.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 17.1,
-      "base_price": 186990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "578840",
         "title": "Электробритва Panasonic ES-3042S520",
@@ -8198,6 +8115,88 @@
         "Честная скидка"
       ],
       "inflated_gap": 10.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "637434",
+        "title": "Смартфон Huawei Pura 80 Ultra Black",
+        "price": 587590,
+        "old_price": 828890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-pura-80-ultra-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7157_0_1_cCBdBG_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 16.5,
+      "base_price": 704048,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1617610",
+        "title": "Электробритва Centek CT-2150, Silver",
+        "price": 10990,
+        "old_price": 12990,
+        "url": "https://shop.kz/offer/elektrobritva-centek-ct-2150-silver/",
+        "brand": "Centek",
+        "category": "Электробритвы, эпиляторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://static.shop.kz/upload/iblock/8a7/5rekcp89e2y0um0tj0992eivzoio7x75/174000_Centek-CT_2150_01_1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.4,
+      "base_price": 12990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1453325",
+        "title": "Вертикальный моющий пылесос Trouver M10 Pro , Самоочистка, 300Вт, 40 мин",
+        "price": 109990,
+        "old_price": 199990,
+        "url": "https://alser.kz/p/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min",
+        "brand": "Trouver",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/Q1GGwc91B/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 15.4,
+      "base_price": 129990,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.6
     }
   ],
   "shops": [
@@ -8211,42 +8210,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-12T15:53:08+00:00",
-      "item_count": 2555,
+      "last_crawl": "2026-10-12T23:22:06+00:00",
+      "item_count": 2560,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-12T15:53:08+00:00",
-      "item_count": 12175,
+      "last_crawl": "2026-10-12T23:22:06+00:00",
+      "item_count": 12174,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-12T15:53:08+00:00",
-      "item_count": 3667,
+      "last_crawl": "2026-10-12T23:22:06+00:00",
+      "item_count": 3652,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-12T15:53:08+00:00",
-      "item_count": 9561,
+      "last_crawl": "2026-10-12T23:22:06+00:00",
+      "item_count": 9559,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-12T15:53:08+00:00",
-      "item_count": 173,
+      "last_crawl": "2026-10-12T23:22:06+00:00",
+      "item_count": 174,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28131,
+    "total_products": 28119,
     "total_deals": 300,
-    "avg_discount": 48.5
+    "avg_discount": 48.0
   }
 }
