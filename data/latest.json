@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-13T16:23:15.434404+00:00",
+  "updated_at": "2026-10-13T21:38:59.116248+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1432466",
+        "title": "Электрическая бритва BRAUN 61-N1000s BLK",
+        "price": 29990,
+        "old_price": 102990,
+        "url": "https://alser.kz/p/braun-elektriceskaa-britva-61-n1000s-blk",
+        "brand": "Braun",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://s3s.alser.kz/uploads/products/jelektrobritvy-dlja-muzhchin/mjN7MTpZq/braun-elektriceskaa-britva-61-n1000s-blk-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "alser",
@@ -107,6 +132,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 11.6
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623239",
+        "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
+        "price": 19297,
+        "old_price": 51990,
+        "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
+        "brand": "HyperX",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2467_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 51.7,
+      "base_price": 39990,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.3
     },
     {
       "product": {
@@ -1086,33 +1138,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 73.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1432466",
-        "title": "Электрическая бритва BRAUN 61-N1000s BLK",
-        "price": 29990,
-        "old_price": 102990,
-        "url": "https://alser.kz/p/braun-elektriceskaa-britva-61-n1000s-blk",
-        "brand": "Braun",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://s3s.alser.kz/uploads/products/jelektrobritvy-dlja-muzhchin/mjN7MTpZq/braun-elektriceskaa-britva-61-n1000s-blk-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 71,
-      "fair_discount": 0.0,
-      "base_price": 29990,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 71.0
     },
     {
       "product": {
@@ -2424,16 +2449,14 @@
       },
       "signal": "deal",
       "drop_pct": 56,
-      "fair_discount": 30.8,
-      "base_price": 459990,
-      "value_score": 83,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 318290,
+      "value_score": 41,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 25.2
+      "inflated_gap": 56.0
     },
     {
       "product": {
@@ -3556,33 +3579,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "628343",
-        "title": "OLED телевизор Haier 77 OLED S9 Pro",
-        "price": 999990,
-        "old_price": 2099990,
-        "url": "https://www.sulpak.kz/g/televizoriy-haier-77-oled-s9-pro",
-        "brand": "Haier",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3154_0_6_gy01JJ_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 999990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "46409",
         "title": "Телевизор LG 83\" OLED 4K UHD Smart OLED83C5RLA",
@@ -3684,6 +3680,33 @@
       "drop_pct": 52,
       "fair_discount": 0.0,
       "base_price": 119990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 52.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "628343",
+        "title": "OLED телевизор Haier 77 OLED S9 Pro",
+        "price": 999990,
+        "old_price": 2099990,
+        "url": "https://www.sulpak.kz/g/televizoriy-haier-77-oled-s9-pro",
+        "brand": "Haier",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3154_0_6_gy01JJ_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 0.0,
+      "base_price": 999990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -4049,33 +4072,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "624592",
-        "title": "Наушники ARG A046 Black",
-        "price": 14990,
-        "old_price": 29990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-a046-black",
-        "brand": "ARG",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2246_0_1_oWpucA_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "3000012855",
         "title": "Кофеварка рожковая Russell Hobbs 28250-56 23942016001",
         "price": 89390,
@@ -4381,35 +4377,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "286462",
-        "title": "МФУ струйное HP DeskJet IA 2876 A4-W (6W7E6C)",
-        "price": 30990,
-        "old_price": 50990,
-        "url": "https://www.technodom.kz/p/mfu-strujnoe-hp-deskjet-ia-2876-a4-w-6w7e6c-286462",
-        "brand": "HP",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://api.technodom.kz/f3/api/v1/images/286462_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.2,
-      "base_price": 50990,
-      "value_score": 97,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -4753,35 +4720,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "290968",
-        "title": "Монитор 37\" Samsung ViewFinity S8 LS37D802UAIXCI 3840x2160 16:9 VA 60ГЦ (HDMI+DP) Black",
-        "price": 199990,
-        "old_price": 309990,
-        "url": "https://www.technodom.kz/p/monitor-37-samsung-viewfinity-s8-ls37d802uaixci-black-290968",
-        "brand": "Samsung",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://api.technodom.kz/f3/api/v1/images/290968_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 35.5,
-      "base_price": 309990,
-      "value_score": 94,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "277455",
         "title": "Встраиваемая посудомоечная машина Hotpoint HIS 2D85 DWT",
         "price": 229990,
@@ -4920,35 +4858,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "269704",
-        "title": "Монитор Игровой 27\" Samsung G6 LS27BG650EIXCI 2560x1440 16:9 VA 240ГЦ (2HDMI+DP) Curved Black",
-        "price": 130990,
-        "old_price": 199990,
-        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-samsung-g6-269704",
-        "brand": "Samsung",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://api.technodom.kz/f3/api/v1/images/monitor_igrovoj_27_samsung_g6_269704_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 34.5,
-      "base_price": 199990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "3000016618",
         "title": "Гарнитура Jabra BIZ 1500 USB-A Mono 1553-0159",
@@ -5056,33 +4965,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "288242",
-        "title": "Наушники Redmi, Buds 6 Night Black",
-        "price": 14990,
-        "old_price": 21990,
-        "url": "https://www.technodom.kz/p/naushniki-redmi-buds-6-night-black-288242",
-        "brand": "Redmi",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288242_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 31.8,
-      "base_price": 21990,
-      "value_score": 79,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -5552,35 +5434,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "290738",
-        "title": "Монитор 24\" Samsung LS24F320GAIXCI 1920x1080 16:9 IPS 120ГЦ (2HDMI+DP) Black",
-        "price": 45990,
-        "old_price": 63990,
-        "url": "https://www.technodom.kz/p/monitor-24-samsung-ls24f320gaixci-1920x1080-16-9-ips-120gts-2hdmi-dp-black-290738",
-        "brand": "Samsung",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://api.technodom.kz/f3/api/v1/images/290738_1a.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 28.1,
-      "base_price": 63990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48419",
         "title": "Фен-Стайлер AENO AHS0001",
@@ -5687,34 +5540,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "295663",
-        "title": "Монитор 27\" MSI PRO MP272PMG IPS 1920x1080 16:9 120Гц (HDMI+DP)",
-        "price": 99990,
-        "old_price": 137990,
-        "url": "https://www.technodom.kz/p/monitor-27-msi-pro-mp272pmg-ips-1920x1080-16-9-120gts-hdmi-dp-295663",
-        "brand": "MSI",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295663_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 27.5,
-      "base_price": 137990,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -5827,35 +5652,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "293248",
-        "title": "Игровой монитор 27\" LG OLED 27GX790A-B 2560x1440 16:9 OLED 480ГЦ (2HDMI+DP) Black",
-        "price": 399990,
-        "old_price": 549990,
-        "url": "https://www.technodom.kz/p/igrovoj-monitor-27-lg-oled-27gx790a-b-2560x1440-169-oled-480gc-2hdmidp-black-293248",
-        "brand": "LG",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://api.technodom.kz/f3/api/v1/images/293248_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 27.3,
-      "base_price": 549990,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "288868",
         "title": "Стиральная машина Hotpoint WSH6090VWW",
         "price": 149990,
@@ -5936,33 +5732,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "295666",
-        "title": "Монитор 32\" MSI Summit MS321UP IPS 3840x2160 16:9 60Гц (2HDMI+DP)",
-        "price": 299990,
-        "old_price": 408990,
-        "url": "https://www.technodom.kz/p/monitor-32-msi-summit-ms321up-ips-3840x2160-16-9-60gts-2hdmi-dp-295666",
-        "brand": "MSI",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295666_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 26.7,
-      "base_price": 408990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1415010",
         "title": "Электрическая плита Hansa FCCW68103",
@@ -5988,6 +5757,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 18.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000016625",
+        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
+        "price": 139136,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 26.4,
+      "base_price": 189000,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6123,6 +5919,33 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "288242",
+        "title": "Наушники Redmi, Buds 6 Night Black",
+        "price": 14990,
+        "old_price": 21990,
+        "url": "https://www.technodom.kz/p/naushniki-redmi-buds-6-night-black-288242",
+        "brand": "Redmi",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288242_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 25.0,
+      "base_price": 19990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.0
     },
     {
       "product": {
@@ -6346,34 +6169,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "297024",
-        "title": "Монитор Игровой 27\" LG UltraGear 27GS85Q 2560x1440 16:9 Nano IPS 200ГЦ (HDMI+DP) Black",
-        "price": 129990,
-        "old_price": 169990,
-        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-lg-ultragear-27gs85q-2560x1440-169-nano-ips-200gc-hdmidp-black-297024",
-        "brand": "LG",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://api.technodom.kz/f3/api/v1/images/297024_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 23.5,
-      "base_price": 169990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1394297",
         "title": "Фен-щетка Rowenta / KARL LAGERFELD CF634LF0",
@@ -6426,6 +6221,61 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "270085",
+        "title": "Встраиваемая посудомоечная машина Hansa ZIM428KH",
+        "price": 199990,
+        "old_price": 259990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-hansa-zim428kh-270085",
+        "brand": "Hansa",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://api.technodom.kz/f3/api/v1/images/vstraivaemaya_posudomoechnaya_mashina_hansa_zim428kh_270085_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 259990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "291064",
+        "title": "Сушильная машина Samsung DV16DG8600BVLD",
+        "price": 499990,
+        "old_price": 724990,
+        "url": "https://www.technodom.kz/p/sushilnaya-mashina-samsung-dv16dg8600bvld-291064",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://api.technodom.kz/f3/api/v1/images/291064_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 23.1,
+      "base_price": 649990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 7.9
     },
     {
       "product": {
@@ -6507,6 +6357,33 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "292352",
+        "title": "Морозильник Midea MDRC153FZF01D",
+        "price": 69990,
+        "old_price": 109990,
+        "url": "https://www.technodom.kz/p/morozilnik-midea-mdrc153fzf01d-292352",
+        "brand": "Midea",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://api.technodom.kz/f3/api/v1/images/292352_1.webp",
+        "first_seen": "2026-09-30T13:01:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 22.2,
+      "base_price": 89990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.8
     },
     {
       "product": {
@@ -6782,6 +6659,61 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "291066",
+        "title": "Стиральная машина Samsung WW90DG6G94LBLD",
+        "price": 289990,
+        "old_price": 379990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-samsung-ww90dg6g94lbld-291066",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 24,
+        "image": "https://api.technodom.kz/f3/api/v1/images/291066_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 24,
+      "fair_discount": 21.6,
+      "base_price": 369990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 2.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "621726",
+        "title": "Гарнитура Jabra Evolve2 65, Link380a MS Stereo 26599-999-999",
+        "price": 107557,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2390",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2390_3_2_160.webp",
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 21.5,
+      "base_price": 137000,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "48661",
         "title": "Кофемашина Delonghi ECAM310.60.GB",
@@ -6806,6 +6738,61 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "290999",
+        "title": "Встраиваемый холодильник ASCOLI ASR100BU",
+        "price": 129990,
+        "old_price": 184990,
+        "url": "https://www.technodom.kz/p/vstraivayemiy-kholodilnik-ascoli-asr100bu-290999",
+        "brand": "ASCOLI",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://api.technodom.kz/f3/api/v1/images/290999_4.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 21.2,
+      "base_price": 164990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.8
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "172615",
+        "title": "Клавиатура игровая проводная USB Lenovo Legion K500 RGB",
+        "price": 44990,
+        "old_price": 49890,
+        "url": "https://www.technodom.kz/p/klaviatura-igrovaa-provodnaa-usb-lenovo-legion-k-rgb-172615",
+        "brand": "Lenovo",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://api.technodom.kz/f3/api/v1/images/16000735969310.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 21.1,
+      "base_price": 56990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -11.1
     },
     {
       "product": {
@@ -6941,33 +6928,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630620",
-        "title": "Планшетный компьютер Huawei MatePad Pro WEB-W09 12GB RAM 256GB ROM Black 53014EXP",
-        "price": 484890,
-        "old_price": 569890,
-        "url": "https://www.sulpak.kz/g/planshetiy-huawei-weber-w09bk",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1327_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 20.6,
-      "base_price": 610481,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -5.6
     },
     {
       "product": {
@@ -7384,6 +7344,61 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "255356",
+        "title": "Стиральная машина Beko WSPE7H616W",
+        "price": 159990,
+        "old_price": 219990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-beko-wspe7h616w-255356",
+        "brand": "Beko",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://api.technodom.kz/f3/api/v1/images/stiralnaya_mashina_beko_wspe7h616w_255356_6a.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 20.0,
+      "base_price": 199990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "269554",
+        "title": "Пылесос вертикальный Dyson V11 SV28 Absolute",
+        "price": 279990,
+        "old_price": 349990,
+        "url": "https://www.technodom.kz/p/pylesos-vertikalnyj-dyson-v11-sv28-absolute-269554",
+        "brand": "Dyson",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://api.technodom.kz/f3/api/v1/images/pylesos_vertikalnyj_dyson_v11_sv28_absolute_269554_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 20.0,
+      "base_price": 349990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -7765,33 +7780,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000022440",
-        "title": "Моноблок 27&quot; XG Atlas GL70",
-        "price": 198990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.8,
-      "base_price": 245000,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "44767",
         "title": "Телевизор Яндекс Бейсик с Алисой 55\" YNDX-00080 LED 4K UHD Smart",
@@ -7954,33 +7942,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650356",
-        "title": "QLED телевизор Dreame 55Q100",
-        "price": 293990,
-        "old_price": 359990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
-        "brand": "Dreame",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20789_0_6_Web1aN_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 18.3,
-      "base_price": 359990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -8197,6 +8158,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1640746",
+        "title": "Колонка Яндекс.Станция Дуо МAKC (2.1), Black",
+        "price": 249990,
+        "old_price": 299990,
+        "url": "https://shop.kz/offer/kolonka-yandeks-stantsiya-duo-makc-2-1-black/",
+        "brand": "Яндекс",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://static.shop.kz/upload/iblock/357/v0bnmy9x3w8jqsyp104xiflqw1cx5mlp/177950o200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 299990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
     }
   ],
   "shops": [
@@ -8210,41 +8198,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-13T16:22:56+00:00",
-      "item_count": 2562,
+      "last_crawl": "2026-10-13T21:38:40+00:00",
+      "item_count": 2558,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-13T16:22:56+00:00",
-      "item_count": 12174,
+      "last_crawl": "2026-10-13T21:38:40+00:00",
+      "item_count": 9746,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-13T16:22:56+00:00",
-      "item_count": 3696,
+      "last_crawl": "2026-10-13T21:38:40+00:00",
+      "item_count": 3684,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-13T16:22:56+00:00",
-      "item_count": 9562,
+      "last_crawl": "2026-10-13T21:38:40+00:00",
+      "item_count": 9557,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-13T16:22:56+00:00",
-      "item_count": 173,
+      "last_crawl": "2026-10-13T21:38:40+00:00",
+      "item_count": 170,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28167,
+    "total_products": 25715,
     "total_deals": 300,
     "avg_discount": 48.5
   }
