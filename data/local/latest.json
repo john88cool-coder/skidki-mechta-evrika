@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T09:22:26.425409+00:00",
+  "updated_at": "2026-10-13T11:21:00.688464+00:00",
   "deals": [
     {
       "product": {
@@ -214,33 +214,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 13.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000077979",
-        "title": "Тепловентилятор TEFAL SE 9260 F0",
-        "price": 14990,
-        "old_price": 41990,
-        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9260-f0/",
-        "brand": "Tefal",
-        "category": "Тепловентиляторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": 50.0,
-      "base_price": 29990,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.0
     },
     {
       "product": {
@@ -953,6 +926,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000077979",
+        "title": "Тепловентилятор TEFAL SE 9260 F0",
+        "price": 14990,
+        "old_price": 41990,
+        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9260-f0/",
+        "brand": "Tefal",
+        "category": "Тепловентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 0.0,
+      "base_price": 14990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 64.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "12000071332",
         "title": "Конвектор TEFAL CQ 3031 FO",
         "price": 25990,
@@ -968,16 +968,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 48.0,
-      "base_price": 49990,
-      "value_score": 90,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 25990,
+      "value_score": 35,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 15.0
+      "inflated_gap": 63.0
     },
     {
       "product": {
@@ -997,16 +995,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 48.0,
-      "base_price": 49990,
-      "value_score": 90,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 25990,
+      "value_score": 35,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 15.0
+      "inflated_gap": 63.0
     },
     {
       "product": {
@@ -1136,7 +1132,7 @@
       "signal": "deal",
       "drop_pct": 63,
       "fair_discount": 0.0,
-      "base_price": 49990,
+      "base_price": 81990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -1297,16 +1293,14 @@
       },
       "signal": "deal",
       "drop_pct": 61,
-      "fair_discount": 31.7,
-      "base_price": 59990,
-      "value_score": 78,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 40990,
+      "value_score": 35,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 29.3
+      "inflated_gap": 61.0
     },
     {
       "product": {
@@ -1758,8 +1752,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-13T09:22:14+00:00",
-      "item_count": 7754,
+      "last_crawl": "2026-10-13T11:20:50+00:00",
+      "item_count": 7745,
       "status": "ok"
     },
     {
@@ -1799,7 +1793,7 @@
     }
   ],
   "stats": {
-    "total_products": 7754,
+    "total_products": 7745,
     "total_deals": 64,
     "avg_discount": 64.0
   }
