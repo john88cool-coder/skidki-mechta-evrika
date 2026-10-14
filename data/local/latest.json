@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T13:21:13.443689+00:00",
+  "updated_at": "2026-10-14T15:20:45.947206+00:00",
   "deals": [
     {
       "product": {
@@ -53,6 +53,31 @@
       "badges": [
         "Топ-Бренд"
       ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013497",
+        "title": "Робот-пылесос TEFAL RG 9695 WH",
+        "price": 144990,
+        "old_price": 642990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-9695-wh/",
+        "brand": "Tefal",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/d10c45e9-25d7-4f5d-84f1-c1f28df4f48f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
       "inflated_gap": null
     },
     {
@@ -542,33 +567,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 78.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013497",
-        "title": "Робот-пылесос TEFAL RG 9695 WH",
-        "price": 144990,
-        "old_price": 642990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-9695-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/d10c45e9-25d7-4f5d-84f1-c1f28df4f48f?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 144990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
     },
     {
       "product": {
@@ -1556,6 +1554,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200013947",
+        "title": "Телевизор HISENSE QLED 65E7NQ UHD SMART",
+        "price": 249990,
+        "old_price": 474990,
+        "url": "https://www.mechta.kz/product/televizor-hisense-qled-65e7nq-uhd-smart/",
+        "brand": "Hisense",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/f67086ef-7eeb-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-21T09:20:51+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 47.4,
+      "base_price": 474990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200024896",
         "title": "Ноутбук LENOVO IdeaPad Slim 3 15IPH11 (83UR001LRK)/15.3 WUXGA/Core Ultra 5 322 1.9 Ghz/24/SSD512/Dos",
         "price": 349990,
@@ -1609,34 +1634,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013945",
-        "title": "Телевизор LED HISENSE 43A6N (SMART UHD)",
-        "price": 99990,
-        "old_price": 199990,
-        "url": "https://www.mechta.kz/product/televizor-led-hisense-43a6n-smart-uhd/",
-        "brand": "Hisense",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/f2bcc319-7c76-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-21T09:20:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 28.6,
-      "base_price": 139990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.4
     },
     {
       "product": {
@@ -1699,34 +1696,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200013947",
-        "title": "Телевизор HISENSE QLED 65E7NQ UHD SMART",
-        "price": 249990,
-        "old_price": 474990,
-        "url": "https://www.mechta.kz/product/televizor-hisense-qled-65e7nq-uhd-smart/",
-        "brand": "Hisense",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/f67086ef-7eeb-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-21T09:20:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 19.4,
-      "base_price": 309990,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020779",
         "title": "Кофеварка VITEK Metropolis VT 8381",
         "price": 19990,
@@ -1784,8 +1753,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-14T13:21:01+00:00",
-      "item_count": 7735,
+      "last_crawl": "2026-10-14T15:20:36+00:00",
+      "item_count": 7731,
       "status": "ok"
     },
     {
@@ -1825,8 +1794,8 @@
     }
   ],
   "stats": {
-    "total_products": 7735,
-    "total_deals": 65,
-    "avg_discount": 64
+    "total_products": 7731,
+    "total_deals": 64,
+    "avg_discount": 64.5
   }
 }
