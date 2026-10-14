@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T21:38:59.116248+00:00",
+  "updated_at": "2026-10-14T01:36:28.902818+00:00",
   "deals": [
     {
       "product": {
@@ -138,7 +138,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19297,
+        "price": 19290,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -151,14 +151,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.7,
+      "fair_discount": 51.8,
       "base_price": 39990,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.3
+      "inflated_gap": 11.2
     },
     {
       "product": {
@@ -2436,7 +2436,7 @@
         "shop": "sulpak",
         "sku": "625187",
         "title": "Стиральная машина Haier HW100-BD14378S",
-        "price": 318290,
+        "price": 318390,
         "old_price": 719990,
         "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw100-bd14378s",
         "brand": "Haier",
@@ -5027,7 +5027,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190652,
+        "price": 190690,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -8198,41 +8198,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-13T21:38:40+00:00",
-      "item_count": 2558,
+      "last_crawl": "2026-10-14T01:36:10+00:00",
+      "item_count": 2544,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-13T21:38:40+00:00",
-      "item_count": 9746,
+      "last_crawl": "2026-10-14T01:36:10+00:00",
+      "item_count": 12173,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-13T21:38:40+00:00",
-      "item_count": 3684,
+      "last_crawl": "2026-10-14T01:36:10+00:00",
+      "item_count": 3677,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-13T21:38:40+00:00",
-      "item_count": 9557,
+      "last_crawl": "2026-10-14T01:36:10+00:00",
+      "item_count": 9552,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-13T21:38:40+00:00",
+      "last_crawl": "2026-10-14T01:36:10+00:00",
       "item_count": 170,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 25715,
+    "total_products": 28116,
     "total_deals": 300,
     "avg_discount": 48.5
   }
