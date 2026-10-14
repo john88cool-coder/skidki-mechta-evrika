@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:23:02.636928+00:00",
+  "updated_at": "2026-10-14T13:21:13.443689+00:00",
   "deals": [
     {
       "product": {
@@ -214,6 +214,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 13.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008340",
+        "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
+        "price": 29990,
+        "old_price": 96990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-oneblade-pro-qp665161/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": 69.1,
+      "base_price": 96990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -1335,33 +1363,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000077796",
-        "title": "Тепловентилятор TEFAL SE 9420 F0",
-        "price": 40990,
-        "old_price": 103990,
-        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9420-f0/",
-        "brand": "Tefal",
-        "category": "Тепловентиляторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 40990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200014146",
         "title": "Триммер для бороды BRAUN BT 3411",
         "price": 14990,
@@ -1385,6 +1386,34 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000003362",
+        "title": "Электробритва PHILIPS S 5585/35",
+        "price": 49990,
+        "old_price": 109990,
+        "url": "https://www.mechta.kz/product/elektrobritva-philips-s-558535/",
+        "brand": "Philips",
+        "category": "Электробритвы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/fbc69a7e-6765-11eb-a23a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 54.6,
+      "base_price": 109990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -1473,6 +1502,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000071668",
+        "title": "Триммер для бороды PHILIPS MG 3720/15",
+        "price": 16990,
+        "old_price": 32990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-mg-372015/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/beccbb62-bd4e-11e7-80c1-1866daf08915?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 48.5,
+      "base_price": 32990,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200012274",
         "title": "Стиральная машина GRUNDIG W 5P57H21 A",
         "price": 149990,
@@ -1553,34 +1609,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000031385",
-        "title": "Мороженница BORK E801",
-        "price": 199990,
-        "old_price": 346590,
-        "url": "https://www.mechta.kz/product/morojennica-bork-e801/",
-        "brand": "BORK",
-        "category": "Мороженицы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.3,
-      "base_price": 346590,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -1756,8 +1784,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-14T11:22:44+00:00",
-      "item_count": 7737,
+      "last_crawl": "2026-10-14T13:21:01+00:00",
+      "item_count": 7735,
       "status": "ok"
     },
     {
@@ -1797,8 +1825,8 @@
     }
   ],
   "stats": {
-    "total_products": 7737,
-    "total_deals": 64,
-    "avg_discount": 64.0
+    "total_products": 7735,
+    "total_deals": 65,
+    "avg_discount": 64
   }
 }
