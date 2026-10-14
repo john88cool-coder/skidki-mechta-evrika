@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T11:21:00.688464+00:00",
+  "updated_at": "2026-10-14T06:55:53.963780+00:00",
   "deals": [
     {
       "product": {
@@ -214,6 +214,89 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 13.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015941",
+        "title": "Смартфон HUAWEI Nova 13 Pro 12/512 Green (Milla-L29E)",
+        "price": 119990,
+        "old_price": 341990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-13-pro-12512-green-milla-l29e/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 65,
+        "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400",
+        "first_seen": "2026-09-14T09:21:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 65,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "26260001012",
+        "title": "Клавиатура для планшета APPLE Magic Keyboard 12.9-inch for IPad Pro 2020 (MXQU2RS/A)",
+        "price": 99990,
+        "old_price": 279890,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-12dot9-inch-for-ipad-pro-2020-mxqu2rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/035573b4-9069-11ea-a22d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 64.3,
+      "base_price": 279890,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002396",
+        "title": "Клавиатура для планшета APPLE Smart Keyboard for iPad (7th generation) and iPad Air (3rd generation) (MX3L2RS/A)",
+        "price": 49990,
+        "old_price": 138990,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-smart-keyboard-for-ipad-7th-generation-and-ipad-air-3rd-generation-mx3l2rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/2ece0704-35e4-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 64.0,
+      "base_price": 138990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -844,33 +927,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200015941",
-        "title": "Смартфон HUAWEI Nova 13 Pro 12/512 Green (Milla-L29E)",
-        "price": 119990,
-        "old_price": 341990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-13-pro-12512-green-milla-l29e/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 65,
-        "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400",
-        "first_seen": "2026-09-14T09:21:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 65,
-      "fair_discount": 0.0,
-      "base_price": 119990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 65.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016029",
         "title": "Аэрогриль MIDEA MF-CY75C2",
         "price": 54990,
@@ -913,15 +969,16 @@
       },
       "signal": "deal",
       "drop_pct": 65,
-      "fair_discount": 20.0,
-      "base_price": 274990,
-      "value_score": 52,
-      "is_pick": false,
+      "fair_discount": 45.0,
+      "base_price": 399990,
+      "value_score": 84,
+      "is_pick": true,
       "badges": [
+        "Выбор ИС",
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 45.0
+      "inflated_gap": 20.0
     },
     {
       "product": {
@@ -1305,60 +1362,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006696",
-        "title": "Вертикальный пылесос TEFAL GF 3039WO",
-        "price": 89990,
-        "old_price": 227990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-gf-3039wo/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/40acfa7d-ad66-4c09-bd78-6b3ee4984dca?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 89990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003059",
-        "title": "Телевизор LOEWE LED 43SteamingTV, 4K Ult, Integrated soundbar, Storm Grey",
-        "price": 299990,
-        "old_price": 758990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-43steamingtv-4k-ult-integrated-soundbar-storm-grey/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 299990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200014146",
         "title": "Триммер для бороды BRAUN BT 3411",
         "price": 14990,
@@ -1409,6 +1412,35 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014746",
+        "title": "Планшет LENOVO TB330FU ACC 4Gb+128GbLG-RU-PEN",
+        "price": 49955,
+        "old_price": 102990,
+        "url": "https://www.mechta.kz/product/planshet-lenovo-tb330fu-acc-4gbplus128gblg-ru-pen/",
+        "brand": "Lenovo",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://pi.mdev.kz/186312e5-983b-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 51,
+      "fair_discount": 51.5,
+      "base_price": 102990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -1485,7 +1517,7 @@
       "drop_pct": 44,
       "fair_discount": 44.4,
       "base_price": 629990,
-      "value_score": 94,
+      "value_score": 89,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1752,8 +1784,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-13T11:20:50+00:00",
-      "item_count": 7745,
+      "last_crawl": "2026-10-14T06:55:40+00:00",
+      "item_count": 7733,
       "status": "ok"
     },
     {
@@ -1793,8 +1825,8 @@
     }
   ],
   "stats": {
-    "total_products": 7745,
-    "total_deals": 64,
-    "avg_discount": 64.0
+    "total_products": 7733,
+    "total_deals": 65,
+    "avg_discount": 64
   }
 }
