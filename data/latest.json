@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:02:25.833284+00:00",
+  "updated_at": "2026-10-14T14:07:46.671420+00:00",
   "deals": [
     {
       "product": {
@@ -138,7 +138,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19290,
+        "price": 19297,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -151,14 +151,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.8,
+      "fair_discount": 51.7,
       "base_price": 39990,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.2
+      "inflated_gap": 11.3
     },
     {
       "product": {
@@ -2480,7 +2480,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 2199990,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3625,7 +3625,7 @@
       "drop_pct": 52,
       "fair_discount": 20.0,
       "base_price": 2499990,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4344,7 +4344,7 @@
       "drop_pct": null,
       "fair_discount": 41.8,
       "base_price": 68040,
-      "value_score": 89,
+      "value_score": 85,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4890,33 +4890,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57746,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 33.5,
-      "base_price": 86890,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1443504",
         "title": "Вертикальный пылесос Karcher VC 6 Cordless OurFamily, Black (1.198-670.0)",
@@ -5058,7 +5031,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190690,
+        "price": 190570,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -5071,7 +5044,7 @@
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 31.4,
+      "fair_discount": 31.5,
       "base_price": 278090,
       "value_score": 78,
       "is_pick": true,
@@ -6258,7 +6231,7 @@
         "shop": "sulpak",
         "sku": "3000016625",
         "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
-        "price": 144848,
+        "price": 144826,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
         "brand": "Jabra",
@@ -7264,6 +7237,34 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "652820",
+        "title": "Встраиваемый духовой шкаф Haier HOQ-A2AEN3BX",
+        "price": 159990,
+        "old_price": 269990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-a2aen3bx",
+        "brand": "Haier",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_5149_0_1_o97hga_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 20.0,
+      "base_price": 199990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "631671",
         "title": "LED телевизор LG 75NANO81A6A",
         "price": 495990,
@@ -7949,33 +7950,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "650356",
-        "title": "QLED телевизор Dreame 55Q100",
-        "price": 293990,
-        "old_price": 359990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
-        "brand": "Dreame",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20789_0_6_Web1aN_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 18.3,
-      "base_price": 359990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1608385",
         "title": "Комбинированная плита Gefest ПГЭ 5112-02",
@@ -8169,14 +8143,41 @@
         "sku": "1640746",
         "title": "Колонка Яндекс.Станция Дуо МAKC (2.1), Black",
         "price": 249990,
-        "old_price": 299990,
+        "old_price": null,
         "url": "https://shop.kz/offer/kolonka-yandeks-stantsiya-duo-makc-2-1-black/",
         "brand": "Яндекс",
         "category": "Акустические системы и колонки",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 17,
+        "discount_pct": null,
         "image": "https://static.shop.kz/upload/iblock/357/v0bnmy9x3w8jqsyp104xiflqw1cx5mlp/177950o200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 299990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1641283",
+        "title": "Колонка Яндекс.Станция Дуо МAKC (2.1), Green",
+        "price": 249990,
+        "old_price": 299990,
+        "url": "https://shop.kz/offer/kolonka-yandeks-stantsiya-duo-makc-2-1-green/",
+        "brand": "Яндекс",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://static.shop.kz/upload/iblock/522/5dcsx3ns0r60ke429uw0yh1qbuoai2ug/178278o1.JPG",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -8202,41 +8203,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-14T08:02:07+00:00",
-      "item_count": 2561,
+      "last_crawl": "2026-10-14T14:07:26+00:00",
+      "item_count": 2574,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-14T08:02:07+00:00",
-      "item_count": 12175,
+      "last_crawl": "2026-10-14T14:07:26+00:00",
+      "item_count": 12176,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-14T08:02:07+00:00",
-      "item_count": 3654,
+      "last_crawl": "2026-10-14T14:07:26+00:00",
+      "item_count": 3686,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-14T08:02:07+00:00",
-      "item_count": 9549,
+      "last_crawl": "2026-10-14T14:07:26+00:00",
+      "item_count": 9540,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-14T08:02:07+00:00",
-      "item_count": 169,
+      "last_crawl": "2026-10-14T14:07:26+00:00",
+      "item_count": 155,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28108,
+    "total_products": 28131,
     "total_deals": 300,
     "avg_discount": 48.5
   }
