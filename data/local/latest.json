@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T07:21:16.851845+00:00",
+  "updated_at": "2026-10-14T09:21:52.440586+00:00",
   "deals": [
     {
       "product": {
@@ -1585,34 +1585,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200021332",
-        "title": "Телевизор TCL QD-MiniLED 55C7K UHD Android TV",
-        "price": 249990,
-        "old_price": 559990,
-        "url": "https://www.mechta.kz/product/televizor-tcl-qd-miniled-55c7k-uhd-android-tv/",
-        "brand": "TCL",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/2b7fb774-3b08-49f3-82fd-c2dff3c6457f?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 37.5,
-      "base_price": 399990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013945",
         "title": "Телевизор LED HISENSE 43A6N (SMART UHD)",
         "price": 99990,
@@ -1784,8 +1756,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-14T07:21:05+00:00",
-      "item_count": 7731,
+      "last_crawl": "2026-10-14T09:21:41+00:00",
+      "item_count": 7742,
       "status": "ok"
     },
     {
@@ -1825,8 +1797,8 @@
     }
   ],
   "stats": {
-    "total_products": 7731,
-    "total_deals": 65,
-    "avg_discount": 64
+    "total_products": 7742,
+    "total_deals": 64,
+    "avg_discount": 64.0
   }
 }
