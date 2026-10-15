@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T01:20:11.142432+00:00",
+  "updated_at": "2026-10-15T05:22:53.870408+00:00",
   "deals": [
     {
       "product": {
@@ -995,16 +995,14 @@
       },
       "signal": "deal",
       "drop_pct": 65,
-      "fair_discount": 45.0,
-      "base_price": 399990,
-      "value_score": 84,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 219990,
+      "value_score": 29,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 20.0
+      "inflated_gap": 65.0
     },
     {
       "product": {
@@ -1472,34 +1470,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012616",
-        "title": "Сушильная машина BEKO B3T 68230",
-        "price": 169990,
-        "old_price": 339990,
-        "url": "https://www.mechta.kz/product/sushilnaya-mashina-beko-b3t-68230/",
-        "brand": "Beko",
-        "category": "Сушильные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/5486a668-39e1-11ef-a267-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 50.0,
-      "base_price": 339990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000071668",
         "title": "Триммер для бороды PHILIPS MG 3720/15",
         "price": 16990,
@@ -1550,33 +1520,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013947",
-        "title": "Телевизор HISENSE QLED 65E7NQ UHD SMART",
-        "price": 249990,
-        "old_price": 474990,
-        "url": "https://www.mechta.kz/product/televizor-hisense-qled-65e7nq-uhd-smart/",
-        "brand": "Hisense",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/f67086ef-7eeb-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-21T09:20:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 47.4,
-      "base_price": 474990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -1638,123 +1581,882 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018129",
-        "title": "Телевизор Samsung OLED QE83S90FAEXCE",
-        "price": 1759990,
-        "old_price": 4239990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe83s90faexce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/9d1d0dc9-1333-4f02-888d-68f24b5ca6d6?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 58,
-      "fair_discount": 20.0,
-      "base_price": 2199990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 38.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018123",
-        "title": "Телевизор Samsung OLED QE83S85FAEXCE",
-        "price": 1879990,
-        "old_price": 3549990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe83s85faexce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/78c78086-d29a-4195-8033-87921eef8e29?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 20.0,
-      "base_price": 2349990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020779",
-        "title": "Кофеварка VITEK Metropolis VT 8381",
-        "price": 19990,
-        "old_price": 36490,
-        "url": "https://www.mechta.kz/product/kofevarka-vitek-metropolis-vt-8381/",
-        "brand": "Vitek",
-        "category": "Кофеварки капельные",
+        "sku": "12000031385",
+        "title": "Мороженница BORK E801",
+        "price": 199990,
+        "old_price": 346590,
+        "url": "https://www.mechta.kz/product/morojennica-bork-e801/",
+        "brand": "BORK",
+        "category": "Мороженицы",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/ebe53043-af0d-4bfb-8ccf-868ba536e033?w=400",
+        "discount_pct": 42,
+        "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 16.7,
-      "base_price": 23990,
-      "value_score": 52,
-      "is_pick": false,
+      "drop_pct": 42,
+      "fair_discount": 42.3,
+      "base_price": 346590,
+      "value_score": 79,
+      "is_pick": true,
       "badges": [
-        "Честная скидка",
-        "Рисованная?"
+        "Выбор ИС",
+        "Честная скидка"
       ],
-      "inflated_gap": 28.3
+      "inflated_gap": -0.3
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200023836",
-        "title": "Настольный гриль VITEK VT-PG2515",
-        "price": 34990,
-        "old_price": 70490,
-        "url": "https://www.mechta.kz/product/nastolnyy-gril-vitek-vt-pg2515/",
-        "brand": "Vitek",
-        "category": "Электрогрили",
-        "group": "kitchen",
+        "sku": "17200020730",
+        "title": "Корзина для белья ROTHO 1032708853 (55 л), anthracite",
+        "price": 12190,
+        "old_price": 20590,
+        "url": "https://www.mechta.kz/product/korzina-dlya-belya-rotho-1032708853-55-l-anthracite/",
+        "brand": "Rotho",
+        "category": "Корзины для белья",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/19ec48cb-deeb-48e9-bdaa-0fcc30259499?w=400",
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/5ce1fd07-c13e-4840-a347-42e2a2eb6623?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 12.5,
-      "base_price": 39990,
-      "value_score": 45,
+      "drop_pct": 41,
+      "fair_discount": 40.8,
+      "base_price": 20590,
+      "value_score": 83,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 37.5
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008884",
+        "title": "Массажер BORK D701 OR для тела",
+        "price": 115090,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/massajer-bork-d701-or-dlya-tela/",
+        "brand": "BORK",
+        "category": "Массажёры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/b4218507-88ed-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 40.7,
+      "base_price": 194090,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008885",
+        "title": "Массажер BORK D701 GN для тела",
+        "price": 115090,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/massajer-bork-d701-gn-dlya-tela/",
+        "brand": "BORK",
+        "category": "Массажёры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/b4218512-88ed-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 40.7,
+      "base_price": 194090,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200009821",
+        "title": "Массажер BORK D701 GG для тела",
+        "price": 115090,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/massajer-bork-d701-gg-dlya-tela/",
+        "brand": "BORK",
+        "category": "Массажёры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/252abf7d-be55-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 40.7,
+      "base_price": 194090,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016681",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Ultra Grey",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-ultra-grey/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/00626a5d-f49c-45f3-8075-54a5aa644701?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016682",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Ultra Black",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-ultra-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/0db200bb-7414-4f6f-9717-9352cf7f322d?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016685",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Ultra Sand",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-ultra-sand/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/13eef6fa-bb05-46d6-ba37-0522f3a1336b?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016688",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Plus Grey",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-plus-grey/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/4fe2a416-0a2a-4c63-8fc8-58bba3f6ba13?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016689",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Grey",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-grey/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/3294b566-116a-4b90-89fc-323636d64d5c?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016690",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Plus Black",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-plus-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/9df9c398-7550-49a0-908f-50745e1b2859?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016691",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Black",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/64d369fc-1fad-4063-90eb-f58c6324d6ee?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016692",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Plus Green",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-plus-green/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/dc834852-46bd-4fae-959d-e43114dcd1c0?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016693",
+        "title": "Чехол для телефона VLP Reels Case MagSafe for Samsung S25 Plus Grey",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-reels-case-magsafe-for-samsung-s25-plus-grey/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/13dabfc5-aff3-4f4c-9b2a-f84fe40c3e7c?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016695",
+        "title": "Чехол для телефона VLP Reels Case MagSafe for Samsung S25 Plus Black",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-reels-case-magsafe-for-samsung-s25-plus-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/6b032458-09c8-4dc3-97bc-4d4361d93ac2?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016697",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Green",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-green/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/962cd418-07be-491a-b78b-1aa08bccf5ff?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016698",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Plus Sand",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-plus-sand/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/5cdf2a88-a8f0-40dd-8fec-7c6397f1b267?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016699",
+        "title": "Чехол для телефона VLP Aster Case MagSafe for Samsung S25 Sand",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aster-case-magsafe-for-samsung-s25-sand/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/881624e2-6b27-4940-a018-0b035287dced?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016701",
+        "title": "Чехол для телефона VLP Reels Case MagSafe for Samsung S25 Black",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-reels-case-magsafe-for-samsung-s25-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/28c84930-28f5-432e-be4d-5e7957c43369?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019179",
+        "title": "Чехол для телефона VLP Crystal Case with MagSafe for Samsung Z Fold 7 Transparent (1052051)",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-crystal-case-with-magsafe-for-samsung-z-fold-7-transparent-1052051/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/4af03e42-4058-434e-bf4f-fa4dd3fc02fd?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019180",
+        "title": "Чехол для телефона VLP Crystal Case with MagSafe for Samsung Z Flip 7 Transparent (1052052)",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-crystal-case-with-magsafe-for-samsung-z-flip-7-transparent-1052052/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/f351bda0-891d-4a0b-87cc-287dd88cfa06?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019181",
+        "title": "Чехол для телефона VLP Moon Case MagSafe for Samsung Z Fold 7 Black (10519016)",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-moon-case-magsafe-for-samsung-z-fold-7-black-10519016/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/034559f0-e4ff-49f9-8ab5-cd69733aa18b?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019182",
+        "title": "Чехол для телефона VLP Flex Case with MagSafe for Samsung Z Flip 7 Black (10514015)",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-flex-case-with-magsafe-for-samsung-z-flip-7-black-10514015/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/00dbb121-dc2e-4558-aa01-d6225d8c4698?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019185",
+        "title": "Чехол для телефона VLP Flex Case with MagSafe for Samsung Z Flip 7 Grey (10514016)",
+        "price": 11990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-flex-case-with-magsafe-for-samsung-z-flip-7-grey-10514016/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/318772be-2c23-4bc3-9e5a-454b13796f67?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 19990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000069868",
+        "title": "Стационарный блендер BORK B804",
+        "price": 141990,
+        "old_price": 234090,
+        "url": "https://www.mechta.kz/product/stacionarnyy-blender-bork-b804/",
+        "brand": "BORK",
+        "category": "Блендеры стационарные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/f20a8d3b-951b-4b53-96a1-848f15eca231?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 39.3,
+      "base_price": 234090,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016702",
+        "title": "Чехол для телефона VLP Kevlar Case MagSafe for Samsung S25 Plus Black",
+        "price": 24990,
+        "old_price": 39950,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-kevlar-case-magsafe-for-samsung-s25-plus-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/d63ed5e0-8aff-4fae-a7d7-ad89206118c3?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 37.4,
+      "base_price": 39950,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016704",
+        "title": "Чехол для телефона VLP Kevlar Case MagSafe for Samsung S25 Black",
+        "price": 24990,
+        "old_price": 39950,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-kevlar-case-magsafe-for-samsung-s25-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/363dfbc6-3525-4694-b0f1-5cda1e369b7c?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 37.4,
+      "base_price": 39950,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025510",
+        "title": "Ноутбук LENOVO IdeaPad Slim 3 15IWC11 (83RR00HKRK)/15.3 WUXGA/Core 5 320 1.5 Ghz/16/SSD512/Win11",
+        "price": 379990,
+        "old_price": 599990,
+        "url": "https://www.mechta.kz/product/noutbuk-lenovo-ideapad-slim-3-15iwc11-83rr00hkrk15dot3-wuxgacore-5-320-1dot5-ghz16ssd512win11/",
+        "brand": "Lenovo",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/74f5969a-77db-421e-a875-e841a35d2904?w=400",
+        "first_seen": "2026-09-28T09:23:37+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 36.7,
+      "base_price": 599990,
+      "value_score": 95,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018623",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Black (1058040)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-black-1058040/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/c19b99a7-5df2-4fba-ab73-63c4c689effd?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018624",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Max Black (1058042)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-max-black-1058042/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/e28bcd6b-1235-407e-aa5d-c7d8a07b9d7f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018625",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Blue (1058041)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-blue-1058041/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/211b5706-4c6c-4cdf-a6a0-67ce4715c960?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018630",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Max Blue (1058043)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-max-blue-1058043/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/f4745d9a-0ec4-4955-9f3e-ee7f717221fc?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-15T01:20:05+00:00",
-      "item_count": 7731,
+      "last_crawl": "2026-10-15T05:22:46+00:00",
+      "item_count": 7743,
       "status": "ok"
     },
     {
@@ -1794,8 +2496,8 @@
     }
   ],
   "stats": {
-    "total_products": 7731,
-    "total_deals": 64,
-    "avg_discount": 64.5
+    "total_products": 7743,
+    "total_deals": 90,
+    "avg_discount": 62.0
   }
 }
