@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T23:35:06.071440+00:00",
+  "updated_at": "2026-10-15T05:05:54.519248+00:00",
   "deals": [
     {
       "product": {
@@ -2366,16 +2366,15 @@
       },
       "signal": "deal",
       "drop_pct": 57,
-      "fair_discount": 25.0,
-      "base_price": 39990,
-      "value_score": 69,
+      "fair_discount": 0.0,
+      "base_price": 29990,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 32.0
+      "inflated_gap": 57.0
     },
     {
       "product": {
@@ -3596,7 +3595,7 @@
       "drop_pct": 52,
       "fair_discount": 20.0,
       "base_price": 2499990,
-      "value_score": 53,
+      "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4366,7 +4365,7 @@
       "drop_pct": 42,
       "fair_discount": 41.8,
       "base_price": 379990,
-      "value_score": 91,
+      "value_score": 99,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4374,35 +4373,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "283761",
-        "title": "Монитор 27\" Samsung ViewFinity LS27D804UAIXCI 3840x2160 16:9 IPS 60ГЦ (HDMI+DP+Type-C) Black",
-        "price": 130990,
-        "old_price": 214990,
-        "url": "https://www.technodom.kz/p/monitor-27-samsung-viewfinity-ls27d804uaixci-3840x2160-169-ips-60gc-hdmidptype-c-black-283761",
-        "brand": "Samsung",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://api.technodom.kz/f3/api/v1/images/monitor_27_samsung_viewfinity_ls27d804uaixci_3840x2160_169_ips_60gc_hdmidptype_c_black_283761_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.1,
-      "base_price": 214990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -4997,7 +4967,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190552,
+        "price": 190500,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -5811,33 +5781,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1622362",
-        "title": "Кофеварка Russell Hobbs 24390-56, White",
-        "price": 44090,
-        "old_price": 58990,
-        "url": "https://shop.kz/offer/kofevarka-russell-hobbs-24390-56-white/",
-        "brand": "Russell Hobbs",
-        "category": "Кофеварки, кофемашины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://static.shop.kz/upload/iblock/6e9/96jb605vqiwiq2842e4xrxh9fxt218s3/174529s2.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.3,
-      "base_price": 58990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "288242",
         "title": "Наушники Redmi, Buds 6 Night Black",
@@ -6219,33 +6162,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652056",
-        "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Dawn Orange Chitu-B19W",
-        "price": 119890,
-        "old_price": 189890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-runner-2-dawn-orange-chitu-b19w",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6249_0_6_ROBUID_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 22.6,
-      "base_price": 154890,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.4
     },
     {
       "product": {
@@ -7071,33 +6987,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1622746",
-        "title": "Парогенератор Centek CT-2302, White",
-        "price": 40790,
-        "old_price": 55590,
-        "url": "https://shop.kz/offer/parogenerator-centek-ct-2302-white/",
-        "brand": "Centek",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://static.shop.kz/upload/iblock/a98/prkl9s3to86bva1ni56tjojfk9k7dtaf/175704s1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 19.7,
-      "base_price": 50790,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.3
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "43026",
         "title": "Яндекс Станция Мини 3 Лиловый YNDX-00027LIL",
@@ -7372,33 +7261,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1525053",
-        "title": "Электрощипцы для завивки Scarlett SC-HS60010, Black",
-        "price": 14100,
-        "old_price": 17290,
-        "url": "https://shop.kz/offer/elektroshchiptsy-dlya-zavivki-scarlett-sc-hs60010-black/",
-        "brand": "Scarlett",
-        "category": "Фены, электрощипцы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://static.shop.kz/upload/iblock/865/t04arhfnzm717glf20gwpmslerosiaos/16723712.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 18.4,
-      "base_price": 17290,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "46253",
         "title": "Телевизор Dreame 55\" Vivid QLED 4K Q100 55Q100",
@@ -7588,33 +7450,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "578840",
-        "title": "Электробритва Panasonic ES-3042S520",
-        "price": 24590,
-        "old_price": 31990,
-        "url": "https://shop.kz/offer/elektrobritva-panasonic-es-3042s520/",
-        "brand": "Panasonic",
-        "category": "Электробритвы, эпиляторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://static.shop.kz/upload/iblock/379/134558_1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 16.9,
-      "base_price": 29590,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.1
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "653495",
         "title": "Ноутбук Acer Nitro Lite NL15-71G i5 210H 8GB / SSD 512GB / GeForce RTX 3050 4GB / NO OS / NH.X3PER.001",
@@ -7639,33 +7474,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "637244",
-        "title": "Гарнитура Jabra EVOLVE 10 Stereo 2699-820-109",
-        "price": 17744,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-2699-820-109",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3594_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.9,
-      "base_price": 21350,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7885,30 +7693,57 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1415005",
-        "title": "Газоэлектрическая плита Hansa FCMX68123",
-        "price": 149990,
-        "old_price": 205990,
-        "url": "https://alser.kz/p/fcmx68123-gazoelektriceskaa-plita",
-        "brand": "Hansa",
+        "shop": "sulpak",
+        "sku": "649033",
+        "title": "Планшет Blackview Tab 20 kids 4/64GB Purple",
+        "price": 49990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/planshetiy-blackview-tab-20-kids-purple",
+        "brand": "Blackview",
         "category": null,
-        "group": "kitchen",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://s3s.alser.kz/uploads/products/plity/P5BxvuZea/fcmx68123-gazoelektriceskaa-plita-w160.webp",
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1798_0_1_nSZWwh_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 16.7,
-      "base_price": 179990,
-      "value_score": 44,
+      "drop_pct": null,
+      "fair_discount": 16.5,
+      "base_price": 59890,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 10.3
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649034",
+        "title": "Планшет Blackview Tab 20 kids 4/64GB Blue",
+        "price": 49990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/planshetiy-blackview-tab-20-kids-blue",
+        "brand": "Blackview",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1799_0_1_Ovy9PF_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.5,
+      "base_price": 59890,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7936,6 +7771,60 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651246",
+        "title": "Ноутбук Acer Aspire Lite 14 AL14-45P AMD Ryzen 3 5400U / 8GB / SSD 256GB / AMD Radeon Graphics / NO OS / NX.DPRER.001",
+        "price": 209990,
+        "old_price": 249990,
+        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-14-al14-45p-",
+        "brand": "Acer",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 16,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9619_0_1_Vo44Eq_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 16,
+      "fair_discount": 16.0,
+      "base_price": 249990,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655787",
+        "title": "Ноутбук Acer Aspire Lite AL14-47P AMD Ryzen 3 3200U / 8GB / SSD 256GB / NO OS / NX.X1MER.001 / R382SUN",
+        "price": 209990,
+        "old_price": 249990,
+        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-al14-47p-nxx1mer001-r382sun",
+        "brand": "Acer",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 16,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9958_0_6_B6ZbN3_160.webp",
+        "first_seen": "2026-10-06T21:20:00+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 16,
+      "fair_discount": 16.0,
+      "base_price": 249990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -7994,6 +7883,85 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "641571",
+        "title": "Чайник электрический Russell Hobbs 25240-70 23855016002",
+        "price": 58590,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-23855016002",
+        "brand": "Russell Hobbs",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_1032_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.1,
+      "base_price": 68980,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000009580",
+        "title": "Чайник электрический Russell Hobbs 24993-70",
+        "price": 38990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-874",
+        "brand": "Russell Hobbs",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_874_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.0,
+      "base_price": 45890,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000009174",
+        "title": "Чайник электрический Russell Hobbs 20412-70 23405016002",
+        "price": 41890,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-871",
+        "brand": "Russell Hobbs",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_871_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.9,
+      "base_price": 49250,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1514262",
         "title": "Кофеварка Centek CT-1145, Steel-Black",
@@ -8016,6 +7984,31 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 5.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623322",
+        "title": "Погружной блендер Scarlett SC-HB42F08",
+        "price": 16230,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/blenderiy-stacionarniye-scarlett-838-272",
+        "brand": "Scarlett",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_272_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.5,
+      "base_price": 18990,
+      "value_score": 48,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -8072,6 +8065,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "652056",
+        "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Dawn Orange Chitu-B19W",
+        "price": 119890,
+        "old_price": 189890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-runner-2-dawn-orange-chitu-b19w",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6249_0_6_ROBUID_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 14.3,
+      "base_price": 139890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "652057",
         "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Midnight Black Chitu-B19FB",
         "price": 119890,
@@ -8099,79 +8119,52 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "652738",
-        "title": "Ноутбук Lenovo IdeaPad Slim 3 15AMN8 / AMD Ryzen 5 40 / 16GB / SSD 512GB / Radeon Graphics 610M / Win 11 / 82XQ01SLRK",
-        "price": 349990,
-        "old_price": 399990,
-        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-ideapad-slim-3-15amn8-82xq01slrk-r5165sun",
-        "brand": "Lenovo",
+        "sku": "637386",
+        "title": "Фен Dreame Hair Dryer Dazzle Gold",
+        "price": 119990,
+        "old_price": 146990,
+        "url": "https://www.sulpak.kz/g/fen-shchetki-dreame-hair-dryer-dazzle-gold",
+        "brand": "Dreame",
         "category": null,
-        "group": "computers",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9699_0_6_LcrXZe_160.webp",
+        "discount_pct": 18,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_851_183_0_1_hroBJF_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 14.0,
-      "base_price": 406990,
-      "value_score": 58,
+      "drop_pct": 18,
+      "fair_discount": 14.3,
+      "base_price": 139990,
+      "value_score": 48,
       "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -1.0
+      "badges": [],
+      "inflated_gap": 3.7
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1714475",
-        "title": "Телевизор Dreame 65S100, 65\"",
-        "price": 569990,
-        "old_price": 659990,
-        "url": "https://shop.kz/offer/televizor-dreame-65s100-65/",
-        "brand": "Dreame",
-        "category": "Телевизоры",
+        "shop": "sulpak",
+        "sku": "640301",
+        "title": "QLED телевизор Yandex ТВ Станция Бейсик 50&quot;",
+        "price": 239990,
+        "old_price": 279990,
+        "url": "https://www.sulpak.kz/g/televizoriy-yandeks-tv-stanciya-bejsik-qled-50",
+        "brand": "Яндекс",
+        "category": null,
         "group": "tv",
         "in_stock": true,
         "discount_pct": 14,
-        "image": "https://static.shop.kz/upload/iblock/0e9/oe91jwrai04sjmlfv4i0t3nh9r39i4ur/193875d1.JPG",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20508_0_1_VlMIGD_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
       "drop_pct": 14,
-      "fair_discount": 13.6,
-      "base_price": 659990,
-      "value_score": 47,
+      "fair_discount": 14.3,
+      "base_price": 279990,
+      "value_score": 40,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1695602",
-        "title": "Телевизор Яндекс YNDX-00095 - Умный телевизор с Алисой 55\"",
-        "price": 314990,
-        "old_price": 362490,
-        "url": "https://shop.kz/offer/televizor-yandeks-yndx-00095-umnyy-televizor-s-alisoy-55/",
-        "brand": "Яндекс",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://static.shop.kz/upload/iblock/4d6/55gyml1whefg0s94ede1eqxpgqlqtu7w/186751e1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 13.1,
-      "base_price": 362490,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -0.1
+      "inflated_gap": -0.3
     }
   ],
   "shops": [
@@ -8185,41 +8178,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-14T23:34:54+00:00",
-      "item_count": 2570,
+      "last_crawl": "2026-10-15T05:05:35+00:00",
+      "item_count": 2549,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-14T23:34:54+00:00",
-      "item_count": 12176,
+      "last_crawl": "2026-10-15T05:05:35+00:00",
+      "item_count": 12177,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-14T23:34:54+00:00",
-      "item_count": 3709,
+      "last_crawl": "2026-10-15T05:05:35+00:00",
+      "item_count": 3697,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-14T23:34:54+00:00",
+      "last_crawl": "2026-10-15T05:05:35+00:00",
       "item_count": 9543,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-14T23:34:54+00:00",
+      "last_crawl": "2026-10-15T05:05:35+00:00",
       "item_count": 153,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28151,
+    "total_products": 28119,
     "total_deals": 300,
     "avg_discount": 48.5
   }
