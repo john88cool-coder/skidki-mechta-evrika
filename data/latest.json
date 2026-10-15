@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T17:25:39.977204+00:00",
+  "updated_at": "2026-10-15T22:03:08.185752+00:00",
   "deals": [
     {
       "product": {
@@ -1179,33 +1179,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1056855",
-        "title": "Гарнитура Logitech H340, Black",
-        "price": 12990,
-        "old_price": 21990,
-        "url": "https://shop.kz/offer/garnitura-logitech-h340-black/",
-        "brand": "Logitech",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://static.shop.kz/upload/iblock/016/112151_1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 41,
-      "fair_discount": 29.8,
-      "base_price": 18500,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.2
     },
     {
       "product": {
@@ -2839,7 +2812,7 @@
       "drop_pct": 55,
       "fair_discount": 0.0,
       "base_price": 710990,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -4048,6 +4021,33 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1570452",
+        "title": "Гриль Redmond SteakMaster RGM-M822",
+        "price": 37990,
+        "old_price": 72990,
+        "url": "https://shop.kz/offer/gril-redmond-steakmaster-rgm-m822/",
+        "brand": "REDMOND",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://static.shop.kz/upload/iblock/bdc/g836tv0lesxlm8k0rvekqawtmna4r9g5/169780_1.JPG",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 48,
+      "fair_discount": 0.0,
+      "base_price": 37990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 48.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "3000012855",
         "title": "Кофеварка рожковая Russell Hobbs 28250-56 23942016001",
@@ -4386,35 +4386,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "279174",
-        "title": "Принтер лазерный HP LaserJet Tank 1502w A4-D-W (2R3E2A)",
-        "price": 99990,
-        "old_price": 159990,
-        "url": "https://www.technodom.kz/p/printer-lazernyj-hp-laserjet-tank-1502w-279174",
-        "brand": "HP",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://api.technodom.kz/f3/api/v1/images/printer_lazernyj_hp_laserjet_tank_1502w_279174_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.5,
-      "base_price": 159990,
-      "value_score": 96,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "291106",
         "title": "Стиральная машина LG F2T9FW9W",
         "price": 249990,
@@ -4638,34 +4609,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000007303",
-        "title": "Гарнитура Jabra BIZ 2400 II Duo QD 2409-820-204",
-        "price": 85218,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2385",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2385_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 34.7,
-      "base_price": 130600,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "261565",
         "title": "Беспроводной пылесос Tefal X-Force Flex 15.60 Pro TY-99F1WO",
@@ -4745,33 +4688,6 @@
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57717,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 33.6,
-      "base_price": 86890,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
         "Честная скидка"
       ],
       "inflated_gap": null
@@ -4890,7 +4806,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190690,
+        "price": 190652,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -4939,33 +4855,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000028332",
-        "title": "Наушники-гарнитура беспроводные Defender Phantom PRO белый",
-        "price": 17483,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-3869",
-        "brand": "Defender",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3869_0_1_PxlFBf_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 30.9,
-      "base_price": 25290,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6386,34 +6275,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1078260",
-        "title": "Гарнитура Edifier G2 II, Black",
-        "price": 14400,
-        "old_price": 21990,
-        "url": "https://shop.kz/offer/garnitura-edifier-g2-ii-black/",
-        "brand": "Edifier",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://static.shop.kz/upload/iblock/e95/154441_10.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 20.0,
-      "base_price": 17990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "630115",
         "title": "Машинка для стрижки Remington HC5810",
@@ -6716,34 +6577,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1709789",
-        "title": "Гарнитура ASUS TUF Gaming H1 Gen II, Black",
-        "price": 28200,
-        "old_price": 34990,
-        "url": "https://shop.kz/offer/garnitura-asus-tuf-gaming-h1-gen-ii-black/",
-        "brand": "ASUS",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://static.shop.kz/upload/iblock/582/29twgub3vrg3vkwne9j5tlrrrbkp7m5y/192148n1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.4,
-      "base_price": 34990,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "44767",
         "title": "Телевизор Яндекс Бейсик с Алисой 55\" YNDX-00080 LED 4K UHD Smart",
@@ -6912,7 +6745,7 @@
         "shop": "sulpak",
         "sku": "650356",
         "title": "QLED телевизор Dreame 55Q100",
-        "price": 293980,
+        "price": 293970,
         "old_price": 359990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
         "brand": "Dreame",
@@ -7747,28 +7580,53 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1514262",
-        "title": "Кофеварка Centek CT-1145, Steel-Black",
-        "price": 31190,
-        "old_price": 38890,
-        "url": "https://shop.kz/offer/kofevarka-centek-ct-1145-steel-black/",
-        "brand": "Centek",
-        "category": "Кофеварки, кофемашины",
+        "shop": "sulpak",
+        "sku": "3000009174",
+        "title": "Чайник электрический Russell Hobbs 20412-70 23405016002",
+        "price": 41890,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-871",
+        "brand": "Russell Hobbs",
+        "category": null,
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://static.shop.kz/upload/iblock/db9/oqb8t86amcz52gxf9qwhyaebcu3ugbzg/167034_01.jpg",
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_871_3_2_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 20,
+      "drop_pct": null,
+      "fair_discount": 14.9,
+      "base_price": 49250,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623322",
+        "title": "Погружной блендер Scarlett SC-HB42F08",
+        "price": 16230,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/blenderiy-stacionarniye-scarlett-838-272",
+        "brand": "Scarlett",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_272_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
       "fair_discount": 14.5,
-      "base_price": 36500,
+      "base_price": 18990,
       "value_score": 48,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 5.5
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7794,6 +7652,33 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652055",
+        "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Dark Blue Chitu-B19F",
+        "price": 119890,
+        "old_price": 189890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-runner-2-dark-blue-chitu-b19f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6248_0_6_TcQC0f_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 14.3,
+      "base_price": 139890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.7
     },
     {
       "product": {
@@ -7894,31 +7779,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 6.1
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1713254",
-        "title": "Bluetooth гарнитура Logitech A20 X, White",
-        "price": 69990,
-        "old_price": 89990,
-        "url": "https://shop.kz/offer/bluetooth-garnitura-logitech-a20-x-white/",
-        "brand": "Logitech",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://static.shop.kz/upload/iblock/de6/pjyloas2iryyuevrmd6bqm4dz20bnipl/193627d1.JPG",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 12.5,
-      "base_price": 79990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 9.5
     },
     {
       "product": {
@@ -8086,42 +7946,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-15T17:25:19+00:00",
-      "item_count": 2539,
+      "last_crawl": "2026-10-15T22:02:50+00:00",
+      "item_count": 2571,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-15T17:25:19+00:00",
-      "item_count": 12184,
+      "last_crawl": "2026-10-15T22:02:50+00:00",
+      "item_count": 10411,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-15T17:25:19+00:00",
-      "item_count": 3719,
+      "last_crawl": "2026-10-15T22:02:50+00:00",
+      "item_count": 3679,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-15T17:25:19+00:00",
-      "item_count": 9568,
+      "last_crawl": "2026-10-15T22:02:50+00:00",
+      "item_count": 9562,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-15T17:25:19+00:00",
+      "last_crawl": "2026-10-15T22:02:50+00:00",
       "item_count": 153,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28163,
-    "total_deals": 298,
-    "avg_discount": 49.0
+    "total_products": 26376,
+    "total_deals": 293,
+    "avg_discount": 50
   }
 }
