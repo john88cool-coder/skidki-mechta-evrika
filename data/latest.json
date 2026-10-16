@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T18:26:57.080471+00:00",
+  "updated_at": "2026-10-16T21:34:57.670357+00:00",
   "deals": [
     {
       "product": {
@@ -3594,15 +3594,14 @@
       },
       "signal": "deal",
       "drop_pct": 52,
-      "fair_discount": 20.0,
-      "base_price": 2499990,
-      "value_score": 58,
+      "fair_discount": 0.0,
+      "base_price": 1999990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 32.0
+      "inflated_gap": 52.0
     },
     {
       "product": {
@@ -4424,36 +4423,10 @@
       "drop_pct": null,
       "fair_discount": 34.0,
       "base_price": 52220,
-      "value_score": 77,
-      "is_pick": false,
+      "value_score": 82,
+      "is_pick": true,
       "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57695,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 33.6,
-      "base_price": 86890,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
+        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": null
@@ -4545,7 +4518,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190590,
+        "price": 190552,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -6023,33 +5996,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "637244",
-        "title": "Гарнитура Jabra EVOLVE 10 Stereo 2699-820-109",
-        "price": 17744,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-2699-820-109",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3594_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.9,
-      "base_price": 21350,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "10954",
         "title": "Вытяжка Hansa OTP6233BH",
@@ -6321,33 +6267,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000026900",
-        "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 212388,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_344_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 255000,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "649034",
         "title": "Планшет Blackview Tab 20 kids 4/64GB Blue",
         "price": 49990,
@@ -6588,6 +6507,87 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000047964",
+        "title": "Наушники soundcore Liberty 5 Pro Max Black",
+        "price": 84990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-soundcore-83-4373",
+        "brand": "Soundcore",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4373_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.0,
+      "base_price": 99990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000047965",
+        "title": "Наушники soundcore Liberty 5 Pro Max Gold",
+        "price": 84990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-soundcore-83-4374",
+        "brand": "Soundcore",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4374_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.0,
+      "base_price": 99990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630218",
+        "title": "Встраиваемая посудомоечная машина Hansa ZIM635KH",
+        "price": 169990,
+        "old_price": 199990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-posudomoechniye-mashiniy-hansa-zim635kh",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_40_400_0_6_0LW8sg_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.0,
+      "base_price": 199990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -7084,41 +7084,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-16T18:26:37+00:00",
-      "item_count": 2595,
+      "last_crawl": "2026-10-16T21:34:38+00:00",
+      "item_count": 2507,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-16T18:26:37+00:00",
+      "last_crawl": "2026-10-16T21:34:38+00:00",
       "item_count": 12185,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-16T18:26:37+00:00",
-      "item_count": 3726,
+      "last_crawl": "2026-10-16T21:34:38+00:00",
+      "item_count": 3722,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-16T18:26:37+00:00",
-      "item_count": 9587,
+      "last_crawl": "2026-10-16T21:34:38+00:00",
+      "item_count": 9591,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-16T18:26:37+00:00",
+      "last_crawl": "2026-10-16T21:34:38+00:00",
       "item_count": 134,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28227,
+    "total_products": 28139,
     "total_deals": 262,
     "avg_discount": 52.0
   }
