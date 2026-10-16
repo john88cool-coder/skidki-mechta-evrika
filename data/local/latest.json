@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T13:21:26.718064+00:00",
+  "updated_at": "2026-10-16T18:24:42.796744+00:00",
   "deals": [
     {
       "product": {
@@ -483,34 +483,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000047612",
-        "title": "Ломтерезка BORK Z780",
-        "price": 199990,
-        "old_price": 513590,
-        "url": "https://www.mechta.kz/product/lomterezka-bork-z780/",
-        "brand": "BORK",
-        "category": "Ломтерезки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 61.1,
-      "base_price": 513590,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -1357,6 +1329,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000047612",
+        "title": "Ломтерезка BORK Z780",
+        "price": 199990,
+        "old_price": 513590,
+        "url": "https://www.mechta.kz/product/lomterezka-bork-z780/",
+        "brand": "BORK",
+        "category": "Ломтерезки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 199990,
+      "value_score": 25,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020119",
         "title": "Чехол для телефона APPLE iPhone 17 Pro TechWoven Case with MagSafe - Black (MGF34ZM/A)",
         "price": 19990,
@@ -1719,34 +1718,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000031385",
-        "title": "Мороженница BORK E801",
-        "price": 199990,
-        "old_price": 346590,
-        "url": "https://www.mechta.kz/product/morojennica-bork-e801/",
-        "brand": "BORK",
-        "category": "Мороженицы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.3,
-      "base_price": 346590,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020730",
         "title": "Корзина для белья ROTHO 1032708853 (55 л), anthracite",
         "price": 12190,
@@ -1770,90 +1741,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008884",
-        "title": "Массажер BORK D701 OR для тела",
-        "price": 115090,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/massajer-bork-d701-or-dlya-tela/",
-        "brand": "BORK",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/b4218507-88ed-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 40.7,
-      "base_price": 194090,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008885",
-        "title": "Массажер BORK D701 GN для тела",
-        "price": 115090,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/massajer-bork-d701-gn-dlya-tela/",
-        "brand": "BORK",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/b4218512-88ed-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 40.7,
-      "base_price": 194090,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200009821",
-        "title": "Массажер BORK D701 GG для тела",
-        "price": 115090,
-        "old_price": null,
-        "url": "https://www.mechta.kz/product/massajer-bork-d701-gg-dlya-tela/",
-        "brand": "BORK",
-        "category": "Массажёры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://pi.mdev.kz/252abf7d-be55-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 40.7,
-      "base_price": 194090,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -2371,34 +2258,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000069868",
-        "title": "Стационарный блендер BORK B804",
-        "price": 141990,
-        "old_price": 234090,
-        "url": "https://www.mechta.kz/product/stacionarnyy-blender-bork-b804/",
-        "brand": "BORK",
-        "category": "Блендеры стационарные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/f20a8d3b-951b-4b53-96a1-848f15eca231?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.3,
-      "base_price": 234090,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011054",
         "title": "Фен DYSON HD07 Supersonic синий/медь (с чехлом)",
         "price": 149990,
@@ -2451,14 +2310,158 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016704",
+        "title": "Чехол для телефона VLP Kevlar Case MagSafe for Samsung S25 Black",
+        "price": 24990,
+        "old_price": 39950,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-kevlar-case-magsafe-for-samsung-s25-black/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/363dfbc6-3525-4694-b0f1-5cda1e369b7c?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 37.4,
+      "base_price": 39950,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020110",
+        "title": "Чехол для телефона APPLE iPhone 17 Silicone Case with MagSafe - Neon Yellow (MGEV4ZM/A)",
+        "price": 24990,
+        "old_price": 38990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-silicone-case-with-magsafe---neon-yellow-mgev4zma/",
+        "brand": "Apple",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/a654cfb4-d3a8-4f9c-a046-3d723c51eabe?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 35.9,
+      "base_price": 38990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020113",
+        "title": "Чехол для телефона APPLE iPhone 17 Silicone Case with MagSafe - Anchor Blue (MGEW4ZM/A)",
+        "price": 24990,
+        "old_price": 38990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-silicone-case-with-magsafe---anchor-blue-mgew4zma/",
+        "brand": "Apple",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/e7696e9c-2871-46ec-bbf6-933cb7178f43?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 35.9,
+      "base_price": 38990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020115",
+        "title": "Чехол для телефона APPLE iPhone 17 Silicone Case with MagSafe - Purple Fog (MGF04ZM/A)",
+        "price": 24990,
+        "old_price": 38990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-silicone-case-with-magsafe---purple-fog-mgf04zma/",
+        "brand": "Apple",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/0077aef6-75c8-41d5-8964-d47290ecb128?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 35.9,
+      "base_price": 38990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020116",
+        "title": "Чехол для телефона APPLE iPhone 17 Silicone Case with MagSafe - Black (MGF14ZM/A)",
+        "price": 24990,
+        "old_price": 38990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-silicone-case-with-magsafe---black-mgf14zma/",
+        "brand": "Apple",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/487ee103-2cff-4bca-9553-6d2e1c8a2272?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 35.9,
+      "base_price": 38990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-16T13:21:15+00:00",
-      "item_count": 7750,
+      "last_crawl": "2026-10-16T18:24:32+00:00",
+      "item_count": 7742,
       "status": "ok"
     },
     {
@@ -2498,7 +2501,7 @@
     }
   ],
   "stats": {
-    "total_products": 7750,
+    "total_products": 7742,
     "total_deals": 90,
     "avg_discount": 62.5
   }
