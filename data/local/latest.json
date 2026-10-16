@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T05:21:02.269977+00:00",
+  "updated_at": "2026-10-16T11:00:13.244151+00:00",
   "deals": [
     {
       "product": {
@@ -76,6 +76,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011550",
+        "title": "Вертикальный пылесос WADE SV-05 (белый)",
+        "price": 19990,
+        "old_price": 87990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-belyy/",
+        "brand": "WADE",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 17,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -607,33 +632,6 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 17,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011550",
-        "title": "Вертикальный пылесос WADE SV-05 (белый)",
-        "price": 19990,
-        "old_price": 87990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-belyy/",
-        "brand": "WADE",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
@@ -2343,122 +2341,118 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200025510",
-        "title": "Ноутбук LENOVO IdeaPad Slim 3 15IWC11 (83RR00HKRK)/15.3 WUXGA/Core 5 320 1.5 Ghz/16/SSD512/Win11",
-        "price": 379990,
-        "old_price": 599990,
-        "url": "https://www.mechta.kz/product/noutbuk-lenovo-ideapad-slim-3-15iwc11-83rr00hkrk15dot3-wuxgacore-5-320-1dot5-ghz16ssd512win11/",
-        "brand": "Lenovo",
-        "category": "Ноутбуки",
-        "group": "computers",
+        "sku": "17200018623",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Black (1058040)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-black-1058040/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/74f5969a-77db-421e-a875-e841a35d2904?w=400",
-        "first_seen": "2026-09-28T09:23:37+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 36.7,
-      "base_price": 599990,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018270",
-        "title": "Блендер погружной MOULINEX DD 94G8F0",
-        "price": 52490,
-        "old_price": 104990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-moulinex-dd-94g8f0/",
-        "brand": "Moulinex",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/c42e91f8-619f-43f5-a99f-2dcb118ffc21?w=400",
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/c19b99a7-5df2-4fba-ab73-63c4c689effd?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 30.0,
-      "base_price": 74990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010587",
-        "title": "Стационарный блендер VITEK VT 1460",
-        "price": 16990,
-        "old_price": 27490,
-        "url": "https://www.mechta.kz/product/stacionarnyy-blender-vitek-vt-1460/",
-        "brand": "Vitek",
-        "category": "Блендеры стационарные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/4272b946-dc3f-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 26.1,
-      "base_price": 22990,
-      "value_score": 63,
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.9
+      "inflated_gap": 0.0
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200001280",
-        "title": "Настольный гриль POLARIS PGP 2102",
-        "price": 59990,
-        "old_price": 99990,
-        "url": "https://www.mechta.kz/product/nastolnyy-gril-polaris-pgp-2102/",
-        "brand": "Polaris",
-        "category": "Электрогрили",
-        "group": "kitchen",
+        "sku": "17200018624",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Max Black (1058042)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-max-black-1058042/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/7957a1f6-185f-11ed-a24a-005056b6dbd7?w=400",
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/e28bcd6b-1235-407e-aa5d-c7d8a07b9d7f?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "value_score": 61,
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 15.0
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018625",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Blue (1058041)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-blue-1058041/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/211b5706-4c6c-4cdf-a6a0-67ce4715c960?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018630",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Max Blue (1058043)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-max-blue-1058043/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/f4745d9a-0ec4-4955-9f3e-ee7f717221fc?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-16T05:20:54+00:00",
-      "item_count": 7764,
+      "last_crawl": "2026-10-16T10:59:41+00:00",
+      "item_count": 7751,
       "status": "ok"
     },
     {
@@ -2498,7 +2492,7 @@
     }
   ],
   "stats": {
-    "total_products": 7764,
+    "total_products": 7751,
     "total_deals": 90,
     "avg_discount": 62.0
   }
