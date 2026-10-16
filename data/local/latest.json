@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T21:20:47.036426+00:00",
+  "updated_at": "2026-10-16T23:20:06.797649+00:00",
   "deals": [
     {
       "product": {
@@ -1496,33 +1496,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014146",
-        "title": "Триммер для бороды BRAUN BT 3411",
-        "price": 14990,
-        "old_price": 33590,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-braun-bt-3411/",
-        "brand": "Braun",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/fbe9bcbc-89e4-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 55.4,
-      "base_price": 33590,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000003362",
         "title": "Электробритва PHILIPS S 5585/35",
         "price": 49990,
@@ -1547,33 +1520,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012538",
-        "title": "Эпилятор BRAUN SE1-000 PNK BOX MN",
-        "price": 14990,
-        "old_price": 31990,
-        "url": "https://www.mechta.kz/product/epilyator-braun-se1-000-pnk-box-mn/",
-        "brand": "Braun",
-        "category": "Эпиляторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/3a7e06be-352e-11ef-a267-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 53.1,
-      "base_price": 31990,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -1678,7 +1624,7 @@
       "drop_pct": 44,
       "fair_discount": 44.4,
       "base_price": 629990,
-      "value_score": 86,
+      "value_score": 94,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -2454,14 +2400,68 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018623",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Black (1058040)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-black-1058040/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/c19b99a7-5df2-4fba-ab73-63c4c689effd?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018624",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Max Black (1058042)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-max-black-1058042/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/e28bcd6b-1235-407e-aa5d-c7d8a07b9d7f?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-16T21:20:39+00:00",
-      "item_count": 7742,
+      "last_crawl": "2026-10-16T23:20:01+00:00",
+      "item_count": 7743,
       "status": "ok"
     },
     {
@@ -2501,7 +2501,7 @@
     }
   ],
   "stats": {
-    "total_products": 7742,
+    "total_products": 7743,
     "total_deals": 90,
     "avg_discount": 62.5
   }
