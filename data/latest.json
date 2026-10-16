@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T07:34:58.370773+00:00",
+  "updated_at": "2026-10-16T13:37:41.889248+00:00",
   "deals": [
     {
       "product": {
@@ -619,6 +619,33 @@
       "value_score": 23,
       "is_pick": false,
       "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "277021",
+        "title": "Моноблок Apple iMac 24 Green (MQRA3RU/A)",
+        "price": 359990,
+        "old_price": 799990,
+        "url": "https://www.technodom.kz/p/monoblok-apple-imac-24-green-m3-spu-8cgpu-8c-8-256-mos-45kmqra3ru-277021",
+        "brand": "Apple",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://api.technodom.kz/f3/api/v1/images/monoblok_apple_imac_24_green_m3_spu_8cgpu_8c_8_256_mos_45kmqra3ru_277021_1.webp",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
       "inflated_gap": null
     },
     {
@@ -2869,34 +2896,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "277021",
-        "title": "Моноблок Apple iMac 24 Green (MQRA3RU/A)",
-        "price": 359990,
-        "old_price": 799990,
-        "url": "https://www.technodom.kz/p/monoblok-apple-imac-24-green-m3-spu-8cgpu-8c-8-256-mos-45kmqra3ru-277021",
-        "brand": "Apple",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://api.technodom.kz/f3/api/v1/images/monoblok_apple_imac_24_green_m3_spu_8cgpu_8c_8_256_mos_45kmqra3ru_277021_1.webp",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 0.0,
-      "base_price": 359990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 55.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "269518",
         "title": "Ноутбук Apple MacBook Pro Space Grey 2023 M2 Pro / 16ГБ / 512SSD / 16 / Mac OS Ventura / (MNW83RU/A)",
         "price": 710990,
@@ -2914,7 +2913,7 @@
       "drop_pct": 55,
       "fair_discount": 0.0,
       "base_price": 710990,
-      "value_score": 40,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3158,7 +3157,7 @@
       "drop_pct": 54,
       "fair_discount": 0.0,
       "base_price": 54990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3597,7 +3596,7 @@
       "drop_pct": 52,
       "fair_discount": 20.0,
       "base_price": 2499990,
-      "value_score": 50,
+      "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -4226,7 +4225,7 @@
       "drop_pct": null,
       "fair_discount": 41.8,
       "base_price": 68040,
-      "value_score": 89,
+      "value_score": 85,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4424,10 +4423,9 @@
       "drop_pct": null,
       "fair_discount": 34.0,
       "base_price": 52220,
-      "value_score": 82,
-      "is_pick": true,
+      "value_score": 77,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": null
@@ -4437,7 +4435,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57707,
+        "price": 57701,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -5221,34 +5219,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "642367",
-        "title": "Смартфон Huawei Nova 14 12/256GB Blue",
-        "price": 149990,
-        "old_price": 248890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-14-12256gb-blue",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7266_0_1_L8qsF1_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 25.0,
-      "base_price": 199890,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.0
     },
     {
       "product": {
@@ -6619,6 +6589,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "636373",
+        "title": "Робот-пылесос Roborock Q8 Max Pro White",
+        "price": 89990,
+        "old_price": 129990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-roborock-q8-max-pro-white-4125-235",
+        "brand": "Roborock",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_235_0_1_MZgLcx_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 18.2,
+      "base_price": 109990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.8
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "294897",
         "title": "Карта памяти Kingston SDS3/512GB, SDXC 512GB, Canvas Select Plus, C10, UHS-I, U3, V30",
@@ -7177,7 +7174,7 @@
       "drop_pct": null,
       "fair_discount": 15.6,
       "base_price": 89990,
-      "value_score": 50,
+      "value_score": 46,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -7576,33 +7573,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "288611",
-        "title": "Стиральная машина LG F2Y1NS3W",
-        "price": 155990,
-        "old_price": 179990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-lg-f2y1ns3w-288611",
-        "brand": "LG",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://api.technodom.kz/f3/api/v1/images/stiralnaya_mashina_lg_f2y1ns3w_288611_01.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 10.9,
-      "base_price": 174990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 2.1
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1706114",
         "title": "Телевизор Яндекс YNDX-00104 - Умный телевизор с Алисой 65\"",
@@ -7729,6 +7699,33 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "296614",
+        "title": "Стиральная машина INDESIT IM3 814 WW CIS",
+        "price": 139990,
+        "old_price": 189990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-indesit-im3-814-ww-cis-296614",
+        "brand": "Indesit",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296614_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 9.1,
+      "base_price": 153990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.9
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "274127",
         "title": "МФУ струйное Canon PIXMA G-3470 BK СНПЧ А4-W (5805C009)",
         "price": 111990,
@@ -7775,6 +7772,33 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 12.1
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "296615",
+        "title": "Стиральная машина INDESIT IM3 814 SS CIS",
+        "price": 144990,
+        "old_price": 194990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-indesit-im3-814-ss-cis-296615",
+        "brand": "Indesit",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296615_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 8.8,
+      "base_price": 158990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.2
     }
   ],
   "shops": [
@@ -7788,42 +7812,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-16T07:34:45+00:00",
-      "item_count": 2567,
+      "last_crawl": "2026-10-16T13:37:24+00:00",
+      "item_count": 2598,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-16T07:34:45+00:00",
-      "item_count": 12184,
+      "last_crawl": "2026-10-16T13:37:24+00:00",
+      "item_count": 12185,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-16T07:34:45+00:00",
-      "item_count": 3737,
+      "last_crawl": "2026-10-16T13:37:24+00:00",
+      "item_count": 3724,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-16T07:34:45+00:00",
-      "item_count": 9564,
+      "last_crawl": "2026-10-16T13:37:24+00:00",
+      "item_count": 9573,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-16T07:34:45+00:00",
+      "last_crawl": "2026-10-16T13:37:24+00:00",
       "item_count": 135,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28187,
-    "total_deals": 288,
-    "avg_discount": 50.0
+    "total_products": 28215,
+    "total_deals": 289,
+    "avg_discount": 50
   }
 }
