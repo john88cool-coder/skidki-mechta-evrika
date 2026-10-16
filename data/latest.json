@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T13:37:41.889248+00:00",
+  "updated_at": "2026-10-16T18:26:57.080471+00:00",
   "deals": [
     {
       "product": {
@@ -213,7 +213,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19290,
+        "price": 19297,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -226,14 +226,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.8,
+      "fair_discount": 51.7,
       "base_price": 39990,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.2
+      "inflated_gap": 11.3
     },
     {
       "product": {
@@ -2588,7 +2588,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 0.0,
-      "base_price": 318290,
+      "base_price": 318390,
       "value_score": 41,
       "is_pick": false,
       "badges": [
@@ -3745,29 +3745,31 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "624397",
-        "title": "Вытяжка Haier HVX-W682CW",
-        "price": 96990,
-        "old_price": 199990,
-        "url": "https://www.sulpak.kz/g/viytyazhki-haier-hvx-w682cw",
-        "brand": "Haier",
+        "sku": "631701",
+        "title": "OLED телевизор LG OLED83C5RLA",
+        "price": 1999990,
+        "old_price": 4199990,
+        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled83c5rla",
+        "brand": "LG",
         "category": null,
-        "group": "kitchen",
+        "group": "tv",
         "in_stock": true,
         "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_12_1289_0_1_idDYyC_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3232_0_6_sgj1ui_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
       "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 99990,
-      "value_score": 41,
+      "fair_discount": 20.0,
+      "base_price": 2499990,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 52.0
+      "inflated_gap": 32.0
     },
     {
       "product": {
@@ -4225,42 +4227,13 @@
       "drop_pct": null,
       "fair_discount": 41.8,
       "base_price": 68040,
-      "value_score": 85,
+      "value_score": 89,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "269396",
-        "title": "Мини-ПК Apple Mac Mini (M2-256-MOS) (MMFJ3RU/A)",
-        "price": 220990,
-        "old_price": 379990,
-        "url": "https://www.technodom.kz/p/mini-pk-apple-mac-mini-m2-256-mos-mmfj3ru-269396",
-        "brand": "Apple",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://api.technodom.kz/f3/api/v1/images/mini_pk_apple_mac_mini_m2_256_mos_mmfj3ru_269396_1.webp",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.8,
-      "base_price": 379990,
-      "value_score": 99,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -4377,6 +4350,34 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "631245",
+        "title": "Отпариватель ручной Kitfort КТ-954-1 Белый КТ-954-1",
+        "price": 21890,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-kitfort-kt-954-1",
+        "brand": "Kitfort",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_212_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 34.4,
+      "base_price": 33390,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "642326",
         "title": "Смарт часы Apple Watch Ultra 3 GPS &#x2B; Cel49mmNat Titm Case with Anchor Blue Ocean Band - M/L",
         "price": 399990,
@@ -4435,7 +4436,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57701,
+        "price": 57695,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -4513,33 +4514,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "44891",
-        "title": "Портативный аккумулятор для Станции Яндекс Мини 3 Про, модель YNDX-00650 Черный",
-        "price": 12990,
-        "old_price": 18990,
-        "url": "https://evrika.com/catalog/portativnyy-akkumulyator-dlya-stancii-mini-3-pro-model-yndx-00650-chernyy/p44891",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/TippwQ2p6DU1JLQROkygKtYlM9iTg4L2NeaoQ2AK.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 31.6,
-      "base_price": 18990,
-      "value_score": 78,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "295886",
         "title": "Выпрямитель Remington S-9100",
@@ -4571,7 +4545,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190690,
+        "price": 190590,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -4584,7 +4558,7 @@
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 31.4,
+      "fair_discount": 31.5,
       "base_price": 278090,
       "value_score": 78,
       "is_pick": true,
@@ -4593,33 +4567,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44889",
-        "title": "Умный диммер Яндекс YNDX-00530 1 клавиша с Zigbee",
-        "price": 10990,
-        "old_price": 15990,
-        "url": "https://evrika.com/catalog/umnyy-dimmer-yandeks-yndx-00530-1-klavisha-s-zigbee/p44889",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/pmI6nAudRKoN6F29pRsABwIsRKZPDQuiqLhVOJ6b.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 31.3,
-      "base_price": 15990,
-      "value_score": 78,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -4761,33 +4708,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "44878",
-        "title": "Умный выключатель Яндекс YNDX-00531 1 клавиша",
-        "price": 11990,
-        "old_price": 16990,
-        "url": "https://evrika.com/catalog/umnyy-vyklyuchatel-yndx-00531-1-klavisha/p44878",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/WE0oqVSR0ZLdsK7AZW0q1PeSTS7MYtSd087xwGCs.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 29.4,
-      "base_price": 16990,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "290998",
         "title": "Встраиваемый холодильник ASCOLI ASL110BU",
@@ -4924,87 +4844,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "47397",
-        "title": "Беспроводные наушники Яндекс Белый (YNDX-00150WHT)",
-        "price": 39990,
-        "old_price": 54990,
-        "url": "https://evrika.com/catalog/besprovodnye-naushniki-yandeks-belyy-yndx-00150wht/p47397",
-        "brand": null,
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/XowprbTbXLhG3I6yTVfdwbwjeHkV016UwWx0iNRc.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47398",
-        "title": "Беспроводные наушники Яндекс Фиолетовый (YNDX-00150VIO)",
-        "price": 39990,
-        "old_price": 54990,
-        "url": "https://evrika.com/catalog/besprovodnye-naushniki-yandeks-fioletovyy-yndx-00150vio/p47398",
-        "brand": null,
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/DbVj1FX2YeutCKF9bKQVJcSwpU0uQFIMoqEmtBYe.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47399",
-        "title": "Беспроводные наушники Яндекс Черный (YNDX-00150BLK)",
-        "price": 39990,
-        "old_price": 54990,
-        "url": "https://evrika.com/catalog/besprovodnye-naushniki-yandeks-chernyy-yndx-00150blk/p47399",
-        "brand": null,
-        "category": "Наушники",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/OiOBrSnOqbejoIkz3bb8ezARsKrY9BxHUxQ7FiXH.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1550001",
         "title": "Термопот Centek CT-0080, Black",
@@ -5029,33 +4868,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44874",
-        "title": "Умный беспроводной выключатель Яндекс YNDX-00534 1 клавиша",
-        "price": 10990,
-        "old_price": 14990,
-        "url": "https://evrika.com/catalog/umnyy-besprovodnoy-vyklyuchatel-yandeks-yndx-00534-1-klavisha/p44874",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/5h5BaQe0oLllk4Vr7OfF66WvMRdZJLMSM8b1alZ1.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 26.7,
-      "base_price": 14990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -5114,33 +4926,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "44873",
-        "title": "Умный выключатель Яндекс YNDX-00532 2 клавиши",
-        "price": 13990,
-        "old_price": 18990,
-        "url": "https://evrika.com/catalog/umnyy-vyklyuchatel-yndx-00532-2-klavishy/p44873",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/zWtXXM7JqBPoOrP5nlT99BW50AVyLsF0RzP5CHwq.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 26.3,
-      "base_price": 18990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "650449",
         "title": "Встраиваемая посудомоечная машина Hansa ZID645KH",
@@ -5165,33 +4950,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40881",
-        "title": "Умная светодиодная лента Яндекс (YNDX-00544)",
-        "price": 19990,
-        "old_price": 26990,
-        "url": "https://evrika.com/catalog/umnaya-svetodiodnaya-lenta-yandeks-yndx-00544/p40881",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/pvnrGslQAKf0g0QqLVuB3DVF5414YGt6z90VIdo1.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 25.9,
-      "base_price": 26990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
     },
     {
       "product": {
@@ -5442,33 +5200,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "44875",
-        "title": "Умный беспроводной выключатель Яндекс YNDX-00535 2 клавишы",
-        "price": 11990,
-        "old_price": 15490,
-        "url": "https://evrika.com/catalog/umnyy-besprovodnoy-vyklyuchatel-yandeks-yndx-00535-2-klavishy/p44875",
-        "brand": null,
-        "category": "Умный дом",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/viCZgsTw1OvT4dvLl5gZyhWi7RxENBIwuNEX4cdU.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 22.6,
-      "base_price": 15490,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "292352",
         "title": "Морозильник Midea MDRC153FZF01D",
@@ -5549,87 +5280,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.8
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44551",
-        "title": "Яндекс Станция Мини 3 Про Черный YNDX-00059BLK",
-        "price": 64990,
-        "old_price": 82990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-pro-chernyy-yndx-00059blk/p44551",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/afrinMvI8qfA8T5zBEYdYcBBKAv5DAydIvh7uQi2.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.7,
-      "base_price": 82990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44552",
-        "title": "Яндекс Станция Мини 3 Про Серый YNDX-00059GRY",
-        "price": 64990,
-        "old_price": 82990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-pro-seryy-yndx-00059gry/p44552",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Am8IXZyXmII3lzwO8fQZEqDBKV5WDrW0WAY2edal.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.7,
-      "base_price": 82990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44553",
-        "title": "Яндекс Станция Мини 3 Про Синий YNDX-00059BLU",
-        "price": 64990,
-        "old_price": 82990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-pro-siniy-yndx-00059blu/p44553",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/7238RKh9Ptkh7kfbjcqiAfMgymRA8kfPs62GF38W.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.7,
-      "base_price": 82990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -5715,114 +5365,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "39924",
-        "title": "Яндекс станция с Zigbee (YNDX-00053 Beige)",
-        "price": 189990,
-        "old_price": 239990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-s-zigbee-yndx-00053-beige/p39924",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ZFBhjUez3Py4y1tQks2jBfLXbpJBLbXw7CFb81Hh.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 20.8,
-      "base_price": 239990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "39925",
-        "title": "Яндекс станция с Zigbee (YNDX-00053 Green)",
-        "price": 189990,
-        "old_price": 239990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-s-zigbee-yndx-00053-green/p39925",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ciwqe29ligtkd4ln0FHbPCEmUbYiwcXtdpA4mKUd.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 20.8,
-      "base_price": 239990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "39926",
-        "title": "Яндекс станция с Zigbee (YNDX-00053K)",
-        "price": 189990,
-        "old_price": 239990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-s-zigbee-yndx-00053k/p39926",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/sp1YHvWIP7TyBxpcdvs8TB7SGgm0bkvsZ3sdYnF9.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 20.8,
-      "base_price": 239990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44999",
-        "title": "Яндекс станция с Zigbee (YNDX-00053 Бирюзовый)",
-        "price": 189990,
-        "old_price": 239990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-s-zigbee-yndx-00053-biryuzovyy/p44999",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/IIAyYZINRGuSCSCI94dMB5LlHpdX1XznW3CGFhoV.webp.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 20.8,
-      "base_price": 239990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "3000042016",
         "title": "Гарнитура Fanvil HT302U",
@@ -5847,141 +5389,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "39654",
-        "title": "Яндекс Станция Миди с Алисой, с Zigbee, 24 Вт, черная",
-        "price": 87990,
-        "old_price": 109990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-midi-s-alisoy-s-zigbee-24-vt-chernaya/p39654",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/S9Nj9zYz1rE6K1O38K9fmDTwx2gcdDrsjvVl7eVp.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 109990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40875",
-        "title": "Яндекс Станция Миди с Алисой, с Zigbee, 24 Вт, изумрудный",
-        "price": 87990,
-        "old_price": 109990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-midi-s-alisoy-s-zigbee-24-vt-izumrudnyy/p40875",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/3E6VHCa7lDZzv5IskRljDxmwjwcI9iRLWZ0Li8f6.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 109990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40876",
-        "title": "Яндекс Станция Миди с Алисой, с Zigbee, 24 Вт, серый",
-        "price": 87990,
-        "old_price": 109990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-midi-s-alisoy-s-zigbee-24-vt-seryy/p40876",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Y3RZmKL01r8y4f5KYvpiSjGeRNGLSFDeSbsIdgTY.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 109990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40877",
-        "title": "Яндекс Станция Миди с Алисой, с Zigbee, 24 Вт, оранжевая",
-        "price": 87990,
-        "old_price": 109990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-midi-s-alisoy-s-zigbee-24-vt-oranzhevaya/p40877",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/sqQrNs2BwpIVh7quz3L8ZsjedAJQG0Pxqjk5Iptq.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 109990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "40878",
-        "title": "Яндекс Станция Миди с Алисой, с Zigbee, 24 Вт, розовая",
-        "price": 87990,
-        "old_price": 109990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-midi-s-alisoy-s-zigbee-24-vt-rozovaya/p40878",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/1jiOUbXloV0PWApLuJErVEftDfSgfk1Bm0ADXk7Z.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 109990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -6208,114 +5615,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "43026",
-        "title": "Яндекс Станция Мини 3 Лиловый YNDX-00027LIL",
-        "price": 49990,
-        "old_price": 61990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-lilovyy-yndx-00027lil/p43026",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/nJ12OlHiHOxqjYdDEjwYaHgHUyz5d5hwioGudDNL.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.4,
-      "base_price": 61990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43027",
-        "title": "Яндекс Станция Мини 3 Серый YNDX-00027GRY",
-        "price": 49990,
-        "old_price": 61990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-seryy-yndx-00027gry/p43027",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/XeZPpGXbNTdu6uaq5h1HGgzvZV2nLCrLmehNQEIQ.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.4,
-      "base_price": 61990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43558",
-        "title": "Яндекс Станция Мини 3 Черный YNDX-00027BLK",
-        "price": 49990,
-        "old_price": 61990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-chernyy-yndx-00027blk/p43558",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/PTDgggTHCGerw6qjvLKPC3MvNSw6PPeyYtgpsxfX.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.4,
-      "base_price": 61990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45002",
-        "title": "Яндекс Станция Мини 3 Бирюзовый (YNDX-00027TRQ)",
-        "price": 49990,
-        "old_price": 61990,
-        "url": "https://evrika.com/catalog/yandeks-stanciya-mini-3-biryuzovyy-yndx-00027trq/p45002",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/0p4sU8nV1NAtTrbBsotP34FsP6mX8qBSgHEzoZI7.webp.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.4,
-      "base_price": 61990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "621755",
         "title": "Чайный набор Kitfort КТ-6179 КТ-6179",
@@ -6394,33 +5693,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44767",
-        "title": "Телевизор Яндекс Бейсик с Алисой 55\" YNDX-00080 LED 4K UHD Smart",
-        "price": 269990,
-        "old_price": 331490,
-        "url": "https://evrika.com/catalog/televizor-55-yandeks-beysik-s-alisoy-yndx-00080-led-4k-uhd-smart/p44767",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/2IgexajRCappGgJHGF0YQTXwHz6LZZJD3YiAe7lA.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.6,
-      "base_price": 331490,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -6697,87 +5969,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "45648",
-        "title": "Умная колонка Яндекс Станция 3 с Zigbee Серый (YNDX-00060GRY)",
-        "price": 154990,
-        "old_price": 186990,
-        "url": "https://evrika.com/catalog/umnaya-kolonka-yandeks-stanciya-3-s-zigbee-seryy-yndx-00060gry/p45648",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/cvyEOMpkeLT3r2J6es2Albd8wOb9tr8iirubI67C.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 17.1,
-      "base_price": 186990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45649",
-        "title": "Умная колонка Яндекс Станция 3 с Zigbee Черный (YNDX-00060BLK)",
-        "price": 154990,
-        "old_price": 186990,
-        "url": "https://evrika.com/catalog/umnaya-kolonka-yandeks-stanciya-3-s-zigbee-chernyy-yndx-00060blk/p45649",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/GAGCpsgkZuMRDJYbhy1D6vTm1QeEQhsJjHsC3gDr.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 17.1,
-      "base_price": 186990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47848",
-        "title": "Умная колонка Яндекс Станция 3 с Zigbee Фиолетовый (YNDX-00060PPL)",
-        "price": 154990,
-        "old_price": 186990,
-        "url": "https://evrika.com/catalog/umnaya-kolonka-yandeks-stanciya-3-s-zigbee-fioletovyy-yndx-00060ppl/p47848",
-        "brand": null,
-        "category": "Умные колонки",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/94baX2G1UQll97uv7SNQVh6AG3DYi6gUPTMpSItY.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 17.1,
-      "base_price": 186990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1536435",
         "title": "Колонки Edifier R1855DB (2.0), Black",
@@ -6910,6 +6101,114 @@
         "Честная скидка"
       ],
       "inflated_gap": -7.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45858",
+        "title": "Вытяжка Hansa OMP6211SH",
+        "price": 49990,
+        "old_price": 54990,
+        "url": "https://evrika.com/catalog/vytyazhka-hansa-omp6211sh/p45858",
+        "brand": null,
+        "category": "Вытяжки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 9,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/n2VFHdII2oKyEscuHgdgYPVKwHkR9VBAiBsrot8j.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 9,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -7.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "40874",
+        "title": "Яндекс станция Дуо Макс Black (YNDX-00055)",
+        "price": 249990,
+        "old_price": 299990,
+        "url": "https://evrika.com/catalog/yandeks-stanciya-duo-maks-black-yndx-00055/p40874",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/fUOQt6K96lZjPZ0jlDAkNm8puMsyFbDDgR7wS7Am.png.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 299990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44997",
+        "title": "Яндекс станция Дуо Макс Green (YNDX-00055)",
+        "price": 249990,
+        "old_price": 299990,
+        "url": "https://evrika.com/catalog/yandeks-stanciya-duo-maks-green-yndx-00055/p44997",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/huFTSS3VaXF2HpdeIOowwr1cnDtF1kf3IXtfXbxg.webp.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 299990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44998",
+        "title": "Яндекс станция Дуо Макс Red (YNDX-00055)",
+        "price": 249990,
+        "old_price": 299990,
+        "url": "https://evrika.com/catalog/yandeks-stanciya-duo-maks-red-yndx-00055/p44998",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/ViEIxntmXrFKGHrtlYLzBkFUd35Ra82rF1drzKfF.webp.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 299990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -7049,33 +6348,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "649033",
-        "title": "Планшет Blackview Tab 20 kids 4/64GB Purple",
-        "price": 49990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/planshetiy-blackview-tab-20-kids-purple",
-        "brand": "Blackview",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1798_0_1_nSZWwh_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.5,
-      "base_price": 59890,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "649034",
         "title": "Планшет Blackview Tab 20 kids 4/64GB Blue",
         "price": 49990,
@@ -7174,7 +6446,7 @@
       "drop_pct": null,
       "fair_discount": 15.6,
       "base_price": 89990,
-      "value_score": 46,
+      "value_score": 50,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -7812,42 +7084,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-16T13:37:24+00:00",
-      "item_count": 2598,
+      "last_crawl": "2026-10-16T18:26:37+00:00",
+      "item_count": 2595,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-16T13:37:24+00:00",
+      "last_crawl": "2026-10-16T18:26:37+00:00",
       "item_count": 12185,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-16T13:37:24+00:00",
-      "item_count": 3724,
+      "last_crawl": "2026-10-16T18:26:37+00:00",
+      "item_count": 3726,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-16T13:37:24+00:00",
-      "item_count": 9573,
+      "last_crawl": "2026-10-16T18:26:37+00:00",
+      "item_count": 9587,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-16T13:37:24+00:00",
-      "item_count": 135,
+      "last_crawl": "2026-10-16T18:26:37+00:00",
+      "item_count": 134,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28215,
-    "total_deals": 289,
-    "avg_discount": 50
+    "total_products": 28227,
+    "total_deals": 262,
+    "avg_discount": 52.0
   }
 }
