@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T22:03:08.185752+00:00",
+  "updated_at": "2026-10-16T00:46:20.379135+00:00",
   "deals": [
     {
       "product": {
@@ -188,7 +188,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19297,
+        "price": 19290,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -201,14 +201,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.7,
+      "fair_discount": 51.8,
       "base_price": 39990,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.3
+      "inflated_gap": 11.2
     },
     {
       "product": {
@@ -1182,6 +1182,31 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "41098",
+        "title": "Телевизор Samsung The Frame 4K 55\" QE55LS03DAUXCE",
+        "price": 429990,
+        "old_price": 779990,
+        "url": "https://evrika.com/catalog/televizor-55-qe55ls03dauxce-the-frame-4k/p41098",
+        "brand": null,
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/SQqNtnoX0R8tvXribl59fnMI0BfNdYE1yHLCDu2G.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 45,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "101502",
         "title": "Cистема виртуальной реальности VIVE PRO Full",
@@ -1212,19 +1237,19 @@
         "shop": "evrika",
         "sku": "41638",
         "title": "Телевизор Samsung NeoQLED 8K 65\" QE65QN900DUXCE",
-        "price": 739980,
+        "price": 729990,
         "old_price": 2999990,
         "url": "https://evrika.com/catalog/televizor-65-qe65qn900duxce-neoqled-8k/p41638",
         "brand": null,
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 75,
+        "discount_pct": 76,
         "image": "https://cdn.evrika.com/storage/products/images/medium/YWSNa4KxaEuxzKDdJzkSOSjRnFp9OOkTLtvidtS5.jpg.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
-      "drop_pct": 75,
+      "drop_pct": 76,
       "fair_discount": 0.0,
       "base_price": 739980,
       "value_score": 35,
@@ -1232,7 +1257,7 @@
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 75.0
+      "inflated_gap": 76.0
     },
     {
       "product": {
@@ -3940,33 +3965,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "624592",
-        "title": "Наушники ARG A046 Black",
-        "price": 14990,
-        "old_price": 29990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-a046-black",
-        "brand": "ARG",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2246_0_1_oWpucA_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1711298",
         "title": "Блендер Moulinex QuickChef DD65CD32, Steel-Grey (SN:13fc157a-1a3e-4f30-8936-620be2a2dcb1)",
@@ -4184,35 +4182,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "272128",
-        "title": "Стиральная машина Samsung WW80AG6L28BELD",
-        "price": 199990,
-        "old_price": 244990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-samsung-ww80ag6l28beld-272128",
-        "brand": "Samsung",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://api.technodom.kz/f3/api/v1/images/stiralnaya_mashina_samsung_ww80ag6l28beld_272128_4.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 43.7,
-      "base_price": 354990,
-      "value_score": 100,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -25.7
     },
     {
       "product": {
@@ -4806,7 +4775,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190652,
+        "price": 190690,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -5869,33 +5838,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "635807",
-        "title": "Пылесос с аквафильтром Karcher DS 6 *EU",
-        "price": 179990,
-        "old_price": 229990,
-        "url": "https://www.sulpak.kz/g/piylesosiy-karcher-ds-6-eu",
-        "brand": "Karcher",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1264_0_1_btuEoQ_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.7,
-      "base_price": 229990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "621726",
         "title": "Гарнитура Jabra Evolve2 65, Link380a MS Stereo 26599-999-999",
         "price": 107557,
@@ -6082,33 +6024,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000042016",
-        "title": "Гарнитура Fanvil HT302U",
-        "price": 10007,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4037",
-        "brand": "",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.2,
-      "base_price": 12546,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6742,33 +6657,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "650356",
-        "title": "QLED телевизор Dreame 55Q100",
-        "price": 293970,
-        "old_price": 359990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
-        "brand": "Dreame",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20789_0_6_Web1aN_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 18.3,
-      "base_price": 359990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "294897",
         "title": "Карта памяти Kingston SDS3/512GB, SDXC 512GB, Canvas Select Plus, C10, UHS-I, U3, V30",
@@ -7339,7 +7227,7 @@
         "shop": "sulpak",
         "sku": "650358",
         "title": "Mini LED телевизор Dreame 55&quot; Aura 55S100",
-        "price": 422445,
+        "price": 422440,
         "old_price": 499990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-aura-mini-led-4k-tv-55s100",
         "brand": "Dreame",
@@ -7606,6 +7494,58 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "650356",
+        "title": "QLED телевизор Dreame 55Q100",
+        "price": 293940,
+        "old_price": 359990,
+        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
+        "brand": "Dreame",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20789_0_6_Web1aN_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 14.8,
+      "base_price": 344989,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 3.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642304",
+        "title": "Смарт часы HUAWEI Watch GT 6 Pro (46mm) Black Atum-B29F",
+        "price": 144990,
+        "old_price": 206890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-black-atum-b29f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2231_0_1_lcUmm4_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 14.7,
+      "base_price": 169890,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "623322",
         "title": "Погружной блендер Scarlett SC-HB42F08",
         "price": 16230,
@@ -7667,6 +7607,33 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6248_0_6_TcQC0f_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 14.3,
+      "base_price": 139890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652056",
+        "title": "Смарт- часы HUAWEI WATCH GT Runner 2 Dawn Orange Chitu-B19W",
+        "price": 119890,
+        "old_price": 189890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-runner-2-dawn-orange-chitu-b19w",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6249_0_6_ROBUID_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -7946,42 +7913,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-15T22:02:50+00:00",
+      "last_crawl": "2026-10-16T00:46:08+00:00",
       "item_count": 2571,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-15T22:02:50+00:00",
-      "item_count": 10411,
+      "last_crawl": "2026-10-16T00:46:08+00:00",
+      "item_count": 12184,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-15T22:02:50+00:00",
-      "item_count": 3679,
+      "last_crawl": "2026-10-16T00:46:08+00:00",
+      "item_count": 3698,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-15T22:02:50+00:00",
-      "item_count": 9562,
+      "last_crawl": "2026-10-16T00:46:08+00:00",
+      "item_count": 9560,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-15T22:02:50+00:00",
-      "item_count": 153,
+      "last_crawl": "2026-10-16T00:46:08+00:00",
+      "item_count": 135,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 26376,
-    "total_deals": 293,
-    "avg_discount": 50
+    "total_products": 28148,
+    "total_deals": 292,
+    "avg_discount": 49.5
   }
 }
