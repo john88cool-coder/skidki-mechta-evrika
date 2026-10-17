@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T16:02:50.569313+00:00",
+  "updated_at": "2026-10-17T18:56:47.740007+00:00",
   "deals": [
     {
       "product": {
@@ -228,7 +228,7 @@
       "drop_pct": 63,
       "fair_discount": 51.7,
       "base_price": 39990,
-      "value_score": 86,
+      "value_score": 82,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -381,6 +381,31 @@
       },
       "signal": "deal",
       "drop_pct": 60,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1260167",
+        "title": "Роутер TP-Link AC1200 Wireless VDSL/ADSL Modem Roulter VR300(EU)(081942)",
+        "price": 19990,
+        "old_price": 48990,
+        "url": "https://alser.kz/p/router-dsl-tp-link-ac1200-chjornyj",
+        "brand": "Tp-Link",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/59baPFwg8/router-dsl-tp-link-ac1200-chjornyj-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
@@ -646,6 +671,31 @@
       "badges": [
         "Топ-Бренд"
       ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1420779",
+        "title": "Маршрутизатор TP-Link Archer AX12",
+        "price": 14990,
+        "old_price": 33990,
+        "url": "https://alser.kz/p/marsrutizator-tp-link-archer-ax12",
+        "brand": "Tp-Link",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/B4O4WUW0Z/marsrutizator-tp-link-archer-ax12-w160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
       "inflated_gap": null
     },
     {
@@ -2233,33 +2283,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1260167",
-        "title": "Роутер TP-Link AC1200 Wireless VDSL/ADSL Modem Roulter VR300(EU)(081942)",
-        "price": 19990,
-        "old_price": 48990,
-        "url": "https://alser.kz/p/router-dsl-tp-link-ac1200-chjornyj",
-        "brand": "Tp-Link",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/59baPFwg8/router-dsl-tp-link-ac1200-chjornyj-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 59.0
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1302145",
         "title": "Источник бесперебойного питания SVC V-600-L-LCD",
         "price": 10990,
@@ -2744,33 +2767,6 @@
       "fair_discount": 0.0,
       "base_price": 39990,
       "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1420779",
-        "title": "Маршрутизатор TP-Link Archer AX12",
-        "price": 14990,
-        "old_price": 33990,
-        "url": "https://alser.kz/p/marsrutizator-tp-link-archer-ax12",
-        "brand": "Tp-Link",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://s3s.alser.kz/uploads/products/marshrutizatory/B4O4WUW0Z/marsrutizator-tp-link-archer-ax12-w160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4427,6 +4423,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 57675,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 33.6,
+      "base_price": 86890,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1443504",
         "title": "Вертикальный пылесос Karcher VC 6 Cordless OurFamily, Black (1.198-670.0)",
@@ -4897,60 +4920,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000016625",
-        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
-        "price": 139136,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.4,
-      "base_price": 189000,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650449",
-        "title": "Встраиваемая посудомоечная машина Hansa ZID645KH",
-        "price": 169990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-posudomoechniye-mashiniy-hansa-zid645kh",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_40_926_0_1_mCgFSk_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.1,
-      "base_price": 229990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "42012",
         "title": "Гриль Braun CG7020",
@@ -5090,6 +5059,60 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "651377",
+        "title": "Смартфон Huawei Nova 15 Pro 12GB/256GB Purple",
+        "price": 236590,
+        "old_price": 329890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-pro-12gb256gb-purple",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12157_0_1_AHydRm_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 23.7,
+      "base_price": 309890,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651379",
+        "title": "Смартфон Huawei Nova 15 Pro 12/256GB Black",
+        "price": 236590,
+        "old_price": 329890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-pro-12256gb-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12159_0_1_c82Key_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 23.7,
+      "base_price": 309890,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "651375",
         "title": "Смартфон Huawei Nova 15 Pro 12/512GB Black",
         "price": 251890,
@@ -5113,6 +5136,60 @@
         "Честная скидка"
       ],
       "inflated_gap": 4.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651383",
+        "title": "Смартфон Huawei Nova 15 12/256GB Green",
+        "price": 175590,
+        "old_price": 249890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-green",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12163_0_6_5cpUVa_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 23.6,
+      "base_price": 229890,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000016625",
+        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
+        "price": 144464,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 23.6,
+      "base_price": 189000,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -5365,6 +5442,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "651384",
+        "title": "Смартфон Huawei Nova 15 12/256GB White",
+        "price": 175590,
+        "old_price": 249890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-white",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12164_0_6_hi5PQf_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 21.5,
+      "base_price": 223790,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "621726",
         "title": "Гарнитура Jabra Evolve2 65, Link380a MS Stereo 26599-999-999",
         "price": 107557,
@@ -5415,6 +5519,33 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651385",
+        "title": "Смартфон Huawei Nova 15 12/256GB Black",
+        "price": 175590,
+        "old_price": 249890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12165_0_6_Yk1hx3_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 21.3,
+      "base_price": 222990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.7
     },
     {
       "product": {
@@ -5679,34 +5810,6 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3628_0_1_clv7Hy_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 19.8,
-      "base_price": 39890,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 16.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "649838",
-        "title": "TWS Наушники HUAWEI FreeBuds 7i Pink Conch-T010",
-        "price": 31990,
-        "old_price": 49890,
-        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-pink-conch-t010",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3629_0_1_XgI2xa_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -6132,33 +6235,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "635453",
-        "title": "Стиральная машина Hansa WHB9140G",
-        "price": 232990,
-        "old_price": 279990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-hansa-whb9140g",
-        "brand": "Hansa",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1621_0_1_82LEFn_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 16.8,
-      "base_price": 279990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "10954",
         "title": "Вытяжка Hansa OTP6233BH",
@@ -6426,87 +6502,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "649034",
-        "title": "Планшет Blackview Tab 20 kids 4/64GB Blue",
-        "price": 49990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/planshetiy-blackview-tab-20-kids-blue",
-        "brand": "Blackview",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1799_0_1_Ovy9PF_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.5,
-      "base_price": 59890,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651246",
-        "title": "Ноутбук Acer Aspire Lite 14 AL14-45P AMD Ryzen 3 5400U / 8GB / SSD 256GB / AMD Radeon Graphics / NO OS / NX.DPRER.001",
-        "price": 209990,
-        "old_price": 249990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-14-al14-45p-",
-        "brand": "Acer",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9619_0_1_Vo44Eq_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 16.0,
-      "base_price": 249990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655787",
-        "title": "Ноутбук Acer Aspire Lite AL14-47P AMD Ryzen 3 3200U / 8GB / SSD 256GB / NO OS / NX.X1MER.001 / R382SUN",
-        "price": 209990,
-        "old_price": 249990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-al14-47p-nxx1mer001-r382sun",
-        "brand": "Acer",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9958_0_6_B6ZbN3_160.webp",
-        "first_seen": "2026-10-06T21:20:00+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 16.0,
-      "base_price": 249990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -7081,41 +7076,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-17T16:02:29+00:00",
-      "item_count": 2591,
+      "last_crawl": "2026-10-17T18:56:29+00:00",
+      "item_count": 2604,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "last_crawl": "2026-10-17T18:56:29+00:00",
       "item_count": 12192,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-17T16:02:29+00:00",
-      "item_count": 3712,
+      "last_crawl": "2026-10-17T18:56:29+00:00",
+      "item_count": 3684,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-17T16:02:29+00:00",
-      "item_count": 9554,
+      "last_crawl": "2026-10-17T18:56:29+00:00",
+      "item_count": 9550,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "last_crawl": "2026-10-17T18:56:29+00:00",
       "item_count": 137,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28186,
+    "total_products": 28167,
     "total_deals": 262,
     "avg_discount": 52.0
   }
