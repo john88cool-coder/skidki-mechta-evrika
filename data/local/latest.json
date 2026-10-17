@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:21:23.236738+00:00",
+  "updated_at": "2026-10-17T19:14:38.728685+00:00",
   "deals": [
     {
       "product": {
@@ -293,6 +293,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011457",
+        "title": "Телевизор Samsung OLED QE77S95DAUXCE",
+        "price": 799990,
+        "old_price": 2619990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s95dauxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 69,
+        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 69,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200008340",
         "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
         "price": 29990,
@@ -448,7 +475,7 @@
       "drop_pct": 63,
       "fair_discount": 62.5,
       "base_price": 39990,
-      "value_score": 100,
+      "value_score": 94,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -731,34 +758,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011457",
-        "title": "Телевизор Samsung OLED QE77S95DAUXCE",
-        "price": 799990,
-        "old_price": 2619990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s95dauxce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": 0.0,
-      "base_price": 799990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 69.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011831",
         "title": "Телевизор Samsung QLED QE75QN900DUXCE 8K SMART",
         "price": 1299990,
@@ -912,7 +911,7 @@
       "drop_pct": 66,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 34,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -1607,31 +1606,30 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200024896",
-        "title": "Ноутбук LENOVO IdeaPad Slim 3 15IPH11 (83UR001LRK)/15.3 WUXGA/Core Ultra 5 322 1.9 Ghz/24/SSD512/Dos",
-        "price": 349990,
-        "old_price": 629990,
-        "url": "https://www.mechta.kz/product/noutbuk-lenovo-ideapad-slim-3-15iph11-83ur001lrk15dot3-wuxgacore-ultra-5-322-1dot9-ghz24ssd512dos/",
-        "brand": "Lenovo",
-        "category": "Ноутбуки",
-        "group": "computers",
+        "sku": "17200024350",
+        "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray (Agassi6-W19D)",
+        "price": 99990,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-wifi-8gb128gb-nebula-gray-agassi6-w19d/",
+        "brand": "Huawei",
+        "category": "Планшеты",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/39f94187-4486-4d4d-9378-c2a610ca63ce?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/c8d08f14-da10-4d05-b7e6-f429c31b8fb1?w=400",
+        "first_seen": "2026-10-14T11:22:44+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 44.4,
-      "base_price": 629990,
-      "value_score": 94,
+      "drop_pct": 47,
+      "fair_discount": 47.3,
+      "base_price": 189890,
+      "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
+        "Честная скидка"
       ],
-      "inflated_gap": -0.4
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -2460,8 +2458,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-17T07:21:16+00:00",
-      "item_count": 7742,
+      "last_crawl": "2026-10-17T19:14:30+00:00",
+      "item_count": 7730,
       "status": "ok"
     },
     {
@@ -2501,7 +2499,7 @@
     }
   ],
   "stats": {
-    "total_products": 7742,
+    "total_products": 7730,
     "total_deals": 90,
     "avg_discount": 62.5
   }
