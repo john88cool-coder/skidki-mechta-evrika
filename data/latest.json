@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T21:34:57.670357+00:00",
+  "updated_at": "2026-10-17T00:53:14.782889+00:00",
   "deals": [
     {
       "product": {
@@ -228,7 +228,7 @@
       "drop_pct": 63,
       "fair_discount": 51.7,
       "base_price": 39990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -856,6 +856,31 @@
         "Честная скидка"
       ],
       "inflated_gap": 11.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "623248",
+        "title": "Встраиваемый духовой шкаф Candy COSMO miniCOXP06NBB",
+        "price": 89990,
+        "old_price": 189990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-candy-coxp06nbb",
+        "brand": "Candy",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1059_0_1_2fU95Z_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -3413,33 +3438,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "623248",
-        "title": "Встраиваемый духовой шкаф Candy COSMO miniCOXP06NBB",
-        "price": 89990,
-        "old_price": 189990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-candy-coxp06nbb",
-        "brand": "Candy",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1059_0_1_2fU95Z_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 89990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "296587",
         "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
@@ -3485,7 +3483,7 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "base_price": 26990,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4518,7 +4516,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190552,
+        "price": 190590,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -4817,33 +4815,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1550001",
-        "title": "Термопот Centek CT-0080, Black",
-        "price": 22890,
-        "old_price": 31490,
-        "url": "https://shop.kz/offer/termopot-centek-ct-0080-black/",
-        "brand": "Centek",
-        "category": "Чайники, термопоты",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://static.shop.kz/upload/iblock/820/fnfenh4ygit9kvb394r9d30s3ujax59d/168497o4.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 27.3,
-      "base_price": 31490,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1415010",
         "title": "Электрическая плита Hansa FCCW68103",
@@ -5064,33 +5035,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "634717",
-        "title": "Гарнитура Jabra Evolve2 55 Link380с MS Stereo 25599-999-899",
-        "price": 93884,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3482",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3482_2_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.1,
-      "base_price": 123700,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "46280",
         "title": "Кофемашина Delonghi ECAM320.70.TB",
@@ -5283,6 +5227,33 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "48660",
+        "title": "Кофемашина Delonghi ECAM310.60.B",
+        "price": 369990,
+        "old_price": 469990,
+        "url": "https://evrika.com/catalog/kofemashina-delonghi-ecam310-60-b/p48660",
+        "brand": null,
+        "category": "Кофеварки и кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/3S1xnjqaBeIIMFpj6qtdGMtfe4smc6l2sNh2lXWe.webp.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.3,
+      "base_price": 469990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "290999",
         "title": "Встраиваемый холодильник ASCOLI ASR100BU",
@@ -5335,33 +5306,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -11.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000042016",
-        "title": "Гарнитура Fanvil HT302U",
-        "price": 10007,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4037",
-        "brand": "",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.2,
-      "base_price": 12546,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -5831,33 +5775,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "636373",
-        "title": "Робот-пылесос Roborock Q8 Max Pro White",
-        "price": 89990,
-        "old_price": 129990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-roborock-q8-max-pro-white-4125-235",
-        "brand": "Roborock",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_235_0_1_MZgLcx_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 18.2,
-      "base_price": 109990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.8
     },
     {
       "product": {
@@ -6377,7 +6294,7 @@
         "shop": "sulpak",
         "sku": "650358",
         "title": "Mini LED телевизор Dreame 55&quot; Aura 55S100",
-        "price": 422440,
+        "price": 422433,
         "old_price": 499990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-aura-mini-led-4k-tv-55s100",
         "brand": "Dreame",
@@ -6398,33 +6315,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1617610",
-        "title": "Электробритва Centek CT-2150, Silver",
-        "price": 10990,
-        "old_price": 12990,
-        "url": "https://shop.kz/offer/elektrobritva-centek-ct-2150-silver/",
-        "brand": "Centek",
-        "category": "Электробритвы, эпиляторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://static.shop.kz/upload/iblock/8a7/5rekcp89e2y0um0tj0992eivzoio7x75/174000_Centek-CT_2150_01_1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 15.4,
-      "base_price": 12990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -6588,6 +6478,83 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652065",
+        "title": "Смарт- часы HUAWEI WATCH FIT 5 Silver Niki-B19W",
+        "price": 72190,
+        "old_price": 89890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-fit-5-silver-niki-b19w",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6258_0_6_XwY6H7_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 15.0,
+      "base_price": 84890,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000009174",
+        "title": "Чайник электрический Russell Hobbs 20412-70 23405016002",
+        "price": 41890,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-871",
+        "brand": "Russell Hobbs",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_871_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.9,
+      "base_price": 49250,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "650356",
+        "title": "QLED телевизор Dreame 55Q100",
+        "price": 293764,
+        "old_price": 359990,
+        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
+        "brand": "Dreame",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20789_0_6_Web1aN_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 14.8,
+      "base_price": 344987,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 3.2
     },
     {
       "product": {
@@ -7084,42 +7051,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-16T21:34:38+00:00",
-      "item_count": 2507,
+      "last_crawl": "2026-10-17T00:53:02+00:00",
+      "item_count": 2596,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-16T21:34:38+00:00",
+      "last_crawl": "2026-10-17T00:53:02+00:00",
       "item_count": 12185,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-16T21:34:38+00:00",
-      "item_count": 3722,
+      "last_crawl": "2026-10-17T00:53:02+00:00",
+      "item_count": 3702,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-16T21:34:38+00:00",
-      "item_count": 9591,
+      "last_crawl": "2026-10-17T00:53:02+00:00",
+      "item_count": 9580,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-16T21:34:38+00:00",
+      "last_crawl": "2026-10-17T00:53:02+00:00",
       "item_count": 134,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28139,
-    "total_deals": 262,
-    "avg_discount": 52.0
+    "total_products": 28197,
+    "total_deals": 261,
+    "avg_discount": 52
   }
 }
