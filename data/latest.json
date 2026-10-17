@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T12:33:20.311024+00:00",
+  "updated_at": "2026-10-17T16:02:50.569313+00:00",
   "deals": [
     {
       "product": {
@@ -1298,31 +1298,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "41098",
-        "title": "Телевизор Samsung The Frame 4K 55\" QE55LS03DAUXCE",
-        "price": 429990,
-        "old_price": 779990,
-        "url": "https://evrika.com/catalog/televizor-55-qe55ls03dauxce-the-frame-4k/p41098",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/SQqNtnoX0R8tvXribl59fnMI0BfNdYE1yHLCDu2G.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 45,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -3735,6 +3710,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "628376",
+        "title": "Пылесос Tefal TW7B70EA",
+        "price": 93990,
+        "old_price": 196990,
+        "url": "https://www.sulpak.kz/g/piylesosiy-tefal-tw7b70ea",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1200_0_1_aYPVjX_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 29.7,
+      "base_price": 133790,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.3
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "42364",
         "title": "Вертикальный пылесос Tefal TY1129WO",
@@ -4508,7 +4512,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190672,
+        "price": 190662,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -4558,6 +4562,36 @@
         "Честная скидка"
       ],
       "inflated_gap": -4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626286",
+        "title": "Стиральная машина с сушкой Samsung WD18DB8995BZLD",
+        "price": 764990,
+        "old_price": 1449990,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-samsung-wd18db8995bzld",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1540_0_6_NZ1wND_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 30.5,
+      "base_price": 1099990,
+      "value_score": 87,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.5
     },
     {
       "product": {
@@ -4891,33 +4925,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "636652",
-        "title": "Гарнитура Jabra Evolve2 55 Link380c MS Stereo Stand 25599-999-889",
-        "price": 107568,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3484",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3484_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.2,
-      "base_price": 145800,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "650449",
         "title": "Встраиваемая посудомоечная машина Hansa ZID645KH",
         "price": 169990,
@@ -5192,6 +5199,62 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "8000017667",
+        "title": "Комплект Холодильник Samsung BeSpoke RR39T7475AP/WT &#x2B; Декоративная панель для однодверного холодильника Samsung RA-R23DAACEGG Бежевый матовый металл",
+        "price": 459990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/holodilniki-samsung-bespoke-rr39t7475apwt-25-3428",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/product_complect_25_3428_wDF2Pg_160.webp",
+        "first_seen": "2026-10-01T06:19:03+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 23.3,
+      "base_price": 599990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "8000018905",
+        "title": "Комплект Холодильник Samsung BeSpoke RR39T7475AP/WT &#x2B; Декоративная панель RA - R23DAA39GG Бежевый",
+        "price": 459990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/holodilniki-samsung-bespoke-rr39t7475apwt-25-3505",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/product_complect_25_3505_bOJ5fQ_160.webp",
+        "first_seen": "2026-10-01T06:19:03+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 23.3,
+      "base_price": 599990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "651374",
         "title": "Смартфон Huawei Nova 15 Pro 12/512GB White",
         "price": 251890,
@@ -5407,6 +5470,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -11.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653637",
+        "title": "Стиральная машина LG F2X5FS2WB",
+        "price": 301990,
+        "old_price": 389990,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-lg-f2x5fs2wb",
+        "brand": "LG",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1805_0_1_Hin2wt_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 20.5,
+      "base_price": 379990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 2.5
     },
     {
       "product": {
@@ -6014,33 +6105,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1536435",
-        "title": "Колонки Edifier R1855DB (2.0), Black",
-        "price": 62990,
-        "old_price": 66990,
-        "url": "https://shop.kz/offer/kolonki-edifier-r1855db-2-0-black/",
-        "brand": "Edifier",
-        "category": "Акустические системы и колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 6,
-        "image": "https://static.shop.kz/upload/iblock/2f2/7fqvsczsdn16hr34pki8szok3hy7nffd/167927z1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 6,
-      "fair_discount": 17.1,
-      "base_price": 75990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -11.1
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "653495",
         "title": "Ноутбук Acer Nitro Lite NL15-71G i5 210H 8GB / SSD 512GB / GeForce RTX 3050 4GB / NO OS / NH.X3PER.001",
@@ -6065,6 +6129,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "635453",
+        "title": "Стиральная машина Hansa WHB9140G",
+        "price": 232990,
+        "old_price": 279990,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-hansa-whb9140g",
+        "brand": "Hansa",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1621_0_1_82LEFn_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.8,
+      "base_price": 279990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -6419,33 +6510,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000043644",
-        "title": "Наушники soundcore Liberty 5 Pro White",
-        "price": 75990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4225",
-        "brand": "",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4225_0_1_nATsNz_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.6,
-      "base_price": 89990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1453325",
         "title": "Вертикальный моющий пылесос Trouver M10 Pro , Самоочистка, 300Вт, 40 мин",
@@ -6474,84 +6538,28 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "630036",
-        "title": "Планшет Huawei MatePad SE Kids Edition AGS6-W09 4GB RAM 128GB ROM Nebula Gray 53014AYJ/53014JHM",
-        "price": 93190,
-        "old_price": 113890,
-        "url": "https://www.sulpak.kz/g/planshetiy-agassi6-w09be-hazy-gray",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
+        "shop": "shopkz",
+        "sku": "1536435",
+        "title": "Колонки Edifier R1855DB (2.0), Black",
+        "price": 64990,
+        "old_price": 69990,
+        "url": "https://shop.kz/offer/kolonki-edifier-r1855db-2-0-black/",
+        "brand": "Edifier",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1320_0_2_160.webp",
+        "discount_pct": 7,
+        "image": "https://static.shop.kz/upload/iblock/2f2/7fqvsczsdn16hr34pki8szok3hy7nffd/167927z1.jpg",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 15.2,
-      "base_price": 109890,
-      "value_score": 50,
+      "drop_pct": 7,
+      "fair_discount": 14.5,
+      "base_price": 75990,
+      "value_score": 48,
       "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 2.8
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "641571",
-        "title": "Чайник электрический Russell Hobbs 25240-70 23855016002",
-        "price": 58590,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-23855016002",
-        "brand": "Russell Hobbs",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_1032_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.1,
-      "base_price": 68980,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000009580",
-        "title": "Чайник электрический Russell Hobbs 24993-70",
-        "price": 38990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-874",
-        "brand": "Russell Hobbs",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_874_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.0,
-      "base_price": 45890,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
+      "badges": [],
+      "inflated_gap": -7.5
     },
     {
       "product": {
@@ -7073,41 +7081,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-17T12:33:01+00:00",
-      "item_count": 2588,
+      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "item_count": 2591,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-17T12:33:01+00:00",
-      "item_count": 11323,
+      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "item_count": 12192,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-17T12:33:01+00:00",
-      "item_count": 3682,
+      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "item_count": 3712,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-17T12:33:01+00:00",
-      "item_count": 9565,
+      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "item_count": 9554,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-17T12:33:01+00:00",
-      "item_count": 136,
+      "last_crawl": "2026-10-17T16:02:29+00:00",
+      "item_count": 137,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 27294,
+    "total_products": 28186,
     "total_deals": 262,
     "avg_discount": 52.0
   }
