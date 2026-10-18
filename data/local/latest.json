@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T01:20:11.251681+00:00",
+  "updated_at": "2026-10-18T03:20:08.385085+00:00",
   "deals": [
     {
       "product": {
@@ -264,35 +264,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006886",
-        "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZEAS (beige) 11\"/128GB/WiFi/LTE",
-        "price": 149950,
-        "old_price": 519990,
-        "url": "https://www.mechta.kz/product/planshet-samsung-galaxy-tab-s9-sm-x716bzeas-beige-11128gbwifilte/",
-        "brand": "Samsung",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://pi.mdev.kz/31d50c4b-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 71,
-      "fair_discount": 57.1,
-      "base_price": 349890,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 13.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011457",
         "title": "Телевизор Samsung OLED QE77S95DAUXCE",
         "price": 799990,
@@ -344,6 +315,31 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004465",
+        "title": "Вертикальный пылесос TEFAL TY 2079WO",
+        "price": 79990,
+        "old_price": 227990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-ty-2079wo/",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 65,
+        "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 65,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -531,7 +527,7 @@
       "drop_pct": 83,
       "fair_discount": 0.0,
       "base_price": 12990,
-      "value_score": 29,
+      "value_score": 24,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -731,6 +727,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200006886",
+        "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZEAS (beige) 11\"/128GB/WiFi/LTE",
+        "price": 149950,
+        "old_price": 519990,
+        "url": "https://www.mechta.kz/product/planshet-samsung-galaxy-tab-s9-sm-x716bzeas-beige-11128gbwifilte/",
+        "brand": "Samsung",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://pi.mdev.kz/31d50c4b-301a-11ee-a25e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": 0.0,
+      "base_price": 149950,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 71.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006296",
         "title": "Пылесос GORENJE VC 2301 SPWCY (White)",
         "price": 19990,
@@ -918,33 +942,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 66.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004465",
-        "title": "Вертикальный пылесос TEFAL TY 2079WO",
-        "price": 79990,
-        "old_price": 227990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-ty-2079wo/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 65,
-        "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 65,
-      "fair_discount": 0.0,
-      "base_price": 79990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 65.0
     },
     {
       "product": {
@@ -1651,7 +1648,7 @@
       "drop_pct": 43,
       "fair_discount": 42.9,
       "base_price": 209990,
-      "value_score": 90,
+      "value_score": 84,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -2458,7 +2455,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-18T01:20:06+00:00",
+      "last_crawl": "2026-10-18T03:20:03+00:00",
       "item_count": 7732,
       "status": "ok"
     },
