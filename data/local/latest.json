@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:20:15.812140+00:00",
+  "updated_at": "2026-10-18T07:21:09.129316+00:00",
   "deals": [
     {
       "product": {
@@ -1631,34 +1631,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020843",
-        "title": "Фен DREAME Hair Miracle Pro",
-        "price": 119990,
-        "old_price": 209990,
-        "url": "https://www.mechta.kz/product/fen-dreame-hair-miracle-pro/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/486d53d1-a72d-4462-9332-c820b7be4ea5?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 42.9,
-      "base_price": 209990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020730",
         "title": "Корзина для белья ROTHO 1032708853 (55 л), anthracite",
         "price": 12190,
@@ -2449,14 +2421,41 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018625",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Blue (1058041)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-blue-1058041/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/211b5706-4c6c-4cdf-a6a0-67ce4715c960?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-18T05:20:10+00:00",
-      "item_count": 7731,
+      "last_crawl": "2026-10-18T07:21:03+00:00",
+      "item_count": 7724,
       "status": "ok"
     },
     {
@@ -2496,7 +2495,7 @@
     }
   ],
   "stats": {
-    "total_products": 7731,
+    "total_products": 7724,
     "total_deals": 90,
     "avg_discount": 62.5
   }
