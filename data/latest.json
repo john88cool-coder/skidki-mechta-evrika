@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T04:59:10.567745+00:00",
+  "updated_at": "2026-10-18T11:32:44.574431+00:00",
   "deals": [
     {
       "product": {
@@ -2256,6 +2256,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640224",
+        "title": "OLED телевизор Samsung QE83S90FAEXCE",
+        "price": 1759990,
+        "old_price": 4239990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe83s90faexce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20446_0_1_Lbbfs2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 20.0,
+      "base_price": 2199990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 38.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "284018",
         "title": "Блендер погружной Rondell RDE-1303",
@@ -3531,7 +3560,7 @@
       "drop_pct": 52,
       "fair_discount": 0.0,
       "base_price": 1999990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3556,15 +3585,14 @@
       },
       "signal": "deal",
       "drop_pct": 52,
-      "fair_discount": 20.0,
-      "base_price": 679990,
-      "value_score": 50,
+      "fair_discount": 0.0,
+      "base_price": 543990,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 32.0
+      "inflated_gap": 52.0
     },
     {
       "product": {
@@ -3679,6 +3707,35 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "631701",
+        "title": "OLED телевизор LG OLED83C5RLA",
+        "price": 1999990,
+        "old_price": 4199990,
+        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled83c5rla",
+        "brand": "LG",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3232_0_6_sgj1ui_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 20.0,
+      "base_price": 2499990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 32.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "628376",
         "title": "Пылесос Tefal TW7B70EA",
         "price": 93990,
@@ -3731,6 +3788,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 51.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640215",
+        "title": "Neo QLED телевизор Samsung QE75QN90FAUXCE",
+        "price": 1399890,
+        "old_price": 2879990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe75qn90fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20437_0_1_w23aqV_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 20.0,
+      "base_price": 1749990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
     },
     {
       "product": {
@@ -3860,87 +3946,6 @@
       "drop_pct": 50,
       "fair_discount": 0.0,
       "base_price": 22990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44854",
-        "title": "Электрический чайник Tefal KI840830",
-        "price": 23990,
-        "old_price": 47990,
-        "url": "https://evrika.com/catalog/elektricheskiy-chaynik-tefal-ki840830/p44854",
-        "brand": null,
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ZNMhb8M2344qiQK5RD7jfTjWMG7R9febmXUfSk5c.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 23990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "35440",
-        "title": "Гарнитура игровая Logitech G733 (981-000864) BLACK",
-        "price": 44990,
-        "old_price": 89990,
-        "url": "https://evrika.com/catalog/garnitura-igrovaya-logitech-g733-981-000864-black/p35440",
-        "brand": null,
-        "category": "Наушники с микрофоном",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/GuaO80c1DR9jDHvaFiFKMJynFvpno9t3JMbbCY3r.jpg.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 44990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "48896",
-        "title": "Варочная панель Electrolux KGS6436K",
-        "price": 199990,
-        "old_price": 399990,
-        "url": "https://evrika.com/catalog/varochnaya-panel-electrolux-kgs6436k/p48896",
-        "brand": null,
-        "category": "Варочные панели",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/bL4D7xy6prZmcpdrBCqBjFriLI3c455zEW65UNoL.jpg.webp",
-        "first_seen": "2026-10-05T15:07:15+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 199990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -4199,6 +4204,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 57661,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 33.6,
+      "base_price": 86890,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1443504",
         "title": "Вертикальный пылесос Karcher VC 6 Cordless OurFamily, Black (1.198-670.0)",
@@ -4284,7 +4316,7 @@
         "shop": "sulpak",
         "sku": "637465",
         "title": "Гарнитура Jabra Evolve2 85 Link380a MS Stereo Black",
-        "price": 190612,
+        "price": 190590,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/naushniki-jabra-28599-999-999",
         "brand": "Jabra",
@@ -4586,6 +4618,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "3000016625",
+        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
+        "price": 139136,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 26.4,
+      "base_price": 189000,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "42012",
         "title": "Гриль Braun CG7020",
@@ -4725,6 +4784,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "634717",
+        "title": "Гарнитура Jabra Evolve2 55 Link380с MS Stereo 25599-999-899",
+        "price": 93884,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3482",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3482_2_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 24.1,
+      "base_price": 123700,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "651377",
         "title": "Смартфон Huawei Nova 15 Pro 12GB/256GB Purple",
         "price": 236590,
@@ -4832,33 +4918,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000016625",
-        "title": "Гарнитура Jabra Evolve2 65 Flex Link380a MS Stereo WLC 26699-999-989",
-        "price": 144404,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2432",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2432_3_2_160.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 23.6,
-      "base_price": 189000,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "46280",
         "title": "Кофемашина Delonghi ECAM320.70.TB",
@@ -4911,6 +4970,62 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622293",
+        "title": "TWS Наушники Huawei FreeBuds 6i Black Orca-T100",
+        "price": 25890,
+        "old_price": 46890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-6i-black-orca-t100",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2222_0_1_niOM82_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 23.4,
+      "base_price": 33790,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.6
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622294",
+        "title": "Наушники Huawei FreeBuds 6i T0019 White FreeBuds 6i White Orca-T100",
+        "price": 25890,
+        "old_price": 46890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-6i-white-orca-t100",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2223_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 23.4,
+      "base_price": 33790,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.6
     },
     {
       "product": {
@@ -5048,6 +5163,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 8.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "621726",
+        "title": "Гарнитура Jabra Evolve2 65, Link380a MS Stereo 26599-999-999",
+        "price": 107557,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2390",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2390_3_2_160.webp",
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 21.5,
+      "base_price": 137000,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -5216,6 +5358,64 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "640222",
+        "title": "OLED телевизор Samsung QE65S95FAUXCE",
+        "price": 1255990,
+        "old_price": 2199990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65s95fauxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20444_0_1_mXqFIy_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 1569990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640229",
+        "title": "OLED телевизор Samsung QE83S85FAEXCE",
+        "price": 1879990,
+        "old_price": 3549990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe83s85faexce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20451_0_6_J5LMlu_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 20.0,
+      "base_price": 2349990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1272941",
         "title": "Мясорубка Moulinex ME306832",
@@ -5269,6 +5469,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649836",
+        "title": "TWS Наушники HUAWEI FreeBuds 7i White Conch-T010",
+        "price": 31990,
+        "old_price": 49890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-white-conch-t010",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3627_0_1_JiSm7x_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 19.8,
+      "base_price": 39890,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.2
     },
     {
       "product": {
@@ -5600,60 +5828,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "653495",
-        "title": "Ноутбук Acer Nitro Lite NL15-71G i5 210H 8GB / SSD 512GB / GeForce RTX 3050 4GB / NO OS / NH.X3PER.001",
-        "price": 499990,
-        "old_price": 601990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-nitro-lite-nl15-71g-nhx3per001-u585sg35n",
-        "brand": "Acer",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9831_0_6_I6r418_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 16.9,
-      "base_price": 601990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "635453",
-        "title": "Стиральная машина Hansa WHB9140G",
-        "price": 232990,
-        "old_price": 279990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-hansa-whb9140g",
-        "brand": "Hansa",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1621_0_1_82LEFn_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 16.8,
-      "base_price": 279990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "10954",
         "title": "Вытяжка Hansa OTP6233BH",
@@ -5762,165 +5936,31 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1640746",
-        "title": "Колонка Яндекс.Станция Дуо МAKC (2.1), Black",
-        "price": 249990,
-        "old_price": null,
-        "url": "https://shop.kz/offer/kolonka-yandeks-stantsiya-duo-makc-2-1-black/",
-        "brand": "Яндекс",
-        "category": "Акустические системы и колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/357/v0bnmy9x3w8jqsyp104xiflqw1cx5mlp/177950o200.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 299990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1641283",
-        "title": "Колонка Яндекс.Станция Дуо МAKC (2.1), Green",
-        "price": 249990,
-        "old_price": 299990,
-        "url": "https://shop.kz/offer/kolonka-yandeks-stantsiya-duo-makc-2-1-green/",
-        "brand": "Яндекс",
-        "category": "Акустические системы и колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://static.shop.kz/upload/iblock/522/5dcsx3ns0r60ke429uw0yh1qbuoai2ug/178278o1.JPG",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 16.7,
-      "base_price": 299990,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
         "shop": "sulpak",
-        "sku": "649034",
-        "title": "Планшет Blackview Tab 20 kids 4/64GB Blue",
-        "price": 49990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/planshetiy-blackview-tab-20-kids-blue",
-        "brand": "Blackview",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1799_0_1_Ovy9PF_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.5,
-      "base_price": 59890,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651246",
-        "title": "Ноутбук Acer Aspire Lite 14 AL14-45P AMD Ryzen 3 5400U / 8GB / SSD 256GB / AMD Radeon Graphics / NO OS / NX.DPRER.001",
-        "price": 209990,
-        "old_price": 249990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-14-al14-45p-",
-        "brand": "Acer",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9619_0_1_Vo44Eq_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 16.0,
-      "base_price": 249990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000043644",
-        "title": "Наушники soundcore Liberty 5 Pro White",
-        "price": 75990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-4225",
-        "brand": "",
+        "sku": "642310",
+        "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
+        "price": 99990,
+        "old_price": 154890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
+        "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4225_0_1_nATsNz_160.webp",
+        "discount_pct": 35,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2237_0_1_GsmnI1_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.6,
-      "base_price": 89990,
-      "value_score": 50,
+      "drop_pct": 35,
+      "fair_discount": 16.6,
+      "base_price": 119890,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Рисованная?"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "635450",
-        "title": "Стиральная машина Hansa WHG9140W",
-        "price": 227990,
-        "old_price": 269990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-hansa-whg9140w",
-        "brand": "Hansa",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1618_0_1_2VQC1I_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 15.6,
-      "base_price": 269990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
+      "inflated_gap": 18.4
     },
     {
       "product": {
@@ -5980,110 +6020,29 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "635449",
-        "title": "Стиральная машина Hansa WHG8140W",
-        "price": 211990,
-        "old_price": 249990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-hansa-whg8140w",
-        "brand": "Hansa",
+        "sku": "650356",
+        "title": "QLED телевизор Dreame 55Q100",
+        "price": 292906,
+        "old_price": 359990,
+        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
+        "brand": "Dreame",
         "category": null,
-        "group": "home",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1617_0_1_E7QYhE_160.webp",
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20789_0_6_Web1aN_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 15.2,
-      "base_price": 249990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000009580",
-        "title": "Чайник электрический Russell Hobbs 24993-70",
-        "price": 38990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-russell-hobbs-35-874",
-        "brand": "Russell Hobbs",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_874_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.0,
-      "base_price": 45890,
+      "drop_pct": 19,
+      "fair_discount": 15.1,
+      "base_price": 344986,
       "value_score": 49,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000047964",
-        "title": "Наушники soundcore Liberty 5 Pro Max Black",
-        "price": 84990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-soundcore-83-4373",
-        "brand": "Soundcore",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4373_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.0,
-      "base_price": 99990,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000047965",
-        "title": "Наушники soundcore Liberty 5 Pro Max Gold",
-        "price": 84990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-soundcore-83-4374",
-        "brand": "Soundcore",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4374_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.0,
-      "base_price": 99990,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
+      "inflated_gap": 3.9
     },
     {
       "product": {
@@ -6405,42 +6364,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-18T04:58:53+00:00",
-      "item_count": 2606,
+      "last_crawl": "2026-10-18T11:32:26+00:00",
+      "item_count": 2604,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-18T04:58:53+00:00",
-      "item_count": 12196,
+      "last_crawl": "2026-10-18T11:32:26+00:00",
+      "item_count": 12197,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-18T04:58:53+00:00",
-      "item_count": 3708,
+      "last_crawl": "2026-10-18T11:32:26+00:00",
+      "item_count": 3699,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-18T04:58:53+00:00",
-      "item_count": 9550,
+      "last_crawl": "2026-10-18T11:32:26+00:00",
+      "item_count": 9551,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-18T04:58:53+00:00",
+      "last_crawl": "2026-10-18T11:32:26+00:00",
       "item_count": 137,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28197,
-    "total_deals": 237,
+    "total_products": 28188,
+    "total_deals": 235,
     "avg_discount": 53
   }
 }
