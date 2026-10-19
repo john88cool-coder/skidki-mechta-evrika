@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T19:20:53.007264+00:00",
+  "updated_at": "2026-10-19T04:35:42.356955+00:00",
   "deals": [
     {
       "product": {
@@ -302,7 +302,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -527,7 +527,7 @@
       "drop_pct": 83,
       "fair_discount": 0.0,
       "base_price": 12990,
-      "value_score": 24,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1503,7 +1503,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://pi.mdev.kz/fbc69a7e-6765-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -1560,7 +1560,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://pi.mdev.kz/beccbb62-bd4e-11e7-80c1-1866daf08915?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -1596,34 +1596,6 @@
       "value_score": 76,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200024350",
-        "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray (Agassi6-W19D)",
-        "price": 99990,
-        "old_price": 189990,
-        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-wifi-8gb128gb-nebula-gray-agassi6-w19d/",
-        "brand": "Huawei",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/c8d08f14-da10-4d05-b7e6-f429c31b8fb1?w=400",
-        "first_seen": "2026-10-14T11:22:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 47.3,
-      "base_price": 189890,
-      "value_score": 96,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": -0.3
@@ -2448,14 +2420,41 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018630",
+        "title": "Чехол для телефона VLP Aramid Case с Magsafe for iPhone 16 Pro Max Blue (1058043)",
+        "price": 12990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-vlp-aramid-case-s-magsafe-for-iphone-16-pro-max-blue-1058043/",
+        "brand": "VLP",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/f4745d9a-0ec4-4955-9f3e-ee7f717221fc?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-18T19:20:46+00:00",
-      "item_count": 7703,
+      "last_crawl": "2026-10-19T04:35:34+00:00",
+      "item_count": 7732,
       "status": "ok"
     },
     {
@@ -2495,7 +2494,7 @@
     }
   ],
   "stats": {
-    "total_products": 7703,
+    "total_products": 7732,
     "total_deals": 90,
     "avg_discount": 62.5
   }
