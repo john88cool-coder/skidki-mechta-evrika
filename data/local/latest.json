@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:21:34.747537+00:00",
+  "updated_at": "2026-10-19T15:44:03.441312+00:00",
   "deals": [
     {
       "product": {
@@ -125,7 +125,7 @@
       "drop_pct": 77,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -194,7 +194,7 @@
         "in_stock": true,
         "discount_pct": 75,
         "image": null,
-        "first_seen": "2026-09-13T21:22:02+00:00"
+        "first_seen": "2026-09-15T11:22:19+00:00"
       },
       "signal": "deal",
       "drop_pct": 75,
@@ -235,31 +235,27 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006884",
-        "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZAAS (graphite) 11\"/128GB/WiFi/LTE",
-        "price": 149950,
-        "old_price": 519990,
-        "url": "https://www.mechta.kz/product/planshet-samsung-galaxy-tab-s9-sm-x716bzaas-graphite-11128gbwifilte/",
-        "brand": "Samsung",
-        "category": "Планшеты",
-        "group": "phones",
+        "sku": "17200006296",
+        "title": "Пылесос GORENJE VC 2301 SPWCY (White)",
+        "price": 19990,
+        "old_price": 67990,
+        "url": "https://www.mechta.kz/product/pylesos-gorenje-vc-2301-spwcy-white/",
+        "brand": "Gorenje",
+        "category": "Напольные пылесосы",
+        "group": "home",
         "in_stock": true,
         "discount_pct": 71,
-        "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
+        "first_seen": "2026-09-14T09:21:42+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
-      "fair_discount": 57.1,
-      "base_price": 349890,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 13.9
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -287,34 +283,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008340",
-        "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
-        "price": 29990,
-        "old_price": 96990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-oneblade-pro-qp665161/",
-        "brand": "Philips",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T21:22:02+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": 69.1,
-      "base_price": 96990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -669,6 +637,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200006884",
+        "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZAAS (graphite) 11\"/128GB/WiFi/LTE",
+        "price": 149950,
+        "old_price": 519990,
+        "url": "https://www.mechta.kz/product/planshet-samsung-galaxy-tab-s9-sm-x716bzaas-graphite-11128gbwifilte/",
+        "brand": "Samsung",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": 0.0,
+      "base_price": 149950,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 71.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006886",
         "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZEAS (beige) 11\"/128GB/WiFi/LTE",
         "price": 149950,
@@ -697,29 +693,29 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006296",
-        "title": "Пылесос GORENJE VC 2301 SPWCY (White)",
-        "price": 19990,
-        "old_price": 67990,
-        "url": "https://www.mechta.kz/product/pylesos-gorenje-vc-2301-spwcy-white/",
-        "brand": "Gorenje",
-        "category": "Напольные пылесосы",
-        "group": "home",
+        "sku": "17200008340",
+        "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
+        "price": 29990,
+        "old_price": 96990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-oneblade-pro-qp665161/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-14T09:21:42+00:00"
+        "discount_pct": 69,
+        "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
+        "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "deal",
-      "drop_pct": 71,
+      "drop_pct": 69,
       "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 21,
+      "base_price": 29990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 71.0
+      "inflated_gap": 69.0
     },
     {
       "product": {
@@ -1490,28 +1486,58 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000003362",
-        "title": "Электробритва PHILIPS S 5585/35",
-        "price": 49990,
-        "old_price": 109990,
-        "url": "https://www.mechta.kz/product/elektrobritva-philips-s-558535/",
-        "brand": "Philips",
-        "category": "Электробритвы",
-        "group": "beauty",
+        "sku": "17200011853",
+        "title": "Дом. кинотеатр Samsung HW-S801D Soundbar",
+        "price": 139990,
+        "old_price": 319990,
+        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-s801d-soundbar/",
+        "brand": "Samsung",
+        "category": "Саундбары",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/fbc69a7e-6765-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-13T21:22:02+00:00"
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/e18ec82c-1be3-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 54.6,
-      "base_price": 109990,
-      "value_score": 90,
+      "drop_pct": 56,
+      "fair_discount": 56.3,
+      "base_price": 319990,
+      "value_score": 94,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка"
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011851",
+        "title": "Дом. кинотеатр Samsung HW-S701D Soundbar",
+        "price": 129990,
+        "old_price": 279990,
+        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-s701d-soundbar/",
+        "brand": "Samsung",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/044d1db3-2228-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 53.6,
+      "base_price": 279990,
+      "value_score": 100,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
       ],
       "inflated_gap": 0.4
     },
@@ -1547,56 +1573,87 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000071668",
-        "title": "Триммер для бороды PHILIPS MG 3720/15",
-        "price": 16990,
-        "old_price": 32990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-mg-372015/",
-        "brand": "Philips",
+        "sku": "17200013345",
+        "title": "Триммер для бороды BRAUN BT 5420",
+        "price": 31990,
+        "old_price": 62990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-braun-bt-5420/",
+        "brand": "Braun",
         "category": "Триммеры",
         "group": "beauty",
         "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/beccbb62-bd4e-11e7-80c1-1866daf08915?w=400",
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/c1c5605f-5ea9-11ef-a269-005056b6e990?w=400",
         "first_seen": "2026-09-13T21:22:02+00:00"
       },
       "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 48.5,
-      "base_price": 32990,
+      "drop_pct": 49,
+      "fair_discount": 49.2,
+      "base_price": 62990,
       "value_score": 90,
-      "is_pick": false,
+      "is_pick": true,
       "badges": [
+        "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": -0.5
+      "inflated_gap": -0.2
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012274",
-        "title": "Стиральная машина GRUNDIG W 5P57H21 A",
-        "price": 149990,
-        "old_price": 289990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-w-5p57h21-a/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
+        "sku": "17200013536",
+        "title": "Триммер для бороды BRAUN BT 7420",
+        "price": 42990,
+        "old_price": 83590,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-braun-bt-7420/",
+        "brand": "Braun",
+        "category": "Триммеры",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/94294368-2d2a-11ef-a265-005056b6e990?w=400",
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/0e84e0f8-7bbc-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-09-13T21:22:02+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 48.6,
+      "base_price": 83590,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004083",
+        "title": "Дом. кинотеатр Samsung HW-S801B Soundbar",
+        "price": 139990,
+        "old_price": 259990,
+        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-s801b-soundbar/",
+        "brand": "Samsung",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 46,
+        "image": "https://pi.mdev.kz/f03aeda5-a795-11ed-a254-005056b6dbd7?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 48.3,
-      "base_price": 289990,
-      "value_score": 76,
-      "is_pick": false,
+      "drop_pct": 46,
+      "fair_discount": 46.2,
+      "base_price": 259990,
+      "value_score": 94,
+      "is_pick": true,
       "badges": [
-        "Честная скидка"
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -1882,29 +1939,30 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006289",
-        "title": "Соковыжималка PANASONIC MJ-CB600STQ",
-        "price": 67990,
-        "old_price": 96990,
-        "url": "https://www.mechta.kz/product/sokovyjimalka-panasonic-mj-cb600stq/",
-        "brand": "Panasonic",
-        "category": "Соковыжималки",
-        "group": "kitchen",
+        "sku": "17200025021",
+        "title": "Ноутбук ASUS VivoBook 15 X1504MA-BQ813W/15.6 FHD/Core 5 320 1.5 Ghz/16/SSD512/Win11",
+        "price": 379990,
+        "old_price": 579990,
+        "url": "https://www.mechta.kz/product/noutbuk-asus-vivobook-15-x1504ma-bq813w15dot6-fhdcore-5-320-1dot5-ghz16ssd512win11/",
+        "brand": "ASUS",
+        "category": "Ноутбуки",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://pi.mdev.kz/02c8dfa1-21f5-11ee-a25c-005056b6dbd7?w=400",
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/eefc0c7c-7bd1-4cc3-9620-a37d0135f035?w=400",
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 29.9,
-      "base_price": 96990,
-      "value_score": 76,
+      "drop_pct": 34,
+      "fair_discount": 20.8,
+      "base_price": 479930,
+      "value_score": 69,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Топ-Бренд"
       ],
-      "inflated_gap": 0.1
+      "inflated_gap": 13.2
     },
     {
       "product": {
@@ -1939,8 +1997,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-19T07:21:28+00:00",
-      "item_count": 7723,
+      "last_crawl": "2026-10-19T15:43:55+00:00",
+      "item_count": 7721,
       "status": "ok"
     },
     {
@@ -1980,8 +2038,8 @@
     }
   ],
   "stats": {
-    "total_products": 7723,
-    "total_deals": 71,
-    "avg_discount": 64
+    "total_products": 7721,
+    "total_deals": 73,
+    "avg_discount": 63
   }
 }
