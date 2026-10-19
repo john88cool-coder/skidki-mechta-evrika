@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T15:44:03.441312+00:00",
+  "updated_at": "2026-10-19T17:21:20.160066+00:00",
   "deals": [
     {
       "product": {
@@ -1939,34 +1939,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200025021",
-        "title": "Ноутбук ASUS VivoBook 15 X1504MA-BQ813W/15.6 FHD/Core 5 320 1.5 Ghz/16/SSD512/Win11",
-        "price": 379990,
-        "old_price": 579990,
-        "url": "https://www.mechta.kz/product/noutbuk-asus-vivobook-15-x1504ma-bq813w15dot6-fhdcore-5-320-1dot5-ghz16ssd512win11/",
-        "brand": "ASUS",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://pi.mdev.kz/eefc0c7c-7bd1-4cc3-9620-a37d0135f035?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 20.8,
-      "base_price": 479930,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 13.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200015292",
         "title": "Электробритва PHILIPS X 3002/00",
         "price": 29990,
@@ -1991,14 +1963,42 @@
         "Рисованная?"
       ],
       "inflated_gap": 26.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025021",
+        "title": "Ноутбук ASUS VivoBook 15 X1504MA-BQ813W/15.6 FHD/Core 5 320 1.5 Ghz/16/SSD512/Win11",
+        "price": 379990,
+        "old_price": 579990,
+        "url": "https://www.mechta.kz/product/noutbuk-asus-vivobook-15-x1504ma-bq813w15dot6-fhdcore-5-320-1dot5-ghz16ssd512win11/",
+        "brand": "ASUS",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/eefc0c7c-7bd1-4cc3-9620-a37d0135f035?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 11.6,
+      "base_price": 429990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.4
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-19T15:43:55+00:00",
-      "item_count": 7721,
+      "last_crawl": "2026-10-19T17:21:12+00:00",
+      "item_count": 7718,
       "status": "ok"
     },
     {
@@ -2038,7 +2038,7 @@
     }
   ],
   "stats": {
-    "total_products": 7721,
+    "total_products": 7718,
     "total_deals": 73,
     "avg_discount": 63
   }
