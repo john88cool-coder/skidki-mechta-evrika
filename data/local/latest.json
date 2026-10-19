@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T05:23:07.642426+00:00",
+  "updated_at": "2026-10-19T07:21:34.747537+00:00",
   "deals": [
     {
       "product": {
@@ -125,7 +125,7 @@
       "drop_pct": 77,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1939,8 +1939,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-19T05:23:00+00:00",
-      "item_count": 7732,
+      "last_crawl": "2026-10-19T07:21:28+00:00",
+      "item_count": 7723,
       "status": "ok"
     },
     {
@@ -1980,7 +1980,7 @@
     }
   ],
   "stats": {
-    "total_products": 7732,
+    "total_products": 7723,
     "total_deals": 71,
     "avg_discount": 64
   }
