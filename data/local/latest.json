@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T17:21:20.160066+00:00",
+  "updated_at": "2026-10-20T10:21:19.258334+00:00",
   "deals": [
     {
       "product": {
@@ -83,6 +83,31 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011551",
+        "title": "Вертикальный пылесос WADE SV-05 (черный)",
+        "price": 19990,
+        "old_price": 87990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-chernyy/",
+        "brand": "WADE",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 17,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011550",
         "title": "Вертикальный пылесос WADE SV-05 (белый)",
         "price": 19990,
@@ -125,7 +150,7 @@
       "drop_pct": 77,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -337,33 +362,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017735",
-        "title": "Вертикальный пылесос Samsung Bespoke Jet 400W Complete Extra (VS90F40DEK/EV)",
-        "price": 249990,
-        "old_price": 684990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-bespoke-jet-400w-complete-extra-vs90f40dekev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": null,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020145",
         "title": "Чехол для телефона APPLE iPhone 17 Pro Max Clear Case with MagSafe (MGFW4ZM/A)",
         "price": 14990,
@@ -416,6 +414,33 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200007632",
+        "title": "Смартфон Apple iPhone 15 256GB (Black)",
+        "price": 209955,
+        "old_price": 536990,
+        "url": "https://www.mechta.kz/product/smartfon-apple-iphone-15-256gb-black/",
+        "brand": "Apple",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": null,
+        "first_seen": "2026-09-18T11:23:33+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -551,33 +576,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 78.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011551",
-        "title": "Вертикальный пылесос WADE SV-05 (черный)",
-        "price": 19990,
-        "old_price": 87990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-chernyy/",
-        "brand": "WADE",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 17,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
     },
     {
       "product": {
@@ -1714,6 +1712,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200024350",
+        "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray (Agassi6-W19D)",
+        "price": 119890,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-wifi-8gb128gb-nebula-gray-agassi6-w19d/",
+        "brand": "Huawei",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/c8d08f14-da10-4d05-b7e6-f429c31b8fb1?w=400",
+        "first_seen": "2026-10-14T11:22:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 36.9,
+      "base_price": 189890,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020110",
         "title": "Чехол для телефона APPLE iPhone 17 Silicone Case with MagSafe - Neon Yellow (MGEV4ZM/A)",
         "price": 24990,
@@ -1841,7 +1867,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "first_seen": "2026-09-15T05:25:40+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1868,7 +1894,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
-        "first_seen": "2026-09-13T15:40:27+00:00"
+        "first_seen": "2026-09-15T05:25:40+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1967,6 +1993,114 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200023946",
+        "title": "Смарт-часы HUAWEI GT Runner 2 оранжевый (CHT-B19)",
+        "price": 119990,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-runner-2-oranjevyy-cht-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/357427e9-ee0d-4420-9eb8-169b287dbe4a?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 14.2,
+      "base_price": 139890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023947",
+        "title": "Смарт-часы HUAWEI GT Runner 2 синий (CHT-B19)",
+        "price": 119990,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-runner-2-siniy-cht-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/de772fe5-1a0c-4a62-8e49-4407bcc58f66?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 14.2,
+      "base_price": 139890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023948",
+        "title": "Смарт-часы HUAWEI GT Runner 2 черный (CHT-B19)",
+        "price": 119990,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-runner-2-chernyy-cht-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/4cd11cba-caca-4004-8292-71cedc753109?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 14.2,
+      "base_price": 139890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023938",
+        "title": "Планшет HUAWEI MatePad SE 11\" LTE 8GB/128GB Nebula Gray (AGS6-L09D)",
+        "price": 149890,
+        "old_price": 219990,
+        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-lte-8gb128gb-nebula-gray-ags6-l09d/",
+        "brand": "Huawei",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/f81938ab-258f-4f83-99f3-cad7ccd93662?w=400",
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 11.8,
+      "base_price": 169990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200025021",
         "title": "Ноутбук ASUS VivoBook 15 X1504MA-BQ813W/15.6 FHD/Core 5 320 1.5 Ghz/16/SSD512/Win11",
         "price": 379990,
@@ -1997,8 +2131,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-19T17:21:12+00:00",
-      "item_count": 7718,
+      "last_crawl": "2026-10-20T10:21:08+00:00",
+      "item_count": 7723,
       "status": "ok"
     },
     {
@@ -2038,8 +2172,8 @@
     }
   ],
   "stats": {
-    "total_products": 7718,
-    "total_deals": 73,
-    "avg_discount": 63
+    "total_products": 7723,
+    "total_deals": 78,
+    "avg_discount": 63.0
   }
 }
