@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T12:05:32.286396+00:00",
+  "updated_at": "2026-10-20T17:33:46.573730+00:00",
   "deals": [
     {
       "product": {
@@ -185,7 +185,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19290,
+        "price": 19297,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -198,14 +198,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.8,
+      "fair_discount": 51.7,
       "base_price": 39990,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.2
+      "inflated_gap": 11.3
     },
     {
       "product": {
@@ -4113,33 +4113,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57535,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 33.8,
-      "base_price": 86890,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "43198",
         "title": "Смартфон Samsung Galaxy S25 Ultra 5G 512GB Titanium Gray (SM-S938BZTCSKZ)",
@@ -4221,6 +4194,35 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1727417",
+        "title": "Ноутбук ASUS Vivobook 15 X1504MA (90NB17I2-M01M20)",
+        "price": 379990,
+        "old_price": 574990,
+        "url": "https://shop.kz/offer/noutbuk-asus-vivobook-15-x1504ma-90nb17i2-m01m20/",
+        "brand": "ASUS",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://static.shop.kz/upload/iblock/1c5/y8kjkavsp62uquwjj895s4ueroh4vn9z/198454s1.jpg",
+        "first_seen": "2026-09-30T13:01:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 32.1,
+      "base_price": 559990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 1.9
     },
     {
       "product": {
@@ -4560,33 +4562,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "636652",
-        "title": "Гарнитура Jabra Evolve2 55 Link380c MS Stereo Stand 25599-999-889",
-        "price": 107568,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3484",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3484_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.2,
-      "base_price": 145800,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "42012",
         "title": "Гриль Braun CG7020",
@@ -4696,29 +4671,58 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "651375",
-        "title": "Смартфон Huawei Nova 15 Pro 12/512GB Black",
-        "price": 253190,
-        "old_price": 349890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-pro-12512gb-black",
+        "sku": "622293",
+        "title": "TWS Наушники Huawei FreeBuds 6i Black Orca-T100",
+        "price": 25890,
+        "old_price": 46890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-6i-black-orca-t100",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12155_0_1_WgrVLo_160.webp",
+        "discount_pct": 45,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2222_0_1_niOM82_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 23.3,
-      "base_price": 329890,
+      "drop_pct": 45,
+      "fair_discount": 23.4,
+      "base_price": 33790,
       "value_score": 70,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Рисованная?"
       ],
-      "inflated_gap": 4.7
+      "inflated_gap": 21.6
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622294",
+        "title": "Наушники Huawei FreeBuds 6i T0019 White FreeBuds 6i White Orca-T100",
+        "price": 25890,
+        "old_price": 46890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-6i-white-orca-t100",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2223_0_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 23.4,
+      "base_price": 33790,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.6
     },
     {
       "product": {
@@ -4889,7 +4893,7 @@
         "shop": "sulpak",
         "sku": "649836",
         "title": "TWS Наушники HUAWEI FreeBuds 7i White Conch-T010",
-        "price": 31990,
+        "price": 31980,
         "old_price": 49890,
         "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-white-conch-t010",
         "brand": "HUAWEI",
@@ -5525,6 +5529,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "651375",
+        "title": "Смартфон Huawei Nova 15 Pro 12/512GB Black",
+        "price": 253190,
+        "old_price": 349890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-pro-12512gb-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12155_0_1_WgrVLo_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 17.0,
+      "base_price": 304890,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "635453",
         "title": "Стиральная машина Hansa WHB9140G",
         "price": 232990,
@@ -5570,60 +5601,6 @@
       "fair_discount": 16.7,
       "base_price": 26290,
       "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "637244",
-        "title": "Гарнитура Jabra EVOLVE 10 Stereo 2699-820-109",
-        "price": 17790,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-2699-820-109",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3594_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 21350,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000026900",
-        "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 212329,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_344_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 255000,
-      "value_score": 48,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5683,6 +5660,62 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.6
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "625765",
+        "title": "Смарт-часы Apple Watch Series 10 GPS 42mm Jet Black Al Case with Black Sport Band - S/M",
+        "price": 199990,
+        "old_price": 289990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-mwwe3qia-series-10-gps-42mm-jet-black-al-case-with-black-sport-band-sm",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1133_0_1_YJdvme_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 16.3,
+      "base_price": 238990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 14.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649837",
+        "title": "TWS Наушники HUAWEI FreeBuds 7i Black Conch-T010",
+        "price": 31990,
+        "old_price": 49890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-black-conch-t010",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3628_0_1_clv7Hy_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 15.6,
+      "base_price": 37890,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.4
     },
     {
       "product": {
@@ -5869,6 +5902,33 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1727399",
+        "title": "Ноутбук ASUS Vivobook 15 X1504MA (90NB17I1-M01MV0)",
+        "price": 309990,
+        "old_price": 359990,
+        "url": "https://shop.kz/offer/noutbuk-asus-vivobook-15-x1504ma-90nb17i1-m01mv0/",
+        "brand": "ASUS",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://static.shop.kz/upload/iblock/959/tnrmchp93lv22wcb6zjuft32p4o4iud0/198477o1.JPG",
+        "first_seen": "2026-09-30T13:01:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 11.4,
+      "base_price": 349990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 2.6
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "297157",
         "title": "Холодильник Dreame DRB450WMWARU",
@@ -6008,42 +6068,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-20T12:05:08+00:00",
-      "item_count": 2664,
+      "last_crawl": "2026-10-20T17:33:30+00:00",
+      "item_count": 2672,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-20T12:05:08+00:00",
-      "item_count": 12199,
+      "last_crawl": "2026-10-20T17:33:30+00:00",
+      "item_count": 12200,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-20T12:05:08+00:00",
-      "item_count": 3727,
+      "last_crawl": "2026-10-20T17:33:30+00:00",
+      "item_count": 3715,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-20T12:05:08+00:00",
-      "item_count": 9500,
+      "last_crawl": "2026-10-20T17:33:30+00:00",
+      "item_count": 9498,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-20T12:05:08+00:00",
-      "item_count": 130,
+      "last_crawl": "2026-10-20T17:33:30+00:00",
+      "item_count": 131,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28220,
-    "total_deals": 223,
+    "total_products": 28216,
+    "total_deals": 225,
     "avg_discount": 53
   }
 }
