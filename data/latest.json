@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T20:22:19.907381+00:00",
+  "updated_at": "2026-10-20T00:06:46.536130+00:00",
   "deals": [
     {
       "product": {
@@ -185,7 +185,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19290,
+        "price": 19297,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -198,14 +198,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.8,
+      "fair_discount": 51.7,
       "base_price": 39990,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.2
+      "inflated_gap": 11.3
     },
     {
       "product": {
@@ -583,6 +583,31 @@
       },
       "signal": "deal",
       "drop_pct": 57,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38020",
+        "title": "Выпрямитель Rowenta SF321LF0",
+        "price": 15990,
+        "old_price": 35990,
+        "url": "https://evrika.com/catalog/vypryamitel-rowenta-sf321lf0/p38020",
+        "brand": null,
+        "category": "Выпрямители",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/jrn2tLBOr5XBHbRcAEQx4nP19INzSVNVQ1lv6ZQ7.jpg.webp",
+        "first_seen": "2026-09-23T14:02:46+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
@@ -2623,33 +2648,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "38020",
-        "title": "Выпрямитель Rowenta SF321LF0",
-        "price": 15990,
-        "old_price": 35990,
-        "url": "https://evrika.com/catalog/vypryamitel-rowenta-sf321lf0/p38020",
-        "brand": null,
-        "category": "Выпрямители",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/jrn2tLBOr5XBHbRcAEQx4nP19INzSVNVQ1lv6ZQ7.jpg.webp",
-        "first_seen": "2026-09-23T14:02:46+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": 0.0,
-      "base_price": 15990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 56.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "276508",
         "title": "Кофеварка рожковая Rondell RDE-1106",
@@ -3672,7 +3670,7 @@
       "drop_pct": 52,
       "fair_discount": 0.0,
       "base_price": 999990,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4482,33 +4480,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "634717",
-        "title": "Гарнитура Jabra Evolve2 55 Link380с MS Stereo 25599-999-899",
-        "price": 93884,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3482",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3482_2_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.1,
-      "base_price": 123700,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "651377",
         "title": "Смартфон Huawei Nova 15 Pro 12GB/256GB Purple",
         "price": 236590,
@@ -4779,35 +4750,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640229",
-        "title": "OLED телевизор Samsung QE83S85FAEXCE",
-        "price": 1879990,
-        "old_price": 3549990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe83s85faexce",
-        "brand": "Samsung",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20451_0_6_J5LMlu_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 20.0,
-      "base_price": 2349990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
     },
     {
       "product": {
@@ -5420,6 +5362,33 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "45858",
+        "title": "Вытяжка Hansa OMP6211SH",
+        "price": 49990,
+        "old_price": 54990,
+        "url": "https://evrika.com/catalog/vytyazhka-hansa-omp6211sh/p45858",
+        "brand": null,
+        "category": "Вытяжки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 9,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/n2VFHdII2oKyEscuHgdgYPVKwHkR9VBAiBsrot8j.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 9,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -7.7
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "897135",
         "title": "Кофеварка Kitfort KT-731, Black-Steel",
@@ -5448,33 +5417,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "637244",
-        "title": "Гарнитура Jabra EVOLVE 10 Stereo 2699-820-109",
-        "price": 17790,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-2699-820-109",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3594_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 21350,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
         "price": 212368,
@@ -5493,6 +5435,33 @@
       "fair_discount": 16.7,
       "base_price": 255000,
       "value_score": 48,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649033",
+        "title": "Планшет Blackview Tab 20 kids 4/64GB Purple",
+        "price": 49990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/planshetiy-blackview-tab-20-kids-purple",
+        "brand": "Blackview",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1798_0_1_nSZWwh_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.5,
+      "base_price": 59890,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5559,7 +5528,7 @@
         "shop": "sulpak",
         "sku": "650356",
         "title": "QLED телевизор Dreame 55Q100",
-        "price": 292688,
+        "price": 292668,
         "old_price": 359990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vivid-qled-4k-tv-55q100",
         "brand": "Dreame",
@@ -5573,7 +5542,7 @@
       "signal": "drop",
       "drop_pct": 19,
       "fair_discount": 15.2,
-      "base_price": 344973,
+      "base_price": 344946,
       "value_score": 50,
       "is_pick": false,
       "badges": [
@@ -5716,6 +5685,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "642310",
+        "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
+        "price": 105790,
+        "old_price": 154890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2237_0_1_GsmnI1_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 11.8,
+      "base_price": 119890,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.2
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "301491",
         "title": "Кофе в зернах Delonghi Fresh Roast Royal Selection 800-1",
@@ -5763,6 +5759,33 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "632698",
+        "title": "Робот-пылесос Trouver Trouver P50 Pro Ultra",
+        "price": 323071,
+        "old_price": 449990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-trouver-trouver-p50-pro-ultra",
+        "brand": "Trouver",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_206_0_1_KO2Wz4_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 11.7,
+      "base_price": 366000,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.3
     },
     {
       "product": {
@@ -5855,42 +5878,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-19T20:21:56+00:00",
-      "item_count": 2610,
+      "last_crawl": "2026-10-20T00:06:25+00:00",
+      "item_count": 2570,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-19T20:21:56+00:00",
+      "last_crawl": "2026-10-20T00:06:25+00:00",
       "item_count": 12198,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-19T20:21:56+00:00",
-      "item_count": 3718,
+      "last_crawl": "2026-10-20T00:06:25+00:00",
+      "item_count": 3699,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-19T20:21:56+00:00",
-      "item_count": 9528,
+      "last_crawl": "2026-10-20T00:06:25+00:00",
+      "item_count": 9527,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-19T20:21:56+00:00",
+      "last_crawl": "2026-10-20T00:06:25+00:00",
       "item_count": 131,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28185,
-    "total_deals": 217,
-    "avg_discount": 54
+    "total_products": 28125,
+    "total_deals": 218,
+    "avg_discount": 54.0
   }
 }
