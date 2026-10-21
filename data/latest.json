@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T19:02:05.780287+00:00",
+  "updated_at": "2026-10-21T23:45:09.975244+00:00",
   "deals": [
     {
       "product": {
@@ -1708,7 +1708,7 @@
       "signal": "deal",
       "drop_pct": 76,
       "fair_discount": 0.0,
-      "base_price": 739980,
+      "base_price": 729990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -3391,16 +3391,15 @@
       },
       "signal": "deal",
       "drop_pct": 52,
-      "fair_discount": 20.0,
-      "base_price": 499990,
-      "value_score": 60,
+      "fair_discount": 0.0,
+      "base_price": 399990,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 32.0
+      "inflated_gap": 52.0
     },
     {
       "product": {
@@ -3555,16 +3554,15 @@
       },
       "signal": "deal",
       "drop_pct": 52,
-      "fair_discount": 17.5,
-      "base_price": 2424990,
-      "value_score": 63,
+      "fair_discount": 0.0,
+      "base_price": 1999990,
+      "value_score": 45,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 34.5
+      "inflated_gap": 52.0
     },
     {
       "product": {
@@ -4316,7 +4314,7 @@
         "shop": "sulpak",
         "sku": "642305",
         "title": "Смарт часы HUAWEI Watch GT 6 (46mm) Black Atum-B19F",
-        "price": 99790,
+        "price": 99780,
         "old_price": 154890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-46mm-black-atum-b19f",
         "brand": "HUAWEI",
@@ -4537,60 +4535,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "636652",
-        "title": "Гарнитура Jabra Evolve2 55 Link380c MS Stereo Stand 25599-999-889",
-        "price": 107568,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3484",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3484_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 26.2,
-      "base_price": 145800,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "42012",
-        "title": "Гриль Braun CG7020",
-        "price": 99990,
-        "old_price": 134990,
-        "url": "https://evrika.com/catalog/gril-braun-cg7020/p42012",
-        "brand": null,
-        "category": "Грили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Kl6cyUi3o5CmLcTkAAFeUvUsAGeMtv3nFhqwTRmz.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 25.9,
-      "base_price": 134990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "651379",
         "title": "Смартфон Huawei Nova 15 Pro 12/256GB Black",
         "price": 236590,
@@ -4755,33 +4699,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "641675",
-        "title": "Смартфон Honor X7d 6/128GB Velvet Black",
-        "price": 102190,
-        "old_price": 129990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-x7d-6128gb-velvet-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7177_0_1_Edf7Nj_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.4,
-      "base_price": 129990,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48660",
         "title": "Кофемашина Delonghi ECAM310.60.B",
@@ -4812,7 +4729,7 @@
         "shop": "sulpak",
         "sku": "655040",
         "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
-        "price": 119000,
+        "price": 118993,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
         "brand": "HUAWEI",
@@ -4839,7 +4756,7 @@
         "shop": "sulpak",
         "sku": "655041",
         "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
-        "price": 119000,
+        "price": 118993,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
         "brand": "HUAWEI",
@@ -4860,6 +4777,33 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "641675",
+        "title": "Смартфон Honor X7d 6/128GB Velvet Black",
+        "price": 103290,
+        "old_price": 129990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-x7d-6128gb-velvet-black",
+        "brand": "HONOR",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7177_0_1_Edf7Nj_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 20.5,
+      "base_price": 129990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -4887,34 +4831,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44138",
-        "title": "Телевизор LG 65\" QNED 4K UHD Smart 65QNED86A6A",
-        "price": 543990,
-        "old_price": 904990,
-        "url": "https://evrika.com/catalog/televizor-65-lg-65qned86a6a-qned-4k-uhd-smart/p44138",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/bCwRItyAis1opZff1dDo24PJ4HABYLaOTo0eZvrj.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 20.0,
-      "base_price": 679990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
     },
     {
       "product": {
@@ -5555,6 +5471,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "637244",
+        "title": "Гарнитура Jabra EVOLVE 10 Stereo 2699-820-109",
+        "price": 17744,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-2699-820-109",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3594_3_2_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.9,
+      "base_price": 21350,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "635453",
         "title": "Стиральная машина Hansa WHB9140G",
         "price": 232990,
@@ -5584,7 +5527,7 @@
         "shop": "sulpak",
         "sku": "642310",
         "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
-        "price": 99870,
+        "price": 99861,
         "old_price": 154890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
         "brand": "HUAWEI",
@@ -5610,29 +5553,84 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "637244",
-        "title": "Гарнитура Jabra EVOLVE 10 Stereo 2699-820-109",
-        "price": 17790,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-2699-820-109",
-        "brand": "Jabra",
+        "sku": "642304",
+        "title": "Смарт часы HUAWEI Watch GT 6 Pro (46mm) Black Atum-B29F",
+        "price": 142000,
+        "old_price": 206890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-black-atum-b29f",
+        "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3594_3_2_160.webp",
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2231_0_1_lcUmm4_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 21350,
-      "value_score": 52,
+      "drop_pct": 31,
+      "fair_discount": 16.4,
+      "base_price": 169890,
+      "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": null
+      "inflated_gap": 14.6
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "280590",
+        "title": "Тепловая пушка AVA ARH-3",
+        "price": 15990,
+        "old_price": 18990,
+        "url": "https://www.technodom.kz/p/teplovaya-pushka-ava-arh-3-280590",
+        "brand": "Ava",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 16,
+        "image": "https://api.technodom.kz/f3/api/v1/images/280590_2.webp",
+        "first_seen": "2026-10-08T13:56:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 16,
+      "fair_discount": 15.8,
+      "base_price": 18990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "280589",
+        "title": "Тепловая пушка AVA ARH-2",
+        "price": 10990,
+        "old_price": 16290,
+        "url": "https://www.technodom.kz/p/teplovaya-pushka-ava-arh-2-280589",
+        "brand": "Ava",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://api.technodom.kz/f3/api/v1/images/280589_1new.webp",
+        "first_seen": "2026-10-08T13:56:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 15.4,
+      "base_price": 12990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.6
     },
     {
       "product": {
@@ -5985,41 +5983,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-21T19:01:46+00:00",
+      "last_crawl": "2026-10-21T23:44:54+00:00",
       "item_count": 2688,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-21T19:01:46+00:00",
+      "last_crawl": "2026-10-21T23:44:54+00:00",
       "item_count": 12201,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-21T19:01:46+00:00",
-      "item_count": 3727,
+      "last_crawl": "2026-10-21T23:44:54+00:00",
+      "item_count": 3780,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-21T19:01:46+00:00",
+      "last_crawl": "2026-10-21T23:44:54+00:00",
       "item_count": 9510,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-21T19:01:46+00:00",
+      "last_crawl": "2026-10-21T23:44:54+00:00",
       "item_count": 222,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28348,
+    "total_products": 28401,
     "total_deals": 223,
     "avg_discount": 53
   }
