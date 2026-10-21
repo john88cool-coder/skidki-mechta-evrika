@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T22:01:58.599267+00:00",
+  "updated_at": "2026-10-21T01:08:23.790777+00:00",
   "deals": [
     {
       "product": {
@@ -185,7 +185,7 @@
         "shop": "sulpak",
         "sku": "623239",
         "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19297,
+        "price": 19290,
         "old_price": 51990,
         "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
         "brand": "HyperX",
@@ -198,14 +198,14 @@
       },
       "signal": "deal",
       "drop_pct": 63,
-      "fair_discount": 51.7,
-      "base_price": 39990,
+      "fair_discount": 49.1,
+      "base_price": 37890,
       "value_score": 90,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.3
+      "inflated_gap": 13.9
     },
     {
       "product": {
@@ -1124,34 +1124,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "30120",
-        "title": "Гарнитура игровая Logitech G432 Gaming Headset Leatherette, Black/Blue (981-000770)",
-        "price": 24990,
-        "old_price": 50990,
-        "url": "https://evrika.com/catalog/garnitura-igrovaya-logitech-g432-gaming-headset-leatherette-black-blue-981-000770/p30120",
-        "brand": null,
-        "category": "Наушники с микрофоном",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/R5VB9eMaBTCFMvjbJDM8ZuCgwBfmgDdVzA4BV22F.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 51,
-      "fair_discount": 51.0,
-      "base_price": 50990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -3649,6 +3621,33 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "30120",
+        "title": "Гарнитура игровая Logitech G432 Gaming Headset Leatherette, Black/Blue (981-000770)",
+        "price": 24990,
+        "old_price": 50990,
+        "url": "https://evrika.com/catalog/garnitura-igrovaya-logitech-g432-gaming-headset-leatherette-black-blue-981-000770/p30120",
+        "brand": null,
+        "category": "Наушники с микрофоном",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/R5VB9eMaBTCFMvjbJDM8ZuCgwBfmgDdVzA4BV22F.jpg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 0.0,
+      "base_price": 24990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 51.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1272522",
         "title": "Смартфон vivo Y15s, 32GB, Mystic Blue (V2120)",
@@ -4226,34 +4225,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "295886",
-        "title": "Выпрямитель Remington S-9100",
-        "price": 34190,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/vypryamitel-remington-s-9100-295886",
-        "brand": "Remington",
-        "category": "Красота и здоровье",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295886_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 31.6,
-      "base_price": 49990,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "46730",
         "title": "Аэрогриль Tefal EY8328E0",
@@ -4700,33 +4671,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "651374",
-        "title": "Смартфон Huawei Nova 15 Pro 12/512GB White",
-        "price": 253190,
-        "old_price": 349890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-pro-12512gb-white",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12154_0_1_eSo5vk_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 21.4,
-      "base_price": 321990,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.6
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48660",
         "title": "Кофемашина Delonghi ECAM310.60.B",
@@ -5059,17 +5003,17 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "655041",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
-        "price": 121998,
+        "sku": "655040",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
+        "price": 121995,
         "old_price": null,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -5086,17 +5030,17 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "655040",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
-        "price": 121999,
+        "sku": "655041",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
+        "price": 121995,
         "old_price": null,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -5585,7 +5529,7 @@
         "shop": "sulpak",
         "sku": "642310",
         "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
-        "price": 99887,
+        "price": 99886,
         "old_price": 154890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
         "brand": "HUAWEI",
@@ -5661,6 +5605,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.6
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "625765",
+        "title": "Смарт-часы Apple Watch Series 10 GPS 42mm Jet Black Al Case with Black Sport Band - S/M",
+        "price": 199990,
+        "old_price": 289990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-mwwe3qia-series-10-gps-42mm-jet-black-al-case-with-black-sport-band-sm",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1133_0_1_YJdvme_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 16.3,
+      "base_price": 238990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 14.7
     },
     {
       "product": {
@@ -6013,42 +5985,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-20T22:01:39+00:00",
-      "item_count": 2672,
+      "last_crawl": "2026-10-21T01:08:10+00:00",
+      "item_count": 2655,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-20T22:01:39+00:00",
+      "last_crawl": "2026-10-21T01:08:10+00:00",
       "item_count": 12200,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-20T22:01:39+00:00",
-      "item_count": 3683,
+      "last_crawl": "2026-10-21T01:08:10+00:00",
+      "item_count": 3690,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-20T22:01:39+00:00",
+      "last_crawl": "2026-10-21T01:08:10+00:00",
       "item_count": 9499,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-20T22:01:39+00:00",
+      "last_crawl": "2026-10-21T01:08:10+00:00",
       "item_count": 134,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28188,
-    "total_deals": 223,
-    "avg_discount": 53
+    "total_products": 28178,
+    "total_deals": 222,
+    "avg_discount": 53.0
   }
 }
