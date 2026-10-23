@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T22:00:47.160061+00:00",
+  "updated_at": "2026-10-23T01:09:15.879252+00:00",
   "deals": [
     {
       "product": {
@@ -3004,7 +3004,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 0.0,
-      "base_price": 316790,
+      "base_price": 318290,
       "value_score": 41,
       "is_pick": false,
       "badges": [
@@ -4220,34 +4220,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "642305",
-        "title": "Смарт часы HUAWEI Watch GT 6 (46mm) Black Atum-B19F",
-        "price": 99790,
-        "old_price": 154890,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-46mm-black-atum-b19f",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2232_0_1_zz3BSS_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 28.7,
-      "base_price": 139890,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "620351",
         "title": "Чайник электрический Kitfort КТ-6105 КТ-6105",
         "price": 13190,
@@ -4624,7 +4596,7 @@
       "drop_pct": 22,
       "fair_discount": 22.2,
       "base_price": 35990,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -4847,33 +4819,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 5.8
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652397",
-        "title": "Смартфон Honor 600 8/256GB Orange",
-        "price": 306990,
-        "old_price": 379990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-8256gb-orange",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12577_0_1_r2xeN8_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.2,
-      "base_price": 379990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -5515,7 +5460,7 @@
         "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 212155,
+        "price": 212135,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
         "brand": "XG",
@@ -5569,7 +5514,7 @@
         "shop": "sulpak",
         "sku": "642310",
         "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
-        "price": 99827,
+        "price": 99821,
         "old_price": 154890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
         "brand": "HUAWEI",
@@ -5591,6 +5536,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 19.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652397",
+        "title": "Смартфон Honor 600 8/256GB Orange",
+        "price": 306990,
+        "old_price": 379990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-8256gb-orange",
+        "brand": "HONOR",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12577_0_1_r2xeN8_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 16.7,
+      "base_price": 368590,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 2.3
     },
     {
       "product": {
@@ -5700,6 +5672,33 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652393",
+        "title": "Смартфон Honor 600 Lite 8/256GB Velvet Grey",
+        "price": 218990,
+        "old_price": 279990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-lite-8256gb-velvet-grey",
+        "brand": "HONOR",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12573_0_6_u3m7N9_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 15.8,
+      "base_price": 259990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.2
     },
     {
       "product": {
@@ -6340,41 +6339,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-22T22:00:24+00:00",
-      "item_count": 2687,
+      "last_crawl": "2026-10-23T01:08:54+00:00",
+      "item_count": 2685,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-22T22:00:24+00:00",
+      "last_crawl": "2026-10-23T01:08:54+00:00",
       "item_count": 12211,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-22T22:00:24+00:00",
-      "item_count": 3741,
+      "last_crawl": "2026-10-23T01:08:54+00:00",
+      "item_count": 3726,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-22T22:00:24+00:00",
-      "item_count": 9553,
+      "last_crawl": "2026-10-23T01:08:54+00:00",
+      "item_count": 9550,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-22T22:00:24+00:00",
+      "last_crawl": "2026-10-23T01:08:54+00:00",
       "item_count": 238,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28430,
+    "total_products": 28410,
     "total_deals": 238,
     "avg_discount": 53.0
   }
