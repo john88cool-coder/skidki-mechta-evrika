@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T04:25:22.230509+00:00",
+  "updated_at": "2026-10-23T05:22:04.634101+00:00",
   "deals": [
     {
       "product": {
@@ -15,7 +15,7 @@
         "in_stock": true,
         "discount_pct": 84,
         "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 84,
@@ -42,7 +42,7 @@
         "in_stock": true,
         "discount_pct": 82,
         "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 82,
@@ -69,7 +69,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/d10c45e9-25d7-4f5d-84f1-c1f28df4f48f?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -94,7 +94,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -119,38 +119,13 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
       "fair_discount": null,
       "base_price": null,
       "value_score": 17,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003815",
-        "title": "Робот-пылесос TEFAL RG 8597 WH",
-        "price": 94990,
-        "old_price": 414990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8597-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -169,7 +144,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/b05908a3-028a-46b2-b788-b2c680f7a1c1?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -194,38 +169,13 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/65039785-66ec-11ec-a242-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012038",
-        "title": "Компьютерный стол RITMIX TBL-120a регулируемый (black)",
-        "price": 24990,
-        "old_price": 99990,
-        "url": "https://www.mechta.kz/product/kompyuternyy-stol-ritmix-tbl-120a-reguliruemyy-black/",
-        "brand": "Ritmix",
-        "category": "Компьютерные столы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 75,
-        "image": null,
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 75,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 21,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -244,7 +194,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -269,7 +219,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -296,7 +246,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -321,7 +271,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -346,7 +296,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/ce8d199c-4e9b-4651-ada3-3fe220bf58d3?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -374,7 +324,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/13a9f95d-e019-4398-bebd-c9f953171e54?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -391,6 +341,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200007632",
+        "title": "Смартфон Apple iPhone 15 256GB (Black)",
+        "price": 209955,
+        "old_price": 536990,
+        "url": "https://www.mechta.kz/product/smartfon-apple-iphone-15-256gb-black/",
+        "brand": "Apple",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": null,
+        "first_seen": "2026-09-18T11:23:33+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200001405",
         "title": "Электропечь SIMFER M 4200",
         "price": 12990,
@@ -402,7 +379,7 @@
         "in_stock": true,
         "discount_pct": 83,
         "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 83,
@@ -429,7 +406,7 @@
         "in_stock": true,
         "discount_pct": 80,
         "image": "https://pi.mdev.kz/80c27b5a-5ded-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 80,
@@ -456,7 +433,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -510,7 +487,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/94c5c00a-ae78-4ce0-8d48-a9578339996e?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -526,6 +503,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200003815",
+        "title": "Робот-пылесос TEFAL RG 8597 WH",
+        "price": 94990,
+        "old_price": 414990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8597-wh/",
+        "brand": "Tefal",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": 0.0,
+      "base_price": 94990,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 77.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200003743",
         "title": "Робот-пылесос TEFAL RG 8577 WH",
         "price": 74990,
@@ -537,7 +541,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/96fa9660-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -592,7 +596,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -620,7 +624,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/31d50c4b-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -648,7 +652,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -675,7 +679,7 @@
         "in_stock": true,
         "discount_pct": 68,
         "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 68,
@@ -703,7 +707,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -730,7 +734,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/be52c93f-0e9e-43cd-b7a1-b756b3259f53?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -757,7 +761,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/8b385d5f-6653-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -784,7 +788,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -811,7 +815,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/3074ced8-61a3-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -839,7 +843,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/c65cb8ee-c4ad-11ed-a259-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -868,7 +872,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/eefa73f4-5f59-4981-a48c-2e1cc20b92ee?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -895,7 +899,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/39ea9909-131e-4f4e-9551-d6176c5de761?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -922,7 +926,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -949,7 +953,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/035573b4-9069-11ea-a22d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -977,7 +981,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/2ece0704-35e4-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -1005,7 +1009,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/04c4afff-ca0e-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1032,7 +1036,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5aca6820-c9cb-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1059,7 +1063,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/44d73884-628b-41f6-9996-23a24d286ff3?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1088,7 +1092,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/1fd1538c-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1116,7 +1120,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1143,7 +1147,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/e5b88f95-8cd1-4aa5-9633-52cc804ef644?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1170,7 +1174,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1197,7 +1201,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1224,7 +1228,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/9b377cc4-0fe4-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1251,7 +1255,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1278,7 +1282,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1305,7 +1309,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1332,7 +1336,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1359,7 +1363,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/cb0c5bbf-3b80-439c-b7b5-332eadf1e13c?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1387,7 +1391,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/8d0db2ff-526b-4866-ad97-a1ec413e0882?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1415,7 +1419,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/ae5abbee-432e-4738-bd17-b0bfb6124cba?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1443,7 +1447,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/99c9404e-a6f4-4ba4-8e2a-9a66bf700007?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1471,7 +1475,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/5150e169-5f8d-4cdc-8659-5e3b4254e593?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1499,13 +1503,13 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://pi.mdev.kz/e18ec82c-1be3-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
       "fair_discount": 56.3,
       "base_price": 319990,
-      "value_score": 94,
+      "value_score": 90,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1513,6 +1517,33 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200007564",
+        "title": "Сетка к бритве BRAUN 94M (Series 9 PRO)",
+        "price": 19990,
+        "old_price": 45590,
+        "url": "https://www.mechta.kz/product/setka-k-britve-braun-94m-series-9-pro/",
+        "brand": "Braun",
+        "category": "Сменные сетки и ножи к электробритвам",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/9bbad23d-537b-11ee-a261-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 56,
+      "fair_discount": 54.1,
+      "base_price": 43590,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 1.9
     },
     {
       "product": {
@@ -1528,7 +1559,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://pi.mdev.kz/044d1db3-2228-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 54,
@@ -1546,35 +1577,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014746",
-        "title": "Планшет LENOVO TB330FU ACC 4Gb+128GbLG-RU-PEN",
-        "price": 49955,
-        "old_price": 102990,
-        "url": "https://www.mechta.kz/product/planshet-lenovo-tb330fu-acc-4gbplus128gblg-ru-pen/",
-        "brand": "Lenovo",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://pi.mdev.kz/186312e5-983b-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 51,
-      "fair_discount": 51.5,
-      "base_price": 102990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013345",
         "title": "Триммер для бороды BRAUN BT 5420",
         "price": 31990,
@@ -1586,7 +1588,7 @@
         "in_stock": true,
         "discount_pct": 49,
         "image": "https://pi.mdev.kz/c1c5605f-5ea9-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 49,
@@ -1614,7 +1616,7 @@
         "in_stock": true,
         "discount_pct": 49,
         "image": "https://pi.mdev.kz/0e84e0f8-7bbc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 49,
@@ -1642,7 +1644,7 @@
         "in_stock": true,
         "discount_pct": 46,
         "image": "https://pi.mdev.kz/f03aeda5-a795-11ed-a254-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 46,
@@ -1660,6 +1662,174 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200003996",
+        "title": "Мышка игровая ZOWIE ZA11-C 9H.N3FBB.A2E",
+        "price": 22990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za11-c-9hdotn3fbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/528ed1d8-859f-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 41.0,
+      "base_price": 38990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003998",
+        "title": "Мышка игровая ZOWIE EC3-C 9H.N3MBB.A2E",
+        "price": 22990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-ec3-c-9hdotn3mbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/528ed1ca-859f-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 41.0,
+      "base_price": 38990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003999",
+        "title": "Мышка игровая ZOWIE ZA13-C 9H.N3HBB.A2E",
+        "price": 22990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za13-c-9hdotn3hbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/528ed1de-859f-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 41.0,
+      "base_price": 38990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002308",
+        "title": "Мышка игровая ZOWIE S1.9H.N0GBB.A2E",
+        "price": 22990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-s1dot9hdotn0gbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/5ad38d40-39ce-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 41.0,
+      "base_price": 38990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002306",
+        "title": "Клавиатура STEELSERIES Apex 3 RU 64805",
+        "price": 21990,
+        "old_price": 43900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-3-ru-64805/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/5cc5cf02-3902-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 40.9,
+      "base_price": 37190,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002309",
+        "title": "Мышка игровая ZOWIE ZA12-B",
+        "price": 22990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za12-b/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/5ad38d47-39ce-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 37.7,
+      "base_price": 36890,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000003074",
         "title": "Портативная колонка JBL CLIP4 (white)",
         "price": 19990,
@@ -1671,7 +1841,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/feb1e8ae-5adf-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1698,7 +1868,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/feb1e8a6-5adf-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1725,7 +1895,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/fea56da0-6168-4c82-bd0e-44cd21984281?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1752,7 +1922,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/09989251-f240-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1766,6 +1936,62 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003899",
+        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) US черный",
+        "price": 54990,
+        "old_price": 89900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-us-chernyy/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/9449781f-8019-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 37.4,
+      "base_price": 87890,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 1.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006173",
+        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) 64642 черный",
+        "price": 50990,
+        "old_price": 89900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-64642-chernyy/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/8a549fd8-0c7c-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 37.0,
+      "base_price": 80890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.0
     },
     {
       "product": {
@@ -1809,7 +2035,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://pi.mdev.kz/a654cfb4-d3a8-4f9c-a046-3d723c51eabe?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -1838,7 +2064,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://pi.mdev.kz/e7696e9c-2871-46ec-bbf6-933cb7178f43?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -1867,7 +2093,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://pi.mdev.kz/0077aef6-75c8-41d5-8964-d47290ecb128?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -1896,7 +2122,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://pi.mdev.kz/487ee103-2cff-4bca-9553-6d2e1c8a2272?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -1914,6 +2140,91 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200017680",
+        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 11‑inch (M3) - White (MDFV4RS/A)",
+        "price": 149990,
+        "old_price": 227990,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-11inch-m3---white-mdfv4rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/1993eda5-180b-4b44-a644-fad174b87b40?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 34.2,
+      "base_price": 227990,
+      "value_score": 92,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021009",
+        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 13‑inch (M3) - Black (MGYY4RS/A)",
+        "price": 179990,
+        "old_price": 270990,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-13inch-m3---black-mgyy4rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/d65bc92b-94db-49ff-8e91-532d93606f67?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 33.6,
+      "base_price": 270990,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003997",
+        "title": "Мышка игровая ZOWIE EC1-C 9H.N39BA.A2E",
+        "price": 25990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-ec1-c-9hdotn39badota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/528ed1c4-859f-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 33.3,
+      "base_price": 38990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200019238",
         "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
         "price": 599990,
@@ -1925,7 +2236,7 @@
         "in_stock": true,
         "discount_pct": 33,
         "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 33,
@@ -1943,229 +2254,233 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000078199",
-        "title": "Триммер для волос PHILIPS HC 3505/15",
-        "price": 15990,
-        "old_price": 26990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-volos-philips-hc-350515/",
-        "brand": "Philips",
-        "category": "Машинки для стрижки волос",
-        "group": "beauty",
+        "sku": "30000002311",
+        "title": "Мышка игровая STEELSERIES Sensei Ten, 62527",
+        "price": 18990,
+        "old_price": 33900,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-sensei-ten-62527/",
+        "brand": "SteelSeries",
+        "category": "Мыши",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/d105ced2-e7f6-11e8-a219-005056b6dbd7?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/e4b5d468-3932-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 31.6,
-      "base_price": 23390,
-      "value_score": 84,
+      "drop_pct": 44,
+      "fair_discount": 33.2,
+      "base_price": 28410,
+      "value_score": 75,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 9.4
+      "inflated_gap": 10.8
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014514",
-        "title": "Выпрямитель для волос PHILIPS BHS 378/00",
-        "price": 24890,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/vypryamitel-dlya-volos-philips-bhs-37800/",
-        "brand": "Philips",
-        "category": "Выпрямители для волос",
-        "group": "beauty",
+        "sku": "17200003913",
+        "title": "Мышка игровая STEELSERIES Prime Mini Чёрная",
+        "price": 18990,
+        "old_price": 37900,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-mini-chernaya/",
+        "brand": "SteelSeries",
+        "category": "Мыши",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/4b4d4c6f-8ff6-4373-8382-fe119be19e4b?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/54b42ee5-8277-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 30.8,
-      "base_price": 35990,
-      "value_score": 83,
+      "drop_pct": 50,
+      "fair_discount": 32.9,
+      "base_price": 28290,
+      "value_score": 80,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003915",
+        "title": "Мышка игровая STEELSERIES Prime Wireless",
+        "price": 36990,
+        "old_price": 58900,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-wireless/",
+        "brand": "SteelSeries",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://pi.mdev.kz/54b42eea-8277-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 32.6,
+      "base_price": 54890,
+      "value_score": 80,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 11.2
+      "inflated_gap": 4.4
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012212",
-        "title": "Фен DREAME Pocket Space Gray",
-        "price": 44990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-space-gray/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.8,
-      "base_price": 64990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012213",
-        "title": "Фен DREAME Pocket Titanium Gold",
-        "price": 44990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-titanium-gold/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.8,
-      "base_price": 64990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012317",
-        "title": "Док-станция Canyon DS-13",
-        "price": 24990,
-        "old_price": 35990,
-        "url": "https://www.mechta.kz/product/dok-stanciya-canyon-ds-13/",
-        "brand": "Canyon",
-        "category": "Док-станции для ноутбуков",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/fb1e0c7d-2dfd-11ef-a266-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.6,
-      "base_price": 35990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018270",
-        "title": "Блендер погружной MOULINEX DD 94G8F0",
-        "price": 52490,
-        "old_price": 104990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-moulinex-dd-94g8f0/",
-        "brand": "Moulinex",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/c42e91f8-619f-43f5-a99f-2dcb118ffc21?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 30.0,
-      "base_price": 74990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015292",
-        "title": "Электробритва PHILIPS X 3002/00",
-        "price": 29990,
-        "old_price": 54990,
-        "url": "https://www.mechta.kz/product/elektrobritva-philips-x-300200/",
-        "brand": "Philips",
-        "category": "Электробритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/24a397e4-ae00-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 18.9,
-      "base_price": 36990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023938",
-        "title": "Планшет HUAWEI MatePad SE 11\" LTE 8GB/128GB Nebula Gray (AGS6-L09D)",
-        "price": 149890,
-        "old_price": 219990,
-        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-lte-8gb128gb-nebula-gray-ags6-l09d/",
-        "brand": "Huawei",
-        "category": "Планшеты",
+        "sku": "17200012958",
+        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Pro 13‑inch (M4) - White (MWR43RS/A)",
+        "price": 199990,
+        "old_price": 295990,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-pro-13inch-m4---white-mwr43rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
         "group": "phones",
         "in_stock": true,
         "discount_pct": 32,
-        "image": "https://pi.mdev.kz/f81938ab-258f-4f83-99f3-cad7ccd93662?w=400",
-        "first_seen": "2026-09-17T05:57:28+00:00"
+        "image": "https://pi.mdev.kz/f0024fae-4978-11ef-a267-005056b6e990?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
       },
       "signal": "drop",
       "drop_pct": 32,
-      "fair_discount": 11.8,
-      "base_price": 169990,
-      "value_score": 50,
+      "fair_discount": 32.4,
+      "base_price": 295990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003916",
+        "title": "Мышка игровая STEELSERIES Prime+ Оптическая True Move Pro+",
+        "price": 23990,
+        "old_price": 38900,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-primeplus-opticheskaya-true-move-proplus/",
+        "brand": "SteelSeries",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/54b42ef4-8277-11ed-a251-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 32.2,
+      "base_price": 35390,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000080917",
+        "title": "Клавиатура STEELSERIES Apex M750 TKL PUBG Edition 64726",
+        "price": 41990,
+        "old_price": 65990,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-m750-tkl-pubg-edition-64726/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/941756d7-eff1-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 32.2,
+      "base_price": 61890,
+      "value_score": 73,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 20.2
+      "inflated_gap": 3.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003914",
+        "title": "Мышка игровая STEELSERIES Prime Mini Wireless Чёрная",
+        "price": 37990,
+        "old_price": 58900,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-mini-wireless-chernaya/",
+        "brand": "SteelSeries",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/c2ce4289-8047-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 32.0,
+      "base_price": 55890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "26260002109",
+        "title": "Док-станция Trust Dalyx Aluminium 10 в 1",
+        "price": 33990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/dok-stanciya-trust-dalyx-aluminium-10-v-1/",
+        "brand": "Trust",
+        "category": "Док-станции для ноутбуков",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/872f67e0-d07d-11ea-a230-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 32.0,
+      "base_price": 49990,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-22T04:25:10+00:00",
-      "item_count": 7750,
+      "last_crawl": "2026-10-23T05:21:54+00:00",
+      "item_count": 7778,
       "status": "ok"
     },
     {
@@ -2205,8 +2520,8 @@
     }
   ],
   "stats": {
-    "total_products": 7750,
-    "total_deals": 79,
-    "avg_discount": 63
+    "total_products": 7778,
+    "total_deals": 90,
+    "avg_discount": 62.0
   }
 }
