@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T05:22:04.634101+00:00",
+  "updated_at": "2026-10-23T10:17:08.356937+00:00",
   "deals": [
     {
       "product": {
@@ -53,6 +53,31 @@
       "badges": [
         "Топ-Бренд"
       ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017884",
+        "title": "Робот-пылесос TEFAL RG 8L65 WH",
+        "price": 62990,
+        "old_price": 284990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8l65-wh/",
+        "brand": "Tefal",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 78,
+        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400",
+        "first_seen": "2026-09-19T23:20:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 78,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
       "inflated_gap": null
     },
     {
@@ -440,33 +465,6 @@
       "fair_discount": 0.0,
       "base_price": 79990,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 78.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017884",
-        "title": "Робот-пылесос TEFAL RG 8L65 WH",
-        "price": 62990,
-        "old_price": 284990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8l65-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 78,
-        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400",
-        "first_seen": "2026-09-19T23:20:06+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 78,
-      "fair_discount": 0.0,
-      "base_price": 62990,
-      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1509,7 +1507,7 @@
       "drop_pct": 56,
       "fair_discount": 56.3,
       "base_price": 319990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1911,35 +1909,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011054",
-        "title": "Фен DYSON HD07 Supersonic синий/медь (с чехлом)",
-        "price": 149990,
-        "old_price": 239990,
-        "url": "https://www.mechta.kz/product/fen-dyson-hd07-supersonic-siniymed-s-chehlom/",
-        "brand": "Dyson",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/09989251-f240-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-18T07:19:01+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.5,
-      "base_price": 239990,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200003899",
         "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) US черный",
         "price": 54990,
@@ -1992,34 +1961,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200024350",
-        "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray (Agassi6-W19D)",
-        "price": 119890,
-        "old_price": 189990,
-        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-wifi-8gb128gb-nebula-gray-agassi6-w19d/",
-        "brand": "Huawei",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/c8d08f14-da10-4d05-b7e6-f429c31b8fb1?w=400",
-        "first_seen": "2026-10-14T11:22:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 36.9,
-      "base_price": 189890,
-      "value_score": 91,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
     },
     {
       "product": {
@@ -2473,14 +2414,69 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003905",
+        "title": "Мышка игровая STEELSERIES Aerox 3 (2022) Onyx",
+        "price": 20990,
+        "old_price": 45900,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-aerox-3-2022-onyx/",
+        "brand": "SteelSeries",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/c2ce4283-8047-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 31.8,
+      "base_price": 30790,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000078199",
+        "title": "Триммер для волос PHILIPS HC 3505/15",
+        "price": 15990,
+        "old_price": 26990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-volos-philips-hc-350515/",
+        "brand": "Philips",
+        "category": "Машинки для стрижки волос",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/d105ced2-e7f6-11e8-a219-005056b6dbd7?w=400",
+        "first_seen": "2026-09-18T07:19:01+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 31.6,
+      "base_price": 23390,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.4
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-23T05:21:54+00:00",
-      "item_count": 7778,
+      "last_crawl": "2026-10-23T10:16:56+00:00",
+      "item_count": 7773,
       "status": "ok"
     },
     {
@@ -2520,7 +2516,7 @@
     }
   ],
   "stats": {
-    "total_products": 7778,
+    "total_products": 7773,
     "total_deals": 90,
     "avg_discount": 62.0
   }
