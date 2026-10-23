@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:57:58.403066+00:00",
+  "updated_at": "2026-10-23T13:49:29.286250+00:00",
   "deals": [
     {
       "product": {
@@ -47,6 +47,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 33,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728518",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986E12 (SN:HE05388002589)",
+        "price": 10990,
+        "old_price": 36190,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986e12-sn-he05388002589/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://static.shop.kz/upload/iblock/d10/a9gd2zz23ybu0idj1ve0izciulak2k0m/149146d1.jpg",
+        "first_seen": "2026-10-23T13:49:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -257,25 +282,25 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "295906",
-        "title": "Игровой компьютер TechnoGaming 297(AR5-7500F/RTX5060TI 16GB/D5 32GB/SSD 1TB/B650 GAMING WIFI/FSP M580WH)",
-        "price": 892990,
-        "old_price": 2399990,
-        "url": "https://www.technodom.kz/product/igrovoj-pk-technogaming-297ar5-7500frtx5060ti-16gbd5-32gbssd-1tbb650-gaming-wififsp-m580wh-295906",
-        "brand": "TechnoGaming",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
+        "shop": "shopkz",
+        "sku": "1728503",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986E11 (SN:HE05317007560)",
+        "price": 11990,
+        "old_price": 31990,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986e11-sn-he05317007560/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
         "in_stock": true,
         "discount_pct": 63,
-        "image": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "image": "https://static.shop.kz/upload/iblock/f6b/egdqb3t5e2ehvuh6nz42fouonzb51e0r/147111d1.png",
+        "first_seen": "2026-10-23T13:49:06+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -451,6 +476,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728488",
+        "title": "Увлажнитель воздуха Kitfort КТ-2877-1, Black (SN:103300791)",
+        "price": 12990,
+        "old_price": 31390,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2877-1-black-sn-103300791/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://static.shop.kz/upload/iblock/fa8/qj2avmqfopnpiehjggeqfyh2bzw103rt/179153d1.jpg",
+        "first_seen": "2026-10-23T13:49:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -651,6 +701,31 @@
         "discount_pct": 57,
         "image": "https://static.shop.kz/upload/iblock/5c0/tjg83zuit4kj0fn0cgsh4jowso6l7hwg/144632_4.jpg",
         "first_seen": "2026-10-23T07:57:34+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728491",
+        "title": "Гриль Redmond SteakMaster RGM-M809, Black (SN:3501211176300)",
+        "price": 36990,
+        "old_price": 86990,
+        "url": "https://shop.kz/offer/gril-redmond-steakmaster-rgm-m809-black-sn-3501211176300/",
+        "brand": "REDMOND",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://static.shop.kz/upload/iblock/041/q48cxchue7jz04ksilzxu9mhbua8dovh/168515o5.jpg",
+        "first_seen": "2026-10-23T13:49:06+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -969,31 +1044,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "281043",
-        "title": "Сушильный автомат Beko B3T47239",
-        "price": 144990,
-        "old_price": 329990,
-        "url": "https://www.technodom.kz/p/sushilnyj-avtomat-beko-b3t47239-281043",
-        "brand": "Beko",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://api.technodom.kz/f3/api/v1/images/sushilnyj_avtomat_beko_b3t47239_281043_01.webp",
-        "first_seen": "2026-10-20T12:05:08+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1254672",
         "title": "Пылесос контейнерный Samsung VC3100M, Gray, VC18M31C0HG/EV, (Управление на ручке, 2 л, 1800/380 Вт)",
@@ -1275,31 +1325,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1728374",
-        "title": "Утюг Redmond RI-C268, Black (SN:2581024044826)",
-        "price": 12990,
-        "old_price": 27990,
-        "url": "https://shop.kz/offer/utyug-redmond-ri-c268-black-sn-2581024044826/",
-        "brand": "REDMOND",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://static.shop.kz/upload/iblock/8a4/enj6kh7r12a7mjrlduq8g6lyjyhugzs5/169799_1_min.jpg",
-        "first_seen": "2026-10-22T12:23:32+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "285606",
         "title": "Процессор AMD Ryzen 7 7800X3D (C8/T16, (512K L1, 8M L2, 96M L3 Cache) 4.2 up to 5GHz) AM5 OEM",
@@ -1319,6 +1344,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 23,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728374",
+        "title": "Утюг Redmond RI-C268, Black (SN:2581024044826)",
+        "price": 12990,
+        "old_price": 27990,
+        "url": "https://shop.kz/offer/utyug-redmond-ri-c268-black-sn-2581024044826/",
+        "brand": "REDMOND",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://static.shop.kz/upload/iblock/8a4/enj6kh7r12a7mjrlduq8g6lyjyhugzs5/169799_1_min.jpg",
+        "first_seen": "2026-10-22T12:23:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1554,6 +1604,31 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "224568",
+        "title": "Аксесс. Воздухоочист. BORK Фильтр активной стерилизации AA704E",
+        "price": 11990,
+        "old_price": 25490,
+        "url": "https://www.technodom.kz/p/aksess-bork-filtr-aa704e-224568",
+        "brand": "Bork",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://api.technodom.kz/f3/api/v1/images/224568_1y.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 23,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1446958",
         "title": "Холодильник Samsung RT53DG7A10B1WT",
@@ -1782,6 +1857,31 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1728500",
+        "title": "Сэндвичница Kitfort КТ-1638, White (SN:810007448)",
+        "price": 18990,
+        "old_price": 39390,
+        "url": "https://shop.kz/offer/sendvichnitsa-kitfort-kt-1638-white-sn-810007448/",
+        "brand": "Kitfort",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://static.shop.kz/upload/iblock/442/wx9255pn5u1kqd11mx4rjde3hvd0kpit/143306_1.jpg",
+        "first_seen": "2026-10-23T13:49:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "1728470",
         "title": "Увлажнитель воздуха Kitfort KT-2805 (SN:136350032)",
         "price": 11990,
@@ -1868,7 +1968,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://cdn.evrika.com/storage/products/images/medium/GuaO80c1DR9jDHvaFiFKMJynFvpno9t3JMbbCY3r.jpg.webp",
-        "first_seen": "2026-09-18T12:04:05+00:00"
+        "first_seen": "2026-09-22T12:01:50+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1921,6 +2021,31 @@
         "discount_pct": 50,
         "image": "https://static.shop.kz/upload/iblock/cd3/q2btny4sgdtdwifs0joh1vw81043o7m0/173982S1.png",
         "first_seen": "2026-10-22T17:43:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728533",
+        "title": "Сэндвичница Moulinex SM154135, Silver (SN:5a0fb250-abe0-4f50-8dad-95272900d013)",
+        "price": 13990,
+        "old_price": 27990,
+        "url": "https://shop.kz/offer/sendvichnitsa-moulinex-sm154135-silver-sn-5a0fb250-abe0-4f50-8dad-95272900d013/",
+        "brand": "Moulinex",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://static.shop.kz/upload/iblock/07a/0uzqmvyk0fahze57ax2vbdsrotj723i2/110954d1.jpg",
+        "first_seen": "2026-10-23T13:49:06+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -2164,6 +2289,31 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "7212",
+        "title": "Блендер Moulinex LM439D10",
+        "price": 47990,
+        "old_price": 86990,
+        "url": "https://evrika.com/catalog/blender-moulinex-lm439d10/p7212",
+        "brand": null,
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/xMHHKacMQA6d9Aikn8vW3FFcLH723Px8qzlcjzbO.jpeg.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 45,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1728473",
         "title": "Гриль Kitfort KT-1601, Black-Steel (SN:2208129977)",
@@ -2186,33 +2336,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1595314",
-        "title": "Тостер Tefal TT330D30, Black-Steel",
-        "price": 18990,
-        "old_price": 31990,
-        "url": "https://shop.kz/offer/toster-tefal-tt330d30-black-steel/",
-        "brand": "Tefal",
-        "category": "Тостеры, гриль",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://static.shop.kz/upload/iblock/001/se58xk010evrer97vsx4cs0snwf78ovw/171818_TT330D30_200_200_1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 41,
-      "fair_discount": 40.6,
-      "base_price": 31990,
-      "value_score": 95,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -3142,7 +3265,7 @@
         "shop": "sulpak",
         "sku": "625187",
         "title": "Стиральная машина Haier HW100-BD14378S",
-        "price": 316790,
+        "price": 316890,
         "old_price": 719990,
         "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw100-bd14378s",
         "brand": "Haier",
@@ -3156,7 +3279,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 0.0,
-      "base_price": 316790,
+      "base_price": 316890,
       "value_score": 41,
       "is_pick": false,
       "badges": [
@@ -3266,6 +3389,33 @@
       "fair_discount": 0.0,
       "base_price": 45990,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "281043",
+        "title": "Сушильный автомат Beko B3T47239",
+        "price": 144990,
+        "old_price": 329990,
+        "url": "https://www.technodom.kz/p/sushilnyj-avtomat-beko-b3t47239-281043",
+        "brand": "Beko",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://api.technodom.kz/f3/api/v1/images/sushilnyj_avtomat_beko_b3t47239_281043_01.webp",
+        "first_seen": "2026-10-20T12:05:08+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "base_price": 144990,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3725,61 +3875,7 @@
       "drop_pct": 53,
       "fair_discount": 0.0,
       "base_price": 199990,
-      "value_score": 24,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "296587",
-        "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
-        "price": 997990,
-        "old_price": 2145990,
-        "url": "https://www.technodom.kz/p/igrovoy-kompyuter-neo-game-103-ar5-7500f-rtx-5060ti-16gb-ddr5-32gb-ssd-1tb-b840m-jonsbo-d200-black-296587",
-        "brand": "Neo",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/296587_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 997990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "280983",
-        "title": "Насадка для вафель Tefal XA-734810 на Optigrill на OptiGrill 2in1",
-        "price": 26990,
-        "old_price": 57990,
-        "url": "https://www.technodom.kz/p/nasadka-dlya-vafel-tefal-xa-734810-280983",
-        "brand": "Tefal",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/nasadka_dlya_vafel_tefal_xa_734810_280983_1.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 26990,
-      "value_score": 33,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3810,114 +3906,6 @@
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "46409",
-        "title": "Телевизор LG 83\" OLED 4K UHD Smart OLED83C5RLA",
-        "price": 1999990,
-        "old_price": 4199990,
-        "url": "https://evrika.com/catalog/televizor-83-lg-oled83c5rla-oled-4k-uhd-smart/p46409",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/jG73wVHadjUFJQ4eFc4MCFFbRYBKuvkzwuIAdnJJ.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 1999990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "44140",
-        "title": "Телевизор LG 75\" QNED 4K UHD Smart 75QNED80A6A",
-        "price": 543990,
-        "old_price": 1134990,
-        "url": "https://evrika.com/catalog/televizor-75-lg-75qned80a6a-qned-4k-uhd-smart/p44140",
-        "brand": null,
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/9H7zjxtVyDZktTI5tdv6iki6WVg6Ha5RxdkNre8U.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 543990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "42597",
-        "title": "Пылесос Tefal TW4B25EA",
-        "price": 59990,
-        "old_price": 124990,
-        "url": "https://evrika.com/catalog/pylesos-tefal-tw4b25ea/p42597",
-        "brand": null,
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/GsfEhTEGRX0FRRnuHcyIrKaE8JsHY82DdwWfMefG.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 59990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47053",
-        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Beige (Soc-L29L) (55020EVQ)",
-        "price": 119990,
-        "old_price": 248990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-beige-soc-l29l-55020evq/p47053",
-        "brand": null,
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/8vmrtkeM8m1oCCcNQNpW4wl90pzfqj5IpjmiZsJ2.jpg.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 119990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 52.0
@@ -3980,6 +3968,62 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1595314",
+        "title": "Тостер Tefal TT330D30, Black-Steel",
+        "price": 18990,
+        "old_price": 31990,
+        "url": "https://shop.kz/offer/toster-tefal-tt330d30-black-steel/",
+        "brand": "Tefal",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://static.shop.kz/upload/iblock/001/se58xk010evrer97vsx4cs0snwf78ovw/171818_TT330D30_200_200_1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 40.6,
+      "base_price": 31990,
+      "value_score": 95,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "265772",
+        "title": "Монитор Игровой 27\" Samsung G4 LS27BG400EIXCI 1920x1080 16:9 IPS 240ГЦ (2HDMI+DP) Black",
+        "price": 53990,
+        "old_price": 89990,
+        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-samsung-g4-ls27bg400eixci-1920x1080-169-ips-240gc-2hdmidp-black-265772",
+        "brand": "Samsung",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://api.technodom.kz/f3/api/v1/images/265772_1q.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 89990,
+      "value_score": 98,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "44900",
         "title": "Смартфон Honor X7d 6/128GB Meteor Silver",
@@ -4011,7 +4055,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57182,
+        "price": 57129,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -4020,11 +4064,11 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-09-18T12:59:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 34.2,
+      "fair_discount": 34.3,
       "base_price": 86890,
       "value_score": 78,
       "is_pick": true,
@@ -4566,6 +4610,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "295646",
+        "title": "Монитор 23,8\" MSI PRO MP242A IPS 1920x1080 16:9 100Гц (HDMI+DP+VGA)",
+        "price": 36990,
+        "old_price": 49990,
+        "url": "https://www.technodom.kz/p/monitor-23-8-msi-pro-mp242a-ips-1920x1080-16-9-100gts-hdmi-dp-vga-295646",
+        "brand": "MSI",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/295646_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 26.0,
+      "base_price": 49990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1663763",
         "title": "Машинка для стрижки волос Wahl Home Pro Deluxe, Silver",
@@ -4605,7 +4676,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-09-18T14:57:58+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -4645,33 +4716,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "641676",
-        "title": "Смартфон Honor X7d 6/128GB Meteor Silver",
-        "price": 99490,
-        "old_price": 129990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-x7d-6128gb-meteor-silver",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7178_0_1_nLmph1_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 23.5,
-      "base_price": 129990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -4727,6 +4771,33 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 10.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1698872",
+        "title": "Компьютер игровой WW-KZ (Intel Core i3-12100F, RTX 3050 8 GB, 512 GB SSD, 16 GB DDR-4)",
+        "price": 454990,
+        "old_price": 478790,
+        "url": "https://shop.kz/offer/kompyuter-igrovoy-ww-kz-intel-core-i3-12100f-rtx-3050-8-gb-512-gb-ssd-16-gb-ddr-4/",
+        "brand": "Белый Ветер",
+        "category": "Настольные компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 5,
+        "image": "https://static.shop.kz/upload/iblock/30f/eywhcidu6uushh3dtvmfw6eaan04t7w7/187679n200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 5,
+      "fair_discount": 22.2,
+      "base_price": 584590,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -17.2
     },
     {
       "product": {
@@ -4796,7 +4867,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_344_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-09-18T12:59:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -4808,60 +4879,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "641675",
-        "title": "Смартфон Honor X7d 6/128GB Velvet Black",
-        "price": 103290,
-        "old_price": 129990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-honor-x7d-6128gb-velvet-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7177_0_1_Edf7Nj_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 20.5,
-      "base_price": 129990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652392",
-        "title": "Смартфон Honor 600 Lite 8/256GB Velvet Black",
-        "price": 206890,
-        "old_price": 279990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-lite-8256gb-velvet-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12572_0_6_okDJ0G_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 20.4,
-      "base_price": 259990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.6
     },
     {
       "product": {
@@ -4975,33 +4992,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "652394",
-        "title": "Смартфон Honor 600 Lite 8/256GB Desert Gold",
-        "price": 209990,
-        "old_price": 279990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-lite-8256gb-desert-gold",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12574_0_6_1mm5ah_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 19.2,
-      "base_price": 259990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.8
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "3000028749",
         "title": "Гарнитура Jabra Evolve2 30 SE USB C/A MS Stereo 23189-999-779",
         "price": 47832,
@@ -5013,7 +5003,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2506_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-10-05T15:07:15+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -5082,33 +5072,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652401",
-        "title": "Смартфон Honor 600 Pro 12/512GB Black",
-        "price": 470990,
-        "old_price": 579990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-pro-12512gb-black",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12581_0_1_uIFd2n_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.8,
-      "base_price": 579990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -5364,29 +5327,30 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "650327",
-        "title": "Смартфон Honor X8d 8/256GB Velvet Black",
-        "price": 179990,
-        "old_price": 219990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-x8d-8256gb-velvet-black",
-        "brand": "HONOR",
+        "sku": "641880",
+        "title": "Смартфон Apple iPhone 17 Pro 12/512GB Cosmic Orange",
+        "price": 752990,
+        "old_price": 962990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-apple-iphone-17-pro-512gb-cosmic-orange-mg8m4hxa",
+        "brand": "Apple",
         "category": null,
         "group": "phones",
         "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7568_0_1_EFQu3s_160.webp",
+        "discount_pct": 22,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7222_0_1_RNBZFL_160.webp",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 18,
+      "drop_pct": 22,
       "fair_discount": 18.2,
-      "base_price": 219990,
-      "value_score": 61,
+      "base_price": 920990,
+      "value_score": 65,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Честная скидка",
+        "Топ-Бренд"
       ],
-      "inflated_gap": -0.2
+      "inflated_gap": 3.8
     },
     {
       "product": {
@@ -5414,33 +5378,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654299",
-        "title": "Смартфон Vivo Y11d 4/128GB Black",
-        "price": 90190,
-        "old_price": 119990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-vivo-y11d-4128gb-black",
-        "brand": "Vivo",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12940_0_1_aIWqrS_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 18.0,
-      "base_price": 109990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.0
     },
     {
       "product": {
@@ -5556,33 +5493,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "654300",
-        "title": "Смартфон Vivo Y11d 4/128GB Platinum",
-        "price": 90690,
-        "old_price": 119990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-vivo-y11d-4128gb-platinum",
-        "brand": "Vivo",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12941_0_1_61rSqO_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 17.5,
-      "base_price": 109990,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "654803",
         "title": "Ноутбук Acer Nitro V15 ANV15-52 Core 5 210H 8GB / SSD 512GB / RTX 5050 8GB / NO OS / NH.QZ7ER.00A",
         "price": 659990,
@@ -5594,7 +5504,7 @@
         "in_stock": true,
         "discount_pct": 18,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9884_0_6_nWjD53_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-09-18T12:59:42+00:00"
       },
       "signal": "drop",
       "drop_pct": 18,
@@ -5637,29 +5547,83 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "652403",
-        "title": "Смартфон Honor 600 Pro 12/512GB Orange",
-        "price": 481990,
-        "old_price": 579990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-pro-12512gb-orange",
-        "brand": "HONOR",
+        "sku": "654978",
+        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Isle Blue",
+        "price": 314901,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-isle-blue",
+        "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12583_0_1_LkA2pI_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13020_0_1_dTOUzA_160.webp",
+        "first_seen": "2026-09-25T14:13:50+00:00"
       },
       "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 16.9,
-      "base_price": 579990,
-      "value_score": 58,
+      "drop_pct": null,
+      "fair_discount": 17.1,
+      "base_price": 379890,
+      "value_score": 59,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 0.1
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654979",
+        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Breathing Crystal",
+        "price": 314901,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-breathing-crystal",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13021_0_1_A0KmGJ_160.webp",
+        "first_seen": "2026-09-25T14:13:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 17.1,
+      "base_price": 379890,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654980",
+        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Starry Black",
+        "price": 314901,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-starry-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13022_0_1_lweqvG_160.webp",
+        "first_seen": "2026-10-05T15:07:15+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 17.1,
+      "base_price": 379890,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -5690,30 +5654,30 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "652397",
-        "title": "Смартфон Honor 600 8/256GB Orange",
-        "price": 306990,
-        "old_price": 379990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-600-8256gb-orange",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
+        "shop": "shopkz",
+        "sku": "1667435",
+        "title": "Компьютер офисный WW-KZ (Intel Core i5 12400/500 GB SSD)",
+        "price": 286390,
+        "old_price": 301690,
+        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-intel-core-i5-12400-500-gb-ssd/",
+        "brand": "Белый Ветер",
+        "category": "Настольные компьютеры",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12577_0_1_r2xeN8_160.webp",
+        "discount_pct": 5,
+        "image": "https://static.shop.kz/upload/iblock/d41/lrslateym7x4di3o2259pc2afa2gcx3l/182822o200.jpg",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 16.7,
-      "base_price": 368590,
-      "value_score": 58,
+      "drop_pct": 5,
+      "fair_discount": 16.5,
+      "base_price": 343090,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 2.3
+      "inflated_gap": -11.5
     },
     {
       "product": {
@@ -5741,6 +5705,34 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "625765",
+        "title": "Смарт-часы Apple Watch Series 10 GPS 42mm Jet Black Al Case with Black Sport Band - S/M",
+        "price": 199990,
+        "old_price": 289990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-mwwe3qia-series-10-gps-42mm-jet-black-al-case-with-black-sport-band-sm",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1133_0_1_YJdvme_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 16.3,
+      "base_price": 238990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 14.7
     },
     {
       "product": {
@@ -5795,6 +5787,62 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "641889",
+        "title": "Смартфон Apple iPhone 17 Pro Max 12/512GB Cosmic Orange",
+        "price": 834990,
+        "old_price": 1035990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-apple-iphone-17-pro-max-512gb-cosmic-orange-mfyt4hxa",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7231_0_1_rIx9HQ_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 16.1,
+      "base_price": 994990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 2.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "641887",
+        "title": "Смартфон Apple iPhone 17 Pro Max 12/256GB Deep Blue",
+        "price": 699990,
+        "old_price": 871990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-apple-iphone-17-pro-max-256gb-deep-blue-mfyp4hxa",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7229_0_1_fF2Gpp_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 15.8,
+      "base_price": 830990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 4.2
     },
     {
       "product": {
@@ -5907,6 +5955,87 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "641681",
+        "title": "Смартфон Vivo V60 12/512GB Mist Gray",
+        "price": 304890,
+        "old_price": 359990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-vivo-v60-12512gb-mist-gray",
+        "brand": "Vivo",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7183_0_1_dx7pCf_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.3,
+      "base_price": 359990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000040824",
+        "title": "Гарнитура Razer Blackshark V2 HyperSpeed",
+        "price": 67791,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-83-3909",
+        "brand": "Razer",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3909_0_1_N583pX_160.webp",
+        "first_seen": "2026-09-18T12:59:42+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.3,
+      "base_price": 79990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654982",
+        "title": "Смартфон Huawei Nova 16s Pro 12/256GB Breathing Crystal",
+        "price": 287901,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12256gb-breathing-crystal",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13024_0_1_dnVajt_160.webp",
+        "first_seen": "2026-09-25T14:13:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.2,
+      "base_price": 339390,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "291867",
         "title": "Смартфон Samsung Galaxy Z Fold7 5G 12/256Gb Silver shadow",
@@ -5987,6 +6116,31 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1703882",
+        "title": "Морозильная камера Бирюса 514, White",
+        "price": 115500,
+        "old_price": null,
+        "url": "https://shop.kz/offer/morozilnaya-kamera-biryusa-514-white/",
+        "brand": "Бирюса",
+        "category": "Морозильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/778/0syhmnyapb1kqddttm2kz9jj8c9pydin/189724n200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.6,
+      "base_price": 135300,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6170,31 +6324,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1710761",
-        "title": "Отпариватель Scarlett SC-GS130S39, White",
-        "price": 42200,
-        "old_price": 47990,
-        "url": "https://shop.kz/offer/otparivatel-scarlett-sc-gs130s39-white/",
-        "brand": "Scarlett",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://static.shop.kz/upload/iblock/18c/39nmg1dfwvhpnob1n5s5mlmwr6x5q4vz/192575s1.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 12.1,
-      "base_price": 47990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1469843",
         "title": "Парогенератор Ufesa PL2650 Space Healthy, White-Red",
         "price": 45590,
@@ -6243,6 +6372,31 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 5.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1703870",
+        "title": "Холодильник Бирюса 418, White",
+        "price": 121000,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-418-white/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/313/xs9hbgg6c8rl7fhj5ho93pb1qqh7vtki/189726e1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 11.5,
+      "base_price": 136700,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6300,6 +6454,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "283347",
+        "title": "Монитор Игровой 24\" LG 24GS60F-B 1920x1080 16:9 IPS 180ГЦ (HDMI+DP) Black",
+        "price": 55990,
+        "old_price": 62990,
+        "url": "https://www.technodom.kz/p/monitor-igrovoj-24-lg-24gs60f-b-1920x1080-169-ips-180gc-hdmidp-black-283347",
+        "brand": "LG",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 11,
+        "image": "https://api.technodom.kz/f3/api/v1/images/monitor_igrovoj_24_lg_24gs60f_b_1920x1080_169_ips_180gc_hdmidp_black_283347_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 11,
+      "fair_discount": 11.1,
+      "base_price": 62990,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1451219",
         "title": "Ручной пылесос Deerma VC20 Pro, Blue",
@@ -6322,6 +6503,31 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 2.3
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1672406",
+        "title": "Холодильник Бирюса 6149, White",
+        "price": 185100,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-6149-white/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/984/zjodgzpljb31t52ewa5fusso15sf241p/184377s200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 10.4,
+      "base_price": 206700,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6403,52 +6609,102 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1701971",
-        "title": "Блендер-пароварка Kitfort КТ-2320, White",
-        "price": 28590,
-        "old_price": 31390,
-        "url": "https://shop.kz/offer/blender-parovarka-kitfort-kt-2320-white/",
-        "brand": "Kitfort",
-        "category": "Блендеры",
-        "group": "kitchen",
+        "sku": "1562403",
+        "title": "Компьютер офисный WW-KZ (Intel Core i3 12100/512GB SSD)",
+        "price": 219990,
+        "old_price": 236990,
+        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-intel-core-i3-12100-512gb-ssd/",
+        "brand": "Белый Ветер",
+        "category": "Настольные компьютеры",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 9,
-        "image": "https://static.shop.kz/upload/iblock/ecc/j7q1gfc6zc3q4ncp9l5qnxcga4pkyarv/188955e1.jpg",
+        "discount_pct": 7,
+        "image": "https://static.shop.kz/upload/iblock/1d7/dsbj2284z3g7cyb6yks8xz6c77mz47r2/168183_01.jpg",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 9,
-      "fair_discount": 8.9,
-      "base_price": 31390,
-      "value_score": 41,
+      "drop_pct": 7,
+      "fair_discount": 9.9,
+      "base_price": 244290,
+      "value_score": 42,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 0.1
+      "inflated_gap": -2.9
     },
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1693934",
-        "title": "Гриль Kitfort КТ-1687, Black",
-        "price": 56500,
-        "old_price": 61990,
-        "url": "https://shop.kz/offer/gril-kitfort-kt-1687-black/",
-        "brand": "Kitfort",
-        "category": "Тостеры, гриль",
+        "sku": "1671572",
+        "title": "Холодильник Бирюса 6134, White",
+        "price": 145300,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-6134-white/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 9,
-        "image": "https://static.shop.kz/upload/iblock/825/38oyp21el3j85r5tx6rzo14xse4qrm75/186027o200.jpg",
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/a59/q3y1dnc1xr3x7hpx0ogyllm3nqhyzp7e/184381s200.jpg",
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 9,
-      "fair_discount": 8.9,
-      "base_price": 61990,
+      "drop_pct": null,
+      "fair_discount": 9.4,
+      "base_price": 160400,
       "value_score": 41,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 0.1
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1723481",
+        "title": "Морозильная камера Бирюса 6147NF, White",
+        "price": 199900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/morozilnaya-kamera-biryusa-6147nf-white/",
+        "brand": "Бирюса",
+        "category": "Морозильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/97d/fkclxcb4jfc81yb2qw2mdu4p8fpedc48/196965d1.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.3,
+      "base_price": 220500,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1671554",
+        "title": "Холодильник Бирюса 6127, White",
+        "price": 173900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-6127-white/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/21a/3bbzx0zx5kf68nh67v0pl6nfbw52dayn/184378s200.jpg",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.3,
+      "base_price": 191800,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6524,33 +6780,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1701512",
-        "title": "Смарт-браслет Xiaomi Smart Band 10 (M2459B1), Midnight Black",
-        "price": 23690,
-        "old_price": 26990,
-        "url": "https://shop.kz/offer/smart-braslet-xiaomi-smart-band-10-m2459b1-midnight-black/",
-        "brand": "Xiaomi",
-        "category": "Фитнес-браслеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://static.shop.kz/upload/iblock/0a0/pzj2lyekw6atuzjj37967ev45w22mhyx/188781n200.jpg",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 7.8,
-      "base_price": 25690,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 4.2
     }
   ],
   "shops": [
@@ -6564,42 +6793,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-23T07:57:34+00:00",
+      "last_crawl": "2026-10-23T13:49:06+00:00",
       "item_count": 2685,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-23T07:57:34+00:00",
-      "item_count": 12218,
+      "last_crawl": "2026-10-23T13:49:06+00:00",
+      "item_count": 12232,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-23T07:57:34+00:00",
-      "item_count": 3747,
+      "last_crawl": "2026-10-23T13:49:06+00:00",
+      "item_count": 3715,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-23T07:57:34+00:00",
-      "item_count": 9554,
+      "last_crawl": "2026-10-23T13:49:06+00:00",
+      "item_count": 9567,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-23T07:57:34+00:00",
-      "item_count": 238,
+      "last_crawl": "2026-10-23T13:49:06+00:00",
+      "item_count": 239,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28442,
-    "total_deals": 247,
-    "avg_discount": 53
+    "total_products": 28438,
+    "total_deals": 256,
+    "avg_discount": 52.5
   }
 }
