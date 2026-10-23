@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T13:49:29.286250+00:00",
+  "updated_at": "2026-10-23T18:57:22.162757+00:00",
   "deals": [
     {
       "product": {
@@ -1325,31 +1325,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "285606",
-        "title": "Процессор AMD Ryzen 7 7800X3D (C8/T16, (512K L1, 8M L2, 96M L3 Cache) 4.2 up to 5GHz) AM5 OEM",
-        "price": 121990,
-        "old_price": 262990,
-        "url": "https://www.technodom.kz/product/processor-amd-ryzen-7-7800x3d-c8t16-512k-l1-8m-l2-96m-l3-cache-42-5ghz-am5-oem-285606",
-        "brand": "AMD",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": null,
-        "first_seen": "2026-09-18T14:57:58+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 23,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1728374",
         "title": "Утюг Redmond RI-C268, Black (SN:2581024044826)",
@@ -2547,7 +2522,7 @@
       "drop_pct": 67,
       "fair_discount": 0.0,
       "base_price": 191990,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3884,6 +3859,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "296587",
+        "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
+        "price": 997990,
+        "old_price": 2145990,
+        "url": "https://www.technodom.kz/p/igrovoy-kompyuter-neo-game-103-ar5-7500f-rtx-5060ti-16gb-ddr5-32gb-ssd-1tb-b840m-jonsbo-d200-black-296587",
+        "brand": "Neo",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296587_1.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 997990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "641701",
         "title": "QNED телевизор LG 55QNED92A6A",
@@ -4049,34 +4051,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "619895",
-        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 57129,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
-        "first_seen": "2026-09-18T12:59:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 34.3,
-      "base_price": 86890,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -4391,6 +4365,35 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "3000046394",
+        "title": "Наушники Xiaomi Buds 4 Белый",
+        "price": 84165,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4323",
+        "brand": "Xiaomi",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
+        "first_seen": "2026-09-18T19:24:20+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 28.1,
+      "base_price": 116989,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "636834",
         "title": "Смартфон Samsung Galaxy Z Flip7 5G 12/256GB Jet Black RDU (Витрина)",
         "price": 389890,
@@ -4664,61 +4667,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000046394",
-        "title": "Наушники Xiaomi Buds 4 Белый",
-        "price": 87989,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4323",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
-        "first_seen": "2026-09-18T14:57:58+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.8,
-      "base_price": 116989,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "634717",
-        "title": "Гарнитура Jabra Evolve2 55 Link380с MS Stereo 25599-999-899",
-        "price": 93884,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3482",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3482_2_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.1,
-      "base_price": 123700,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1570080",
         "title": "Электробритва Panasonic ES-RT37S520, Blue-Silver",
@@ -4774,6 +4722,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "653214",
+        "title": "Стиральная машина под раковину Haier HW50-BP1026S",
+        "price": 189990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw50-bp1026s",
+        "brand": "Haier",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1815_0_1_9vSGkK_160.webp",
+        "first_seen": "2026-10-10T19:01:09+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 22.4,
+      "base_price": 244990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1698872",
         "title": "Компьютер игровой WW-KZ (Intel Core i3-12100F, RTX 3050 8 GB, 512 GB SSD, 16 GB DDR-4)",
@@ -4819,7 +4794,7 @@
       "drop_pct": 22,
       "fair_discount": 22.2,
       "base_price": 35990,
-      "value_score": 53,
+      "value_score": 50,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -4858,7 +4833,7 @@
         "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 201202,
+        "price": 201192,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
         "brand": "XG",
@@ -4867,7 +4842,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_344_0_2_160.webp",
-        "first_seen": "2026-09-18T12:59:42+00:00"
+        "first_seen": "2026-09-18T19:24:20+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -4894,7 +4869,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4037_0_2_160.webp",
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-09-18T23:04:17+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -4928,6 +4903,33 @@
       "fair_discount": 20.0,
       "base_price": 74990,
       "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "641523",
+        "title": "Планшет HUAWEI MatePad 11.5&quot; 2025 Taoxingzhi-W09FK 8/256GB Violet",
+        "price": 182377,
+        "old_price": 227890,
+        "url": "https://www.sulpak.kz/g/planshetiy-huawei-taoxingzhi-w09fk-matepad-115-papermatte-inbox-keyboard-8gb-256gb-violet",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1727_0_1_QQTZG9_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 20.0,
+      "base_price": 227890,
+      "value_score": 64,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -4988,33 +4990,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 12.8
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000028749",
-        "title": "Гарнитура Jabra Evolve2 30 SE USB C/A MS Stereo 23189-999-779",
-        "price": 47832,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-2506",
-        "brand": "Jabra",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2506_0_2_160.webp",
-        "first_seen": "2026-10-05T15:07:15+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.9,
-      "base_price": 59000,
-      "value_score": 56,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -5504,7 +5479,7 @@
         "in_stock": true,
         "discount_pct": 18,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9884_0_6_nWjD53_160.webp",
-        "first_seen": "2026-09-18T12:59:42+00:00"
+        "first_seen": "2026-09-18T19:24:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 18,
@@ -5549,7 +5524,7 @@
         "shop": "sulpak",
         "sku": "654978",
         "title": "Смартфон Huawei Nova 16s Pro 12/512GB Isle Blue",
-        "price": 314901,
+        "price": 314900,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-isle-blue",
         "brand": "HUAWEI",
@@ -5576,7 +5551,7 @@
         "shop": "sulpak",
         "sku": "654979",
         "title": "Смартфон Huawei Nova 16s Pro 12/512GB Breathing Crystal",
-        "price": 314901,
+        "price": 314900,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-breathing-crystal",
         "brand": "HUAWEI",
@@ -5603,7 +5578,7 @@
         "shop": "sulpak",
         "sku": "654980",
         "title": "Смартфон Huawei Nova 16s Pro 12/512GB Starry Black",
-        "price": 314901,
+        "price": 314900,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-starry-black",
         "brand": "HUAWEI",
@@ -5983,36 +5958,9 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000040824",
-        "title": "Гарнитура Razer Blackshark V2 HyperSpeed",
-        "price": 67791,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-83-3909",
-        "brand": "Razer",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3909_0_1_N583pX_160.webp",
-        "first_seen": "2026-09-18T12:59:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.3,
-      "base_price": 79990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "654982",
         "title": "Смартфон Huawei Nova 16s Pro 12/256GB Breathing Crystal",
-        "price": 287901,
+        "price": 287900,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12256gb-breathing-crystal",
         "brand": "HUAWEI",
@@ -6216,6 +6164,56 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654981",
+        "title": "Смартфон Huawei Nova 16s Pro 12/256GB Isle Blue",
+        "price": 287900,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12256gb-isle-blue",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13023_0_1_K1G9NH_160.webp",
+        "first_seen": "2026-09-25T14:13:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.0,
+      "base_price": 334890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654983",
+        "title": "Смартфон Huawei Nova 16s Pro 12/256GB Starry Black",
+        "price": 287900,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12256gb-starry-black",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13025_0_1_Rhc9q1_160.webp",
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.0,
+      "base_price": 334890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6793,41 +6791,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-23T13:49:06+00:00",
-      "item_count": 2685,
+      "last_crawl": "2026-10-23T18:57:05+00:00",
+      "item_count": 2682,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-23T13:49:06+00:00",
+      "last_crawl": "2026-10-23T18:57:05+00:00",
       "item_count": 12232,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-23T13:49:06+00:00",
-      "item_count": 3715,
+      "last_crawl": "2026-10-23T18:57:05+00:00",
+      "item_count": 3753,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-23T13:49:06+00:00",
-      "item_count": 9567,
+      "last_crawl": "2026-10-23T18:57:05+00:00",
+      "item_count": 9560,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-23T13:49:06+00:00",
-      "item_count": 239,
+      "last_crawl": "2026-10-23T18:57:05+00:00",
+      "item_count": 241,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28438,
+    "total_products": 28468,
     "total_deals": 256,
     "avg_discount": 52.5
   }
