@@ -7,11 +7,10 @@
 	import DealCard from '$lib/components/DealCard.svelte';
 	import SkeletonCard from '$lib/components/SkeletonCard.svelte';
 	import { shopLabel, groupLabel } from '$lib/utils/format';
-	import { verdictOf, realRank, VERDICT_LABELS, type VerdictKind } from '$lib/utils/verdict';
-	import { byNovelty } from '$lib/utils/novelty';
+	import { verdictOf, VERDICT_LABELS, type VerdictKind } from '$lib/utils/verdict';
+	import { bySortKey, SORT_LABELS, type SortKey } from '$lib/utils/sort';
 	import { Search, X, SlidersHorizontal, ArrowUpDown, Heart, ChevronDown } from '@lucide/svelte';
 
-	type SortKey = 'real' | 'new' | 'claimed' | 'price' | 'price_desc' | 'title';
 	type VerdictFilter = 'all' | 'real' | VerdictKind;
 	const SORTS: SortKey[] = ['real', 'new', 'claimed', 'price', 'price_desc', 'title'];
 	const VERDICT_FILTERS: VerdictFilter[] = ['all', 'real', 'honest', 'inflated', 'painted', 'unknown'];
@@ -73,14 +72,6 @@
 		{ value: '200000', label: 'до 200 тыс.' },
 		{ value: '500000', label: 'до 500 тыс.' }
 	];
-	const SORT_LABELS: Record<SortKey, string> = {
-		real: 'Реальная выгода',
-		new: 'Сначала новинки',
-		claimed: 'Скидка на ценнике',
-		price: 'Сначала дешевле',
-		price_desc: 'Сначала дороже',
-		title: 'По названию'
-	};
 	const FILTER_LABELS: Record<VerdictFilter, string> = {
 		all: 'Все',
 		real: 'Реально подешевело',
@@ -123,14 +114,7 @@
 	});
 	let filtered = $derived.by(() => {
 		const rows = base.filter((d) => matchesVerdict(verdictOf(d).kind, verdictFilter));
-		return rows.sort((a, b) => {
-			if (sort === 'new') return byNovelty(a, b);
-			if (sort === 'price') return a.product.price - b.product.price;
-			if (sort === 'price_desc') return b.product.price - a.product.price;
-			if (sort === 'title') return a.product.title.localeCompare(b.product.title, 'ru');
-			if (sort === 'claimed') return (b.drop_pct ?? 0) - (a.drop_pct ?? 0);
-			return realRank(b) - realRank(a);
-		});
+		return rows.sort(bySortKey(sort));
 	});
 	let visible = $derived(filtered.slice(0, limit));
 

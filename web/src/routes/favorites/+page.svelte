@@ -3,9 +3,19 @@
 	import { dashboard } from '$lib/stores/data.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
 	import DealCard from '$lib/components/DealCard.svelte';
-	import { Heart, Trash2, ArrowRight, ShoppingBag } from '@lucide/svelte';
+	import { bySortKey, SORT_LABELS, type SortKey } from '$lib/utils/sort';
+	import { Heart, Trash2, ArrowRight, ShoppingBag, ArrowUpDown, ChevronDown } from '@lucide/svelte';
 
-	let favDeals = $derived(dashboard.deals.filter(d => favorites.has(`${d.product.shop}:${d.product.sku}`)));
+	// Порядок каталога («Скидка на ценнике») — по умолчанию; «Сначала новинки»
+	// показывает, что появилось в мониторинге последним.
+	const SORTS: SortKey[] = ['claimed', 'new', 'real', 'price', 'price_desc', 'title'];
+	let sort = $state<SortKey>('claimed');
+
+	let favDeals = $derived(
+		dashboard.deals
+			.filter((d) => favorites.has(`${d.product.shop}:${d.product.sku}`))
+			.sort(bySortKey(sort))
+	);
 	let missing = $derived(Math.max(0, favorites.count - favDeals.length));
 
 	function copyList() {
@@ -24,6 +34,13 @@
 	</div>
 	{#if favDeals.length}
 		<div class="flex gap-2">
+			<label class="select-wrap">
+				<ArrowUpDown size={14} />
+				<select aria-label="Сортировка" bind:value={sort}>
+					{#each SORTS as key (key)}<option value={key}>{SORT_LABELS[key]}</option>{/each}
+				</select>
+				<ChevronDown size={14} />
+			</label>
 			<button onclick={copyList} class="h-10 px-4 rounded-full text-sm font-semibold" style="background:var(--surface); border:1px solid var(--line); color:var(--ink-2)">Копировать ссылки</button>
 			<button onclick={() => favorites.clear()} class="h-10 px-4 rounded-full text-sm font-semibold inline-flex items-center gap-1.5" style="background:var(--accent-2); border:1px solid color-mix(in srgb, var(--accent) 18%, transparent); color:var(--accent)"><Trash2 size={14} /> Очистить</button>
 		</div>
