@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T23:32:31.055472+00:00",
+  "updated_at": "2026-10-24T05:02:28.194436+00:00",
   "deals": [
     {
       "product": {
@@ -378,6 +378,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728365",
+        "title": "Утюг Panasonic NI-W900CMTW, White-Green (SN:HAL-G001057941)",
+        "price": 19990,
+        "old_price": 52590,
+        "url": "https://shop.kz/offer/utyug-panasonic-ni-w900cmtw-white-green-sn-hal-g001057941/",
+        "brand": "Panasonic",
+        "category": "Утюги, отпариватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://static.shop.kz/upload/iblock/820/0n8hmkuek222mg49r0fmhzg1oywn9ob1/110797o1.jpg",
+        "first_seen": "2026-10-21T14:09:58+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -997,31 +1022,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1728365",
-        "title": "Утюг Panasonic NI-W900CMTW, White-Green (SN:HAL-G001057941)",
-        "price": 19990,
-        "old_price": 45500,
-        "url": "https://shop.kz/offer/utyug-panasonic-ni-w900cmtw-white-green-sn-hal-g001057941/",
-        "brand": "Panasonic",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://static.shop.kz/upload/iblock/820/0n8hmkuek222mg49r0fmhzg1oywn9ob1/110797o1.jpg",
-        "first_seen": "2026-10-21T14:09:58+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1728368",
         "title": "Утюг Redmond RI-C260, Violet-Black (SN:190823001754)",
         "price": 15990,
@@ -1149,18 +1149,18 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1728422",
-        "title": "Кофеварка Centek CT-1145, Steel-Black (SN:Y23011145001503)",
-        "price": 13990,
-        "old_price": 31190,
-        "url": "https://shop.kz/offer/kofevarka-centek-ct-1145-steel-black-sn-y23011145001503/",
-        "brand": "Centek",
-        "category": "Кофеварки, кофемашины",
+        "sku": "1728554",
+        "title": "Тостер Redmond RT-430, Black (SN:3630923000957)",
+        "price": 14990,
+        "old_price": 32990,
+        "url": "https://shop.kz/offer/toster-redmond-rt-430-black-sn-3630923000957/",
+        "brand": "REDMOND",
+        "category": "Тостеры, гриль",
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 55,
-        "image": "https://static.shop.kz/upload/iblock/435/2w0boxcjux2vd4ga56te74r3n4abfknw/167034o1.jpg",
-        "first_seen": "2026-10-22T17:43:30+00:00"
+        "image": "https://static.shop.kz/upload/iblock/34e/hdd8dar7xuo9wf59gb6ype769q581lyf/176469d1.jpg",
+        "first_seen": "2026-10-24T05:02:06+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -1908,6 +1908,31 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1728422",
+        "title": "Кофеварка Centek CT-1145, Steel-Black (SN:Y23011145001503)",
+        "price": 13990,
+        "old_price": 28900,
+        "url": "https://shop.kz/offer/kofevarka-centek-ct-1145-steel-black-sn-y23011145001503/",
+        "brand": "Centek",
+        "category": "Кофеварки, кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://static.shop.kz/upload/iblock/435/2w0boxcjux2vd4ga56te74r3n4abfknw/167034o1.jpg",
+        "first_seen": "2026-10-22T17:43:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1450237",
         "title": "Пылесос хозяйственный Karcher WD 3 P S V-17/4/20, Yellow, 1.628-191.0, (розетка, стальной корпус, 17 л, 1000 Вт)",
@@ -2279,6 +2304,31 @@
         "discount_pct": 47,
         "image": "https://static.shop.kz/upload/iblock/ed8/qbmtgxm7xevxlc8g19c3zyzq583h0fzy/179166o1.jpg",
         "first_seen": "2026-10-23T07:57:34+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728560",
+        "title": "Тостер Russell Hobbs 21644-56, Grey (SN:3362214)",
+        "price": 15990,
+        "old_price": 29990,
+        "url": "https://shop.kz/offer/toster-russell-hobbs-21644-56-grey-sn-3362214/",
+        "brand": "Russell Hobbs",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://static.shop.kz/upload/iblock/89a/ssuyore9yuo7090pzb5v3r5uc35og8h1/174513d1.jpg",
+        "first_seen": "2026-10-24T05:02:06+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -2685,7 +2735,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 19297,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3804,33 +3854,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "218262",
-        "title": "Сэндвич-тостер Moulinex Break time SW-611812",
-        "price": 39990,
-        "old_price": 86990,
-        "url": "https://www.technodom.kz/p/sendvich-toster-moulinex-sw-611812-218262",
-        "brand": "Moulinex",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://api.technodom.kz/f3/api/v1/images/611812_3a.webp",
-        "first_seen": "2026-09-19T05:04:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 0.0,
-      "base_price": 39990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 54.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "622202",
         "title": "Комбинированная плита Gorenje GK6A20WF",
@@ -3850,33 +3873,6 @@
       "fair_discount": 0.0,
       "base_price": 199990,
       "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "296587",
-        "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
-        "price": 997990,
-        "old_price": 2145990,
-        "url": "https://www.technodom.kz/p/igrovoy-kompyuter-neo-game-103-ar5-7500f-rtx-5060ti-16gb-ddr5-32gb-ssd-1tb-b840m-jonsbo-d200-black-296587",
-        "brand": "Neo",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/296587_1.webp",
-        "first_seen": "2026-09-19T05:04:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 997990,
-      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4639,6 +4635,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "637432",
+        "title": "Блендер MX-EP3111WTQ",
+        "price": 24590,
+        "old_price": 32990,
+        "url": "https://www.sulpak.kz/g/blenderiy-stacionarniye-panasonic-mx-ep3111wtq",
+        "brand": "Panasonic",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_296_0_1_UMxv8h_160.webp",
+        "first_seen": "2026-09-19T05:04:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.5,
+      "base_price": 32990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1663763",
         "title": "Машинка для стрижки волос Wahl Home Pro Deluxe, Silver",
@@ -4718,33 +4741,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 10.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "653214",
-        "title": "Стиральная машина под раковину Haier HW50-BP1026S",
-        "price": 189990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw50-bp1026s",
-        "brand": "Haier",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1815_0_1_9vSGkK_160.webp",
-        "first_seen": "2026-10-10T19:01:09+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 22.4,
-      "base_price": 244990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -4832,7 +4828,7 @@
         "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 201202,
+        "price": 201192,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
         "brand": "XG",
@@ -4886,7 +4882,7 @@
         "shop": "sulpak",
         "sku": "641523",
         "title": "Планшет HUAWEI MatePad 11.5&quot; 2025 Taoxingzhi-W09FK 8/256GB Violet",
-        "price": 182377,
+        "price": 182368,
         "old_price": 227890,
         "url": "https://www.sulpak.kz/g/planshetiy-huawei-taoxingzhi-w09fk-matepad-115-papermatte-inbox-keyboard-8gb-256gb-violet",
         "brand": "HUAWEI",
@@ -5494,33 +5490,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "654978",
-        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Isle Blue",
-        "price": 314900,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-isle-blue",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13020_0_1_dTOUzA_160.webp",
-        "first_seen": "2026-09-25T14:13:50+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 17.1,
-      "base_price": 379890,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "654979",
         "title": "Смартфон Huawei Nova 16s Pro 12/512GB Breathing Crystal",
         "price": 314900,
@@ -5983,6 +5952,31 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "654978",
+        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Isle Blue",
+        "price": 314900,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-isle-blue",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13020_0_1_dTOUzA_160.webp",
+        "first_seen": "2026-09-25T14:13:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.5,
+      "base_price": 368490,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1708754",
         "title": "Bluetooth гарнитура HyperX Cloud III S Wireless, Black-Red",
@@ -6267,7 +6261,7 @@
         "shop": "sulpak",
         "sku": "632698",
         "title": "Робот-пылесос Trouver Trouver P50 Pro Ultra",
-        "price": 322061,
+        "price": 322009,
         "old_price": 449990,
         "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-trouver-trouver-p50-pro-ultra",
         "brand": "Trouver",
@@ -6288,6 +6282,56 @@
         "Рисованная?"
       ],
       "inflated_gap": 16.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1702364",
+        "title": "Компьютер офисный WW-KZ (AMD Athlon PRO 300GE, 256 GB SSD, 8 GB)",
+        "price": 136990,
+        "old_price": 144790,
+        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-amd-athlon-pro-300ge-256-gb-ssd-8-gb/",
+        "brand": "Белый Ветер",
+        "category": "Настольные компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 5,
+        "image": "https://static.shop.kz/upload/iblock/e40/33q84n0pugk4whwvi00crdigv1rb3qty/188995o200.jpg",
+        "first_seen": "2026-09-19T05:04:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 5,
+      "fair_discount": 11.9,
+      "base_price": 155490,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -6.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653214",
+        "title": "Стиральная машина под раковину Haier HW50-BP1026S",
+        "price": 189990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw50-bp1026s",
+        "brand": "Haier",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1815_0_1_9vSGkK_160.webp",
+        "first_seen": "2026-10-10T19:01:09+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 11.6,
+      "base_price": 214990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6601,33 +6645,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "649809",
-        "title": "Стиральная машина Haier HW60-BP1227",
-        "price": 139990,
-        "old_price": 189990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw60-bp1227",
-        "brand": "Haier",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1692_0_1_4RpAT6_160.webp",
-        "first_seen": "2026-09-19T05:04:50+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 9.7,
-      "base_price": 154990,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 16.3
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1671572",
         "title": "Холодильник Бирюса 6134, White",
@@ -6671,31 +6688,6 @@
       "drop_pct": null,
       "fair_discount": 9.3,
       "base_price": 220500,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1671554",
-        "title": "Холодильник Бирюса 6127, White",
-        "price": 173900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/kholodilnik-biryusa-6127-white/",
-        "brand": "Бирюса",
-        "category": "Холодильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/21a/3bbzx0zx5kf68nh67v0pl6nfbw52dayn/184378s200.jpg",
-        "first_seen": "2026-09-19T05:04:50+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 9.3,
-      "base_price": 191800,
       "value_score": 41,
       "is_pick": false,
       "badges": [],
@@ -6788,42 +6780,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-23T23:32:10+00:00",
+      "last_crawl": "2026-10-24T05:02:06+00:00",
       "item_count": 2682,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-23T23:32:10+00:00",
-      "item_count": 12232,
+      "last_crawl": "2026-10-24T05:02:06+00:00",
+      "item_count": 12234,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-23T23:32:10+00:00",
-      "item_count": 3732,
+      "last_crawl": "2026-10-24T05:02:06+00:00",
+      "item_count": 3683,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-23T23:32:10+00:00",
-      "item_count": 9565,
+      "last_crawl": "2026-10-24T05:02:06+00:00",
+      "item_count": 9559,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-23T23:32:10+00:00",
+      "last_crawl": "2026-10-24T05:02:06+00:00",
       "item_count": 241,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28452,
+    "total_products": 28399,
     "total_deals": 256,
-    "avg_discount": 52.5
+    "avg_discount": 52.0
   }
 }
