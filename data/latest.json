@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T16:19:48.533455+00:00",
+  "updated_at": "2026-10-24T19:10:04.347539+00:00",
   "deals": [
     {
       "product": {
@@ -244,7 +244,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://cdn.evrika.com/storage/products/images/medium/ih84D6KOuahgBM6nL2yvrPROQky6ccyyNZskovw3.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -2559,7 +2559,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://cdn.evrika.com/storage/products/images/medium/xMHHKacMQA6d9Aikn8vW3FFcLH723Px8qzlcjzbO.jpeg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "deal",
       "drop_pct": 45,
@@ -2594,6 +2594,35 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630119",
+        "title": "Холодильник LG GC-X24 FFCBB",
+        "price": 944290,
+        "old_price": 1699990,
+        "url": "https://www.sulpak.kz/g/holodilniki-lg-gc-x24ffcbb",
+        "brand": "LG",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1632_0_6_i3UHqx_160.webp",
+        "first_seen": "2026-09-19T11:27:20+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 44,
+      "fair_discount": 32.6,
+      "base_price": 1399990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 11.4
     },
     {
       "product": {
@@ -2636,7 +2665,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://cdn.evrika.com/storage/products/images/medium/YWSNa4KxaEuxzKDdJzkSOSjRnFp9OOkTLtvidtS5.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -2881,7 +2910,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://cdn.evrika.com/storage/products/images/medium/h7WU9a1w7mSD22tyWRjqlEltSQiCi6MGDZHfp8aR.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -2941,7 +2970,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 19297,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3556,7 +3585,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://cdn.evrika.com/storage/products/images/medium/U4LU9Alh7u1OqJdQUYnhyWxPOiRUYZDFYT1B7uH0.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -3870,33 +3899,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "622270",
-        "title": "Чайник Candy CK-203",
-        "price": 10990,
-        "old_price": 23990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-candy-ck-203",
-        "brand": "Candy",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_810_0_1_MYDhNR_160.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 0.0,
-      "base_price": 10990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 54.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "3000012855",
         "title": "Кофеварка рожковая Russell Hobbs 28250-56 23942016001",
         "price": 89390,
@@ -3936,7 +3938,7 @@
         "in_stock": true,
         "discount_pct": 42,
         "image": "https://cdn.evrika.com/storage/products/images/medium/NzrK2a52MIvLOjxqAfc6JpdurIbw5mJVUnbCSLtF.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 42,
@@ -4020,7 +4022,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://cdn.evrika.com/storage/products/images/medium/maALjcl2HXkcyCIpWhbKf9xFZRDxYNbot5vu1uRg.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -4036,6 +4038,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "619895",
+        "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
+        "price": 56956,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
+        "brand": "XG",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_65_981_3_2_160.webp",
+        "first_seen": "2026-09-19T11:27:20+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 34.5,
+      "base_price": 86890,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "43198",
         "title": "Смартфон Samsung Galaxy S25 Ultra 5G 512GB Titanium Gray (SM-S938BZTCSKZ)",
@@ -4048,7 +4078,7 @@
         "in_stock": true,
         "discount_pct": 33,
         "image": "https://cdn.evrika.com/storage/products/images/medium/Ob7OLew9cdY2nF5YHkzZLdGEf13FmYzUSwZwTRlu.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 33,
@@ -4076,7 +4106,7 @@
         "in_stock": true,
         "discount_pct": 33,
         "image": "https://cdn.evrika.com/storage/products/images/medium/8ivMUueUbosD7pCcm0SDIUvEC37UISjoPSvCsojX.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 33,
@@ -4104,7 +4134,7 @@
         "in_stock": true,
         "discount_pct": 33,
         "image": "https://cdn.evrika.com/storage/products/images/medium/kR7EEMcZs1fBGcvna08oFfGsxV0lY6bErdhOOhIA.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 33,
@@ -4173,34 +4203,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45078",
-        "title": "Смартфон Samsung Galaxy A17 128GB Gray (SM-A175FZACSKZ)",
-        "price": 69890,
-        "old_price": 139990,
-        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-a17-128gb-gray-sm-a175fzacskz/p45078",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/d1MFJhLzuaR5lce9M3zR1YCed46g2IVKxGIr7ivQ.jpg.webp",
-        "first_seen": "2026-10-14T19:00:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 30.0,
-      "base_price": 99890,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
     },
     {
       "product": {
@@ -4343,6 +4345,64 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "632613",
+        "title": "Холодильник Samsung RS80F65J1FWT",
+        "price": 690090,
+        "old_price": 979990,
+        "url": "https://www.sulpak.kz/g/holodilniki-samsung-rs80f65j1fwt",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1670_0_1_OiDBZ1_160.webp",
+        "first_seen": "2026-09-19T11:27:20+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 28.1,
+      "base_price": 959990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 1.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000046394",
+        "title": "Наушники Xiaomi Buds 4 Белый",
+        "price": 84165,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4323",
+        "brand": "Xiaomi",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
+        "first_seen": "2026-09-19T19:01:48+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 28.1,
+      "base_price": 116989,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -4648,28 +4708,27 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000046394",
-        "title": "Наушники Xiaomi Buds 4 Белый",
-        "price": 87781,
+        "sku": "634717",
+        "title": "Гарнитура Jabra Evolve2 55 Link380с MS Stereo 25599-999-899",
+        "price": 93884,
         "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4323",
-        "brand": "Xiaomi",
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-83-3482",
+        "brand": "Jabra",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
-        "first_seen": "2026-09-19T17:44:29+00:00"
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3482_2_2_160.webp",
+        "first_seen": "2026-09-19T16:16:46+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 25.0,
-      "base_price": 116989,
-      "value_score": 77,
+      "fair_discount": 24.1,
+      "base_price": 123700,
+      "value_score": 65,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
+        "Честная скидка"
       ],
       "inflated_gap": null
     },
@@ -4785,6 +4844,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "626137",
+        "title": "Холодильник Beko GNOR522E30XH",
+        "price": 423777,
+        "old_price": 469990,
+        "url": "https://www.sulpak.kz/g/holodilniki-beko-gnor522e30xh",
+        "brand": "Beko",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1605_0_1_aoL6F8_160.webp",
+        "first_seen": "2026-09-19T11:27:20+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 22.9,
+      "base_price": 549990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -12.9
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1570080",
         "title": "Электробритва Panasonic ES-RT37S520, Blue-Silver",
@@ -4809,6 +4895,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 3.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "637201",
+        "title": "Робот-пылесос Dreame D20 Pro White",
+        "price": 88890,
+        "old_price": 142990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-d20-pro-white",
+        "brand": "Dreame",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_248_0_1_MoRJuo_160.webp",
+        "first_seen": "2026-09-19T11:27:20+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 22.7,
+      "base_price": 114990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.3
     },
     {
       "product": {
@@ -4949,6 +5063,34 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "635713",
+        "title": "Стиральная машина Samsung WW90DG6G94LBLD",
+        "price": 289990,
+        "old_price": 389990,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-samsung-ww90dg6g94lbld",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1662_0_1_bcfjzc_160.webp",
+        "first_seen": "2026-09-19T11:27:20+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 21.6,
+      "base_price": 369990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 4.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "651385",
         "title": "Смартфон Huawei Nova 15 12/256GB Black",
         "price": 175496,
@@ -4978,7 +5120,7 @@
         "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 201202,
+        "price": 201192,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
         "brand": "XG",
@@ -5014,7 +5156,7 @@
         "in_stock": true,
         "discount_pct": 20,
         "image": "https://cdn.evrika.com/storage/products/images/medium/deshxEwoSCAm0kdzlCfgpL0JBzzPkbtd2aUn6hzA.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 20,
@@ -5345,7 +5487,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://cdn.evrika.com/storage/products/images/medium/GSez3uhrjvc56Xm9ogh9tJcKodyw13iDcTQE6Vtz.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -5373,7 +5515,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://cdn.evrika.com/storage/products/images/medium/zKFZlnkIfL5BFRwkjpZpHestH65WOdHtmRII8HYW.jpg.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
+        "first_seen": "2026-09-20T05:19:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -5582,33 +5724,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "650040",
-        "title": "Планшет HUAWEI MatePad 11,5&quot;S (PaperMatte inbox keyboard) 12 / 256GB Green Salinger-W29FK",
-        "price": 229890,
-        "old_price": 279890,
-        "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-115s-papermatte-inbox-keyboard-green-salinger-w29fk",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1817_0_1_4BvdUD_160.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 17.9,
-      "base_price": 279890,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "281608",
         "title": "Водонагреватель Ariston ABS ANDRIS2 R 10U",
@@ -5636,90 +5751,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "625756",
-        "title": "Смарт-часы Apple Watch Series 10 GPS 46mm Jet Black Al Case with Black Sport Band - S/M",
-        "price": 209990,
-        "old_price": 309990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-mwwp3qia-series-10-gps-46mm-jet-black-al-case-with-black-sport-band-sm",
-        "brand": "Apple",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1124_0_1_JzGzHi_160.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 17.6,
-      "base_price": 254990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 14.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "642326",
-        "title": "Смарт часы Apple Watch Ultra 3 GPS &#x2B; Cel49mmNat Titm Case with Anchor Blue Ocean Band - M/L",
-        "price": 329990,
-        "old_price": 594990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-watch-ultra-3gps-cel49mmnat-titm-case-with-anchor-blue-ocean-band-mewh4qra-25",
-        "brand": "Apple",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2244_0_1_ids7n1_160.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 17.5,
-      "base_price": 399990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654803",
-        "title": "Ноутбук Acer Nitro V15 ANV15-52 Core 5 210H 8GB / SSD 512GB / RTX 5050 8GB / NO OS / NH.QZ7ER.00A",
-        "price": 659990,
-        "old_price": 799990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-nitro-v15-anv15-52-nhqz7er00a",
-        "brand": "Acer",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9884_0_6_nWjD53_160.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 17.5,
-      "base_price": 799990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1160001",
         "title": "Тостер Kitfort KT-2047, Steel",
@@ -5744,60 +5775,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 3.9
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654980",
-        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Starry Black",
-        "price": 314900,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-starry-black",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13022_0_1_lweqvG_160.webp",
-        "first_seen": "2026-10-05T15:07:15+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 17.1,
-      "base_price": 379890,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651375",
-        "title": "Смартфон Huawei Nova 15 Pro 12/512GB Black",
-        "price": 253169,
-        "old_price": 349890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-pro-12512gb-black",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12155_0_1_WgrVLo_160.webp",
-        "first_seen": "2026-09-19T11:27:20+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 17.0,
-      "base_price": 304890,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.0
     },
     {
       "product": {
@@ -6775,42 +6752,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-24T16:19:30+00:00",
-      "item_count": 2688,
+      "last_crawl": "2026-10-24T19:09:45+00:00",
+      "item_count": 2687,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-24T16:19:30+00:00",
+      "last_crawl": "2026-10-24T19:09:45+00:00",
       "item_count": 12242,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-24T16:19:30+00:00",
-      "item_count": 3685,
+      "last_crawl": "2026-10-24T19:09:45+00:00",
+      "item_count": 3709,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-24T16:19:30+00:00",
+      "last_crawl": "2026-10-24T19:09:45+00:00",
       "item_count": 9539,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-24T16:19:30+00:00",
-      "item_count": 240,
+      "last_crawl": "2026-10-24T19:09:45+00:00",
+      "item_count": 241,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28394,
-    "total_deals": 256,
-    "avg_discount": 52.0
+    "total_products": 28418,
+    "total_deals": 255,
+    "avg_discount": 52
   }
 }
