@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T22:53:39.067506+00:00",
+  "updated_at": "2026-10-25T05:08:14.381484+00:00",
   "deals": [
     {
       "product": {
@@ -3645,7 +3645,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 144990,
-      "value_score": 37,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4041,7 +4041,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 56969,
+        "price": 56919,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -4054,7 +4054,7 @@
       },
       "signal": "drop",
       "drop_pct": null,
-      "fair_discount": 34.4,
+      "fair_discount": 34.5,
       "base_price": 86890,
       "value_score": 78,
       "is_pick": true,
@@ -4378,35 +4378,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000046394",
-        "title": "Наушники Xiaomi Buds 4 Белый",
-        "price": 84165,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4323",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
-        "first_seen": "2026-09-20T05:19:00+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 28.1,
-      "base_price": 116989,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "636834",
         "title": "Смартфон Samsung Galaxy Z Flip7 5G 12/256GB Jet Black RDU (Витрина)",
         "price": 389890,
@@ -4708,6 +4679,34 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "3000046394",
+        "title": "Наушники Xiaomi Buds 4 Белый",
+        "price": 87989,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4323",
+        "brand": "Xiaomi",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
+        "first_seen": "2026-09-20T05:19:00+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 24.8,
+      "base_price": 116989,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "651377",
         "title": "Смартфон Huawei Nova 15 Pro 12GB/256GB Purple",
         "price": 236546,
@@ -4764,7 +4763,7 @@
         "shop": "sulpak",
         "sku": "651383",
         "title": "Смартфон Huawei Nova 15 12/256GB Green",
-        "price": 175496,
+        "price": 175494,
         "old_price": 249890,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-green",
         "brand": "HUAWEI",
@@ -4785,35 +4784,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630166",
-        "title": "Смартфон Samsung Galaxy S25&#x2B; 12/512GB Icyblue",
-        "price": 459990,
-        "old_price": 779890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-samsung-galaxy-s25-12512gb-icyblue",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6359_0_1_QAsVyr_160.webp",
-        "first_seen": "2026-09-20T05:19:00+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 23.3,
-      "base_price": 599890,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.7
     },
     {
       "product": {
@@ -5011,7 +4981,7 @@
         "shop": "sulpak",
         "sku": "651384",
         "title": "Смартфон Huawei Nova 15 12/256GB White",
-        "price": 175496,
+        "price": 175494,
         "old_price": 249890,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-white",
         "brand": "HUAWEI",
@@ -5066,7 +5036,7 @@
         "shop": "sulpak",
         "sku": "651385",
         "title": "Смартфон Huawei Nova 15 12/256GB Black",
-        "price": 175496,
+        "price": 175494,
         "old_price": 249890,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-black",
         "brand": "HUAWEI",
@@ -5093,7 +5063,7 @@
         "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
-        "price": 201202,
+        "price": 201192,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monobloki-xg-437-344",
         "brand": "XG",
@@ -5147,7 +5117,7 @@
         "shop": "sulpak",
         "sku": "650039",
         "title": "Планшет Huawei MatePad Pro 12.2&#x27;&#x27; 2025 (PaperMatte inbox keyboard) 512G Black Morandi-W09DK",
-        "price": 403239,
+        "price": 403223,
         "old_price": 499890,
         "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-pro-122-2025-papermatte-inbox-keyboard-512g-black-morandi-w09dk",
         "brand": "HUAWEI",
@@ -5229,7 +5199,7 @@
         "shop": "sulpak",
         "sku": "650041",
         "title": "Планшеты HUAWEI MatePad 11,5&quot;S (PaperMatte inbox keyboard) 12 / 256 GB Space Gray Salinger-W29FK",
-        "price": 226515,
+        "price": 226500,
         "old_price": 279890,
         "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-115s-papermatte-inbox-keyboard-12-256-gb-space-gray-salinger-w29fk",
         "brand": "HUAWEI",
@@ -5592,7 +5562,7 @@
         "shop": "sulpak",
         "sku": "630036",
         "title": "Планшет Huawei MatePad SE Kids Edition AGS6-W09 4GB RAM 128GB ROM Nebula Gray 53014AYJ/53014JHM",
-        "price": 93152,
+        "price": 93136,
         "old_price": 113890,
         "url": "https://www.sulpak.kz/g/planshetiy-agassi6-w09be-hazy-gray",
         "brand": "HUAWEI",
@@ -5749,6 +5719,35 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 14.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642326",
+        "title": "Смарт часы Apple Watch Ultra 3 GPS &#x2B; Cel49mmNat Titm Case with Anchor Blue Ocean Band - M/L",
+        "price": 329990,
+        "old_price": 594990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-watch-ultra-3gps-cel49mmnat-titm-case-with-anchor-blue-ocean-band-mewh4qra-25",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2244_0_1_ids7n1_160.webp",
+        "first_seen": "2026-09-20T05:19:00+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 17.5,
+      "base_price": 399990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.5
     },
     {
       "product": {
@@ -6753,41 +6752,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-24T22:53:19+00:00",
-      "item_count": 2687,
+      "last_crawl": "2026-10-25T05:07:56+00:00",
+      "item_count": 2688,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-24T22:53:19+00:00",
+      "last_crawl": "2026-10-25T05:07:56+00:00",
       "item_count": 12242,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-24T22:53:19+00:00",
-      "item_count": 3700,
+      "last_crawl": "2026-10-25T05:07:56+00:00",
+      "item_count": 3745,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-24T22:53:19+00:00",
-      "item_count": 9545,
+      "last_crawl": "2026-10-25T05:07:56+00:00",
+      "item_count": 9544,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-24T22:53:19+00:00",
+      "last_crawl": "2026-10-25T05:07:56+00:00",
       "item_count": 241,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28415,
+    "total_products": 28460,
     "total_deals": 255,
     "avg_discount": 52
   }
