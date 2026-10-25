@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T19:20:55.953012+00:00",
+  "updated_at": "2026-10-25T21:20:57.108105+00:00",
   "deals": [
     {
       "product": {
@@ -1517,6 +1517,61 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000071669",
+        "title": "Триммер для бороды PHILIPS MG 5730/15",
+        "price": 24990,
+        "old_price": 55990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-mg-573015/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/beccbb64-bd4e-11e7-80c1-1866daf08915?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 44.5,
+      "base_price": 44990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010936",
+        "title": "Триммер для волос ROWENTA TN 182 LF0",
+        "price": 19990,
+        "old_price": 38990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-volos-rowenta-tn-182-lf0/",
+        "brand": "Rowenta",
+        "category": "Машинки для стрижки волос",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/2b13b156-ebef-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 41.2,
+      "base_price": 33990,
+      "value_score": 89,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200003996",
         "title": "Мышка игровая ZOWIE ZA11-C 9H.N3FBB.A2E",
         "price": 22990,
@@ -1822,6 +1877,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000078573",
+        "title": "Триммер для волос ROWENTA TN 1400 F1",
+        "price": 15990,
+        "old_price": 30990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-volos-rowenta-tn-1400-f1/",
+        "brand": "Rowenta",
+        "category": "Машинки для стрижки волос",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/d064440e-f451-11e8-a21b-005056b6dbd7?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 36.0,
+      "base_price": 24990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "12000083782",
         "title": "Стационарный блендер PANASONIC EX 1011 WTQ",
         "price": 20990,
@@ -1846,6 +1928,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010938",
+        "title": "Триммер для бороды ROWENTA TN 911 LF0",
+        "price": 24990,
+        "old_price": 43990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-rowenta-tn-911-lf0/",
+        "brand": "Rowenta",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/40ccc417-ecb9-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 34.2,
+      "base_price": 37990,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.8
     },
     {
       "product": {
@@ -1904,6 +2014,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000071671",
+        "title": "Плойка PHILIPS BHB 872/00",
+        "price": 19990,
+        "old_price": 44990,
+        "url": "https://www.mechta.kz/product/ployka-philips-bhb-87200/",
+        "brand": "Philips",
+        "category": "Плойки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/beccbb5b-bd4e-11e7-80c1-1866daf08915?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 56,
+      "fair_discount": 33.3,
+      "base_price": 29990,
+      "value_score": 81,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.7
     },
     {
       "product": {
@@ -2322,151 +2460,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 15.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012212",
-        "title": "Фен DREAME Pocket Space Gray",
-        "price": 44990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-space-gray/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.8,
-      "base_price": 64990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012213",
-        "title": "Фен DREAME Pocket Titanium Gold",
-        "price": 44990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-titanium-gold/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.8,
-      "base_price": 64990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023092",
-        "title": "Смартфон HUAWEI Nova 15 12/512 Green (PSN-LX9)",
-        "price": 174890,
-        "old_price": 269990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12512-green-psn-lx9/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/5416c42b-02ef-4603-81ac-d1bbfe89b9be?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 30.0,
-      "base_price": 249890,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023093",
-        "title": "Смартфон HUAWEI Nova 15 12/512 White (PSN-LX9)",
-        "price": 174890,
-        "old_price": 269990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12512-white-psn-lx9/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/c24a57bb-078e-4068-b179-ba7a738e4ad9?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 30.0,
-      "base_price": 249890,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023094",
-        "title": "Смартфон HUAWEI Nova 15 12/512 Black (PSN-LX9)",
-        "price": 174890,
-        "old_price": 269990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12512-black-psn-lx9/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/de10628c-b3b7-434a-a645-914709d044ca?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 30.0,
-      "base_price": 249890,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-25T19:20:49+00:00",
-      "item_count": 7781,
+      "last_crawl": "2026-10-25T21:20:48+00:00",
+      "item_count": 7784,
       "status": "ok"
     },
     {
@@ -2506,7 +2507,7 @@
     }
   ],
   "stats": {
-    "total_products": 7781,
+    "total_products": 7784,
     "total_deals": 90,
     "avg_discount": 62.0
   }
