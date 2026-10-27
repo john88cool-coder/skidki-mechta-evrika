@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T21:23:31.937694+00:00",
+  "updated_at": "2026-10-27T01:50:15.085967+00:00",
   "deals": [
     {
       "product": {
@@ -2033,7 +2033,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://cdn.evrika.com/storage/products/images/medium/LPOkgdNTW5gbeXZRrhoJSCtyqo71LWo7enVMaalH.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
+        "first_seen": "2026-09-22T05:23:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -3440,7 +3440,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 144990,
-      "value_score": 41,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3937,34 +3937,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "43508",
-        "title": "Смартфон Samsung Galaxy A26 5G 256GB Black (SM-A266BZKHSKZ)",
-        "price": 109890,
-        "old_price": 189990,
-        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-a26-5g-256gb-black-sm-a266bzkhskz/p43508",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/NzrK2a52MIvLOjxqAfc6JpdurIbw5mJVUnbCSLtF.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.2,
-      "base_price": 189990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1595314",
         "title": "Тостер Tefal TT330D30, Black-Steel",
@@ -4052,7 +4024,7 @@
         "shop": "sulpak",
         "sku": "619895",
         "title": "Монитор 27&#x27;&#x27; XG Crimson X 165HZ",
-        "price": 56745,
+        "price": 56712,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/monitoriy-xg-65-981",
         "brand": "XG",
@@ -4102,90 +4074,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.7
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43198",
-        "title": "Смартфон Samsung Galaxy S25 Ultra 5G 512GB Titanium Gray (SM-S938BZTCSKZ)",
-        "price": 649890,
-        "old_price": 969990,
-        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-s25-ultra-5g-512gb-titanium-gray-sm-s938bztcskz/p43198",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Ob7OLew9cdY2nF5YHkzZLdGEf13FmYzUSwZwTRlu.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 33.0,
-      "base_price": 969990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43206",
-        "title": "Смартфон Samsung Galaxy S25 Ultra 5G 512GB Titanium Silverblue (SM-S938BZBCSKZ)",
-        "price": 649890,
-        "old_price": 969990,
-        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-s25-ultra-5g-512gb-titanium-silverblue-sm-s938bzbcskz/p43206",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/8ivMUueUbosD7pCcm0SDIUvEC37UISjoPSvCsojX.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 33.0,
-      "base_price": 969990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43207",
-        "title": "Смартфон Samsung Galaxy S25 Ultra 5G 512GB Titanium Whitesilver (SM-S938BZSCSKZ)",
-        "price": 649890,
-        "old_price": 969990,
-        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-s25-ultra-5g-512gb-titanium-whitesilver-sm-s938bzscskz/p43207",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/kR7EEMcZs1fBGcvna08oFfGsxV0lY6bErdhOOhIA.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 33.0,
-      "base_price": 969990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -4256,7 +4144,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4323_0_2_160.webp",
-        "first_seen": "2026-09-21T23:42:47+00:00"
+        "first_seen": "2026-09-22T05:23:45+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -4502,7 +4390,7 @@
         "in_stock": true,
         "discount_pct": 41,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6359_0_1_QAsVyr_160.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
+        "first_seen": "2026-09-22T05:23:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -4658,7 +4546,7 @@
         "shop": "sulpak",
         "sku": "651384",
         "title": "Смартфон Huawei Nova 15 12/256GB White",
-        "price": 175492,
+        "price": 175490,
         "old_price": 249890,
         "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-white",
         "brand": "HUAWEI",
@@ -4860,7 +4748,7 @@
         "in_stock": true,
         "discount_pct": 24,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12157_0_1_AHydRm_160.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
+        "first_seen": "2026-09-22T05:23:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 24,
@@ -5038,89 +4926,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.6
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623398",
-        "title": "Кофеварка Delonghi EC9255.T",
-        "price": 399990,
-        "old_price": 489990,
-        "url": "https://www.sulpak.kz/g/kofevarki-delonghi-ec9255t",
-        "brand": "Delonghi",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_932_209_0_1_tJCZFd_160.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 18.4,
-      "base_price": 489990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43450",
-        "title": "Apple iPhone 16e 512GB Black MD1X4HX/A",
-        "price": 449990,
-        "old_price": 734990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-16e-512gb-black-md1x4hx-a/p43450",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/GSez3uhrjvc56Xm9ogh9tJcKodyw13iDcTQE6Vtz.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 18.2,
-      "base_price": 549990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.8
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "43452",
-        "title": "Apple iPhone 16e 512GB White MD274HX/A",
-        "price": 449990,
-        "old_price": 734990,
-        "url": "https://evrika.com/catalog/smartfon-iphone-16e-512gb-white-md274hx-a/p43452",
-        "brand": null,
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/zKFZlnkIfL5BFRwkjpZpHestH65WOdHtmRII8HYW.jpg.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 18.2,
-      "base_price": 549990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.8
     },
     {
       "product": {
@@ -5583,6 +5388,33 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652569",
+        "title": "Смартфон Huawei Nova Y74 8/128GB Blue",
+        "price": 84804,
+        "old_price": 99890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-y74-8128gb-blue",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12593_0_1_0LIezE_160.webp",
+        "first_seen": "2026-09-21T19:53:47+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.1,
+      "base_price": 99890,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
     },
     {
       "product": {
@@ -6476,7 +6308,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13025_0_1_Rhc9q1_160.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
+        "first_seen": "2026-09-22T21:42:21+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -6601,7 +6433,7 @@
         "in_stock": true,
         "discount_pct": 24,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12159_0_1_c82Key_160.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
+        "first_seen": "2026-09-22T05:23:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 24,
@@ -6683,31 +6515,6 @@
       "fair_discount": 9.3,
       "base_price": 140100,
       "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "263801",
-        "title": "Беспроводной маршрутизатор, Tp-Link Archer AX55, 4 порта + Wi-Fi 6, до 3000 Mbps (Archer AX55)",
-        "price": 57990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/besprovodnoj-marshrutizator-tp-link-archer-ax55-4-porta-wi-fi-6-263801",
-        "brand": "TP-Link",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/263801_1.webp",
-        "first_seen": "2026-09-21T19:53:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 8.7,
-      "base_price": 63490,
-      "value_score": 40,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -6799,42 +6606,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-26T21:23:12+00:00",
-      "item_count": 2662,
+      "last_crawl": "2026-10-27T01:49:56+00:00",
+      "item_count": 2655,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-26T21:23:12+00:00",
-      "item_count": 11126,
+      "last_crawl": "2026-10-27T01:49:56+00:00",
+      "item_count": 12248,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-26T21:23:12+00:00",
-      "item_count": 3700,
+      "last_crawl": "2026-10-27T01:49:56+00:00",
+      "item_count": 3709,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-26T21:23:12+00:00",
-      "item_count": 9529,
+      "last_crawl": "2026-10-27T01:49:56+00:00",
+      "item_count": 9530,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-26T21:23:12+00:00",
+      "last_crawl": "2026-10-27T01:49:56+00:00",
       "item_count": 241,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 27258,
-    "total_deals": 257,
-    "avg_discount": 53
+    "total_products": 28383,
+    "total_deals": 250,
+    "avg_discount": 53.0
   }
 }
