@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:22:09.575923+00:00",
+  "updated_at": "2026-10-29T17:21:05.295959+00:00",
   "deals": [
     {
       "product": {
@@ -1403,35 +1403,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011851",
-        "title": "Дом. кинотеатр Samsung HW-S701D Soundbar",
-        "price": 129990,
-        "old_price": 279990,
-        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-s701d-soundbar/",
-        "brand": "Samsung",
-        "category": "Саундбары",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/044d1db3-2228-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 53.6,
-      "base_price": 279990,
-      "value_score": 94,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013345",
         "title": "Триммер для бороды BRAUN BT 5420",
         "price": 31990,
@@ -1484,35 +1455,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004083",
-        "title": "Дом. кинотеатр Samsung HW-S801B Soundbar",
-        "price": 139990,
-        "old_price": 259990,
-        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-s801b-soundbar/",
-        "brand": "Samsung",
-        "category": "Саундбары",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://pi.mdev.kz/f03aeda5-a795-11ed-a254-005056b6dbd7?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 46,
-      "fair_discount": 46.2,
-      "base_price": 259990,
-      "value_score": 94,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -2462,13 +2404,69 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020929",
+        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет зеленый, (ATM-B19)",
+        "price": 99990,
+        "old_price": 154990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-zelenyy-atm-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/dbfe166b-3870-4087-9495-d3972faf6b48?w=400",
+        "first_seen": "2026-09-20T21:20:07+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 28.5,
+      "base_price": 139890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020933",
+        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
+        "price": 99990,
+        "old_price": 154990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-seryy-atm-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400",
+        "first_seen": "2026-09-20T21:20:07+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 28.5,
+      "base_price": 139890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.5
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-29T16:22:01+00:00",
+      "last_crawl": "2026-10-29T17:20:51+00:00",
       "item_count": 7853,
       "status": "ok"
     },
