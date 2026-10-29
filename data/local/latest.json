@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T05:49:14.440476+00:00",
+  "updated_at": "2026-10-29T07:21:42.033073+00:00",
   "deals": [
     {
       "product": {
@@ -2326,34 +2326,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014514",
-        "title": "Выпрямитель для волос PHILIPS BHS 378/00",
-        "price": 24890,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/vypryamitel-dlya-volos-philips-bhs-37800/",
-        "brand": "Philips",
-        "category": "Выпрямители для волос",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/4b4d4c6f-8ff6-4373-8382-fe119be19e4b?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 30.8,
-      "base_price": 35990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000006175",
         "title": "Мышка игровая STEELSERIES Aerox 3 62599 черный",
         "price": 18990,
@@ -2378,60 +2350,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 15.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012212",
-        "title": "Фен DREAME Pocket Space Gray",
-        "price": 44990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-space-gray/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
-        "first_seen": "2026-09-21T13:21:15+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.8,
-      "base_price": 64990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012213",
-        "title": "Фен DREAME Pocket Titanium Gold",
-        "price": 44990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-titanium-gold/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.8,
-      "base_price": 64990,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -2461,14 +2379,97 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 12.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020924",
+        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет черный, (ATM-B19)",
+        "price": 99790,
+        "old_price": 154990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-chernyy-atm-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/1e7d5fac-d546-4fd4-b5f7-c557a70643c3?w=400",
+        "first_seen": "2026-09-20T21:20:07+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 28.7,
+      "base_price": 139890,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008967",
+        "title": "Мышка игровая Glorious Model O, GO-WHITE, Matte white",
+        "price": 16990,
+        "old_price": 29990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-glorious-model-o-go-white-matte-white/",
+        "brand": "Glorious",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/5fe1cac6-875d-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 28.6,
+      "base_price": 23790,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012535",
+        "title": "Триммер для бороды PHILIPS OneBlade QP2734/20",
+        "price": 19990,
+        "old_price": 42290,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-oneblade-qp273420/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/7ec0f383-b6f5-413f-b2d9-d8e8b6bec7da?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 28.6,
+      "base_price": 27990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.4
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-29T05:48:39+00:00",
-      "item_count": 7820,
+      "last_crawl": "2026-10-29T07:21:32+00:00",
+      "item_count": 7826,
       "status": "ok"
     },
     {
@@ -2508,7 +2509,7 @@
     }
   ],
   "stats": {
-    "total_products": 7820,
+    "total_products": 7826,
     "total_deals": 90,
     "avg_discount": 62.0
   }
