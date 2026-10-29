@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T17:21:05.295959+00:00",
+  "updated_at": "2026-10-29T19:20:52.259822+00:00",
   "deals": [
     {
       "product": {
@@ -1403,62 +1403,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200013345",
-        "title": "Триммер для бороды BRAUN BT 5420",
-        "price": 31990,
-        "old_price": 62990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-braun-bt-5420/",
-        "brand": "Braun",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://pi.mdev.kz/c1c5605f-5ea9-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 49.2,
-      "base_price": 62990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013536",
-        "title": "Триммер для бороды BRAUN BT 7420",
-        "price": 42990,
-        "old_price": 83590,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-braun-bt-7420/",
-        "brand": "Braun",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://pi.mdev.kz/0e84e0f8-7bbc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 48.6,
-      "base_price": 83590,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000071669",
         "title": "Триммер для бороды PHILIPS MG 5730/15",
         "price": 24990,
@@ -2460,14 +2404,70 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008975",
+        "title": "Клавиатура Glorious GMMK2 Full Size, white",
+        "price": 35990,
+        "old_price": 64990,
+        "url": "https://www.mechta.kz/product/klaviatura-glorious-gmmk2-full-size-white/",
+        "brand": "Glorious",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/5fe1caaf-875d-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 27.9,
+      "base_price": 49890,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008974",
+        "title": "Клавиатура Glorious GMMK2 Full Size, black",
+        "price": 35990,
+        "old_price": 64990,
+        "url": "https://www.mechta.kz/product/klaviatura-glorious-gmmk2-full-size-black/",
+        "brand": "Glorious",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/5fe1caab-875d-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 27.7,
+      "base_price": 49790,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.3
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-29T17:20:51+00:00",
-      "item_count": 7853,
+      "last_crawl": "2026-10-29T19:20:46+00:00",
+      "item_count": 7852,
       "status": "ok"
     },
     {
@@ -2507,7 +2507,7 @@
     }
   ],
   "stats": {
-    "total_products": 7853,
+    "total_products": 7852,
     "total_deals": 90,
     "avg_discount": 62.0
   }
