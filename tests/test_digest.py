@@ -49,7 +49,7 @@ def test_deal_line_shows_percent_old_price_and_link():
         '🏷 <b>−30%</b> <a href="https://www.mechta.kz/product/tefal-rg8577wh/">'
         "Робот-пылесос Tefal RG8577WH</a>"
     )
-    assert second == "└ <b>69 990 ₸</b> · <s>99 990 ₸</s> · Мечта · осталось мало"
+    assert second == "└ <b>69 990 ₸</b> · <s>99 990 ₸</s> · ⏳ истории пока нет · Мечта · осталось мало"
 
 
 def test_drop_line_shows_usual_price():
@@ -176,3 +176,27 @@ def test_cloud_digest_links_dashboard_instead_of_groups(monkeypatch):
     assert digest_buttons() == DIGEST_BUTTONS
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     assert digest_buttons() == CLOUD_BUTTONS
+
+
+def test_digest_speaks_verdicts_and_folds_painted():
+    """Как на панели: честная — ✅ реальным процентом, завышенная — оба числа,
+    нарисованные — одной строкой в конце, не в счёт находок."""
+    from skidki.report import has_real_findings
+
+    def deal(sku, price, old, ref):
+        item = Product(shop="mechta", sku=sku, title=f"Товар {sku}", price=price,
+                       url=f"https://www.mechta.kz/product/{sku}/", old_price=old, group="home")
+        return Verdict(item, [SignalHit(Signal.DEAL, base=old, reference=ref)])
+
+    honest = deal("h", 60_000, 80_000, 80_000)       # −25% и на ценнике, и по истории
+    inflated = deal("i", 70_000, 300_000, 100_000)   # реально −30%, на ценнике −77%
+    painted = deal("p", 50_000, 250_000, 50_000)     # цена не двигалась
+    text = format_digest([honest, inflated, painted])
+
+    assert text.startswith("<b>🔥 Новые скидки: 2</b>")
+    assert "✅ <b>−25%</b>" in text
+    assert "⚠️ <b>реально −30%</b> (на ценнике −77%)" in text
+    assert "Товар p" not in text
+    assert "🚫 Ещё 1 «скидка» нарисована" in text and "deals?v=painted" in text
+    assert has_real_findings([painted]) is False
+    assert has_real_findings([painted, honest]) is True

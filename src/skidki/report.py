@@ -85,6 +85,33 @@ def _group_key(verdict: Verdict) -> str:
     return key if key in GROUPS else OTHER_GROUP
 
 
+# Те же правила, что у вердикта панели (web/src/lib/utils/verdict.ts):
+# реальное снижение от 7%, «завышена» — если ценник врёт на 15 п.п. и больше.
+REAL_MIN_PCT = 7
+INFLATION_GAP = 15
+
+
+def deal_verdict(verdict: Verdict) -> str | None:
+    """Вердикт скидки магазина по собственной истории: honest / inflated /
+    painted / unknown. None — у находки есть свой сигнал (упало, минимум,
+    цель), скидка на ценнике тогда не главное."""
+    deal = verdict.hit(Signal.DEAL)
+    if not deal or any(verdict.has(s) for s in (Signal.DROP, Signal.LOW, Signal.TARGET, Signal.RESTOCK)):
+        return None
+    if not deal.reference:
+        return "unknown"
+    real = (deal.reference - verdict.product.price) / deal.reference * 100
+    if real < REAL_MIN_PCT:
+        return "painted"
+    claimed = _pct(deal.base, verdict.product.price) if deal.base else 0
+    return "inflated" if claimed - real >= INFLATION_GAP else "honest"
+
+
+def _real_pct(verdict: Verdict) -> int:
+    deal = verdict.hit(Signal.DEAL)
+    return round((deal.reference - verdict.product.price) / deal.reference * 100)
+
+
 def _headline(verdict: Verdict) -> str:
     price = verdict.product.price
     target = verdict.hit(Signal.TARGET)
@@ -93,6 +120,11 @@ def _headline(verdict: Verdict) -> str:
     low = verdict.hit(Signal.LOW)
     if target and target.target:
         return f"🎯 <b>цель ≤ {tenge(target.target)}</b>"
+    kind = deal_verdict(verdict)
+    if kind == "honest":
+        return f"✅ <b>−{_real_pct(verdict)}%</b>"
+    if kind == "inflated":
+        return f"⚠️ <b>реально −{_real_pct(verdict)}%</b> (на ценнике −{_pct(deal.base, price)}%)"
     if deal and deal.base:
         return f"🏷 <b>−{_pct(deal.base, price)}%</b>"
     if drop and drop.base:
@@ -125,6 +157,8 @@ def format_line(verdict: Verdict) -> str:
             parts.append(f"⚠️ обычно дешевле: {tenge(deal.reference)}")
         else:
             parts.append("⚠️ цена не менялась")
+    elif deal and deal_verdict(verdict) == "unknown":
+        parts.append("⏳ истории пока нет")
     low = verdict.hit(Signal.LOW)
     if low and low.base and not drop:
         parts.append(f"мин. за 30 дн. был {tenge(low.base)}")
@@ -151,9 +185,13 @@ def format_digest(verdicts: list[Verdict], rest: int = 0, title: str = "🔥 Н�
     Каждая строка самодостаточна (теги открываются и закрываются в ней же):
     длинную сводку notify режет по строкам, не ломая разметку.
     """
-    lines = [f"<b>{title}: {len(verdicts) + rest}</b>"]
+    # Нарисованные (цена не ниже обычной) — не находки: одной строкой в конце,
+    # как блок «Осторожно: нарисованные» на панели.
+    painted = [v for v in verdicts if deal_verdict(v) == "painted"]
+    real = [v for v in verdicts if deal_verdict(v) != "painted"]
+    lines = [f"<b>{title}: {len(real) + rest}</b>"]
     by_group: dict[str, list[Verdict]] = {}
-    for verdict in sorted(verdicts, key=_rank_key):
+    for verdict in sorted(real, key=_rank_key):
         by_group.setdefault(_group_key(verdict), []).append(verdict)
     for key in [*GROUPS, OTHER_GROUP]:
         items = by_group.get(key)
@@ -163,7 +201,18 @@ def format_digest(verdicts: list[Verdict], rest: int = 0, title: str = "🔥 Н�
         lines += [format_line(verdict) for verdict in items]
     if rest:
         lines += ["", format_more(rest)]
+    if painted:
+        n = len(painted)
+        lines += ["", (
+            f'🚫 Ещё {n} {_plural(n, "«скидка» нарисована", "«скидки» нарисованы", "«скидок» нарисованы")}'
+            f' — цена не ниже обычной. <a href="{DASHBOARD_URL}deals?v=painted">Список на панели</a>'
+        )]
     return "\n".join(lines)
+
+
+def has_real_findings(verdicts: list[Verdict]) -> bool:
+    """Есть ли в сводке что-то кроме нарисованных скидок — иначе её не шлём."""
+    return any(deal_verdict(v) != "painted" for v in verdicts)
 
 
 def format_groups_menu(muted: set[str]) -> tuple[str, Buttons]:

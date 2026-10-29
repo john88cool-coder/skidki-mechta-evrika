@@ -19,7 +19,7 @@ from .evaluate import Signal, SignalHit, Verdict, evaluate, should_send
 from .models import PartialCrawl, Product
 from .notify import Notifier
 from .parsers import REGISTRY
-from .report import digest_buttons, format_breakage, format_digest, format_watchdog, rank
+from .report import digest_buttons, format_breakage, has_real_findings, format_digest, format_watchdog, rank
 from .storage import (
     Queued,
     compact,
@@ -141,7 +141,11 @@ def run_once(
             len(queued), len(shown), rest, ", ".join(sorted(muted)) or "—",
         )
         if shown:
-            notifier.send(format_digest(shown, rest), digest_buttons())
+            # Одни нарисованные «скидки» — не повод будить: снимаем их с очереди молча.
+            if has_real_findings(shown):
+                notifier.send(format_digest(shown, rest), digest_buttons())
+            else:
+                log.info("в сводке только нарисованные скидки (%d) — не отправляю", len(shown))
             if confirms:
                 # Сводка — одна отправка: доставлена — её находки сняты с
                 # очереди; упала — все остаются до следующего обхода. Консоль
