@@ -105,3 +105,17 @@ def test_real_price_drop_reaches_dashboard_without_shop_discount(conn, tmp_path)
     assert deals["bork"]["fair_discount"] == 50.0
     # Зачёркнутая −50% при цене, стоявшей все 5 дней, — честная скидка ноль.
     assert deals["flat"]["fair_discount"] == 0.0
+
+
+def test_return_to_earlier_price_is_not_a_drop(conn, tmp_path):
+    """115 000 → две недели 300 000 → снова 119 990: медиана 14 дней «видит»
+    −59%, но цена лишь вернулась к прежней (живой случай 2026-10-29)."""
+    from datetime import UTC, datetime
+
+    now = datetime.now(UTC)
+    seed(conn, product(115_000, sku="vac"), hours=24 * 8, start=now - timedelta(days=28))
+    seed(conn, product(300_000, sku="vac"), hours=24 * 13, start=now - timedelta(days=19))
+    storage.save_products(conn, [product(119_990, sku="vac")], now - timedelta(hours=2))
+
+    deals = {d["product"]["sku"]: d for d in _json(_export(conn, tmp_path), "latest.json")["deals"]}
+    assert "vac" not in deals or not deals["vac"]["fair_discount"]

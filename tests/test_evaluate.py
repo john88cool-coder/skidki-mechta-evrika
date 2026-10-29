@@ -88,3 +88,14 @@ def test_should_send_only_on_new_low(conn):
     assert not should_send(conn, verdict, TH, AFTER_5_DAYS)
     lower = evaluate(conn, product(85_000), NO_RULES, TH, at=AFTER_5_DAYS)
     assert should_send(conn, lower, TH, AFTER_5_DAYS)
+
+
+def test_return_to_earlier_price_is_not_a_drop(conn):
+    """Цена была 115 000, две недели держалась 300 000 и вернулась — это не «упало»."""
+    seed(conn, product(115_000), hours=24 * 8)
+    seed(conn, product(300_000), hours=24 * 14, start=T0 + timedelta(days=9))
+    at = T0 + timedelta(days=24)
+    verdict = evaluate(conn, product(119_990), NO_RULES, TH, at=at)
+    assert not verdict.has(Signal.DROP)
+    # Настоящее падение ниже прежнего уровня — по-прежнему сигнал.
+    assert evaluate(conn, product(90_000), NO_RULES, TH, at=at).has(Signal.DROP)

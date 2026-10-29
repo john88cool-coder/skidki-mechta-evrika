@@ -80,7 +80,7 @@ def _fair_and_reference(conn, product, at):
     # честная скидка по истории ИС: медиана 14д, минимум 3 дня, просадка >= drop threshold
     from datetime import timedelta
     from .config import Thresholds
-    from .evaluate import weighted_median, coverage_days
+    from .evaluate import coverage_days, returned_to_earlier, weighted_median
     th = Thresholds()
     trend_since = at - timedelta(days=th.trend_window_days)
     spans = [s for s in spans_history(conn, product.identity, trend_since) if s.in_stock]
@@ -88,6 +88,13 @@ def _fair_and_reference(conn, product, at):
     if not ref or coverage_days(spans, at) < th.min_history_days:
         return None, None
     drop = (ref - product.price) / ref * 100
+    earlier = [
+        s for s in spans_history(conn, product.identity, at - timedelta(days=th.low_window_days))
+        if s.last_seen < trend_since
+    ]
+    if returned_to_earlier(earlier, product.price):
+        # Цена вернулась к прежнему уровню после временного подъёма — не скидка.
+        return 0.0, ref
     if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
         # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
         # Иначе нарисованная «−81%» при цене, стоящей неделю, не получала

@@ -50,7 +50,7 @@ export function verdictOf(deal: Pick<Deal, 'drop_pct' | 'fair_discount'>): Verdi
 	if (real <= 0) {
 		return {
 			kind: 'painted', label: VERDICT_LABELS.painted, claimed, real: 0,
-			hint: 'Цена не менялась: «скидка» посчитана от завышенной старой цены.'
+			hint: 'Цена не ниже обычной: «скидка» посчитана от завышенной старой цены.'
 		};
 	}
 	if (claimed !== null && claimed - real >= INFLATION_GAP) {

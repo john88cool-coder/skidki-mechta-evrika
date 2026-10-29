@@ -90,6 +90,21 @@ def weighted_median(spans: list[Span], since: datetime, until: datetime) -> int 
     return weighted[-1][0]
 
 
+# Цена не ниже прежнего минимума больше чем на 5% — это возврат, а не снижение.
+RETURN_TOLERANCE = 0.05
+
+
+def returned_to_earlier(earlier: list[Span], price: int) -> bool:
+    """Текущая цена — лишь возврат к уровню, который был ДО окна тренда.
+
+    Живой случай 2026-10-29: робот-пылесос стоил ~115 000 ₸, две недели —
+    ~300 000 ₸, потом снова 119 990 ₸. Медиана 14 дней (~290 000) объявляла
+    это «реальным снижением на 59%», хотя цена просто вернулась.
+    """
+    lows = [span.price for span in earlier if span.in_stock]
+    return bool(lows) and price >= min(lows) * (1 - RETURN_TOLERANCE)
+
+
 def coverage_days(spans: list[Span], until: datetime) -> float:
     """Сколько дней назад позиция впервые наблюдалась в наличии (в пределах выборки)."""
     starts = [span.first_seen for span in spans if span.in_stock]
@@ -141,11 +156,14 @@ def evaluate(
     verdict.reference = reference
     trend_days = coverage_days(trend, at)
     drop_pct = rules.drop_pct_for(product.category, thresholds.drop_pct)
+    earlier_since = at - timedelta(days=thresholds.low_window_days)
+    earlier = [span for span in history(conn, product.identity, earlier_since) if span.last_seen < trend_since]
     if (
         reference
         and trend_days >= thresholds.min_history_days
         and reference - price >= thresholds.min_drop_tenge
         and (reference - price) / reference * 100 >= drop_pct
+        and not returned_to_earlier(earlier, price)
     ):
         verdict.signals.append(SignalHit(Signal.DROP, base=reference, days=trend_days))
 
