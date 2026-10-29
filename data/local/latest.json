@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T19:20:52.259822+00:00",
+  "updated_at": "2026-10-29T21:21:06.222328+00:00",
   "deals": [
     {
       "product": {
@@ -1157,34 +1157,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020144",
-        "title": "Чехол для телефона APPLE iPhone 17 Pro Clear Case with MagSafe (MGFT4ZM/A)",
-        "price": 14990,
-        "old_price": 39990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-pro-clear-case-with-magsafe-mgft4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/13a9f95d-e019-4398-bebd-c9f953171e54?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006277",
         "title": "Робот-пылесос ROBOROCK (S80ULT/(S802-02) S8 White",
         "price": 139990,
@@ -1338,6 +1310,33 @@
       "fair_discount": 0.0,
       "base_price": 29990,
       "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000077796",
+        "title": "Тепловентилятор TEFAL SE 9420 F0",
+        "price": 40990,
+        "old_price": 103990,
+        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9420-f0/",
+        "brand": "Tefal",
+        "category": "Тепловентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 40990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1793,50 +1792,21 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017680",
-        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 11‑inch (M3) - White (MDFV4RS/A)",
-        "price": 149990,
-        "old_price": 227990,
-        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-11inch-m3---white-mdfv4rsa/",
-        "brand": "Apple",
-        "category": "Клавиатуры для планшетов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://pi.mdev.kz/1993eda5-180b-4b44-a644-fad174b87b40?w=400",
-        "first_seen": "2026-09-20T17:58:13+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 34.2,
-      "base_price": 227990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200021009",
         "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 13‑inch (M3) - Black (MGYY4RS/A)",
         "price": 179990,
-        "old_price": 270990,
+        "old_price": 252490,
         "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-13inch-m3---black-mgyy4rsa/",
         "brand": "Apple",
         "category": "Клавиатуры для планшетов",
         "group": "phones",
         "in_stock": true,
-        "discount_pct": 34,
+        "discount_pct": 29,
         "image": "https://pi.mdev.kz/d65bc92b-94db-49ff-8e91-532d93606f67?w=400",
         "first_seen": "2026-09-20T17:58:13+00:00"
       },
       "signal": "drop",
-      "drop_pct": 34,
+      "drop_pct": 29,
       "fair_discount": 33.6,
       "base_price": 270990,
       "value_score": 91,
@@ -1846,7 +1816,7 @@
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": 0.4
+      "inflated_gap": -4.6
     },
     {
       "product": {
@@ -1992,18 +1962,18 @@
         "sku": "17200012958",
         "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Pro 13‑inch (M4) - White (MWR43RS/A)",
         "price": 199990,
-        "old_price": 295990,
+        "old_price": 275990,
         "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-pro-13inch-m4---white-mwr43rsa/",
         "brand": "Apple",
         "category": "Клавиатуры для планшетов",
         "group": "phones",
         "in_stock": true,
-        "discount_pct": 32,
+        "discount_pct": 28,
         "image": "https://pi.mdev.kz/f0024fae-4978-11ef-a267-005056b6e990?w=400",
         "first_seen": "2026-09-20T17:58:13+00:00"
       },
       "signal": "drop",
-      "drop_pct": 32,
+      "drop_pct": 28,
       "fair_discount": 32.4,
       "base_price": 295990,
       "value_score": 83,
@@ -2013,7 +1983,7 @@
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": -0.4
+      "inflated_gap": -4.4
     },
     {
       "product": {
@@ -2460,13 +2430,42 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200002164",
+        "title": "Монитор Samsung Odyssey G4 LS27BG400EIXCI 27 FHD/IPS/1ms/240Hz",
+        "price": 79980,
+        "old_price": 142990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g4-ls27bg400eixci-27-fhdips1ms240hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/4f47a8ab-3f03-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-20T17:58:13+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 27.3,
+      "base_price": 109990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.7
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-29T19:20:46+00:00",
+      "last_crawl": "2026-10-29T21:20:56+00:00",
       "item_count": 7852,
       "status": "ok"
     },
