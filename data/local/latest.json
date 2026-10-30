@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T11:25:10.243501+00:00",
+  "updated_at": "2026-10-30T18:58:14.694184+00:00",
   "deals": [
     {
       "product": {
@@ -275,6 +275,33 @@
       },
       "signal": "deal",
       "drop_pct": 69,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006735",
+        "title": "Игровая гарнитура ASUS ROG Strix Go",
+        "price": 19990,
+        "old_price": 58990,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-asus-rog-strix-go/",
+        "brand": "ASUS",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://pi.mdev.kz/3074ced8-61a3-11ee-a262-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
       "fair_discount": null,
       "base_price": null,
       "value_score": 31,
@@ -713,34 +740,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 67.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006735",
-        "title": "Игровая гарнитура ASUS ROG Strix Go",
-        "price": 19990,
-        "old_price": 58990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-asus-rog-strix-go/",
-        "brand": "ASUS",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://pi.mdev.kz/3074ced8-61a3-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 66.0
     },
     {
       "product": {
@@ -1482,6 +1481,89 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200023092",
+        "title": "Смартфон HUAWEI Nova 15 12/512 Green (PSN-LX9)",
+        "price": 174890,
+        "old_price": 269990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12512-green-psn-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/5416c42b-02ef-4603-81ac-d1bbfe89b9be?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 30.0,
+      "base_price": 249890,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023093",
+        "title": "Смартфон HUAWEI Nova 15 12/512 White (PSN-LX9)",
+        "price": 174890,
+        "old_price": 269990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12512-white-psn-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/c24a57bb-078e-4068-b179-ba7a738e4ad9?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 30.0,
+      "base_price": 249890,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023094",
+        "title": "Смартфон HUAWEI Nova 15 12/512 Black (PSN-LX9)",
+        "price": 174890,
+        "old_price": 269990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12512-black-psn-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/de10628c-b3b7-434a-a645-914709d044ca?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 30.0,
+      "base_price": 249890,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020924",
         "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет черный, (ATM-B19)",
         "price": 99790,
@@ -1493,7 +1575,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://pi.mdev.kz/1e7d5fac-d546-4fd4-b5f7-c557a70643c3?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-25T17:20:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -1549,7 +1631,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://pi.mdev.kz/dbfe166b-3870-4087-9495-d3972faf6b48?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-25T17:20:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -1577,7 +1659,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-25T17:20:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -1590,6 +1672,337 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023095",
+        "title": "Смартфон HUAWEI Nova 15 12/256 Green (PSN-LX9)",
+        "price": 164890,
+        "old_price": 249990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12256-green-psn-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/5416c42b-02ef-4603-81ac-d1bbfe89b9be?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 28.3,
+      "base_price": 229890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023097",
+        "title": "Смартфон HUAWEI Nova 15 12/256 White (PSN-LX9)",
+        "price": 164890,
+        "old_price": 249990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12256-white-psn-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/c24a57bb-078e-4068-b179-ba7a738e4ad9?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 28.3,
+      "base_price": 229890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023098",
+        "title": "Смартфон HUAWEI Nova 15 12/256 Black (PSN-LX9)",
+        "price": 164890,
+        "old_price": 249990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-12256-black-psn-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://pi.mdev.kz/de10628c-b3b7-434a-a645-914709d044ca?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 28.3,
+      "base_price": 229890,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021671",
+        "title": "Планшет Lenovo Idea Tab TB336 WiFi 11 8 Гб/128 Гб + стилус, чехол-клавиатура (ZAFR0286UZ)",
+        "price": 109930,
+        "old_price": 149890,
+        "url": "https://www.mechta.kz/product/planshet-lenovo-idea-tab-tb336-wifi-11-8-gb128-gb-plus-stilus-chehol-klaviatura-zafr0286uz/",
+        "brand": "Lenovo",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://pi.mdev.kz/20df2c0e-3957-4497-a367-0b664fb07ae0?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 26.7,
+      "base_price": 149890,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021670",
+        "title": "Планшет Lenovo Idea Tab TB336 WiFi 11 8 Гб/256 Гб (ZAFR0917UZ)",
+        "price": 99930,
+        "old_price": 134890,
+        "url": "https://www.mechta.kz/product/planshet-lenovo-idea-tab-tb336-wifi-11-8-gb256-gb-zafr0917uz/",
+        "brand": "Lenovo",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://pi.mdev.kz/10f23cc9-176e-4daf-b899-6703ac3ae7f0?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 25.9,
+      "base_price": 134890,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023082",
+        "title": "Смартфон HUAWEI Nova 15 Pro 12/512 Green (KLE-LX9)",
+        "price": 244890,
+        "old_price": 349990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-pro-12512-green-kle-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/af93498a-d554-4267-9dc4-27d1c0a180dc?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 25.8,
+      "base_price": 329890,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023085",
+        "title": "Смартфон HUAWEI Nova 15 Pro 12/512 White (KLE-LX9)",
+        "price": 244890,
+        "old_price": 349990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-pro-12512-white-kle-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/591f297e-6ee7-4c11-9c1d-56aa0c52660e?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 25.8,
+      "base_price": 329890,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020499",
+        "title": "Вертикальный пылесос LG A9T LITE",
+        "price": 299990,
+        "old_price": 529990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-lg-a9t-lite/",
+        "brand": "LG",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/4dfa41b4-9898-4ef2-bb32-da3ec52650e5?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 25.0,
+      "base_price": 399990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023087",
+        "title": "Смартфон HUAWEI Nova 15 Pro 12/256 Green (KLE-LX9)",
+        "price": 234890,
+        "old_price": 329990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-pro-12256-green-kle-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/af93498a-d554-4267-9dc4-27d1c0a180dc?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 24.2,
+      "base_price": 309890,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023088",
+        "title": "Смартфон HUAWEI Nova 15 Pro 12/256 Purple (KLE-LX9)",
+        "price": 234890,
+        "old_price": 329990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-pro-12256-purple-kle-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/ee50af61-a99f-4d3f-8c56-987bc559f93a?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 24.2,
+      "base_price": 309890,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023089",
+        "title": "Смартфон HUAWEI Nova 15 Pro 12/256 White (KLE-LX9)",
+        "price": 234890,
+        "old_price": 329990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-pro-12256-white-kle-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/591f297e-6ee7-4c11-9c1d-56aa0c52660e?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 24.2,
+      "base_price": 309890,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023090",
+        "title": "Смартфон HUAWEI Nova 15 Pro 12/256 Black (KLE-LX9)",
+        "price": 234890,
+        "old_price": 329990,
+        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-15-pro-12256-black-kle-lx9/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/32c6a07a-cee2-4fe1-b33f-0bce5f6074b0?w=400",
+        "first_seen": "2026-09-25T17:20:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 24.2,
+      "base_price": 309890,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.8
     },
     {
       "product": {
@@ -1649,6 +2062,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200021669",
+        "title": "Планшет Lenovo Idea Tab TB336 WiFi 11 8 Гб/128 Гб + стилус, чехол (ZAFR0441UZ)",
+        "price": 99930,
+        "old_price": 129890,
+        "url": "https://www.mechta.kz/product/planshet-lenovo-idea-tab-tb336-wifi-11-8-gb128-gb-plus-stilus-chehol-zafr0441uz/",
+        "brand": "Lenovo",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://pi.mdev.kz/10f23cc9-176e-4daf-b899-6703ac3ae7f0?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 129890,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200004198",
         "title": "Электрочайник BRAUN WK 1500 WH",
         "price": 27990,
@@ -1672,6 +2113,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200024350",
+        "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray (Agassi6-W19D)",
+        "price": 99890,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-wifi-8gb128gb-nebula-gray-agassi6-w19d/",
+        "brand": "Huawei",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/c8d08f14-da10-4d05-b7e6-f429c31b8fb1?w=400",
+        "first_seen": "2026-10-14T11:22:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 16.7,
+      "base_price": 119890,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.3
     },
     {
       "product": {
@@ -1763,8 +2232,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-30T11:24:54+00:00",
-      "item_count": 7903,
+      "last_crawl": "2026-10-30T18:58:01+00:00",
+      "item_count": 7888,
       "status": "ok"
     },
     {
@@ -1804,8 +2273,8 @@
     }
   ],
   "stats": {
-    "total_products": 7903,
-    "total_deals": 65,
-    "avg_discount": 64
+    "total_products": 7888,
+    "total_deals": 82,
+    "avg_discount": 63.0
   }
 }
