@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T19:21:15.308445+00:00",
+  "updated_at": "2026-10-30T21:20:12.156937+00:00",
   "deals": [
     {
       "product": {
@@ -1425,30 +1425,114 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000083782",
-        "title": "Стационарный блендер PANASONIC EX 1011 WTQ",
-        "price": 20990,
-        "old_price": 32290,
-        "url": "https://www.mechta.kz/product/stacionarnyy-blender-panasonic-ex-1011-wtq/",
-        "brand": "Panasonic",
-        "category": "Блендеры стационарные",
-        "group": "kitchen",
+        "sku": "17200014858",
+        "title": "Мышка игровая HyperX Pulsefire Haste 2 Mini Wireless, чёрный",
+        "price": 34990,
+        "old_price": 58990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-hyperx-pulsefire-haste-2-mini-wireless-chernyy/",
+        "brand": "HyperX",
+        "category": "Мыши",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/9571e843-157e-11ea-a22b-005056b6dbd7?w=400",
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/aa755071-9fe3-11ef-a26b-005056b6e990?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 35.0,
-      "base_price": 32290,
+      "drop_pct": 41,
+      "fair_discount": 40.7,
+      "base_price": 58990,
       "value_score": 89,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 0.0
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014859",
+        "title": "Мышка игровая HyperX Pulsefire Haste 2 Mini Wireless, белый",
+        "price": 34990,
+        "old_price": 58990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-hyperx-pulsefire-haste-2-mini-wireless-belyy/",
+        "brand": "HyperX",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/aa75506c-9fe3-11ef-a26b-005056b6e990?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 40.7,
+      "base_price": 58990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006961",
+        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2, черный",
+        "price": 27990,
+        "old_price": 44990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-chernyy/",
+        "brand": "HyperX",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/7e63a176-3596-11ee-a25e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 37.8,
+      "base_price": 44990,
+      "value_score": 86,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010027",
+        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
+        "price": 39990,
+        "old_price": 63990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-wireless-chernaya/",
+        "brand": "Kingston",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 37.5,
+      "base_price": 63990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -1477,6 +1561,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 22.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010026",
+        "title": "Коврик для мышки HyperX Pulsefire XXL 4Z7X6AA",
+        "price": 17990,
+        "old_price": 25990,
+        "url": "https://www.mechta.kz/product/kovrik-dlya-myshki-hyperx-pulsefire-xxl-4z7x6aa/",
+        "brand": "Kingston",
+        "category": "Коврики для мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/558068f6-c4a4-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.8,
+      "base_price": 25990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -2007,89 +2118,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012779",
-        "title": "Ирригатор Aeno ADI 0002",
-        "price": 21990,
-        "old_price": 28990,
-        "url": "https://www.mechta.kz/product/irrigator-aeno-adi-0002/",
-        "brand": "Aeno",
-        "category": "Ирригаторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://pi.mdev.kz/8fb62e17-4585-11ef-a267-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 24.1,
-      "base_price": 28990,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000001221",
-        "title": "Утюг Tefal Express Steam FV2867E0",
-        "price": 29990,
-        "old_price": 50990,
-        "url": "https://www.mechta.kz/product/utyug-tefal-express-steam-fv2867e0/",
-        "brand": "Tefal",
-        "category": "Утюги",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/96c480ea-821a-4b81-a99a-a160dcdd1fa1?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 23.1,
-      "base_price": 38990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021669",
-        "title": "Планшет Lenovo Idea Tab TB336 WiFi 11 8 Гб/128 Гб + стилус, чехол (ZAFR0441UZ)",
-        "price": 99930,
-        "old_price": 129890,
-        "url": "https://www.mechta.kz/product/planshet-lenovo-idea-tab-tb336-wifi-11-8-gb128-gb-plus-stilus-chehol-zafr0441uz/",
-        "brand": "Lenovo",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://pi.mdev.kz/10f23cc9-176e-4daf-b899-6703ac3ae7f0?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 23.1,
-      "base_price": 129890,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200004198",
         "title": "Электрочайник BRAUN WK 1500 WH",
         "price": 27990,
@@ -2232,8 +2260,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-30T19:21:04+00:00",
-      "item_count": 7888,
+      "last_crawl": "2026-10-30T21:20:04+00:00",
+      "item_count": 7886,
       "status": "ok"
     },
     {
@@ -2273,8 +2301,8 @@
     }
   ],
   "stats": {
-    "total_products": 7888,
-    "total_deals": 82,
-    "avg_discount": 63.0
+    "total_products": 7886,
+    "total_deals": 83,
+    "avg_discount": 63
   }
 }
