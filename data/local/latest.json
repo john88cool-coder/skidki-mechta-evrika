@@ -1,33 +1,6 @@
 {
-  "updated_at": "2026-10-30T21:20:12.156937+00:00",
+  "updated_at": "2026-10-30T23:20:08.291350+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010269",
-        "title": "Вертикальный пылесос Samsung JET 95 Complete (VS20C9544TB/EV)",
-        "price": 49990,
-        "old_price": 314990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-95-complete-vs20c9544tbev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 84,
-        "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T21:20:47+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 84,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
     {
       "product": {
         "shop": "mechta",
@@ -1341,6 +1314,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200003059",
+        "title": "Телевизор LOEWE LED 43SteamingTV, 4K Ult, Integrated soundbar, Storm Grey",
+        "price": 299990,
+        "old_price": 758990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-led-43steamingtv-4k-ult-integrated-soundbar-storm-grey/",
+        "brand": "Loewe",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011853",
         "title": "Дом. кинотеатр Samsung HW-S801D Soundbar",
         "price": 139990,
@@ -2260,8 +2260,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-30T21:20:04+00:00",
-      "item_count": 7886,
+      "last_crawl": "2026-10-30T23:20:01+00:00",
+      "item_count": 7890,
       "status": "ok"
     },
     {
@@ -2301,8 +2301,8 @@
     }
   ],
   "stats": {
-    "total_products": 7886,
+    "total_products": 7890,
     "total_deals": 83,
-    "avg_discount": 63
+    "avg_discount": 62
   }
 }
