@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:22:48.300509+00:00",
+  "updated_at": "2026-10-30T11:25:10.243501+00:00",
   "deals": [
     {
       "product": {
@@ -15,37 +15,10 @@
         "in_stock": true,
         "discount_pct": 84,
         "image": "https://pi.mdev.kz/fe1f4a4e-d6b6-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-25T21:20:47+00:00"
       },
       "signal": "deal",
       "drop_pct": 84,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010268",
-        "title": "Вертикальный пылесос Samsung JET 85 Complete (VS20C8524TB/EV)",
-        "price": 49990,
-        "old_price": 284990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-85-complete-vs20c8524tbev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 82,
-        "image": "https://pi.mdev.kz/2c58ad12-cc7a-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 82,
       "fair_discount": null,
       "base_price": null,
       "value_score": 31,
@@ -225,7 +198,7 @@
       "drop_pct": 71,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 39,
+      "value_score": 34,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -1342,6 +1315,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200006696",
+        "title": "Вертикальный пылесос TEFAL GF 3039WO",
+        "price": 89990,
+        "old_price": 227990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-gf-3039wo/",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/40acfa7d-ad66-4c09-bd78-6b3ee4984dca?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 89990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011853",
         "title": "Дом. кинотеатр Samsung HW-S801D Soundbar",
         "price": 139990,
@@ -1426,230 +1426,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003996",
-        "title": "Мышка игровая ZOWIE ZA11-C 9H.N3FBB.A2E",
-        "price": 22990,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za11-c-9hdotn3fbbdota2e/",
-        "brand": "Zowie",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/528ed1d8-859f-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 41.0,
-      "base_price": 38990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003998",
-        "title": "Мышка игровая ZOWIE EC3-C 9H.N3MBB.A2E",
-        "price": 22990,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-ec3-c-9hdotn3mbbdota2e/",
-        "brand": "Zowie",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/528ed1ca-859f-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 41.0,
-      "base_price": 38990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003999",
-        "title": "Мышка игровая ZOWIE ZA13-C 9H.N3HBB.A2E",
-        "price": 22990,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za13-c-9hdotn3hbbdota2e/",
-        "brand": "Zowie",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/528ed1de-859f-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 41.0,
-      "base_price": 38990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002308",
-        "title": "Мышка игровая ZOWIE S1.9H.N0GBB.A2E",
-        "price": 22990,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-s1dot9hdotn0gbbdota2e/",
-        "brand": "Zowie",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/5ad38d40-39ce-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 41.0,
-      "base_price": 38990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002306",
-        "title": "Клавиатура STEELSERIES Apex 3 RU 64805",
-        "price": 21990,
-        "old_price": 43900,
-        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-3-ru-64805/",
-        "brand": "SteelSeries",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/5cc5cf02-3902-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 40.9,
-      "base_price": 37190,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 9.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002309",
-        "title": "Мышка игровая ZOWIE ZA12-B",
-        "price": 22990,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za12-b/",
-        "brand": "Zowie",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/5ad38d47-39ce-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 37.7,
-      "base_price": 36890,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 9.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003899",
-        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) US черный",
-        "price": 54990,
-        "old_price": 89900,
-        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-us-chernyy/",
-        "brand": "SteelSeries",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/9449781f-8019-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 37.4,
-      "base_price": 87890,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 1.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006173",
-        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) 64642 черный",
-        "price": 50990,
-        "old_price": 89900,
-        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-64642-chernyy/",
-        "brand": "SteelSeries",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/8a549fd8-0c7c-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 37.0,
-      "base_price": 80890,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000083782",
         "title": "Стационарный блендер PANASONIC EX 1011 WTQ",
         "price": 20990,
@@ -1674,35 +1450,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021009",
-        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 13‑inch (M3) - Black (MGYY4RS/A)",
-        "price": 179990,
-        "old_price": 252490,
-        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-13inch-m3---black-mgyy4rsa/",
-        "brand": "Apple",
-        "category": "Клавиатуры для планшетов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://pi.mdev.kz/d65bc92b-94db-49ff-8e91-532d93606f67?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 33.6,
-      "base_price": 270990,
-      "value_score": 91,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -4.6
     },
     {
       "product": {
@@ -1735,340 +1482,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003997",
-        "title": "Мышка игровая ZOWIE EC1-C 9H.N39BA.A2E",
-        "price": 25990,
-        "old_price": 42990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-ec1-c-9hdotn39badota2e/",
-        "brand": "Zowie",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/528ed1c4-859f-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 33.3,
-      "base_price": 38990,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002311",
-        "title": "Мышка игровая STEELSERIES Sensei Ten, 62527",
-        "price": 18990,
-        "old_price": 33900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-sensei-ten-62527/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/e4b5d468-3932-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 33.2,
-      "base_price": 28410,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003913",
-        "title": "Мышка игровая STEELSERIES Prime Mini Чёрная",
-        "price": 18990,
-        "old_price": 37900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-mini-chernaya/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/54b42ee5-8277-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 32.9,
-      "base_price": 28290,
-      "value_score": 80,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003915",
-        "title": "Мышка игровая STEELSERIES Prime Wireless",
-        "price": 36990,
-        "old_price": 58900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-wireless/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/54b42eea-8277-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 32.6,
-      "base_price": 54890,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012958",
-        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Pro 13‑inch (M4) - White (MWR43RS/A)",
-        "price": 199990,
-        "old_price": 275990,
-        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-pro-13inch-m4---white-mwr43rsa/",
-        "brand": "Apple",
-        "category": "Клавиатуры для планшетов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/f0024fae-4978-11ef-a267-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 32.4,
-      "base_price": 295990,
-      "value_score": 83,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -4.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003916",
-        "title": "Мышка игровая STEELSERIES Prime+ Оптическая True Move Pro+",
-        "price": 23990,
-        "old_price": 38900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-primeplus-opticheskaya-true-move-proplus/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/54b42ef4-8277-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 32.2,
-      "base_price": 35390,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000080917",
-        "title": "Клавиатура STEELSERIES Apex M750 TKL PUBG Edition 64726",
-        "price": 41990,
-        "old_price": 65990,
-        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-m750-tkl-pubg-edition-64726/",
-        "brand": "SteelSeries",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://pi.mdev.kz/941756d7-eff1-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 32.2,
-      "base_price": 61890,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 3.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003914",
-        "title": "Мышка игровая STEELSERIES Prime Mini Wireless Чёрная",
-        "price": 37990,
-        "old_price": 58900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-mini-wireless-chernaya/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://pi.mdev.kz/c2ce4289-8047-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 32.0,
-      "base_price": 55890,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "26260002109",
-        "title": "Док-станция Trust Dalyx Aluminium 10 в 1",
-        "price": 33990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/dok-stanciya-trust-dalyx-aluminium-10-v-1/",
-        "brand": "Trust",
-        "category": "Док-станции для ноутбуков",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://pi.mdev.kz/872f67e0-d07d-11ea-a230-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 32.0,
-      "base_price": 49990,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003905",
-        "title": "Мышка игровая STEELSERIES Aerox 3 (2022) Onyx",
-        "price": 20990,
-        "old_price": 45900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-aerox-3-2022-onyx/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/c2ce4283-8047-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 31.8,
-      "base_price": 30790,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 22.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003906",
-        "title": "Мышка игровая STEELSERIES Prime Чёрная",
-        "price": 18990,
-        "old_price": 37900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-prime-chernaya/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/54b42eed-8277-11ed-a251-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 30.9,
-      "base_price": 27490,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006175",
-        "title": "Мышка игровая STEELSERIES Aerox 3 62599 черный",
-        "price": 18990,
-        "old_price": 34900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-aerox-3-62599-chernyy/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://pi.mdev.kz/3c07295a-1542-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 46,
-      "fair_discount": 30.8,
-      "base_price": 27449,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020924",
         "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет черный, (ATM-B19)",
         "price": 99790,
@@ -2093,33 +1506,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 7.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008967",
-        "title": "Мышка игровая Glorious Model O, GO-WHITE, Matte white",
-        "price": 16990,
-        "old_price": 29990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-glorious-model-o-go-white-matte-white/",
-        "brand": "Glorious",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/5fe1cac6-875d-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 28.6,
-      "base_price": 23790,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.4
     },
     {
       "product": {
@@ -2208,264 +1594,177 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200008975",
-        "title": "Клавиатура Glorious GMMK2 Full Size, white",
-        "price": 35990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/klaviatura-glorious-gmmk2-full-size-white/",
-        "brand": "Glorious",
-        "category": "Клавиатуры",
-        "group": "computers",
+        "sku": "17200012779",
+        "title": "Ирригатор Aeno ADI 0002",
+        "price": 21990,
+        "old_price": 28990,
+        "url": "https://www.mechta.kz/product/irrigator-aeno-adi-0002/",
+        "brand": "Aeno",
+        "category": "Ирригаторы",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/5fe1caaf-875d-11ee-a264-005056b6dbd7?w=400",
+        "discount_pct": 24,
+        "image": "https://pi.mdev.kz/8fb62e17-4585-11ef-a267-005056b6e990?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 27.9,
-      "base_price": 49890,
-      "value_score": 66,
+      "drop_pct": 24,
+      "fair_discount": 24.1,
+      "base_price": 28990,
+      "value_score": 61,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 17.1
+      "inflated_gap": -0.1
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200008974",
-        "title": "Клавиатура Glorious GMMK2 Full Size, black",
-        "price": 35990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/klaviatura-glorious-gmmk2-full-size-black/",
-        "brand": "Glorious",
-        "category": "Клавиатуры",
-        "group": "computers",
+        "sku": "17000001221",
+        "title": "Утюг Tefal Express Steam FV2867E0",
+        "price": 29990,
+        "old_price": 50990,
+        "url": "https://www.mechta.kz/product/utyug-tefal-express-steam-fv2867e0/",
+        "brand": "Tefal",
+        "category": "Утюги",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/5fe1caab-875d-11ee-a264-005056b6dbd7?w=400",
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/96c480ea-821a-4b81-a99a-a160dcdd1fa1?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 27.7,
-      "base_price": 49790,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012526",
-        "title": "Стилус APPLE Pencil Pro MX2D3QN/A",
-        "price": 79990,
-        "old_price": 101990,
-        "url": "https://www.mechta.kz/product/stilus-apple-pencil-pro-mx2d3qna/",
-        "brand": "Apple",
-        "category": "Стилусы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://pi.mdev.kz/18d9ec88-a8c2-4678-9f38-7b0741a94bf8?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 26.9,
-      "base_price": 109490,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -4.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008961",
-        "title": "Мышка игровая Glorious Model D Wireless, Matte black",
-        "price": 27990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-glorious-model-d-wireless-matte-black/",
-        "brand": "Glorious",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/5fe1cab6-875d-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 26.9,
-      "base_price": 38290,
+      "drop_pct": 41,
+      "fair_discount": 23.1,
+      "base_price": 38990,
       "value_score": 70,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 17.1
+      "inflated_gap": 17.9
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200008962",
-        "title": "Мышка игровая Glorious Model D Wireless, Matte white",
+        "sku": "17200004198",
+        "title": "Электрочайник BRAUN WK 1500 WH",
         "price": 27990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-glorious-model-d-wireless-matte-white/",
-        "brand": "Glorious",
-        "category": "Мыши",
+        "old_price": 40990,
+        "url": "https://www.mechta.kz/product/elektrochaynik-braun-wk-1500-wh/",
+        "brand": "Braun",
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/b711b2ab-9874-11ed-a253-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 20.0,
+      "base_price": 34990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019238",
+        "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
+        "price": 499990,
+        "old_price": 899990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-3d-ls27fg900xixci-27-uhdips1ms165hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
         "group": "computers",
         "in_stock": true,
         "discount_pct": 44,
-        "image": "https://pi.mdev.kz/5fe1cabb-875d-11ee-a264-005056b6dbd7?w=400",
+        "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
-      "fair_discount": 26.9,
-      "base_price": 38290,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008964",
-        "title": "Мышка игровая Glorious Model I, black",
-        "price": 17990,
-        "old_price": 31990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-glorious-model-i-black/",
-        "brand": "Glorious",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/277b1bec-872d-49aa-b1f4-ccaaecfe0d32?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 26.5,
-      "base_price": 24490,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200008959",
-        "title": "Мышка игровая Glorious Model D, Matte black",
-        "price": 16990,
-        "old_price": 29990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-glorious-model-d-matte-black/",
-        "brand": "Glorious",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/5fe1cac0-875d-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 26.1,
-      "base_price": 22990,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 16.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000004719",
-        "title": "Клавиатура ASUS RA04 TUF GAMING K1/RU//KB,MEMBRANE",
-        "price": 16990,
-        "old_price": 32990,
-        "url": "https://www.mechta.kz/product/klaviatura-asus-ra04-tuf-gaming-k1rukbmembrane/",
-        "brand": "ASUS",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/a459c853-9cea-11eb-a23b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 26.1,
-      "base_price": 22990,
-      "value_score": 73,
+      "fair_discount": 16.7,
+      "base_price": 599990,
+      "value_score": 56,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 21.9
+      "inflated_gap": 27.3
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000078199",
-        "title": "Триммер для волос PHILIPS HC 3505/15",
-        "price": 15990,
-        "old_price": 26990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-volos-philips-hc-350515/",
-        "brand": "Philips",
-        "category": "Машинки для стрижки волос",
-        "group": "beauty",
+        "sku": "17200002166",
+        "title": "Монитор Samsung Odyssey G4 LS25BG400EIXCI 25 FHD/IPS/1ms/240Hz",
+        "price": 69980,
+        "old_price": 119990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g4-ls25bg400eixci-25-fhdips1ms240hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/d105ced2-e7f6-11e8-a219-005056b6dbd7?w=400",
+        "discount_pct": 42,
+        "image": "https://pi.mdev.kz/4f47a89e-3f03-11ed-a24a-005056b6dbd7?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 23.8,
-      "base_price": 20990,
-      "value_score": 71,
+      "drop_pct": 42,
+      "fair_discount": 12.5,
+      "base_price": 79990,
+      "value_score": 49,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
+        "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 17.2
+      "inflated_gap": 29.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200002164",
+        "title": "Монитор Samsung Odyssey G4 LS27BG400EIXCI 27 FHD/IPS/1ms/240Hz",
+        "price": 79980,
+        "old_price": 142990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g4-ls27bg400eixci-27-fhdips1ms240hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/4f47a8ab-3f03-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 11.1,
+      "base_price": 89990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 32.9
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-30T07:22:38+00:00",
-      "item_count": 7866,
+      "last_crawl": "2026-10-30T11:24:54+00:00",
+      "item_count": 7903,
       "status": "ok"
     },
     {
@@ -2505,8 +1804,8 @@
     }
   ],
   "stats": {
-    "total_products": 7866,
-    "total_deals": 90,
-    "avg_discount": 62.0
+    "total_products": 7903,
+    "total_deals": 65,
+    "avg_discount": 64
   }
 }
