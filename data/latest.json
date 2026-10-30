@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T20:03:13.439099+00:00",
+  "updated_at": "2026-10-30T00:20:15.527350+00:00",
   "deals": [
     {
       "product": {
@@ -3516,7 +3516,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 39990,
-      "value_score": 26,
+      "value_score": 23,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4402,6 +4402,62 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "633170",
+        "title": "Смарт-часы Huawei WATCH 5 42mm White",
+        "price": 116975,
+        "old_price": 248890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1663_0_1_o3RAVa_160.webp",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 26.8,
+      "base_price": 159890,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633168",
+        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
+        "price": 168566,
+        "old_price": 341890,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 51,
+      "fair_discount": 26.7,
+      "base_price": 229890,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.3
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "41617",
         "title": "Машинка для стрижки и триммер Rowenta TN1601F1",
@@ -4810,34 +4866,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000046932",
-        "title": "Наушники Xiaomi Buds 3T Pro Белый",
-        "price": 54515,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4354",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4354_0_2_160.webp",
-        "first_seen": "2026-09-24T21:57:02+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.3,
-      "base_price": 68430,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "632613",
         "title": "Холодильник Samsung RS80F65J1FWT",
         "price": 766390,
@@ -5139,6 +5167,34 @@
         "Честная скидка"
       ],
       "inflated_gap": -2.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000046932",
+        "title": "Наушники Xiaomi Buds 3T Pro Белый",
+        "price": 54515,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4354",
+        "brand": "Xiaomi",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4354_0_2_160.webp",
+        "first_seen": "2026-09-24T21:57:02+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 68106,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -5695,6 +5751,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "626229",
+        "title": "Электрический чайник Tefal Thermo Protect XL KO190AE0",
+        "price": 30790,
+        "old_price": 50990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ko190ae0",
+        "brand": "Tefal",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_822_0_1_hK9hfL_160.webp",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 19.0,
+      "base_price": 37990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "38780",
         "title": "Чайник Tefal KO693110",
@@ -5860,34 +5944,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "626229",
-        "title": "Электрический чайник Tefal Thermo Protect XL KO190AE0",
-        "price": 30890,
-        "old_price": 50990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ko190ae0",
-        "brand": "Tefal",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_822_0_1_hK9hfL_160.webp",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 18.7,
-      "base_price": 37990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "650140",
         "title": "Стиральная машина Samsung WW80AK6L28BELT_KZ",
         "price": 248090,
@@ -5905,41 +5961,13 @@
       "drop_pct": 22,
       "fair_discount": 18.7,
       "base_price": 304990,
-      "value_score": 60,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
       ],
       "inflated_gap": 3.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624323",
-        "title": "Рисоварка Xiaomi Smart Multifunctional Rice Cooker",
-        "price": 32536,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/multivarki-xiaomi-344-246",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_344_246_3_2_160.webp",
-        "first_seen": "2026-10-13T16:22:56+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.6,
-      "base_price": 39975,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6135,33 +6163,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 3.8
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "296923",
-        "title": "Встраиваемая посудомоечная машина Midea MDWB-6018LD",
-        "price": 179990,
-        "old_price": 219990,
-        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-midea-mdwb-6018ld-296923",
-        "brand": "Midea",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://api.technodom.kz/f3/api/v1/images/296923_1.webp",
-        "first_seen": "2026-10-15T11:55:34+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 18.2,
-      "base_price": 219990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -6493,33 +6494,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1666487",
-        "title": "Ручной пылесос Deerma VC03S, Black",
-        "price": 32300,
-        "old_price": 40990,
-        "url": "https://shop.kz/offer/ruchnoy-pylesos-deerma-vc03s-black/",
-        "brand": "Deerma",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://static.shop.kz/upload/iblock/129/a9zk9r39me1mo4pyxod8bry1yq5hq9hs/183125s200.jpg",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 15.0,
-      "base_price": 37990,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "651656",
         "title": "Смартфон Vivo V70 12/256GB Black",
@@ -6570,6 +6544,31 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "3000041576",
+        "title": "Наушники soundcore Liberty Buds White D1200Z21 White",
+        "price": 34110,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-soundcore-83-4014",
+        "brand": "Soundcore",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4014_0_1_QnCRw5_160.webp",
+        "first_seen": "2026-09-25T01:01:36+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.7,
+      "base_price": 39990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1703882",
         "title": "Морозильная камера Бирюса 514, White",
@@ -6591,6 +6590,33 @@
       "value_score": 49,
       "is_pick": false,
       "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653388",
+        "title": "MicroRGB телевизор Samsung MRE75R95HXUXCE",
+        "price": 2499990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-mre75r95hxuxce",
+        "brand": "Samsung",
+        "category": null,
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_21163_0_1_UD4JLc_160.webp",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.6,
+      "base_price": 2928848,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
       "inflated_gap": null
     },
     {
@@ -6667,31 +6693,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 13.6
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1626577",
-        "title": "Парогенератор Redmond RSS-5908, White-Grey",
-        "price": 112390,
-        "old_price": 130990,
-        "url": "https://shop.kz/offer/parogenerator-redmond-rss-5908-white-grey/",
-        "brand": "REDMOND",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://static.shop.kz/upload/iblock/70b/ti1w0n6p3tcu7yoj62etybdzgiqb7cgt/2.jpg",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 14.2,
-      "base_price": 130990,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -6854,7 +6855,7 @@
         "shop": "sulpak",
         "sku": "652065",
         "title": "Смарт- часы HUAWEI WATCH FIT 5 Silver Niki-B19W",
-        "price": 65301,
+        "price": 65295,
         "old_price": 89890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-fit-5-silver-niki-b19w",
         "brand": "HUAWEI",
@@ -6929,31 +6930,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1648046",
-        "title": "Пылесос Deerma Vacuum Cleaner TJ200W, White-Red",
-        "price": 41500,
-        "old_price": 49990,
-        "url": "https://shop.kz/offer/pylesos-deerma-vacuum-cleaner-tj200w-white-red/",
-        "brand": "Deerma",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://static.shop.kz/upload/iblock/c5a/9a6z4z1pjolqcmbp9y0i1bgdsyaub14p/158581L200.jpg",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 11.5,
-      "base_price": 46900,
-      "value_score": 44,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 5.5
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1703870",
         "title": "Холодильник Бирюса 418, White",
         "price": 121000,
@@ -7007,33 +6983,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1666505",
-        "title": "Робот-пылесос Xiaomi Robot Vacuum X20 Max D109GL + док-станция D109-JZEU, Black",
-        "price": 259990,
-        "old_price": null,
-        "url": "https://shop.kz/offer/robot-pylesos-xiaomi-robot-vacuum-x20-max-d109gl-dok-stantsiya-d109-jzeu-black/",
-        "brand": "Xiaomi",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/a41/bopm2s9k37bi5hnacxq26im7rco81rix/183130s200.jpg",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 11.3,
-      "base_price": 292990,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1693934",
         "title": "Гриль Kitfort КТ-1687, Black",
         "price": 50200,
@@ -7082,31 +7031,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1451219",
-        "title": "Ручной пылесос Deerma VC20 Pro, Blue",
-        "price": 61190,
-        "old_price": 69990,
-        "url": "https://shop.kz/offer/ruchnoy-pylesos-deerma-vc20-pro-blue/",
-        "brand": "Deerma",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://static.shop.kz/upload/iblock/8a6/2c68owz4ln59bu2idoaxdj6arqj8tdxd/00000164620121.jpg",
-        "first_seen": "2026-09-25T01:01:36+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 10.7,
-      "base_price": 68500,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 2.3
     },
     {
       "product": {
@@ -7173,31 +7097,6 @@
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13022_0_1_lweqvG_160.webp",
         "first_seen": "2026-10-05T15:07:15+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 10.0,
-      "base_price": 349890,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654979",
-        "title": "Смартфон Huawei Nova 16s Pro 12/512GB Breathing Crystal",
-        "price": 314901,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12512gb-breathing-crystal",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13021_0_1_A0KmGJ_160.webp",
-        "first_seen": "2026-09-25T14:13:50+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -7335,6 +7234,81 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1723481",
+        "title": "Морозильная камера Бирюса 6147NF, White",
+        "price": 199900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/morozilnaya-kamera-biryusa-6147nf-white/",
+        "brand": "Бирюса",
+        "category": "Морозильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/97d/fkclxcb4jfc81yb2qw2mdu4p8fpedc48/196965d1.jpg",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.3,
+      "base_price": 220500,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1671554",
+        "title": "Холодильник Бирюса 6127, White",
+        "price": 173900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-6127-white/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/21a/3bbzx0zx5kf68nh67v0pl6nfbw52dayn/184378s200.jpg",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.3,
+      "base_price": 191800,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1707401",
+        "title": "Холодильник Бирюса 551, White",
+        "price": 127100,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kholodilnik-biryusa-551-white/",
+        "brand": "Бирюса",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/d12/cg2z9zg0blbmrm3kqr1sfl1230wbbhy1/190883s1.jpg",
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.3,
+      "base_price": 140100,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "297761",
         "title": "МФУ струйное Canon Pixma TS-4140i",
@@ -7437,81 +7411,28 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "654983",
-        "title": "Смартфон Huawei Nova 16s Pro 12/256GB Starry Black",
-        "price": 287901,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-16s-pro-12256gb-starry-black",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_13025_0_1_Rhc9q1_160.webp",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 8.6,
-      "base_price": 314990,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "296924",
-        "title": "Встраиваемая посудомоечная машина Midea MDWB-4518LD",
-        "price": 164990,
-        "old_price": 179990,
-        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-midea-mdwb-4518ld-296924",
-        "brand": "Midea",
-        "category": "Бытовая техника",
-        "group": "home",
+        "shop": "shopkz",
+        "sku": "1727579",
+        "title": "Моноблок Acer Aspire C24-2G (DQ.BPREC.008)",
+        "price": 384990,
+        "old_price": 419990,
+        "url": "https://shop.kz/offer/monoblok-acer-aspire-c24-2g-dq-bprec-008/",
+        "brand": "Acer",
+        "category": "Моноблоки",
+        "group": "computers",
         "in_stock": true,
         "discount_pct": 8,
-        "image": "https://api.technodom.kz/f3/api/v1/images/296924_1.webp",
-        "first_seen": "2026-10-15T11:55:34+00:00"
+        "image": "https://static.shop.kz/upload/iblock/b24/2p4ufprrvnfy3g25iu2m5vwr05rxay6f/198481d1.JPG",
+        "first_seen": "2026-10-03T12:02:03+00:00"
       },
       "signal": "drop",
       "drop_pct": 8,
       "fair_discount": 8.3,
-      "base_price": 179990,
-      "value_score": 40,
+      "base_price": 419990,
+      "value_score": 46,
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "641785",
-        "title": "Смартфон Samsung Galaxy S25 FE 5G 8/128GB Navy RDU (Витрина)",
-        "price": 229890,
-        "old_price": 414890,
-        "url": "https://www.sulpak.kz/g/tovariy-ne-dlya-prodazhi-samsung-galaxy-s25-fe-5g-rdu-navy-128gb-sm-s731bdb2skz",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12357_0_1_96DOr5_160.webp",
-        "first_seen": "2026-09-24T12:13:25+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 8.0,
-      "base_price": 249890,
-      "value_score": 44,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 37.0
     }
   ],
   "shops": [
@@ -7525,42 +7446,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-29T20:02:53+00:00",
-      "item_count": 2724,
+      "last_crawl": "2026-10-30T00:19:49+00:00",
+      "item_count": 2723,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-29T20:02:53+00:00",
+      "last_crawl": "2026-10-30T00:19:49+00:00",
       "item_count": 12308,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-29T20:02:53+00:00",
-      "item_count": 3737,
+      "last_crawl": "2026-10-30T00:19:49+00:00",
+      "item_count": 3789,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-29T20:02:53+00:00",
-      "item_count": 9611,
+      "last_crawl": "2026-10-30T00:19:49+00:00",
+      "item_count": 9612,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-29T20:02:53+00:00",
+      "last_crawl": "2026-10-30T00:19:49+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28624,
-    "total_deals": 282,
-    "avg_discount": 52.0
+    "total_products": 28676,
+    "total_deals": 279,
+    "avg_discount": 52
   }
 }
