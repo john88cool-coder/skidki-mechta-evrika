@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T18:56:37.962827+00:00",
+  "updated_at": "2026-10-31T23:46:22.797216+00:00",
   "deals": [
     {
       "product": {
@@ -44,15 +44,15 @@
       },
       "signal": "deal",
       "drop_pct": 72,
-      "fair_discount": 64.8,
-      "base_price": 289990,
+      "fair_discount": 58.0,
+      "base_price": 243190,
       "value_score": 96,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 7.2
+      "inflated_gap": 14.0
     },
     {
       "product": {
@@ -230,6 +230,34 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "290660",
+        "title": "Встраиваемая посудомоечная машина AEG FSE74707P",
+        "price": 369990,
+        "old_price": 999990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-aeg-fse74707p-290660",
+        "brand": "AEG",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://api.technodom.kz/f3/api/v1/images/290660_1.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 53.8,
+      "base_price": 799990,
+      "value_score": 86,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.2
     },
     {
       "product": {
@@ -2225,7 +2253,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 19297,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2739,7 +2767,7 @@
       "signal": "deal",
       "drop_pct": 58,
       "fair_discount": 0.0,
-      "base_price": 316790,
+      "base_price": 300990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -3950,33 +3978,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "280983",
-        "title": "Насадка для вафель Tefal XA-734810 на Optigrill на OptiGrill 2in1",
-        "price": 26990,
-        "old_price": 57990,
-        "url": "https://www.technodom.kz/p/nasadka-dlya-vafel-tefal-xa-734810-280983",
-        "brand": "Tefal",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/nasadka_dlya_vafel_tefal_xa_734810_280983_1.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 26990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "290968",
         "title": "Монитор 37\" Samsung ViewFinity S8 LS37D802UAIXCI 3840x2160 16:9 VA 60ГЦ (HDMI+DP) Black",
         "price": 119990,
@@ -4002,6 +4003,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "268730",
+        "title": "Электрическая варочная панель Electrolux EHF6232FOK",
+        "price": 229990,
+        "old_price": 379990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-elektricheskaya-varochnaya-panel-electrolux-ehf6232fok-268730",
+        "brand": "Electrolux",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://api.technodom.kz/f3/api/v1/images/vstraivaemaya_elektricheskaya_varochnaya_panel_electrolux_ehf6232fok_268730_1.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 39.5,
+      "base_price": 379990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -4557,18 +4586,18 @@
         "sku": "626137",
         "title": "Холодильник Beko GNOR522E30XH",
         "price": 419990,
-        "old_price": 469990,
+        "old_price": 559990,
         "url": "https://www.sulpak.kz/g/holodilniki-beko-gnor522e30xh",
         "brand": "Beko",
         "category": null,
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 11,
+        "discount_pct": 25,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1605_0_1_aoL6F8_160.webp",
         "first_seen": "2026-09-26T11:48:57+00:00"
       },
       "signal": "drop",
-      "drop_pct": 11,
+      "drop_pct": 25,
       "fair_discount": 23.6,
       "base_price": 549990,
       "value_score": 65,
@@ -4576,63 +4605,7 @@
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": -12.6
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "8000017667",
-        "title": "Комплект Холодильник Samsung BeSpoke RR39T7475AP/WT &#x2B; Декоративная панель для однодверного холодильника Samsung RA-R23DAACEGG Бежевый матовый металл",
-        "price": 459990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/holodilniki-samsung-bespoke-rr39t7475apwt-25-3428",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/product_complect_25_3428_wDF2Pg_160.webp",
-        "first_seen": "2026-10-01T06:19:03+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 23.3,
-      "base_price": 599990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "8000018905",
-        "title": "Комплект Холодильник Samsung BeSpoke RR39T7475AP/WT &#x2B; Декоративная панель RA - R23DAA39GG Бежевый",
-        "price": 459990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/holodilniki-samsung-bespoke-rr39t7475apwt-25-3505",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/product_complect_25_3505_bOJ5fQ_160.webp",
-        "first_seen": "2026-10-01T06:19:03+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 23.3,
-      "base_price": 599990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
+      "inflated_gap": 1.4
     },
     {
       "product": {
@@ -4665,6 +4638,60 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "301977",
+        "title": "Встраиваемая посудомоечная машина AEG GI6210D2SG",
+        "price": 549990,
+        "old_price": 714990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-aeg-gi6210d2sg-301977",
+        "brand": "AEG",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://api.technodom.kz/f3/api/v1/images/301977_1.webp",
+        "first_seen": "2026-09-29T08:57:53+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 714990,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649832",
+        "title": "TWS Наушники HUAWEI FreeClip2 Black Robin-T10",
+        "price": 69890,
+        "old_price": 99890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freeclip2-black-robin-t10",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3623_0_1_UlOyhT_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 22.2,
+      "base_price": 89890,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.8
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "300090",
         "title": "Термопринтер мобильный HPRT MT610 Pro серый",
         "price": 27990,
@@ -4688,33 +4715,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650041",
-        "title": "Планшеты HUAWEI MatePad 11,5&quot;S (PaperMatte inbox keyboard) 12 / 256 GB Space Gray Salinger-W29FK",
-        "price": 219890,
-        "old_price": 279890,
-        "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-115s-papermatte-inbox-keyboard-12-256-gb-space-gray-salinger-w29fk",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1818_0_1_Q50Ka9_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.4,
-      "base_price": 279890,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -4748,7 +4748,7 @@
         "shop": "sulpak",
         "sku": "642302",
         "title": "Смарт часы HUAWEI Watch GT 6 Pro (46mm) Titanium Atum-B29M",
-        "price": 174890,
+        "price": 174990,
         "old_price": 258890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-titanium-atum-b29m",
         "brand": "HUAWEI",
@@ -4761,42 +4761,14 @@
       },
       "signal": "drop",
       "drop_pct": 32,
-      "fair_discount": 20.5,
+      "fair_discount": 20.4,
       "base_price": 219890,
       "value_score": 65,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "632613",
-        "title": "Холодильник Samsung RS80F65J1FWT",
-        "price": 766390,
-        "old_price": 979990,
-        "url": "https://www.sulpak.kz/g/holodilniki-samsung-rs80f65j1fwt",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1670_0_1_OiDBZ1_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 20.2,
-      "base_price": 959990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 1.8
+      "inflated_gap": 11.6
     },
     {
       "product": {
@@ -5128,33 +5100,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 13.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650039",
-        "title": "Планшет Huawei MatePad Pro 12.2&#x27;&#x27; 2025 (PaperMatte inbox keyboard) 512G Black Morandi-W09DK",
-        "price": 399890,
-        "old_price": 499890,
-        "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-pro-122-2025-papermatte-inbox-keyboard-512g-black-morandi-w09dk",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1816_0_1_OsFdVW_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 499890,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -5714,6 +5659,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "268732",
+        "title": "Электрическая варочная панель Electrolux EHF6240IOK",
+        "price": 209990,
+        "old_price": 259990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-elektricheskaya-varochnaya-panel-electrolux-ehf6240iok-268732",
+        "brand": "Electrolux",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://api.technodom.kz/f3/api/v1/images/vstraivaemaya_elektricheskaya_varochnaya_panel_electrolux_ehf6240iok_268732_1q.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 19.2,
+      "base_price": 259990,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "15721",
         "title": "Миксер Moulinex HM3121B1",
@@ -5937,18 +5909,18 @@
         "sku": "650140",
         "title": "Стиральная машина Samsung WW80AK6L28BELT_KZ",
         "price": 248090,
-        "old_price": 319990,
+        "old_price": 324990,
         "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-samsung-ww80ak6l28belt-kz",
         "brand": "Samsung",
         "category": null,
         "group": "home",
         "in_stock": true,
-        "discount_pct": 22,
+        "discount_pct": 24,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1769_0_1_IPA7t9_160.webp",
         "first_seen": "2026-09-26T11:48:57+00:00"
       },
       "signal": "drop",
-      "drop_pct": 22,
+      "drop_pct": 24,
       "fair_discount": 18.7,
       "base_price": 304990,
       "value_score": 66,
@@ -5957,7 +5929,7 @@
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": 3.3
+      "inflated_gap": 5.3
     },
     {
       "product": {
@@ -5986,33 +5958,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 16.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630034",
-        "title": "Планшет Huawei MatePad SE Agassi6-W19DP Hazy Grey",
-        "price": 109890,
-        "old_price": 134890,
-        "url": "https://www.sulpak.kz/g/planshetiy-agassi6-w09dp-hazy-grey",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1318_0_6_uXn0lb_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.5,
-      "base_price": 134890,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -6295,18 +6240,18 @@
         "sku": "624130",
         "title": "Холодильник Samsung RB38C7B6D39/WT",
         "price": 505990,
-        "old_price": 629990,
+        "old_price": 609990,
         "url": "https://www.sulpak.kz/g/holodilniki-samsung-rb38c7b6d39wt",
         "brand": "Samsung",
         "category": null,
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 20,
+        "discount_pct": 17,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1545_0_1_VpPuWC_160.webp",
         "first_seen": "2026-09-26T11:48:57+00:00"
       },
       "signal": "drop",
-      "drop_pct": 20,
+      "drop_pct": 17,
       "fair_discount": 17.0,
       "base_price": 609990,
       "value_score": 63,
@@ -6315,7 +6260,7 @@
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": 3.0
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -6374,6 +6319,60 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "649833",
+        "title": "TWS Наушники HUAWEI FreeClip2 White Robin-T10",
+        "price": 69890,
+        "old_price": 99890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freeclip2-white-robin-t10",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3624_0_1_vQutJr_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 16.2,
+      "base_price": 83404,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.8
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651562",
+        "title": "Наушники soundcore Space One White A3035",
+        "price": 42063,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-soundcore-a3035-83-3968",
+        "brand": "Soundcore",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3968_0_2_160.webp",
+        "first_seen": "2026-09-27T08:35:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.9,
+      "base_price": 49990,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1714595",
         "title": "Телевизор Dreame 75S100, 75\"",
@@ -6398,6 +6397,33 @@
         "Честная скидка"
       ],
       "inflated_gap": -9.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "634659",
+        "title": "Смартфон Motorola Edge 60 Fusion 12/256Gb Zephyr",
+        "price": 156790,
+        "old_price": 209990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-motorola-edge-60-fusion-12256-zephyr",
+        "brand": "Motorola",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6603_0_1_nnOkAc_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 15.4,
+      "base_price": 185290,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.6
     },
     {
       "product": {
@@ -6477,31 +6503,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 8.5
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1702364",
-        "title": "Компьютер офисный WW-KZ (AMD Athlon PRO 300GE, 256 GB SSD, 8 GB)",
-        "price": 133490,
-        "old_price": 144790,
-        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-amd-athlon-pro-300ge-256-gb-ssd-8-gb/",
-        "brand": "Белый Ветер",
-        "category": "Настольные компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 8,
-        "image": "https://static.shop.kz/upload/iblock/e40/33q84n0pugk4whwvi00crdigv1rb3qty/188995o200.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 8,
-      "fair_discount": 14.1,
-      "base_price": 155490,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -6.1
     },
     {
       "product": {
@@ -6604,6 +6605,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 22.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649834",
+        "title": "TWS Наушники HUAWEI FreeClip2 Blue Robin-T10",
+        "price": 69890,
+        "old_price": 99890,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freeclip2-blue-robin-t10",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3625_0_1_ttFMFj_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 12.5,
+      "base_price": 79872,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.5
     },
     {
       "product": {
@@ -6710,6 +6738,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "283769",
+        "title": "Холодильник Samsung RB-38C776DS9",
+        "price": 454990,
+        "old_price": 509990,
+        "url": "https://www.technodom.kz/p/holodilnik-samsung-rb-38c776ds9-283769",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 11,
+        "image": "https://api.technodom.kz/f3/api/v1/images/283769_zz.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 11,
+      "fair_discount": 10.8,
+      "base_price": 509990,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1657471",
         "title": "Смарт-часы Xiaomi Redmi Watch 5 Lite M2352W1, Black",
@@ -6786,31 +6841,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -5.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "641523",
-        "title": "Планшет HUAWEI MatePad 11.5&quot; 2025 Taoxingzhi-W09FK 8/256GB Violet",
-        "price": 179890,
-        "old_price": 227890,
-        "url": "https://www.sulpak.kz/g/planshetiy-huawei-taoxingzhi-w09fk-matepad-115-papermatte-inbox-keyboard-8gb-256gb-violet",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1727_0_1_QQTZG9_160.webp",
-        "first_seen": "2026-10-05T23:00:21+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 10.0,
-      "base_price": 199890,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 11.0
     },
     {
       "product": {
@@ -6991,6 +7021,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "290474",
+        "title": "Холодильник Samsung RS80F65J1FWT",
+        "price": 879990,
+        "old_price": 959990,
+        "url": "https://www.technodom.kz/p/holodilnik-samsung-rs80f65j1fwt-290474",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 8,
+        "image": "https://api.technodom.kz/f3/api/v1/images/290474_zz.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 8,
+      "fair_discount": 8.3,
+      "base_price": 959990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "641785",
         "title": "Смартфон Samsung Galaxy S25 FE 5G 8/128GB Navy RDU (Витрина)",
@@ -7029,42 +7086,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-31T18:56:14+00:00",
+      "last_crawl": "2026-10-31T23:45:53+00:00",
       "item_count": 2722,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-31T18:56:14+00:00",
+      "last_crawl": "2026-10-31T23:45:53+00:00",
       "item_count": 12329,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-31T18:56:14+00:00",
-      "item_count": 3693,
+      "last_crawl": "2026-10-31T23:45:53+00:00",
+      "item_count": 3658,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-31T18:56:14+00:00",
-      "item_count": 9651,
+      "last_crawl": "2026-10-31T23:45:53+00:00",
+      "item_count": 9649,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-31T18:56:14+00:00",
+      "last_crawl": "2026-10-31T23:45:53+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28639,
-    "total_deals": 262,
+    "total_products": 28602,
+    "total_deals": 264,
     "avg_discount": 53.0
   }
 }
