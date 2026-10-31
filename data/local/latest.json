@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T23:20:08.291350+00:00",
+  "updated_at": "2026-10-31T01:20:16.700387+00:00",
   "deals": [
     {
       "product": {
@@ -1397,34 +1397,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000071669",
-        "title": "Триммер для бороды PHILIPS MG 5730/15",
-        "price": 24990,
-        "old_price": 55990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-mg-573015/",
-        "brand": "Philips",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/beccbb64-bd4e-11e7-80c1-1866daf08915?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 44.5,
-      "base_price": 44990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200014858",
         "title": "Мышка игровая HyperX Pulsefire Haste 2 Mini Wireless, чёрный",
         "price": 34990,
@@ -1533,34 +1505,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000071671",
-        "title": "Плойка PHILIPS BHB 872/00",
-        "price": 19990,
-        "old_price": 44990,
-        "url": "https://www.mechta.kz/product/ployka-philips-bhb-87200/",
-        "brand": "Philips",
-        "category": "Плойки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/beccbb5b-bd4e-11e7-80c1-1866daf08915?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 33.3,
-      "base_price": 29990,
-      "value_score": 81,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 22.7
     },
     {
       "product": {
@@ -1699,34 +1643,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 7.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012535",
-        "title": "Триммер для бороды PHILIPS OneBlade QP2734/20",
-        "price": 19990,
-        "old_price": 42290,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-oneblade-qp273420/",
-        "brand": "Philips",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/7ec0f383-b6f5-413f-b2d9-d8e8b6bec7da?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 28.6,
-      "base_price": 27990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 24.4
     },
     {
       "product": {
@@ -2260,7 +2176,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-30T23:20:01+00:00",
+      "last_crawl": "2026-10-31T01:20:09+00:00",
       "item_count": 7890,
       "status": "ok"
     },
@@ -2302,7 +2218,7 @@
   ],
   "stats": {
     "total_products": 7890,
-    "total_deals": 83,
-    "avg_discount": 62
+    "total_deals": 80,
+    "avg_discount": 63.0
   }
 }
