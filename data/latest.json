@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T06:12:12.944701+00:00",
+  "updated_at": "2026-10-31T13:02:25.424996+00:00",
   "deals": [
     {
       "product": {
@@ -25,6 +25,34 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631026",
+        "title": "Робот-пылесос Tefal RG9177WH",
+        "price": 102090,
+        "old_price": 362990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-tefal-rg9177wh",
+        "brand": "Tefal",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 72,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 72,
+      "fair_discount": 64.8,
+      "base_price": 289990,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.2
     },
     {
       "product": {
@@ -1487,31 +1515,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1728698",
-        "title": "Очиститель воздуха SmartMi Air Purifier E1, ZMKQJHQE11, Gray (SN:501104/00006140)",
-        "price": 21990,
-        "old_price": 45990,
-        "url": "https://shop.kz/offer/ochistitel-vozdukha-smartmi-air-purifier-e1-zmkqjhqe11-gray-sn-501104-00006140/",
-        "brand": "SmartMi",
-        "category": "Увлажнители и очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://static.shop.kz/upload/iblock/fa6/qvxepxm3hekj7lky9o3q0px8ti7puhp9/185551s1.jpg",
-        "first_seen": "2026-10-28T08:58:00+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "641701",
         "title": "QNED телевизор LG 55QNED92A6A",
@@ -1762,60 +1765,6 @@
       "value_score": 35,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1728839",
-        "title": "Ноутбук HP OmniBook 3 16-bu0100ci (E23YMEA) (SN:5CD6282YLQ)",
-        "price": 249990,
-        "old_price": 479990,
-        "url": "https://shop.kz/offer/noutbuk-hp-omnibook-3-16-bu0100ci-e23ymea-sn-5cd6282ylq/",
-        "brand": "HP",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://static.shop.kz/upload/iblock/377/y7wrrf2k18jmy6r9uxgmmzmhi818xvrt/Bez-nazvaniya-_9_.png",
-        "first_seen": "2026-10-28T08:58:00+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1728833",
-        "title": "Ноутбук HP OmniBook 5 Next Gen AI 16-bp0014ci, OLED (E1SF9EA) (SN:C1L6280273)",
-        "price": 326990,
-        "old_price": 619990,
-        "url": "https://shop.kz/offer/noutbuk-hp-omnibook-5-next-gen-ai-16-bp0014ci-oled-e1sf9ea-sn-c1l6280273/",
-        "brand": "HP",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://static.shop.kz/upload/iblock/ac6/jq76cklegljnjwnpblgudmihvjgbo9jv/Bez-nazvaniya-_8_.png",
-        "first_seen": "2026-10-28T08:58:00+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
       "inflated_gap": null
     },
     {
@@ -2115,33 +2064,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 68.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "631026",
-        "title": "Робот-пылесос Tefal RG9177WH",
-        "price": 119990,
-        "old_price": 362990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-tefal-rg9177wh",
-        "brand": "Tefal",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 67,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 67,
-      "fair_discount": 0.0,
-      "base_price": 289990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -2987,61 +2909,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "633300",
-        "title": "Чайник Moulinex BY6R5130",
-        "price": 18990,
-        "old_price": 43990,
-        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-moulinex-by6r5130",
-        "brand": "Moulinex",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_952_0_1_4LmCZT_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 17.4,
-      "base_price": 22990,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 39.6
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "10971",
-        "title": "Вытяжка Electrolux EFC226V",
-        "price": 94990,
-        "old_price": 222990,
-        "url": "https://evrika.com/catalog/vytyazhka-electrolux-efc226v/p10971",
-        "brand": null,
-        "category": "Вытяжки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/V8AIjfOGYOrq3F9CHqsXRmX5Al2ltms6SCUoZA6i.jpg.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 0.0,
-      "base_price": 94990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 57.0
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1728458",
         "title": "Кофеварка Kitfort КТ-7124, Black (SN:112200228)",
@@ -3114,6 +2981,61 @@
       "drop_pct": 57,
       "fair_discount": 0.0,
       "base_price": 36990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 57.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633300",
+        "title": "Чайник Moulinex BY6R5130",
+        "price": 18990,
+        "old_price": 43990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-moulinex-by6r5130",
+        "brand": "Moulinex",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_952_0_1_4LmCZT_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 17.4,
+      "base_price": 22990,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 39.6
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "10971",
+        "title": "Вытяжка Electrolux EFC226V",
+        "price": 94990,
+        "old_price": 222990,
+        "url": "https://evrika.com/catalog/vytyazhka-electrolux-efc226v/p10971",
+        "brand": null,
+        "category": "Вытяжки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/V8AIjfOGYOrq3F9CHqsXRmX5Al2ltms6SCUoZA6i.jpg.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 0.0,
+      "base_price": 94990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -3967,6 +3889,89 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "622202",
+        "title": "Комбинированная плита Gorenje GK6A20WF",
+        "price": 199990,
+        "old_price": 429990,
+        "url": "https://www.sulpak.kz/g/gazoviye-i-elektricheskie-plitiy-gorenje-gk6a20wf",
+        "brand": "Gorenje",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_16_904_0_1_pHPGG2_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 199990,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630177",
+        "title": "Смартфон Samsung Galaxy S25 12/128GB Icyblue RDU (Витрина)",
+        "price": 269890,
+        "old_price": 579890,
+        "url": "https://www.sulpak.kz/g/tovariy-ne-dlya-prodazhi-samsung-galaxy-s25-128gb-rdu-icyblue-sm-s931blb2skz",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12352_0_1_Su7AH3_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 15.6,
+      "base_price": 319890,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 37.4
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "296587",
+        "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
+        "price": 997990,
+        "old_price": 2145990,
+        "url": "https://www.technodom.kz/p/igrovoy-kompyuter-neo-game-103-ar5-7500f-rtx-5060ti-16gb-ddr5-32gb-ssd-1tb-b840m-jonsbo-d200-black-296587",
+        "brand": "Neo",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296587_1.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 997990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "290968",
         "title": "Монитор 37\" Samsung ViewFinity S8 LS37D802UAIXCI 3840x2160 16:9 VA 60ГЦ (HDMI+DP) Black",
@@ -4286,7 +4291,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2234_0_1_bUWMFJ_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -4656,7 +4661,7 @@
         "shop": "sulpak",
         "sku": "642302",
         "title": "Смарт часы HUAWEI Watch GT 6 Pro (46mm) Titanium Atum-B29M",
-        "price": 174990,
+        "price": 174890,
         "old_price": 258890,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-titanium-atum-b29m",
         "brand": "HUAWEI",
@@ -4665,18 +4670,18 @@
         "in_stock": true,
         "discount_pct": 32,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2229_0_1_8XzewZ_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 32,
-      "fair_discount": 20.4,
+      "fair_discount": 20.5,
       "base_price": 219890,
       "value_score": 65,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 11.6
+      "inflated_gap": 11.5
     },
     {
       "product": {
@@ -5842,28 +5847,81 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "624323",
-        "title": "Рисоварка Xiaomi Smart Multifunctional Rice Cooker",
-        "price": 32536,
+        "sku": "657350",
+        "title": "Смарт Часы Garmin Часы с навигатором fenix 9 Pro 47mm,AMOLED, iR, титан, оранжевый 010-04336-01",
+        "price": 780090,
         "old_price": null,
-        "url": "https://www.sulpak.kz/g/multivarki-xiaomi-344-246",
-        "brand": "Xiaomi",
+        "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-chasiy-s-navigatorom-fenix-9-pro-47mmamoled-ir-titan-oranzheviyj-010-04336-01",
+        "brand": "Garmin",
         "category": null,
-        "group": "kitchen",
+        "group": "phones",
         "in_stock": true,
         "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_344_246_3_2_160.webp",
-        "first_seen": "2026-10-13T16:22:56+00:00"
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6465_0_6_iNHOMj_160.webp",
+        "first_seen": "2026-10-28T08:58:00+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 18.7,
+      "base_price": 958990,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657360",
+        "title": "Смарт Часы Garmin Часы с навигатором fenix 9 Pro 47mm, Solar, iR, титан, 010-04338-01",
+        "price": 780090,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-chasiy-s-navigatorom-fenix-9-pro-47mm-solar-ir-titan-010-04338-01",
+        "brand": "Garmin",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6475_0_6_D71FcI_160.webp",
+        "first_seen": "2026-10-28T08:58:00+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 18.7,
+      "base_price": 958990,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657337",
+        "title": "Смарт Часы Garmin Часы с навигатором fenix 9, 47mm, титан, серые, 010-04762-01",
+        "price": 643790,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-chasiy-s-navigatorom-fenix-9-47mm-titan-seriye-010-04762-01",
+        "brand": "Garmin",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6452_0_6_1zHQ0b_160.webp",
+        "first_seen": "2026-10-28T08:58:00+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
       "fair_discount": 18.6,
-      "base_price": 39975,
-      "value_score": 65,
+      "base_price": 790990,
+      "value_score": 55,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
+        "Честная скидка"
       ],
       "inflated_gap": null
     },
@@ -6063,34 +6121,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "635713",
-        "title": "Стиральная машина Samsung WW90DG6G94LBLD",
-        "price": 302190,
-        "old_price": 389990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-samsung-ww90dg6g94lbld",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1662_0_1_bcfjzc_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 18.3,
-      "base_price": 369990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 4.7
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1620289",
         "title": "Электрощипцы для завивки Remington CI6525, Black",
@@ -6245,13 +6275,68 @@
       "drop_pct": 20,
       "fair_discount": 17.0,
       "base_price": 609990,
-      "value_score": 57,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
       ],
       "inflated_gap": 3.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631411",
+        "title": "Смартфон Samsung Galaxy A26 5G 8/256GB Black",
+        "price": 149990,
+        "old_price": 189890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-samsung-galaxy-a26-5g-256gb-black-sm-a266bzkhskz",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6397_0_1_nj1Pex_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 16.7,
+      "base_price": 179990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "635451",
+        "title": "Стиральная машина Hansa WHM9140W",
+        "price": 225990,
+        "old_price": 269990,
+        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-hansa-whm9140w",
+        "brand": "Hansa",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 16,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1623_0_1_SzJE6s_160.webp",
+        "first_seen": "2026-09-26T11:48:57+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 16,
+      "fair_discount": 16.3,
+      "base_price": 269990,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -6279,35 +6364,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -9.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630177",
-        "title": "Смартфон Samsung Galaxy S25 12/128GB Icyblue RDU (Витрина)",
-        "price": 269890,
-        "old_price": 579890,
-        "url": "https://www.sulpak.kz/g/tovariy-ne-dlya-prodazhi-samsung-galaxy-s25-128gb-rdu-icyblue-sm-s931blb2skz",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12352_0_1_Su7AH3_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 15.6,
-      "base_price": 319890,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 37.4
     },
     {
       "product": {
@@ -6477,7 +6533,7 @@
         "in_stock": true,
         "discount_pct": 13,
         "image": "https://static.shop.kz/upload/iblock/794/anldwsinh0trwq77garjkzx9hx8mchd7/167926z1.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 13,
@@ -6529,7 +6585,7 @@
         "in_stock": true,
         "discount_pct": 20,
         "image": "https://static.shop.kz/upload/iblock/22e/163319x1.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 20,
@@ -6554,7 +6610,7 @@
         "in_stock": true,
         "discount_pct": 4,
         "image": "https://static.shop.kz/upload/iblock/228/j3nb3dwdtlwdil9x7fzyg8frhbwej776/192464n1.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 4,
@@ -6736,7 +6792,7 @@
         "in_stock": true,
         "discount_pct": 14,
         "image": "https://static.shop.kz/upload/iblock/012/768qok87s46nc213j4btwmwdwyksnu8b/00000166585_1.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 14,
@@ -6761,7 +6817,7 @@
         "in_stock": true,
         "discount_pct": 10,
         "image": "https://static.shop.kz/upload/iblock/078/158156o1.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 10,
@@ -6786,7 +6842,7 @@
         "in_stock": true,
         "discount_pct": 10,
         "image": "https://static.shop.kz/upload/iblock/c94/jqs3glyo88ihyv89o66gee6hm4wo8m6d/186509e200.jpg",
-        "first_seen": "2026-09-26T11:48:57+00:00"
+        "first_seen": "2026-09-26T16:47:20+00:00"
       },
       "signal": "drop",
       "drop_pct": 10,
@@ -6846,33 +6902,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "627368",
-        "title": "Холодильник Samsung RT53DG7A10S9WT",
-        "price": 510590,
-        "old_price": 634990,
-        "url": "https://www.sulpak.kz/g/holodilniki-samsung-rt53dg7a10s9wt",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1610_0_1_NkUY7K_160.webp",
-        "first_seen": "2026-09-26T11:48:57+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 8.8,
-      "base_price": 559990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 11.2
     },
     {
       "product": {
@@ -6966,42 +6995,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-31T06:11:47+00:00",
-      "item_count": 2736,
+      "last_crawl": "2026-10-31T13:01:56+00:00",
+      "item_count": 2722,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-31T06:11:47+00:00",
+      "last_crawl": "2026-10-31T13:01:56+00:00",
       "item_count": 12328,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-31T06:11:47+00:00",
-      "item_count": 3754,
+      "last_crawl": "2026-10-31T13:01:56+00:00",
+      "item_count": 3701,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-31T06:11:47+00:00",
-      "item_count": 9663,
+      "last_crawl": "2026-10-31T13:01:56+00:00",
+      "item_count": 9657,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-31T06:11:47+00:00",
+      "last_crawl": "2026-10-31T13:01:56+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28725,
-    "total_deals": 260,
-    "avg_discount": 53.0
+    "total_products": 28652,
+    "total_deals": 261,
+    "avg_discount": 53
   }
 }
