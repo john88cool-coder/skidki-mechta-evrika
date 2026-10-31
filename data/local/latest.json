@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T03:20:11.717433+00:00",
+  "updated_at": "2026-10-31T05:20:17.154818+00:00",
   "deals": [
     {
       "product": {
@@ -2034,33 +2034,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200004198",
-        "title": "Электрочайник BRAUN WK 1500 WH",
-        "price": 27990,
-        "old_price": 40990,
-        "url": "https://www.mechta.kz/product/elektrochaynik-braun-wk-1500-wh/",
-        "brand": "Braun",
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://pi.mdev.kz/b711b2ab-9874-11ed-a253-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 20.0,
-      "base_price": 34990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200024350",
         "title": "Планшет HUAWEI MatePad SE 11\" WIFI 8GB/128GB Nebula Gray (Agassi6-W19D)",
         "price": 99890,
@@ -2176,8 +2149,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-31T03:20:04+00:00",
-      "item_count": 7889,
+      "last_crawl": "2026-10-31T05:20:10+00:00",
+      "item_count": 7896,
       "status": "ok"
     },
     {
@@ -2217,8 +2190,8 @@
     }
   ],
   "stats": {
-    "total_products": 7889,
-    "total_deals": 80,
-    "avg_discount": 63.0
+    "total_products": 7896,
+    "total_deals": 79,
+    "avg_discount": 63
   }
 }
