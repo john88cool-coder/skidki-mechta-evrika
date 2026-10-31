@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T19:45:59.138641+00:00",
+  "updated_at": "2026-10-31T00:12:15.495068+00:00",
   "deals": [
     {
       "product": {
@@ -2372,7 +2372,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2467_3_2_160.webp",
-        "first_seen": "2026-09-25T19:00:28+00:00"
+        "first_seen": "2026-09-26T11:48:57+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -3962,35 +3962,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "265772",
-        "title": "Монитор Игровой 27\" Samsung G4 LS27BG400EIXCI 1920x1080 16:9 IPS 240ГЦ (2HDMI+DP) Black",
-        "price": 53990,
-        "old_price": 89990,
-        "url": "https://www.technodom.kz/p/monitor-igrovoj-27-samsung-g4-ls27bg400eixci-1920x1080-169-ips-240gc-2hdmidp-black-265772",
-        "brand": "Samsung",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://api.technodom.kz/f3/api/v1/images/265772_1q.webp",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 89990,
-      "value_score": 98,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "290968",
         "title": "Монитор 37\" Samsung ViewFinity S8 LS37D802UAIXCI 3840x2160 16:9 VA 60ГЦ (HDMI+DP) Black",
         "price": 119990,
@@ -4488,33 +4459,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "295646",
-        "title": "Монитор 23,8\" MSI PRO MP242A IPS 1920x1080 16:9 100Гц (HDMI+DP+VGA)",
-        "price": 36990,
-        "old_price": 49990,
-        "url": "https://www.technodom.kz/p/monitor-23-8-msi-pro-mp242a-ips-1920x1080-16-9-100gts-hdmi-dp-vga-295646",
-        "brand": "MSI",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295646_1.webp",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 26.0,
-      "base_price": 49990,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "642309",
         "title": "Смарт часы HUAWEI Watch GT 6 (41mm) White Konsu-B19L",
@@ -4675,33 +4619,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.9
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1698872",
-        "title": "Компьютер игровой WW-KZ (Intel Core i3-12100F, RTX 3050 8 GB, 512 GB SSD, 16 GB DDR-4)",
-        "price": 452890,
-        "old_price": 475590,
-        "url": "https://shop.kz/offer/kompyuter-igrovoy-ww-kz-intel-core-i3-12100f-rtx-3050-8-gb-512-gb-ssd-16-gb-ddr-4/",
-        "brand": "Белый Ветер",
-        "category": "Настольные компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 5,
-        "image": "https://static.shop.kz/upload/iblock/30f/eywhcidu6uushh3dtvmfw6eaan04t7w7/187679n200.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 5,
-      "fair_discount": 22.5,
-      "base_price": 584590,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -17.5
     },
     {
       "product": {
@@ -5169,34 +5086,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000046932",
-        "title": "Наушники Xiaomi Buds 3T Pro Белый",
-        "price": 54515,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4354",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4354_0_2_160.webp",
-        "first_seen": "2026-09-25T19:00:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.8,
-      "base_price": 67998,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -5948,34 +5837,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "624323",
-        "title": "Рисоварка Xiaomi Smart Multifunctional Rice Cooker",
-        "price": 32536,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/multivarki-xiaomi-344-246",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_344_246_3_2_160.webp",
-        "first_seen": "2026-10-13T16:22:56+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.6,
-      "base_price": 39975,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "15720",
         "title": "Миксер Moulinex HM3101B1",
@@ -6196,33 +6057,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 27.1
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1667435",
-        "title": "Компьютер офисный WW-KZ (Intel Core i5 12400/500 GB SSD)",
-        "price": 282190,
-        "old_price": 294690,
-        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-intel-core-i5-12400-500-gb-ssd/",
-        "brand": "Белый Ветер",
-        "category": "Настольные компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 4,
-        "image": "https://static.shop.kz/upload/iblock/d41/lrslateym7x4di3o2259pc2afa2gcx3l/182822o200.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 4,
-      "fair_discount": 17.8,
-      "base_price": 343090,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -13.8
     },
     {
       "product": {
@@ -6471,31 +6305,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1562403",
-        "title": "Компьютер офисный WW-KZ (Intel Core i3 12100/512GB SSD)",
-        "price": 207990,
-        "old_price": 219890,
-        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-intel-core-i3-12100-512gb-ssd/",
-        "brand": "Белый Ветер",
-        "category": "Настольные компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 5,
-        "image": "https://static.shop.kz/upload/iblock/1d7/dsbj2284z3g7cyb6yks8xz6c77mz47r2/168183_01.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 5,
-      "fair_discount": 14.9,
-      "base_price": 244290,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -9.9
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "276372",
         "title": "ПК корпус Corsair iCUE 4000D RGB AIRFLOW MidTower, window, Black EATX (CC-9011240-WW)",
@@ -6568,56 +6377,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652070",
-        "title": "Планшет HUAWEI Agassi6-W19D MatePad SE 11&quot; Wifi (8&#x2B;128GB, without pencil)",
-        "price": 97935,
-        "old_price": 119890,
-        "url": "https://www.sulpak.kz/g/planshetiy-huawei-agassi6-w19d-matepad-se-11-wifi-8-128gb-without-pencil",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1938_0_6_8e4PIh_160.webp",
-        "first_seen": "2026-09-25T19:00:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 13.2,
-      "base_price": 112791,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 4.8
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1703882",
-        "title": "Морозильная камера Бирюса 514, White",
-        "price": 117600,
-        "old_price": null,
-        "url": "https://shop.kz/offer/morozilnaya-kamera-biryusa-514-white/",
-        "brand": "Бирюса",
-        "category": "Морозильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/778/0syhmnyapb1kqddttm2kz9jj8c9pydin/189724n200.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 13.1,
-      "base_price": 135300,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6737,7 +6496,7 @@
         "in_stock": true,
         "discount_pct": 27,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6258_0_6_XwY6H7_160.webp",
-        "first_seen": "2026-09-25T08:14:54+00:00"
+        "first_seen": "2026-09-26T05:23:26+00:00"
       },
       "signal": "drop",
       "drop_pct": 27,
@@ -6775,33 +6534,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1469843",
-        "title": "Парогенератор Ufesa PL2650 Space Healthy, White-Red",
-        "price": 45590,
-        "old_price": 71890,
-        "url": "https://shop.kz/offer/parogenerator-ufesa-pl2650-space-healthy-white-red/",
-        "brand": "Ufesa",
-        "category": "Утюги, отпариватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://static.shop.kz/upload/iblock/8e9/90ergid9u5zl2ry1hfebhtdpuolig2ev/164716o1.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 11.5,
-      "base_price": 51490,
-      "value_score": 44,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.5
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "636836",
         "title": "Смартфон Samsung Galaxy Z Flip7 FE 5G 8/128GB Black RDU (Витрина)",
@@ -6830,33 +6562,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "641887",
-        "title": "Смартфон Apple iPhone 17 Pro Max 12/256GB Deep Blue",
-        "price": 699990,
-        "old_price": 871990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-apple-iphone-17-pro-max-256gb-deep-blue-mfyp4hxa",
-        "brand": "Apple",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7229_0_1_fF2Gpp_160.webp",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 11.4,
-      "base_price": 789790,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 8.6
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1693934",
         "title": "Гриль Kitfort КТ-1687, Black",
@@ -6879,6 +6584,31 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 7.8
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "652070",
+        "title": "Планшет HUAWEI Agassi6-W19D MatePad SE 11&quot; Wifi (8&#x2B;128GB, without pencil)",
+        "price": 97935,
+        "old_price": 119890,
+        "url": "https://www.sulpak.kz/g/planshetiy-huawei-agassi6-w19d-matepad-se-11-wifi-8-128gb-without-pencil",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1938_0_6_8e4PIh_160.webp",
+        "first_seen": "2026-09-25T19:00:28+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 10.9,
+      "base_price": 109890,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 7.1
     },
     {
       "product": {
@@ -6987,31 +6717,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1703870",
-        "title": "Холодильник Бирюса 418, White",
-        "price": 123100,
-        "old_price": null,
-        "url": "https://shop.kz/offer/kholodilnik-biryusa-418-white/",
-        "brand": "Бирюса",
-        "category": "Холодильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/313/xs9hbgg6c8rl7fhj5ho93pb1qqh7vtki/189726e1.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 9.9,
-      "base_price": 136700,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1223283",
         "title": "Блендер Kitfort КТ-3052, Black",
         "price": 24990,
@@ -7058,31 +6763,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1725452",
-        "title": "Компьютер офисный WW-KZ (Intel Core i5-10500, 512 GB SSD, 8 GB)",
-        "price": 217790,
-        "old_price": 233090,
-        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-intel-core-i5-10500-512-gb-ssd-8-gb/",
-        "brand": "Белый Ветер",
-        "category": "Настольные компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 7,
-        "image": "https://static.shop.kz/upload/iblock/c05/0td7p2lav1c303uljheieehavp9sze30/197368o1.jpg",
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 7,
-      "fair_discount": 9.4,
-      "base_price": 240390,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -2.4
     },
     {
       "product": {
@@ -7303,42 +6983,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-10-30T19:45:27+00:00",
-      "item_count": 2744,
+      "last_crawl": "2026-10-31T00:11:49+00:00",
+      "item_count": 2666,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-10-30T19:45:27+00:00",
-      "item_count": 12326,
+      "last_crawl": "2026-10-31T00:11:49+00:00",
+      "item_count": 12328,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-10-30T19:45:27+00:00",
-      "item_count": 3733,
+      "last_crawl": "2026-10-31T00:11:49+00:00",
+      "item_count": 3701,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-10-30T19:45:27+00:00",
-      "item_count": 9670,
+      "last_crawl": "2026-10-31T00:11:49+00:00",
+      "item_count": 9666,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-10-30T19:45:27+00:00",
+      "last_crawl": "2026-10-31T00:11:49+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28717,
-    "total_deals": 273,
+    "total_products": 28605,
+    "total_deals": 261,
     "avg_discount": 53
   }
 }
