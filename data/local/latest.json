@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-31T19:22:16.881146+00:00",
+  "updated_at": "2026-10-31T21:20:17.039290+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200001405",
+        "title": "Электропечь SIMFER M 4200",
+        "price": 12990,
+        "old_price": 74990,
+        "url": "https://www.mechta.kz/product/elektropech-simfer-m-4200/",
+        "brand": "Simfer",
+        "category": "Мини-печи электрические",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 83,
+        "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 83,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -364,29 +389,30 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200001405",
-        "title": "Электропечь SIMFER M 4200",
-        "price": 12990,
-        "old_price": 74990,
-        "url": "https://www.mechta.kz/product/elektropech-simfer-m-4200/",
-        "brand": "Simfer",
-        "category": "Мини-печи электрические",
-        "group": "kitchen",
+        "sku": "17200004720",
+        "title": "Стиральная машина GRUNDIG GW 5P56H21 W",
+        "price": 99990,
+        "old_price": 249990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p56h21-w/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 83,
-        "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "deal",
-      "drop_pct": 83,
-      "fair_discount": 0.0,
-      "base_price": 12990,
-      "value_score": 21,
-      "is_pick": false,
+      "drop_pct": 60,
+      "fair_discount": 47.4,
+      "base_price": 189990,
+      "value_score": 84,
+      "is_pick": true,
       "badges": [
-        "Рисованная?"
+        "Выбор ИС",
+        "Честная скидка"
       ],
-      "inflated_gap": 83.0
+      "inflated_gap": 12.6
     },
     {
       "product": {
@@ -526,34 +552,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000005646",
-        "title": "Проектор Samsung SP-LSP9TUAXCE",
-        "price": 999990,
-        "old_price": 3799990,
-        "url": "https://www.mechta.kz/product/proektor-samsung-sp-lsp9tuaxce/",
-        "brand": "Samsung",
-        "category": "Проекторы",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 74,
-        "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-30T13:21:22+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 74,
-      "fair_discount": 0.0,
-      "base_price": 999990,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 74.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200008340",
         "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
         "price": 29990,
@@ -577,34 +575,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 69.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011831",
-        "title": "Телевизор Samsung QLED QE75QN900DUXCE 8K SMART",
-        "price": 1299990,
-        "old_price": 3999990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75qn900duxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 68,
-        "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 68,
-      "fair_discount": 0.0,
-      "base_price": 1299990,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 68.0
     },
     {
       "product": {
@@ -690,60 +660,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "26260001706",
-        "title": "Игровая гарнитура KINGSTON HX-HSCF-BK/EM HyperX Cloud Flight",
-        "price": 19990,
-        "old_price": 59890,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-kingston-hx-hscf-bkem-hyperx-cloud-flight/",
-        "brand": "Kingston",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 67,
-        "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 67,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 67.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200005126",
-        "title": "Дом. кинотеатр JBL BAR 800 PRO BLACK (JBLBAR800PRO)",
-        "price": 199990,
-        "old_price": 579990,
-        "url": "https://www.mechta.kz/product/dom-kinoteatr-jbl-bar-800-pro-black-jblbar800pro/",
-        "brand": "JBL",
-        "category": "Саундбары",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://pi.mdev.kz/c65cb8ee-c4ad-11ed-a259-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": 0.0,
-      "base_price": 199990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 66.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016029",
         "title": "Аэрогриль MIDEA MF-CY75C2",
         "price": 54990,
@@ -762,33 +678,6 @@
       "fair_discount": 0.0,
       "base_price": 54990,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 65.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017961",
-        "title": "Стиральная машина GRUNDIG GWI P7104 A",
-        "price": 219990,
-        "old_price": 619990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gwi-p7104-a/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 65,
-        "image": "https://pi.mdev.kz/39ea9909-131e-4f4e-9551-d6176c5de761?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 65,
-      "fair_discount": 0.0,
-      "base_price": 219990,
-      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -925,33 +814,6 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 25990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000003682",
-        "title": "Игровая гарнитура JBL QUANTUM ONE (Black)",
-        "price": 39990,
-        "old_price": 109099,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-jbl-quantum-one-black/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/44d73884-628b-41f6-9996-23a24d286ff3?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 39990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -1152,60 +1014,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003056",
-        "title": "Телевизор LOEWE OLED65Bild I dr+, SmartTV, 4K Ultra",
-        "price": 799990,
-        "old_price": 2099990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-oled65bild-i-drplus-smarttv-4k-ultra/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 799990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200005088",
-        "title": "Наушники KAIBOAUDIO с костной проводимостью Buds Wave 1 (белый)",
-        "price": 22990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/naushniki-kaiboaudio-s-kostnoy-provodimostyu-buds-wave-1-belyy/",
-        "brand": "KaiboAudio",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 22990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000047612",
         "title": "Ломтерезка BORK Z780",
         "price": 199990,
@@ -1256,6 +1064,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016027",
+        "title": "Аэрогриль MIDEA MF-CY80SA2",
+        "price": 54990,
+        "old_price": 139990,
+        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy80sa2/",
+        "brand": "Midea",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 15.4,
+      "base_price": 64990,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 45.6
     },
     {
       "product": {
@@ -1341,6 +1177,168 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200013888",
+        "title": "Вертикальный пылесос POLARIS PVCW 8090",
+        "price": 229990,
+        "old_price": 579990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-polaris-pvcw-8090/",
+        "brand": "Polaris",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 229990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003089",
+        "title": "Портативная колонка LOEWE WE. HEAR 1 (Cool Grey)",
+        "price": 19990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-loewe-wedot-hear-1-cool-grey/",
+        "brand": "Loewe",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000001946",
+        "title": "Кондиционер MIDEA MSAG-07HRN1 с инсталляцией",
+        "price": 59990,
+        "old_price": 149990,
+        "url": "https://www.mechta.kz/product/kondicioner-midea-msag-07hrn1-s-installyaciey/",
+        "brand": "Midea",
+        "category": "Кондиционеры (сплит-системы)",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/733fbbf1-7b37-11eb-a23a-005056b6dbd7?w=400",
+        "first_seen": "2026-10-09T23:20:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 59990,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016028",
+        "title": "Аэрогриль MIDEA MF-CY110A",
+        "price": 79990,
+        "old_price": 199990,
+        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy110a/",
+        "brand": "Midea",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/cb20961e-7e9e-4181-8126-8b47a6c505ed?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 79990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018020",
+        "title": "Вертикальный пылесос TINECO Floor One S6 Stretch Pro",
+        "price": 129990,
+        "old_price": 324990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tineco-floor-one-s6-stretch-pro/",
+        "brand": "Tineco",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/a8b70214-ddf5-4a4f-9fb0-aeb0cd4f98af?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 129990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016105",
+        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
+        "price": 159990,
+        "old_price": 399990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
+        "brand": "Philips",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 159990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011853",
         "title": "Дом. кинотеатр Samsung HW-S801D Soundbar",
         "price": 139990,
@@ -1393,6 +1391,90 @@
         "Честная скидка"
       ],
       "inflated_gap": 1.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012857",
+        "title": "Кухонная машина POLARIS PKM 1206 Черный",
+        "price": 97990,
+        "old_price": 209990,
+        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-polaris-pkm-1206-chernyy/",
+        "brand": "Polaris",
+        "category": "Кухонные машины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/2663c956-b177-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 53.3,
+      "base_price": 209990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004723",
+        "title": "Стиральная машина GRUNDIG GW 5P56H21 A",
+        "price": 109990,
+        "old_price": 259990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p56h21-a/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/b6d8f360-f2fa-4d0a-9915-3c05f772d228?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 45.0,
+      "base_price": 199990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025793",
+        "title": "Увлажнитель воздуха POLARIS PUH 3035 Белый",
+        "price": 22490,
+        "old_price": 39990,
+        "url": "https://www.mechta.kz/product/uvlajnitel-vozduha-polaris-puh-3035-belyy/",
+        "brand": "Polaris",
+        "category": "Увлажнители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/ee4303f7-f581-4eb4-863e-a5a920654b4d?w=400",
+        "first_seen": "2026-10-09T11:22:07+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 43.8,
+      "base_price": 39990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -1453,6 +1535,63 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200014637",
+        "title": "Кофемашина POLARIS PACM 2080AC Wi-Fi IQ Home",
+        "price": 519990,
+        "old_price": 849990,
+        "url": "https://www.mechta.kz/product/kofemashina-polaris-pacm-2080ac-wi-fi-iq-home/",
+        "brand": "Polaris",
+        "category": "Кофемашины автоматические",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/d6f66c67-a16e-11ef-a26b-005056b6e990?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 38.8,
+      "base_price": 849990,
+      "value_score": 87,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004705",
+        "title": "Стиральная машина GRUNDIG GW 5P57H21 W",
+        "price": 129990,
+        "old_price": 279990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p57h21-w/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/66df504d-bbd1-4eb8-8d5e-b3c6cd1ea2fc?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 38.1,
+      "base_price": 209990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006961",
         "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2, черный",
         "price": 27990,
@@ -1509,6 +1648,146 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200004471",
+        "title": "Холодильник GRUNDIG GKPN 66830 FW",
+        "price": 174990,
+        "old_price": 369990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-66830-fw/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/f84000c6-14d9-410f-8d61-36fa8b9f78af?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 34.0,
+      "base_price": 264990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019890",
+        "title": "Дом. кинотеатр Samsung HW-B450F Soundbar",
+        "price": 89990,
+        "old_price": 134990,
+        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-b450f-soundbar/",
+        "brand": "Samsung",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/ad8af5ec-0bb3-42a1-ab85-28311a905bb7?w=400",
+        "first_seen": "2026-10-19T15:43:55+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 33.3,
+      "base_price": 134990,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004717",
+        "title": "Сушильная машина GRUNDIG GT 55723",
+        "price": 239990,
+        "old_price": 389990,
+        "url": "https://www.mechta.kz/product/sushilnaya-mashina-grundig-gt-55723/",
+        "brand": "Grundig",
+        "category": "Сушильные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/97feb746-9c58-4367-b064-91e7d0a1ff9d?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 33.3,
+      "base_price": 359990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019889",
+        "title": "Дом. кинотеатр Samsung HW-B650F Soundbar",
+        "price": 124990,
+        "old_price": 184990,
+        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-b650f-soundbar/",
+        "brand": "Samsung",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/b630ca55-ddab-4ab1-9390-d30231217a61?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 32.4,
+      "base_price": 184990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022041",
+        "title": "Тостер POLARIS PET 0932 Графитовый",
+        "price": 18490,
+        "old_price": 26990,
+        "url": "https://www.mechta.kz/product/toster-polaris-pet-0932-grafitovyy/",
+        "brand": "Polaris",
+        "category": "Тостеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/d5a5e75a-2f1c-4c33-8809-a72e8b408c15?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.5,
+      "base_price": 26990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200010026",
         "title": "Коврик для мышки HyperX Pulsefire XXL 4Z7X6AA",
         "price": 17990,
@@ -1532,6 +1811,114 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016621",
+        "title": "Сушильная машина GRUNDIG GT 55724 M",
+        "price": 269990,
+        "old_price": 419990,
+        "url": "https://www.mechta.kz/product/sushilnaya-mashina-grundig-gt-55724-m/",
+        "brand": "Grundig",
+        "category": "Сушильные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://pi.mdev.kz/4e2e519f-2228-4658-9e76-ca5a9b8ed9e6?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 30.8,
+      "base_price": 389990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200024259",
+        "title": "Электрочайник POLARIS PWK 1803 C черный",
+        "price": 15990,
+        "old_price": 22990,
+        "url": "https://www.mechta.kz/product/elektrochaynik-polaris-pwk-1803-c-chernyy/",
+        "brand": "Polaris",
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/22de2e42-db70-4476-bd05-fb55205d93c6?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.4,
+      "base_price": 22990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016767",
+        "title": "Стиральная машина AEG LFR 83864 VE",
+        "price": 584990,
+        "old_price": 1029990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-aeg-lfr-83864-ve/",
+        "brand": "AEG",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/010382c4-5d7a-4dab-9aa3-c4e0aa56516e?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 28.7,
+      "base_price": 819990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004472",
+        "title": "Холодильник GRUNDIG GKPN 66930 FW",
+        "price": 229990,
+        "old_price": 399990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-66930-fw/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/8af5e4d3-049b-4d6e-80cf-a1713a0448da?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 28.1,
+      "base_price": 319990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.9
     },
     {
       "product": {
@@ -1560,6 +1947,60 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004473",
+        "title": "Холодильник GRUNDIG GKPN 66930 FXD",
+        "price": 249990,
+        "old_price": 419990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-66930-fxd/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/0714c59f-07d8-4ed9-a916-5faa55406d4c?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 26.5,
+      "base_price": 339990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004474",
+        "title": "Холодильник GRUNDIG GKPN 669307 FW",
+        "price": 249990,
+        "old_price": 419990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-669307-fw/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/93e38598-ac50-11ed-a254-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 26.5,
+      "base_price": 339990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.5
     },
     {
       "product": {
@@ -1593,6 +2034,87 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200014680",
+        "title": "Фен POLARIS PHD 2010Ti Фиолетовый",
+        "price": 14990,
+        "old_price": 19990,
+        "url": "https://www.mechta.kz/product/fen-polaris-phd-2010ti-fioletovyy/",
+        "brand": "Polaris",
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://pi.mdev.kz/87bbdf58-961a-4280-b7d6-c8bc8553ae98?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.0,
+      "base_price": 19990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004475",
+        "title": "Холодильник GRUNDIG GKPN 669307 FXD",
+        "price": 269990,
+        "old_price": 439990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-669307-fxd/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/b469c85c-cc4e-11ed-a259-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 25.0,
+      "base_price": 359990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004477",
+        "title": "Холодильник GRUNDIG GKPN 669307 FB",
+        "price": 269990,
+        "old_price": 439990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-669307-fb/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/5f31a797-ac19-11ed-a254-005056b6dbd7?w=400",
+        "first_seen": "2026-09-25T11:21:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 25.0,
+      "base_price": 359990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 14.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200020499",
         "title": "Вертикальный пылесос LG A9T LITE",
         "price": 299990,
@@ -1622,94 +2144,119 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019238",
-        "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
-        "price": 499990,
-        "old_price": 899990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-3d-ls27fg900xixci-27-uhdips1ms165hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
+        "sku": "17200021669",
+        "title": "Планшет Lenovo Idea Tab TB336 WiFi 11 8 Гб/128 Гб + стилус, чехол (ZAFR0441UZ)",
+        "price": 99930,
+        "old_price": 129890,
+        "url": "https://www.mechta.kz/product/planshet-lenovo-idea-tab-tb336-wifi-11-8-gb128-gb-plus-stilus-chehol-zafr0441uz/",
+        "brand": "Lenovo",
+        "category": "Планшеты",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
+        "discount_pct": 23,
+        "image": "https://pi.mdev.kz/10f23cc9-176e-4daf-b899-6703ac3ae7f0?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 16.7,
-      "base_price": 599990,
-      "value_score": 56,
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 129890,
+      "value_score": 74,
       "is_pick": false,
       "badges": [
         "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
+        "Топ-Бренд"
       ],
-      "inflated_gap": 27.3
+      "inflated_gap": -0.1
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200002166",
-        "title": "Монитор Samsung Odyssey G4 LS25BG400EIXCI 25 FHD/IPS/1ms/240Hz",
-        "price": 69980,
-        "old_price": 119990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g4-ls25bg400eixci-25-fhdips1ms240hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
+        "sku": "17200013964",
+        "title": "Стиральная машина GRUNDIG GW 7P77H21 A",
+        "price": 169990,
+        "old_price": 319990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-7p77h21-a/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/4f47a89e-3f03-11ed-a24a-005056b6dbd7?w=400",
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/f7d623fb-8205-11ef-a269-005056b6e990?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 12.5,
-      "base_price": 79990,
-      "value_score": 49,
+      "drop_pct": 47,
+      "fair_discount": 22.7,
+      "base_price": 219990,
+      "value_score": 57,
       "is_pick": false,
       "badges": [
-        "Топ-Бренд",
+        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 29.5
+      "inflated_gap": 24.3
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200002164",
-        "title": "Монитор Samsung Odyssey G4 LS27BG400EIXCI 27 FHD/IPS/1ms/240Hz",
-        "price": 79980,
-        "old_price": 142990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g4-ls27bg400eixci-27-fhdips1ms240hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
+        "sku": "12000038636",
+        "title": "Мультиварка POLARIS PMC 0517 Expert",
+        "price": 73690,
+        "old_price": 94990,
+        "url": "https://www.mechta.kz/product/multivarka-polaris-pmc-0517-expert/",
+        "brand": "Polaris",
+        "category": "Мультиварки",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/4f47a8ab-3f03-11ed-a24a-005056b6dbd7?w=400",
+        "discount_pct": 22,
+        "image": "https://pi.mdev.kz/b4afcbcb-6b0f-11e5-9159-2c768a5d3551?w=400",
         "first_seen": "2026-09-25T11:21:05+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 11.1,
-      "base_price": 89990,
-      "value_score": 47,
+      "drop_pct": 22,
+      "fair_discount": 22.4,
+      "base_price": 94990,
+      "value_score": 56,
       "is_pick": false,
       "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 32.9
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200026254",
+        "title": "Смарт-часы HUAWEI GT 7 (46mm) цвет жёлтый, (TUM-B39)",
+        "price": 119890,
+        "old_price": 159990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-7-46mm-cvet-jeltyy-tum-b39/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://pi.mdev.kz/27436669-94af-49e2-b7c0-00e6b2fcd1ff?w=400",
+        "first_seen": "2026-10-22T04:25:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 20.0,
+      "base_price": 149890,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-31T19:22:02+00:00",
+      "last_crawl": "2026-10-31T21:20:07+00:00",
       "item_count": 7887,
       "status": "ok"
     },
@@ -1751,7 +2298,7 @@
   ],
   "stats": {
     "total_products": 7887,
-    "total_deals": 63,
-    "avg_discount": 64
+    "total_deals": 83,
+    "avg_discount": 61
   }
 }
