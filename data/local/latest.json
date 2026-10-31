@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T05:20:17.154818+00:00",
+  "updated_at": "2026-10-31T07:21:09.226363+00:00",
   "deals": [
     {
       "product": {
@@ -171,7 +171,7 @@
       "drop_pct": 71,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 34,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -2149,8 +2149,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-31T05:20:10+00:00",
-      "item_count": 7896,
+      "last_crawl": "2026-10-31T07:21:01+00:00",
+      "item_count": 7894,
       "status": "ok"
     },
     {
@@ -2190,7 +2190,7 @@
     }
   ],
   "stats": {
-    "total_products": 7896,
+    "total_products": 7894,
     "total_deals": 79,
     "avg_discount": 63
   }
