@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T23:20:56.290391+00:00",
+  "updated_at": "2026-11-01T01:20:27.050716+00:00",
   "deals": [
     {
       "product": {
@@ -1947,40 +1947,13 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004473",
-        "title": "Холодильник GRUNDIG GKPN 66930 FXD",
-        "price": 249990,
-        "old_price": 419990,
-        "url": "https://www.mechta.kz/product/holodilnik-grundig-gkpn-66930-fxd/",
-        "brand": "Grundig",
-        "category": "Холодильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/0714c59f-07d8-4ed9-a916-5faa55406d4c?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 26.5,
-      "base_price": 339990,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 13.5
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-10-31T23:20:28+00:00",
+      "last_crawl": "2026-11-01T01:20:11+00:00",
       "item_count": 7889,
       "status": "ok"
     },
@@ -2022,7 +1995,7 @@
   ],
   "stats": {
     "total_products": 7889,
-    "total_deals": 73,
-    "avg_discount": 62
+    "total_deals": 72,
+    "avg_discount": 62.0
   }
 }
