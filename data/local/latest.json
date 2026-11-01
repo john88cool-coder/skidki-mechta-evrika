@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T01:20:27.050716+00:00",
+  "updated_at": "2026-11-01T18:57:33.295958+00:00",
   "deals": [
     {
       "product": {
@@ -15,7 +15,7 @@
         "in_stock": true,
         "discount_pct": 83,
         "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-29T05:21:22+00:00"
       },
       "signal": "deal",
       "drop_pct": 83,
@@ -40,7 +40,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -65,7 +65,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/d10c45e9-25d7-4f5d-84f1-c1f28df4f48f?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -90,7 +90,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -115,38 +115,13 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
       "fair_discount": null,
       "base_price": null,
       "value_score": 17,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016907",
-        "title": "Вертикальный пылесос MIDEA GX5 Pro",
-        "price": 39990,
-        "old_price": 169990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-midea-gx5-pro/",
-        "brand": "Midea",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 76,
-        "image": "https://pi.mdev.kz/b05908a3-028a-46b2-b788-b2c680f7a1c1?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 76,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 21,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -165,7 +140,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/65039785-66ec-11ec-a242-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -190,7 +165,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -217,7 +192,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/31d50c4b-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -244,7 +219,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -269,7 +244,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -296,7 +271,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/3074ced8-61a3-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -323,7 +298,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -348,7 +323,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -373,7 +348,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/1fd1538c-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -400,7 +375,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -428,7 +403,7 @@
         "in_stock": true,
         "discount_pct": 80,
         "image": "https://pi.mdev.kz/80c27b5a-5ded-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 80,
@@ -455,7 +430,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -482,7 +457,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/94c5c00a-ae78-4ce0-8d48-a9578339996e?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -536,7 +511,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/96fa9660-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -563,7 +538,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -590,7 +565,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -617,7 +592,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/be52c93f-0e9e-43cd-b7a1-b756b3259f53?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -644,7 +619,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/8b385d5f-6653-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -671,7 +646,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/eefa73f4-5f59-4981-a48c-2e1cc20b92ee?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -698,7 +673,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -725,7 +700,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/035573b4-9069-11ea-a22d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -753,7 +728,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/2ece0704-35e4-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -781,7 +756,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/04c4afff-ca0e-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -808,7 +783,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5aca6820-c9cb-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -835,7 +810,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -862,7 +837,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/e5b88f95-8cd1-4aa5-9633-52cc804ef644?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -889,7 +864,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -916,7 +891,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -943,7 +918,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/ce8d199c-4e9b-4651-ada3-3fe220bf58d3?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -971,7 +946,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/9b377cc4-0fe4-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -998,7 +973,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1025,7 +1000,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1052,7 +1027,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1079,7 +1054,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1107,7 +1082,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1134,7 +1109,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/40acfa7d-ad66-4c09-bd78-6b3ee4984dca?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1161,7 +1136,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1188,7 +1163,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1215,7 +1190,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1269,7 +1244,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/cb20961e-7e9e-4181-8126-8b47a6c505ed?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1296,7 +1271,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/a8b70214-ddf5-4a4f-9fb0-aeb0cd4f98af?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1323,7 +1298,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -1339,58 +1314,29 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011853",
-        "title": "Дом. кинотеатр Samsung HW-S801D Soundbar",
-        "price": 139990,
-        "old_price": 319990,
-        "url": "https://www.mechta.kz/product/domdot-kinoteatr-samsung-hw-s801d-soundbar/",
-        "brand": "Samsung",
-        "category": "Саундбары",
-        "group": "tv",
+        "sku": "17200006276",
+        "title": "Робот-пылесос ROBOROCK (S81USP/(S8PU02-02) S8 Pro Ultra White",
+        "price": 279990,
+        "old_price": 699990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-roborock-s81usps8pu02-02-s8-pro-ultra-white/",
+        "brand": "Roborock",
+        "category": "Роботы-пылесосы",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/e18ec82c-1be3-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/9b377cca-0fe4-11ee-a25b-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 56.3,
-      "base_price": 319990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200007564",
-        "title": "Сетка к бритве BRAUN 94M (Series 9 PRO)",
-        "price": 19990,
-        "old_price": 45590,
-        "url": "https://www.mechta.kz/product/setka-k-britve-braun-94m-series-9-pro/",
-        "brand": "Braun",
-        "category": "Сменные сетки и ножи к электробритвам",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/9bbad23d-537b-11ee-a261-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 54.1,
-      "base_price": 43590,
-      "value_score": 82,
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 0.0,
+      "base_price": 279990,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Честная скидка"
+        "Рисованная?"
       ],
-      "inflated_gap": 1.9
+      "inflated_gap": 60.0
     },
     {
       "product": {
@@ -1406,7 +1352,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://pi.mdev.kz/2663c956-b177-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 53,
@@ -1434,7 +1380,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/b6d8f360-f2fa-4d0a-9915-3c05f772d228?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1490,7 +1436,7 @@
         "in_stock": true,
         "discount_pct": 41,
         "image": "https://pi.mdev.kz/aa755071-9fe3-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -1518,7 +1464,7 @@
         "in_stock": true,
         "discount_pct": 41,
         "image": "https://pi.mdev.kz/aa75506c-9fe3-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -1546,7 +1492,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://pi.mdev.kz/d6f66c67-a16e-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -1574,7 +1520,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://pi.mdev.kz/66df504d-bbd1-4eb8-8d5e-b3c6cd1ea2fc?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 54,
@@ -1603,7 +1549,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/7e63a176-3596-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1631,7 +1577,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1659,13 +1605,13 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://pi.mdev.kz/f84000c6-14d9-410f-8d61-36fa8b9f78af?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 53,
       "fair_discount": 34.0,
       "base_price": 264990,
-      "value_score": 76,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1716,7 +1662,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/97feb746-9c58-4367-b064-91e7d0a1ff9d?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -1743,7 +1689,7 @@
         "in_stock": true,
         "discount_pct": 32,
         "image": "https://pi.mdev.kz/b630ca55-ddab-4ab1-9390-d30231217a61?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 32,
@@ -1772,7 +1718,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/d5a5e75a-2f1c-4c33-8809-a72e8b408c15?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1799,7 +1745,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/558068f6-c4a4-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1826,7 +1772,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://pi.mdev.kz/4e2e519f-2228-4658-9e76-ca5a9b8ed9e6?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -1853,7 +1799,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://pi.mdev.kz/22de2e42-db70-4476-bd05-fb55205d93c6?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -1880,7 +1826,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://pi.mdev.kz/010382c4-5d7a-4dab-9aa3-c4e0aa56516e?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -1907,7 +1853,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://pi.mdev.kz/8af5e4d3-049b-4d6e-80cf-a1713a0448da?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
+        "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -1919,42 +1865,14 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021671",
-        "title": "Планшет Lenovo Idea Tab TB336 WiFi 11 8 Гб/128 Гб + стилус, чехол-клавиатура (ZAFR0286UZ)",
-        "price": 109930,
-        "old_price": 149890,
-        "url": "https://www.mechta.kz/product/planshet-lenovo-idea-tab-tb336-wifi-11-8-gb128-gb-plus-stilus-chehol-klaviatura-zafr0286uz/",
-        "brand": "Lenovo",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://pi.mdev.kz/20df2c0e-3957-4497-a367-0b664fb07ae0?w=400",
-        "first_seen": "2026-09-25T11:21:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 27,
-      "fair_discount": 26.7,
-      "base_price": 149890,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.3
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-01T01:20:11+00:00",
-      "item_count": 7889,
+      "last_crawl": "2026-11-01T18:56:58+00:00",
+      "item_count": 7863,
       "status": "ok"
     },
     {
@@ -1994,8 +1912,8 @@
     }
   ],
   "stats": {
-    "total_products": 7889,
-    "total_deals": 72,
-    "avg_discount": 62.0
+    "total_products": 7863,
+    "total_deals": 69,
+    "avg_discount": 62
   }
 }
