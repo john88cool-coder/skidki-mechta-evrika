@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T13:53:43.152937+00:00",
+  "updated_at": "2026-11-01T19:18:59.353673+00:00",
   "deals": [
     {
       "product": {
@@ -182,33 +182,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1226242",
-        "title": "Варочная поверхность Samsung NA-64H3010AS",
-        "price": 59990,
-        "old_price": 174990,
-        "url": "https://alser.kz/p/varochnaja-poverhnost-samsung-na-64h3010as",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/DQwrJC0oXe/varochnaja-poverhnost-samsung-na-64h3010as-w160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1370875",
         "title": "Пылесос хозяйственный Karcher WD 3 S V-17/4/20 , Yellow, 1.628-135.0, (17 л, 1000/200 Вт)",
         "price": 29990,
@@ -311,31 +284,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1433833",
-        "title": "Газовая поверхность Hansa BHGI83130",
-        "price": 89990,
-        "old_price": 239990,
-        "url": "https://alser.kz/p/bhgi83130-gazovaa-poverhnost-hansa",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://s3s.alser.kz/uploads/products/gazovye-varochnye-poverhnosti/ljGXgivdy/bhgi83130-gazovaa-poverhnost-hansa-w160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -1739,6 +1687,58 @@
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp",
         "first_seen": "2026-10-01T19:51:13+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1270490",
+        "title": "Вытяжка Samsung NK24M5060SS",
+        "price": 79990,
+        "old_price": 160390,
+        "url": "https://alser.kz/p/vytjazhka-nk24m5060ss",
+        "brand": "Samsung",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vstraivaemaja-tehnika/zlE5hPla/eRqNfvRj/vytjazhka-nk24m5060ss-w160.webp",
+        "first_seen": "2026-09-27T08:35:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1402775",
+        "title": "Пылесос ручной аккумуляторный Karcher CVH 2, White, 1.198-330.0, (0,15 л, 10 мин, 70 Вт)",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://alser.kz/p/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium",
+        "brand": "Karcher",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://s3s.alser.kz/uploads/products/vse-pilesosy/18MLRuV7G/akkumulatornyj-rucnoj-pylesos-premium-karcher-cvh-2-premium-w160.webp",
+        "first_seen": "2026-09-27T08:35:04+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -4298,7 +4298,7 @@
         "in_stock": true,
         "discount_pct": 32,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_776_5113_0_1_gdPsBX_160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": 32,
@@ -4355,7 +4355,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2234_0_1_bUWMFJ_160.webp",
-        "first_seen": "2026-09-27T14:25:14+00:00"
+        "first_seen": "2026-09-27T18:46:54+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -4615,33 +4615,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "636292",
-        "title": "Стиральная машина Electrolux EW7F4692EQ",
-        "price": 599990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-electrolux-ew7f4692eq",
-        "brand": "Electrolux",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1656_0_1_kRolQM_160.webp",
-        "first_seen": "2026-10-28T17:02:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 25.9,
-      "base_price": 809990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "298251",
         "title": "Кейс Corsair 2500X Dual Chamber White/Satin Gray Aluminum MidTower, window, mATX [CC-9011289-WW]",
@@ -4817,7 +4790,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3623_0_1_UlOyhT_160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
+        "first_seen": "2026-09-27T18:46:54+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -4925,7 +4898,7 @@
         "in_stock": true,
         "discount_pct": 32,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2229_0_1_8XzewZ_160.webp",
-        "first_seen": "2026-09-27T14:25:14+00:00"
+        "first_seen": "2026-09-27T18:46:54+00:00"
       },
       "signal": "drop",
       "drop_pct": 32,
@@ -5256,7 +5229,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
-        "first_seen": "2026-09-27T14:25:14+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -5283,7 +5256,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -5310,7 +5283,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6368_0_1_TGVhZy_160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
+        "first_seen": "2026-09-28T05:48:38+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -5465,34 +5438,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000046932",
-        "title": "Наушники Xiaomi Buds 3T Pro Белый",
-        "price": 54515,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4354",
-        "brand": "Xiaomi",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4354_0_2_160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.7,
-      "base_price": 67926,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "647539",
         "title": "Кухонная машина Moulinex Bake Easy QA140AF1",
         "price": 52990,
@@ -5572,6 +5517,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 19.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000046932",
+        "title": "Наушники Xiaomi Buds 3T Pro Белый",
+        "price": 54515,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-xiaomi-83-4354",
+        "brand": "Xiaomi",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4354_0_2_160.webp",
+        "first_seen": "2026-09-27T23:25:42+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 19.6,
+      "base_price": 67794,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6445,7 +6418,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6369_0_6_LpnAes_160.webp",
-        "first_seen": "2026-09-27T14:25:14+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -6472,7 +6445,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6370_0_6_q4nXpd_160.webp",
-        "first_seen": "2026-09-27T14:25:14+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -6499,7 +6472,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6371_0_6_tYpTFj_160.webp",
-        "first_seen": "2026-09-27T14:25:14+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -6608,7 +6581,7 @@
         "in_stock": true,
         "discount_pct": 20,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_776_5112_0_1_uTqmF0_160.webp",
-        "first_seen": "2026-09-27T08:35:04+00:00"
+        "first_seen": "2026-09-27T23:25:42+00:00"
       },
       "signal": "drop",
       "drop_pct": 20,
@@ -6705,6 +6678,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -9.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624130",
+        "title": "Холодильник Samsung RB38C7B6D39/WT",
+        "price": 505990,
+        "old_price": 609990,
+        "url": "https://www.sulpak.kz/g/holodilniki-samsung-rb38c7b6d39wt",
+        "brand": "Samsung",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1545_0_1_VpPuWC_160.webp",
+        "first_seen": "2026-09-27T08:35:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 17.0,
+      "base_price": 609990,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -7259,41 +7260,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-01T13:53:12+00:00",
-      "item_count": 2720,
+      "last_crawl": "2026-11-01T19:18:28+00:00",
+      "item_count": 2715,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-01T13:53:12+00:00",
-      "item_count": 12301,
+      "last_crawl": "2026-11-01T19:18:28+00:00",
+      "item_count": 12328,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-01T13:53:12+00:00",
-      "item_count": 3684,
+      "last_crawl": "2026-11-01T19:18:28+00:00",
+      "item_count": 3701,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-01T13:53:12+00:00",
-      "item_count": 9643,
+      "last_crawl": "2026-11-01T19:18:28+00:00",
+      "item_count": 9642,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-01T13:53:12+00:00",
+      "last_crawl": "2026-11-01T19:18:28+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 28592,
+    "total_products": 28630,
     "total_deals": 270,
     "avg_discount": 52.0
   }
