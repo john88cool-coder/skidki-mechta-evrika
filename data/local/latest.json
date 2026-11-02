@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:21:55.991692+00:00",
+  "updated_at": "2026-11-02T07:27:06.101303+00:00",
   "deals": [
     {
       "product": {
@@ -25,6 +25,35 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011794",
+        "title": "Телевизор LG OLED97G4RLA",
+        "price": 3499990,
+        "old_price": 17999990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled97g4rla/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 81,
+        "image": "https://pi.mdev.kz/df8ebfec-4975-11ef-a267-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 81,
+      "fair_discount": 80.6,
+      "base_price": 17999990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -122,6 +151,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 17,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003815",
+        "title": "Робот-пылесос TEFAL RG 8597 WH",
+        "price": 94990,
+        "old_price": 414990,
+        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8597-wh/",
+        "brand": "Tefal",
+        "category": "Роботы-пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
+        "first_seen": "2026-10-19T07:21:28+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -337,34 +391,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200004720",
-        "title": "Стиральная машина GRUNDIG GW 5P56H21 W",
-        "price": 99990,
-        "old_price": 249990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p56h21-w/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 47.4,
-      "base_price": 189990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200013276",
         "title": "Вертикальный пылесос Aeno SC3 (ASC0003) серый",
         "price": 29990,
@@ -446,33 +472,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003815",
-        "title": "Робот-пылесос TEFAL RG 8597 WH",
-        "price": 94990,
-        "old_price": 414990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8597-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/96fa9650-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-10-19T07:21:28+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 94990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200003743",
         "title": "Робот-пылесос TEFAL RG 8577 WH",
         "price": 74990,
@@ -496,6 +495,64 @@
         "Рисованная?"
       ],
       "inflated_gap": 76.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011831",
+        "title": "Телевизор Samsung QLED QE75QN900DUXCE 8K SMART",
+        "price": 999990,
+        "old_price": 3999990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe75qn900duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 75,
+      "fair_discount": 23.1,
+      "base_price": 1299990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 51.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011825",
+        "title": "Телевизор Samsung QLED QE55QN85DBUXCE UHD SMART",
+        "price": 249990,
+        "old_price": 869990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55qn85dbuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://pi.mdev.kz/1fd153aa-1ca9-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": 28.6,
+      "base_price": 349990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.4
     },
     {
       "product": {
@@ -551,6 +608,36 @@
         "Рисованная?"
       ],
       "inflated_gap": 69.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017420",
+        "title": "Телевизор LG OLED83M59LA",
+        "price": 1599990,
+        "old_price": 4849990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled83m59la/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/bce7ae98-1376-4921-9e80-11b58a411492?w=400",
+        "first_seen": "2026-10-05T23:20:13+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 38.5,
+      "base_price": 2599990,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.5
     },
     {
       "product": {
@@ -632,6 +719,176 @@
         "Рисованная?"
       ],
       "inflated_gap": 67.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011816",
+        "title": "Телевизор Samsung QLED QE43LS03DAUXCE The Frame UHD SMART",
+        "price": 199990,
+        "old_price": 599990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe43ls03dauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/1e3da8e4-1437-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 16.7,
+      "base_price": 239990,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017385",
+        "title": "Телевизор LG MiniLED 75QNED9MA6B UHD SMART",
+        "price": 499990,
+        "old_price": 1499990,
+        "url": "https://www.mechta.kz/product/televizor-lg-miniled-75qned9ma6b-uhd-smart/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/7f136743-9d9c-410d-8ce9-fd434a494f3e?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 44.4,
+      "base_price": 899990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "26260001706",
+        "title": "Игровая гарнитура KINGSTON HX-HSCF-BK/EM HyperX Cloud Flight",
+        "price": 19990,
+        "old_price": 59890,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-kingston-hx-hscf-bkem-hyperx-cloud-flight/",
+        "brand": "Kingston",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 67.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011819",
+        "title": "Телевизор Samsung QLED QE65QN900DUXCE 8K SMART",
+        "price": 999990,
+        "old_price": 2949990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn900duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 0.0,
+      "base_price": 1299990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 66.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200005126",
+        "title": "Дом. кинотеатр JBL BAR 800 PRO BLACK (JBLBAR800PRO)",
+        "price": 199990,
+        "old_price": 579990,
+        "url": "https://www.mechta.kz/product/dom-kinoteatr-jbl-bar-800-pro-black-jblbar800pro/",
+        "brand": "JBL",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://pi.mdev.kz/c65cb8ee-c4ad-11ed-a259-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 0.0,
+      "base_price": 199990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 66.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011448",
+        "title": "Телевизор Samsung QLED QE65QN800DUXCE 8K SMART",
+        "price": 699990,
+        "old_price": 2014990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn800duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 65,
+        "image": "https://pi.mdev.kz/d0d74550-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 65,
+      "fair_discount": 22.2,
+      "base_price": 899990,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.8
     },
     {
       "product": {
@@ -800,6 +1057,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "30000003682",
+        "title": "Игровая гарнитура JBL QUANTUM ONE (Black)",
+        "price": 39990,
+        "old_price": 109099,
+        "url": "https://www.mechta.kz/product/igrovaya-garnitura-jbl-quantum-one-black/",
+        "brand": "JBL",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/44d73884-628b-41f6-9996-23a24d286ff3?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 39990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006986",
         "title": "Вертикальный пылесос WADE SV-01 синий",
         "price": 19990,
@@ -936,6 +1220,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019404",
+        "title": "Телевизор LG OLED77M59LA",
+        "price": 1199990,
+        "old_price": 3199990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled77m59la/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/d156f97f-ef67-4bfb-a5ff-a6473557c98e?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 36.8,
+      "base_price": 1899990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006277",
         "title": "Робот-пылесос ROBOROCK (S80ULT/(S802-02) S8 White",
         "price": 139990,
@@ -959,6 +1273,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018090",
+        "title": "Телевизор Samsung Neo QLED QE75QN70FAUXCE UHD SMART",
+        "price": 549990,
+        "old_price": 1449990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn70fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 15.4,
+      "base_price": 649990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 46.6
     },
     {
       "product": {
@@ -990,354 +1333,29 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000047612",
-        "title": "Ломтерезка BORK Z780",
-        "price": 199990,
-        "old_price": 513590,
-        "url": "https://www.mechta.kz/product/lomterezka-bork-z780/",
-        "brand": "BORK",
-        "category": "Ломтерезки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 199990,
-      "value_score": 25,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013428",
-        "title": "Вертикальный пылесос Kitfort KT-594",
-        "price": 29990,
-        "old_price": 76490,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-kitfort-kt-594/",
-        "brand": "Kitfort",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 29990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016027",
-        "title": "Аэрогриль MIDEA MF-CY80SA2",
-        "price": 54990,
-        "old_price": 139990,
-        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy80sa2/",
-        "brand": "Midea",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 15.4,
-      "base_price": 64990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 45.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000077796",
-        "title": "Тепловентилятор TEFAL SE 9420 F0",
-        "price": 40990,
-        "old_price": 103990,
-        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9420-f0/",
-        "brand": "Tefal",
-        "category": "Тепловентиляторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 40990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006696",
-        "title": "Вертикальный пылесос TEFAL GF 3039WO",
-        "price": 89990,
-        "old_price": 227990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-gf-3039wo/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/40acfa7d-ad66-4c09-bd78-6b3ee4984dca?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 89990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003059",
-        "title": "Телевизор LOEWE LED 43SteamingTV, 4K Ult, Integrated soundbar, Storm Grey",
-        "price": 299990,
-        "old_price": 758990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-43steamingtv-4k-ult-integrated-soundbar-storm-grey/",
+        "sku": "17200003056",
+        "title": "Телевизор LOEWE OLED65Bild I dr+, SmartTV, 4K Ultra",
+        "price": 799990,
+        "old_price": 2099990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-oled65bild-i-drplus-smarttv-4k-ultra/",
         "brand": "Loewe",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/de3bb575-64aa-11ed-a24d-005056b6dbd7?w=400",
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400",
         "first_seen": "2026-09-27T16:55:45+00:00"
       },
       "signal": "deal",
-      "drop_pct": 60,
+      "drop_pct": 62,
       "fair_discount": 0.0,
-      "base_price": 299990,
+      "base_price": 799990,
       "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013888",
-        "title": "Вертикальный пылесос POLARIS PVCW 8090",
-        "price": 229990,
-        "old_price": 579990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-polaris-pvcw-8090/",
-        "brand": "Polaris",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/7b185718-9b23-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 229990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003089",
-        "title": "Портативная колонка LOEWE WE. HEAR 1 (Cool Grey)",
-        "price": 19990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-loewe-wedot-hear-1-cool-grey/",
-        "brand": "Loewe",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/dd09d91e-6574-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000001946",
-        "title": "Кондиционер MIDEA MSAG-07HRN1 с инсталляцией",
-        "price": 59990,
-        "old_price": 149990,
-        "url": "https://www.mechta.kz/product/kondicioner-midea-msag-07hrn1-s-installyaciey/",
-        "brand": "Midea",
-        "category": "Кондиционеры (сплит-системы)",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/733fbbf1-7b37-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-09T23:20:06+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 59990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016028",
-        "title": "Аэрогриль MIDEA MF-CY110A",
-        "price": 79990,
-        "old_price": 199990,
-        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy110a/",
-        "brand": "Midea",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/cb20961e-7e9e-4181-8126-8b47a6c505ed?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 79990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018020",
-        "title": "Вертикальный пылесос TINECO Floor One S6 Stretch Pro",
-        "price": 129990,
-        "old_price": 324990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tineco-floor-one-s6-stretch-pro/",
-        "brand": "Tineco",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/a8b70214-ddf5-4a4f-9fb0-aeb0cd4f98af?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 129990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016105",
-        "title": "Вертикальный пылесос PHILIPS XC 7055/01",
-        "price": 159990,
-        "old_price": 399990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-philips-xc-705501/",
-        "brand": "Philips",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/60844a5a-2947-491b-a3f8-d315d80ce3aa?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 159990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006276",
-        "title": "Робот-пылесос ROBOROCK (S81USP/(S8PU02-02) S8 Pro Ultra White",
-        "price": 279990,
-        "old_price": 699990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-roborock-s81usps8pu02-02-s8-pro-ultra-white/",
-        "brand": "Roborock",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/9b377cca-0fe4-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 279990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
+      "inflated_gap": 62.0
     },
     {
       "product": {
@@ -1366,6 +1384,34 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004720",
+        "title": "Стиральная машина GRUNDIG GW 5P56H21 W",
+        "price": 99990,
+        "old_price": 249990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p56h21-w/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 60,
+      "fair_discount": 47.4,
+      "base_price": 189990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.6
     },
     {
       "product": {
@@ -2379,6 +2425,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200017399",
+        "title": "Телевизор LG OLED42C5RLA",
+        "price": 299990,
+        "old_price": 744990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled42c5rla/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://pi.mdev.kz/6ee4f3af-150a-487f-8eab-09c07052dd3c?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 60,
+      "fair_discount": 40.0,
+      "base_price": 499990,
+      "value_score": 92,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200014637",
         "title": "Кофемашина POLARIS PACM 2080AC Wi-Fi IQ Home",
         "price": 519990,
@@ -2403,71 +2479,14 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004705",
-        "title": "Стиральная машина GRUNDIG GW 5P57H21 W",
-        "price": 129990,
-        "old_price": 279990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p57h21-w/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/66df504d-bbd1-4eb8-8d5e-b3c6cd1ea2fc?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 38.1,
-      "base_price": 209990,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006961",
-        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2, черный",
-        "price": 27990,
-        "old_price": 44990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-chernyy/",
-        "brand": "HyperX",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/7e63a176-3596-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.8,
-      "base_price": 44990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-02T05:21:48+00:00",
-      "item_count": 7859,
+      "last_crawl": "2026-11-02T07:26:04+00:00",
+      "item_count": 7857,
       "status": "ok"
     },
     {
@@ -2507,8 +2526,8 @@
     }
   ],
   "stats": {
-    "total_products": 7859,
+    "total_products": 7857,
     "total_deals": 90,
-    "avg_discount": 60.0
+    "avg_discount": 63.0
   }
 }
