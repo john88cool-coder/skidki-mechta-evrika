@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T07:27:06.101303+00:00",
+  "updated_at": "2026-11-02T09:22:48.939605+00:00",
   "deals": [
     {
       "product": {
@@ -25,35 +25,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011794",
-        "title": "Телевизор LG OLED97G4RLA",
-        "price": 3499990,
-        "old_price": 17999990,
-        "url": "https://www.mechta.kz/product/televizor-lg-oled97g4rla/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 81,
-        "image": "https://pi.mdev.kz/df8ebfec-4975-11ef-a267-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 81,
-      "fair_discount": 80.6,
-      "base_price": 17999990,
-      "value_score": 94,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -612,36 +583,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017420",
-        "title": "Телевизор LG OLED83M59LA",
-        "price": 1599990,
-        "old_price": 4849990,
-        "url": "https://www.mechta.kz/product/televizor-lg-oled83m59la/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 67,
-        "image": "https://pi.mdev.kz/bce7ae98-1376-4921-9e80-11b58a411492?w=400",
-        "first_seen": "2026-10-05T23:20:13+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 67,
-      "fair_discount": 38.5,
-      "base_price": 2599990,
-      "value_score": 91,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200001305",
         "title": "Блендер погружной POLARIS PHB 0746 CordLess",
         "price": 19990,
@@ -748,36 +689,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017385",
-        "title": "Телевизор LG MiniLED 75QNED9MA6B UHD SMART",
-        "price": 499990,
-        "old_price": 1499990,
-        "url": "https://www.mechta.kz/product/televizor-lg-miniled-75qned9ma6b-uhd-smart/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 67,
-        "image": "https://pi.mdev.kz/7f136743-9d9c-410d-8ce9-fd434a494f3e?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 67,
-      "fair_discount": 44.4,
-      "base_price": 899990,
-      "value_score": 94,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 22.6
     },
     {
       "product": {
@@ -1220,36 +1131,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019404",
-        "title": "Телевизор LG OLED77M59LA",
-        "price": 1199990,
-        "old_price": 3199990,
-        "url": "https://www.mechta.kz/product/televizor-lg-oled77m59la/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/d156f97f-ef67-4bfb-a5ff-a6473557c98e?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 36.8,
-      "base_price": 1899990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006277",
         "title": "Робот-пылесос ROBOROCK (S80ULT/(S802-02) S8 White",
         "price": 139990,
@@ -1356,6 +1237,117 @@
         "Рисованная?"
       ],
       "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200005088",
+        "title": "Наушники KAIBOAUDIO с костной проводимостью Buds Wave 1 (белый)",
+        "price": 22990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/naushniki-kaiboaudio-s-kostnoy-provodimostyu-buds-wave-1-belyy/",
+        "brand": "KaiboAudio",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 22990,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011442",
+        "title": "Телевизор Samsung QLED QE55LS03DAUXCE The Frame UHD SMART",
+        "price": 299990,
+        "old_price": 779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03dauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/1e3da8e6-1437-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 25.0,
+      "base_price": 399990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 37.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000047612",
+        "title": "Ломтерезка BORK Z780",
+        "price": 199990,
+        "old_price": 513590,
+        "url": "https://www.mechta.kz/product/lomterezka-bork-z780/",
+        "brand": "BORK",
+        "category": "Ломтерезки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 199990,
+      "value_score": 25,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018070",
+        "title": "Телевизор Samsung LED UE85U8000FUXCE UHD SMART",
+        "price": 499990,
+        "old_price": 1279990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue85u8000fuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 10.7,
+      "base_price": 559990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.3
     },
     {
       "product": {
@@ -2425,36 +2417,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017399",
-        "title": "Телевизор LG OLED42C5RLA",
-        "price": 299990,
-        "old_price": 744990,
-        "url": "https://www.mechta.kz/product/televizor-lg-oled42c5rla/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/6ee4f3af-150a-487f-8eab-09c07052dd3c?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 60,
-      "fair_discount": 40.0,
-      "base_price": 499990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200014637",
         "title": "Кофемашина POLARIS PACM 2080AC Wi-Fi IQ Home",
         "price": 519990,
@@ -2479,14 +2441,43 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004705",
+        "title": "Стиральная машина GRUNDIG GW 5P57H21 W",
+        "price": 129990,
+        "old_price": 279990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p57h21-w/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/66df504d-bbd1-4eb8-8d5e-b3c6cd1ea2fc?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 38.1,
+      "base_price": 209990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.9
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-02T07:26:04+00:00",
-      "item_count": 7857,
+      "last_crawl": "2026-11-02T09:22:34+00:00",
+      "item_count": 7856,
       "status": "ok"
     },
     {
@@ -2526,8 +2517,8 @@
     }
   ],
   "stats": {
-    "total_products": 7857,
+    "total_products": 7856,
     "total_deals": 90,
-    "avg_discount": 63.0
+    "avg_discount": 62.0
   }
 }
