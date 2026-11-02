@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T04:23:53.514653+00:00",
+  "updated_at": "2026-11-02T05:21:55.991692+00:00",
   "deals": [
     {
       "product": {
@@ -2351,6 +2351,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200023131",
+        "title": "Пылесос DREAME DF 10",
+        "price": 29990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/pylesos-dreame-df-10/",
+        "brand": "Dreame",
+        "category": "Моющие пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/58f4209b-2e1b-4b9d-86f0-013daa342544?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 49990,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200014637",
         "title": "Кофемашина POLARIS PACM 2080AC Wi-Fi IQ Home",
         "price": 519990,
@@ -2432,42 +2460,14 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010027",
-        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
-        "price": 39990,
-        "old_price": 63990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-wireless-chernaya/",
-        "brand": "Kingston",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.5,
-      "base_price": 63990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-02T04:23:46+00:00",
-      "item_count": 7863,
+      "last_crawl": "2026-11-02T05:21:48+00:00",
+      "item_count": 7859,
       "status": "ok"
     },
     {
@@ -2507,7 +2507,7 @@
     }
   ],
   "stats": {
-    "total_products": 7863,
+    "total_products": 7859,
     "total_deals": 90,
     "avg_discount": 60.0
   }
