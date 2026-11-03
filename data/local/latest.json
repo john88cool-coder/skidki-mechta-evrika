@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:21:58.493964+00:00",
+  "updated_at": "2026-11-03T06:42:01.081108+00:00",
   "deals": [
     {
       "product": {
@@ -439,6 +439,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 78.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000031385",
+        "title": "Мороженница BORK E801",
+        "price": 79990,
+        "old_price": 346590,
+        "url": "https://www.mechta.kz/product/morojennica-bork-e801/",
+        "brand": "BORK",
+        "category": "Мороженицы",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": 60.0,
+      "base_price": 199990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.0
     },
     {
       "product": {
@@ -1066,7 +1095,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 349990,
-      "value_score": 24,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1175,7 +1204,7 @@
       "drop_pct": 62,
       "fair_discount": 15.4,
       "base_price": 649990,
-      "value_score": 54,
+      "value_score": 49,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1324,34 +1353,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018070",
-        "title": "Телевизор Samsung LED UE85U8000FUXCE UHD SMART",
-        "price": 499990,
-        "old_price": 1279990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue85u8000fuxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 10.7,
-      "base_price": 559990,
-      "value_score": 47,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012857",
         "title": "Кухонная машина POLARIS PKM 1206 Черный",
         "price": 97990,
@@ -1380,6 +1381,35 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200024895",
+        "title": "Ноутбук LENOVO IdeaPad Slim 3 16ARP10 (83K800GWRK)/16 WUXGA/AMD Ryzen 5 150 3.3 Ghz/16/SSD512/Dos",
+        "price": 259990,
+        "old_price": 499990,
+        "url": "https://www.mechta.kz/product/noutbuk-lenovo-ideapad-slim-3-16arp10-83k800gwrk16-wuxgaamd-ryzen-5-150-3dot3-ghz16ssd512dos/",
+        "brand": "Lenovo",
+        "category": "Ноутбуки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/c0653298-dedf-4404-9c91-f56213b0da00?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 48.0,
+      "base_price": 499990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200004720",
         "title": "Стиральная машина GRUNDIG GW 5P56H21 W",
         "price": 99990,
@@ -1397,7 +1427,7 @@
       "drop_pct": 60,
       "fair_discount": 47.4,
       "base_price": 189990,
-      "value_score": 84,
+      "value_score": 80,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1425,13 +1455,97 @@
       "drop_pct": 58,
       "fair_discount": 45.0,
       "base_price": 199990,
-      "value_score": 84,
+      "value_score": 80,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018901",
+        "title": "Наушники SOUNDCORE Liberty 5 A3957 Black/черный TWS",
+        "price": 27990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/naushniki-soundcore-liberty-5-a3957-blackchernyy-tws/",
+        "brand": "Soundcore",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/aabcad58-6ac5-4ab7-82ec-ba41415444ea?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 44.0,
+      "base_price": 49990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018902",
+        "title": "Наушники SOUNDCORE Liberty 5 A3957 White/белый TWS",
+        "price": 27990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/naushniki-soundcore-liberty-5-a3957-whitebelyy-tws/",
+        "brand": "Soundcore",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/20d61ad6-7f75-469f-abe2-f627933f112b?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 44.0,
+      "base_price": 49990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023205",
+        "title": "Наушники SOUNDCORE Liberty 5 A3957G51 Розовый TWS",
+        "price": 27990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/naushniki-soundcore-liberty-5-a3957g51-rozovyy-tws/",
+        "brand": "Soundcore",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/2b291058-9e3a-4d0e-95e1-1c9518b4ca58?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 44.0,
+      "base_price": 49990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -2356,128 +2470,14 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015482",
-        "title": "Игровое кресло CANYON CNE-MCH01R (Black-Red)",
-        "price": 29990,
-        "old_price": 69990,
-        "url": "https://www.mechta.kz/product/igrovoe-kreslo-canyon-cne-mch01r-black-red/",
-        "brand": "Canyon",
-        "category": "Компьютерные кресла",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://pi.mdev.kz/07b01b90-b83b-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 57,
-      "fair_discount": 40.0,
-      "base_price": 49990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 17.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023131",
-        "title": "Пылесос DREAME DF 10",
-        "price": 29990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/pylesos-dreame-df-10/",
-        "brand": "Dreame",
-        "category": "Моющие пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/58f4209b-2e1b-4b9d-86f0-013daa342544?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 49990,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014637",
-        "title": "Кофемашина POLARIS PACM 2080AC Wi-Fi IQ Home",
-        "price": 519990,
-        "old_price": 849990,
-        "url": "https://www.mechta.kz/product/kofemashina-polaris-pacm-2080ac-wi-fi-iq-home/",
-        "brand": "Polaris",
-        "category": "Кофемашины автоматические",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/d6f66c67-a16e-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 38.8,
-      "base_price": 849990,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004705",
-        "title": "Стиральная машина GRUNDIG GW 5P57H21 W",
-        "price": 129990,
-        "old_price": 279990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p57h21-w/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://pi.mdev.kz/66df504d-bbd1-4eb8-8d5e-b3c6cd1ea2fc?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 54,
-      "fair_discount": 38.1,
-      "base_price": 209990,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.9
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-02T11:21:40+00:00",
-      "item_count": 7854,
+      "last_crawl": "2026-11-03T06:41:44+00:00",
+      "item_count": 7867,
       "status": "ok"
     },
     {
@@ -2517,7 +2517,7 @@
     }
   ],
   "stats": {
-    "total_products": 7854,
+    "total_products": 7867,
     "total_deals": 90,
     "avg_discount": 62.0
   }
