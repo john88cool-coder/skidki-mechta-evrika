@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:21:18.739681+00:00",
+  "updated_at": "2026-11-03T13:22:57.546153+00:00",
   "deals": [
     {
       "product": {
@@ -310,31 +310,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200015941",
-        "title": "Смартфон HUAWEI Nova 13 Pro 12/512 Green (Milla-L29E)",
-        "price": 119990,
-        "old_price": 341990,
-        "url": "https://www.mechta.kz/product/smartfon-huawei-nova-13-pro-12512-green-milla-l29e/",
-        "brand": "Huawei",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 65,
-        "image": "https://pi.mdev.kz/195b035d-4e11-41fc-8565-1637da5ab532?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 65,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011468",
         "title": "Телевизор Samsung LED UE65DU7100UXCE UHD SMART",
         "price": 179990,
@@ -460,10 +435,9 @@
       "drop_pct": 77,
       "fair_discount": 60.0,
       "base_price": 199990,
-      "value_score": 80,
-      "is_pick": true,
+      "value_score": 76,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Рисованная?"
       ],
@@ -545,7 +519,7 @@
       "drop_pct": 71,
       "fair_discount": 28.6,
       "base_price": 349990,
-      "value_score": 77,
+      "value_score": 73,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1204,7 +1178,7 @@
       "drop_pct": 62,
       "fair_discount": 15.4,
       "base_price": 649990,
-      "value_score": 49,
+      "value_score": 46,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1353,6 +1327,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018070",
+        "title": "Телевизор Samsung LED UE85U8000FUXCE UHD SMART",
+        "price": 499990,
+        "old_price": 1279990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue85u8000fuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 10.7,
+      "base_price": 559990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200012857",
         "title": "Кухонная машина POLARIS PKM 1206 Черный",
         "price": 97990,
@@ -1427,10 +1429,9 @@
       "drop_pct": 60,
       "fair_discount": 47.4,
       "base_price": 189990,
-      "value_score": 80,
-      "is_pick": true,
+      "value_score": 76,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": 12.6
@@ -1455,10 +1456,9 @@
       "drop_pct": 58,
       "fair_discount": 45.0,
       "base_price": 199990,
-      "value_score": 80,
-      "is_pick": true,
+      "value_score": 76,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": 13.0
@@ -2476,8 +2476,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-03T11:21:10+00:00",
-      "item_count": 7887,
+      "last_crawl": "2026-11-03T13:22:48+00:00",
+      "item_count": 7886,
       "status": "ok"
     },
     {
@@ -2517,7 +2517,7 @@
     }
   ],
   "stats": {
-    "total_products": 7887,
+    "total_products": 7886,
     "total_deals": 90,
     "avg_discount": 62.0
   }
