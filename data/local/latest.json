@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T13:22:57.546153+00:00",
+  "updated_at": "2026-11-03T17:59:49.940617+00:00",
   "deals": [
     {
       "product": {
@@ -333,6 +333,35 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003064",
+        "title": "Телевизор LOEWE LED 50SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
+        "price": 149990,
+        "old_price": 934990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-led-50steamingtv-4k-ult-integrated-soundbar-aqua-blue/",
+        "brand": "Loewe",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 84,
+        "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 84,
+      "fair_discount": 57.1,
+      "base_price": 349990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.9
     },
     {
       "product": {
@@ -1043,33 +1072,6 @@
       "fair_discount": 0.0,
       "base_price": 129990,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003064",
-        "title": "Телевизор LOEWE LED 50SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
-        "price": 349990,
-        "old_price": 934990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-50steamingtv-4k-ult-integrated-soundbar-aqua-blue/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 349990,
-      "value_score": 21,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2476,8 +2478,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-03T13:22:48+00:00",
-      "item_count": 7886,
+      "last_crawl": "2026-11-03T17:59:41+00:00",
+      "item_count": 7879,
       "status": "ok"
     },
     {
@@ -2517,7 +2519,7 @@
     }
   ],
   "stats": {
-    "total_products": 7886,
+    "total_products": 7879,
     "total_deals": 90,
     "avg_discount": 62.0
   }
