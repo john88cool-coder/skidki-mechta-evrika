@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T01:20:19.688670+00:00",
+  "updated_at": "2026-11-04T05:53:51.298004+00:00",
   "deals": [
     {
       "product": {
@@ -354,7 +354,7 @@
       "drop_pct": 84,
       "fair_discount": 57.1,
       "base_price": 349990,
-      "value_score": 84,
+      "value_score": 80,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1916,62 +1916,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014858",
-        "title": "Мышка игровая HyperX Pulsefire Haste 2 Mini Wireless, чёрный",
-        "price": 34990,
-        "old_price": 58990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-hyperx-pulsefire-haste-2-mini-wireless-chernyy/",
-        "brand": "HyperX",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/aa755071-9fe3-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 40.7,
-      "base_price": 58990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014859",
-        "title": "Мышка игровая HyperX Pulsefire Haste 2 Mini Wireless, белый",
-        "price": 34990,
-        "old_price": 58990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-hyperx-pulsefire-haste-2-mini-wireless-belyy/",
-        "brand": "HyperX",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/aa75506c-9fe3-11ef-a26b-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 40.7,
-      "base_price": 58990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200015482",
         "title": "Игровое кресло CANYON CNE-MCH01R (Black-Red)",
         "price": 29990,
@@ -2054,62 +1998,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 15.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006961",
-        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2, черный",
-        "price": 27990,
-        "old_price": 44990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-chernyy/",
-        "brand": "HyperX",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/7e63a176-3596-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.8,
-      "base_price": 44990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200010027",
-        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
-        "price": 39990,
-        "old_price": 63990,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-wireless-chernaya/",
-        "brand": "Kingston",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 37.5,
-      "base_price": 63990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -2479,14 +2367,97 @@
         "Рисованная?"
       ],
       "inflated_gap": 26.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012213",
+        "title": "Фен DREAME Pocket Titanium Gold",
+        "price": 39990,
+        "old_price": 64990,
+        "url": "https://www.mechta.kz/product/fen-dreame-pocket-titanium-gold/",
+        "brand": "Dreame",
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 11.1,
+      "base_price": 44990,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200009465",
+        "title": "Телевизор LED Samsung UE32T4500AUXCE",
+        "price": 84990,
+        "old_price": 139990,
+        "url": "https://www.mechta.kz/product/televizor-led-samsung-ue32t4500auxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/9d2c1358-1727-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 10.5,
+      "base_price": 94990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003078",
+        "title": "Телевизор LED Samsung UE32T5300AUXCE FullHD SMART",
+        "price": 89990,
+        "old_price": 149990,
+        "url": "https://www.mechta.kz/product/televizor-led-samsung-ue32t5300auxce-fullhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/5b817044-63d3-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 10.0,
+      "base_price": 99990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-04T01:20:11+00:00",
-      "item_count": 7882,
+      "last_crawl": "2026-11-04T05:53:42+00:00",
+      "item_count": 7893,
       "status": "ok"
     },
     {
@@ -2526,8 +2497,8 @@
     }
   ],
   "stats": {
-    "total_products": 7882,
-    "total_deals": 90,
-    "avg_discount": 62.0
+    "total_products": 7893,
+    "total_deals": 89,
+    "avg_discount": 62
   }
 }
