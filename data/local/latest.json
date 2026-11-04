@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T23:20:23.293691+00:00",
+  "updated_at": "2026-11-04T01:20:19.688670+00:00",
   "deals": [
     {
       "product": {
@@ -321,7 +321,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/1fd1538c-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-09-27T16:55:45+00:00"
+        "first_seen": "2026-10-09T07:21:03+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1916,510 +1916,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200026469",
-        "title": "Наушники JBL TUNE 530BT BLUE + Портативная колонка JBL GO4 (black)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-blue-plus-portativnaya-kolonka-jbl-go4-black/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/dd4b10f3-6963-4d2a-b557-9288fe510325?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026471",
-        "title": "Наушники JBL TUNE 530BT BLUE + Портативная колонка JBL GO4 (pink)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-blue-plus-portativnaya-kolonka-jbl-go4-pink/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/2a189104-682e-49c5-a948-c92242eeaec3?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026472",
-        "title": "Наушники JBL TUNE 530BT BLUE + Портативная колонка JBL GO4 (purple)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-blue-plus-portativnaya-kolonka-jbl-go4-purple/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/c467c067-4b9c-4af1-a675-1d049e145284?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026473",
-        "title": "Наушники JBL TUNE 530BT BLUE + Портативная колонка JBL GO4 (red)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-blue-plus-portativnaya-kolonka-jbl-go4-red/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/0773643f-2804-43aa-88d5-5f74028102a5?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026474",
-        "title": "Наушники JBL TUNE 530BT BLUE + Портативная колонка JBL GO4 (squad)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-blue-plus-portativnaya-kolonka-jbl-go4-squad/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/ead53ee5-5339-4e9d-b3bc-f81a555bc122?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026475",
-        "title": "Наушники JBL TUNE 530BT BLUE + Портативная колонка JBL GO4 (white)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-blue-plus-portativnaya-kolonka-jbl-go4-white/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/4c63c9cf-51c7-46e9-9f12-514cb2ef2be1?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026476",
-        "title": "Наушники JBL TUNE 530BT LAVENDER + Портативная колонка JBL GO4 (black)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-lavender-plus-portativnaya-kolonka-jbl-go4-black/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/4a19e93b-4419-43f5-b964-4d389ea66faa?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026478",
-        "title": "Наушники JBL TUNE 530BT LAVENDER + Портативная колонка JBL GO4 (pink)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-lavender-plus-portativnaya-kolonka-jbl-go4-pink/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/2f5968f4-530e-4e90-b805-d30dc02b435b?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026479",
-        "title": "Наушники JBL TUNE 530BT LAVENDER + Портативная колонка JBL GO4 (purple)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-lavender-plus-portativnaya-kolonka-jbl-go4-purple/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/b0b4bbb3-a86c-4515-b7ad-aaf7cdfbc00b?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026480",
-        "title": "Наушники JBL TUNE 530BT LAVENDER + Портативная колонка JBL GO4 (red)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-lavender-plus-portativnaya-kolonka-jbl-go4-red/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/6437b3b4-7470-4ec9-a4f5-f728a1cf3c6f?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026481",
-        "title": "Наушники JBL TUNE 530BT LAVENDER + Портативная колонка JBL GO4 (squad)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-lavender-plus-portativnaya-kolonka-jbl-go4-squad/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/78e83a14-a0be-4580-aefc-82baea9b923c?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026482",
-        "title": "Наушники JBL TUNE 530BT LAVENDER + Портативная колонка JBL GO4 (white)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-lavender-plus-portativnaya-kolonka-jbl-go4-white/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/01bb13df-a75b-444f-889a-3fcf74ff7780?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026483",
-        "title": "Наушники JBL TUNE 530BT WHITE + Портативная колонка JBL GO4 (black)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-white-plus-portativnaya-kolonka-jbl-go4-black/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/1955412a-4a84-442a-9793-967e5bb5535a?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026485",
-        "title": "Наушники JBL TUNE 530BT WHITE + Портативная колонка JBL GO4 (pink)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-white-plus-portativnaya-kolonka-jbl-go4-pink/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/0267693e-9df9-43ff-ba19-71ada04fb00a?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026486",
-        "title": "Наушники JBL TUNE 530BT WHITE + Портативная колонка JBL GO4 (purple)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-white-plus-portativnaya-kolonka-jbl-go4-purple/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/8449d29e-3ccc-441a-928e-e8bb22c47f7f?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026487",
-        "title": "Наушники JBL TUNE 530BT WHITE + Портативная колонка JBL GO4 (red)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-white-plus-portativnaya-kolonka-jbl-go4-red/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/9136a144-b7f1-458e-be8d-83aabc5a101f?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026488",
-        "title": "Наушники JBL TUNE 530BT WHITE + Портативная колонка JBL GO4 (squad)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-white-plus-portativnaya-kolonka-jbl-go4-squad/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/e2db0f6c-8922-4d62-b7a4-e3e5b42814e2?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 95,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026489",
-        "title": "Наушники JBL TUNE 530BT WHITE + Портативная колонка JBL GO4 (white)",
-        "price": 30990,
-        "old_price": 52980,
-        "url": "https://www.mechta.kz/product/naushniki-jbl-tune-530bt-white-plus-portativnaya-kolonka-jbl-go4-white/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/3304280a-fe33-4d72-8245-bb1961e7eae9?w=400",
-        "first_seen": "2026-10-30T03:20:46+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.5,
-      "base_price": 52980,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200014858",
         "title": "Мышка игровая HyperX Pulsefire Haste 2 Mini Wireless, чёрный",
         "price": 34990,
@@ -2472,13 +1968,524 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015482",
+        "title": "Игровое кресло CANYON CNE-MCH01R (Black-Red)",
+        "price": 29990,
+        "old_price": 69990,
+        "url": "https://www.mechta.kz/product/igrovoe-kreslo-canyon-cne-mch01r-black-red/",
+        "brand": "Canyon",
+        "category": "Компьютерные кресла",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://pi.mdev.kz/07b01b90-b83b-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 57,
+      "fair_discount": 40.0,
+      "base_price": 49990,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023131",
+        "title": "Пылесос DREAME DF 10",
+        "price": 29990,
+        "old_price": 49990,
+        "url": "https://www.mechta.kz/product/pylesos-dreame-df-10/",
+        "brand": "Dreame",
+        "category": "Моющие пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/58f4209b-2e1b-4b9d-86f0-013daa342544?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 49990,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200004705",
+        "title": "Стиральная машина GRUNDIG GW 5P57H21 W",
+        "price": 129990,
+        "old_price": 279990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p57h21-w/",
+        "brand": "Grundig",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/66df504d-bbd1-4eb8-8d5e-b3c6cd1ea2fc?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 38.1,
+      "base_price": 209990,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006961",
+        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2, черный",
+        "price": 27990,
+        "old_price": 44990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-chernyy/",
+        "brand": "HyperX",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/7e63a176-3596-11ee-a25e-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 37.8,
+      "base_price": 44990,
+      "value_score": 86,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200010027",
+        "title": "Мышка игровая KINGSTON HyperX Pulsefire Haste 2 Wireless, Черная",
+        "price": 39990,
+        "old_price": 63990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-kingston-hyperx-pulsefire-haste-2-wireless-chernaya/",
+        "brand": "Kingston",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/57db7f38-c591-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 37.5,
+      "base_price": 63990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011818",
+        "title": "Телевизор Samsung OLED QE55S95DAUXCE",
+        "price": 549990,
+        "old_price": 1299990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe55s95dauxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/873ad8e2-133a-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 26.7,
+      "base_price": 749990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018120",
+        "title": "Телевизор Samsung OLED QE77S85FAEXCE",
+        "price": 999990,
+        "old_price": 2299990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s85faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://pi.mdev.kz/f5c902c1-5c77-441a-9fab-c21470db2b13?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 57,
+      "fair_discount": 25.9,
+      "base_price": 1349990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17000000948",
+        "title": "Мультиварка MOULINEX MK 622832",
+        "price": 49990,
+        "old_price": 110990,
+        "url": "https://www.mechta.kz/product/multivarka-moulinex-mk-622832/",
+        "brand": "Moulinex",
+        "category": "Мультиварки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/8bb01394-5df0-48e5-933a-8c092b26fd22?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 25.4,
+      "base_price": 66990,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011437",
+        "title": "Телевизор Samsung QLED QE43QN90DAUXCE UHD SMART",
+        "price": 299990,
+        "old_price": 674990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe43qn90dauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/d0d74562-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 56,
+      "fair_discount": 25.0,
+      "base_price": 399990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015490",
+        "title": "Игровое кресло CANYON CNS-ABCH01GYB (Black-Grey)",
+        "price": 74990,
+        "old_price": 149990,
+        "url": "https://www.mechta.kz/product/igrovoe-kreslo-canyon-cns-abch01gyb-black-grey/",
+        "brand": "Canyon",
+        "category": "Компьютерные кресла",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/0eca3536-bc2c-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 21.1,
+      "base_price": 94990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015481",
+        "title": "Игровое кресло CANYON CNE-MCH01 (Black-Orange)",
+        "price": 39990,
+        "old_price": 69990,
+        "url": "https://www.mechta.kz/product/igrovoe-kreslo-canyon-cne-mch01-black-orange/",
+        "brand": "Canyon",
+        "category": "Компьютерные кресла",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/07b01b8a-b83b-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015483",
+        "title": "Игровое кресло CANYON CNE-MCH01W (Black-White)",
+        "price": 39990,
+        "old_price": 69990,
+        "url": "https://www.mechta.kz/product/igrovoe-kreslo-canyon-cne-mch01w-black-white/",
+        "brand": "Canyon",
+        "category": "Компьютерные кресла",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/07b01b96-b83b-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200015484",
+        "title": "Игровое кресло CANYON CNE-MCH02 (Black-Orange)",
+        "price": 39990,
+        "old_price": 69990,
+        "url": "https://www.mechta.kz/product/igrovoe-kreslo-canyon-cne-mch02-black-orange/",
+        "brand": "Canyon",
+        "category": "Компьютерные кресла",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/45354d9d-b941-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014637",
+        "title": "Кофемашина POLARIS PACM 2080AC Wi-Fi IQ Home",
+        "price": 519990,
+        "old_price": 849990,
+        "url": "https://www.mechta.kz/product/kofemashina-polaris-pacm-2080ac-wi-fi-iq-home/",
+        "brand": "Polaris",
+        "category": "Кофемашины автоматические",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/d6f66c67-a16e-11ef-a26b-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 20.0,
+      "base_price": 649990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011817",
+        "title": "Телевизор Samsung OLED QE55S90DAUXCE",
+        "price": 449990,
+        "old_price": 989990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe55s90dauxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/61d896d4-1403-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 18.2,
+      "base_price": 549990,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 36.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020571",
+        "title": "Телевизор Samsung QLED QE65Q8FAAUXKZ UHD SMART (KZ)",
+        "price": 329990,
+        "old_price": 799990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q8faauxkz-uhd-smart-kz/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://pi.mdev.kz/d5af179a-e495-4ef8-914b-f64b01719dd1?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 59,
+      "fair_discount": 17.5,
+      "base_price": 399990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 41.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011828",
+        "title": "Телевизор Samsung QLED QE65QN85DBUXCE UHD SMART",
+        "price": 545990,
+        "old_price": 1249990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn85dbuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://pi.mdev.kz/1fd153af-1ca9-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 56,
+      "fair_discount": 15.5,
+      "base_price": 645990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 40.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012212",
+        "title": "Фен DREAME Pocket Space Gray",
+        "price": 39990,
+        "old_price": 64990,
+        "url": "https://www.mechta.kz/product/fen-dreame-pocket-space-gray/",
+        "brand": "Dreame",
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
+        "first_seen": "2026-09-27T16:55:45+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 38,
+      "fair_discount": 11.1,
+      "base_price": 44990,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.9
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-03T23:20:13+00:00",
+      "last_crawl": "2026-11-04T01:20:11+00:00",
       "item_count": 7882,
       "status": "ok"
     },
