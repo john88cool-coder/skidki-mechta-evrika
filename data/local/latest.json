@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:23:45.335468+00:00",
+  "updated_at": "2026-11-05T07:22:52.755082+00:00",
   "deals": [
     {
       "product": {
@@ -522,7 +522,7 @@
       "drop_pct": 71,
       "fair_discount": 28.6,
       "base_price": 349990,
-      "value_score": 73,
+      "value_score": 69,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1018,7 +1018,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 20,
+      "value_score": 17,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1694,31 +1694,30 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017055",
-        "title": "Смартфон Samsung Galaxy A26 5G 256GB Black (SM-A266) BZKHS",
-        "price": 119990,
-        "old_price": 189890,
-        "url": "https://www.mechta.kz/product/smartfon-samsung-galaxy-a26-5g-256gb-black-sm-a266-bzkhs/",
-        "brand": "Samsung",
-        "category": "Смартфоны",
-        "group": "phones",
+        "sku": "17200018740",
+        "title": "Миксер MOULINEX HM 3108B1",
+        "price": 15990,
+        "old_price": 33990,
+        "url": "https://www.mechta.kz/product/mikser-moulinex-hm-3108b1/",
+        "brand": "Moulinex",
+        "category": "Ручные миксеры",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/63294dfc-a1dd-44ba-b4ba-d48b13d3bedf?w=400",
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/fa381883-a700-4565-ba2f-f03d1268265b?w=400",
         "first_seen": "2026-10-01T04:23:46+00:00"
       },
       "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 36.8,
-      "base_price": 189890,
-      "value_score": 89,
-      "is_pick": true,
+      "drop_pct": 53,
+      "fair_discount": 27.3,
+      "base_price": 21990,
+      "value_score": 71,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
-        "Топ-Бренд"
+        "Рисованная?"
       ],
-      "inflated_gap": 0.2
+      "inflated_gap": 25.7
     },
     {
       "product": {
@@ -2262,8 +2261,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-05T05:23:36+00:00",
-      "item_count": 7889,
+      "last_crawl": "2026-11-05T07:22:35+00:00",
+      "item_count": 7888,
       "status": "ok"
     },
     {
@@ -2303,7 +2302,7 @@
     }
   ],
   "stats": {
-    "total_products": 7889,
+    "total_products": 7888,
     "total_deals": 82,
     "avg_discount": 62.5
   }
