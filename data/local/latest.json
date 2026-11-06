@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:20:25.761082+00:00",
+  "updated_at": "2026-11-06T05:55:46.221989+00:00",
   "deals": [
     {
       "product": {
@@ -480,6 +480,36 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018494",
+        "title": "Телевизор LG OLED97M59LA",
+        "price": 5373290,
+        "old_price": 19949990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled97m59la/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 73,
+        "image": "https://pi.mdev.kz/8a997fdf-0946-485e-96d2-4ad3b61120fa?w=400",
+        "first_seen": "2026-10-20T10:21:08+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 73,
+      "fair_discount": 32.8,
+      "base_price": 7999990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 40.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011825",
         "title": "Телевизор Samsung QLED QE55QN85DBUXCE UHD SMART",
         "price": 249990,
@@ -575,7 +605,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T07:21:13+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -1324,33 +1354,6 @@
       "fair_discount": 0.0,
       "base_price": 29990,
       "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016027",
-        "title": "Аэрогриль MIDEA MF-CY80SA2",
-        "price": 54990,
-        "old_price": 139990,
-        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy80sa2/",
-        "brand": "Midea",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 54990,
-      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2263,8 +2266,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-06T03:20:15+00:00",
-      "item_count": 7947,
+      "last_crawl": "2026-11-06T05:55:37+00:00",
+      "item_count": 7941,
       "status": "ok"
     },
     {
@@ -2304,8 +2307,8 @@
     }
   ],
   "stats": {
-    "total_products": 7947,
+    "total_products": 7941,
     "total_deals": 82,
-    "avg_discount": 62.0
+    "avg_discount": 62.5
   }
 }
