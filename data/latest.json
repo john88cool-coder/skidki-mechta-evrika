@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T16:30:59.753751+00:00",
+  "updated_at": "2026-11-06T21:53:50.847425+00:00",
   "deals": [
     {
       "product": {
@@ -28,31 +28,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 5.1
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "288306",
-        "title": "Робот пылесос Tefal S70+ RG-8497WH",
-        "price": 79990,
-        "old_price": 352990,
-        "url": "https://www.technodom.kz/p/robot-pylesos-tefal-s70-rg-8497wh-288306",
-        "brand": "Tefal",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288306_1.webp",
-        "first_seen": "2026-11-03T16:39:06+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -759,31 +734,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "270598",
-        "title": "Саундбар B&O Beosound Theatre 65, Gold Tone",
-        "price": 2733990,
-        "old_price": 6076990,
-        "url": "https://www.technodom.kz/p/saundbar-b-o-beosound-theatre-65-gold-tone-270598",
-        "brand": "Bang & Olufsen",
-        "category": "ТВ, аудио, фото, видео",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://api.technodom.kz/f3/api/v1/images/270598_1.webp",
-        "first_seen": "2026-11-03T16:39:06+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "269518",
         "title": "Ноутбук Apple MacBook Pro Space Grey 2023 M2 Pro / 16ГБ / 512SSD / 16 / Mac OS Ventura / (MNW83RU/A)",
         "price": 710990,
@@ -1066,19 +1016,19 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1729841",
-        "title": "Самовар Centek CT-0092 A, White-Gold (SN:G020092000459)",
-        "price": 18990,
-        "old_price": 39990,
-        "url": "https://shop.kz/offer/samovar-centek-ct-0092-a-white-gold-sn-g020092000459/",
-        "brand": "Centek",
-        "category": "Чайники, термопоты",
+        "shop": "evrika",
+        "sku": "38791",
+        "title": "Погружной блендер Moulinex InfinyForce Pro DD95HD10",
+        "price": 38990,
+        "old_price": 82990,
+        "url": "https://evrika.com/catalog/blender-moulinex-dd95hd10/p38791",
+        "brand": null,
+        "category": "Блендеры",
         "group": "kitchen",
         "in_stock": true,
         "discount_pct": 53,
-        "image": "https://static.shop.kz/upload/iblock/fbe/jn1bk7dca7p5iit1v3skgqp0f52drhn9/174027o200.jpg",
-        "first_seen": "2026-11-03T16:39:06+00:00"
+        "image": "https://cdn.evrika.com/storage/products/images/medium/MlBZCV7jrzeafDrbfm8F6bJV33WihM64nGOLnPtu.jpg.webp",
+        "first_seen": "2026-11-06T21:53:16+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -1344,24 +1294,24 @@
     {
       "product": {
         "shop": "evrika",
-        "sku": "35440",
-        "title": "Гарнитура игровая Logitech G733 (981-000864) BLACK",
-        "price": 44990,
-        "old_price": 89990,
-        "url": "https://evrika.com/catalog/garnitura-igrovaya-logitech-g733-981-000864-black/p35440",
+        "sku": "23881",
+        "title": "Фен Rowenta CV5830F0",
+        "price": 17990,
+        "old_price": 36990,
+        "url": "https://evrika.com/catalog/fen-rowenta-cv5830f0/p23881",
         "brand": null,
-        "category": "Наушники с микрофоном",
-        "group": "computers",
+        "category": "Фены",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/GuaO80c1DR9jDHvaFiFKMJynFvpno9t3JMbbCY3r.jpg.webp",
-        "first_seen": "2026-10-03T20:14:33+00:00"
+        "discount_pct": 51,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/peQCOAUZd49fweGMcQxqReXbgN8ekLBG5tyMDqFA.jpg.webp",
+        "first_seen": "2026-11-06T21:53:16+00:00"
       },
       "signal": "deal",
-      "drop_pct": 50,
+      "drop_pct": 51,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1412,6 +1362,81 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44466",
+        "title": "Выпрямитель Rowenta SF1920F0",
+        "price": 13990,
+        "old_price": 27990,
+        "url": "https://evrika.com/catalog/vypryamitel-rowenta-sf1920f0/p44466",
+        "brand": null,
+        "category": "Выпрямители",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/ddUcBxg8VXOKE4dMCis6HGy0S7kuV7LYsnzNwdTk.jpg.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "35440",
+        "title": "Гарнитура игровая Logitech G733 (981-000864) BLACK",
+        "price": 44990,
+        "old_price": 89990,
+        "url": "https://evrika.com/catalog/garnitura-igrovaya-logitech-g733-981-000864-black/p35440",
+        "brand": null,
+        "category": "Наушники с микрофоном",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/GuaO80c1DR9jDHvaFiFKMJynFvpno9t3JMbbCY3r.jpg.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "42883",
+        "title": "Пылесос с контейнером Tefal Swift Power Cyclonic TW2922EA",
+        "price": 45990,
+        "old_price": 91990,
+        "url": "https://evrika.com/catalog/pylesos-tefal-tw2922ea/p42883",
+        "brand": null,
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/kQWn71e9UbLRFrJvcXnPxGk1BSc369oefGGNKDcf.jpg.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1718,89 +1743,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "642306",
-        "title": "Смарт часы HUAWEI Watch GT 6 (46mm) Grey Atum-B19L",
-        "price": 82498,
-        "old_price": 154990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-46mm-grey-atum-b19l",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2233_0_1_z0Oxp2_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 41.0,
-      "base_price": 139890,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "642307",
-        "title": "Смарт часы HUAWEI Watch GT 6 (46mm) Green Atum-B19W",
-        "price": 82511,
-        "old_price": 154990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-46mm-green-atum-b19w",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2234_0_1_bUWMFJ_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 41.0,
-      "base_price": 139890,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45508",
-        "title": "Портативный внешний аккумулятор Xiaomi 33W Power Bank 10000mAh (Integrated Cable) Tan GL PB1033MI/BHR9333GL",
-        "price": 11990,
-        "old_price": 22490,
-        "url": "https://evrika.com/catalog/portativnyy-vneshniy-akkumulyator-xiaomi-33w-power-bank-10000mah-integrated-cable-tan-gl-pb1033mi-bhr9333gl/p45508",
-        "brand": null,
-        "category": "Внешние аккумуляторы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/7gJMYQ5s3uf29jhNJmO2vvQflsW6aH5LCZQvGZKZ.jpg.webp",
-        "first_seen": "2026-10-03T20:14:33+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 46.7,
-      "base_price": 22490,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -2207,6 +2149,33 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "288306",
+        "title": "Робот пылесос Tefal S70+ RG-8497WH",
+        "price": 79990,
+        "old_price": 352990,
+        "url": "https://www.technodom.kz/p/robot-pylesos-tefal-s70-rg-8497wh-288306",
+        "brand": "Tefal",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288306_1.webp",
+        "first_seen": "2026-11-03T16:39:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": 0.0,
+      "base_price": 79990,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 77.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "256351",
         "title": "Очки виртуальной реальности Vive Flow (99HASV003-00)",
         "price": 99990,
@@ -2380,7 +2349,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
+        "first_seen": "2026-10-03T00:08:43+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -3035,7 +3004,7 @@
       "drop_pct": 58,
       "fair_discount": 18.5,
       "base_price": 53990,
-      "value_score": 47,
+      "value_score": 55,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -3063,7 +3032,7 @@
       "drop_pct": 58,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3667,6 +3636,33 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "270598",
+        "title": "Саундбар B&O Beosound Theatre 65, Gold Tone",
+        "price": 2733990,
+        "old_price": 6076990,
+        "url": "https://www.technodom.kz/p/saundbar-b-o-beosound-theatre-65-gold-tone-270598",
+        "brand": "Bang & Olufsen",
+        "category": "ТВ, аудио, фото, видео",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://api.technodom.kz/f3/api/v1/images/270598_1.webp",
+        "first_seen": "2026-11-03T16:39:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 0.0,
+      "base_price": 2733990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 55.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "251356",
         "title": "Мультиварка Moulinex Simply cook MK-622832",
         "price": 49990,
@@ -3991,6 +3987,33 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "45508",
+        "title": "Портативный внешний аккумулятор Xiaomi 33W Power Bank 10000mAh (Integrated Cable) Tan GL PB1033MI/BHR9333GL",
+        "price": 11990,
+        "old_price": 22490,
+        "url": "https://evrika.com/catalog/portativnyy-vneshniy-akkumulyator-xiaomi-33w-power-bank-10000mah-integrated-cable-tan-gl-pb1033mi-bhr9333gl/p45508",
+        "brand": null,
+        "category": "Внешние аккумуляторы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/7gJMYQ5s3uf29jhNJmO2vvQflsW6aH5LCZQvGZKZ.jpg.webp",
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 46.7,
+      "base_price": 22490,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "265475",
         "title": "Су-вид AENO ASV-0001",
@@ -4072,6 +4095,34 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "283267",
+        "title": "Робот-пылесос Dreame X40 Ultra Complete",
+        "price": 359990,
+        "old_price": 649990,
+        "url": "https://www.technodom.kz/p/robot-pylesos-dreame-x40-ultra-complete-283267",
+        "brand": "Dreame",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 45,
+        "image": "https://api.technodom.kz/f3/api/v1/images/robot_pylesos_dreame_x40_ultra_complete_283267_1.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 45,
+      "fair_discount": 44.6,
+      "base_price": 649990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -4606,6 +4657,34 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "259462",
+        "title": "Пылесос Miele SBAD3 Classic C1 синий",
+        "price": 82990,
+        "old_price": 131890,
+        "url": "https://www.technodom.kz/p/pylesos-miele-sbad3-classic-c1-sinij-259462",
+        "brand": "Miele",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://api.technodom.kz/f3/api/v1/images/259462_1.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 37.1,
+      "base_price": 131890,
+      "value_score": 86,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1685975",
         "title": "Гарнитура Lenovo Gaming H210, Black",
@@ -4892,34 +4971,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "642302",
-        "title": "Смарт часы HUAWEI Watch GT 6 Pro (46mm) Titanium Atum-B29M",
-        "price": 149617,
-        "old_price": 258990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-titanium-atum-b29m",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2229_0_1_8XzewZ_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 32.0,
-      "base_price": 219890,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "47554",
         "title": "Мышь игровая проводная HyperX Pulsefire Haste 2 Wired (6N0A7AA)",
@@ -5058,35 +5109,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652781",
-        "title": "Ноутбук ASUS Zenbook A14 90NB1502-M018P0 Qualcomm Snapdragon X Elite X126100 16 GB / SSD 512GB / Qualcomm® Adreno™ GPU / Windows 11 Home / QXE165SUW11P",
-        "price": 575990,
-        "old_price": 749990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-zenbook-a14-90nb1502-m018p0-qxe165suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9742_0_1_Ki9mVl_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 30.6,
-      "base_price": 829990,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -7.6
     },
     {
       "product": {
@@ -5335,90 +5357,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "655040",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
-        "price": 107901,
-        "old_price": 159990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 28.0,
-      "base_price": 149890,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655041",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
-        "price": 107901,
-        "old_price": 159990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 28.0,
-      "base_price": 149890,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655043",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Grey (Atum-B39L)",
-        "price": 107901,
-        "old_price": 159990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-grey-atum-b39l",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6368_0_1_TGVhZy_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 28.0,
-      "base_price": 149890,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "39817",
         "title": "Кондиционер Klima KAC-H12A4/JPR1DI B",
@@ -5503,6 +5441,87 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "655040",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
+        "price": 109890,
+        "old_price": 159990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 26.7,
+      "base_price": 149890,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655041",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
+        "price": 109890,
+        "old_price": 159990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 26.7,
+      "base_price": 149890,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655043",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Grey (Atum-B39L)",
+        "price": 109890,
+        "old_price": 159990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-grey-atum-b39l",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6368_0_1_TGVhZy_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 26.7,
+      "base_price": 149890,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "260478",
         "title": "Масляный обогреватель AVA AVH-09N",
@@ -5532,37 +5551,9 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "633170",
-        "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 117537,
-        "old_price": 248990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1663_0_1_o3RAVa_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 26.5,
-      "base_price": 159890,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "632684",
         "title": "Холодильник Midea MDRF705BIE70",
-        "price": 625690,
+        "price": 625609,
         "old_price": 999990,
         "url": "https://www.sulpak.kz/g/holodilniki-midea-mdrf705bie70",
         "brand": "Midea",
@@ -5610,33 +5601,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655045",
-        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Grey Konsu-B39L",
-        "price": 103401,
-        "old_price": 149990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-grey-konsu-b39l",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6370_0_6_q4nXpd_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 26.1,
-      "base_price": 139890,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.9
     },
     {
       "product": {
@@ -5722,62 +5686,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "642310",
-        "title": "Смарт часы HUAWEI Watch GT 6 (41mm) Purple Konsu-B19FC",
-        "price": 78504,
-        "old_price": 154990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-huawei-watch-gt-6-41mm-purple-konsu-b19fc",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2237_0_1_GsmnI1_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 25.7,
-      "base_price": 105700,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "653010",
-        "title": "Ноутбук Asus ExpertBook P1 i5-210H 16GB / SSD 512GB / Intel Graphics / Win 11 / 90NX0871-M02JA0",
-        "price": 482990,
-        "old_price": 548990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-expertbook-p1-p1403cva-s61899w-90nx0871-m02ja0-i5165suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9768_0_6_LC1nOZ_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 25.7,
-      "base_price": 649990,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -13.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "655639",
         "title": "Ноутбук Lenovo IdeaPad Slim 3 15IRH10 Intel Core i5 13420H 8GB / SSD 512GB / Intel UHD Graphics / Win 11 Home / 83K101M2RK / I585SUW11H",
         "price": 339990,
@@ -5807,58 +5715,30 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "653011",
-        "title": "Ноутбук Asus ExpertBook P5 Ultra 7-355 16GB / SSD 512GB / Intel Graphics / Win 11 / 90NX0A91-M00LH0",
-        "price": 627990,
-        "old_price": 713990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-expertbook-p5-p5405caa-ly0500w-90nx0a91-m00lh0-u7165suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9769_0_6_k2E3XH_160.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 25.2,
-      "base_price": 839990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -13.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "642303",
-        "title": "Смарт-часы HUAWEI Watch GT 6 Pro (46mm) Brown Atum-B29W",
-        "price": 116077,
-        "old_price": 206990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-brown-atum-b29w",
+        "sku": "642302",
+        "title": "Смарт часы HUAWEI Watch GT 6 Pro (46mm) Titanium Atum-B29M",
+        "price": 149617,
+        "old_price": 258990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-titanium-atum-b29m",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2230_0_1_3uWxn8_160.webp",
+        "discount_pct": 42,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2229_0_1_8XzewZ_160.webp",
         "first_seen": "2026-10-02T19:40:40+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 25.1,
-      "base_price": 154890,
+      "drop_pct": 42,
+      "fair_discount": 25.2,
+      "base_price": 199890,
       "value_score": 73,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 18.9
+      "inflated_gap": 16.8
     },
     {
       "product": {
@@ -5940,6 +5820,34 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642306",
+        "title": "Смарт часы HUAWEI Watch GT 6 (46mm) Grey Atum-B19L",
+        "price": 82498,
+        "old_price": 154990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-46mm-grey-atum-b19l",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2233_0_1_z0Oxp2_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 24.5,
+      "base_price": 109251,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 22.5
     },
     {
       "product": {
@@ -6154,7 +6062,7 @@
       "signal": "drop",
       "drop_pct": 23,
       "fair_discount": 23.3,
-      "base_price": 1389660,
+      "base_price": 1389647,
       "value_score": 64,
       "is_pick": false,
       "badges": [
@@ -6219,6 +6127,33 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650281",
+        "title": "Ноутбук Acer Gadget ЕT APN21S Ryzen 5 3500U 8 GB / SSD 256GB / AMD Radeon Graphics / NO OS / ZL.OTH11.03U",
+        "price": 199990,
+        "old_price": 259990,
+        "url": "https://www.sulpak.kz/g/noutbuki-acer-gadget-e10-r582sun",
+        "brand": "Acer Gadget",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9434_0_1_3Ri5JN_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 259990,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "101400",
         "title": "Масляный обогреватель c вентилятором AVA AVHF-11",
@@ -6274,6 +6209,61 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650041",
+        "title": "Планшеты HUAWEI MatePad 11,5&quot;S (PaperMatte inbox keyboard) 12 / 256 GB Space Gray Salinger-W29FK",
+        "price": 215901,
+        "old_price": 279890,
+        "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-115s-papermatte-inbox-keyboard-12-256-gb-space-gray-salinger-w29fk",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1818_0_1_Q50Ka9_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 22.9,
+      "base_price": 279890,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642303",
+        "title": "Смарт-часы HUAWEI Watch GT 6 Pro (46mm) Brown Atum-B29W",
+        "price": 116077,
+        "old_price": 206990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-6-pro-46mm-brown-atum-b29w",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2230_0_1_3uWxn8_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 22.6,
+      "base_price": 149990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.4
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1709354",
         "title": "Bluetooth гарнитура HyperX Cloud Jet Dual Wireless, Black",
@@ -6299,6 +6289,87 @@
         "Рисованная?"
       ],
       "inflated_gap": 15.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655037",
+        "title": "Смарт Часы Huawei WATCH GT 7 Pro Black Atum-B49F",
+        "price": 139401,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-pro-black-atum-b49f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6362_0_1_eEmeUh_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 22.5,
+      "base_price": 179890,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649835",
+        "title": "TWS Наушники HUAWEI FreeClip2 Rose Gold Robin-T11",
+        "price": 69681,
+        "old_price": 99990,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freeclip2-rose-gold-robin-t11",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3626_0_1_8hXPX0_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 22.5,
+      "base_price": 89890,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654692",
+        "title": "Робот-пылесос Trouver S70 Ultra Roller",
+        "price": 465972,
+        "old_price": 599990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-trouver-s70-ultra-roller",
+        "brand": "Trouver",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_289_0_6_Sgaj6n_160.webp",
+        "first_seen": "2026-10-02T19:40:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 22,
+      "fair_discount": 22.3,
+      "base_price": 599760,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -7364,31 +7435,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "285996",
-        "title": "Стиральная машина Toshiba TW-BN90C4UZ(WK)",
-        "price": 194990,
-        "old_price": 249990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-toshiba-tw-bn90cf4uzsk-285996",
-        "brand": "Toshiba",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://api.technodom.kz/f3/api/v1/images/285996_1d.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 11.4,
-      "base_price": 219990,
-      "value_score": 44,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 10.6
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1725935",
         "title": "Компьютер офисный WW-KZ (Intel Core i5-12400, 500 GB SSD, 16 GB)",
@@ -7492,58 +7538,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 17.9
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "285995",
-        "title": "Стиральная машина Toshiba TW-BN90C4UZ(SK)",
-        "price": 199990,
-        "old_price": 259990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-toshiba-tw-bn90cf4uzwk-285995",
-        "brand": "Toshiba",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://api.technodom.kz/f3/api/v1/images/285995_1a.webp",
-        "first_seen": "2026-10-02T19:40:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 11.1,
-      "base_price": 224990,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 11.9
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45071",
-        "title": "Apple Watch Series 11 GPS 46mm Jet Black Aluminium Case with Black Sport Band - M/L",
-        "price": 210990,
-        "old_price": 326990,
-        "url": "https://evrika.com/catalog/smart-chasy-apple-watch-series-11-gps-46mm-jet-black-aluminium-case-with-black-sport-band-m-l/p45071",
-        "brand": null,
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/d3kWPvYu3FDbRlGyI1bo4s2HQO50D3jrBnxvvbAP.jpg.webp",
-        "first_seen": "2026-10-03T20:14:33+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 9.8,
-      "base_price": 233990,
-      "value_score": 34,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.2
     },
     {
       "product": {
@@ -7717,41 +7711,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-06T16:30:28+00:00",
-      "item_count": 2726,
+      "last_crawl": "2026-11-06T21:53:16+00:00",
+      "item_count": 2740,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-06T16:30:28+00:00",
-      "item_count": 12403,
+      "last_crawl": "2026-11-06T21:53:16+00:00",
+      "item_count": 12237,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-06T16:30:28+00:00",
-      "item_count": 3825,
+      "last_crawl": "2026-11-06T21:53:16+00:00",
+      "item_count": 3740,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-06T16:30:28+00:00",
-      "item_count": 9995,
+      "last_crawl": "2026-11-06T21:53:16+00:00",
+      "item_count": 9990,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-06T16:30:28+00:00",
+      "last_crawl": "2026-11-06T21:53:16+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29193,
+    "total_products": 28951,
     "total_deals": 288,
     "avg_discount": 47.0
   }
