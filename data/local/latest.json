@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T09:22:59.666350+00:00",
+  "updated_at": "2026-11-06T11:23:03.204436+00:00",
   "deals": [
     {
       "product": {
@@ -222,6 +222,58 @@
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/1fd1538c-1ca9-11ef-a265-005056b6e990?w=400",
         "first_seen": "2026-10-09T07:21:03+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000007171",
+        "title": "Очиститель воздуха TEFAL QF5030F0 (2в1)",
+        "price": 81990,
+        "old_price": 218990,
+        "url": "https://www.mechta.kz/product/ochistitel-vozduha-tefal-qf5030f0-2v1/",
+        "brand": "Tefal",
+        "category": "Очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200020145",
+        "title": "Чехол для телефона APPLE iPhone 17 Pro Max Clear Case with MagSafe (MGFW4ZM/A)",
+        "price": 14990,
+        "old_price": 39990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-pro-max-clear-case-with-magsafe-mgfw4zma/",
+        "brand": "Apple",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/ce8d199c-4e9b-4651-ada3-3fe220bf58d3?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1088,61 +1140,6 @@
       "value_score": 35,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000007171",
-        "title": "Очиститель воздуха TEFAL QF5030F0 (2в1)",
-        "price": 81990,
-        "old_price": 218990,
-        "url": "https://www.mechta.kz/product/ochistitel-vozduha-tefal-qf5030f0-2v1/",
-        "brand": "Tefal",
-        "category": "Очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 81990,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020145",
-        "title": "Чехол для телефона APPLE iPhone 17 Pro Max Clear Case with MagSafe (MGFW4ZM/A)",
-        "price": 14990,
-        "old_price": 39990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-pro-max-clear-case-with-magsafe-mgfw4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/ce8d199c-4e9b-4651-ada3-3fe220bf58d3?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 63.0
@@ -2161,8 +2158,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-06T09:22:48+00:00",
-      "item_count": 7960,
+      "last_crawl": "2026-11-06T11:22:51+00:00",
+      "item_count": 8011,
       "status": "ok"
     },
     {
@@ -2202,7 +2199,7 @@
     }
   ],
   "stats": {
-    "total_products": 7960,
+    "total_products": 8011,
     "total_deals": 78,
     "avg_discount": 63.0
   }
