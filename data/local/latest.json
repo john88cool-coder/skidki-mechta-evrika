@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:55:46.221989+00:00",
+  "updated_at": "2026-11-06T07:23:22.230648+00:00",
   "deals": [
     {
       "product": {
@@ -15,7 +15,7 @@
         "in_stock": true,
         "discount_pct": 83,
         "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 83,
@@ -40,63 +40,13 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011551",
-        "title": "Вертикальный пылесос WADE SV-05 (черный)",
-        "price": 19990,
-        "old_price": 87990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-chernyy/",
-        "brand": "WADE",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 17,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011550",
-        "title": "Вертикальный пылесос WADE SV-05 (белый)",
-        "price": 19990,
-        "old_price": 87990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-belyy/",
-        "brand": "WADE",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14e00-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 17,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -140,7 +90,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/31d50c4b-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -167,7 +117,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T07:21:13+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -192,7 +142,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -246,7 +196,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/16e65383-9dd4-4748-b981-a5cf1827a046?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -298,7 +248,7 @@
         "in_stock": true,
         "discount_pct": 84,
         "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 84,
@@ -326,7 +276,7 @@
         "in_stock": true,
         "discount_pct": 80,
         "image": "https://pi.mdev.kz/80c27b5a-5ded-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 80,
@@ -353,7 +303,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -380,7 +330,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/94c5c00a-ae78-4ce0-8d48-a9578339996e?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -396,6 +346,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011551",
+        "title": "Вертикальный пылесос WADE SV-05 (черный)",
+        "price": 19990,
+        "old_price": 87990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-chernyy/",
+        "brand": "WADE",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "value_score": 17,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 77.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "12000031385",
         "title": "Мороженница BORK E801",
         "price": 79990,
@@ -407,7 +384,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -435,7 +412,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/96fa9660-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -462,7 +439,7 @@
         "in_stock": true,
         "discount_pct": 75,
         "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 75,
@@ -521,7 +498,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/1fd153aa-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -550,7 +527,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -578,7 +555,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -605,7 +582,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400",
-        "first_seen": "2026-10-02T07:21:13+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -632,7 +609,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/be52c93f-0e9e-43cd-b7a1-b756b3259f53?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -659,7 +636,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/8b385d5f-6653-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -686,7 +663,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/1e3da8e4-1437-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -715,7 +692,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -742,7 +719,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -770,7 +747,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/c65cb8ee-c4ad-11ed-a259-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -797,7 +774,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/d0d74550-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -826,7 +803,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/eefa73f4-5f59-4981-a48c-2e1cc20b92ee?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -853,7 +830,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -880,7 +857,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/035573b4-9069-11ea-a22d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -908,7 +885,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/2ece0704-35e4-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -936,7 +913,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/04c4afff-ca0e-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -963,7 +940,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5aca6820-c9cb-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -990,7 +967,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/44d73884-628b-41f6-9996-23a24d286ff3?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1017,7 +994,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1044,7 +1021,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/e5b88f95-8cd1-4aa5-9633-52cc804ef644?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1071,7 +1048,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1098,7 +1075,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/ce8d199c-4e9b-4651-ada3-3fe220bf58d3?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1126,7 +1103,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/9b377cc4-0fe4-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1153,7 +1130,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1182,7 +1159,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1209,7 +1186,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1236,7 +1213,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1263,7 +1240,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/1e3da8e6-1437-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1292,7 +1269,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1319,7 +1296,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -1347,13 +1324,40 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
       "fair_discount": 0.0,
       "base_price": 29990,
       "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016027",
+        "title": "Аэрогриль MIDEA MF-CY80SA2",
+        "price": 54990,
+        "old_price": 139990,
+        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy80sa2/",
+        "brand": "Midea",
+        "category": "Аэрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 54990,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1374,7 +1378,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://pi.mdev.kz/0b78e865-311c-4eab-a6d7-a8794b5fa0d4?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 57,
@@ -1402,7 +1406,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://pi.mdev.kz/c0653298-dedf-4404-9c91-f56213b0da00?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -1431,7 +1435,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 60,
@@ -1447,6 +1451,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011617",
+        "title": "Су-вид Aeno ASV0001",
+        "price": 29990,
+        "old_price": 58990,
+        "url": "https://www.mechta.kz/product/su-vid-aeno-asv0001/",
+        "brand": "Aeno",
+        "category": "Су-вид аппараты",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/3bd93898-0b67-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 45.5,
+      "base_price": 54990,
+      "value_score": 86,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 3.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200004723",
         "title": "Стиральная машина GRUNDIG GW 5P56H21 A",
         "price": 109990,
@@ -1458,7 +1490,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/b6d8f360-f2fa-4d0a-9915-3c05f772d228?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1485,7 +1517,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://pi.mdev.kz/aabcad58-6ac5-4ab7-82ec-ba41415444ea?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -1513,7 +1545,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://pi.mdev.kz/20d61ad6-7f75-469f-abe2-f627933f112b?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -1541,7 +1573,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://pi.mdev.kz/2b291058-9e3a-4d0e-95e1-1c9518b4ca58?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -1569,7 +1601,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://pi.mdev.kz/07b01b90-b83b-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 57,
@@ -1598,7 +1630,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://pi.mdev.kz/58f4209b-2e1b-4b9d-86f0-013daa342544?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -1626,7 +1658,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://pi.mdev.kz/7773b21d-1313-45dc-b5ad-603298c3fbcb?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -1655,7 +1687,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://pi.mdev.kz/fa381883-a700-4565-ba2f-f03d1268265b?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 53,
@@ -1683,7 +1715,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/873ad8e2-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1712,7 +1744,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -1740,7 +1772,7 @@
         "in_stock": true,
         "discount_pct": 52,
         "image": "https://pi.mdev.kz/dbfe166b-3870-4087-9495-d3972faf6b48?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 52,
@@ -1768,7 +1800,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://pi.mdev.kz/f5c902c1-5c77-441a-9fab-c21470db2b13?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 57,
@@ -1797,7 +1829,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://pi.mdev.kz/8bb01394-5df0-48e5-933a-8c092b26fd22?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -1825,7 +1857,7 @@
         "in_stock": true,
         "discount_pct": 49,
         "image": "https://pi.mdev.kz/185c1af7-3850-48fe-b874-464ab90202ed?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 49,
@@ -1853,7 +1885,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://pi.mdev.kz/d0d74562-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
@@ -1882,7 +1914,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://pi.mdev.kz/1e7d5fac-d546-4fd4-b5f7-c557a70643c3?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 47,
@@ -1910,7 +1942,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://pi.mdev.kz/0eca3536-bc2c-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -1938,7 +1970,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://pi.mdev.kz/07b01b8a-b83b-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -1966,7 +1998,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://pi.mdev.kz/07b01b96-b83b-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -1994,7 +2026,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://pi.mdev.kz/45354d9d-b941-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -2022,7 +2054,7 @@
         "in_stock": true,
         "discount_pct": 42,
         "image": "https://pi.mdev.kz/5f607940-aba5-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 42,
@@ -2050,7 +2082,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://pi.mdev.kz/22de2e42-db70-4476-bd05-fb55205d93c6?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -2078,7 +2110,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://pi.mdev.kz/61d896d4-1403-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 55,
@@ -2107,7 +2139,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://pi.mdev.kz/d5af179a-e495-4ef8-914b-f64b01719dd1?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 59,
@@ -2136,7 +2168,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://pi.mdev.kz/1fd153af-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
@@ -2165,7 +2197,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -2192,7 +2224,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -2219,7 +2251,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://pi.mdev.kz/9d2c1358-1727-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -2247,7 +2279,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://pi.mdev.kz/5b817044-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T04:29:48+00:00"
+        "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -2266,8 +2298,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-06T05:55:37+00:00",
-      "item_count": 7941,
+      "last_crawl": "2026-11-06T07:22:49+00:00",
+      "item_count": 7958,
       "status": "ok"
     },
     {
@@ -2307,8 +2339,8 @@
     }
   ],
   "stats": {
-    "total_products": 7941,
-    "total_deals": 82,
-    "avg_discount": 62.5
+    "total_products": 7958,
+    "total_deals": 83,
+    "avg_discount": 62
   }
 }
