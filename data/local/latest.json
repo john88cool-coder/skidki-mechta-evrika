@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T11:23:03.204436+00:00",
+  "updated_at": "2026-11-06T13:22:09.751245+00:00",
   "deals": [
     {
       "product": {
@@ -626,6 +626,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200000770",
+        "title": "Вертикальный пылесос Tefal X-Force Flex 15.60 Pro TY99F1WO",
+        "price": 159990,
+        "old_price": 524990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-force-flex-15dot60-pro-ty99f1wo/",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/24fab8b6-6e78-468c-b036-c16a1a38d280?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 27.3,
+      "base_price": 219990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200008340",
         "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
         "price": 29990,
@@ -814,34 +842,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 66.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200000770",
-        "title": "Вертикальный пылесос Tefal X-Force Flex 15.60 Pro TY99F1WO",
-        "price": 179890,
-        "old_price": 524990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-force-flex-15dot60-pro-ty99f1wo/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://pi.mdev.kz/24fab8b6-6e78-468c-b036-c16a1a38d280?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": 18.2,
-      "base_price": 219990,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.8
     },
     {
       "product": {
@@ -1591,30 +1591,118 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200023131",
-        "title": "Пылесос DREAME DF 10",
-        "price": 29990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/pylesos-dreame-df-10/",
-        "brand": "Dreame",
-        "category": "Моющие пылесосы",
+        "sku": "17200009275",
+        "title": "Вертикальный пылесос Samsung JET 75B Pro (VS20B75ADR5/EV)",
+        "price": 159990,
+        "old_price": 269990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-75b-pro-vs20b75adr5ev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
         "group": "home",
         "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/58f4209b-2e1b-4b9d-86f0-013daa342544?w=400",
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/083bb64e-9a34-11ee-a264-005056b6dbd7?w=400",
         "first_seen": "2026-10-02T15:21:32+00:00"
       },
       "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 49990,
-      "value_score": 82,
+      "drop_pct": 41,
+      "fair_discount": 40.7,
+      "base_price": 269990,
+      "value_score": 99,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка"
+        "Честная скидка",
+        "Топ-Бренд"
       ],
-      "inflated_gap": 0.0
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006249",
+        "title": "Вертикальный пылесос Samsung JET 60 Turbo (VS15A6031R5/EV)",
+        "price": 109990,
+        "old_price": 184990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-60-turbo-vs15a6031r5ev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/4ba071d3-e5f2-11eb-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 40.5,
+      "base_price": 184990,
+      "value_score": 98,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006250",
+        "title": "Вертикальный пылесос Samsung JET 60 Turbo (VS15A6031R4/EV)",
+        "price": 109990,
+        "old_price": 184990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-60-turbo-vs15a6031r4ev/",
+        "brand": "Samsung",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/dec6d1bf-0572-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 40.5,
+      "base_price": 184990,
+      "value_score": 98,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200007310",
+        "title": "Стиральная машина Samsung WW 80AG6S28AXLD",
+        "price": 199990,
+        "old_price": 329990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-samsung-ww-80ag6s28axld/",
+        "brand": "Samsung",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/ba788c9b-be1d-410b-952f-67855aefd358?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 39.4,
+      "base_price": 329990,
+      "value_score": 92,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -2046,60 +2134,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012212",
-        "title": "Фен DREAME Pocket Space Gray",
-        "price": 39990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-space-gray/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/45a69229-9875-4fef-8d44-6e3408b10dc4?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 11.1,
-      "base_price": 44990,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012213",
-        "title": "Фен DREAME Pocket Titanium Gold",
-        "price": 39990,
-        "old_price": 64990,
-        "url": "https://www.mechta.kz/product/fen-dreame-pocket-titanium-gold/",
-        "brand": "Dreame",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/4b226931-60be-46f7-ae56-dcb0711a30a3?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 11.1,
-      "base_price": 44990,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 26.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200009465",
         "title": "Телевизор LED Samsung UE32T4500AUXCE",
         "price": 84990,
@@ -2158,8 +2192,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-06T11:22:51+00:00",
-      "item_count": 8011,
+      "last_crawl": "2026-11-06T13:21:56+00:00",
+      "item_count": 8008,
       "status": "ok"
     },
     {
@@ -2199,8 +2233,8 @@
     }
   ],
   "stats": {
-    "total_products": 8011,
-    "total_deals": 78,
-    "avg_discount": 63.0
+    "total_products": 8008,
+    "total_deals": 79,
+    "avg_discount": 63
   }
 }
