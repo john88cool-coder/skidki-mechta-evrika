@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T07:21:28.098005+00:00",
+  "updated_at": "2026-11-07T09:21:39.712085+00:00",
   "deals": [
     {
       "product": {
@@ -126,33 +126,6 @@
       "value_score": 21,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011457",
-        "title": "Телевизор Samsung OLED QE77S95DAUXCE",
-        "price": 799990,
-        "old_price": 2619990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s95dauxce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 69,
-        "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-03T09:20:44+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 69,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
       "inflated_gap": null
     },
     {
@@ -554,17 +527,15 @@
       },
       "signal": "deal",
       "drop_pct": 73,
-      "fair_discount": 32.8,
-      "base_price": 7999990,
-      "value_score": 84,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 5373290,
+      "value_score": 39,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 40.2
+      "inflated_gap": 73.0
     },
     {
       "product": {
@@ -1368,6 +1339,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200013428",
+        "title": "Вертикальный пылесос Kitfort KT-594",
+        "price": 29990,
+        "old_price": 76490,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-kitfort-kt-594/",
+        "brand": "Kitfort",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 29990,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200019317",
         "title": "Парогенератор COOLFORT CF-3420 белый/серый",
         "price": 29990,
@@ -1587,6 +1585,35 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012450",
+        "title": "Планшет APPLE 13-inch iPad Pro WiFi 256GB with Standard glass - Space Black (MVX23QA/A)",
+        "price": 499990,
+        "old_price": 964990,
+        "url": "https://www.mechta.kz/product/planshet-apple-13-inch-ipad-pro-wifi-256gb-with-standard-glass---space-black-mvx23qaa/",
+        "brand": "Apple",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/42f06a17-1d22-49a3-b7f2-53df92096457?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 41.2,
+      "base_price": 849990,
+      "value_score": 93,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 6.8
     },
     {
       "product": {
@@ -2116,7 +2143,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://pi.mdev.kz/1fd153af-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
+        "first_seen": "2026-10-05T04:47:42+00:00"
       },
       "signal": "drop",
       "drop_pct": 56,
@@ -2192,8 +2219,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-07T07:21:20+00:00",
-      "item_count": 7994,
+      "last_crawl": "2026-11-07T09:21:32+00:00",
+      "item_count": 7989,
       "status": "ok"
     },
     {
@@ -2233,8 +2260,8 @@
     }
   ],
   "stats": {
-    "total_products": 7994,
-    "total_deals": 79,
-    "avg_discount": 63
+    "total_products": 7989,
+    "total_deals": 80,
+    "avg_discount": 63.0
   }
 }
