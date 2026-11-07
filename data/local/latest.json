@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T11:21:31.997974+00:00",
+  "updated_at": "2026-11-07T13:21:16.352652+00:00",
   "deals": [
     {
       "product": {
@@ -499,7 +499,7 @@
       "signal": "deal",
       "drop_pct": 75,
       "fair_discount": 0.0,
-      "base_price": 1299990,
+      "base_price": 999990,
       "value_score": 39,
       "is_pick": false,
       "badges": [
@@ -526,16 +526,15 @@
       },
       "signal": "deal",
       "drop_pct": 75,
-      "fair_discount": 23.1,
-      "base_price": 1299990,
-      "value_score": 68,
+      "fair_discount": 0.0,
+      "base_price": 999990,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 51.9
+      "inflated_gap": 75.0
     },
     {
       "product": {
@@ -776,16 +775,15 @@
       },
       "signal": "deal",
       "drop_pct": 67,
-      "fair_discount": 16.7,
-      "base_price": 239990,
-      "value_score": 56,
+      "fair_discount": 0.0,
+      "base_price": 199990,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 50.3
+      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -859,16 +857,15 @@
       },
       "signal": "deal",
       "drop_pct": 65,
-      "fair_discount": 22.2,
-      "base_price": 899990,
-      "value_score": 66,
+      "fair_discount": 0.0,
+      "base_price": 699990,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 42.8
+      "inflated_gap": 65.0
     },
     {
       "product": {
@@ -1270,16 +1267,15 @@
       },
       "signal": "deal",
       "drop_pct": 62,
-      "fair_discount": 25.0,
-      "base_price": 399990,
-      "value_score": 71,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 37.0
+      "inflated_gap": 62.0
     },
     {
       "product": {
@@ -1847,35 +1843,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011818",
-        "title": "Телевизор Samsung OLED QE55S95DAUXCE",
-        "price": 549990,
-        "old_price": 1299990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe55s95dauxce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/873ad8e2-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 58,
-      "fair_discount": 26.7,
-      "base_price": 749990,
-      "value_score": 74,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020933",
         "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
         "price": 79990,
@@ -1932,35 +1899,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018120",
-        "title": "Телевизор Samsung OLED QE77S85FAEXCE",
-        "price": 999990,
-        "old_price": 2299990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s85faexce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://pi.mdev.kz/f5c902c1-5c77-441a-9fab-c21470db2b13?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 57,
-      "fair_discount": 25.9,
-      "base_price": 1349990,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17000000948",
         "title": "Мультиварка MOULINEX MK 622832",
         "price": 49990,
@@ -2013,35 +1951,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011437",
-        "title": "Телевизор Samsung QLED QE43QN90DAUXCE UHD SMART",
-        "price": 299990,
-        "old_price": 674990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe43qn90dauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/d0d74562-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 25.0,
-      "base_price": 399990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
     },
     {
       "product": {
@@ -2126,157 +2035,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 24.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011817",
-        "title": "Телевизор Samsung OLED QE55S90DAUXCE",
-        "price": 449990,
-        "old_price": 989990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe55s90dauxce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/61d896d4-1403-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 18.2,
-      "base_price": 549990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 36.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020571",
-        "title": "Телевизор Samsung QLED QE65Q8FAAUXKZ UHD SMART (KZ)",
-        "price": 329990,
-        "old_price": 799990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q8faauxkz-uhd-smart-kz/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://pi.mdev.kz/d5af179a-e495-4ef8-914b-f64b01719dd1?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 59,
-      "fair_discount": 17.5,
-      "base_price": 399990,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 41.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011828",
-        "title": "Телевизор Samsung QLED QE65QN85DBUXCE UHD SMART",
-        "price": 545990,
-        "old_price": 1249990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn85dbuxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/1fd153af-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 15.5,
-      "base_price": 645990,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 40.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200009465",
-        "title": "Телевизор LED Samsung UE32T4500AUXCE",
-        "price": 84990,
-        "old_price": 139990,
-        "url": "https://www.mechta.kz/product/televizor-led-samsung-ue32t4500auxce/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/9d2c1358-1727-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 10.5,
-      "base_price": 94990,
-      "value_score": 47,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003078",
-        "title": "Телевизор LED Samsung UE32T5300AUXCE FullHD SMART",
-        "price": 89990,
-        "old_price": 149990,
-        "url": "https://www.mechta.kz/product/televizor-led-samsung-ue32t5300auxce-fullhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/5b817044-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 10.0,
-      "base_price": 99990,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-07T11:21:21+00:00",
-      "item_count": 8003,
+      "last_crawl": "2026-11-07T13:21:06+00:00",
+      "item_count": 7989,
       "status": "ok"
     },
     {
@@ -2316,8 +2082,8 @@
     }
   ],
   "stats": {
-    "total_products": 8003,
-    "total_deals": 82,
-    "avg_discount": 62.5
+    "total_products": 7989,
+    "total_deals": 74,
+    "avg_discount": 63.0
   }
 }
