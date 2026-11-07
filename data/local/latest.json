@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T13:21:16.352652+00:00",
+  "updated_at": "2026-11-07T15:21:11.356223+00:00",
   "deals": [
     {
       "product": {
@@ -307,10 +307,9 @@
       "drop_pct": 82,
       "fair_discount": 33.0,
       "base_price": 999990,
-      "value_score": 80,
-      "is_pick": true,
+      "value_score": 76,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
@@ -1843,34 +1842,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020933",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
-        "price": 79990,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-seryy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 26.7,
-      "base_price": 109190,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200020929",
         "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет зеленый, (ATM-B19)",
         "price": 73990,
@@ -1983,6 +1954,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200020933",
+        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
+        "price": 79990,
+        "old_price": 154990,
+        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-seryy-atm-b19/",
+        "brand": "Huawei",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 20.0,
+      "base_price": 99990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200015075",
         "title": "Вертикальный пылесос DREAME R20 Aqua",
         "price": 159990,
@@ -2041,8 +2040,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-07T13:21:06+00:00",
-      "item_count": 7989,
+      "last_crawl": "2026-11-07T15:21:04+00:00",
+      "item_count": 7985,
       "status": "ok"
     },
     {
@@ -2082,7 +2081,7 @@
     }
   ],
   "stats": {
-    "total_products": 7989,
+    "total_products": 7985,
     "total_deals": 74,
     "avg_discount": 63.0
   }
