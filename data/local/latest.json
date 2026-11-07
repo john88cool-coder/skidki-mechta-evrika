@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:21:39.712085+00:00",
+  "updated_at": "2026-11-07T11:21:31.997974+00:00",
   "deals": [
     {
       "product": {
@@ -483,6 +483,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011819",
+        "title": "Телевизор Samsung QLED QE65QN900DUXCE 8K SMART",
+        "price": 729990,
+        "old_price": 2949990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn900duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 75,
+        "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 75,
+      "fair_discount": 0.0,
+      "base_price": 1299990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 75.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011831",
         "title": "Телевизор Samsung QLED QE75QN900DUXCE 8K SMART",
         "price": 999990,
@@ -785,34 +813,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 67.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011819",
-        "title": "Телевизор Samsung QLED QE65QN900DUXCE 8K SMART",
-        "price": 999990,
-        "old_price": 2949990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn900duxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": 0.0,
-      "base_price": 1299990,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 66.0
     },
     {
       "product": {
@@ -1522,7 +1522,7 @@
       "drop_pct": 44,
       "fair_discount": 44.0,
       "base_price": 49990,
-      "value_score": 90,
+      "value_score": 84,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1730,6 +1730,62 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025139",
+        "title": "Наушники HUAWEI FreeClip 2 S (Space Silver)(Robin-T02)(55039243)",
+        "price": 62890,
+        "old_price": 119990,
+        "url": "https://www.mechta.kz/product/naushniki-huawei-freeclip-2-s-space-silverrobin-t0255039243/",
+        "brand": "Huawei",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/7de44670-3a23-4400-af0a-52321b450236?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 37.0,
+      "base_price": 99890,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025142",
+        "title": "Наушники HUAWEI FreeClip 2 S (Deepsea Blue)(Robin-T02)(55039240)",
+        "price": 62890,
+        "old_price": 119990,
+        "url": "https://www.mechta.kz/product/naushniki-huawei-freeclip-2-s-deepsea-bluerobin-t0255039240/",
+        "brand": "Huawei",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/9be91ddd-4d95-4f5b-ba81-47190dc779b0?w=400",
+        "first_seen": "2026-10-02T15:21:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 37.0,
+      "base_price": 99890,
+      "value_score": 91,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
     },
     {
       "product": {
@@ -2007,7 +2063,7 @@
       "drop_pct": 47,
       "fair_discount": 24.9,
       "base_price": 109890,
-      "value_score": 73,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2219,8 +2275,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-07T09:21:32+00:00",
-      "item_count": 7989,
+      "last_crawl": "2026-11-07T11:21:21+00:00",
+      "item_count": 8003,
       "status": "ok"
     },
     {
@@ -2260,8 +2316,8 @@
     }
   ],
   "stats": {
-    "total_products": 7989,
-    "total_deals": 80,
-    "avg_discount": 63.0
+    "total_products": 8003,
+    "total_deals": 82,
+    "avg_discount": 62.5
   }
 }
