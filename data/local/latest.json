@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T06:27:16.305174+00:00",
+  "updated_at": "2026-11-07T07:21:28.098005+00:00",
   "deals": [
     {
       "product": {
@@ -142,7 +142,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/873ad8ec-133a-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-02T15:21:32+00:00"
+        "first_seen": "2026-10-03T09:20:44+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -698,7 +698,7 @@
       "drop_pct": 67,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 24,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -752,7 +752,7 @@
       "drop_pct": 67,
       "fair_discount": 0.0,
       "base_price": 99990,
-      "value_score": 24,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -919,7 +919,7 @@
       "drop_pct": 65,
       "fair_discount": 0.0,
       "base_price": 54990,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1220,7 +1220,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 259990,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1330,7 +1330,7 @@
       "drop_pct": 61,
       "fair_discount": 0.0,
       "base_price": 199990,
-      "value_score": 20,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1469,7 +1469,7 @@
       "drop_pct": 49,
       "fair_discount": 45.5,
       "base_price": 54990,
-      "value_score": 82,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1753,7 +1753,7 @@
       "drop_pct": 53,
       "fair_discount": 27.3,
       "base_price": 21990,
-      "value_score": 67,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -1895,7 +1895,7 @@
       "drop_pct": 55,
       "fair_discount": 25.4,
       "base_price": 66990,
-      "value_score": 63,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2036,7 +2036,7 @@
       "drop_pct": 43,
       "fair_discount": 18.8,
       "base_price": 15990,
-      "value_score": 51,
+      "value_score": 56,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -2192,9 +2192,9 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-06T15:21:11+00:00",
-      "item_count": 8001,
-      "status": "warning"
+      "last_crawl": "2026-11-07T07:21:20+00:00",
+      "item_count": 7994,
+      "status": "ok"
     },
     {
       "name": "evrika",
@@ -2233,7 +2233,7 @@
     }
   ],
   "stats": {
-    "total_products": 8001,
+    "total_products": 7994,
     "total_deals": 79,
     "avg_discount": 63
   }
