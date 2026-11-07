@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T16:50:23.413163+00:00",
+  "updated_at": "2026-11-07T22:17:17.453353+00:00",
   "deals": [
     {
       "product": {
@@ -2263,7 +2263,7 @@
         "in_stock": true,
         "discount_pct": 72,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_200_0_6_8sI8g6_160.webp",
-        "first_seen": "2026-10-03T12:02:03+00:00"
+        "first_seen": "2026-10-04T01:08:39+00:00"
       },
       "signal": "deal",
       "drop_pct": 72,
@@ -3053,7 +3053,7 @@
       "drop_pct": 59,
       "fair_discount": 0.0,
       "base_price": 953990,
-      "value_score": 23,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3700,7 +3700,7 @@
       "signal": "deal",
       "drop_pct": 55,
       "fair_discount": 0.0,
-      "base_price": 117538,
+      "base_price": 117537,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -4765,46 +4765,18 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "655040",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
+        "sku": "655043",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Grey (Atum-B39L)",
         "price": 98901,
         "old_price": 159990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-grey-atum-b39l",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": 38,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
-        "first_seen": "2026-10-03T20:14:33+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 34.0,
-      "base_price": 149890,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655041",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
-        "price": 98901,
-        "old_price": 159990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
-        "first_seen": "2026-10-03T12:02:03+00:00"
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6368_0_1_TGVhZy_160.webp",
+        "first_seen": "2026-10-03T16:40:48+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -5096,7 +5068,7 @@
       "drop_pct": 29,
       "fair_discount": 31.7,
       "base_price": 731990,
-      "value_score": 84,
+      "value_score": 88,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -5413,45 +5385,17 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "655045",
-        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Grey Konsu-B39L",
+        "sku": "655044",
+        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Pink Konsu-B39F",
         "price": 98901,
         "old_price": 149990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-grey-konsu-b39l",
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-pink-konsu-b39f",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": 34,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6370_0_6_q4nXpd_160.webp",
-        "first_seen": "2026-10-03T12:02:03+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 29.3,
-      "base_price": 139890,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655046",
-        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Blue Konsu-B39FB",
-        "price": 98901,
-        "old_price": 149990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-blue-konsu-b39fb",
-        "brand": "HUAWEI",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6371_0_6_tYpTFj_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6369_0_6_LpnAes_160.webp",
         "first_seen": "2026-10-03T12:02:03+00:00"
       },
       "signal": "drop",
@@ -5636,18 +5580,45 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "655043",
-        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Grey (Atum-B39L)",
+        "sku": "655040",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Black (Atum-B39F)",
         "price": 109890,
         "old_price": 159990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-grey-atum-b39l",
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-black-atum-b39f",
         "brand": "HUAWEI",
         "category": null,
         "group": "phones",
         "in_stock": true,
         "discount_pct": 31,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6368_0_1_TGVhZy_160.webp",
-        "first_seen": "2026-10-03T16:40:48+00:00"
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6365_0_1_ioa0Dx_160.webp",
+        "first_seen": "2026-10-04T08:47:49+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 26.7,
+      "base_price": 149890,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655041",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Yellow (Atum-B39FY)",
+        "price": 109890,
+        "old_price": 159990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-yellow-atum-b39fy",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6366_0_1_tFbisw_160.webp",
+        "first_seen": "2026-10-03T12:02:03+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -5788,7 +5759,7 @@
       "signal": "drop",
       "drop_pct": 35,
       "fair_discount": 26.1,
-      "base_price": 263996,
+      "base_price": 263990,
       "value_score": 63,
       "is_pick": false,
       "badges": [
@@ -5905,6 +5876,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 15.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649835",
+        "title": "TWS Наушники HUAWEI FreeClip2 Rose Gold Robin-T11",
+        "price": 66890,
+        "old_price": 99990,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freeclip2-rose-gold-robin-t11",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3626_0_1_8hXPX0_160.webp",
+        "first_seen": "2026-10-03T16:40:48+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 25.6,
+      "base_price": 89890,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.4
     },
     {
       "product": {
@@ -6146,7 +6144,7 @@
       "signal": "drop",
       "drop_pct": 32,
       "fair_discount": 24.1,
-      "base_price": 223934,
+      "base_price": 223931,
       "value_score": 65,
       "is_pick": false,
       "badges": [
@@ -7640,41 +7638,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-07T16:49:50+00:00",
-      "item_count": 2798,
+      "last_crawl": "2026-11-07T22:16:51+00:00",
+      "item_count": 2789,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-07T16:49:50+00:00",
+      "last_crawl": "2026-11-07T22:16:51+00:00",
       "item_count": 12408,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-07T16:49:50+00:00",
-      "item_count": 3744,
+      "last_crawl": "2026-11-07T22:16:51+00:00",
+      "item_count": 3770,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-07T16:49:50+00:00",
+      "last_crawl": "2026-11-07T22:16:51+00:00",
       "item_count": 9955,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-07T16:49:50+00:00",
+      "last_crawl": "2026-11-07T22:16:51+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29149,
+    "total_products": 29166,
     "total_deals": 285,
     "avg_discount": 47
   }
