@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:21:21.342583+00:00",
+  "updated_at": "2026-11-09T09:21:42.526976+00:00",
   "deals": [
     {
       "product": {
@@ -651,6 +651,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000071671",
+        "title": "Плойка PHILIPS BHB 872/00",
+        "price": 14990,
+        "old_price": 44990,
+        "url": "https://www.mechta.kz/product/ployka-philips-bhb-87200/",
+        "brand": "Philips",
+        "category": "Плойки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/beccbb5b-bd4e-11e7-80c1-1866daf08915?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 25.0,
+      "base_price": 19990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200001305",
         "title": "Блендер погружной POLARIS PHB 0746 CordLess",
         "price": 19990,
@@ -892,6 +920,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 64.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000071669",
+        "title": "Триммер для бороды PHILIPS MG 5730/15",
+        "price": 19990,
+        "old_price": 55990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-mg-573015/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/beccbb64-bd4e-11e7-80c1-1866daf08915?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 20.0,
+      "base_price": 24990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 44.0
     },
     {
       "product": {
@@ -1307,60 +1363,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200016027",
-        "title": "Аэрогриль MIDEA MF-CY80SA2",
-        "price": 54990,
-        "old_price": 139990,
-        "url": "https://www.mechta.kz/product/aerogril-midea-mf-cy80sa2/",
-        "brand": "Midea",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/4eb4adaa-9f7c-4c68-ab15-704c536a27d2?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 54990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000077796",
-        "title": "Тепловентилятор TEFAL SE 9420 F0",
-        "price": 40990,
-        "old_price": 103990,
-        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9420-f0/",
-        "brand": "Tefal",
-        "category": "Тепловентиляторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 40990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200019317",
         "title": "Парогенератор COOLFORT CF-3420 белый/серый",
         "price": 29990,
@@ -1612,6 +1614,60 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17000000891",
+        "title": "Электрическая зубная щетка PHILIPS HX 3651/12",
+        "price": 19990,
+        "old_price": 37990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-365112/",
+        "brand": "Philips",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/87e1501a-2ca1-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-10-05T09:21:26+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 39.4,
+      "base_price": 32990,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200005032",
+        "title": "Эпилятор PHILIPS BRE235/00",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.mechta.kz/product/epilyator-philips-bre23500/",
+        "brand": "Philips",
+        "category": "Эпиляторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/3a201cc2-c14c-11ed-a258-005056b6dbd7?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 39.4,
+      "base_price": 32990,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200026347",
         "title": "Блендер погружной MOULINEX DD 67L810",
         "price": 50990,
@@ -1636,6 +1692,34 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000003991",
+        "title": "Электрическая зубная щетка PHILIPS HX 9914/57",
+        "price": 169990,
+        "old_price": 350990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-991457/",
+        "brand": "Philips",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://pi.mdev.kz/51b98f8b-7c97-11eb-a23a-005056b6dbd7?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 52,
+      "fair_discount": 39.3,
+      "base_price": 279990,
+      "value_score": 94,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.7
     },
     {
       "product": {
@@ -1752,8 +1836,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-09T07:21:11+00:00",
-      "item_count": 7933,
+      "last_crawl": "2026-11-09T09:21:27+00:00",
+      "item_count": 7938,
       "status": "ok"
     },
     {
@@ -1793,8 +1877,8 @@
     }
   ],
   "stats": {
-    "total_products": 7933,
-    "total_deals": 64,
-    "avg_discount": 63.0
+    "total_products": 7938,
+    "total_deals": 67,
+    "avg_discount": 63
   }
 }
