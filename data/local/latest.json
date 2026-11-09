@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:21:42.526976+00:00",
+  "updated_at": "2026-11-09T11:21:34.843428+00:00",
   "deals": [
     {
       "product": {
@@ -101,31 +101,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006296",
-        "title": "Пылесос GORENJE VC 2301 SPWCY (White)",
-        "price": 19990,
-        "old_price": 67990,
-        "url": "https://www.mechta.kz/product/pylesos-gorenje-vc-2301-spwcy-white/",
-        "brand": "Gorenje",
-        "category": "Напольные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://pi.mdev.kz/8d26fff7-149f-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 71,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -498,15 +473,16 @@
       },
       "signal": "deal",
       "drop_pct": 75,
-      "fair_discount": 0.0,
+      "fair_discount": 27.0,
       "base_price": 999990,
-      "value_score": 39,
+      "value_score": 75,
       "is_pick": false,
       "badges": [
+        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 75.0
+      "inflated_gap": 48.0
     },
     {
       "product": {
@@ -1216,7 +1192,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 259990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1249,6 +1225,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022830",
+        "title": "Овощерезка MOULINEX DK 853BE0(DS)",
+        "price": 20990,
+        "old_price": 54990,
+        "url": "https://www.mechta.kz/product/ovoshcherezka-moulinex-dk-853be0ds/",
+        "brand": "Moulinex",
+        "category": "Электротерки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/0f48a9fa-66d9-4bfa-bb01-e3b21794567d?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 25.0,
+      "base_price": 27990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 37.0
     },
     {
       "product": {
@@ -1641,6 +1645,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17000001350",
+        "title": "Электрическая зубная щетка PHILIPS HX 3651/11",
+        "price": 19990,
+        "old_price": 37990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-365111/",
+        "brand": "Philips",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/1e022b8e-3d1c-11ec-a240-005056b6dbd7?w=400",
+        "first_seen": "2026-10-05T09:21:26+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 39.4,
+      "base_price": 32990,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200005032",
         "title": "Эпилятор PHILIPS BRE235/00",
         "price": 19990,
@@ -1776,68 +1807,14 @@
         "Честная скидка"
       ],
       "inflated_gap": 11.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022062",
-        "title": "Телевизор Dreame Vivid QLED 4K Q100 55\" (55Q100)",
-        "price": 223490,
-        "old_price": 359990,
-        "url": "https://www.mechta.kz/product/televizor-dreame-vivid-qled-4k-q100-55-55q100/",
-        "brand": "Dreame",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/cfecbc62-2f62-4c85-8736-2fade1bfc17d?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 24.0,
-      "base_price": 293990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026150",
-        "title": "Телевизор HISENSE MiniLED 55U77SL UHD SMART",
-        "price": 329990,
-        "old_price": 529990,
-        "url": "https://www.mechta.kz/product/televizor-hisense-miniled-55u77sl-uhd-smart/",
-        "brand": "Hisense",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://pi.mdev.kz/3eb2a9ed-cc57-4845-b530-421f187aee94?w=400",
-        "first_seen": "2026-10-21T04:27:50+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 38,
-      "fair_discount": 10.8,
-      "base_price": 369990,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.2
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-09T09:21:27+00:00",
-      "item_count": 7938,
+      "last_crawl": "2026-11-09T11:21:23+00:00",
+      "item_count": 7934,
       "status": "ok"
     },
     {
@@ -1877,8 +1854,8 @@
     }
   ],
   "stats": {
-    "total_products": 7938,
-    "total_deals": 67,
-    "avg_discount": 63
+    "total_products": 7934,
+    "total_deals": 66,
+    "avg_discount": 63.0
   }
 }
