@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T05:21:41.793243+00:00",
+  "updated_at": "2026-11-09T07:21:21.342583+00:00",
   "deals": [
     {
       "product": {
@@ -1294,15 +1294,15 @@
       },
       "signal": "deal",
       "drop_pct": 61,
-      "fair_discount": 10.7,
-      "base_price": 559990,
-      "value_score": 47,
+      "fair_discount": 0.0,
+      "base_price": 499990,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 50.3
+      "inflated_gap": 61.0
     },
     {
       "product": {
@@ -1372,7 +1372,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://pi.mdev.kz/0b78e865-311c-4eab-a6d7-a8794b5fa0d4?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
+        "first_seen": "2026-10-05T09:21:26+00:00"
       },
       "signal": "drop",
       "drop_pct": 57,
@@ -1752,8 +1752,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-09T05:21:30+00:00",
-      "item_count": 7917,
+      "last_crawl": "2026-11-09T07:21:11+00:00",
+      "item_count": 7933,
       "status": "ok"
     },
     {
@@ -1793,7 +1793,7 @@
     }
   ],
   "stats": {
-    "total_products": 7917,
+    "total_products": 7933,
     "total_deals": 64,
     "avg_discount": 63.0
   }
