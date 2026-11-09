@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T19:21:09.967855+00:00",
+  "updated_at": "2026-11-09T21:20:14.403068+00:00",
   "deals": [
     {
       "product": {
@@ -458,35 +458,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011819",
-        "title": "Телевизор Samsung QLED QE65QN900DUXCE 8K SMART",
-        "price": 729990,
-        "old_price": 2949990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn900duxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 75,
-        "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 75,
-      "fair_discount": 27.0,
-      "base_price": 999990,
-      "value_score": 75,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011831",
         "title": "Телевизор Samsung QLED QE75QN900DUXCE 8K SMART",
         "price": 999990,
@@ -787,6 +758,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 67.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011819",
+        "title": "Телевизор Samsung QLED QE65QN900DUXCE 8K SMART",
+        "price": 999990,
+        "old_price": 2949990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn900duxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 0.0,
+      "base_price": 999990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 66.0
     },
     {
       "product": {
@@ -1367,34 +1366,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019317",
-        "title": "Парогенератор COOLFORT CF-3420 белый/серый",
-        "price": 29990,
-        "old_price": 69990,
-        "url": "https://www.mechta.kz/product/parogenerator-coolfort-cf-3420-belyyseryy/",
-        "brand": "Coolfort",
-        "category": "Парогенераторы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://pi.mdev.kz/0b78e865-311c-4eab-a6d7-a8794b5fa0d4?w=400",
-        "first_seen": "2026-10-05T09:21:26+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 57,
-      "fair_discount": 57.2,
-      "base_price": 69990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200024895",
         "title": "Ноутбук LENOVO IdeaPad Slim 3 16ARP10 (83K800GWRK)/16 WUXGA/AMD Ryzen 5 150 3.3 Ghz/16/SSD512/Dos",
         "price": 259990,
@@ -1751,69 +1722,13 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200025139",
-        "title": "Наушники HUAWEI FreeClip 2 S (Space Silver)(Robin-T02)(55039243)",
-        "price": 62890,
-        "old_price": 119990,
-        "url": "https://www.mechta.kz/product/naushniki-huawei-freeclip-2-s-space-silverrobin-t0255039243/",
-        "brand": "Huawei",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/7de44670-3a23-4400-af0a-52321b450236?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 37.0,
-      "base_price": 99890,
-      "value_score": 91,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200025142",
-        "title": "Наушники HUAWEI FreeClip 2 S (Deepsea Blue)(Robin-T02)(55039240)",
-        "price": 62890,
-        "old_price": 119990,
-        "url": "https://www.mechta.kz/product/naushniki-huawei-freeclip-2-s-deepsea-bluerobin-t0255039240/",
-        "brand": "Huawei",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/9be91ddd-4d95-4f5b-ba81-47190dc779b0?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 37.0,
-      "base_price": 99890,
-      "value_score": 91,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-09T19:20:57+00:00",
+      "last_crawl": "2026-11-09T21:20:06+00:00",
       "item_count": 7939,
       "status": "ok"
     },
@@ -1855,7 +1770,7 @@
   ],
   "stats": {
     "total_products": 7939,
-    "total_deals": 66,
-    "avg_discount": 63.0
+    "total_deals": 63,
+    "avg_discount": 64
   }
 }
