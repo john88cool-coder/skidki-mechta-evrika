@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T04:30:07.898012+00:00",
+  "updated_at": "2026-11-09T05:21:41.793243+00:00",
   "deals": [
     {
       "product": {
@@ -1696,30 +1696,29 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020569",
-        "title": "Телевизор Samsung QLED QE65Q7F5AUXKZ UHD SMART (KZ)",
-        "price": 299990,
-        "old_price": 639990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q7f5auxkz-uhd-smart-kz/",
-        "brand": "Samsung",
+        "sku": "17200022062",
+        "title": "Телевизор Dreame Vivid QLED 4K Q100 55\" (55Q100)",
+        "price": 223490,
+        "old_price": 359990,
+        "url": "https://www.mechta.kz/product/televizor-dreame-vivid-qled-4k-q100-55-55q100/",
+        "brand": "Dreame",
         "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://pi.mdev.kz/f81be613-6b07-441a-affb-25f1ab81e8b9?w=400",
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/cfecbc62-2f62-4c85-8736-2fade1bfc17d?w=400",
         "first_seen": "2026-10-05T04:47:42+00:00"
       },
       "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 14.3,
-      "base_price": 349990,
-      "value_score": 44,
+      "drop_pct": 38,
+      "fair_discount": 24.0,
+      "base_price": 293990,
+      "value_score": 65,
       "is_pick": false,
       "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 38.7
+      "inflated_gap": 14.0
     },
     {
       "product": {
@@ -1753,8 +1752,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-09T04:29:58+00:00",
-      "item_count": 7955,
+      "last_crawl": "2026-11-09T05:21:30+00:00",
+      "item_count": 7917,
       "status": "ok"
     },
     {
@@ -1794,7 +1793,7 @@
     }
   ],
   "stats": {
-    "total_products": 7955,
+    "total_products": 7917,
     "total_deals": 64,
     "avg_discount": 63.0
   }
