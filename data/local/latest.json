@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T13:21:45.919764+00:00",
+  "updated_at": "2026-11-09T04:30:07.898012+00:00",
   "deals": [
     {
       "product": {
@@ -237,6 +237,31 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200013428",
+        "title": "Вертикальный пылесос Kitfort KT-594",
+        "price": 29990,
+        "old_price": 76490,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-kitfort-kt-594/",
+        "brand": "Kitfort",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200003064",
         "title": "Телевизор LOEWE LED 50SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
         "price": 149990,
@@ -282,9 +307,10 @@
       "drop_pct": 82,
       "fair_discount": 33.0,
       "base_price": 999990,
-      "value_score": 76,
-      "is_pick": false,
+      "value_score": 84,
+      "is_pick": true,
       "badges": [
+        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
@@ -311,7 +337,7 @@
       "drop_pct": 80,
       "fair_discount": 0.0,
       "base_price": 29990,
-      "value_score": 17,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -513,34 +539,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018494",
-        "title": "Телевизор LG OLED97M59LA",
-        "price": 5373290,
-        "old_price": 19949990,
-        "url": "https://www.mechta.kz/product/televizor-lg-oled97m59la/",
-        "brand": "LG",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 73,
-        "image": "https://pi.mdev.kz/8a997fdf-0946-485e-96d2-4ad3b61120fa?w=400",
-        "first_seen": "2026-10-20T10:21:08+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 73,
-      "fair_discount": 0.0,
-      "base_price": 5373290,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 73.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011825",
         "title": "Телевизор Samsung QLED QE55QN85DBUXCE UHD SMART",
         "price": 249990,
@@ -598,34 +596,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200000770",
-        "title": "Вертикальный пылесос Tefal X-Force Flex 15.60 Pro TY99F1WO",
-        "price": 159990,
-        "old_price": 524990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-force-flex-15dot60-pro-ty99f1wo/",
-        "brand": "Tefal",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 70,
-        "image": "https://pi.mdev.kz/24fab8b6-6e78-468c-b036-c16a1a38d280?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 70,
-      "fair_discount": 27.3,
-      "base_price": 219990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 42.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200008340",
         "title": "Триммер для бороды PHILIPS OneBlade Pro QP6651/61",
         "price": 29990,
@@ -649,6 +619,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 69.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018494",
+        "title": "Телевизор LG OLED97M59LA",
+        "price": 6499990,
+        "old_price": 19949990,
+        "url": "https://www.mechta.kz/product/televizor-lg-oled97m59la/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/8a997fdf-0946-485e-96d2-4ad3b61120fa?w=400",
+        "first_seen": "2026-10-20T10:21:08+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 0.0,
+      "base_price": 5373290,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -1162,7 +1160,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 259990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1309,33 +1307,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200013428",
-        "title": "Вертикальный пылесос Kitfort KT-594",
-        "price": 29990,
-        "old_price": 76490,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-kitfort-kt-594/",
-        "brand": "Kitfort",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 29990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016027",
         "title": "Аэрогриль MIDEA MF-CY80SA2",
         "price": 54990,
@@ -1353,6 +1324,33 @@
       "drop_pct": 61,
       "fair_discount": 0.0,
       "base_price": 54990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "12000077796",
+        "title": "Тепловентилятор TEFAL SE 9420 F0",
+        "price": 40990,
+        "old_price": 103990,
+        "url": "https://www.mechta.kz/product/teploventilyator-tefal-se-9420-f0/",
+        "brand": "Tefal",
+        "category": "Тепловентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/d3cfbe28-d73a-11e8-a219-005056b6dbd7?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 40990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -1447,6 +1445,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200026346",
+        "title": "Блендер погружной TEFAL HB 64F810 (DS)",
+        "price": 24990,
+        "old_price": 46990,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-tefal-hb-64f810-ds/",
+        "brand": "Tefal",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/bdca87bf-6cd6-4d35-8202-20c4fc987517?w=400",
+        "first_seen": "2026-11-03T06:41:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 46.8,
+      "base_price": 46990,
+      "value_score": 96,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011617",
         "title": "Су-вид Aeno ASV0001",
         "price": 29990,
@@ -1502,90 +1528,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018901",
-        "title": "Наушники SOUNDCORE Liberty 5 A3957 Black/черный TWS",
-        "price": 27990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/naushniki-soundcore-liberty-5-a3957-blackchernyy-tws/",
-        "brand": "Soundcore",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/aabcad58-6ac5-4ab7-82ec-ba41415444ea?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 44.0,
-      "base_price": 49990,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018902",
-        "title": "Наушники SOUNDCORE Liberty 5 A3957 White/белый TWS",
-        "price": 27990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/naushniki-soundcore-liberty-5-a3957-whitebelyy-tws/",
-        "brand": "Soundcore",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/20d61ad6-7f75-469f-abe2-f627933f112b?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 44.0,
-      "base_price": 49990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200023205",
-        "title": "Наушники SOUNDCORE Liberty 5 A3957G51 Розовый TWS",
-        "price": 27990,
-        "old_price": 49990,
-        "url": "https://www.mechta.kz/product/naushniki-soundcore-liberty-5-a3957g51-rozovyy-tws/",
-        "brand": "Soundcore",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/2b291058-9e3a-4d0e-95e1-1c9518b4ca58?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 44.0,
-      "base_price": 49990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012450",
         "title": "Планшет APPLE 13-inch iPad Pro WiFi 256GB with Standard glass - Space Black (MVX23QA/A)",
         "price": 499990,
@@ -1615,118 +1557,85 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200009275",
-        "title": "Вертикальный пылесос Samsung JET 75B Pro (VS20B75ADR5/EV)",
-        "price": 159990,
-        "old_price": 269990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-75b-pro-vs20b75adr5ev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
+        "sku": "17200026340",
+        "title": "Мультитриммер ROWENTA TN 3651F0",
+        "price": 14990,
+        "old_price": 24990,
+        "url": "https://www.mechta.kz/product/multitrimmer-rowenta-tn-3651f0/",
+        "brand": "Rowenta",
+        "category": "Триммеры",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/083bb64e-9a34-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/804867a9-27d1-4790-a49d-2a6a7168b01f?w=400",
+        "first_seen": "2026-11-03T06:41:44+00:00"
       },
       "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 40.7,
-      "base_price": 269990,
-      "value_score": 99,
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 24990,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200026339",
+        "title": "Триммер для бороды ROWENTA TN 1851E0 (DS)",
+        "price": 34990,
+        "old_price": 57990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-rowenta-tn-1851e0-ds/",
+        "brand": "Rowenta",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/90590ef7-6af0-4cf9-b07e-642677e3b4f2?w=400",
+        "first_seen": "2026-11-03T11:21:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 39.7,
+      "base_price": 57990,
+      "value_score": 88,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
+        "Честная скидка"
       ],
       "inflated_gap": 0.3
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000006249",
-        "title": "Вертикальный пылесос Samsung JET 60 Turbo (VS15A6031R5/EV)",
-        "price": 109990,
-        "old_price": 184990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-60-turbo-vs15a6031r5ev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/4ba071d3-e5f2-11eb-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 40.5,
-      "base_price": 184990,
-      "value_score": 98,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006250",
-        "title": "Вертикальный пылесос Samsung JET 60 Turbo (VS15A6031R4/EV)",
-        "price": 109990,
-        "old_price": 184990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-samsung-jet-60-turbo-vs15a6031r4ev/",
-        "brand": "Samsung",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/dec6d1bf-0572-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 40.5,
-      "base_price": 184990,
-      "value_score": 98,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200007310",
-        "title": "Стиральная машина Samsung WW 80AG6S28AXLD",
-        "price": 199990,
-        "old_price": 329990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-samsung-ww-80ag6s28axld/",
-        "brand": "Samsung",
-        "category": "Стиральные машины",
-        "group": "home",
+        "sku": "17200026347",
+        "title": "Блендер погружной MOULINEX DD 67L810",
+        "price": 50990,
+        "old_price": 83990,
+        "url": "https://www.mechta.kz/product/blender-pogrujnoy-moulinex-dd-67l810/",
+        "brand": "Moulinex",
+        "category": "Блендеры погружные",
+        "group": "kitchen",
         "in_stock": true,
         "discount_pct": 39,
-        "image": "https://pi.mdev.kz/ba788c9b-be1d-410b-952f-67855aefd358?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
+        "image": "https://pi.mdev.kz/9bc3df71-4533-4905-b5b0-dc1f79e16080?w=400",
+        "first_seen": "2026-11-04T13:21:41+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
-      "fair_discount": 39.4,
-      "base_price": 329990,
-      "value_score": 92,
+      "fair_discount": 39.3,
+      "base_price": 83990,
+      "value_score": 88,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
+        "Честная скидка"
       ],
-      "inflated_gap": -0.4
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -1787,263 +1696,65 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020931",
-        "title": "Смарт-часы HUAWEI GT 6 (41mm) цвет фиолетовый, (KSU-B19)",
-        "price": 69990,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-41mm-cvet-fioletovyy-ksu-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/7773b21d-1313-45dc-b5ad-603298c3fbcb?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 33.3,
-      "base_price": 104890,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018740",
-        "title": "Миксер MOULINEX HM 3108B1",
-        "price": 15990,
-        "old_price": 33990,
-        "url": "https://www.mechta.kz/product/mikser-moulinex-hm-3108b1/",
-        "brand": "Moulinex",
-        "category": "Ручные миксеры",
-        "group": "kitchen",
+        "sku": "17200020569",
+        "title": "Телевизор Samsung QLED QE65Q7F5AUXKZ UHD SMART (KZ)",
+        "price": 299990,
+        "old_price": 639990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65q7f5auxkz-uhd-smart-kz/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
         "in_stock": true,
         "discount_pct": 53,
-        "image": "https://pi.mdev.kz/fa381883-a700-4565-ba2f-f03d1268265b?w=400",
+        "image": "https://pi.mdev.kz/f81be613-6b07-441a-affb-25f1ab81e8b9?w=400",
         "first_seen": "2026-10-05T04:47:42+00:00"
       },
       "signal": "drop",
       "drop_pct": 53,
-      "fair_discount": 27.3,
-      "base_price": 21990,
-      "value_score": 65,
+      "fair_discount": 14.3,
+      "base_price": 349990,
+      "value_score": 44,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
+        "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 25.7
+      "inflated_gap": 38.7
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020929",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет зеленый, (ATM-B19)",
-        "price": 73990,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-zelenyy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
+        "sku": "17200026150",
+        "title": "Телевизор HISENSE MiniLED 55U77SL UHD SMART",
+        "price": 329990,
+        "old_price": 529990,
+        "url": "https://www.mechta.kz/product/televizor-hisense-miniled-55u77sl-uhd-smart/",
+        "brand": "Hisense",
+        "category": "Телевизоры",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://pi.mdev.kz/dbfe166b-3870-4087-9495-d3972faf6b48?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
+        "discount_pct": 38,
+        "image": "https://pi.mdev.kz/3eb2a9ed-cc57-4845-b530-421f187aee94?w=400",
+        "first_seen": "2026-10-21T04:27:50+00:00"
       },
       "signal": "drop",
-      "drop_pct": 52,
-      "fair_discount": 26.0,
-      "base_price": 99990,
-      "value_score": 75,
+      "drop_pct": 38,
+      "fair_discount": 10.8,
+      "base_price": 369990,
+      "value_score": 43,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 26.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000000948",
-        "title": "Мультиварка MOULINEX MK 622832",
-        "price": 49990,
-        "old_price": 110990,
-        "url": "https://www.mechta.kz/product/multivarka-moulinex-mk-622832/",
-        "brand": "Moulinex",
-        "category": "Мультиварки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://pi.mdev.kz/8bb01394-5df0-48e5-933a-8c092b26fd22?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 55,
-      "fair_discount": 25.4,
-      "base_price": 66990,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020932",
-        "title": "Смарт-часы HUAWEI GT 6 (41mm) цвет белый, (KSU-B19)",
-        "price": 78490,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-41mm-cvet-belyy-ksu-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 49,
-        "image": "https://pi.mdev.kz/185c1af7-3850-48fe-b874-464ab90202ed?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 49,
-      "fair_discount": 25.2,
-      "base_price": 104890,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020933",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет серый, (ATM-B19)",
-        "price": 79990,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-seryy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/c54c84d8-aa0d-4fe1-93ba-993c940e1a5f?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 20.0,
-      "base_price": 99990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015075",
-        "title": "Вертикальный пылесос DREAME R20 Aqua",
-        "price": 159990,
-        "old_price": 274990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-dreame-r20-aqua/",
-        "brand": "Dreame",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/5f607940-aba5-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 20.0,
-      "base_price": 199990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 22.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200024259",
-        "title": "Электрочайник POLARIS PWK 1803 C черный",
-        "price": 12990,
-        "old_price": 22990,
-        "url": "https://www.mechta.kz/product/elektrochaynik-polaris-pwk-1803-c-chernyy/",
-        "brand": "Polaris",
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/22de2e42-db70-4476-bd05-fb55205d93c6?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 18.8,
-      "base_price": 15990,
-      "value_score": 56,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 24.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200020924",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет черный, (ATM-B19)",
-        "price": 82490,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-chernyy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/1e7d5fac-d546-4fd4-b5f7-c557a70643c3?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 17.3,
-      "base_price": 99790,
-      "value_score": 53,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.7
+      "inflated_gap": 27.2
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-08T13:21:35+00:00",
-      "item_count": 7959,
+      "last_crawl": "2026-11-09T04:29:58+00:00",
+      "item_count": 7955,
       "status": "ok"
     },
     {
@@ -2083,8 +1794,8 @@
     }
   ],
   "stats": {
-    "total_products": 7959,
-    "total_deals": 74,
+    "total_products": 7955,
+    "total_deals": 64,
     "avg_discount": 63.0
   }
 }
