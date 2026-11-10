@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:21:18.727570+00:00",
+  "updated_at": "2026-11-10T09:21:41.004134+00:00",
   "deals": [
     {
       "product": {
@@ -207,31 +207,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013428",
-        "title": "Вертикальный пылесос Kitfort KT-594",
-        "price": 29990,
-        "old_price": 76490,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-kitfort-kt-594/",
-        "brand": "Kitfort",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/9ec298a7-71bc-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -1283,6 +1258,35 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200001281",
+        "title": "Настольный гриль POLARIS PGP 3002DP Optimal Temp",
+        "price": 72990,
+        "old_price": 189990,
+        "url": "https://www.mechta.kz/product/nastolnyy-gril-polaris-pgp-3002dp-optimal-temp/",
+        "brand": "Polaris",
+        "category": "Электрогрили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/7957a1fc-185f-11ed-a24a-005056b6dbd7?w=400",
+        "first_seen": "2026-10-05T04:47:42+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 43.8,
+      "base_price": 129990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200011442",
         "title": "Телевизор Samsung QLED QE55LS03DAUXCE The Frame UHD SMART",
         "price": 299990,
@@ -1366,6 +1370,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019317",
+        "title": "Парогенератор COOLFORT CF-3420 белый/серый",
+        "price": 29990,
+        "old_price": 69990,
+        "url": "https://www.mechta.kz/product/parogenerator-coolfort-cf-3420-belyyseryy/",
+        "brand": "Coolfort",
+        "category": "Парогенераторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://pi.mdev.kz/0b78e865-311c-4eab-a6d7-a8794b5fa0d4?w=400",
+        "first_seen": "2026-10-05T09:21:26+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 57,
+      "fair_discount": 57.2,
+      "base_price": 69990,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200024895",
         "title": "Ноутбук LENOVO IdeaPad Slim 3 16ARP10 (83K800GWRK)/16 WUXGA/AMD Ryzen 5 150 3.3 Ghz/16/SSD512/Dos",
         "price": 259990,
@@ -1406,7 +1438,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
+        "first_seen": "2026-10-06T07:21:14+00:00"
       },
       "signal": "drop",
       "drop_pct": 60,
@@ -1489,7 +1521,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/b6d8f360-f2fa-4d0a-9915-3c05f772d228?w=400",
-        "first_seen": "2026-10-05T04:47:42+00:00"
+        "first_seen": "2026-10-06T07:21:14+00:00"
       },
       "signal": "drop",
       "drop_pct": 58,
@@ -1616,33 +1648,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17000001350",
-        "title": "Электрическая зубная щетка PHILIPS HX 3651/11",
-        "price": 19990,
-        "old_price": 37990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-365111/",
-        "brand": "Philips",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/1e022b8e-3d1c-11ec-a240-005056b6dbd7?w=400",
-        "first_seen": "2026-10-05T09:21:26+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 39.4,
-      "base_price": 32990,
-      "value_score": 88,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200005032",
         "title": "Эпилятор PHILIPS BRE235/00",
         "price": 19990,
@@ -1728,8 +1733,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-10T05:21:09+00:00",
-      "item_count": 7937,
+      "last_crawl": "2026-11-10T09:21:26+00:00",
+      "item_count": 7934,
       "status": "ok"
     },
     {
@@ -1769,7 +1774,7 @@
     }
   ],
   "stats": {
-    "total_products": 7937,
+    "total_products": 7934,
     "total_deals": 63,
     "avg_discount": 64
   }
