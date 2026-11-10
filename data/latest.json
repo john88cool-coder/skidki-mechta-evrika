@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:01:30.863937+00:00",
+  "updated_at": "2026-11-10T21:09:50.945680+00:00",
   "deals": [
     {
       "product": {
@@ -44,31 +44,6 @@
       },
       "signal": "deal",
       "drop_pct": 76,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "296468",
-        "title": "Игровой компьютер TechnoGaming VND092TD(AR5-8400F/RTX5050DUAL 8GB/D5 16GB/SSD 1TB/A620MH/COUGAR MX110)",
-        "price": 533990,
-        "old_price": 1779990,
-        "url": "https://www.technodom.kz/p/igrovoj-kompyuter-technogaming-vnd092tdar5-8400frtx5050dual-8gbd5-16gbssd-1tba620mhcougar-mx110-296468",
-        "brand": "TechnoGaming",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 70,
-        "image": "https://api.technodom.kz/f3/api/v1/images/296468_1a.webp",
-        "first_seen": "2026-11-07T16:49:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 70,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
@@ -575,31 +550,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "38020",
-        "title": "Выпрямитель Rowenta SF321LF0",
-        "price": 15990,
-        "old_price": 35990,
-        "url": "https://evrika.com/catalog/vypryamitel-rowenta-sf321lf0/p38020",
-        "brand": null,
-        "category": "Выпрямители",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/jrn2tLBOr5XBHbRcAEQx4nP19INzSVNVQ1lv6ZQ7.jpg.webp",
-        "first_seen": "2026-11-07T16:49:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 56,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "281043",
         "title": "Сушильный автомат Beko B3T47239",
@@ -729,31 +679,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "38024",
-        "title": "Фен-щетка Rowenta CF6320F",
-        "price": 16990,
-        "old_price": 36990,
-        "url": "https://evrika.com/catalog/fen-shchetka-rowenta-cf6320f0/p38024",
-        "brand": null,
-        "category": "Фен-щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/p2ejh6Vg6yR9eL9LmKJqYRmaPd6gjVSbVoWusnbn.jpg.webp",
-        "first_seen": "2026-11-07T16:49:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1287756",
         "title": "Фен-щетка Rowenta CF9520F0",
@@ -851,6 +776,33 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1074249",
+        "title": "Bluetooth гарнитура A4Tech Bloody M70 TWS, Black-Blue",
+        "price": 16290,
+        "old_price": 34990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-a4tech-bloody-m70-tws-black-blue/",
+        "brand": "A4Tech",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://static.shop.kz/upload/iblock/b9f/154299_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 50.6,
+      "base_price": 32990,
+      "value_score": 90,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 2.4
     },
     {
       "product": {
@@ -1193,7 +1145,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
+        "first_seen": "2026-10-07T01:55:56+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1356,31 +1308,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "36918",
-        "title": "Чайник Polaris PWK 1794C Golf(Белый)",
-        "price": 11890,
-        "old_price": 22990,
-        "url": "https://evrika.com/catalog/chaynik-polaris-pwk-1794c-golf-belyy/p36918",
-        "brand": null,
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/1BqPQCHTEBZTw5t7MvF5OOcPQgVumKSuo4FztFE6.jpg.webp",
-        "first_seen": "2026-11-07T16:49:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1382413",
         "title": "Выпрямитель Rowenta SF323LF0",
@@ -1422,31 +1349,6 @@
       },
       "signal": "deal",
       "drop_pct": 48,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "8594",
-        "title": "Чайник Polaris PWK 1759CGL",
-        "price": 14890,
-        "old_price": 27990,
-        "url": "https://evrika.com/catalog/chaynik-polaris-pwk-1759cgl/p8594",
-        "brand": null,
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/qPmOExafkj7Hp76JmvYbvZxV5g89AG5k3Zkrxh4d.jpeg.webp",
-        "first_seen": "2026-11-07T16:49:50+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
@@ -2064,6 +1966,33 @@
       "fair_discount": 0.0,
       "base_price": 10990,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 70.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "296468",
+        "title": "Игровой компьютер TechnoGaming VND092TD(AR5-8400F/RTX5050DUAL 8GB/D5 16GB/SSD 1TB/A620MH/COUGAR MX110)",
+        "price": 533990,
+        "old_price": 1779990,
+        "url": "https://www.technodom.kz/p/igrovoj-kompyuter-technogaming-vnd092tdar5-8400frtx5050dual-8gbd5-16gbssd-1tba620mhcougar-mx110-296468",
+        "brand": "TechnoGaming",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296468_1a.webp",
+        "first_seen": "2026-11-07T16:49:50+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 0.0,
+      "base_price": 533990,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2937,33 +2866,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1728491",
-        "title": "Гриль Redmond SteakMaster RGM-M809, Black (SN:3501211176300)",
-        "price": 36990,
-        "old_price": 86990,
-        "url": "https://shop.kz/offer/gril-redmond-steakmaster-rgm-m809-black-sn-3501211176300/",
-        "brand": "REDMOND",
-        "category": "Тостеры, гриль",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://static.shop.kz/upload/iblock/041/q48cxchue7jz04ksilzxu9mhbua8dovh/168515o5.jpg",
-        "first_seen": "2026-10-23T13:49:06+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 0.0,
-      "base_price": 36990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 57.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "10971",
         "title": "Вытяжка Electrolux EFC226V",
@@ -2982,6 +2884,33 @@
       "drop_pct": 57,
       "fair_discount": 0.0,
       "base_price": 94990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 57.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1728491",
+        "title": "Гриль Redmond SteakMaster RGM-M809, Black (SN:3501211176300)",
+        "price": 36990,
+        "old_price": 86990,
+        "url": "https://shop.kz/offer/gril-redmond-steakmaster-rgm-m809-black-sn-3501211176300/",
+        "brand": "REDMOND",
+        "category": "Тостеры, гриль",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://static.shop.kz/upload/iblock/041/q48cxchue7jz04ksilzxu9mhbua8dovh/168515o5.jpg",
+        "first_seen": "2026-10-23T13:49:06+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 0.0,
+      "base_price": 36990,
       "value_score": 35,
       "is_pick": false,
       "badges": [
@@ -3091,6 +3020,33 @@
       "fair_discount": 0.0,
       "base_price": 8990,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 56.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38020",
+        "title": "Выпрямитель Rowenta SF321LF0",
+        "price": 15990,
+        "old_price": 35990,
+        "url": "https://evrika.com/catalog/vypryamitel-rowenta-sf321lf0/p38020",
+        "brand": null,
+        "category": "Выпрямители",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 56,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/jrn2tLBOr5XBHbRcAEQx4nP19INzSVNVQ1lv6ZQ7.jpg.webp",
+        "first_seen": "2026-11-07T16:49:50+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 56,
+      "fair_discount": 0.0,
+      "base_price": 15990,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3496,6 +3452,33 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 54.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "38024",
+        "title": "Фен-щетка Rowenta CF6320F",
+        "price": 16990,
+        "old_price": 36990,
+        "url": "https://evrika.com/catalog/fen-shchetka-rowenta-cf6320f0/p38024",
+        "brand": null,
+        "category": "Фен-щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/p2ejh6Vg6yR9eL9LmKJqYRmaPd6gjVSbVoWusnbn.jpg.webp",
+        "first_seen": "2026-11-07T16:49:50+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 0.0,
+      "base_price": 16990,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3942,6 +3925,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "280983",
+        "title": "Насадка для вафель Tefal XA-734810 на Optigrill на OptiGrill 2in1",
+        "price": 26990,
+        "old_price": 57990,
+        "url": "https://www.technodom.kz/p/nasadka-dlya-vafel-tefal-xa-734810-280983",
+        "brand": "Tefal",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://api.technodom.kz/f3/api/v1/images/nasadka_dlya_vafel_tefal_xa_734810_280983_1.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 26990,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "655719",
         "title": "Стационарный блендер Rondell RDE-1253",
@@ -4106,6 +4116,34 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1489752",
+        "title": "Блендер Redmond RHB-2984B, Black",
+        "price": 43790,
+        "old_price": 77990,
+        "url": "https://shop.kz/offer/blender-redmond-rhb-2984b-black/",
+        "brand": "REDMOND",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://static.shop.kz/upload/iblock/81d/x8o6kp59wxcr8124b35duc3z68xi0iyw/00000165940.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 43.9,
+      "base_price": 77990,
+      "value_score": 90,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
     },
     {
       "product": {
@@ -4276,6 +4314,62 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "295825",
+        "title": "Колонка портативная Logitech X-300 (2.0), Blue",
+        "price": 35690,
+        "old_price": 59990,
+        "url": "https://shop.kz/offer/kolonka-portativnaya-logitech-x-300-2-0-blue/",
+        "brand": "Logitech",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://static.shop.kz/upload/iblock/0c8/01.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 40.5,
+      "base_price": 59990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "295848",
+        "title": "Колонка портативная Logitech X-300 (2.0), Purple-White",
+        "price": 35690,
+        "old_price": 59990,
+        "url": "https://shop.kz/offer/kolonka-portativnaya-logitech-x-300-2-0-purple-white/",
+        "brand": "Logitech",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://static.shop.kz/upload/iblock/d95/01.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 40.5,
+      "base_price": 59990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "31496",
         "title": "Блендер Polaris PHB 1380 Silent",
@@ -4413,6 +4507,62 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1646909",
+        "title": "Колонка портативная Greenworks GPT-MNBS, Black-Green",
+        "price": 31390,
+        "old_price": 51990,
+        "url": "https://shop.kz/offer/kolonka-portativnaya-greenworks-gpt-mnbs-black-green/",
+        "brand": "Greenworks",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://static.shop.kz/upload/iblock/7be/b8mtyxaofk2p86ymo677d9tmgme8cq1k/179344_A1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 39.6,
+      "base_price": 51990,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1232736",
+        "title": "Колонки Sven SPS-820 (2.1), Wood",
+        "price": 21290,
+        "old_price": 36990,
+        "url": "https://shop.kz/offer/kolonki-sven-sps-820-2-1-wood/",
+        "brand": "Sven",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://static.shop.kz/upload/iblock/e88/63743o4.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 39.2,
+      "base_price": 34990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 2.8
     },
     {
       "product": {
@@ -4585,6 +4735,144 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1008927",
+        "title": "Увлажнитель воздуха Kitfort KT-2809, White",
+        "price": 34490,
+        "old_price": 54690,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2809-white/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://static.shop.kz/upload/iblock/3ce/152153_9.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 36.9,
+      "base_price": 54690,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1465484",
+        "title": "Блендер Ufesa BP4560 Optima, Red",
+        "price": 14090,
+        "old_price": 21990,
+        "url": "https://shop.kz/offer/blender-ufesa-bp4560-optima-red/",
+        "brand": "Ufesa",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://static.shop.kz/upload/iblock/3ca/5kxf657cpc77zjh6d0bmw33bnvlyydn8/164697o3.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 35.9,
+      "base_price": 21990,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "865881",
+        "title": "Блендер Scarlett SC-HB42F81, Black",
+        "price": 12290,
+        "old_price": 19090,
+        "url": "https://shop.kz/offer/blender-scarlett-sc-hb42f81-black/",
+        "brand": "Scarlett",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://static.shop.kz/upload/iblock/bae/147101_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 35.6,
+      "base_price": 19090,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "876762",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986E11",
+        "price": 20690,
+        "old_price": 31990,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986e11/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/052/147111_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.3,
+      "base_price": 31990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1569339",
+        "title": "Блендер Redmond RHB-2980, Black",
+        "price": 21390,
+        "old_price": 32990,
+        "url": "https://shop.kz/offer/blender-redmond-rhb-2980-black/",
+        "brand": "REDMOND",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/f8f/63ydea621wmb3oqkqalwy7l8bdutt9s1/169776_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.2,
+      "base_price": 32990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "1685975",
         "title": "Гарнитура Lenovo Gaming H210, Black",
         "price": 12990,
@@ -4612,6 +4900,198 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1692500",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986M24, Black",
+        "price": 18190,
+        "old_price": 27990,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986m24-black/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/af8/333t3jtumagd04j319ovheyn4r8hk8ba/159511o200.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 35.0,
+      "base_price": 27990,
+      "value_score": 83,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "693651",
+        "title": "Блендер Scarlett SC-HB42F05, Black",
+        "price": 14890,
+        "old_price": 22890,
+        "url": "https://shop.kz/offer/blender-scarlett-sc-hb42f05-black/",
+        "brand": "Scarlett",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/e7c/140597_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 34.9,
+      "base_price": 22890,
+      "value_score": 83,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1691729",
+        "title": "Блендер Redmond BH404, Bronze",
+        "price": 47590,
+        "old_price": 72990,
+        "url": "https://shop.kz/offer/blender-redmond-bh404-bronze/",
+        "brand": "REDMOND",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/64b/ksmakhaoneuq5pzacra6u8ppivjyzn7t/185544s200.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 34.8,
+      "base_price": 72990,
+      "value_score": 83,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1222872",
+        "title": "Блендер Kitfort КТ-3041-2, Black-Light green",
+        "price": 13890,
+        "old_price": 21190,
+        "url": "https://shop.kz/offer/blender-kitfort-kt-3041-2-black-light-green/",
+        "brand": "Kitfort",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://static.shop.kz/upload/iblock/9cd/158157o13.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 34.5,
+      "base_price": 21190,
+      "value_score": 82,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1012389",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986E15, White",
+        "price": 19090,
+        "old_price": 29090,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986e15-white/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://static.shop.kz/upload/iblock/6bf/152292_2.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 34.4,
+      "base_price": 29090,
+      "value_score": 82,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "576293",
+        "title": "Гарнитура SteelSeries Arctis Pro, Black",
+        "price": 59190,
+        "old_price": 89900,
+        "url": "https://shop.kz/offer/garnitura-steelseries-arctis-pro-black/",
+        "brand": "SteelSeries",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://static.shop.kz/upload/iblock/1bd/134770_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 34.2,
+      "base_price": 89900,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1646603",
+        "title": "Увлажнитель воздуха Kitfort КТ-2877-1, Black",
+        "price": 20690,
+        "old_price": 31390,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2877-1-black/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://static.shop.kz/upload/iblock/291/o30908mcpfwbc9ogyt1676elrkn632yn/179153_A1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 34.1,
+      "base_price": 31390,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "49120",
         "title": "Саундбар Samsung HW-B450F/RU",
@@ -4634,6 +5114,33 @@
       "is_pick": true,
       "badges": [
         "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1693928",
+        "title": "Блендер Scarlett SC-HB42F08, Black",
+        "price": 11190,
+        "old_price": 16800,
+        "url": "https://shop.kz/offer/blender-scarlett-sc-hb42f08-black/",
+        "brand": "Scarlett",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://static.shop.kz/upload/iblock/276/uqbco1re094wgwjkchgrtbs676qt4ndz/186009o200.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 33.4,
+      "base_price": 16800,
+      "value_score": 81,
+      "is_pick": false,
+      "badges": [
         "Честная скидка"
       ],
       "inflated_gap": -0.4
@@ -4669,6 +5176,33 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1657526",
+        "title": "Увлажнитель воздуха Kitfort KT-2878, Black-White",
+        "price": 19590,
+        "old_price": 29190,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2878-black-white/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://static.shop.kz/upload/iblock/2a9/473jnfqjjwxbkoupyzcimpj30rqw1s42/181934s200.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 32.9,
+      "base_price": 29190,
+      "value_score": 80,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "652738",
         "title": "Ноутбук Lenovo IdeaPad Slim 3 15AMN8 / AMD Ryzen 5 40 / 16GB / SSD 512GB / Radeon Graphics 610M / Win 11 / 82XQ01SLRK",
@@ -4695,6 +5229,34 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 3.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1707995",
+        "title": "Саундбар Music Public Kingdom SB040, Black",
+        "price": 23590,
+        "old_price": 34990,
+        "url": "https://shop.kz/offer/saundbar-music-public-kingdom-sb040-black/",
+        "brand": "Music Public Kingdom",
+        "category": "Саундбары",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://static.shop.kz/upload/iblock/26d/t1pyw1c1f4bacq50xt479u42axn3tem5/191565d1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 32.6,
+      "base_price": 34990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -4726,6 +5288,144 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1073883",
+        "title": "Гарнитура Logitech G635, Black",
+        "price": 64490,
+        "old_price": 95490,
+        "url": "https://shop.kz/offer/garnitura-logitech-g635-black/",
+        "brand": "Logitech",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://static.shop.kz/upload/iblock/65f/154207_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 32.5,
+      "base_price": 95490,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "945189",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986M22",
+        "price": 16990,
+        "old_price": 24990,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986m22/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://static.shop.kz/upload/iblock/6a0/150088_2.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 32.0,
+      "base_price": 24990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "927825",
+        "title": "Очиститель воздуха Kitfort KT-2812",
+        "price": 44990,
+        "old_price": 65990,
+        "url": "https://shop.kz/offer/ochistitel-vozdukha-kitfort-kt-2812/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://static.shop.kz/upload/iblock/461/149264_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.8,
+      "base_price": 65990,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1495872",
+        "title": "Измельчитель Centek CT-1395, Steel",
+        "price": 15690,
+        "old_price": 22990,
+        "url": "https://shop.kz/offer/izmelchitel-centek-ct-1395-steel/",
+        "brand": "Centek",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://static.shop.kz/upload/iblock/ae2/4gbf6n3yxmcm3aw63igrhxhc24z7rnib/165988o8.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.8,
+      "base_price": 22990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1465706",
+        "title": "Блендер Ufesa BP4752 Vario 1400 Titanium XL Max, Black",
+        "price": 27390,
+        "old_price": 39990,
+        "url": "https://shop.kz/offer/blender-ufesa-bp4752-vario-1400-titanium-xl-max-black/",
+        "brand": "Ufesa",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://static.shop.kz/upload/iblock/5ca/21gnv44nowngcmfioexa9a2iv1rasnv9/164702o3.JPG",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.5,
+      "base_price": 39990,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "48329",
         "title": "Lenovo IdeaPad Slim 3 8Gb|512Gb|15.6|Ryzen 3-30|Win11",
@@ -4751,6 +5451,169 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1465604",
+        "title": "Блендер Ufesa BP4582 Vario 1000 Max, Grey-White",
+        "price": 19190,
+        "old_price": 27990,
+        "url": "https://shop.kz/offer/blender-ufesa-bp4582-vario-1000-max-grey-white/",
+        "brand": "Ufesa",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://static.shop.kz/upload/iblock/305/eqvfjelhhb9qhc8e7dfi9lszys9f2xx0/164699o4.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.4,
+      "base_price": 27990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1465673",
+        "title": "Блендер Ufesa BP4750 Vario 1400 Titanium XL, Black",
+        "price": 24690,
+        "old_price": 35990,
+        "url": "https://shop.kz/offer/blender-ufesa-bp4750-vario-1400-titanium-xl-black/",
+        "brand": "Ufesa",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://static.shop.kz/upload/iblock/679/gd2zykz573audvib4ms1zuw6qu5nevi4/164701o3.JPG",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.4,
+      "base_price": 35990,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "745506",
+        "title": "Колонка портативная Defender Enjoy S1000 (2.0), Blue",
+        "price": 11690,
+        "old_price": 17990,
+        "url": "https://shop.kz/offer/kolonka-portativnaya-defender-enjoy-s1000-2-0-blue/",
+        "brand": "Defender",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://static.shop.kz/upload/iblock/bc9/143701_05.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 31.2,
+      "base_price": 16990,
+      "value_score": 78,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 3.8
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "783156",
+        "title": "Блендер Moulinex DD6411 Optichef, White-Grey",
+        "price": 24890,
+        "old_price": 35990,
+        "url": "https://shop.kz/offer/blender-moulinex-dd6411-optichef-white-grey/",
+        "brand": "Moulinex",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://static.shop.kz/upload/iblock/49d/144943_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.8,
+      "base_price": 35990,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1012434",
+        "title": "Увлажнитель воздуха Scarlett SC-AH986M20, White",
+        "price": 24190,
+        "old_price": 34890,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-scarlett-sc-ah986m20-white/",
+        "brand": "Scarlett",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://static.shop.kz/upload/iblock/c59/152293_4.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.7,
+      "base_price": 34890,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1641076",
+        "title": "Увлажнитель воздуха Kitfort KT-2880, White",
+        "price": 60690,
+        "old_price": 87390,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2880-white/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://static.shop.kz/upload/iblock/84f/x4yh0lta5cv2rpmmtpvxs315ab1jir05/178182_m_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.6,
+      "base_price": 87390,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -4780,6 +5643,222 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -7.6
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1670207",
+        "title": "Увлажнитель воздуха Kitfort КТ-2885, White-Violet",
+        "price": 45590,
+        "old_price": 65590,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-kitfort-kt-2885-white-violet/",
+        "brand": "Kitfort",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/981/xu1u3xt3elh3j193yd2uk9ohmv4uolw5/183914_01_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.5,
+      "base_price": 65590,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1131249",
+        "title": "Блендер Kitfort КТ-3003, Blue",
+        "price": 11190,
+        "old_price": 16090,
+        "url": "https://shop.kz/offer/blender-kitfort-kt-3003-blue/",
+        "brand": "Kitfort",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/2a7/155461_12.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.5,
+      "base_price": 16090,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1704665",
+        "title": "Колонки Edifier Airpulse A200T (2.0), Walnut",
+        "price": 279490,
+        "old_price": 399990,
+        "url": "https://shop.kz/offer/kolonki-edifier-airpulse-a200t-2-0-walnut/",
+        "brand": "Edifier",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/ad5/x3zwpnn93174ykq9ubi1qmw4f2ngmc2e/189888s200.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.1,
+      "base_price": 399990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1613545",
+        "title": "Bluetooth гарнитура 1More Colorbuds 2 ES602, White",
+        "price": 13990,
+        "old_price": 19990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-1more-colorbuds-2-es602-white/",
+        "brand": "1More",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/464/5jxldzvriokmrsbxsy07971wp0b4wmq1/174158o200.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.0,
+      "base_price": 19990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1546695",
+        "title": "Блендер Redmond RHB-2941, White",
+        "price": 18890,
+        "old_price": 26990,
+        "url": "https://shop.kz/offer/blender-redmond-rhb-2941-white/",
+        "brand": "REDMOND",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/7be/fyo04qk3ixcwqn6vcl6h9f2h9gvinf5f/00000168512.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.0,
+      "base_price": 26990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1626373",
+        "title": "Увлажнитель воздуха Redmond RHF-3316, Black",
+        "price": 60890,
+        "old_price": 86990,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-redmond-rhf-3316-black/",
+        "brand": "REDMOND",
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/675/1a4mymepys9lc87bvza173w415dp48im/176455o200.JPG",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.0,
+      "base_price": 86990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1326401",
+        "title": "Гарнитура HyperX Cloud Alpha Wireless, Black",
+        "price": 66490,
+        "old_price": 94990,
+        "url": "https://shop.kz/offer/garnitura-hyperx-cloud-alpha-wireless-black/",
+        "brand": "HyperX",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/72a/161110o1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.0,
+      "base_price": 94990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "944352",
+        "title": "Блендер Scarlett SC-HB42F54, Burgundy",
+        "price": 20090,
+        "old_price": 28690,
+        "url": "https://shop.kz/offer/blender-scarlett-sc-hb42f54-burgundy/",
+        "brand": "Scarlett",
+        "category": "Блендеры",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://static.shop.kz/upload/iblock/708/150060_1.jpg",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.0,
+      "base_price": 28690,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -4836,6 +5915,33 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "30957",
+        "title": "Машинка для стрижки и триммер Rowenta TN3651F0",
+        "price": 14990,
+        "old_price": 24990,
+        "url": "https://evrika.com/catalog/mashinka-dlya-strizhki-i-trimmer-rowenta-tn3651f0/p30957",
+        "brand": null,
+        "category": "Машинки для стрижки и триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/qSjXsB3rJpRJkGQr9RTIWJsQ9b7o0AXeNXx2OgtS.jpg.webp",
+        "first_seen": "2026-11-07T16:49:50+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 28.6,
+      "base_price": 20990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.4
     },
     {
       "product": {
@@ -5284,33 +6390,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "641673",
-        "title": "Смартфон Honor X5c Plus 4/128GB Ocean Cyan",
-        "price": 61990,
-        "old_price": 79990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-honor-x5c-plus-4128gb-ocean-cyan",
-        "brand": "HONOR",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7175_0_6_FfrTOv_160.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 22.5,
-      "base_price": 79990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "654692",
         "title": "Робот-пылесос Trouver S70 Ultra Roller",
         "price": 466015,
@@ -5471,34 +6550,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655580",
-        "title": "Ноутбук Asus TUF Gaming 16 AMD Ryzen 7 260 16 GB / SSD 512GB / GeForce RTX 5050 8GB / Win 11 / 90NR0R61-M00210",
-        "price": 699990,
-        "old_price": 834990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-tuf-gaming-16-90nr0r61-m00210-r7165sg55w11h",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9905_0_1_pttlI1_160.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 21.6,
-      "base_price": 892990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -5.6
     },
     {
       "product": {
@@ -5693,6 +6744,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "637199",
+        "title": "Робот-пылесос Dreame D20 Plus",
+        "price": 122990,
+        "old_price": 154990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-d20-plus",
+        "brand": "Dreame",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_241_0_1_CYmnhy_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 20.6,
+      "base_price": 154990,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "624404",
         "title": "Встраиваемый духовой шкаф Haier HOQ-F6QAN3GG",
         "price": 245990,
@@ -5720,33 +6798,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "637199",
-        "title": "Робот-пылесос Dreame D20 Plus",
-        "price": 123190,
-        "old_price": 154990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-d20-plus",
-        "brand": "Dreame",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_241_0_1_CYmnhy_160.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 20.5,
-      "base_price": 154990,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "300202",
         "title": "Игровая мышь Bloody W95-Max Sports, Lime",
@@ -5771,34 +6822,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1727378",
-        "title": "Ноутбук ASUS Vivobook S16 S3607CA (90NB16I1-M00E50)",
-        "price": 549990,
-        "old_price": 689990,
-        "url": "https://shop.kz/offer/noutbuk-asus-vivobook-s16-s3607ca-90nb16i1-m00e50/",
-        "brand": "ASUS",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://static.shop.kz/upload/iblock/901/nvtwwl9qz0lmxszi2bibst2p4h26biy1/198497s1.jpg",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 19.1,
-      "base_price": 679990,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.9
     },
     {
       "product": {
@@ -6018,34 +7041,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1067526",
-        "title": "Гарнитура Lenovo Legion H300, Black",
-        "price": 26990,
-        "old_price": 32990,
-        "url": "https://shop.kz/offer/garnitura-lenovo-legion-h300-black/",
-        "brand": "Lenovo",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://static.shop.kz/upload/iblock/b9e/153997_3.jpg",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 15.6,
-      "base_price": 31990,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 2.4
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "282025",
         "title": "Клавиатура игровая Bloody AT98 Renegade Black Midnight (AT98-RBM)",
@@ -6129,6 +7124,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "623476",
+        "title": "Морозильный ларь Hansa FS2496.3W",
+        "price": 135889,
+        "old_price": 169990,
+        "url": "https://www.sulpak.kz/g/morozilniki-i-lari-hansa-fs24963w",
+        "brand": "Hansa",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_2235_232_0_1_w6mH8A_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 15.1,
+      "base_price": 159990,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "651918",
         "title": "Смартфон Huawei Nova 15 Max 8/256G Blush Gold",
         "price": 140890,
@@ -6167,7 +7189,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12450_0_6_4leP4I_160.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
+        "first_seen": "2026-10-06T21:20:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -6301,7 +7323,7 @@
       "signal": "drop",
       "drop_pct": 23,
       "fair_discount": 13.5,
-      "base_price": 115556,
+      "base_price": 115551,
       "value_score": 47,
       "is_pick": false,
       "badges": [],
@@ -6443,31 +7465,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1728992",
-        "title": "Смартфон vivo V70 lite, 8 GB, 128 GB, Blue (V2604)",
-        "price": 219990,
-        "old_price": 249990,
-        "url": "https://shop.kz/offer/smartfon-vivo-v70-lite-8-gb-128-gb-blue-v2604/",
-        "brand": "vivo",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://static.shop.kz/upload/iblock/c49/h333hohymuumzrmof3wb2c6bbbj2f96t/198803o1.jpg",
-        "first_seen": "2026-10-28T17:02:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 12.0,
-      "base_price": 249990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "288467",
         "title": "Встраиваемая посудомоечная машина Toshiba DW-10B3(B)-CIS",
@@ -6544,31 +7541,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1725935",
-        "title": "Компьютер офисный WW-KZ (Intel Core i5-12400, 500 GB SSD, 16 GB)",
-        "price": 293990,
-        "old_price": null,
-        "url": "https://shop.kz/offer/kompyuter-ofisnyy-ww-kz-intel-core-i5-12400-500-gb-ssd-16-gb/",
-        "brand": "Белый Ветер",
-        "category": "Настольные компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/1e1/xnz79g0guu4yw3yfjx6tavfz795v35bm/197629o1.jpg",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 11.3,
-      "base_price": 331290,
-      "value_score": 44,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6696,31 +7668,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1729022",
-        "title": "Смартфон vivo V70 lite, 8 GB, 256 GB, Blue (V2604)",
-        "price": 249990,
-        "old_price": 279990,
-        "url": "https://shop.kz/offer/smartfon-vivo-v70-lite-8-gb-256-gb-blue-v2604/",
-        "brand": "vivo",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 11,
-        "image": "https://static.shop.kz/upload/iblock/b47/9qdbb1y60yzqm5836jbfb86j4y66o1tf/198804o1.jpg",
-        "first_seen": "2026-10-28T17:02:47+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 11,
-      "fair_discount": 10.7,
-      "base_price": 279990,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -6993,6 +7940,34 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "642219",
+        "title": "Смарт часы Apple Watch Series 11GPS42mmJet Black Aluminium Case with Black Sport Band - M/L MEQU4R",
+        "price": 199990,
+        "old_price": 303990,
+        "url": "https://www.sulpak.kz/g/tovariy-ne-dlya-prodazhi-apple-watch-series-11gps42mmjet-black-aluminium-case-with-black-sport-band-ml-mequ4r",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2257_0_1_BnqQ5t_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 9.1,
+      "base_price": 219990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.9
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "228568",
         "title": "Газовая варочная панель Hansa BHKS-330500",
@@ -7067,245 +8042,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 13.3
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "300131",
-        "title": "Морозильник Candy CCM251A",
-        "price": 127990,
-        "old_price": 149990,
-        "url": "https://www.technodom.kz/p/morozilnik-candy-ccm251a-300131",
-        "brand": "Candy",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://api.technodom.kz/f3/api/v1/images/300131_1.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 8.6,
-      "base_price": 139990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 6.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45700",
-        "title": "Стиральная машина Gorenje W3NGPI61SBS/C",
-        "price": 118990,
-        "old_price": 215990,
-        "url": "https://evrika.com/catalog/stiralnaya-mashina-gorenje-w3ngpi61sbs-c/p45700",
-        "brand": null,
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/AJpwpvdyyTRBmDHqUKzTEalMmjM4n9OV41zgDDTO.jpg.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 8.5,
-      "base_price": 129990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 36.5
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1725665",
-        "title": "Смартфон Redmi 17, 4 GB, 256 GB, Black (2606FRN72Y)",
-        "price": 109990,
-        "old_price": 119990,
-        "url": "https://shop.kz/offer/smartfon-redmi-17-4-gb-256-gb-black-2606frn72y/",
-        "brand": "Xiaomi",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 8,
-        "image": "https://static.shop.kz/upload/iblock/c00/tgj72mhyjtpqqa6ysg67sfe41e85665w/197786o1.jpg",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 8,
-      "fair_discount": 8.3,
-      "base_price": 119990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1726256",
-        "title": "Смартфон Redmi 17, 4 GB, 256 GB, Oak Green (2606FRN72Y)",
-        "price": 109990,
-        "old_price": 119990,
-        "url": "https://shop.kz/offer/smartfon-redmi-17-4-gb-256-gb-oak-green-2606frn72y/",
-        "brand": "Xiaomi",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 8,
-        "image": "https://static.shop.kz/upload/iblock/88e/ih4i5vl7qagk6jphqq44akm04l4dv990/198258o1.JPG",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 8,
-      "fair_discount": 8.3,
-      "base_price": 119990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1726259",
-        "title": "Смартфон Redmi 17, 4 GB, 256 GB, Deep Blue (2606FRN72Y)",
-        "price": 109990,
-        "old_price": 119990,
-        "url": "https://shop.kz/offer/smartfon-redmi-17-4-gb-256-gb-deep-blue-2606frn72y/",
-        "brand": "Xiaomi",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 8,
-        "image": "https://static.shop.kz/upload/iblock/ccb/449muoz3ng8u5u4u10i7ot02dl4pavyp/198257o1.jpg",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 8,
-      "fair_discount": 8.3,
-      "base_price": 119990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "276805",
-        "title": "Вытяжка Hansa OMP9554BGH",
-        "price": 109990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/vytyazhka-hansa-omp9554bgh-276805",
-        "brand": "Hansa",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/vytyazhka_hansa_omp9554bgh_276805_1.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 8.3,
-      "base_price": 119990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "45323",
-        "title": "Бритва Braun 52-A1000sLBLU",
-        "price": 44990,
-        "old_price": 80990,
-        "url": "https://evrika.com/catalog/britva-braun-52-a1000slblu/p45323",
-        "brand": null,
-        "category": "Бритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/fIpHfIYbIZQdy55kwuhn7a9rs49c5VBZJfYOdPmy.jpg.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 8.2,
-      "base_price": 48990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 35.8
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "28020",
-        "title": "Блендер Moulinex DD833810",
-        "price": 22990,
-        "old_price": 43990,
-        "url": "https://evrika.com/catalog/blender-moulinex-dd833810/p28020",
-        "brand": null,
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/R91QzFUhqRhKNwtuStfFlMgNoVNGf52L7lVxT8OF.jpg.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 8.0,
-      "base_price": 24990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 40.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "48027",
-        "title": "Бритва электрическая Braun 72-G1200s GREY",
-        "price": 91990,
-        "old_price": 159090,
-        "url": "https://evrika.com/catalog/britva-braun-72-g1200s-grey/p48027",
-        "brand": null,
-        "category": "Бритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/cf3vHlAGLgieNRXSMdF7vdoaslqOrPRVLe40hDSb.jpg.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 8.0,
-      "base_price": 99990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 34.0
     }
   ],
   "shops": [
@@ -7319,42 +8055,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-10T13:01:06+00:00",
-      "item_count": 2718,
+      "last_crawl": "2026-11-10T21:09:21+00:00",
+      "item_count": 2710,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-10T13:01:06+00:00",
+      "last_crawl": "2026-11-10T21:09:21+00:00",
       "item_count": 12477,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-10T13:01:06+00:00",
-      "item_count": 3743,
+      "last_crawl": "2026-11-10T21:09:21+00:00",
+      "item_count": 3750,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-10T13:01:06+00:00",
-      "item_count": 9891,
+      "last_crawl": "2026-11-10T21:09:21+00:00",
+      "item_count": 9888,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-10T13:01:06+00:00",
+      "last_crawl": "2026-11-10T21:09:21+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29073,
-    "total_deals": 274,
-    "avg_discount": 47.0
+    "total_products": 29069,
+    "total_deals": 300,
+    "avg_discount": 44.0
   }
 }
