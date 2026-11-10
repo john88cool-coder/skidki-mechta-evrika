@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-11-10T04:29:38.105711+00:00",
+  "updated_at": "2026-11-10T13:01:30.863937+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "101502",
+        "title": "Cистема виртуальной реальности VIVE PRO Full",
+        "price": 149990,
+        "old_price": 779990,
+        "url": "https://www.technodom.kz/p/cistema-virtualnoj-realnosti-vive-pro-full-101502",
+        "brand": "HTC",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 81,
+        "image": "https://api.technodom.kz/f3/api/v1/images/101502a_1.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 81,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 23,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "evrika",
@@ -15,7 +40,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://cdn.evrika.com/storage/products/images/medium/YWSNa4KxaEuxzKDdJzkSOSjRnFp9OOkTLtvidtS5.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -65,7 +90,7 @@
         "in_stock": true,
         "discount_pct": 70,
         "image": "https://s3s.alser.kz/uploads/products/NydoncxWqK/nausniki-hyperx-cloud-mix-4p5k9aanr-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 70,
@@ -90,7 +115,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://cdn.evrika.com/storage/products/images/medium/I589TJLFtcXnKtf7x4tDDB6Yg6WcbER8WeMBvOdK.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -115,7 +140,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://api.technodom.kz/f3/api/v1/images/296296_1a.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -140,7 +165,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://s3s.alser.kz/uploads/products/hozajstvennye-pylesosy/L1wd0u9dn/hozajstvennyj-pylesos-karcher-wd-3-s-v-17420-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -193,7 +218,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://api.technodom.kz/f3/api/v1/images/288248_2.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -220,7 +245,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://api.technodom.kz/f3/api/v1/images/288250_2.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -247,7 +272,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://api.technodom.kz/f3/api/v1/images/265472_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -275,7 +300,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://s3s.alser.kz/uploads/products/feny/njMywuZd5/fen-skladnoj-dreame-pocket-space-grey-ahd51-1300-vt-2-nasadki-ionizacia-cehol-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -300,7 +325,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://s3s.alser.kz/uploads/products/kofemashinki/v5lWkfq0N/espresso-kofemasina-fakir-babila-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -325,7 +350,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://s3s.alser.kz/uploads/products/istochnik-besperebojnogo-pitanija/KmgZbCeqZM/volta-base-800-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 59,
@@ -350,7 +375,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://s3s.alser.kz/uploads/products/printery-lazernye/v5lVjhjg9/printer-hp-europe-laserjet-m111w-a4-83-ppm-600x600-dpi-hps-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 59,
@@ -377,7 +402,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://s3s.alser.kz/uploads/products/istochnik-besperebojnogo-pitanija/KmgZvfePvn/istocnik-besperebojnogo-pitania-svc-v-600-l-lcd-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 59,
@@ -402,7 +427,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://api.technodom.kz/f3/api/v1/images/smart_braslety_xiaomi_smart_band_9_pro_obsidian_black_287141_01.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -429,7 +454,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://api.technodom.kz/f3/api/v1/images/blender_stacionarnyj_aeno_atb_0001_271150_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -457,7 +482,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://api.technodom.kz/f3/api/v1/images/265471_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -485,7 +510,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://s3s.alser.kz/uploads/products/teleskopialyk/w8px5CynZ/vityazhka-samsung-nk24m1030is-ur-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -512,7 +537,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://s3s.alser.kz/uploads/products/vyprjamiteli-dlja-volos/mjNwnfyWn/fen-vypramitel-hauzen-ceramic-airstrait-bezevyj-haki-1300-vt-5-rezimov-avtootklucenie-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -537,7 +562,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://cdn.evrika.com/storage/products/images/medium/U4LU9Alh7u1OqJdQUYnhyWxPOiRUYZDFYT1B7uH0.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -612,7 +637,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://s3s.alser.kz/uploads/products/printery-lazernye/NZYQwck8e/printer-hp-europe-laserjet-m111a-a4-83-ppm-600x600-dpi-hps7md67a-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -639,7 +664,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://api.technodom.kz/f3/api/v1/images/noutbuk_apple_macbook_pro_16_space_grey_2023_mnw83ru_269518_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -666,7 +691,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://s3s.alser.kz/uploads/products/printery-snpch/NZYQeuJkB/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -691,7 +716,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://cdn.evrika.com/storage/products/images/medium/1bK5LCVgj0AKtbEmk9fH56v4Dus6TZLfdXhirL8F.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -741,7 +766,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://s3s.alser.kz/uploads/products/feny/489KbsDJG/fen-setka-rowenta-cf9520f0-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -766,7 +791,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://s3s.alser.kz/uploads/products/stajlery/bxOAjCXNM/multistajler-dreame-dazzle-gold-1400-vt-5-nasadok-3-rezima-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -775,33 +800,6 @@
       "value_score": 27,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1319940",
-        "title": "Встраиваемая духовка Samsung NV68A1145RS/WT",
-        "price": 119990,
-        "old_price": 259990,
-        "url": "https://alser.kz/p/nv68a1145rswtvstraivaemaa-duhovka-samsung",
-        "brand": "Samsung",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://s3s.alser.kz/uploads/products/duhovye-shkafy/YJpDKuEqE/nv68a1145rswtvstraivaemaa-duhovka-samsung-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
       "inflated_gap": null
     },
     {
@@ -818,7 +816,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://s3s.alser.kz/uploads/products/mjasorubki/ZJdD0cK4P/masorubka-moulinex-me111032-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -843,7 +841,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://s3s.alser.kz/uploads/products/feny/rBMrGSLjy/fen-dreame-pocket-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -868,7 +866,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_16_904_0_1_pHPGG2_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -893,7 +891,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://s3s.alser.kz/uploads/products/klaviatury/oekYDib7Q/klaviatura-besprovodnaa-logitech-mx-keys-mini-pale-grey-btrus-920-010502-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -918,7 +916,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://s3s.alser.kz/uploads/products/barlyk-sorgystar/g4AvbcEBl/okp6547shvytazka-hansa-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -943,7 +941,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://s3s.alser.kz/uploads/products/myshi/dn5j8im55/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -968,7 +966,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://s3s.alser.kz/uploads/products/dreame/GAwVrf8PXZ/robot-pylesos-dreame-l40s-pro-ultra-white-rll74ce-19-000-pa-samoocistka-170-min-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -993,7 +991,7 @@
         "in_stock": true,
         "discount_pct": 52,
         "image": "https://cdn.evrika.com/storage/products/images/medium/8vmrtkeM8m1oCCcNQNpW4wl90pzfqj5IpjmiZsJ2.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 52,
@@ -1018,7 +1016,7 @@
         "in_stock": true,
         "discount_pct": 52,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20522_0_1_XNhIsh_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 52,
@@ -1045,7 +1043,7 @@
         "in_stock": true,
         "discount_pct": 52,
         "image": "https://s3s.alser.kz/uploads/products/vodonagrevateli/NZYpnC7oZ/fast-r-onm-10-ng-rugazovyj-protocnyj-vodonagrevatel-ariston-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 52,
@@ -1070,7 +1068,7 @@
         "in_stock": true,
         "discount_pct": 52,
         "image": "https://s3s.alser.kz/uploads/products/stajlery/ZJdpyceyD/stajler-dla-volos-rowenta-karl-lagerfeld-cf471lf0-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 52,
@@ -1095,7 +1093,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://cdn.evrika.com/storage/products/images/medium/GuaO80c1DR9jDHvaFiFKMJynFvpno9t3JMbbCY3r.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1120,7 +1118,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6298_0_6_0zI6qB_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1145,7 +1143,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6300_0_6_NcoeaI_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1170,7 +1168,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_216_0_1_BMGXmB_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1195,7 +1193,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/JAe11hqgJ/vertikalnyj-mousij-pylesos-dreame-h12-pro-flexreach-black-18-000-pa-samoocistka-50-min-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1220,7 +1218,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/mjasorubki/489kahwqj/myasorubka-moulinex-me306832-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-07T17:46:04+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1245,7 +1243,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/vyprjamiteli-dlja-volos/NZYbEU5BQ/fen-vypramitel-hauzen-ceramic-airstrait-seryj-1300-vt-5-rezimov-avtootklucenie-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1270,7 +1268,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/feny/X85M8tAD0/fen-vysokoskorostnoj-dreame-glory-mix-black-1600-vt-2-rezima-3-nasadki-datciki-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1295,7 +1293,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://s3s.alser.kz/uploads/products/vse-kondicioneri/w8pDlI4ek/kondicioner-aux-asw-h07a4qgr1di-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
@@ -1345,7 +1343,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://cdn.evrika.com/storage/products/images/medium/3C92ichFLNZqKsHNwnNZ3fhyQ0P4q4ytePhItKGs.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 48,
@@ -1395,7 +1393,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://s3s.alser.kz/uploads/products/vyprjamiteli-dlja-volos/jevPNiPKG/vypramitel-rowenta-sf323lf0-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 48,
@@ -1420,7 +1418,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://s3s.alser.kz/uploads/products/feny/rBQgqiQZy/fen-setka-rowenta-karl-lagerfeld-cf634lf0-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 48,
@@ -1445,7 +1443,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://cdn.evrika.com/storage/products/images/medium/qPmOExafkj7Hp76JmvYbvZxV5g89AG5k3Zkrxh4d.jpeg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-11-07T16:49:50+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -1470,7 +1468,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://cdn.evrika.com/storage/products/images/medium/7gJMYQ5s3uf29jhNJmO2vvQflsW6aH5LCZQvGZKZ.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -1497,7 +1495,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://s3s.alser.kz/uploads/products/plity/NZYxOIAB/kuhonnaa-plita-artel-apetito-01-g-seryj-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -1522,7 +1520,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://s3s.alser.kz/uploads/products/vse-stiralnie-masini/njMWZFmoP/stiralnaa-masina-beko-b3wfr572ab-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -1547,7 +1545,7 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://s3s.alser.kz/uploads/products/xjWgEhkaV/parovaa-svabra-kt-1005-2-krasnaa-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
@@ -1572,7 +1570,7 @@
         "in_stock": true,
         "discount_pct": 46,
         "image": "https://s3s.alser.kz/uploads/products/hozajstvennye-pylesosy/X8GWkCgWA/pylesos-hozajstvennyj-karcher-wd-6-p-s-v-30622t-yellow-1628-3600-vstroennaa-rozetka-30-l-1300-vt-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 46,
@@ -1597,7 +1595,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7259_0_1_4uGCbi_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 45,
@@ -1622,7 +1620,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/Q1GGwc91B/vertikalnyj-mousij-pylesos-trouver-m10-pro-samoocistka-300vt-40-min-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 45,
@@ -1647,7 +1645,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://s3s.alser.kz/uploads/products/plity/Wo7kdh8ka/fccw68103elektriceskaa-plita-hansa-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 45,
@@ -1672,7 +1670,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://s3s.alser.kz/uploads/products/vodonagrevateli/Rl91YfMRE/fast-r-onm-14-ng-ru-gazovyj-protocnyj-vodonagrevatel-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 44,
@@ -1697,7 +1695,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://s3s.alser.kz/uploads/products/vertikalnie-pylesosy/rBGrWiMNp/vertikalnyj-pylesos-karcher-vc-6-cordless-ourfamily-black-1198-6700-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 43,
@@ -1722,7 +1720,7 @@
         "in_stock": true,
         "discount_pct": 42,
         "image": "https://s3s.alser.kz/uploads/products/mashinki-dlja-strizhki-volos/ZJdqmHDKZ/masinka-dla-strizki-volos-polaris-black-phc-3017rc-5-nasadok-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 42,
@@ -1747,32 +1745,7 @@
         "in_stock": true,
         "discount_pct": 42,
         "image": "https://s3s.alser.kz/uploads/products/klaviatury/181WlTwYd/klaviaturag915tklkeyboardharpy-tklcdmmixed-modelrusintnlcarbonretail24ghzbt-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 42,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1273502",
-        "title": "Пылесос моющий Karcher SE 6.100, White, 1.081-220.0, (4/4 л, 5 насадок, 1400 Вт)",
-        "price": 139990,
-        "old_price": 239990,
-        "url": "https://alser.kz/p/moyushchij-piylesos-karcher-se-6-100",
-        "brand": "Karcher",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://s3s.alser.kz/uploads/products/moyushie-pilesosy/kjGRLC4DjM/moyushchij-piylesos-karcher-se-6-100-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 42,
@@ -1797,85 +1770,10 @@
         "in_stock": true,
         "discount_pct": 41,
         "image": "https://s3s.alser.kz/uploads/products/plity/JAWxkT9pP/fcmw68123gazoelektriceskaa-plita-hansa-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 41,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1442945",
-        "title": "Пароочиститель Kärcher SC 5 EasyFix IRON PLUG (1.512-660.0)",
-        "price": 189990,
-        "old_price": 319990,
-        "url": "https://alser.kz/p/paroocistitel-sc-5-easyfix-iron-plug-1512-6600",
-        "brand": "Karcher",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://s3s.alser.kz/uploads/products/paroochistiteli/8rn9Lh507/paroocistitel-sc-5-easyfix-iron-plug-1512-6600-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 41,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1398426",
-        "title": "Блендер Fakir Mixy Pro",
-        "price": 22990,
-        "old_price": 37990,
-        "url": "https://alser.kz/p/blender-mixy-pro",
-        "brand": "Fakir",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://s3s.alser.kz/uploads/products/blenderyi-i-miksery/489J5Ux8Rx/blender-mixy-pro-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 39,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1380913",
-        "title": "Хлебопечь Moulinex OW220830",
-        "price": 49990,
-        "old_price": 79990,
-        "url": "https://alser.kz/p/hlebopec-moulinex-ow220830",
-        "brand": "Moulinex",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 38,
-        "image": "https://s3s.alser.kz/uploads/products/hlebopechki/YJp0bcJNp1/hlebopec-moulinex-ow220830-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 38,
       "fair_discount": null,
       "base_price": null,
       "value_score": 27,
@@ -1897,7 +1795,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://s3s.alser.kz/uploads/products/plity/489vyTnKM/fccx68103-elektriceskaa-plita-hansa-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 35,
@@ -1922,7 +1820,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://s3s.alser.kz/uploads/products/monitory-igrovye/kjAXJT0xR/monitor-32-samsung-gamimg-odyssey-g5-ls32dg500eixci-ips-2560x1440-180gc-1ms350-kdm2dp-hdmi-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 35,
@@ -1933,31 +1831,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1403090",
-        "title": "Струйный МФУ Canon PIXMA G2410",
-        "price": 59990,
-        "old_price": 88990,
-        "url": "https://alser.kz/p/strujnyj-mfu-canon-pixma-g2410-4800x1200-cb-88-izbmin-cvet-50-izbmin-10x15sm-pribl-za-60-sek-cb-12000-stcv-7000-2-kartridza-fine",
-        "brand": "Canon",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://s3s.alser.kz/uploads/products/mfu-snpch/ZJdPNi97p/strujnyj-mfu-canon-pixma-g2410-4800x1200-cb-88-izbmin-cvet-50-izbmin-10x15sm-pribl-za-60-sek-cb-12000-stcv-7000-2-kartridza-fine-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 33,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -1974,7 +1847,7 @@
         "in_stock": true,
         "discount_pct": 28,
         "image": "https://s3s.alser.kz/uploads/products/klaviatury-dlja-gejmerov/GAydqcYNd/klaviatura-besprovodnaa-igrovaa-logitech-g915-x-lightspeed-blacktactile-920-012676-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 28,
@@ -1999,7 +1872,7 @@
         "in_stock": true,
         "discount_pct": 27,
         "image": "https://s3s.alser.kz/uploads/products/plity/P5BxvuZea/fcmx68123-gazoelektriceskaa-plita-w160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 27,
@@ -2012,30 +1885,28 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "101502",
-        "title": "Cистема виртуальной реальности VIVE PRO Full",
-        "price": 149990,
-        "old_price": 779990,
-        "url": "https://www.technodom.kz/p/cistema-virtualnoj-realnosti-vive-pro-full-101502",
-        "brand": "HTC",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
+        "shop": "alser",
+        "sku": "1448071",
+        "title": "Кондиционер Inverter Hansa ACI-24W55, White, (50-70 м², 24 000 BTU, Ионизация)",
+        "price": 169990,
+        "old_price": 219990,
+        "url": "https://alser.kz/p/kondicioner-aci-24x77",
+        "brand": "Hansa",
+        "category": null,
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 81,
-        "image": "https://api.technodom.kz/f3/api/v1/images/101502a_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "discount_pct": 23,
+        "image": "https://s3s.alser.kz/uploads/products/vse-kondicioneri/bxA5dhbVJY/kondicioner-aci-24x77-w160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
-      "drop_pct": 81,
-      "fair_discount": 0.0,
-      "base_price": 149990,
-      "value_score": 23,
+      "drop_pct": 23,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
       "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 81.0
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -2051,7 +1922,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://cdn.evrika.com/storage/products/images/medium/4FtTWZ0dG6H0uK1s2i4ZHLU8WZwS9jl6YIOtgnls.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -2105,7 +1976,7 @@
         "in_stock": true,
         "discount_pct": 75,
         "image": "https://api.technodom.kz/f3/api/v1/images/256351_4.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 75,
@@ -2132,13 +2003,13 @@
         "in_stock": true,
         "discount_pct": 73,
         "image": "https://api.technodom.kz/f3/api/v1/images/blender_besprovodnoj_polaris_phb_0746_264295_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 73,
       "fair_discount": 0.0,
       "base_price": 15990,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2159,7 +2030,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://cdn.evrika.com/storage/products/images/medium/iHxYtogbie0176WslK4g7hnh7swZjgB3f0bNsErK.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -2213,7 +2084,7 @@
         "in_stock": true,
         "discount_pct": 70,
         "image": "https://api.technodom.kz/f3/api/v1/images/233318_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 70,
@@ -2267,7 +2138,7 @@
         "in_stock": true,
         "discount_pct": 68,
         "image": "https://api.technodom.kz/f3/api/v1/images/284537_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 68,
@@ -2294,7 +2165,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://api.technodom.kz/f3/api/v1/images/holodilnik_vinnyj_caso_winecomfort_38_black_265354_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -2321,7 +2192,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://api.technodom.kz/f3/api/v1/images/192156_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -2349,7 +2220,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://cdn.evrika.com/storage/products/images/medium/h7WU9a1w7mSD22tyWRjqlEltSQiCi6MGDZHfp8aR.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -2376,7 +2247,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://api.technodom.kz/f3/api/v1/images/296297_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -2430,7 +2301,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2467_3_2_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -2457,7 +2328,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://api.technodom.kz/f3/api/v1/images/281026_1zz.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -2511,7 +2382,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_33_228_0_1_jesKul_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -2538,7 +2409,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://api.technodom.kz/f3/api/v1/images/kuhonnaya_mashina_tefal_i_coach_touch_qb_951df0_283641new_09.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -2565,7 +2436,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://api.technodom.kz/f3/api/v1/images/holodilnik_vinnyj_caso_winecomfort_24_265352_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -2592,7 +2463,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://api.technodom.kz/f3/api/v1/images/kejs_jonsbo_d300_midtower_window_black_matx_d300_black_283801_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -2619,7 +2490,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://api.technodom.kz/f3/api/v1/images/288659_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 61,
@@ -2700,7 +2571,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://api.technodom.kz/f3/api/v1/images/sokovyzhimalka_pressovaya_rondell_rde_1503_276523_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -2727,7 +2598,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://api.technodom.kz/f3/api/v1/images/263224_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -2754,7 +2625,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://api.technodom.kz/f3/api/v1/images/kejs_jonsbo_d300_midtower_window_white_matx_d300_white_283802_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -2781,7 +2652,7 @@
         "in_stock": true,
         "discount_pct": 60,
         "image": "https://api.technodom.kz/f3/api/v1/images/120093_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 60,
@@ -2835,7 +2706,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://api.technodom.kz/f3/api/v1/images/264305_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 59,
@@ -2862,7 +2733,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://api.technodom.kz/f3/api/v1/images/296922_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 59,
@@ -2889,7 +2760,7 @@
         "in_stock": true,
         "discount_pct": 59,
         "image": "https://api.technodom.kz/f3/api/v1/images/297468_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 59,
@@ -2916,7 +2787,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://api.technodom.kz/f3/api/v1/images/284018_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 58,
@@ -2943,7 +2814,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://api.technodom.kz/f3/api/v1/images/mikser_moulinex_hm_464110_260969_01.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 58,
@@ -2970,7 +2841,7 @@
         "in_stock": true,
         "discount_pct": 58,
         "image": "https://api.technodom.kz/f3/api/v1/images/posudomoyechnaya_mashina_meferi_mdw4563_compact_power_288553_01.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 58,
@@ -3105,7 +2976,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://cdn.evrika.com/storage/products/images/medium/V8AIjfOGYOrq3F9CHqsXRmX5Al2ltms6SCUoZA6i.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -3159,7 +3030,7 @@
         "in_stock": true,
         "discount_pct": 57,
         "image": "https://api.technodom.kz/f3/api/v1/images/233319_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 57,
@@ -3186,7 +3057,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://cdn.evrika.com/storage/products/images/medium/KgOZsjDa7HNaN3VAxqmKBMpJ7EqiwHAxEB3pbtOE.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -3213,7 +3084,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://cdn.evrika.com/storage/products/images/medium/8gB6EXqT6nXEWPoc6QzrBFIDu5yeHdXjF2rjrouO.jpeg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -3267,7 +3138,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://api.technodom.kz/f3/api/v1/images/kofevarka_rozhkovaya_rondell_rde_1106_276508_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -3294,7 +3165,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://api.technodom.kz/f3/api/v1/images/gril_rondell_rde_1700_276530_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -3321,7 +3192,7 @@
         "in_stock": true,
         "discount_pct": 56,
         "image": "https://api.technodom.kz/f3/api/v1/images/281321_1b.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 56,
@@ -3375,7 +3246,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://static.shop.kz/upload/iblock/aa3/6wii4bqa4e7d1ynuo3jf65rdpxtn42ft/169909n1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -3429,7 +3300,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://static.shop.kz/upload/iblock/1f1/95_4000.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -3456,7 +3327,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://api.technodom.kz/f3/api/v1/images/233329_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -3537,7 +3408,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://api.technodom.kz/f3/api/v1/images/nasadka_protiven_dlya_zapekaniya_tefal_xa_735810_280981_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -3564,7 +3435,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://api.technodom.kz/f3/api/v1/images/296834_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -3591,7 +3462,7 @@
         "in_stock": true,
         "discount_pct": 55,
         "image": "https://api.technodom.kz/f3/api/v1/images/kofemasina_krups_ea_63988_1b.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 55,
@@ -3618,7 +3489,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3645,7 +3516,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://cdn.evrika.com/storage/products/images/medium/1vUJIgZ3UVD1wdEtTKxSDoB5U4xOJbYvzQPsdjjh.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3672,7 +3543,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://static.shop.kz/upload/iblock/441/utlf2b0tjgy2ecw4uh5epakziqn7qu97/142974n1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3753,7 +3624,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://static.shop.kz/upload/iblock/414/qa64rpa9v8xopl0ndfz0kcdmwn11kkgw/133647_1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3807,7 +3678,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_810_0_1_MYDhNR_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3834,7 +3705,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://api.technodom.kz/f3/api/v1/images/217490_1v.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3861,7 +3732,7 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://api.technodom.kz/f3/api/v1/images/611812_3a.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 54,
@@ -3915,7 +3786,7 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12352_0_1_Su7AH3_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "deal",
       "drop_pct": 53,
@@ -3925,6 +3796,146 @@
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "641785",
+        "title": "Смартфон Samsung Galaxy S25 FE 5G 8/128GB Navy RDU (Витрина)",
+        "price": 194890,
+        "old_price": 414890,
+        "url": "https://www.sulpak.kz/g/tovariy-ne-dlya-prodazhi-samsung-galaxy-s25-fe-5g-rdu-navy-128gb-sm-s731bdb2skz",
+        "brand": "Samsung",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12357_0_1_96DOr5_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 15.2,
+      "base_price": 229890,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 37.8
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633170",
+        "title": "Смарт-часы Huawei WATCH 5 42mm White",
+        "price": 117289,
+        "old_price": 248990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1663_0_1_o3RAVa_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 116990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624407",
+        "title": "Встраиваемый духовой шкаф Haier HOQ-F6QSN3WB",
+        "price": 222590,
+        "old_price": 469990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-f6qsn3wb",
+        "brand": "Haier",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1078_0_1_0WXc34_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 23.2,
+      "base_price": 289990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.8
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624411",
+        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
+        "price": 222990,
+        "old_price": 469990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
+        "brand": "Haier",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 32.4,
+      "base_price": 329990,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.6
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "296587",
+        "title": "Игровой Компьютер NEO Game 103 (AR5 7500F/RTX 5060TI 16GB/DDR5 32GB/SSD 1TB/B840M/JONSBO D200 BLACK)",
+        "price": 997990,
+        "old_price": 2145990,
+        "url": "https://www.technodom.kz/p/igrovoy-kompyuter-neo-game-103-ar5-7500f-rtx-5060ti-16gb-ddr5-32gb-ssd-1tb-b840m-jonsbo-d200-black-296587",
+        "brand": "Neo",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296587_1.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 997990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
         "Рисованная?"
       ],
       "inflated_gap": 53.0
@@ -3971,7 +3982,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://api.technodom.kz/f3/api/v1/images/vakuumnyj_upakovshik_aeno_avs_0001_271151_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -3998,7 +4009,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://api.technodom.kz/f3/api/v1/images/265475_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -4026,7 +4037,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://api.technodom.kz/f3/api/v1/images/250468_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -4054,7 +4065,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://cdn.evrika.com/storage/products/images/medium/ciu5uUPYW06rCgHq5bxHu55kEuMuZ5hKnKVelBTG.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -4082,7 +4093,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://api.technodom.kz/f3/api/v1/images/robot_pylesos_dreame_x40_ultra_complete_283267_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -4110,7 +4121,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://cdn.evrika.com/storage/products/images/medium/5S4FvPeehjkxyzjVLSkP2uEYuO9GKhgBbkuG0p2v.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -4138,7 +4149,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://cdn.evrika.com/storage/products/images/medium/zmemEnUGXov33A44wxcUUEeVXRqstqKD2KWjlsRr.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -4165,7 +4176,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://api.technodom.kz/f3/api/v1/images/altel_5g_wifi_router_cpe_h155_380_tp_birge_275400_1q.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -4193,7 +4204,7 @@
         "in_stock": true,
         "discount_pct": 42,
         "image": "https://api.technodom.kz/f3/api/v1/images/288479_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 42,
@@ -4209,6 +4220,34 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "48115",
+        "title": "Утюг Tefal FV2836E0",
+        "price": 24990,
+        "old_price": 42990,
+        "url": "https://evrika.com/catalog/utyug-tefal-fv2836e0-1/p48115",
+        "brand": null,
+        "category": "Утюги",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/mS0nd8QH9j1vzki0kteeqqnOuhjHTkFj0RvEoyl0.png.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 41.9,
+      "base_price": 42990,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "276889",
         "title": "Газовая варочная панель Hansa BHKS671830",
@@ -4221,7 +4260,7 @@
         "in_stock": true,
         "discount_pct": 5,
         "image": "https://api.technodom.kz/f3/api/v1/images/276889_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 5,
@@ -4249,7 +4288,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://cdn.evrika.com/storage/products/images/medium/1bq0lLrEEqoDk2v0alOQWOtP0QrAnQxmEX87JQW6.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -4277,7 +4316,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://cdn.evrika.com/storage/products/images/medium/NvOiBZ2tFpNv3aHAtVzkmLWY01lcoqyo5QrYnir8.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -4305,7 +4344,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://cdn.evrika.com/storage/products/images/medium/1AB9YzwBeF4jhY3KZVxxO7Vkbr1vOuWtpXgfwYkZ.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -4333,7 +4372,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1283_0_1_BQdYI7_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -4361,7 +4400,7 @@
         "in_stock": true,
         "discount_pct": 40,
         "image": "https://cdn.evrika.com/storage/products/images/medium/YvbInz26dMXA4uqISkMN0v1H7wFlJTqwEEqiB0KW.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
@@ -4389,7 +4428,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://cdn.evrika.com/storage/products/images/medium/mrkO4MmiWeBYl3Tto0tL6E7KnKnpPOUcKup0LEa8.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -4417,7 +4456,7 @@
         "in_stock": true,
         "discount_pct": 39,
         "image": "https://cdn.evrika.com/storage/products/images/medium/ruLXmNuWhixxCVt6wyrOMVcbtfvwwl9HrV0MKGFI.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 39,
@@ -4445,7 +4484,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://api.technodom.kz/f3/api/v1/images/tele2_5g_wifi_router_cpe_h155_380_tp_5g_domashnij_internet_plus_275398_1q.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -4473,7 +4512,7 @@
         "in_stock": true,
         "discount_pct": 38,
         "image": "https://cdn.evrika.com/storage/products/images/medium/lmwynOuAGHaSHJHdgvYBxffSokyQQtMCqp4VJex1.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 38,
@@ -4501,7 +4540,7 @@
         "in_stock": true,
         "discount_pct": 51,
         "image": "https://api.technodom.kz/f3/api/v1/images/251123_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 51,
@@ -4518,34 +4557,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "251122",
-        "title": "Тепловая пушка BALLU BHP-P3 Prorab",
-        "price": 29990,
-        "old_price": 57490,
-        "url": "https://www.technodom.kz/p/teplovaya-pushka-ballu-bhp-p3-prorab-251122",
-        "brand": "Ballu",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://api.technodom.kz/f3/api/v1/images/251122_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 37.4,
-      "base_price": 47890,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.6
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "259462",
         "title": "Пылесос Miele SBAD3 Classic C1 синий",
         "price": 82990,
@@ -4557,7 +4568,7 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://api.technodom.kz/f3/api/v1/images/259462_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 37,
@@ -4585,7 +4596,7 @@
         "in_stock": true,
         "discount_pct": 41,
         "image": "https://static.shop.kz/upload/iblock/900/7d8gruzfrk6th4wptd3tz2ovqlxy35m4/185393s200.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 41,
@@ -4641,7 +4652,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9947_0_1_MFHxkC_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -4670,7 +4681,7 @@
         "in_stock": true,
         "discount_pct": 36,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9699_0_6_LcrXZe_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 36,
@@ -4715,35 +4726,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "624411",
-        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
-        "price": 222990,
-        "old_price": 469990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
-        "brand": "Haier",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 32.4,
-      "base_price": 329990,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.6
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48329",
         "title": "Lenovo IdeaPad Slim 3 8Gb|512Gb|15.6|Ryzen 3-30|Win11",
@@ -4756,7 +4738,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://cdn.evrika.com/storage/products/images/medium/U0OmpEkYUsV8nBv6Lp7SHW6VxRcizq44fVDDK7m7.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -4784,7 +4766,7 @@
         "in_stock": true,
         "discount_pct": 23,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9742_0_1_Ki9mVl_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 23,
@@ -4813,7 +4795,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20959_0_6_FNPlVC_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -4842,7 +4824,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://api.technodom.kz/f3/api/v1/images/297015_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -4869,16 +4851,15 @@
         "in_stock": true,
         "discount_pct": 24,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9741_0_1_Pvn3WP_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 24,
       "fair_discount": 27.1,
       "base_price": 479990,
-      "value_score": 81,
-      "is_pick": true,
+      "value_score": 75,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд"
       ],
@@ -4917,7 +4898,7 @@
         "shop": "sulpak",
         "sku": "650353",
         "title": "QLED телевизор Dreame 75Q100",
-        "price": 499990,
+        "price": 498990,
         "old_price": 689990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-75-vivid-qled-4k-tv-75q100",
         "brand": "Dreame",
@@ -4926,18 +4907,18 @@
         "in_stock": true,
         "discount_pct": 28,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20786_0_6_60WEKn_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 28,
-      "fair_discount": 26.3,
+      "fair_discount": 26.4,
       "base_price": 677990,
-      "value_score": 63,
+      "value_score": 64,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 1.7
+      "inflated_gap": 1.6
     },
     {
       "product": {
@@ -4953,7 +4934,7 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://api.technodom.kz/f3/api/v1/images/294661_1zz.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 37,
@@ -5008,7 +4989,7 @@
         "in_stock": true,
         "discount_pct": 28,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9967_0_1_NB93t3_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T21:20:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 28,
@@ -5037,7 +5018,7 @@
         "in_stock": true,
         "discount_pct": 12,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9769_0_6_k2E3XH_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 12,
@@ -5065,7 +5046,7 @@
         "in_stock": true,
         "discount_pct": 43,
         "image": "https://cdn.evrika.com/storage/products/images/medium/6ZpEeI20c5MKaZl55dABripcNtctgpIeV9skfNas.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 43,
@@ -5147,7 +5128,7 @@
         "in_stock": true,
         "discount_pct": 25,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_851_205_0_6_SCDU7f_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 25,
@@ -5159,6 +5140,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651643",
+        "title": "Кофеварка Delonghi EC9555.M",
+        "price": 449990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/kofevarki-delonghi-ec9555m",
+        "brand": "Delonghi",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_932_287_0_1_7pPJVI_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 25.0,
+      "base_price": 599990,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -5174,7 +5182,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://api.technodom.kz/f3/api/v1/images/maslyanyj_obogrevatel_ava_avh_07n_260477_1z.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -5248,61 +5256,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "300205",
-        "title": "Игровая мышь беспроводная Bloody R90Plus Naraka",
-        "price": 14490,
-        "old_price": 18890,
-        "url": "https://www.technodom.kz/p/igrovaya-mysh-besprovodnaya-bloody-r90plus-naraka-300205",
-        "brand": "Bloody",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://api.technodom.kz/f3/api/v1/images/300205_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 23.3,
-      "base_price": 18890,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624407",
-        "title": "Встраиваемый духовой шкаф Haier HOQ-F6QSN3WB",
-        "price": 222590,
-        "old_price": 469990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-f6qsn3wb",
-        "brand": "Haier",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1078_0_1_0WXc34_160.webp",
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 23.2,
-      "base_price": 289990,
-      "value_score": 70,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.8
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "101400",
         "title": "Масляный обогреватель c вентилятором AVA AVHF-11",
         "price": 29990,
@@ -5331,6 +5284,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "641673",
+        "title": "Смартфон Honor X5c Plus 4/128GB Ocean Cyan",
+        "price": 61990,
+        "old_price": 79990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-honor-x5c-plus-4128gb-ocean-cyan",
+        "brand": "HONOR",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7175_0_6_FfrTOv_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 22.5,
+      "base_price": 79990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "654692",
         "title": "Робот-пылесос Trouver S70 Ultra Roller",
         "price": 466015,
@@ -5342,7 +5322,7 @@
         "in_stock": true,
         "discount_pct": 22,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_289_0_6_Sgaj6n_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 22,
@@ -5369,7 +5349,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4033_0_1_Q1wxxB_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -5396,7 +5376,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://cdn.evrika.com/storage/products/images/medium/SEu4ZGapa7OC2eEpotxWFPa489CFnIs6AD8pDn9H.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-07T09:03:21+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -5423,7 +5403,7 @@
         "in_stock": true,
         "discount_pct": 23,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_5374_0_6_uZjbUV_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 23,
@@ -5451,7 +5431,7 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_247_0_1_0CZnxl_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 37,
@@ -5506,7 +5486,7 @@
         "in_stock": true,
         "discount_pct": 16,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9905_0_1_pttlI1_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 16,
@@ -5523,34 +5503,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "652758",
-        "title": "Ноутбук Asus TUF Gaming A16 AMD Ryzen 7 260 16 GB / SSD 512GB / RTX 5050 8GB / Win 11 Home / 90NR0KS1-M00K10 / R7165SG55W11H",
-        "price": 699990,
-        "old_price": 899990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-tuf-gaming-a16-90nr0ks1-m00k10-r7165sg55w11h",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9719_0_1_hCfqVW_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 22,
-      "fair_discount": 21.6,
-      "base_price": 892990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "624393",
         "title": "Вытяжка Haier HVX-W682CB",
         "price": 109990,
@@ -5562,7 +5514,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_12_1285_0_1_tb2hSD_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -5578,6 +5530,114 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "655043",
+        "title": "Смарт-часы Huawei Watch GT 7 (46mm) Grey (Atum-B39L)",
+        "price": 114211,
+        "old_price": 159990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-46mm-grey-atum-b39l",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6368_0_1_TGVhZy_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 21.2,
+      "base_price": 144890,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 7.8
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655044",
+        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Pink Konsu-B39F",
+        "price": 110558,
+        "old_price": 149990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-pink-konsu-b39f",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6369_0_6_LpnAes_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 21.0,
+      "base_price": 139890,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655045",
+        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Grey Konsu-B39L",
+        "price": 110558,
+        "old_price": 149990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-grey-konsu-b39l",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6370_0_6_q4nXpd_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 21.0,
+      "base_price": 139890,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655046",
+        "title": "Смарт Часы Huawei WATCH GT 7 (41mm) Blue Konsu-B39FB",
+        "price": 110558,
+        "old_price": 149990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-gt-7-41mm-blue-konsu-b39fb",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6371_0_6_tYpTFj_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 21.0,
+      "base_price": 139890,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "297777",
         "title": "Морозильник Hansa FS2496.5W",
@@ -5590,7 +5650,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://api.technodom.kz/f3/api/v1/images/297777_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -5602,6 +5662,33 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "251122",
+        "title": "Тепловая пушка BALLU BHP-P3 Prorab",
+        "price": 37990,
+        "old_price": 57990,
+        "url": "https://www.technodom.kz/p/teplovaya-pushka-ballu-bhp-p3-prorab-251122",
+        "brand": "Ballu",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://api.technodom.kz/f3/api/v1/images/251122_1.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 20.7,
+      "base_price": 47890,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.3
     },
     {
       "product": {
@@ -5617,7 +5704,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1075_0_1_Aq7o72_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -5636,110 +5723,27 @@
         "shop": "sulpak",
         "sku": "637199",
         "title": "Робот-пылесос Dreame D20 Plus",
-        "price": 123390,
+        "price": 123190,
         "old_price": 154990,
         "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-d20-plus",
         "brand": "Dreame",
         "category": null,
         "group": "home",
         "in_stock": true,
-        "discount_pct": 20,
+        "discount_pct": 21,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_241_0_1_CYmnhy_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.4,
+      "drop_pct": 21,
+      "fair_discount": 20.5,
       "base_price": 154990,
       "value_score": 59,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623476",
-        "title": "Морозильный ларь Hansa FS2496.3W",
-        "price": 135889,
-        "old_price": 169990,
-        "url": "https://www.sulpak.kz/g/morozilniki-i-lari-hansa-fs24963w",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_2235_232_0_1_w6mH8A_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.1,
-      "base_price": 169990,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623319",
-        "title": "Газовая варочная поверхность Candy CHXG64CNB",
-        "price": 79990,
-        "old_price": 139990,
-        "url": "https://www.sulpak.kz/g/gazoviye-poverhnosti-candy-chxg64cnb",
-        "brand": "Candy",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4095_756_0_6_gmu5W1_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 20.0,
-      "base_price": 99990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "652145",
-        "title": "OLED телевизор LG OLED83W69LA",
-        "price": 4399990,
-        "old_price": 5529990,
-        "url": "https://www.sulpak.kz/g/televizoriy-lg-oled83w69la",
-        "brand": "LG",
-        "category": null,
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20958_0_6_fo00Oq_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 5499990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
+      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -5755,7 +5759,7 @@
         "in_stock": true,
         "discount_pct": 20,
         "image": "https://api.technodom.kz/f3/api/v1/images/300202_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 20,
@@ -5767,34 +5771,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655607",
-        "title": "Ноутбук Asus Zenbook 14 Ultra 5 325 16GB / SSD 256GB / Intel Graphics / Win 11 / 90NB1945-M00P50",
-        "price": 539990,
-        "old_price": 613990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-zenbook-14-90nb1945-m00p50-u5162suw11p",
-        "brand": "Asus",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9932_0_6_oIg96O_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 19.5,
-      "base_price": 670990,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -7.5
     },
     {
       "product": {
@@ -5810,7 +5786,7 @@
         "in_stock": true,
         "discount_pct": 20,
         "image": "https://static.shop.kz/upload/iblock/901/nvtwwl9qz0lmxszi2bibst2p4h26biy1/198497s1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 20,
@@ -5838,7 +5814,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://api.technodom.kz/f3/api/v1/images/301082_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -5865,7 +5841,7 @@
         "in_stock": true,
         "discount_pct": 17,
         "image": "https://api.technodom.kz/f3/api/v1/images/igrovaya_klaviatura_bloody_s98_naraka_272438_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 17,
@@ -5877,6 +5853,141 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44597",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Черная (YNDX-00030BLK)",
+        "price": 49990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-chernaya-yndx-00030blk/p44597",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/F0bsJQqXzFiHi7bBipbdy54YDoUVf7vJL64DwJ9G.jpg.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44598",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Зеленая (YNDX-00030GRN)",
+        "price": 49990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-zelenaya-yndx-00030grn/p44598",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/w08YKl6VvPrH7bAdzW2johnGsS5zTp7GRJzxopWU.jpg.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45000",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Серая (YNDX-00030GRY)",
+        "price": 49990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-seraya-yndx-00030gry/p45000",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/uUDb91dye3NXl6yQOroQqGYs2Tyskhjifqc74gQG.webp.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45001",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Фиолетовая (YNDX-00030VIO)",
+        "price": 49990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-fioletovaya-yndx-00030vio/p45001",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/V7s36DvMTYp4W7QKM9GUBpfORaZIapsFtlkfXPyZ.webp.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47849",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Оранжевая (YNDX-00030ORG)",
+        "price": 49990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-oranzhevaya-yndx-00030org/p47849",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/KWV9QtFyvM0vpvaZiVa2FfVt7UhqvynEtyJIrbK9.jpg.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 16.7,
+      "base_price": 59990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -5892,7 +6003,7 @@
         "in_stock": true,
         "discount_pct": 16,
         "image": "https://api.technodom.kz/f3/api/v1/images/300128_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 16,
@@ -5919,7 +6030,7 @@
         "in_stock": true,
         "discount_pct": 18,
         "image": "https://static.shop.kz/upload/iblock/b9e/153997_3.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 18,
@@ -5947,7 +6058,7 @@
         "in_stock": true,
         "discount_pct": 16,
         "image": "https://api.technodom.kz/f3/api/v1/images/klaviatura_igrovaya_bloody_at98_renegade_black_midnight_at98_rbm_282025_01.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 16,
@@ -5974,7 +6085,7 @@
         "in_stock": true,
         "discount_pct": 15,
         "image": "https://api.technodom.kz/f3/api/v1/images/292516_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 15,
@@ -6002,7 +6113,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12451_0_6_wGM5uf_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -6018,62 +6129,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "641785",
-        "title": "Смартфон Samsung Galaxy S25 FE 5G 8/128GB Navy RDU (Витрина)",
-        "price": 194890,
-        "old_price": 414890,
-        "url": "https://www.sulpak.kz/g/tovariy-ne-dlya-prodazhi-samsung-galaxy-s25-fe-5g-rdu-navy-128gb-sm-s731bdb2skz",
-        "brand": "Samsung",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12357_0_1_96DOr5_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 53,
-      "fair_discount": 15.2,
-      "base_price": 229890,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 37.8
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "636996",
-        "title": "Морозильный ларь Hansa FS1004.4W",
-        "price": 76491,
-        "old_price": 94990,
-        "url": "https://www.sulpak.kz/g/morozilniki-i-lari-hansa-fs10044w",
-        "brand": "Hansa",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_2235_404_0_1_5a0D8a_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 15.0,
-      "base_price": 89990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "651918",
         "title": "Смартфон Huawei Nova 15 Max 8/256G Blush Gold",
         "price": 140890,
@@ -6085,7 +6140,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12449_0_6_OzqboI_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -6112,7 +6167,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12450_0_6_4leP4I_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -6139,7 +6194,7 @@
         "in_stock": true,
         "discount_pct": 14,
         "image": "https://api.technodom.kz/f3/api/v1/images/300203_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 14,
@@ -6164,7 +6219,7 @@
         "in_stock": true,
         "discount_pct": 18,
         "image": "https://api.technodom.kz/f3/api/v1/images/300129_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 18,
@@ -6214,7 +6269,7 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://cdn.evrika.com/storage/products/images/medium/V1Rx82AbrSntBh3KmCoEDM2lXsNCjgTCdEaLxPNU.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 37,
@@ -6241,7 +6296,7 @@
         "in_stock": true,
         "discount_pct": 23,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_261_0_1_xUAJyN_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 23,
@@ -6266,7 +6321,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://cdn.evrika.com/storage/products/images/medium/mHf8QpljDjgubGICsI2kOK9RKCuP3b3z6Ks6QTNY.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -6293,7 +6348,7 @@
         "in_stock": true,
         "discount_pct": 46,
         "image": "https://cdn.evrika.com/storage/products/images/medium/plAJpaJ4tO5OgGgXGVUixCkGa8NNl7pIRxxX4r6d.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 46,
@@ -6320,7 +6375,7 @@
         "in_stock": true,
         "discount_pct": 13,
         "image": "https://api.technodom.kz/f3/api/v1/images/plita_steklokeramicheskaya_hansa_fccw58103_273552_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 13,
@@ -6345,7 +6400,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://cdn.evrika.com/storage/products/images/medium/4DJj8qAiT6dj06UK2VheSAK1vbxvknUtlkBT1u9c.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -6372,7 +6427,7 @@
         "in_stock": true,
         "discount_pct": 29,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9698_0_1_1R9blm_160.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 29,
@@ -6425,7 +6480,7 @@
         "in_stock": true,
         "discount_pct": 12,
         "image": "https://api.technodom.kz/f3/api/v1/images/vstraivayemaya_posudomoyechnaya_mashina_toshiba_dw_10b3_b_cis_288467_01.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 12,
@@ -6450,7 +6505,7 @@
         "in_stock": true,
         "discount_pct": 30,
         "image": "https://cdn.evrika.com/storage/products/images/medium/wZzLfRhvxVcRn2Nth0V3hWXVUiSjd84v68CrR25S.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 30,
@@ -6462,6 +6517,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 18.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "289882",
+        "title": "Стиральная машина с сушкой Samsung WD90DG5G34BELD",
+        "price": 379990,
+        "old_price": 429990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-s-sushkoy-samsung-wd90dg5g34beld-289882",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://api.technodom.kz/f3/api/v1/images/289882_1.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 11.6,
+      "base_price": 429990,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -6477,7 +6559,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://static.shop.kz/upload/iblock/1e1/xnz79g0guu4yw3yfjx6tavfz795v35bm/197629o1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -6502,7 +6584,7 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://cdn.evrika.com/storage/products/images/medium/aHNtnjKsE5Qx4CapLzCYCO1jLhHY8U8PQIDrcD3o.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 37,
@@ -6514,6 +6596,31 @@
         "Рисованная?"
       ],
       "inflated_gap": 25.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649678",
+        "title": "Робот-пылесос Trouver Mobius 60",
+        "price": 675321,
+        "old_price": 859990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-trouver-mobius-60",
+        "brand": "Trouver",
+        "category": null,
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_262_0_1_KJ9wng_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 11.1,
+      "base_price": 759990,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 9.9
     },
     {
       "product": {
@@ -6529,7 +6636,7 @@
         "in_stock": true,
         "discount_pct": 11,
         "image": "https://api.technodom.kz/f3/api/v1/images/293696_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 11,
@@ -6554,7 +6661,7 @@
         "in_stock": true,
         "discount_pct": 11,
         "image": "https://api.technodom.kz/f3/api/v1/images/293697_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 11,
@@ -6579,7 +6686,7 @@
         "in_stock": true,
         "discount_pct": 11,
         "image": "https://api.technodom.kz/f3/api/v1/images/293698_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 11,
@@ -6629,7 +6736,7 @@
         "in_stock": true,
         "discount_pct": 29,
         "image": "https://api.technodom.kz/f3/api/v1/images/298408_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 29,
@@ -6657,7 +6764,7 @@
         "in_stock": true,
         "discount_pct": 10,
         "image": "https://api.technodom.kz/f3/api/v1/images/plita_kombinirovannaya_s_gazovoj_poverkhnostyu_hansa_fcmx682233_273549_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 10,
@@ -6682,7 +6789,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://cdn.evrika.com/storage/products/images/medium/d3kWPvYu3FDbRlGyI1bo4s2HQO50D3jrBnxvvbAP.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -6709,7 +6816,7 @@
         "in_stock": true,
         "discount_pct": 35,
         "image": "https://cdn.evrika.com/storage/products/images/medium/j3FsAhe8G6YSYuEad67tIFRPHByFJK5lhLhc1hTa.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 35,
@@ -6718,6 +6825,34 @@
       "value_score": 42,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642209",
+        "title": "Смарт часы Apple Watch Series 11&amp;nbsp;GPS&amp;nbsp;46mm&amp;nbsp;Space Grey Aluminium Case with Black Sport Band - M/L",
+        "price": 210990,
+        "old_price": 326990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-apple-watch-series-11gps46mmspace-grey-aluminium-case-with-black-sport-band-ml",
+        "brand": "Apple",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_2197_0_1_K0OACx_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 9.8,
+      "base_price": 233990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 25.2
@@ -6736,7 +6871,7 @@
         "in_stock": true,
         "discount_pct": 28,
         "image": "https://api.technodom.kz/f3/api/v1/images/298407_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 28,
@@ -6764,7 +6899,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://api.technodom.kz/f3/api/v1/images/ryukzak_dlya_noutbuka_15_6_sumdex_pjn_303_bk_dlya_16_poliester_pjn_303bk_278719_01.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -6776,6 +6911,31 @@
         "Рисованная?"
       ],
       "inflated_gap": 21.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630034",
+        "title": "Планшет Huawei MatePad SE Agassi6-W19DP Hazy Grey",
+        "price": 117590,
+        "old_price": 134890,
+        "url": "https://www.sulpak.kz/g/planshetiy-agassi6-w09dp-hazy-grey",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1318_0_6_uXn0lb_160.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 9.5,
+      "base_price": 129890,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 3.5
     },
     {
       "product": {
@@ -6791,7 +6951,7 @@
         "in_stock": true,
         "discount_pct": 34,
         "image": "https://cdn.evrika.com/storage/products/images/medium/eQ7MQwjhYNlTyA0o442Vo42mW03tl1fGkFXHg2W7.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 34,
@@ -6818,7 +6978,7 @@
         "in_stock": true,
         "discount_pct": 34,
         "image": "https://cdn.evrika.com/storage/products/images/medium/hMqOwzg9LuCyPi5WKoBVuQaChMVE6ZMBcm8o6IDR.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 34,
@@ -6834,31 +6994,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "297037",
-        "title": "Тостер AENO TS-4",
-        "price": 19990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/toster-aeno-ts-4-297037",
-        "brand": "AENO",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/297037_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 9.1,
-      "base_price": 21990,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "228568",
         "title": "Газовая варочная панель Hansa BHKS-330500",
         "price": 99990,
@@ -6870,7 +7005,7 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://api.technodom.kz/f3/api/v1/images/228568_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
@@ -6895,7 +7030,7 @@
         "in_stock": true,
         "discount_pct": 9,
         "image": "https://api.technodom.kz/f3/api/v1/images/293517_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 9,
@@ -6922,7 +7057,7 @@
         "in_stock": true,
         "discount_pct": 22,
         "image": "https://api.technodom.kz/f3/api/v1/images/292540_10a.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 22,
@@ -6947,7 +7082,7 @@
         "in_stock": true,
         "discount_pct": 15,
         "image": "https://api.technodom.kz/f3/api/v1/images/300131_1.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 15,
@@ -6972,7 +7107,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://cdn.evrika.com/storage/products/images/medium/AJpwpvdyyTRBmDHqUKzTEalMmjM4n9OV41zgDDTO.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -6999,7 +7134,7 @@
         "in_stock": true,
         "discount_pct": 8,
         "image": "https://static.shop.kz/upload/iblock/c00/tgj72mhyjtpqqa6ysg67sfe41e85665w/197786o1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 8,
@@ -7026,7 +7161,7 @@
         "in_stock": true,
         "discount_pct": 8,
         "image": "https://static.shop.kz/upload/iblock/88e/ih4i5vl7qagk6jphqq44akm04l4dv990/198258o1.JPG",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 8,
@@ -7053,7 +7188,7 @@
         "in_stock": true,
         "discount_pct": 8,
         "image": "https://static.shop.kz/upload/iblock/ccb/449muoz3ng8u5u4u10i7ot02dl4pavyp/198257o1.jpg",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 8,
@@ -7065,6 +7200,31 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "276805",
+        "title": "Вытяжка Hansa OMP9554BGH",
+        "price": 109990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/vytyazhka-hansa-omp9554bgh-276805",
+        "brand": "Hansa",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/vytyazhka_hansa_omp9554bgh_276805_1.webp",
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 8.3,
+      "base_price": 119990,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7080,7 +7240,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://cdn.evrika.com/storage/products/images/medium/fIpHfIYbIZQdy55kwuhn7a9rs49c5VBZJfYOdPmy.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -7107,7 +7267,7 @@
         "in_stock": true,
         "discount_pct": 48,
         "image": "https://cdn.evrika.com/storage/products/images/medium/R91QzFUhqRhKNwtuStfFlMgNoVNGf52L7lVxT8OF.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 48,
@@ -7134,7 +7294,7 @@
         "in_stock": true,
         "discount_pct": 42,
         "image": "https://cdn.evrika.com/storage/products/images/medium/cf3vHlAGLgieNRXSMdF7vdoaslqOrPRVLe40hDSb.jpg.webp",
-        "first_seen": "2026-10-06T06:45:31+00:00"
+        "first_seen": "2026-10-06T15:34:30+00:00"
       },
       "signal": "drop",
       "drop_pct": 42,
@@ -7159,42 +7319,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-10T04:29:06+00:00",
-      "item_count": 2696,
+      "last_crawl": "2026-11-10T13:01:06+00:00",
+      "item_count": 2718,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-10T04:29:06+00:00",
-      "item_count": 12423,
+      "last_crawl": "2026-11-10T13:01:06+00:00",
+      "item_count": 12477,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-10T04:29:06+00:00",
-      "item_count": 3854,
+      "last_crawl": "2026-11-10T13:01:06+00:00",
+      "item_count": 3743,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-10T04:29:06+00:00",
-      "item_count": 9899,
+      "last_crawl": "2026-11-10T13:01:06+00:00",
+      "item_count": 9891,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-10T04:29:06+00:00",
+      "last_crawl": "2026-11-10T13:01:06+00:00",
       "item_count": 244,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29116,
-    "total_deals": 268,
-    "avg_discount": 48.0
+    "total_products": 29073,
+    "total_deals": 274,
+    "avg_discount": 47.0
   }
 }
