@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:49:02.564794+00:00",
+  "updated_at": "2026-11-11T18:14:58.948692+00:00",
   "deals": [
     {
       "product": {
@@ -186,34 +186,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "265472",
-        "title": "Блендер стационарный AENO ATB-0002",
-        "price": 29990,
-        "old_price": 77990,
-        "url": "https://www.technodom.kz/p/blender-staczionarnyj-aeno-atb-0002-265472",
-        "brand": "AENO",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://api.technodom.kz/f3/api/v1/images/265472_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 58.9,
-      "base_price": 72990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 3.1
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "287141",
         "title": "Смарт-Браслеты Xiaomi Smart Band 9 Pro Obsidian Black",
         "price": 14990,
@@ -268,34 +240,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "265471",
-        "title": "Блендер стационарный AENO ATB-0003",
-        "price": 29990,
-        "old_price": 69490,
-        "url": "https://www.technodom.kz/p/blender-staczionarnyj-aeno-atb-0003-265471",
-        "brand": "AENO",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 57,
-        "image": "https://api.technodom.kz/f3/api/v1/images/265471_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 57,
-      "fair_discount": 56.8,
-      "base_price": 69490,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "41016",
         "title": "ПК, Office, i5-12400, H610, RAM 8GB, SSD 512GB, 400W, Aerocool Tomahak",
@@ -346,31 +290,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1417849",
-        "title": "Струйный МФУ Canon Pixma G3430",
-        "price": 49990,
-        "old_price": 109990,
-        "url": "https://alser.kz/p/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm",
-        "brand": "Canon",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://s3s.alser.kz/uploads/products/printery-snpch/NZYQeuJkB/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm-w160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "269518",
         "title": "Ноутбук Apple MacBook Pro Space Grey 2023 M2 Pro / 16ГБ / 512SSD / 16 / Mac OS Ventura / (MNW83RU/A)",
@@ -398,6 +317,31 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1417849",
+        "title": "Струйный МФУ Canon Pixma G3430",
+        "price": 49990,
+        "old_price": 109990,
+        "url": "https://alser.kz/p/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm",
+        "brand": "Canon",
+        "category": null,
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://s3s.alser.kz/uploads/products/printery-snpch/NZYQeuJkB/strujnyj-mfu-canon-pixma-g3430-4800x1200-cb-11-izbmin-cvet-6-izbmin-10x15sm-w160.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "48565",
         "title": "Гарнитура беспроводная Logitech Pro X Lightspeed (981-000907)",
@@ -410,31 +354,6 @@
         "in_stock": true,
         "discount_pct": 54,
         "image": "https://cdn.evrika.com/storage/products/images/medium/1bK5LCVgj0AKtbEmk9fH56v4Dus6TZLfdXhirL8F.jpg.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1442376",
-        "title": "Фен складной Dreame Pocket, Gold (AHD51), 1300 Вт, 2 насадки, ионизация, чехол",
-        "price": 19990,
-        "old_price": 42990,
-        "url": "https://alser.kz/p/fen-dreame-pocket",
-        "brand": "Dreame",
-        "category": null,
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://s3s.alser.kz/uploads/products/feny/rBMrGSLjy/fen-dreame-pocket-w160.webp",
         "first_seen": "2026-10-07T17:46:04+00:00"
       },
       "signal": "deal",
@@ -473,6 +392,31 @@
         "Честная скидка"
       ],
       "inflated_gap": 13.5
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1442376",
+        "title": "Фен складной Dreame Pocket, Gold (AHD51), 1300 Вт, 2 насадки, ионизация, чехол",
+        "price": 19990,
+        "old_price": 42990,
+        "url": "https://alser.kz/p/fen-dreame-pocket",
+        "brand": "Dreame",
+        "category": null,
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://s3s.alser.kz/uploads/products/feny/rBMrGSLjy/fen-dreame-pocket-w160.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -540,31 +484,6 @@
         "in_stock": true,
         "discount_pct": 53,
         "image": "https://s3s.alser.kz/uploads/products/barlyk-sorgystar/g4AvbcEBl/okp6547shvytazka-hansa-w160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1445527",
-        "title": "Мышка игровая беспроводная Logitech G309 Белая (910-007207)",
-        "price": 19990,
-        "old_price": 42490,
-        "url": "https://alser.kz/p/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207",
-        "brand": "Logitech",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://s3s.alser.kz/uploads/products/myshi/dn5j8im55/myska-igrovaa-besprovodnaa-logitech-g309-belaa-910-007207-w160.webp",
         "first_seen": "2026-10-07T17:46:04+00:00"
       },
       "signal": "deal",
@@ -1355,6 +1274,34 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "233329",
+        "title": "Насадка для приготовления спагетти WMF 416810721",
+        "price": 39990,
+        "old_price": 120990,
+        "url": "https://www.technodom.kz/p/nasadka-dlya-prigotovleniya-spagetti-wmf-416810721-233329",
+        "brand": "WMF",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://api.technodom.kz/f3/api/v1/images/233329_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 25.9,
+      "base_price": 53990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 41.1
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "265354",
         "title": "Винный холодильник CASO WineComfort 38 black",
         "price": 399990,
@@ -1617,6 +1564,33 @@
       "fair_discount": 0.0,
       "base_price": 259990,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "265472",
+        "title": "Блендер стационарный AENO ATB-0002",
+        "price": 29990,
+        "old_price": 77990,
+        "url": "https://www.technodom.kz/p/blender-staczionarnyj-aeno-atb-0002-265472",
+        "brand": "AENO",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://api.technodom.kz/f3/api/v1/images/265472_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 29990,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2220,6 +2194,33 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "265471",
+        "title": "Блендер стационарный AENO ATB-0003",
+        "price": 29990,
+        "old_price": 69490,
+        "url": "https://www.technodom.kz/p/blender-staczionarnyj-aeno-atb-0003-265471",
+        "brand": "AENO",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://api.technodom.kz/f3/api/v1/images/265471_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 57,
+      "fair_discount": 0.0,
+      "base_price": 29990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 57.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "233319",
         "title": "Кухонная машина WMF 416680771 (Kitchen Minis Grey)",
         "price": 189990,
@@ -2535,33 +2536,6 @@
       "fair_discount": 0.0,
       "base_price": 24990,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 55.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "233329",
-        "title": "Насадка для приготовления спагетти WMF 416810721",
-        "price": 53990,
-        "old_price": 120990,
-        "url": "https://www.technodom.kz/p/nasadka-dlya-prigotovleniya-spagetti-wmf-416810721-233329",
-        "brand": "WMF",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 55,
-        "image": "https://api.technodom.kz/f3/api/v1/images/233329_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 55,
-      "fair_discount": 0.0,
-      "base_price": 53990,
-      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3083,6 +3057,33 @@
         "Рисованная?"
       ],
       "inflated_gap": 37.8
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633170",
+        "title": "Смарт-часы Huawei WATCH 5 42mm White",
+        "price": 117289,
+        "old_price": 248990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
+        "brand": "HUAWEI",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1663_0_1_o3RAVa_160.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 116990,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
     },
     {
       "product": {
@@ -3756,7 +3757,7 @@
       "drop_pct": 50,
       "fair_discount": 12.4,
       "base_price": 169990,
-      "value_score": 45,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4009,34 +4010,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000022440",
-        "title": "Моноблок 27&quot; XG Atlas GL70",
-        "price": 175608,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 66.6,
-      "base_price": 526545,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "655719",
         "title": "Стационарный блендер Rondell RDE-1253",
         "price": 36990,
@@ -4065,61 +4038,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "271151",
-        "title": "Вакуумный упаковщик AENO AVS-0001",
-        "price": 13990,
-        "old_price": 26990,
-        "url": "https://www.technodom.kz/p/vakuumnyj-upakovshik-aeno-avs-0001-271151",
-        "brand": "AENO",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://api.technodom.kz/f3/api/v1/images/vakuumnyj_upakovshik_aeno_avs_0001_271151_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 48.2,
-      "base_price": 26990,
-      "value_score": 86,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "265475",
-        "title": "Су-вид AENO ASV-0001",
-        "price": 29990,
-        "old_price": 52990,
-        "url": "https://www.technodom.kz/p/su-vid-aeno-asv-0001-265475",
-        "brand": "AENO",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://api.technodom.kz/f3/api/v1/images/265475_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 45.5,
-      "base_price": 54990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -2.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "250468",
         "title": "Миксер Kitfort КТ-1336-1",
         "price": 77990,
@@ -4144,34 +4062,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "46118",
-        "title": "Фен для волос Dreame AHD51, серый",
-        "price": 39990,
-        "old_price": 72990,
-        "url": "https://evrika.com/catalog/fen-dlya-volos-dreame-ahd51-seryy-1/p46118",
-        "brand": null,
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ciu5uUPYW06rCgHq5bxHu55kEuMuZ5hKnKVelBTG.jpg.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 45.2,
-      "base_price": 72990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -4284,34 +4174,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "288479",
-        "title": "Фен Aeno AHD0001",
-        "price": 29990,
-        "old_price": 51990,
-        "url": "https://www.technodom.kz/p/fen-aeno-ahd0001-288479",
-        "brand": "AENO",
-        "category": "Красота и здоровье",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288479_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.3,
-      "base_price": 51990,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -5341,34 +5203,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "48329",
-        "title": "Lenovo IdeaPad Slim 3 8Gb|512Gb|15.6|Ryzen 3-30|Win11",
-        "price": 239990,
-        "old_price": 349990,
-        "url": "https://evrika.com/catalog/noutbuk-lenovo-ips-3-15amn8-15-6-ryzen-3-30-8gb-512gb-ssd-radeon-610m-win11/p48329",
-        "brand": null,
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/U0OmpEkYUsV8nBv6Lp7SHW6VxRcizq44fVDDK7m7.jpg.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 31.4,
-      "base_price": 349990,
-      "value_score": 78,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1465604",
         "title": "Блендер Ufesa BP4582 Vario 1000 Max, Grey-White",
@@ -6000,6 +5834,33 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "657795",
+        "title": "Гарнитура Jabra Evolve3 75 MS Link390c Black 37599-999-899",
+        "price": 158369,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-37599-999-899",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4732_0_2_160.webp",
+        "first_seen": "2026-11-05T23:59:28+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 25.6,
+      "base_price": 213000,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "653011",
         "title": "Ноутбук Asus ExpertBook P5 Ultra 7-355 16GB / SSD 512GB / Intel Graphics / Win 11 / 90NX0A91-M00LH0",
         "price": 627990,
@@ -6072,7 +5933,7 @@
       "drop_pct": null,
       "fair_discount": 25.0,
       "base_price": 830990,
-      "value_score": 67,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6164,6 +6025,60 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "297493",
+        "title": "Чайник Zigmund&Shtain KE-928 черный",
+        "price": 16710,
+        "old_price": 21990,
+        "url": "https://www.technodom.kz/p/chajnik-zigmundshtain-ke-928-chernyj-297493",
+        "brand": "Zigmund&Shtain",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 24,
+        "image": "https://api.technodom.kz/f3/api/v1/images/297493_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 24,
+      "fair_discount": 24.0,
+      "base_price": 21990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "286054",
+        "title": "Тостер Zigmund&Shtain ST-89",
+        "price": 18230,
+        "old_price": 23990,
+        "url": "https://www.technodom.kz/p/toster-zigmundshtain-st-89-286054",
+        "brand": "Zigmund&Shtain",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 24,
+        "image": "https://api.technodom.kz/f3/api/v1/images/286054_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 24,
+      "fair_discount": 24.0,
+      "base_price": 23990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "260477",
         "title": "Масляный обогреватель AVA AVH-07N",
         "price": 18990,
@@ -6223,7 +6138,7 @@
         "shop": "sulpak",
         "sku": "654692",
         "title": "Робот-пылесос Trouver S70 Ultra Roller",
-        "price": 466036,
+        "price": 466040,
         "old_price": 599990,
         "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-trouver-s70-ultra-roller",
         "brand": "Trouver",
@@ -6550,34 +6465,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "629244",
-        "title": "Кондиционер Samsung WindFree AR80F09CABWNER&#x2B;AR80F09CABWXER",
-        "price": 349990,
-        "old_price": 439990,
-        "url": "https://www.sulpak.kz/g/kondicioneriy-split-sistemiy-samsung-ar80f09cabwner-ar80f09cabwxer",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_14_777_0_1_26SLSO_160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.5,
-      "base_price": 439990,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "287806",
         "title": "Кондиционер Samsung AR80F09CABWNER",
@@ -6718,6 +6605,33 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "292593",
+        "title": "Картридж Pantum PC-211P Black (Для P2200/P2500/M6500/M6550/M6600)",
+        "price": 19990,
+        "old_price": 24990,
+        "url": "https://www.technodom.kz/p/kartridzh-pantum-pc-211p-black-dlya-p2200p2500m6500m6550m6600-292593",
+        "brand": "Pantum",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://api.technodom.kz/f3/api/v1/images/292593_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 20.0,
+      "base_price": 24990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "286700",
         "title": "Смартфон Samsung Galaxy A16 256GB Gray",
         "price": 79990,
@@ -6798,33 +6712,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": -7.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654463",
-        "title": "Холодильник Midea MDRB524MGE46ODM",
-        "price": 218447,
-        "old_price": 319990,
-        "url": "https://www.sulpak.kz/g/holodilniki-midea-mdrb524mge46odm",
-        "brand": "Midea",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_5426_0_1_QNWQuB_160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 19.1,
-      "base_price": 269990,
-      "value_score": 56,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.9
     },
     {
       "product": {
@@ -6909,33 +6796,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "301082",
-        "title": "Сумка для ноутбука Rivacase Tiergarten 15.6\" (8630 Black)",
-        "price": 22990,
-        "old_price": 32990,
-        "url": "https://www.technodom.kz/p/sumka-dlya-noutbuka-rivacase-tiergarten-15-6-8630-black-301082",
-        "brand": "RivaCase ",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://api.technodom.kz/f3/api/v1/images/301082_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 17.9,
-      "base_price": 27990,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.1
     },
     {
       "product": {
@@ -7346,6 +7206,31 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "298364",
+        "title": "Блендер стационарный Zigmund&Shtain BS-488 D",
+        "price": 59990,
+        "old_price": 69990,
+        "url": "https://www.technodom.kz/p/blender-stacionarnyj-zigmundshtain-bs-488-d-298364",
+        "brand": "Zigmund&Shtain",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://api.technodom.kz/f3/api/v1/images/298364_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 14.3,
+      "base_price": 69990,
+      "value_score": 48,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "300129",
         "title": "Морозильник Candy CCM150A",
         "price": 89990,
@@ -7417,6 +7302,56 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 9.5
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "263838",
+        "title": "Блендер стационарный Zigmund&Shtain BS-442 D",
+        "price": 25990,
+        "old_price": 29990,
+        "url": "https://www.technodom.kz/p/blender-staczionarnyj-zigmundshtain-bs-442-d-263838",
+        "brand": "Zigmund&Shtain",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://api.technodom.kz/f3/api/v1/images/263838_1a.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 13.3,
+      "base_price": 29990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "263832",
+        "title": "Мясорубка Zigmund&Shtain ZMG-042",
+        "price": 34990,
+        "old_price": 39990,
+        "url": "https://www.technodom.kz/p/myasorubka-zigmundshtain-zmg-042-263832",
+        "brand": "Zigmund&Shtain",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://api.technodom.kz/f3/api/v1/images/263832_1.webp",
+        "first_seen": "2026-10-07T17:46:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 12.5,
+      "base_price": 39990,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -7500,7 +7435,7 @@
         "shop": "sulpak",
         "sku": "649678",
         "title": "Робот-пылесос Trouver Mobius 60",
-        "price": 675348,
+        "price": 675351,
         "old_price": 859990,
         "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-trouver-mobius-60",
         "brand": "Trouver",
@@ -7523,27 +7458,27 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "273549",
-        "title": "Плита комбинированная Hansa FCMX682233",
-        "price": 349990,
-        "old_price": 389990,
-        "url": "https://www.technodom.kz/p/plita-kombinirovannaya-s-gazovoj-poverkhnostyu-hansa-fcmx682233-273549",
-        "brand": "Hansa",
+        "sku": "279863",
+        "title": "Блендер стационарный Zigmund&Shtain BS-446 D",
+        "price": 39990,
+        "old_price": 49990,
+        "url": "https://www.technodom.kz/p/blender-staczionarnyj-zigmundshtain-bs-446-d-279863",
+        "brand": "Zigmund&Shtain",
         "category": "Техника для кухни",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 10,
-        "image": "https://api.technodom.kz/f3/api/v1/images/plita_kombinirovannaya_s_gazovoj_poverkhnostyu_hansa_fcmx682233_273549_1.webp",
+        "discount_pct": 20,
+        "image": "https://api.technodom.kz/f3/api/v1/images/blender_staczionarnyj_zigmundshtain_bs_446_d_279863_1.webp",
         "first_seen": "2026-10-07T17:46:04+00:00"
       },
       "signal": "drop",
-      "drop_pct": 10,
-      "fair_discount": 10.3,
-      "base_price": 389990,
-      "value_score": 42,
+      "drop_pct": 20,
+      "fair_discount": 11.1,
+      "base_price": 44990,
+      "value_score": 43,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": -0.3
+      "inflated_gap": 8.9
     },
     {
       "product": {
@@ -7601,58 +7536,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "278719",
-        "title": "Рюкзак для ноутбука 15.6\" SUMDEX PJN-303 BK, для 16 полиэстер (PJN-303BK)",
-        "price": 24990,
-        "old_price": 35990,
-        "url": "https://www.technodom.kz/p/ryukzak-dlya-noutbuka-15-6-sumdex-pjn-303-bk-dlya-16-poliester-pjn-303bk-278719",
-        "brand": "Sumdex",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://api.technodom.kz/f3/api/v1/images/ryukzak_dlya_noutbuka_15_6_sumdex_pjn_303_bk_dlya_16_poliester_pjn_303bk_278719_01.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 9.8,
-      "base_price": 27690,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.2
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "228568",
-        "title": "Газовая варочная панель Hansa BHKS-330500",
-        "price": 99990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/gazovaya-varochnaya-panel-hansa-bhks-330500-228568",
-        "brand": "Hansa",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/228568_1.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 9.1,
-      "base_price": 109990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "625498",
         "title": "Наушники Apple AirPods 4th Gen with Active Noise Cancellation (MXP93ZE/A)",
@@ -7665,7 +7548,7 @@
         "in_stock": true,
         "discount_pct": 37,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2262_0_1_uL1KYf_160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
+        "first_seen": "2026-10-07T23:28:00+00:00"
       },
       "signal": "drop",
       "drop_pct": 37,
@@ -7711,7 +7594,7 @@
         "shop": "sulpak",
         "sku": "657350",
         "title": "Смарт Часы Garmin Часы с навигатором fenix 9 Pro 47mm,AMOLED, iR, титан, оранжевый 010-04336-01",
-        "price": 715590,
+        "price": 715190,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-chasiy-s-navigatorom-fenix-9-pro-47mmamoled-ir-titan-oranzheviyj-010-04336-01",
         "brand": "Garmin",
@@ -7730,34 +7613,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650140",
-        "title": "Стиральная машина Samsung WW80AK6L28BELT_KZ",
-        "price": 227990,
-        "old_price": 324990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-samsung-ww80ak6l28belt-kz",
-        "brand": "Samsung",
-        "category": null,
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1769_0_1_IPA7t9_160.webp",
-        "first_seen": "2026-10-07T17:46:04+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 8.1,
-      "base_price": 248090,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.9
     },
     {
       "product": {
@@ -7816,7 +7671,7 @@
         "shop": "sulpak",
         "sku": "650358",
         "title": "Mini LED телевизор Dreame 55&quot; Aura 55S100",
-        "price": 379989,
+        "price": 379984,
         "old_price": 499990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-aura-mini-led-4k-tv-55s100",
         "brand": "Dreame",
@@ -7830,7 +7685,7 @@
       "signal": "drop",
       "drop_pct": 24,
       "fair_discount": 7.1,
-      "base_price": 409119,
+      "base_price": 409094,
       "value_score": 33,
       "is_pick": false,
       "badges": [
@@ -7850,42 +7705,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-11T09:48:28+00:00",
-      "item_count": 2709,
+      "last_crawl": "2026-11-11T18:14:24+00:00",
+      "item_count": 2723,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-11T09:48:28+00:00",
-      "item_count": 12485,
+      "last_crawl": "2026-11-11T18:14:24+00:00",
+      "item_count": 12513,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-11T09:48:28+00:00",
-      "item_count": 3766,
+      "last_crawl": "2026-11-11T18:14:24+00:00",
+      "item_count": 3780,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-11T09:48:28+00:00",
-      "item_count": 9899,
+      "last_crawl": "2026-11-11T18:14:24+00:00",
+      "item_count": 9922,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-11T09:48:28+00:00",
-      "item_count": 244,
+      "last_crawl": "2026-11-11T18:14:24+00:00",
+      "item_count": 488,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 29103,
-    "total_deals": 290,
-    "avg_discount": 48.0
+    "total_products": 29426,
+    "total_deals": 285,
+    "avg_discount": 48
   }
 }
