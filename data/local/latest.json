@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:20:14.403487+00:00",
+  "updated_at": "2026-11-11T06:56:50.481113+00:00",
   "deals": [
     {
       "product": {
@@ -514,6 +514,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 71.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011001",
+        "title": "Клавиатура Varmilo VEM108 Dreams On Board EC V2 Violet",
+        "price": 25990,
+        "old_price": 87990,
+        "url": "https://www.mechta.kz/product/klaviatura-varmilo-vem108-dreams-on-board-ec-v2-violet/",
+        "brand": "Varmilo",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/6f6e0d98-edb3-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-07T11:09:17+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 27.8,
+      "base_price": 35990,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.2
     },
     {
       "product": {
@@ -1149,6 +1177,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200010998",
+        "title": "Клавиатура Varmilo VEM87 Dreams On Board EC V2 Sakura",
+        "price": 29990,
+        "old_price": 78990,
+        "url": "https://www.mechta.kz/product/klaviatura-varmilo-vem87-dreams-on-board-ec-v2-sakura/",
+        "brand": "Varmilo",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/6f6e0d93-edb3-11ee-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-07T11:09:17+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 25.0,
+      "base_price": 39990,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 37.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200001281",
         "title": "Настольный гриль POLARIS PGP 3002DP Optimal Temp",
         "price": 72290,
@@ -1315,63 +1371,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019238",
-        "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
-        "price": 349980,
-        "old_price": 899990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-3d-ls27fg900xixci-27-uhdips1ms165hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
-        "first_seen": "2026-10-07T11:09:17+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 30.0,
-      "base_price": 499990,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "12000047612",
-        "title": "Ломтерезка BORK Z780",
-        "price": 199990,
-        "old_price": 513590,
-        "url": "https://www.mechta.kz/product/lomterezka-bork-z780/",
-        "brand": "BORK",
-        "category": "Ломтерезки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
-        "first_seen": "2026-10-07T11:09:17+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 199990,
-      "value_score": 25,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200019317",
         "title": "Парогенератор COOLFORT CF-3420 белый/серый",
         "price": 29990,
@@ -1396,35 +1395,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200024895",
-        "title": "Ноутбук LENOVO IdeaPad Slim 3 16ARP10 (83K800GWRK)/16 WUXGA/AMD Ryzen 5 150 3.3 Ghz/16/SSD512/Dos",
-        "price": 259990,
-        "old_price": 499990,
-        "url": "https://www.mechta.kz/product/noutbuk-lenovo-ideapad-slim-3-16arp10-83k800gwrk16-wuxgaamd-ryzen-5-150-3dot3-ghz16ssd512dos/",
-        "brand": "Lenovo",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/c0653298-dedf-4404-9c91-f56213b0da00?w=400",
-        "first_seen": "2026-10-07T11:09:17+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 48.0,
-      "base_price": 499990,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -1815,14 +1785,44 @@
         "Рисованная?"
       ],
       "inflated_gap": 18.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019238",
+        "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
+        "price": 349980,
+        "old_price": 899990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-3d-ls27fg900xixci-27-uhdips1ms165hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
+        "first_seen": "2026-10-07T11:09:17+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 61,
+      "fair_discount": 30.0,
+      "base_price": 499990,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-11T01:20:07+00:00",
-      "item_count": 7921,
+      "last_crawl": "2026-11-11T06:56:39+00:00",
+      "item_count": 7925,
       "status": "ok"
     },
     {
@@ -1862,8 +1862,8 @@
     }
   ],
   "stats": {
-    "total_products": 7921,
+    "total_products": 7925,
     "total_deals": 66,
-    "avg_discount": 63.0
+    "avg_discount": 63.5
   }
 }
