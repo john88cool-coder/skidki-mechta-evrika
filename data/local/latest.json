@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T11:22:17.390180+00:00",
+  "updated_at": "2026-11-12T13:24:25.371543+00:00",
   "deals": [
     {
       "product": {
@@ -229,7 +229,7 @@
       "drop_pct": 62,
       "fair_discount": 61.9,
       "base_price": 524990,
-      "value_score": 94,
+      "value_score": 90,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1316,34 +1316,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200022830",
-        "title": "Овощерезка MOULINEX DK 853BE0(DS)",
-        "price": 20990,
-        "old_price": 54990,
-        "url": "https://www.mechta.kz/product/ovoshcherezka-moulinex-dk-853be0ds/",
-        "brand": "Moulinex",
-        "category": "Электротерки",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/0f48a9fa-66d9-4bfa-bb01-e3b21794567d?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 25.0,
-      "base_price": 27990,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 37.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200005088",
         "title": "Наушники KAIBOAUDIO с костной проводимостью Buds Wave 1 (белый)",
         "price": 22990,
@@ -1364,6 +1336,34 @@
       "value_score": 29,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011442",
+        "title": "Телевизор Samsung QLED QE55LS03DAUXCE The Frame UHD SMART",
+        "price": 299990,
+        "old_price": 779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03dauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/1e3da8e6-1437-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-09T05:40:02+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 62.0
@@ -1789,8 +1789,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-12T11:22:06+00:00",
-      "item_count": 7933,
+      "last_crawl": "2026-11-12T13:24:05+00:00",
+      "item_count": 7925,
       "status": "ok"
     },
     {
@@ -1830,7 +1830,7 @@
     }
   ],
   "stats": {
-    "total_products": 7933,
+    "total_products": 7925,
     "total_deals": 65,
     "avg_discount": 64
   }
