@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T05:28:33.121110+00:00",
+  "updated_at": "2026-11-12T09:23:15.935810+00:00",
   "deals": [
     {
       "product": {
@@ -1674,62 +1674,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200026347",
-        "title": "Блендер погружной MOULINEX DD 67L810",
-        "price": 50990,
-        "old_price": 83990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-moulinex-dd-67l810/",
-        "brand": "Moulinex",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/9bc3df71-4533-4905-b5b0-dc1f79e16080?w=400",
-        "first_seen": "2026-11-04T13:21:41+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.3,
-      "base_price": 83990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000003991",
-        "title": "Электрическая зубная щетка PHILIPS HX 9914/57",
-        "price": 169990,
-        "old_price": 350990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-991457/",
-        "brand": "Philips",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://pi.mdev.kz/51b98f8b-7c97-11eb-a23a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-08T04:55:15+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 52,
-      "fair_discount": 39.3,
-      "base_price": 279990,
-      "value_score": 94,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200019718",
         "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
         "price": 69980,
@@ -1762,8 +1706,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-12T05:28:15+00:00",
-      "item_count": 7935,
+      "last_crawl": "2026-11-12T09:22:56+00:00",
+      "item_count": 7930,
       "status": "ok"
     },
     {
@@ -1803,8 +1747,8 @@
     }
   ],
   "stats": {
-    "total_products": 7935,
-    "total_deals": 64,
+    "total_products": 7930,
+    "total_deals": 62,
     "avg_discount": 64.0
   }
 }
