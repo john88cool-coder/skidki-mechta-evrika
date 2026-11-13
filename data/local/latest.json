@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:21:01.952993+00:00",
+  "updated_at": "2026-11-13T04:41:28.298547+00:00",
   "deals": [
     {
       "product": {
@@ -592,7 +592,7 @@
       "drop_pct": 69,
       "fair_discount": 0.0,
       "base_price": 29990,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1096,6 +1096,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200016382",
+        "title": "Стиральная машина HISENSE WF7S 1247 BW",
+        "price": 169990,
+        "old_price": 459990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hisense-wf7s-1247-bw/",
+        "brand": "Hisense",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/dce54311-488f-4904-b2e9-deb5e4abb6c3?w=400",
+        "first_seen": "2026-10-09T05:40:02+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 32.0,
+      "base_price": 249990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200006986",
         "title": "Вертикальный пылесос WADE SV-01 синий",
         "price": 19990,
@@ -1113,7 +1141,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 25,
+      "value_score": 20,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1336,34 +1364,6 @@
       "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011442",
-        "title": "Телевизор Samsung QLED QE55LS03DAUXCE The Frame UHD SMART",
-        "price": 299990,
-        "old_price": 779990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03dauxce-the-frame-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/1e3da8e6-1437-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 299990,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 62.0
@@ -1789,8 +1789,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-12T17:20:55+00:00",
-      "item_count": 7926,
+      "last_crawl": "2026-11-13T04:41:10+00:00",
+      "item_count": 7923,
       "status": "ok"
     },
     {
@@ -1830,7 +1830,7 @@
     }
   ],
   "stats": {
-    "total_products": 7926,
+    "total_products": 7923,
     "total_deals": 65,
     "avg_discount": 64
   }
