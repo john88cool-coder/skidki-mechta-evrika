@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T09:55:27.482798+00:00",
+  "updated_at": "2026-11-13T18:06:14.449778+00:00",
   "deals": [
     {
       "product": {
@@ -255,7 +255,7 @@
       "drop_pct": 57,
       "fair_discount": 58.3,
       "base_price": 71990,
-      "value_score": 78,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -2140,7 +2140,7 @@
       "drop_pct": 56,
       "fair_discount": 0.0,
       "base_price": 45990,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2817,7 +2817,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 225590,
+      "base_price": 222990,
       "value_score": 41,
       "is_pick": false,
       "badges": [
@@ -2899,7 +2899,7 @@
       "drop_pct": 52,
       "fair_discount": 0.0,
       "base_price": 59990,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4043,90 +4043,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "3000022440",
-        "title": "Моноблок 27&quot; XG Atlas GL70",
-        "price": 175608,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
-        "brand": "XG",
-        "category": null,
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 59.2,
-      "base_price": 430010,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655719",
-        "title": "Стационарный блендер Rondell RDE-1253",
-        "price": 36990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/blenderiy-stacionarniye-rondell-rde-1253",
-        "brand": "Rondell",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_336_0_1_U7hVjs_160.webp",
-        "first_seen": "2026-10-29T13:31:16+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 56.0,
-      "base_price": 83990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "250468",
-        "title": "Миксер Kitfort КТ-1336-1",
-        "price": 77990,
-        "old_price": 142490,
-        "url": "https://www.technodom.kz/p/mikser-kitfort-kt-1336-1-250468",
-        "brand": "Kitfort",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://api.technodom.kz/f3/api/v1/images/250468_1.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 45.3,
-      "base_price": 142490,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "283267",
         "title": "Робот-пылесос Dreame X40 Ultra Complete",
@@ -4155,193 +4071,80 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "28013",
-        "title": "Блендер Polaris PHB 1384 Silent",
-        "price": 25390,
-        "old_price": 44990,
-        "url": "https://evrika.com/catalog/blender-polaris-phb-1384-silent/p28013",
-        "brand": null,
-        "category": "Блендеры",
+        "shop": "shopkz",
+        "sku": "1231680",
+        "title": "Чайник Ardesto EKL-1617BL, Beige-Gray",
+        "price": 14990,
+        "old_price": 24990,
+        "url": "https://shop.kz/offer/chaynik-ardesto-ekl-1617bl-beige-gray/",
+        "brand": "Ardesto",
+        "category": "Чайники, термопоты",
         "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/5S4FvPeehjkxyzjVLSkP2uEYuO9GKhgBbkuG0p2v.jpg.webp",
+        "discount_pct": 40,
+        "image": "https://static.shop.kz/upload/iblock/866/158372_1_min.jpg",
         "first_seen": "2026-10-09T17:19:44+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 43.6,
-      "base_price": 44990,
-      "value_score": 90,
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 24990,
+      "value_score": 88,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1106058",
+        "title": "Кофеварка Ardesto YCM-E1600, Black-Steel",
+        "price": 29990,
+        "old_price": 49990,
+        "url": "https://shop.kz/offer/kofevarka-ardesto-ycm-e1600-black-steel/",
+        "brand": "Ardesto",
+        "category": "Кофеварки, кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://static.shop.kz/upload/iblock/fe2/154828_10.jpg",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 40.0,
+      "base_price": 49990,
+      "value_score": 88,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 0.4
+      "inflated_gap": 0.0
     },
     {
       "product": {
         "shop": "technodom",
-        "sku": "275400",
-        "title": "Altel 5G WiFi роутер CPE H155-380 + ТП (Бiрге)",
-        "price": 36970,
-        "old_price": 64990,
-        "url": "https://www.technodom.kz/p/altel-5g-wifi-router-cpe-h155-380-tp-birge-275400",
-        "brand": "Алтел",
+        "sku": "293300",
+        "title": "Ноутбук Acer Gadget ETBook PLUS Intel Celeron N4020 / 8ГБ / 256SSD / 15.6 / Win11 / (ETBook Plus)",
+        "price": 101990,
+        "old_price": 169990,
+        "url": "https://www.technodom.kz/p/noutbuk-acer-gadget-etbook-plus-intel-celeron-n4020-8gb-256ssd-156-win11-etbook-plus-293300",
+        "brand": "Acer",
         "category": "Ноутбуки и компьютеры",
         "group": "computers",
         "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://api.technodom.kz/f3/api/v1/images/altel_5g_wifi_router_cpe_h155_380_tp_birge_275400_1q.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 43.1,
-      "base_price": 64990,
-      "value_score": 90,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "48115",
-        "title": "Утюг Tefal FV2836E0",
-        "price": 24990,
-        "old_price": 42990,
-        "url": "https://evrika.com/catalog/utyug-tefal-fv2836e0-1/p48115",
-        "brand": null,
-        "category": "Утюги",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/mS0nd8QH9j1vzki0kteeqqnOuhjHTkFj0RvEoyl0.png.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 41.9,
-      "base_price": 42990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "31496",
-        "title": "Блендер Polaris PHB 1380 Silent",
-        "price": 27990,
-        "old_price": 46990,
-        "url": "https://evrika.com/catalog/blender-polaris-phb-1380-silent/p31496",
-        "brand": null,
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
         "discount_pct": 40,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/1bq0lLrEEqoDk2v0alOQWOtP0QrAnQxmEX87JQW6.jpg.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
+        "image": "https://api.technodom.kz/f3/api/v1/images/293300_1.webp",
+        "first_seen": "2026-11-05T16:49:40+00:00"
       },
       "signal": "drop",
       "drop_pct": 40,
-      "fair_discount": 40.4,
-      "base_price": 46990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "8596",
-        "title": "Чайник Philips HD9339/80",
-        "price": 25690,
-        "old_price": 42990,
-        "url": "https://evrika.com/catalog/chaynik-philips-hd9339-80/p8596",
-        "brand": null,
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/NvOiBZ2tFpNv3aHAtVzkmLWY01lcoqyo5QrYnir8.jpg.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.2,
-      "base_price": 42990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "31503",
-        "title": "Блендер Philips HR2041/00",
-        "price": 20090,
-        "old_price": 32990,
-        "url": "https://evrika.com/catalog/blender-philips-hr2041-00/p31503",
-        "brand": null,
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/mrkO4MmiWeBYl3Tto0tL6E7KnKnpPOUcKup0LEa8.jpg.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.1,
-      "base_price": 32990,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "36950",
-        "title": "Миксер планетарный Smeg SMF03BLEU (черный)",
-        "price": 245090,
-        "old_price": 402090,
-        "url": "https://evrika.com/catalog/mikser-planetarnyy-smeg-smf03bleu-chernyy/p36950",
-        "brand": null,
-        "category": "Миксеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ruLXmNuWhixxCVt6wyrOMVcbtfvwwl9HrV0MKGFI.jpg.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.0,
-      "base_price": 401990,
-      "value_score": 87,
+      "fair_discount": 40.0,
+      "base_price": 169990,
+      "value_score": 94,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4376,34 +4179,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651642",
-        "title": "Кофеварка Delonghi EC890.WI",
-        "price": 119990,
-        "old_price": 189990,
-        "url": "https://www.sulpak.kz/g/kofevarki-delonghi-ec890wi",
-        "brand": "Delonghi",
-        "category": null,
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_932_286_0_1_Ee0d8V_160.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 36.8,
-      "base_price": 189990,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -4546,6 +4321,33 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1411059",
+        "title": "Робот-пылесос Ardesto RVC-S1300W, White",
+        "price": 64990,
+        "old_price": 89990,
+        "url": "https://shop.kz/offer/robot-pylesos-ardesto-rvc-s1300w-white/",
+        "brand": "Ardesto",
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://static.shop.kz/upload/iblock/600/0000163239_1.jpg",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 27.8,
+      "base_price": 89990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "638976",
         "title": "Встраиваемый духовый шкаф Electrolux LOE8H39Z",
@@ -4574,6 +4376,33 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "295645",
+        "title": "Монитор 23,8\" MSI Modern MD2412PW IPS 1920x1080 16:9 100Гц (HDMI)",
+        "price": 51990,
+        "old_price": 69990,
+        "url": "https://www.technodom.kz/p/monitor-23-8-msi-modern-md2412pw-ips-1920x1080-16-9-100gts-hdmi-295645",
+        "brand": "MSI",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/295645_1.webp",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 25.7,
+      "base_price": 69990,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "3000026900",
         "title": "Моноблок 23.8&quot; XG Crystal Desk GT40",
@@ -4586,13 +4415,40 @@
         "in_stock": true,
         "discount_pct": null,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_344_0_2_160.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
+        "first_seen": "2026-10-09T23:02:06+00:00"
       },
       "signal": "drop",
       "drop_pct": null,
       "fair_discount": 25.5,
       "base_price": 255000,
       "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657795",
+        "title": "Гарнитура Jabra Evolve3 75 MS Link390c Black 37599-999-899",
+        "price": 159505,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-jabra-37599-999-899",
+        "brand": "Jabra",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4732_0_2_160.webp",
+        "first_seen": "2026-11-05T23:59:28+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 25.1,
+      "base_price": 213000,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -4626,33 +4482,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "657336",
-        "title": "Смарт Часы Garmin fenix 9 43mm (010-04761-11) Titanium / gray",
-        "price": 592990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-fenix-9-43mm-010-04761-11-titanium-gray",
-        "brand": "Garmin",
-        "category": null,
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6451_0_6_V1qnw5_160.webp",
-        "first_seen": "2026-10-28T08:58:00+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 25.0,
-      "base_price": 790990,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -4739,6 +4568,33 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "295659",
+        "title": "Монитор 27\" MSI MAG 274URFW Rapid IPS 3840х2160 16:9 160Гц (2HDMI+DP)",
+        "price": 209990,
+        "old_price": 328990,
+        "url": "https://www.technodom.kz/p/monitor-27-msi-mag-274urfw-rapid-ips-3840kh2160-16-9-160gts-2hdmi-dp-295659",
+        "brand": "MSI",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 36,
+        "image": "https://api.technodom.kz/f3/api/v1/images/295659_1.webp",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 36,
+      "fair_discount": 25.0,
+      "base_price": 279990,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "297493",
         "title": "Чайник Zigmund&Shtain KE-928 черный",
         "price": 16710,
@@ -4816,6 +4672,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626138",
+        "title": "Холодильник Beko GNO43621XPN",
+        "price": 379422,
+        "old_price": 499990,
+        "url": "https://www.sulpak.kz/g/holodilniki-beko-gno43621xpn",
+        "brand": "Beko",
+        "category": null,
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 24,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_25_1606_0_1_7OG59n_160.webp",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 24,
+      "fair_discount": 22.6,
+      "base_price": 489990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 1.4
     },
     {
       "product": {
@@ -5142,7 +5025,7 @@
       "drop_pct": null,
       "fair_discount": 20.0,
       "base_price": 99990,
-      "value_score": 60,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5373,33 +5256,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "300128",
-        "title": "Морозильник Candy CCM100A",
-        "price": 79990,
-        "old_price": 94990,
-        "url": "https://www.technodom.kz/p/morozilnik-candy-ccm100a-300128",
-        "brand": "Candy",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://api.technodom.kz/f3/api/v1/images/300128_1.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 15.8,
-      "base_price": 94990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "291867",
         "title": "Смартфон Samsung Galaxy Z Fold7 5G 12/256Gb Silver shadow",
         "price": 799990,
@@ -5539,6 +5395,33 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1561278",
+        "title": "Морозильная камера Ardesto FRM-145MCH, White",
+        "price": 84990,
+        "old_price": 99990,
+        "url": "https://shop.kz/offer/morozilnaya-kamera-ardesto-frm-145mch-white/",
+        "brand": "Ardesto",
+        "category": "Морозильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://static.shop.kz/upload/iblock/fca/a6x3kzpbiu5xo5syn8cq3gkeouyy8n6c/168479o7.jpg",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.0,
+      "base_price": 99990,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "1701311",
         "title": "Ноутбук Gigabyte Gaming A16 CWHI3KZ894SD (9RGA6I77WHFHJK0KZ000)",
         "price": 807690,
@@ -5669,31 +5552,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "300129",
-        "title": "Морозильник Candy CCM150A",
-        "price": 89990,
-        "old_price": 109990,
-        "url": "https://www.technodom.kz/p/morozilnik-candy-ccm150a-300129",
-        "brand": "Candy",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 18,
-        "image": "https://api.technodom.kz/f3/api/v1/images/300129_1.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 18,
-      "fair_discount": 14.3,
-      "base_price": 104990,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 3.7
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1714553",
         "title": "Смартфон Oscal Pilot 5, 8 GB, 256 GB, Black",
@@ -5716,6 +5574,31 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 1.9
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1411233",
+        "title": "Робот-пылесос Ardesto RVC-S600W, White-Silver",
+        "price": 64990,
+        "old_price": 74990,
+        "url": "https://shop.kz/offer/robot-pylesos-ardesto-rvc-s600w-white-silver/",
+        "brand": "Ardesto",
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://static.shop.kz/upload/iblock/4cc/00000163237.jpg",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 13.3,
+      "base_price": 74990,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -6003,31 +5886,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "273552",
-        "title": "Плита стеклокерамическая Hansa FCCW58103",
-        "price": 279990,
-        "old_price": 319990,
-        "url": "https://www.technodom.kz/p/plita-steklokeramicheskaya-hansa-fccw58103-273552",
-        "brand": "Hansa",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://api.technodom.kz/f3/api/v1/images/plita_steklokeramicheskaya_hansa_fccw58103_273552_1.webp",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 12.5,
-      "base_price": 319990,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "285990",
         "title": "Сушильная машина Toshiba TD-BK100GHUZ(SK)",
         "price": 279990,
@@ -6079,28 +5937,28 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "288467",
-        "title": "Встраиваемая посудомоечная машина Toshiba DW-10B3(B)-CIS",
-        "price": 219990,
-        "old_price": 249990,
-        "url": "https://www.technodom.kz/p/vstraivayemaya-posudomoyechnaya-mashina-toshiba-dw-10b3-b-cis-288467",
-        "brand": "Toshiba",
-        "category": "Бытовая техника",
+        "shop": "sulpak",
+        "sku": "636368",
+        "title": "Робот-пылесос Roborock Saros 10R Черный S91COP",
+        "price": 490490,
+        "old_price": 599990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-roborock-saros-10r",
+        "brand": "Roborock",
+        "category": null,
         "group": "home",
         "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://api.technodom.kz/f3/api/v1/images/vstraivayemaya_posudomoyechnaya_mashina_toshiba_dw_10b3_b_cis_288467_01.webp",
+        "discount_pct": 18,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_230_0_2_160.webp",
         "first_seen": "2026-10-09T17:19:44+00:00"
       },
       "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 12.0,
-      "base_price": 249990,
+      "drop_pct": 18,
+      "fair_discount": 12.4,
+      "base_price": 559990,
       "value_score": 45,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 0.0
+      "inflated_gap": 5.6
     },
     {
       "product": {
@@ -6337,56 +6195,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1507086",
-        "title": "Робот-пылесос Tefal X-plorer Serie 45 RG8227WH, White",
-        "price": 111590,
-        "old_price": 144990,
-        "url": "https://shop.kz/offer/robot-pylesos-tefal-x-plorer-serie-45-rg8227wh-white/",
-        "brand": "Tefal",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://static.shop.kz/upload/iblock/012/768qok87s46nc213j4btwmwdwyksnu8b/00000166585_1.jpg",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 10.0,
-      "base_price": 123990,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 13.0
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1584580",
-        "title": "Bluetooth гарнитура Edifier W820NB Plus EDF200118, Blue",
-        "price": 25200,
-        "old_price": 27990,
-        "url": "https://shop.kz/offer/bluetooth-garnitura-edifier-w820nb-plus-edf200118-blue/",
-        "brand": "Edifier",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 10,
-        "image": "https://static.shop.kz/upload/iblock/778/0fe70wnc6jsigu997cmefjwlg23zj8pw/170857o2.jpg",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 10,
-      "fair_discount": 10.0,
-      "base_price": 27990,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "637200",
         "title": "Робот-пылесос Dreame D20 Pro Black",
@@ -6411,6 +6219,85 @@
         "Рисованная?"
       ],
       "inflated_gap": 27.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "285988",
+        "title": "Стиральная машина Toshiba TW-BK100GF4UZ(WK)",
+        "price": 224990,
+        "old_price": 309990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-toshiba-tw-bk100gf4uzwk-285988",
+        "brand": "Toshiba",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://api.technodom.kz/f3/api/v1/images/285988_1d.webp",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 10.0,
+      "base_price": 249990,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 17.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "265061",
+        "title": "Стиральная машина Toshiba TW-BL70A2UZ(WK)",
+        "price": 134990,
+        "old_price": 179990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-toshiba-tw-bl70a2uzwk-265061",
+        "brand": "Toshiba",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://api.technodom.kz/f3/api/v1/images/265061_1d.webp",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 10.0,
+      "base_price": 149990,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "301691",
+        "title": "Стиральная машина с сушкой Toshiba TWD-T21BU90UWUZ(MG)",
+        "price": 269990,
+        "old_price": 319990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-s-sushkoj-toshiba-twd-t21bu90uwuzmg-301691",
+        "brand": "Toshiba",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 16,
+        "image": "https://api.technodom.kz/f3/api/v1/images/301691_1.webp",
+        "first_seen": "2026-10-09T17:19:44+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 16,
+      "fair_discount": 10.0,
+      "base_price": 299990,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 6.0
     },
     {
       "product": {
@@ -6441,87 +6328,10 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1723529",
-        "title": "Колонки Edifier A60 (2.0), Matt White",
-        "price": 194600,
-        "old_price": 219990,
-        "url": "https://shop.kz/offer/kolonki-edifier-a60-2-0-matt-white/",
-        "brand": "Edifier",
-        "category": "Акустические системы и колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 12,
-        "image": "https://static.shop.kz/upload/iblock/faf/ywe5lsv7ma9krzd6vxyxilq81c255b3a/196978S1.jpg",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 12,
-      "fair_discount": 9.5,
-      "base_price": 214990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 2.5
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1726823",
-        "title": "Bluetooth гарнитура ASUS ROG A501 Pelta, Black",
-        "price": 63390,
-        "old_price": null,
-        "url": "https://shop.kz/offer/bluetooth-garnitura-asus-rog-a501-pelta-black/",
-        "brand": "ASUS",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/adb/rhc9m0qo2ztjke9at7tx1wfhr063jtq0/198386o1.jpg",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 9.4,
-      "base_price": 69990,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1074249",
-        "title": "Bluetooth гарнитура A4Tech Bloody M70 TWS, Black-Blue",
-        "price": 29890,
-        "old_price": 29990,
-        "url": "https://shop.kz/offer/bluetooth-garnitura-a4tech-bloody-m70-tws-black-blue/",
-        "brand": "A4Tech",
-        "category": "Наушники и гарнитуры",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 0,
-        "image": "https://static.shop.kz/upload/iblock/b9f/154299_1.jpg",
-        "first_seen": "2026-10-09T17:19:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 0,
-      "fair_discount": 9.4,
-      "base_price": 32990,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -9.4
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "657350",
         "title": "Смарт Часы Garmin Часы с навигатором fenix 9 Pro 47mm,AMOLED, iR, титан, оранжевый 010-04336-01",
-        "price": 713690,
+        "price": 713490,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-chasiy-s-navigatorom-fenix-9-pro-47mmamoled-ir-titan-oranzheviyj-010-04336-01",
         "brand": "Garmin",
@@ -6598,6 +6408,31 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "657336",
+        "title": "Смарт Часы Garmin fenix 9 43mm (010-04761-11) Titanium / gray",
+        "price": 592990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-garmin-fenix-9-43mm-010-04761-11-titanium-gray",
+        "brand": "Garmin",
+        "category": null,
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6451_0_6_V1qnw5_160.webp",
+        "first_seen": "2026-10-28T08:58:00+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 7.9,
+      "base_price": 643790,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "657337",
         "title": "Смарт Часы Garmin Часы с навигатором fenix 9, 47mm, титан, серые, 010-04762-01",
         "price": 592990,
@@ -6632,42 +6467,42 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-13T09:54:55+00:00",
-      "item_count": 2738,
+      "last_crawl": "2026-11-13T18:05:43+00:00",
+      "item_count": 2766,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-13T09:54:55+00:00",
-      "item_count": 12530,
+      "last_crawl": "2026-11-13T18:05:43+00:00",
+      "item_count": 12569,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-13T09:54:55+00:00",
-      "item_count": 3826,
+      "last_crawl": "2026-11-13T18:05:43+00:00",
+      "item_count": 3799,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-13T09:54:55+00:00",
-      "item_count": 9963,
+      "last_crawl": "2026-11-13T18:05:43+00:00",
+      "item_count": 9979,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-13T09:54:55+00:00",
-      "item_count": 2442,
+      "last_crawl": "2026-11-13T18:05:43+00:00",
+      "item_count": 2446,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31499,
-    "total_deals": 247,
+    "total_products": 31559,
+    "total_deals": 241,
     "avg_discount": 50
   }
 }
