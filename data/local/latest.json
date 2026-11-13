@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T04:41:28.298547+00:00",
+  "updated_at": "2026-11-13T05:22:46.926654+00:00",
   "deals": [
     {
       "product": {
@@ -74,6 +74,33 @@
       "value_score": 27,
       "is_pick": false,
       "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006884",
+        "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZAAS (graphite) 11\"/128GB/WiFi/LTE",
+        "price": 149950,
+        "old_price": 519990,
+        "url": "https://www.mechta.kz/product/planshet-samsung-galaxy-tab-s9-sm-x716bzaas-graphite-11128gbwifilte/",
+        "brand": "Samsung",
+        "category": "Планшеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
+        "first_seen": "2026-10-09T05:40:02+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
       "inflated_gap": null
     },
     {
@@ -515,34 +542,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 42.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200006884",
-        "title": "Планшет Samsung Galaxy Tab S9 SM-X716BZAAS (graphite) 11\"/128GB/WiFi/LTE",
-        "price": 149950,
-        "old_price": 519990,
-        "url": "https://www.mechta.kz/product/planshet-samsung-galaxy-tab-s9-sm-x716bzaas-graphite-11128gbwifilte/",
-        "brand": "Samsung",
-        "category": "Планшеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://pi.mdev.kz/31d50c33-301a-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 71,
-      "fair_discount": 0.0,
-      "base_price": 149950,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 71.0
     },
     {
       "product": {
@@ -1789,7 +1788,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-13T04:41:10+00:00",
+      "last_crawl": "2026-11-13T05:22:39+00:00",
       "item_count": 7923,
       "status": "ok"
     },
