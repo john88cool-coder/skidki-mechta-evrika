@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T05:22:46.926654+00:00",
+  "updated_at": "2026-11-13T11:21:54.534312+00:00",
   "deals": [
     {
       "product": {
@@ -22,31 +22,6 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 21,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017884",
-        "title": "Робот-пылесос TEFAL RG 8L65 WH",
-        "price": 62990,
-        "old_price": 284990,
-        "url": "https://www.mechta.kz/product/robot-pylesos-tefal-rg-8l65-wh/",
-        "brand": "Tefal",
-        "category": "Роботы-пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 78,
-        "image": "https://pi.mdev.kz/28bcf108-8f4d-41dc-8244-ae06d14472ee?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 78,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 27,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -256,7 +231,7 @@
       "drop_pct": 62,
       "fair_discount": 61.9,
       "base_price": 524990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -311,17 +286,15 @@
       },
       "signal": "deal",
       "drop_pct": 82,
-      "fair_discount": 33.0,
-      "base_price": 999990,
-      "value_score": 84,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 669990,
+      "value_score": 39,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 49.0
+      "inflated_gap": 82.0
     },
     {
       "product": {
@@ -804,7 +777,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
+        "first_seen": "2026-10-09T07:21:03+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -1370,6 +1343,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011442",
+        "title": "Телевизор Samsung QLED QE55LS03DAUXCE The Frame UHD SMART",
+        "price": 299990,
+        "old_price": 779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03dauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/1e3da8e6-1437-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-09T05:40:02+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200019317",
         "title": "Парогенератор COOLFORT CF-3420 белый/серый",
         "price": 29990,
@@ -1394,33 +1395,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200004720",
-        "title": "Стиральная машина GRUNDIG GW 5P56H21 W",
-        "price": 99990,
-        "old_price": 249990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p56h21-w/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/017be3ff-cc43-4c74-a93b-523ae535e566?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 60,
-      "fair_discount": 47.4,
-      "base_price": 189990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.6
     },
     {
       "product": {
@@ -1481,29 +1455,31 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200004723",
-        "title": "Стиральная машина GRUNDIG GW 5P56H21 A",
-        "price": 109990,
-        "old_price": 259990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-grundig-gw-5p56h21-a/",
-        "brand": "Grundig",
-        "category": "Стиральные машины",
-        "group": "home",
+        "sku": "17200012450",
+        "title": "Планшет APPLE 13-inch iPad Pro WiFi 256GB with Standard glass - Space Black (MVX23QA/A)",
+        "price": 499990,
+        "old_price": 964990,
+        "url": "https://www.mechta.kz/product/planshet-apple-13-inch-ipad-pro-wifi-256gb-with-standard-glass---space-black-mvx23qaa/",
+        "brand": "Apple",
+        "category": "Планшеты",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/b6d8f360-f2fa-4d0a-9915-3c05f772d228?w=400",
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/42f06a17-1d22-49a3-b7f2-53df92096457?w=400",
         "first_seen": "2026-10-09T05:40:02+00:00"
       },
       "signal": "drop",
-      "drop_pct": 58,
-      "fair_discount": 45.0,
-      "base_price": 199990,
-      "value_score": 76,
-      "is_pick": false,
+      "drop_pct": 48,
+      "fair_discount": 41.2,
+      "base_price": 849990,
+      "value_score": 93,
+      "is_pick": true,
       "badges": [
-        "Честная скидка"
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
       ],
-      "inflated_gap": 13.0
+      "inflated_gap": 6.8
     },
     {
       "product": {
@@ -1644,35 +1620,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200007310",
-        "title": "Стиральная машина Samsung WW 80AG6S28AXLD",
-        "price": 199990,
-        "old_price": 329990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-samsung-ww-80ag6s28axld/",
-        "brand": "Samsung",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/ba788c9b-be1d-410b-952f-67855aefd358?w=400",
-        "first_seen": "2026-10-09T05:40:02+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.4,
-      "base_price": 329990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200019718",
         "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
         "price": 69980,
@@ -1788,8 +1735,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-13T05:22:39+00:00",
-      "item_count": 7923,
+      "last_crawl": "2026-11-13T11:21:43+00:00",
+      "item_count": 7929,
       "status": "ok"
     },
     {
@@ -1829,8 +1776,8 @@
     }
   ],
   "stats": {
-    "total_products": 7923,
-    "total_deals": 65,
+    "total_products": 7929,
+    "total_deals": 63,
     "avg_discount": 64
   }
 }
