@@ -153,6 +153,11 @@
 			if (cancelled || !el.isConnected) return;
 			chart = chart ?? rt.init(el);
 			chart.setOption(buildOption(rt.LinearGradient, dark, points, fmt), true);
+		}).catch((error) => {
+			// Чанк графика не догрузился: сбрасываем промис, чтобы следующий
+			// прогон эффекта (смена темы/данных) повторил попытку.
+			console.error('echarts load failed', error);
+			runtimePromise = null;
 		});
 		return () => {
 			cancelled = true;
