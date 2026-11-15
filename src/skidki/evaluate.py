@@ -106,6 +106,43 @@ def returned_to_earlier(earlier: list[Span], price: int) -> bool:
     return bool(lows) and price >= min(lows) * (1 - RETURN_TOLERANCE)
 
 
+# Медиана длинного окна ниже медианы окна тренда на эту долю и больше —
+# цену поднимали перед «скидкой»: база сравнения — прежний уровень.
+PUMP_GAP = 0.10
+
+
+@dataclass(frozen=True)
+class Baseline:
+    """Честная база сравнения цены."""
+
+    reference: int | None          # «обычная цена»; None — истории нет
+    pump_price: int | None = None  # цена, до которой поднимали перед скидкой
+
+
+def honest_baseline(spans: list[Span], at: datetime, thresholds: Thresholds) -> Baseline:
+    """База с защитой от накрутки: меньшая из медиан окна тренда и длинного окна.
+
+    Живой случай 2026-11-15: ноутбук три недели стоил 299 970 ₸, девять дней —
+    524 990 ₸, потом 199 970 ₸. Медиана 14 дней (524 990) объявляла «−62%»,
+    хотя от прежней цены это −33%. `spans` — отрезки позиции не короче окна
+    `low_window_days`; отсутствие в наличии отфильтровывается здесь же.
+    """
+    stocked = [span for span in spans if span.in_stock]
+    trend_since = at - timedelta(days=thresholds.trend_window_days)
+    long_since = at - timedelta(days=thresholds.low_window_days)
+    trend_ref = weighted_median(
+        [span for span in stocked if span.last_seen >= trend_since], trend_since, at
+    )
+    if trend_ref is None:
+        return Baseline(None)
+    long_ref = weighted_median(
+        [span for span in stocked if span.last_seen >= long_since], long_since, at
+    )
+    if long_ref is not None and long_ref <= trend_ref * (1 - PUMP_GAP):
+        return Baseline(long_ref, pump_price=trend_ref)
+    return Baseline(trend_ref)
+
+
 def coverage_days(spans: list[Span], until: datetime) -> float:
     """Сколько дней назад позиция впервые наблюдалась в наличии (в пределах выборки)."""
     starts = [span.first_seen for span in spans if span.in_stock]
@@ -164,11 +201,17 @@ def evaluate(
     else:
         trend_raw = [span for span in preloaded_spans if span.last_seen >= trend_since]
     trend = [span for span in trend_raw if span.in_stock]
-    reference = weighted_median(trend, trend_since, at)
+    earlier_since = at - timedelta(days=thresholds.low_window_days)
+    # База — с защитой от накрутки: длинное окно ловит подъём цены перед «скидкой».
+    window = (
+        history(conn, product.identity, earlier_since)
+        if preloaded_spans is None
+        else preloaded_spans
+    )
+    reference = honest_baseline(window, at, thresholds).reference
     verdict.reference = reference
     trend_days = coverage_days(trend, at)
     drop_pct = rules.drop_pct_for(product.category, thresholds.drop_pct)
-    earlier_since = at - timedelta(days=thresholds.low_window_days)
     if preloaded_spans is None:
         earlier = [
             span

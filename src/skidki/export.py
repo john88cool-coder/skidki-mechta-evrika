@@ -15,7 +15,7 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from .config import ROOT, Thresholds
-from .evaluate import coverage_days, returned_to_earlier, weighted_median
+from .evaluate import coverage_days, honest_baseline, returned_to_earlier, weighted_median
 from .matching import marketplace_medians
 from .models import Product
 from .scoring import score_product
@@ -97,11 +97,16 @@ def _product_to_dict(p: Product, first_seen: str | None = None) -> dict:
 
 def _fair_reference_and_age(
     conn: sqlite3.Connection, product: Product, at: datetime
-) -> tuple[float | None, int | None, float | None]:
-    """За один запрос к истории возвращает (fair_discount, reference_median, age_hours)."""
+) -> tuple[float | None, int | None, float | None, int | None]:
+    """За один запрос к истории: (fair_discount, reference, age_hours, pump_price).
+
+    reference — честная база (evaluate.honest_baseline); pump_price — цена, до
+    которой товар поднимали перед скидкой (None, если накрутки не было).
+    """
     th = Thresholds()
     trend_since = at - timedelta(days=th.trend_window_days)
-    all_spans = spans_history(conn, product.identity, trend_since)
+    window = spans_history(conn, product.identity, at - timedelta(days=th.low_window_days))
+    all_spans = [s for s in window if s.last_seen >= trend_since]
     age_h: float | None = None
     if all_spans:
         age_h = max(0.0, (at - all_spans[-1].last_seen).total_seconds() / 3600.0)
@@ -117,21 +122,19 @@ def _fair_reference_and_age(
             age_h = max(0.0, (at - dt).total_seconds() / 3600.0)
 
     spans = [s for s in all_spans if s.in_stock]
-    ref = weighted_median(spans, trend_since, at)
+    baseline = honest_baseline(window, at, th)
+    ref = baseline.reference
     if not ref or coverage_days(spans, at) < th.min_history_days:
-        return None, None, age_h
+        return None, None, age_h, None
     drop = (ref - product.price) / ref * 100
-    earlier = [
-        s for s in spans_history(conn, product.identity, at - timedelta(days=th.low_window_days))
-        if s.last_seen < trend_since
-    ]
+    earlier = [s for s in window if s.last_seen < trend_since]
     if returned_to_earlier(earlier, product.price):
         # Цена вернулась к прежнему уровню после временного подъёма — не скидка.
-        return 0.0, ref, age_h
+        return 0.0, ref, age_h, None
     if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
         # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
-        return 0.0, ref, age_h
-    return round(drop, 1), ref, age_h
+        return 0.0, ref, age_h, None
+    return round(drop, 1), ref, age_h, baseline.pump_price
 
 
 def _deal_dict(
@@ -144,7 +147,7 @@ def _deal_dict(
     market_median: int | None = None,
 ) -> dict:
     """Позиция витрины: заявленная скидка магазина + вердикт собственной истории и рынка."""
-    fair, ref, age_h = _fair_reference_and_age(conn, product, now)
+    fair, ref, age_h, pump_price = _fair_reference_and_age(conn, product, now)
     sc = score_product(
         product,
         fair_discount=fair,
@@ -161,6 +164,8 @@ def _deal_dict(
         "fair_discount": fair,
         # Обычная цена — взвешенная медиана окна тренда (для «обычно X ₸»).
         "base_price": ref,
+        # Накрутка: до этой цены товар поднимали перед скидкой (иначе None).
+        "pump_price": pump_price,
         "value_score": sc.value_score,
         "is_pick": sc.is_pick,
         "badges": list(sc.badges),
