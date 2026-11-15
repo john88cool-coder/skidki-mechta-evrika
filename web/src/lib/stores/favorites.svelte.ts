@@ -1,4 +1,7 @@
 // Избранное: локально в браузере, без бэкенда. Хватает для кейса "отследить товар".
+import type { Product } from '$lib/types';
+import { rememberProduct } from '$lib/utils/snapshots';
+
 const KEY = 'skidki-favorites';
 
 function load(): Set<string> {
@@ -26,16 +29,23 @@ class FavoritesStore {
 		this.ready = true;
 	}
 	has(id: string) { return this.ids.has(id); }
-	toggle(id: string) {
+	toggle(id: string, product?: Product) {
 		const next = new Set(this.ids);
-		if (next.has(id)) next.delete(id); else next.add(id);
+		if (next.has(id)) next.delete(id);
+		else {
+			next.add(id);
+			if (product) rememberProduct(product);
+		}
 		this.ids = next;
 		save(next);
 	}
-	add(id: string) {
+	add(id: string, product?: Product) {
+		if (product) rememberProduct(product);
 		if (this.ids.has(id)) return;
-		const next = new Set(this.ids); next.add(id);
-		this.ids = next; save(next);
+		const next = new Set(this.ids);
+		next.add(id);
+		this.ids = next;
+		save(next);
 	}
 	remove(id: string) {
 		if (!this.ids.has(id)) return;

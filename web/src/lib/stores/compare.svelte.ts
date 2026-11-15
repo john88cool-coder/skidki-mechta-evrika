@@ -1,4 +1,7 @@
 // Сравнение до 4 товаров, хранение в localStorage.
+import type { Product } from '$lib/types';
+import { rememberProduct } from '$lib/utils/snapshots';
+
 const KEY = 'skidki-compare';
 const MAX = 4;
 
@@ -18,15 +21,17 @@ class CompareStore {
 	ready = $state(false);
 	init() { this.ids = load(); this.ready = true; }
 	has(id: string) { return this.ids.includes(id); }
-	toggle(id: string) {
+	toggle(id: string, product?: Product) {
 		const has = this.has(id);
 		let next: string[];
 		if (has) next = this.ids.filter((x) => x !== id);
 		else {
 			if (this.ids.length >= MAX) return;
+			if (product) rememberProduct(product);
 			next = [...this.ids, id];
 		}
-		this.ids = next; save(next);
+		this.ids = next;
+		save(next);
 	}
 	clear() { this.ids = []; save([]); }
 	get count() { return this.ids.length; }

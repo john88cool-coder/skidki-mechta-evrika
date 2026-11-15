@@ -77,7 +77,7 @@
 		<button
 			class="fav-btn"
 			class:faved={isFav}
-			onclick={() => favorites.toggle(id)}
+			onclick={() => favorites.toggle(id, product)}
 			aria-label={isFav ? 'Убрать из избранного' : 'В избранное'}
 			title={isFav ? 'В избранном' : 'В избранное'}
 		><Heart size={16} fill={isFav ? 'currentColor' : 'none'} /></button>
@@ -85,6 +85,11 @@
 	<div class="product-body">
 		<div class="product-meta">
 			<span class="meta-shop">{shopLabel(product.shop)}</span>
+			{#if product.rating && product.rating > 0}
+				<span class="text-xs font-mono" style="color:var(--ink-3)" title={product.reviews_count ? `Отзывов: ${product.reviews_count}` : 'Рейтинг товара'}>
+					★ {product.rating.toFixed(1)}{product.reviews_count ? ` (${product.reviews_count})` : ''}
+				</span>
+			{/if}
 			<span class="meta-stock" class:bad={!product.in_stock}>{product.in_stock ? 'В наличии' : 'Нет в наличии'}</span>
 		</div>
 		<div class="badge-row"><VerdictChip {verdict} /></div>
@@ -123,7 +128,7 @@
 		<div class="product-actions">
 			<a class="history-action" href={historyHref}>История <ArrowUpRight size={14} /></a>
 			<a class="shop-action" href={product.url} target="_blank" rel="noopener noreferrer">В магазин <ExternalLink size={13} /></a>
-			<button class="shop-action !px-2.5" class:compare-on={cmp} onclick={() => compare.toggle(cmpId(product.shop, product.sku))} title={cmp ? "Убрать из сравнения" : "В сравнение"} aria-label="Сравнение"><Scale size={14} /></button>
+			<button class="shop-action !px-2.5" class:compare-on={cmp} onclick={() => compare.toggle(cmpId(product.shop, product.sku), product)} title={cmp ? "Убрать из сравнения" : "В сравнение"} aria-label="Сравнение"><Scale size={14} /></button>
 			<button class="shop-action !px-2.5" onclick={share} aria-label="Поделиться" title="Поделиться">
 				{#if copied}<Check size={14} />{:else}<Share2 size={14} />{/if}
 			</button>

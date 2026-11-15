@@ -4,6 +4,7 @@
 	import { favorites } from '$lib/stores/favorites.svelte';
 	import DealCard from '$lib/components/DealCard.svelte';
 	import { bySortKey, SORT_LABELS, type SortKey } from '$lib/utils/sort';
+	import { resolveDealsWithSnapshots } from '$lib/utils/snapshots';
 	import { Heart, Trash2, ArrowRight, ShoppingBag, ArrowUpDown, ChevronDown } from '@lucide/svelte';
 
 	// Порядок каталога («Скидка на ценнике») — по умолчанию; «Сначала новинки»
@@ -11,11 +12,9 @@
 	const SORTS: SortKey[] = ['claimed', 'new', 'real', 'price', 'price_desc', 'title'];
 	let sort = $state<SortKey>('claimed');
 
-	let favDeals = $derived(
-		dashboard.deals
-			.filter((d) => favorites.has(`${d.product.shop}:${d.product.sku}`))
-			.sort(bySortKey(sort))
-	);
+	let resolved = $derived(resolveDealsWithSnapshots(favorites.list, dashboard.deals));
+	let favDeals = $derived([...resolved.deals].sort(bySortKey(sort)));
+	let archivedCount = $derived(resolved.archivedIds.size);
 	let missing = $derived(Math.max(0, favorites.count - favDeals.length));
 
 	function copyList() {
@@ -60,6 +59,11 @@
 	{#if missing}
 		<p class="text-xs mb-3 px-3 py-2 rounded-xl" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-4)">
 			<ShoppingBag size={12} class="inline mr-1" />{missing} {missing === 1 ? 'товар из избранного сейчас вне топа' : 'товаров из избранного сейчас вне топа'} — появятся, когда вернётся скидка.
+		</p>
+	{/if}
+	{#if archivedCount}
+		<p class="text-xs mb-3 px-3 py-2 rounded-xl" style="background:var(--paper-2); border:1px solid var(--line); color:var(--ink-4)">
+			<ShoppingBag size={12} class="inline mr-1" />{archivedCount} {archivedCount === 1 ? 'товар сейчас вне активной витрины — показан последний сохранённый снимок' : 'товара сейчас вне активной витрины — показаны последние сохранённые снимки'}.
 		</p>
 	{/if}
 	<div class="product-grid">

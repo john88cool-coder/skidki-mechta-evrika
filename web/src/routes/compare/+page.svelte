@@ -3,14 +3,12 @@
 	import { dashboard } from '$lib/stores/data.svelte';
 	import { compare } from '$lib/stores/compare.svelte';
 	import { formatPrice, shopLabel, formatPct } from '$lib/utils/format';
+	import { resolveDealsWithSnapshots } from '$lib/utils/snapshots';
 	import { Scale, Trash2, ArrowRight, ExternalLink } from '@lucide/svelte';
 
-	let items = $derived(
-		compare.ids
-			.map(id => dashboard.deals.find(d => `${d.product.shop}:${d.product.sku}` === id))
-			.filter(Boolean) as typeof dashboard.deals
-	);
-	let missing = $derived(compare.count - items.length);
+	let resolved = $derived(resolveDealsWithSnapshots(compare.ids, dashboard.deals));
+	let items = $derived(resolved.deals);
+	let missing = $derived(Math.max(0, compare.count - items.length));
 </script>
 
 <svelte:head><title>Сравнение — skidki</title></svelte:head>
@@ -45,7 +43,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr style="border-bottom:1px solid var(--paper-2)"><td class="p-3 font-medium" style="color:var(--ink-3)">Товар</td>{#each items as d (d.product.shop + d.product.sku)}<td class="p-3"><a href="{base}/item?shop={d.product.shop}&sku={d.product.sku}" class="font-medium hover:underline" style="color:var(--ink)">{d.product.title}</a><div class="text-xs" style="color:var(--ink-4)">{d.product.brand ?? ''}</div></td>{/each}</tr>
+				<tr style="border-bottom:1px solid var(--paper-2)"><td class="p-3 font-medium" style="color:var(--ink-3)">Товар</td>{#each items as d (d.product.shop + d.product.sku)}<td class="p-3"><a href="{base}/item?shop={encodeURIComponent(d.product.shop)}&sku={encodeURIComponent(d.product.sku)}" class="font-medium hover:underline" style="color:var(--ink)">{d.product.title}</a><div class="text-xs" style="color:var(--ink-4)">{d.product.brand ?? ''}</div></td>{/each}</tr>
 				<tr style="border-bottom:1px solid var(--paper-2)"><td class="p-3 font-medium" style="color:var(--ink-3)">Цена</td>{#each items as d (d.product.shop + d.product.sku)}<td class="p-3 font-mono font-bold" style="color:var(--ink)">{formatPrice(d.product.price)}</td>{/each}</tr>
 				<tr style="border-bottom:1px solid var(--paper-2)"><td class="p-3 font-medium" style="color:var(--ink-3)">Скидка магаз.</td>{#each items as d (d.product.shop + d.product.sku)}<td class="p-3 font-mono" style="color:var(--accent)">{d.drop_pct != null ? formatPct(d.drop_pct) : '—'}</td>{/each}</tr>
 				<tr style="border-bottom:1px solid var(--paper-2)"><td class="p-3 font-medium" style="color:var(--ink-3)">Честная</td>{#each items as d (d.product.shop + d.product.sku)}<td class="p-3 font-mono" style="color:var(--success)">{d.fair_discount != null ? d.fair_discount + '%' : '—'}</td>{/each}</tr>
