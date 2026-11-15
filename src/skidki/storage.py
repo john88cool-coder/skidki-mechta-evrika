@@ -166,60 +166,99 @@ def connect(path: Path | None = None) -> Iterator[sqlite3.Connection]:
         conn.close()
 
 
+_SQL_CHUNK = 400
+
+
 def save_products(
     conn: sqlite3.Connection, products: Iterable[Product], at: datetime | None = None
 ) -> int:
-    """Записывает наблюдения обхода: продлевает или открывает отрезки."""
+    """Записывает наблюдения обхода пакетно: продлевает или открывает отрезки."""
+    items = list(products)
+    if not items:
+        return 0
     moment = at or now()
     stamp = _iso(moment)
-    count = 0
-    for product in products:
-        conn.execute(
-            """INSERT INTO products (identity, shop, title, brand, category, url, grp, image,
-                                     mpn, rating, reviews_count, first_seen, last_seen)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
-               ON CONFLICT(identity) DO UPDATE SET
-                   title = excluded.title,
-                   brand = COALESCE(excluded.brand, products.brand),
-                   category = COALESCE(excluded.category, products.category),
-                   url = excluded.url,
-                   grp = COALESCE(excluded.grp, products.grp),
-                   image = COALESCE(excluded.image, products.image),
-                   mpn = COALESCE(excluded.mpn, products.mpn),
-                   rating = COALESCE(excluded.rating, products.rating),
-                   reviews_count = COALESCE(excluded.reviews_count, products.reviews_count),
-                   last_seen = excluded.last_seen""",
+
+    conn.executemany(
+        """INSERT INTO products (identity, shop, title, brand, category, url, grp, image,
+                                 mpn, rating, reviews_count, first_seen, last_seen)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+           ON CONFLICT(identity) DO UPDATE SET
+               title = excluded.title,
+               brand = COALESCE(excluded.brand, products.brand),
+               category = COALESCE(excluded.category, products.category),
+               url = excluded.url,
+               grp = COALESCE(excluded.grp, products.grp),
+               image = COALESCE(excluded.image, products.image),
+               mpn = COALESCE(excluded.mpn, products.mpn),
+               rating = COALESCE(excluded.rating, products.rating),
+               reviews_count = COALESCE(excluded.reviews_count, products.reviews_count),
+               last_seen = excluded.last_seen""",
+        [
             (
-                product.identity, product.shop, product.title, product.brand,
-                product.category, product.url, product.group, product.image,
-                product.mpn, product.rating, product.reviews_count, stamp, stamp,
-            ),
-        )
-        last = conn.execute(
-            """SELECT id, last_seen, price, in_stock FROM spans WHERE identity = ?
-               ORDER BY last_seen DESC, id DESC LIMIT 1""",
-            (product.identity,),
-        ).fetchone()
+                p.identity, p.shop, p.title, p.brand, p.category, p.url, p.group,
+                p.image, p.mpn, p.rating, p.reviews_count, stamp, stamp,
+            )
+            for p in items
+        ],
+    )
+
+    identities = [p.identity for p in items]
+    latest_by_identity: dict[str, sqlite3.Row] = {}
+    for offset in range(0, len(identities), _SQL_CHUNK):
+        chunk = identities[offset : offset + _SQL_CHUNK]
+        placeholders = ",".join("?" for _ in chunk)
+        rows = conn.execute(
+            f"""SELECT s.id, s.identity, s.last_seen, s.price, s.in_stock
+                FROM spans s
+                JOIN (
+                    SELECT identity, MAX(id) AS max_id
+                    FROM spans
+                    WHERE identity IN ({placeholders})
+                    GROUP BY identity
+                ) m ON m.max_id = s.id""",
+            chunk,
+        ).fetchall()
+        for row in rows:
+            latest_by_identity[row["identity"]] = row
+
+    updates: list[tuple[str, int | None, str | None, int]] = []
+    inserts: list[tuple[str, str, str, int, int | None, int, str | None]] = []
+    for product in items:
+        last = latest_by_identity.get(product.identity)
         if (
             last is not None
             and last["price"] == product.price
             and bool(last["in_stock"]) == product.in_stock
             and moment - _dt(last["last_seen"]) <= GAP
         ):
-            conn.execute(
-                "UPDATE spans SET last_seen = ?, old_price = ?, stock_note = ? WHERE id = ?",
-                (stamp, product.old_price, product.stock_note, last["id"]),
-            )
+            updates.append((stamp, product.old_price, product.stock_note, last["id"]))
         else:
-            conn.execute(
-                """INSERT INTO spans (identity, first_seen, last_seen, price, old_price,
-                                      in_stock, stock_note)
-                   VALUES (?,?,?,?,?,?,?)""",
-                (product.identity, stamp, stamp, product.price, product.old_price,
-                 int(product.in_stock), product.stock_note),
+            inserts.append(
+                (
+                    product.identity,
+                    stamp,
+                    stamp,
+                    product.price,
+                    product.old_price,
+                    int(product.in_stock),
+                    product.stock_note,
+                )
             )
-        count += 1
-    return count
+
+    if updates:
+        conn.executemany(
+            "UPDATE spans SET last_seen = ?, old_price = ?, stock_note = ? WHERE id = ?",
+            updates,
+        )
+    if inserts:
+        conn.executemany(
+            """INSERT INTO spans (identity, first_seen, last_seen, price, old_price,
+                                  in_stock, stock_note)
+               VALUES (?,?,?,?,?,?,?)""",
+            inserts,
+        )
+    return len(items)
 
 
 def _span(row: sqlite3.Row) -> Span:
@@ -247,6 +286,75 @@ def last_span(conn: sqlite3.Connection, identity: str) -> Span | None:
         (identity,),
     ).fetchone()
     return _span(row) if row else None
+
+
+def histories_for_shop(
+    conn: sqlite3.Connection, shop: str, since: datetime
+) -> dict[str, list[Span]]:
+    """Все отрезки магазина, задевающие окно с `since`, сгруппированные по identity."""
+    prefix = f"{shop}:"
+    rows = conn.execute(
+        """SELECT identity, first_seen, last_seen, price, in_stock, old_price
+           FROM spans
+           WHERE identity >= ? AND identity < ? AND last_seen >= ?
+           ORDER BY identity, first_seen, id""",
+        (prefix, f"{shop};", _iso(since)),
+    ).fetchall()
+    grouped: dict[str, list[Span]] = {}
+    for row in rows:
+        grouped.setdefault(row["identity"], []).append(_span(row))
+    return grouped
+
+
+def last_spans_for_shop(conn: sqlite3.Connection, shop: str) -> dict[str, Span]:
+    """Последний отрезок каждой позиции магазина одним запросом."""
+    prefix = f"{shop}:"
+    rows = conn.execute(
+        """SELECT s.identity, s.first_seen, s.last_seen, s.price, s.in_stock, s.old_price
+           FROM spans s
+           JOIN (
+               SELECT identity, MAX(id) AS max_id
+               FROM spans
+               WHERE identity >= ? AND identity < ?
+               GROUP BY identity
+           ) m ON m.max_id = s.id""",
+        (prefix, f"{shop};"),
+    ).fetchall()
+    return {row["identity"]: _span(row) for row in rows}
+
+
+def last_alerts_for_shop(
+    conn: sqlite3.Connection, shop: str, since: datetime
+) -> dict[str, int]:
+    """Цены последних доставленных алертов магазина не старше `since`."""
+    prefix = f"{shop}:"
+    rows = conn.execute(
+        """SELECT identity, alerted_price
+           FROM alerts
+           WHERE identity >= ? AND identity < ?
+                 AND delivered_at IS NOT NULL AND alerted_at >= ?""",
+        (prefix, f"{shop};", _iso(since)),
+    ).fetchall()
+    return {row["identity"]: int(row["alerted_price"]) for row in rows}
+
+
+def first_seen_map(
+    conn: sqlite3.Connection, identities: Iterable[str]
+) -> dict[str, str]:
+    """Дата первого появления каждой позиции из таблицы products (переживает prune)."""
+    ids = list(dict.fromkeys(identities))
+    result: dict[str, str] = {}
+    for offset in range(0, len(ids), _SQL_CHUNK):
+        chunk = ids[offset : offset + _SQL_CHUNK]
+        placeholders = ",".join("?" for _ in chunk)
+        rows = conn.execute(
+            f"SELECT identity, first_seen FROM products WHERE identity IN ({placeholders})",
+            chunk,
+        ).fetchall()
+        for row in rows:
+            if row["first_seen"]:
+                result[row["identity"]] = row["first_seen"]
+    return result
 
 
 def current_deals(

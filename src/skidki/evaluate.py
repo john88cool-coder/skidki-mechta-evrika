@@ -127,6 +127,9 @@ def _is_deal(
     return price >= min_price and min_pct <= pct <= thresholds.deal_max_pct
 
 
+_UNSET = object()
+
+
 def evaluate(
     conn: sqlite3.Connection,
     product: Product,
@@ -134,6 +137,9 @@ def evaluate(
     thresholds: Thresholds,
     at: datetime | None = None,
     cold_start: bool = False,
+    *,
+    preloaded_spans: list[Span] | None = None,
+    preloaded_last_span: object = _UNSET,
 ) -> Verdict:
     """Оценивает позицию против её истории. Вызывать ДО записи наблюдения.
 
@@ -151,7 +157,11 @@ def evaluate(
     # «Упало»: ниже медианы окна тренда. Медиана, а не минимум: рынок может
     # подорожать навсегда, и прошлый минимум заглушил бы сигнал.
     trend_since = at - timedelta(days=thresholds.trend_window_days)
-    trend = [span for span in history(conn, product.identity, trend_since) if span.in_stock]
+    if preloaded_spans is None:
+        trend_raw = history(conn, product.identity, trend_since)
+    else:
+        trend_raw = [span for span in preloaded_spans if span.last_seen >= trend_since]
+    trend = [span for span in trend_raw if span.in_stock]
     reference = weighted_median(trend, trend_since, at)
     verdict.reference = reference
     trend_days = coverage_days(trend, at)
@@ -169,7 +179,10 @@ def evaluate(
 
     # «Минимум за 30 дней»: ниже всего, что видели за окно, с запасом.
     low_since = at - timedelta(days=thresholds.low_window_days)
-    low = [span for span in history(conn, product.identity, low_since) if span.in_stock]
+    if preloaded_spans is None:
+        low = [span for span in history(conn, product.identity, low_since) if span.in_stock]
+    else:
+        low = [span for span in preloaded_spans if span.in_stock and span.last_seen >= low_since]
     low_days = coverage_days(low, at)
     if low and low_days >= thresholds.min_low_history_days:
         floor = min(span.price for span in low)
@@ -179,7 +192,11 @@ def evaluate(
         ):
             verdict.signals.append(SignalHit(Signal.LOW, base=floor, days=low_days))
 
-    previous = last_span(conn, product.identity)
+    previous = (
+        last_span(conn, product.identity)
+        if preloaded_last_span is _UNSET
+        else preloaded_last_span
+    )
 
     # «Скидка магазина»: новость — только новая скидка. Товар впервые её
     # получил, вернулся в продажу со скидкой или подешевел дальше. Сравнение —
@@ -192,7 +209,7 @@ def evaluate(
         else:
             recent_deals = [
                 span.price
-                for span in history(conn, product.identity, trend_since)
+                for span in trend_raw
                 if _is_deal(span.price, span.old_price, span.in_stock, rules, thresholds)
             ]
             fresh = not recent_deals or price < min(recent_deals)
@@ -212,13 +229,21 @@ def evaluate(
 
 
 def should_send(
-    conn: sqlite3.Connection, verdict: Verdict, thresholds: Thresholds, at: datetime | None = None
+    conn: sqlite3.Connection,
+    verdict: Verdict,
+    thresholds: Thresholds,
+    at: datetime | None = None,
+    *,
+    preloaded_last_alert: object = _UNSET,
 ) -> bool:
     """Повтор по позиции — только при новом снижении (или возврате в наличие)."""
     if not verdict.signals:
         return False
     if verdict.has(Signal.RESTOCK):
         return True
-    since = (at or now()) - timedelta(days=thresholds.trend_window_days)
-    previous = last_alert(conn, verdict.product.identity, since)
+    if preloaded_last_alert is _UNSET:
+        since = (at or now()) - timedelta(days=thresholds.trend_window_days)
+        previous = last_alert(conn, verdict.product.identity, since)
+    else:
+        previous = preloaded_last_alert
     return previous is None or verdict.product.price < previous
