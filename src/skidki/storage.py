@@ -568,6 +568,118 @@ def toggle_group(conn: sqlite3.Connection, grp: str) -> bool:
     return True
 
 
+@dataclass(frozen=True)
+class WatchEntry:
+    id: int
+    query: str
+    max_price: int
+    shop: str | None
+    created_at: str
+
+    def matches(self, product: Product) -> bool:
+        if self.shop and product.shop != self.shop:
+            return False
+        haystack = f"{product.title} {product.brand or ''} {product.sku} {product.mpn or ''}".casefold()
+        tokens = self.query.casefold().split()
+        return bool(tokens) and all(tok in haystack for tok in tokens)
+
+
+def add_watch(
+    conn: sqlite3.Connection,
+    query: str,
+    max_price: int,
+    shop: str | None = None,
+    at: datetime | None = None,
+) -> WatchEntry:
+    cleaned = " ".join(query.split())
+    stamp = _iso(at or now())
+    cur = conn.execute(
+        "INSERT INTO watches (query, max_price, shop, created_at) VALUES (?, ?, ?, ?)",
+        (cleaned, int(max_price), shop, stamp),
+    )
+    return WatchEntry(int(cur.lastrowid), cleaned, int(max_price), shop, stamp)
+
+
+def remove_watch(conn: sqlite3.Connection, watch_id: int) -> bool:
+    cur = conn.execute("DELETE FROM watches WHERE id = ?", (int(watch_id),))
+    return cur.rowcount > 0
+
+
+def list_watches(conn: sqlite3.Connection) -> list[WatchEntry]:
+    rows = conn.execute(
+        "SELECT id, query, max_price, shop, created_at FROM watches ORDER BY id"
+    ).fetchall()
+    return [
+        WatchEntry(int(r["id"]), r["query"], int(r["max_price"]), r["shop"], r["created_at"])
+        for r in rows
+    ]
+
+
+def search_products(conn: sqlite3.Connection, query: str, limit: int = 8) -> list[Product]:
+    """Поиск актуальных позиций по всем словам запроса (регистронезависимо, включая кириллицу)."""
+    tokens = [tok for tok in query.casefold().split() if tok]
+    if not tokens:
+        return []
+    rows = conn.execute(
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  p.mpn, p.rating, p.reviews_count,
+                  s.price, s.old_price, s.in_stock, s.stock_note
+           FROM products p
+           JOIN (
+               SELECT identity, MAX(id) AS max_id
+               FROM spans
+               GROUP BY identity
+           ) m ON m.identity = p.identity
+           JOIN spans s ON s.id = m.max_id
+           WHERE s.price > 0
+           ORDER BY s.in_stock DESC, s.price ASC"""
+    ).fetchall()
+    matched: list[Product] = []
+    for row in rows:
+        haystack = f"{row['title']} {row['brand'] or ''} {row['identity']} {row['mpn'] or ''}".casefold()
+        if all(tok in haystack for tok in tokens):
+            matched.append(_product(row))
+            if len(matched) >= limit:
+                break
+    return matched
+
+
+def export_prefs(conn: sqlite3.Connection) -> dict:
+    """Публикуемый снимок пользовательских настроек (без токенов и chat_id)."""
+    return {
+        "muted": sorted(muted_groups(conn)),
+        "watches": [
+            {
+                "id": w.id,
+                "query": w.query,
+                "max_price": w.max_price,
+                "shop": w.shop,
+                "created_at": w.created_at,
+            }
+            for w in list_watches(conn)
+        ],
+    }
+
+
+def import_prefs(conn: sqlite3.Connection, payload: dict) -> None:
+    """Применяет снимок настроек владельца (muted + watches) к облачной БД."""
+    muted = [str(g) for g in (payload.get("muted") or []) if isinstance(g, str)]
+    watches = payload.get("watches") or []
+    conn.execute("DELETE FROM muted")
+    if muted:
+        conn.executemany("INSERT INTO muted (grp) VALUES (?)", [(g,) for g in muted])
+    conn.execute("DELETE FROM watches")
+    for w in watches:
+        query = " ".join(str(w.get("query") or "").split())
+        max_price = int(w.get("max_price") or 0)
+        if not query or max_price <= 0:
+            continue
+        conn.execute(
+            "INSERT INTO watches (query, max_price, shop, created_at) VALUES (?, ?, ?, ?)",
+            (query, max_price, w.get("shop") or None, str(w.get("created_at") or _iso(now()))),
+        )
+
+
 def record_crawl(
     conn: sqlite3.Connection,
     shop: str,

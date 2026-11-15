@@ -33,6 +33,7 @@ from .storage import (
     last_crawl_ok,
     last_spans_for_shop,
     last_successful_crawl,
+    list_watches,
     mark_alerts_delivered,
     muted_groups,
     now,
@@ -107,6 +108,8 @@ def process(
     history_window = max(thresholds.trend_window_days, thresholds.low_window_days)
     history_since = at - timedelta(days=history_window)
     alert_since = at - timedelta(days=thresholds.trend_window_days)
+    # Подписки из БД (/watch) — цели наравне с правилами rules.toml.
+    watches = list_watches(conn)
 
     for shop, products, error in results:
         ok = error is None and bool(products)
@@ -138,6 +141,7 @@ def process(
                 cold_start=previous is None,
                 preloaded_spans=spans_by_id.get(product.identity, []),
                 preloaded_last_span=last_by_id.get(product.identity),
+                extra_watches=watches,
             )
             if should_send(
                 conn,

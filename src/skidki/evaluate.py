@@ -11,13 +11,14 @@ Handoff §5 запрещал считать магазинную скидку с
 from __future__ import annotations
 
 import sqlite3
+from collections.abc import Sequence
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from enum import Enum
 
 from .config import Rules, Thresholds
 from .models import Product
-from .storage import Span, history, last_alert, last_span, now
+from .storage import Span, WatchEntry, history, last_alert, last_span, now
 
 
 class Signal(str, Enum):
@@ -140,6 +141,7 @@ def evaluate(
     *,
     preloaded_spans: list[Span] | None = None,
     preloaded_last_span: object = _UNSET,
+    extra_watches: Sequence[WatchEntry] | None = None,
 ) -> Verdict:
     """Оценивает позицию против её истории. Вызывать ДО записи наблюдения.
 
@@ -218,7 +220,11 @@ def evaluate(
             verdict.signals.append(SignalHit(Signal.DEAL, base=product.old_price, reference=known))
 
     # «Цель»: владелец назвал сумму — медианы ни при чём, надо брать.
-    reached = [target for target in rules.targets_for(product) if price <= target]
+    # Пороги из rules.toml плюс подписки из БД (/watch): совпало — сигнал.
+    db_targets = [
+        w.max_price for w in (extra_watches or ()) if w.matches(product) and price <= w.max_price
+    ]
+    reached = [target for target in rules.targets_for(product) if price <= target] + db_targets
     if reached:
         verdict.signals.append(SignalHit(Signal.TARGET, target=min(reached)))
         # «Появился в наличии» — только для позиций с целью: ресток любого из

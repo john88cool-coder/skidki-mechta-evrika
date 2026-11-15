@@ -9,8 +9,10 @@
 from __future__ import annotations
 
 import logging
+import re
 import sqlite3
 import time
+from html import escape
 from pathlib import Path
 
 import httpx
@@ -18,13 +20,18 @@ import httpx
 from .config import GROUPS
 from .notify import inline_keyboard
 from .parsers import REGISTRY
-from .report import format_groups_menu, format_status, group_label
+from .report import SHOP_LABELS, format_groups_menu, format_status, group_label, tenge
 from .storage import (
+    WatchEntry,
+    add_watch,
     connect,
     last_successful_crawl,
+    list_watches,
     muted_groups,
     previous_item_count,
     queue_size,
+    remove_watch,
+    search_products,
     toggle_group,
 )
 
@@ -33,12 +40,64 @@ log = logging.getLogger("skidki.bot")
 HELP = (
     "Команды:\n"
     "/groups — какие группы присылать в сводках\n"
-    "/status — когда были обходы и сколько находок в очереди"
+    "/status — когда были обходы и сколько находок в очереди\n"
+    "/search <запрос> — найти товар в базе по лучшей цене\n"
+    "/watch <запрос> <макс_цена> — уведомлять при цене не выше порога\n"
+    "/watches — список активных подписок на цену"
 )
 COMMANDS = [
     {"command": "groups", "description": "Группы уведомлений"},
     {"command": "status", "description": "Состояние обходов"},
+    {"command": "search", "description": "Поиск товара по базе"},
+    {"command": "watch", "description": "Подписка на целевую цену"},
+    {"command": "watches", "description": "Активные подписки"},
 ]
+
+_PRICE_TOKEN_RE = re.compile(r"^(\d[\d_\s]*)(к|k|тыс)?$", re.I)
+
+
+def _parse_watch_args(raw_arg: str) -> tuple[str, int] | None:
+    parts = raw_arg.strip().rsplit(maxsplit=1)
+    if len(parts) != 2:
+        return None
+    query, raw_price = parts[0].strip(), parts[1].strip().rstrip("₸").strip()
+    m = _PRICE_TOKEN_RE.match(raw_price)
+    if not query or not m:
+        return None
+    value = int(re.sub(r"[\s_]", "", m.group(1)))
+    if m.group(2):
+        value *= 1_000
+    return (query, value) if value > 0 else None
+
+
+def _format_watches_view(watches: list[WatchEntry]) -> tuple[str, list[list[tuple[str, str]]]]:
+    if not watches:
+        return (
+            "🎯 <b>Подписок пока нет.</b>\n"
+            "Пример: <code>/watch iPhone 16 450к</code>",
+            [],
+        )
+    lines = ["🎯 <b>Активные подписки на цену:</b>"]
+    buttons: list[list[tuple[str, str]]] = []
+    for w in watches:
+        lines.append(f"• <b>{escape(w.query)}</b> — до {tenge(w.max_price)}")
+        label = w.query if len(w.query) <= 22 else w.query[:21] + "…"
+        buttons.append([(f"❌ {label} (≤ {tenge(w.max_price)})", f"unwatch:{w.id}")])
+    return "\n".join(lines), buttons
+
+
+def _format_search_results(query: str, items: list) -> str:
+    if not items:
+        return f"🔎 По запросу «<b>{escape(query)}</b>» в базе ничего не найдено."
+    lines = [f"🔎 <b>Результаты по запросу «{escape(query)}»:</b>"]
+    for p in items:
+        stock = "" if p.in_stock else " <i>(нет в наличии)</i>"
+        old = f" (было {tenge(p.old_price)})" if p.old_price and p.old_price > p.price else ""
+        lines.append(
+            f"• [{escape(SHOP_LABELS.get(p.shop, p.shop))}] <a href=\"{escape(p.url, quote=True)}\">{escape(p.title)}</a> — "
+            f"<b>{tenge(p.price)}</b>{old}{stock}"
+        )
+    return "\n".join(lines)
 
 
 class Api:
@@ -103,6 +162,28 @@ def handle(update: dict, api: Api, owner_chat_id: str, db_path: Path | None = No
                 "answerCallbackQuery", callback_query_id=query["id"],
                 text=f"{group_label(key)}: {'выключено' if now_muted else 'включено'}",
             )
+        elif data.startswith("unwatch:"):
+            raw_id = data.removeprefix("unwatch:")
+            removed = False
+            if raw_id.isdigit():
+                with connect(db_path) as conn:
+                    removed = remove_watch(conn, int(raw_id))
+                    watches = list_watches(conn)
+                text, buttons = _format_watches_view(watches)
+                markup = inline_keyboard(buttons) if buttons else {"inline_keyboard": []}
+                api.call(
+                    "editMessageText",
+                    chat_id=chat_id,
+                    message_id=message.get("message_id"),
+                    text=text,
+                    parse_mode="HTML",
+                    reply_markup=markup,
+                )
+            api.call(
+                "answerCallbackQuery",
+                callback_query_id=query["id"],
+                text="Подписка удалена" if removed else "Уже удалена",
+            )
         else:
             api.call("answerCallbackQuery", callback_query_id=query["id"])
         return
@@ -111,12 +192,52 @@ def handle(update: dict, api: Api, owner_chat_id: str, db_path: Path | None = No
     chat_id = (message.get("chat") or {}).get("id")
     if chat_id is None or str(chat_id) != str(owner_chat_id):
         return
-    words = (message.get("text") or "").strip().split()
+    raw_text = (message.get("text") or "").strip()
+    words = raw_text.split()
     command = words[0].split("@")[0].lower() if words else ""
+    arg = raw_text.split(maxsplit=1)[1] if len(raw_text.split(maxsplit=1)) > 1 else ""
     if command in ("/start", "/groups", "/группы"):
         _send_menu(api, chat_id, db_path)
     elif command == "/status":
         api.call("sendMessage", chat_id=chat_id, text=_status_text(db_path), parse_mode="HTML")
+    elif command in ("/search", "/поиск"):
+        if not arg:
+            api.call("sendMessage", chat_id=chat_id, text="Укажите запрос: /search iPhone 16")
+            return
+        with connect(db_path) as conn:
+            found = search_products(conn, arg)
+        api.call(
+            "sendMessage",
+            chat_id=chat_id,
+            text=_format_search_results(arg, found),
+            parse_mode="HTML",
+            disable_web_page_preview=True,
+        )
+    elif command == "/watch":
+        parsed = _parse_watch_args(arg)
+        if not parsed:
+            api.call(
+                "sendMessage",
+                chat_id=chat_id,
+                text="Формат: <code>/watch запрос макс_цена</code>\nПример: <code>/watch iPhone 16 450к</code>",
+                parse_mode="HTML",
+            )
+            return
+        q_text, max_price = parsed
+        with connect(db_path) as conn:
+            entry = add_watch(conn, q_text, max_price)
+        api.call(
+            "sendMessage",
+            chat_id=chat_id,
+            text=f"🎯 Подписка #{entry.id} добавлена: <b>{escape(entry.query)}</b> до <b>{tenge(entry.max_price)}</b>",
+            parse_mode="HTML",
+        )
+    elif command == "/watches":
+        with connect(db_path) as conn:
+            watches = list_watches(conn)
+        text, buttons = _format_watches_view(watches)
+        extra = {"reply_markup": inline_keyboard(buttons)} if buttons else {}
+        api.call("sendMessage", chat_id=chat_id, text=text, parse_mode="HTML", **extra)
     else:
         api.call("sendMessage", chat_id=chat_id, text=HELP)
 
