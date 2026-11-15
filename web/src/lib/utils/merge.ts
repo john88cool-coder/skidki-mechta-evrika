@@ -20,10 +20,18 @@ export function mergeSnapshots(cloud: DashboardData | null, local: DashboardData
 	const shops = cloud.shops.map((s) => (localShops.has(s.name) ? local.shops.find((l) => l.name === s.name)! : s));
 	for (const s of local.shops) if (localShops.has(s.name) && !shops.some((x) => x.name === s.name)) shops.push(s);
 	const suspicious = (d: DashboardData['deals'][number]) => (d.badges ?? []).includes('Рисованная?');
+	const effectivePct = (d: DashboardData['deals'][number]) =>
+		(d.fair_discount ?? 0) > 0 ? d.fair_discount! : (d.drop_pct ?? 0);
 	const deals = [
 		...cloud.deals.filter((d) => !localShops.has(d.product.shop)),
 		...local.deals.filter((d) => localShops.has(d.product.shop))
-	].sort((a, b) => Number(suspicious(a)) - Number(suspicious(b)) || (b.drop_pct ?? 0) - (a.drop_pct ?? 0));
+	].sort(
+		(a, b) =>
+			Number(suspicious(a)) - Number(suspicious(b)) ||
+			(b.value_score ?? -1) - (a.value_score ?? -1) ||
+			effectivePct(b) - effectivePct(a)
+	);
+	const discounts = deals.map(effectivePct).filter((v) => v > 0);
 	return {
 		updated_at: cloud.updated_at > local.updated_at ? cloud.updated_at : local.updated_at,
 		deals,
@@ -31,7 +39,7 @@ export function mergeSnapshots(cloud: DashboardData | null, local: DashboardData
 		stats: {
 			total_products: shops.reduce((sum, s) => sum + (s.item_count ?? 0), 0),
 			total_deals: deals.length,
-			avg_discount: median(deals.map((d) => d.drop_pct ?? 0))
+			avg_discount: median(discounts)
 		}
 	};
 }

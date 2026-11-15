@@ -24,7 +24,7 @@
 			}
 		};
 		window.addEventListener('keydown', onKey);
-		const stop = startAutoRefresh(30_000);
+		const stop = startAutoRefresh(300_000);
 		return () => { window.removeEventListener('keydown', onKey); stop(); };
 	});
 </script>

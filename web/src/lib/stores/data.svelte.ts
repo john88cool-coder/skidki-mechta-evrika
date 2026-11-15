@@ -21,7 +21,7 @@ async function fetchJson<T>(path: string): Promise<T | null> {
 /**
  * Хранилище данных панели на рунах Svelte 5.
  *
- * Один общий объект-класс вместо writable-сторов: автообновление раз в 30 с
+ * Один общий объект-класс вместо writable-сторов: автообновление раз в 5 минут
  * переписывает поля целиком, а страницы читают их реактивно.
  */
 class DashboardStore {
@@ -74,17 +74,37 @@ class DashboardStore {
 export const dashboard = new DashboardStore();
 
 let timer: ReturnType<typeof setInterval> | undefined;
+let onVisibility: (() => void) | undefined;
+let lastRefreshTick = 0;
 
-/** Автообновление каждые 30 секунд; возвращает функцию остановки. */
-export function startAutoRefresh(intervalMs = 30_000): () => void {
+/** Автообновление раз в 5 минут только для активной вкладки; возвращает функцию остановки. */
+export function startAutoRefresh(intervalMs = 300_000): () => void {
 	stopAutoRefresh();
-	timer = setInterval(() => dashboard.refresh(), intervalMs);
+	lastRefreshTick = Date.now();
+	timer = setInterval(() => {
+		if (typeof document !== 'undefined' && document.visibilityState === 'hidden') return;
+		lastRefreshTick = Date.now();
+		void dashboard.refresh();
+	}, intervalMs);
+	if (typeof document !== 'undefined') {
+		onVisibility = () => {
+			if (document.visibilityState === 'visible' && Date.now() - lastRefreshTick >= intervalMs) {
+				lastRefreshTick = Date.now();
+				void dashboard.refresh();
+			}
+		};
+		document.addEventListener('visibilitychange', onVisibility);
+	}
 	return stopAutoRefresh;
 }
 
 export function stopAutoRefresh(): void {
 	if (timer) clearInterval(timer);
 	timer = undefined;
+	if (onVisibility && typeof document !== 'undefined') {
+		document.removeEventListener('visibilitychange', onVisibility);
+	}
+	onVisibility = undefined;
 }
 
 /** Срез истории: один файл на все товары — отдельный JSON на позицию давал

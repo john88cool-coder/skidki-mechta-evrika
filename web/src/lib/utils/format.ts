@@ -56,7 +56,8 @@ export function groupLabel(group: string): string {
 		tv: '📺 ТВ',
 		home: '🏠 Для дома',
 		kitchen: '🍳 Кухня',
-		beauty: '💄 Красота'
+		beauty: '💄 Красота',
+		other: '🗂 Прочее'
 	};
 	return labels[group] ?? group;
 }
