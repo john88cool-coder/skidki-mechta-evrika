@@ -10,7 +10,7 @@
 
 - История ИС (медиана 14 дней, взвешенная по отрезкам, минимум 3 дня) — считается в `evaluate.py` / `export.py`.
 - **Межмагазинная медиана (`marketplace_median`):** сопоставление одной и той же модели по MPN или очищенной сигнатуре модели + памяти в `matching.py` среди 6 розничных сетей (`mechta`, `evrika`, `shopkz`, `sulpak`, `technodom`, `alser`) при наличии минимум в 2 магазинах.
-- Формула в `scoring.py`: если доступны и собственная `fair_discount`, и скидка к `marketplace_median`, берётся консервативный минимум из двух.
+- Поправка в `scoring.py`: если зачёркнутая цена позиции (`old_price`) выше `marketplace_median` более чем на 12%, `effective_fair` урезается на `market_pct * 0.5` (где `market_pct` — превышение зачёркнутой над медианой, в п.п.) и не опускается ниже нуля; иначе `fair_discount` входит в скоринг без изменений.
 
 ### 2) Ценность — `value_score`
 
@@ -18,23 +18,23 @@
 value = 100 * (0.55*fair_discount_norm + 0.20*brand_trust + 0.15*availability + 0.10*freshness) + external_bonus
 ```
 
-- `fair_discount_norm` — `min(1.0, fair_discount / 40.0)`.
-- `brand_trust` — `1.0` для `TRUSTED_BRANDS`, `0.5` для прочих известных брендов, `0.3` если бренд не указан.
+- `fair_discount_norm` — плавная нормировка `/45` (smoothstep `x²(3−2x)` при `x = min(pct, 45)/45`), `0.40+ → 1.0`.
+- `brand_trust` — `1.0` для `TOP_BRANDS` (Samsung, Apple, Xiaomi, LG, Sony, Bosch, Dyson, ASUS, Lenovo, HP), `0.8` для `TRUSTED_BRANDS` (широкий список проверенных брендов продаж KZ), `0.5` если бренд не указан или не входит в списки, `0.3` для коротких/цифровых/OEM-подобных названий.
 - `availability` — в наличии без оговорок `= 1.0`, «на витрине»/«осталось мало»/«предзаказ» `= 0.6`, нет в наличии `= 0.0`.
-- `freshness` — возраст наблюдения: `≤ 6 ч → 1.0`, `6–24 ч → 0.5`, `> 24 ч → 0.2` (неизвестно `→ 0.8`).
+- `freshness` — возраст наблюдения: `≤ 6 ч → 1.0`, `6–24 ч → 0.55`, `> 24 ч → 0.2` (неизвестно `→ 0.5`).
 
 ### 3) Внешние оценки — `external_bonus`
 
 - Извлекаются парсерами (`mechta`, `technodom`, `alser`) и приводятся к шкале `0..5`.
-- Если `rating ≥ 4.5` и `reviews_count ≥ 50`, начисляется бонус `+5.0` к `value_score` (с клипом до `100`).
+- Двухступенчатый бонус к `value_score` (итог клипуется до `100`): `+5.0` при `rating ≥ 4.5` и `reviews_count ≥ 50`, `+2.0` при `rating ≥ 4.2` и `reviews_count ≥ 20`, иначе `+0`.
 
 ## Бейджи в UI (`src/skidki/scoring.py`)
 
 | Бейдж | Условие |
 |-------|---------|
-| **Выбор ИС** | `value_score ≥ 70` и `fair_discount ≥ 15%` и `price ≥ 20 000 ₸` и `in_stock` |
+| **Выбор ИС** | `value_score ≥ 78` и `effective_fair ≥ 18%` и `price ≥ 20 000 ₸` и `in_stock` |
 | **Честная скидка** | `fair_discount ≥ 15%` |
-| **Топ-Бренд** | бренд входит в `TRUSTED_BRANDS` |
+| **Топ-Бренд** | бренд входит в `TOP_BRANDS` |
 | **Рисованная?** | `shop_discount_pct − fair_discount ≥ 15 п.п.` |
 
 ## Где живут данные
@@ -43,3 +43,13 @@ value = 100 * (0.55*fair_discount_norm + 0.20*brand_trust + 0.15*availability + 
 - `matching.py` → `extract_mpn`, `model_key`, `marketplace_medians`.
 - `export.py` → считает `marketplace_medians`, `value_score`, `fair_discount`, `is_pick` при экспорте `latest.json`.
 - Фронтенд (`web/`) читает готовые метрики и отображает бейджи и вердикт истории.
+
+## Сравнение
+
+`src/lib/stores/compare.svelte.ts` — до 4 товаров, хранение `localStorage`, страница `/compare`.
+
+## Ограничения
+
+- Межмагазинная медиана — только когда модель нашлась минимум в 2 магазинах (`matching.py`); иначе ориентир — только собственная история ИС.
+- Внешние оценки — справочны, не решают исход; товары без оценок не штрафуются.
+- «Рисованная?» — эвристика, не ярлык мошенника, а сигнал присмотреться к истории цены.
