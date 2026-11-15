@@ -15,9 +15,21 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from .config import ROOT, Thresholds
+from .evaluate import coverage_days, returned_to_earlier, weighted_median
+from .matching import marketplace_medians
 from .models import Product
 from .scoring import score_product
-from .storage import connect, current_deals, price_drop_candidates, history as spans_history, last_successful_crawl, previous_item_count
+from .storage import (
+    Span,
+    active_catalog_products,
+    connect,
+    current_deals,
+    first_seen_map,
+    history as spans_history,
+    last_successful_crawl,
+    previous_item_count,
+    price_drop_candidates,
+)
 
 # Только включённые парсеры: каркасы (kaspi, wb, ozon, satu, dns) висели на
 # панели красными «ошибками», хотя их никто не обходит.
@@ -49,12 +61,17 @@ REAL_DROP_PER_SHOP = 40
 REAL_DROP_TOTAL = 150
 
 
-def _first_seen(conn, identity: str) -> str | None:
-    """Когда позиция впервые появилась в мониторинге — «новизна» для панели."""
+def _first_seen(conn: sqlite3.Connection, identity: str) -> str | None:
+    """Когда позиция впервые появилась в мониторинге (переживает prune spans)."""
     row = conn.execute(
+        "SELECT first_seen FROM products WHERE identity = ?", (identity,)
+    ).fetchone()
+    if row and row[0]:
+        return row[0]
+    fallback = conn.execute(
         "SELECT MIN(first_seen) FROM spans WHERE identity = ?", (identity,)
     ).fetchone()
-    return row[0] if row and row[0] else None
+    return fallback[0] if fallback and fallback[0] else None
 
 
 def _product_to_dict(p: Product, first_seen: str | None = None) -> dict:
@@ -71,22 +88,38 @@ def _product_to_dict(p: Product, first_seen: str | None = None) -> dict:
         "in_stock": p.in_stock,
         "discount_pct": p.shop_discount_pct,
         "image": p.image,
+        "mpn": p.mpn,
+        "rating": p.rating,
+        "reviews_count": p.reviews_count,
         "first_seen": first_seen,
     }
 
 
-def _fair_and_reference(conn, product, at):
-    """(честная скидка %, медиана окна) — см. _fair_discount_for."""
-    # честная скидка по истории ИС: медиана 14д, минимум 3 дня, просадка >= drop threshold
-    from datetime import timedelta
-    from .config import Thresholds
-    from .evaluate import coverage_days, returned_to_earlier, weighted_median
+def _fair_reference_and_age(
+    conn: sqlite3.Connection, product: Product, at: datetime
+) -> tuple[float | None, int | None, float | None]:
+    """За один запрос к истории возвращает (fair_discount, reference_median, age_hours)."""
     th = Thresholds()
     trend_since = at - timedelta(days=th.trend_window_days)
-    spans = [s for s in spans_history(conn, product.identity, trend_since) if s.in_stock]
+    all_spans = spans_history(conn, product.identity, trend_since)
+    age_h: float | None = None
+    if all_spans:
+        age_h = max(0.0, (at - all_spans[-1].last_seen).total_seconds() / 3600.0)
+    else:
+        last = conn.execute(
+            "SELECT last_seen FROM spans WHERE identity = ? ORDER BY last_seen DESC, id DESC LIMIT 1",
+            (product.identity,),
+        ).fetchone()
+        if last and last[0]:
+            dt = datetime.fromisoformat(str(last[0]).replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=UTC)
+            age_h = max(0.0, (at - dt).total_seconds() / 3600.0)
+
+    spans = [s for s in all_spans if s.in_stock]
     ref = weighted_median(spans, trend_since, at)
     if not ref or coverage_days(spans, at) < th.min_history_days:
-        return None, None
+        return None, None, age_h
     drop = (ref - product.price) / ref * 100
     earlier = [
         s for s in spans_history(conn, product.identity, at - timedelta(days=th.low_window_days))
@@ -94,43 +127,35 @@ def _fair_and_reference(conn, product, at):
     ]
     if returned_to_earlier(earlier, product.price):
         # Цена вернулась к прежнему уровню после временного подъёма — не скидка.
-        return 0.0, ref
+        return 0.0, ref, age_h
     if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
         # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
-        # Иначе нарисованная «−81%» при цене, стоящей неделю, не получала
-        # бейдж «Рисованная?» (он требует подтверждённую fair_discount).
-        return 0.0, ref
-    return round(drop, 1), ref
+        return 0.0, ref, age_h
+    return round(drop, 1), ref, age_h
 
 
-def _fair_discount_for(conn, product, at):
-    return _fair_and_reference(conn, product, at)[0]
-
-
-def _score_for(conn, product, at):
-    # возраст последнего наблюдения для freshness
-    try:
-        from datetime import UTC
-        last = conn.execute("SELECT last_seen FROM spans WHERE identity=? ORDER BY last_seen DESC LIMIT 1", (product.identity,)).fetchone()
-        age_h = None
-        if last:
-            from datetime import datetime
-            dt = datetime.fromisoformat(last[0].replace("Z","+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=UTC)
-            age_h = (at - dt).total_seconds()/3600
-    except Exception:
-        age_h = None
-    fair, _ref = _fair_and_reference(conn, product, at)
-    return score_product(product, fair_discount=fair, age_hours=age_h)
-
-
-def _deal_dict(conn, product: Product, now: datetime, signal: str) -> dict:
-    """Позиция витрины: заявленная скидка магазина + вердикт собственной истории."""
-    fair, ref = _fair_and_reference(conn, product, now)
-    sc = _score_for(conn, product, now)
+def _deal_dict(
+    conn: sqlite3.Connection,
+    product: Product,
+    now: datetime,
+    signal: str,
+    *,
+    first_seen: str | None = None,
+    market_median: int | None = None,
+) -> dict:
+    """Позиция витрины: заявленная скидка магазина + вердикт собственной истории и рынка."""
+    fair, ref, age_h = _fair_reference_and_age(conn, product, now)
+    sc = score_product(
+        product,
+        fair_discount=fair,
+        marketplace_median=market_median,
+        rating=product.rating,
+        reviews_count=product.reviews_count,
+        age_hours=age_h,
+    )
+    resolved_first = first_seen if first_seen is not None else _first_seen(conn, product.identity)
     return {
-        "product": _product_to_dict(product, _first_seen(conn, product.identity)),
+        "product": _product_to_dict(product, resolved_first),
         "signal": signal,
         "drop_pct": product.shop_discount_pct,
         "fair_discount": fair,
@@ -168,20 +193,36 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> list[Product]:
     now = datetime.now(UTC)
     stale_after = timedelta(hours=6)
 
+    # Рыночные медианы по активному каталогу: скоринг видит кросс-магазинный контекст.
+    market_medians = marketplace_medians(active_catalog_products(conn))
+
     deals = []
     picked: dict[str, Product] = {}
+    candidates: list[Product] = []
     for shop in SHOPS:
-        products = current_deals(
-            conn,
-            DASHBOARD_MIN_PCT,
-            DASHBOARD_MIN_PRICE,
-            DASHBOARD_MAX_PCT,
-            DASHBOARD_LIMIT,
-            shop,
+        candidates.extend(
+            current_deals(
+                conn,
+                DASHBOARD_MIN_PCT,
+                DASHBOARD_MIN_PRICE,
+                DASHBOARD_MAX_PCT,
+                DASHBOARD_LIMIT,
+                shop,
+            )
         )
-        for product in products:
-            picked[product.identity] = product
-            deals.append(_deal_dict(conn, product, now, "deal"))
+    fmap = first_seen_map(conn, (p.identity for p in candidates))
+    for product in candidates:
+        picked[product.identity] = product
+        deals.append(
+            _deal_dict(
+                conn,
+                product,
+                now,
+                "deal",
+                first_seen=fmap.get(product.identity),
+                market_median=market_medians.get(product.identity),
+            )
+        )
     # Подозрительные («Рисованная?») — в конец: витрина обещает скидки,
     # проверенные историей, а не самые большие зачёркнутые цены.
     rank = lambda deal: ("Рисованная?" in deal["badges"], -(deal["drop_pct"] or 0))  # noqa: E731
@@ -207,7 +248,14 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> list[Product]:
         ):
             if product.identity in shown_ids:
                 continue
-            deal = _deal_dict(conn, product, now, "drop")
+            deal = _deal_dict(
+                conn,
+                product,
+                now,
+                "drop",
+                first_seen=fmap.get(product.identity),
+                market_median=market_medians.get(product.identity),
+            )
             if (deal["fair_discount"] or 0) >= Thresholds().drop_pct:
                 per_shop.append(deal)
                 picked[product.identity] = product
@@ -244,7 +292,14 @@ def export_dashboard(conn: sqlite3.Connection, out_dir: Path) -> list[Product]:
     # Статистика
     total_products = sum(s["item_count"] for s in shops)
     total_deals = len(deals)
-    avg_discount = median([d["drop_pct"] or 0 for d in deals]) if deals else 0
+    effective_discounts = [
+        float(d["fair_discount"])
+        if (d.get("fair_discount") or 0) > 0
+        else float(d["drop_pct"])
+        for d in deals
+        if (d.get("fair_discount") or 0) > 0 or (d.get("drop_pct") or 0) > 0
+    ]
+    avg_discount = median(effective_discounts) if effective_discounts else 0.0
 
     data = {
         "updated_at": now.isoformat(),
@@ -288,7 +343,10 @@ def export_history(
         deals = [*shown, *(p for p in deals if p.identity not in seen)]
 
     history: dict[str, dict] = {}
-    since = (datetime.now(UTC) - timedelta(days=90)).isoformat(timespec="seconds")
+    now = datetime.now(UTC)
+    th = Thresholds()
+    window_since = now - timedelta(days=th.retention_days)
+    since = window_since.isoformat(timespec="seconds")
 
     for product in deals[:limit]:
         rows = conn.execute(
@@ -311,9 +369,38 @@ def export_history(
         # Конец последнего отрезка: цена, державшаяся 10 дней, — линия, а не точка.
         last_seen = rows[-1][3][:10]
         if points and points[-1]["date"] != last_seen:
-            points.append({"date": last_seen, "price": points[-1]["price"], "old_price": points[-1]["old_price"]})
+            points.append(
+                {
+                    "date": last_seen,
+                    "price": points[-1]["price"],
+                    "old_price": points[-1]["old_price"],
+                }
+            )
 
-        prices = sorted(point["price"] for point in points)
+        span_objs = [
+            Span(
+                first_seen=datetime.fromisoformat(str(r[0]).replace("Z", "+00:00")),
+                last_seen=datetime.fromisoformat(str(r[3]).replace("Z", "+00:00")),
+                price=int(r[1]),
+                in_stock=True,
+                old_price=int(r[2]) if r[2] is not None else None,
+            )
+            for r in rows
+        ]
+        w_med = weighted_median(span_objs, window_since, now)
+        all_prices = [int(r[1]) for r in rows] + [product.price]
+
+        # Сколько дней подряд держится текущая цена в хвосте отрезков:
+        streak_start = span_objs[-1].last_seen
+        current_price = span_objs[-1].price
+        for sp in reversed(span_objs):
+            if sp.price != current_price:
+                break
+            streak_start = sp.first_seen
+        days_at_current = max(
+            0, int((span_objs[-1].last_seen - streak_start).total_seconds() // 86_400)
+        )
+
         history[product.identity] = {
             "points": points,
             # Five visible observations plus their preceding baseline. Never
@@ -322,8 +409,9 @@ def export_history(
                 {"date": row[0], "price": row[1], "old_price": row[2]}
                 for row in rows[-6:]
             ],
-            "min": prices[0],
-            "median": prices[len(prices) // 2],
+            "min": min(all_prices),
+            "median": w_med if w_med is not None else sorted(all_prices)[len(all_prices) // 2],
+            "days_at_current": days_at_current,
         }
 
     with open(out_dir / "history.json", "w", encoding="utf-8") as f:

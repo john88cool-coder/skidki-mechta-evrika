@@ -1,5 +1,5 @@
 import json
-from datetime import timedelta
+from datetime import UTC, datetime, timedelta
 
 from conftest import T0, product, seed
 
@@ -49,7 +49,8 @@ def test_dashboard_shop_status_marks_stale_and_broken(conn, tmp_path):
 
 
 def test_history_keeps_points_and_stats(conn, tmp_path):
-    seed(conn, product(100_000, old_price=200_000), hours=24)
+    # Окно истории = retention_days (35 суток): сеем внутри него, а не на T0.
+    seed(conn, product(100_000, old_price=200_000), hours=24, start=datetime.now(UTC) - timedelta(days=2))
     row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
 
     assert row["min"] == row["median"] == 100_000
@@ -59,8 +60,9 @@ def test_history_keeps_points_and_stats(conn, tmp_path):
 
 def test_history_survives_price_change(conn, tmp_path):
     """Точки идут по отрезкам: график должен показать обе цены."""
-    storage.save_products(conn, [product(100_000, old_price=200_000)], T0)
-    storage.save_products(conn, [product(80_000, old_price=200_000)], T0 + timedelta(hours=2))
+    start = datetime.now(UTC) - timedelta(hours=5)
+    storage.save_products(conn, [product(100_000, old_price=200_000)], start)
+    storage.save_products(conn, [product(80_000, old_price=200_000)], start + timedelta(hours=2))
 
     row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
     prices = [point["price"] for point in row["points"]]
@@ -71,8 +73,9 @@ def test_history_survives_price_change(conn, tmp_path):
 
 def test_recent_prices_keep_exact_tail_despite_chart_downsampling(conn, tmp_path):
     prices = [100_000 - i * 100 for i in range(125)]
+    start = datetime.now(UTC) - timedelta(hours=4)
     for i, price in enumerate(prices):
-        storage.save_products(conn, [product(price, old_price=200_000)], T0 + timedelta(minutes=i))
+        storage.save_products(conn, [product(price, old_price=200_000)], start + timedelta(minutes=i))
 
     row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
     assert [point["price"] for point in row["recent_points"]] == prices[-6:]
@@ -81,7 +84,7 @@ def test_recent_prices_keep_exact_tail_despite_chart_downsampling(conn, tmp_path
 
 
 def test_recent_prices_do_not_pad_short_history(conn, tmp_path):
-    seed(conn, product(50_000, old_price=100_000), hours=4)
+    seed(conn, product(50_000, old_price=100_000), hours=4, start=datetime.now(UTC) - timedelta(hours=6))
     row = _json(_export(conn, tmp_path), "history.json")["history"]["mechta:1"]
     assert len(row["recent_points"]) == 1
     assert row["recent_points"][0]["price"] == 50_000
@@ -90,8 +93,6 @@ def test_recent_prices_do_not_pad_short_history(conn, tmp_path):
 def test_real_price_drop_reaches_dashboard_without_shop_discount(conn, tmp_path):
     """Цена упала по собственной истории, зачёркнутой цены нет — позиция всё
     равно на витрине с «обычной ценой» (раньше такие не попадали вовсе)."""
-    from datetime import UTC, datetime
-
     start = datetime.now(UTC) - timedelta(days=6)
     seed(conn, product(300_000, sku="bork"), hours=24 * 5, start=start)
     storage.save_products(conn, [product(150_000, sku="bork")], start + timedelta(days=5, hours=2))
