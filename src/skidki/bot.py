@@ -57,17 +57,26 @@ _PRICE_TOKEN_RE = re.compile(r"^(\d[\d_\s]*)(к|k|тыс)?$", re.I)
 
 
 def _parse_watch_args(raw_arg: str) -> tuple[str, int] | None:
-    parts = raw_arg.strip().rsplit(maxsplit=1)
+    # tenge() печатает «450 000 ₸» — с пробелом перед ₸ и внутри числа.
+    # Хвостовые ₸ снимаем до rsplit, иначе парсер отвергает собственный формат
+    # бота. Граница split рвёт число («…450 | 000»): если цена — ровно
+    # последний разряд «000», присоединяем предыдущую трёхзначную группу.
+    raw_arg = raw_arg.strip().rstrip("₸").strip()
+    parts = raw_arg.rsplit(maxsplit=1)
     if len(parts) != 2:
         return None
-    query, raw_price = parts[0].strip(), parts[1].strip().rstrip("₸").strip()
+    query, raw_price = parts[0].strip(), parts[1].strip()
     m = _PRICE_TOKEN_RE.match(raw_price)
-    if not query or not m:
-        return None
-    value = int(re.sub(r"[\s_]", "", m.group(1)))
-    if m.group(2):
-        value *= 1_000
-    return (query, value) if value > 0 else None
+    if query and m:
+        value = int(re.sub(r"[\s_]", "", m.group(1)))
+        if m.group(2):
+            value *= 1_000
+        if value > 0:
+            return (query, value)
+    head, _, tail = query.rpartition(" ")
+    if head and raw_price == "000" and len(tail) == 3 and tail.isdigit() and int(tail):
+        return (head, int(tail) * 1000)
+    return None
 
 
 def _format_watches_view(watches: list[WatchEntry]) -> tuple[str, list[list[tuple[str, str]]]]:

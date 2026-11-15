@@ -85,6 +85,15 @@ def test_bot_watch_lifecycle_and_crawler_target_signal(tmp_path):
     with storage.connect(db) as conn:
         assert storage.list_watches(conn) == []
 
+    # Регрессия: цена в формате, который печатает сам бот (tenge) — «450 000 ₸»
+    api2 = FakeApi()
+    bot.handle(_msg("/watch iPhone 16 450 000 ₸"), api2, OWNER, db)
+    assert "Подписка" in api2.calls[-1][1]["text"]
+    with storage.connect(db) as conn:
+        added = storage.list_watches(conn)[-1]
+        assert added.query == "iPhone 16"
+        assert added.max_price == 450_000
+
 
 def test_prefs_export_and_import_syncs_muted_and_watches(tmp_path):
     db_local = tmp_path / "local.sqlite3"
