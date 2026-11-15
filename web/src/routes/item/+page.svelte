@@ -37,7 +37,7 @@
 	let fav = $derived(history ? favorites.has(favId(history.product.shop, history.product.sku)) : false);
 	let copiedItem = $state(false);
 	let copiedLink = $state(false);
-	function toggleFav() { if (!history) return; favorites.toggle(favId(history.product.shop, history.product.sku)); }
+	function toggleFav() { if (!history) return; favorites.toggle(favId(history.product.shop, history.product.sku), history.product); }
 	function copyLink() { navigator.clipboard.writeText(location.href).catch(()=>{}); copiedLink=true; setTimeout(()=>copiedLink=false,1400); }
 	async function shareItem() {
 		if (!history) return;
@@ -84,6 +84,9 @@
 				<span class="meta-pill">{shopLabel(history.product.shop)}</span>
 				{#if history.product.brand}<span class="text-xs" style="color:var(--ink-4)">{history.product.brand}</span>{/if}
 				{#if history.product.category}<span class="text-xs" style="color:var(--ink-4)">· {history.product.category}</span>{/if}
+				{#if history.product.rating && history.product.rating > 0}
+					<span class="text-xs font-mono" style="color:var(--ink-3)">★ {history.product.rating.toFixed(1)}{history.product.reviews_count ? ` (${history.product.reviews_count})` : ''}</span>
+				{/if}
 			</div>
 			<h1 class="mt-2 text-xl font-bold tracking-tight leading-tight" style="color:var(--ink)">{history.product.title}</h1>
 			{#if verdict}<div style="margin-top:10px"><VerdictChip {verdict} size="md" /></div>{/if}
@@ -102,7 +105,9 @@
 				{/if}
 			</div>
 			<div class="item-actions mt-4 flex flex-wrap gap-2">
-				<a href={history.product.url} target="_blank" rel="noopener" class="item-btn primary"><ExternalLink size={14} /> В магазин</a>
+				{#if history.product.url && history.product.url !== '#'}
+					<a href={history.product.url} target="_blank" rel="noopener" class="item-btn primary"><ExternalLink size={14} /> В магазин</a>
+				{/if}
 				<button onclick={toggleFav} class="item-btn" class:on={fav}><Heart size={14} fill={fav ? 'currentColor' : 'none'} /> {fav ? 'В избранном' : 'В избранное'}</button>
 				<button onclick={shareItem} class="item-btn">{#if copiedItem}<Check size={14} /> Скопировано{:else}<Share2 size={14} /> Поделиться{/if}</button>
 				<button onclick={copyLink} class="item-btn">{#if copiedLink}<Check size={14} />{:else}<Copy size={14} />{/if} Ссылка</button>
@@ -150,8 +155,9 @@
 	{/if}
 	{/if}
 	<section class="stat-grid">
-		<div class="stat-card"><p>Минимум за 90 дней</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
+		<div class="stat-card"><p>Минимум за 35 дней</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
 		<div class="stat-card"><p>Обычная цена (медиана)</p><p style="color:var(--ink)">{formatPrice(history.stats.median_30d)}</p></div>
+		<div class="stat-card"><p>Дней с этой ценой</p><p style="color:var(--ink)">{history.stats.days_at_current}</p></div>
 		<div class="stat-card"><p>Точек наблюдения</p><p style="color:var(--ink)">{history.history.length}</p></div>
 	</section>
 {/if}

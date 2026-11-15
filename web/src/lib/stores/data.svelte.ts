@@ -1,6 +1,8 @@
 import { base } from '$app/paths';
 import type { DashboardData, Product, PricePoint, ProductHistory } from '$lib/types';
 import { mergeSnapshots, withFreshness } from '$lib/utils/merge';
+import { buildFallbackProduct, computeDaysAtCurrent } from '$lib/utils/history';
+import { getSnapshot } from '$lib/utils/snapshots';
 
 /** Пустой срез: панель до первого опубликованного обхода. */
 const EMPTY: DashboardData = {
@@ -111,7 +113,10 @@ export function stopAutoRefresh(): void {
  * ~10 тыс. файлов на каждый обход (дорого для git и gh-pages). */
 interface HistoryFile {
 	updated_at: string;
-	history: Record<string, { points: PricePoint[]; recent_points?: PricePoint[]; min: number; median: number }>;
+	history: Record<
+		string,
+		{ points: PricePoint[]; recent_points?: PricePoint[]; min: number; median: number; days_at_current?: number }
+	>;
 }
 
 /** One request shared by all cards, refreshed when the published snapshot changes. */
@@ -171,16 +176,8 @@ export async function fetchHistory(shop: string, sku: string): Promise<ProductHi
 		(deal) => deal.product.shop === shop && deal.product.sku === sku
 	)?.product;
 
-	// Товара может не быть в текущем топе (скидка кончилась) — тогда берём
-	// последнюю известную точку истории и открываем страницу без ссылки.
-	const product: Product = current ?? {
-		shop,
-		sku,
-		title: `${shop} · ${sku}`,
-		price: row.points[row.points.length - 1].price,
-		url: '#',
-		in_stock: true
-	};
+	const product: Product =
+		current ?? buildFallbackProduct(shop, sku, row.points, getSnapshot(`${shop}:${sku}`));
 
 	return {
 		product,
@@ -189,7 +186,7 @@ export async function fetchHistory(shop: string, sku: string): Promise<ProductHi
 		stats: {
 			min_90d: row.min,
 			median_30d: row.median,
-			days_at_current: row.points.length
+			days_at_current: row.days_at_current ?? computeDaysAtCurrent(row.points)
 		}
 	};
 }
