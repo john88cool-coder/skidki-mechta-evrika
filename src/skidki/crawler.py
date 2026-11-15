@@ -5,6 +5,7 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
+import re
 import sqlite3
 import time
 from collections.abc import Sequence
@@ -13,7 +14,7 @@ from pathlib import Path
 
 from playwright.async_api import BrowserContext
 
-from .browser import open_context
+from .browser import open_browser, open_shop_context
 from .config import OTHER_GROUP, Rules, Settings, Thresholds, load_rules, settings as default_settings
 from .evaluate import Signal, SignalHit, Verdict, evaluate, should_send
 from .models import PartialCrawl, Product
@@ -27,7 +28,10 @@ from .storage import (
     current_deals,
     dequeue,
     enqueue,
+    histories_for_shop,
+    last_alerts_for_shop,
     last_crawl_ok,
+    last_spans_for_shop,
     last_successful_crawl,
     mark_alerts_delivered,
     muted_groups,
@@ -45,24 +49,48 @@ log = logging.getLogger("skidki")
 ShopResult = tuple[str, list[Product], str | None]
 
 
-async def _fetch_shop(context: BrowserContext, name: str, config: Settings) -> ShopResult:
+_BOT_TOKEN_RE = re.compile(r"bot\d+:[A-Za-z0-9_-]+")
+
+
+def _redact_secrets(text: str) -> str:
+    return _BOT_TOKEN_RE.sub("bot<REDACTED>", text)
+
+
+async def _fetch_shop(
+    context: BrowserContext | None, name: str, config: Settings | None
+) -> ShopResult:
+    cfg = config or default_settings
     started = time.monotonic()
     try:
-        products = await REGISTRY[name].fetch(context, config)
+        products = await asyncio.wait_for(
+            REGISTRY[name].fetch(context, cfg),  # type: ignore[arg-type]
+            timeout=cfg.shop_timeout_s,
+        )
     except PartialCrawl as exc:
+        msg = _redact_secrets(str(exc))[:300]
         # Собранное пишется в историю, но обход — неуспешный: тревога о поломке.
-        log.warning("%s: обход неполный (%d позиций) — %s", name, len(exc.products), exc)
-        return name, exc.products, str(exc)[:300]
+        log.warning("%s: обход неполный (%d позиций) — %s", name, len(exc.products), msg)
+        return name, exc.products, msg
     except Exception as exc:  # noqa: BLE001 — один упавший магазин не должен ронять обход
-        log.warning("%s: %s", name, exc)
-        return name, [], f"{type(exc).__name__}: {exc}"[:300]
+        msg = _redact_secrets(f"{type(exc).__name__}: {exc}")[:300]
+        log.warning("%s: %s", name, msg)
+        return name, [], msg
     log.info("%s: %d позиций за %.0f с", name, len(products), time.monotonic() - started)
     return name, products, None
 
 
+async def _fetch_isolated(
+    browser: object, ua: str, name: str, config: Settings
+) -> ShopResult:
+    async with open_shop_context(browser, ua) as context:  # type: ignore[arg-type]
+        return await _fetch_shop(context, name, config)
+
+
 async def collect(shops: Sequence[str], config: Settings) -> list[ShopResult]:
-    async with open_context() as context:
-        return list(await asyncio.gather(*(_fetch_shop(context, name, config) for name in shops)))
+    async with open_browser() as (browser, ua):
+        return list(
+            await asyncio.gather(*(_fetch_isolated(browser, ua, name, config) for name in shops))
+        )
 
 
 def process(
@@ -76,22 +104,48 @@ def process(
     at = at or now()
     findings: list[Verdict] = []
     breakages: list[str] = []
+    history_window = max(thresholds.trend_window_days, thresholds.low_window_days)
+    history_since = at - timedelta(days=history_window)
+    alert_since = at - timedelta(days=thresholds.trend_window_days)
+
     for shop, products, error in results:
         ok = error is None and bool(products)
         previous = previous_item_count(conn, shop)
-        if not ok:
+        if ok and previous and len(products) < previous * thresholds.breakage_ratio:
+            ok = False
+            error = f"подозрительно мало позиций: {len(products)} вместо {previous}"
+        if not ok and last_crawl_ok(conn, shop) is not False:
             # Тревога — на переходе в поломку, а не каждые 2 часа, пока она длится.
-            if last_crawl_ok(conn, shop) is not False:
-                breakages.append(format_breakage(shop, len(products), previous, error))
-        elif previous and len(products) < previous * thresholds.breakage_ratio:
-            breakages.append(format_breakage(shop, len(products), previous, None))
+            breakages.append(format_breakage(shop, len(products), previous, error))
         record_crawl(conn, shop, len(products), ok, error, at)
+
+        if not products:
+            continue
+
+        spans_by_id = histories_for_shop(conn, shop, history_since)
+        last_by_id = last_spans_for_shop(conn, shop)
+        alerts_by_id = last_alerts_for_shop(conn, shop, alert_since)
 
         # Оценка — ДО записи: история должна быть без текущего наблюдения.
         for product in products:
             # Первый успешный обход магазина — база: висящие скидки не новость.
-            verdict = evaluate(conn, product, rules, thresholds, at, cold_start=previous is None)
-            if should_send(conn, verdict, thresholds, at):
+            verdict = evaluate(
+                conn,
+                product,
+                rules,
+                thresholds,
+                at,
+                cold_start=previous is None,
+                preloaded_spans=spans_by_id.get(product.identity, []),
+                preloaded_last_span=last_by_id.get(product.identity),
+            )
+            if should_send(
+                conn,
+                verdict,
+                thresholds,
+                at,
+                preloaded_last_alert=alerts_by_id.get(product.identity),
+            ):
                 findings.append(verdict)
         save_products(conn, products, at)
     return findings, breakages
@@ -116,7 +170,7 @@ def run_once(
         for verdict in findings:
             enqueue(conn, verdict.product.identity, verdict.product.price, _dump_signals(verdict))
         removed = prune(conn, config.thresholds.retention_days)
-    freed = compact(db_path)
+    freed = compact(db_path) if removed > 0 else 0
     log.info(
         "находок: %d, тревог: %d, удалено отрезков: %d, освобождено %d КБ",
         len(findings), len(breakages), removed, freed // 1024,

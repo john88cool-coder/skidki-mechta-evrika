@@ -409,8 +409,14 @@ class Settings:
     )
     # Бюджет времени на evrika: job в Actions ограничен, обход каждые 2 часа.
     evrika_budget_s: float = 50 * 60
+    # Индивидуальный потолок времени на один магазин в общем обходе (сек).
+    shop_timeout_s: float = field(
+        default_factory=lambda: float(os.environ.get("SKIDKI_SHOP_TIMEOUT", "3300"))
+    )
     # SSR evrika не укладывается в стандартные 30 с Playwright.
     page_timeout_ms: int = 90_000
+    # Опциональный URL prefs.json (muted + watches) для гибридной синхронизации в облаке.
+    prefs_url: str | None = field(default_factory=lambda: _env("SKIDKI_PREFS_URL"))
 
 
 settings = Settings()

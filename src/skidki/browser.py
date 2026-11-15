@@ -43,7 +43,8 @@ async def _native_user_agent(browser: Browser) -> str:
 
 
 @asynccontextmanager
-async def open_context(headless: bool = True) -> AsyncIterator[BrowserContext]:
+async def open_browser(headless: bool = True) -> AsyncIterator[tuple[Browser, str]]:
+    """Единый процесс Chromium + его очищенный родной User-Agent."""
     async with async_playwright() as playwright:
         # channel="chromium" — новый headless (полный Chromium), а не headless shell,
         # который представляется брендом HeadlessChrome.
@@ -51,11 +52,26 @@ async def open_context(headless: bool = True) -> AsyncIterator[BrowserContext]:
             headless=headless, channel="chromium", args=_LAUNCH_ARGS
         )
         try:
-            context = await browser.new_context(
-                user_agent=await _native_user_agent(browser), locale="ru-RU"
-            )
-            await context.add_init_script(_HIDE_WEBDRIVER)
-            await context.route("**/*", _block_heavy)
-            yield context
+            ua = await _native_user_agent(browser)
+            yield browser, ua
         finally:
             await browser.close()
+
+
+@asynccontextmanager
+async def open_shop_context(browser: Browser, user_agent: str) -> AsyncIterator[BrowserContext]:
+    """Изолированный контекст для одного магазина (свои cookies, storage и роуты)."""
+    context = await browser.new_context(user_agent=user_agent, locale="ru-RU")
+    try:
+        await context.add_init_script(_HIDE_WEBDRIVER)
+        await context.route("**/*", _block_heavy)
+        yield context
+    finally:
+        await context.close()
+
+
+@asynccontextmanager
+async def open_context(headless: bool = True) -> AsyncIterator[BrowserContext]:
+    async with open_browser(headless=headless) as (browser, ua):
+        async with open_shop_context(browser, ua) as context:
+            yield context
