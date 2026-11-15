@@ -3,7 +3,7 @@
 	import { dashboard } from '$lib/stores/data.svelte';
 	import ShopStatusCard from '$lib/components/ShopStatusCard.svelte';
 	import { formatPrice } from '$lib/utils/format';
-	import { verdictOf, realRank } from '$lib/utils/verdict';
+	import { verdictOf, realRank, isReal } from '$lib/utils/verdict';
 	import { RefreshCw } from '@lucide/svelte';
 
 	let perShop = $derived(
@@ -13,7 +13,7 @@
 				const claimed = deals.filter((d) => d.drop_pct);
 				const checked = claimed.filter((d) => verdictOf(d).kind !== 'unknown');
 				const painted = checked.filter((d) => verdictOf(d).kind === 'painted').length;
-				const real = deals.filter((d) => { const k = verdictOf(d).kind; return k === 'honest' || k === 'inflated'; })
+				const real = deals.filter((d) => isReal(verdictOf(d).kind))
 					.sort((a, b) => realRank(b) - realRank(a));
 				return { shop, claimed: claimed.length, checked: checked.length, painted, real, share: checked.length ? painted / checked.length : null };
 			})

@@ -38,6 +38,8 @@ export interface Deal {
 	signal: 'deal' | 'drop' | 'low' | 'target' | 'restock';
 	drop_pct?: number | null;
 	base_price?: number | null;
+	/** Накрутка: до этой цены товар поднимали перед скидкой (иначе null). */
+	pump_price?: number | null;
 	fair_discount?: number | null;
 	value_score?: number | null;
 	is_pick?: boolean | null;

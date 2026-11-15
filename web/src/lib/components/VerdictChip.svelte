@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { Verdict } from '$lib/utils/verdict';
-	import { ShieldCheck, TriangleAlert, Ban, Hourglass } from '@lucide/svelte';
+	import { ShieldCheck, TriangleAlert, TrendingUp, Ban, Hourglass } from '@lucide/svelte';
 
 	interface Props { verdict: Verdict; size?: 'sm' | 'md' }
 	let { verdict, size = 'sm' }: Props = $props();
-	const ICONS = { honest: ShieldCheck, inflated: TriangleAlert, painted: Ban, unknown: Hourglass };
+	const ICONS = { honest: ShieldCheck, inflated: TriangleAlert, pumped: TrendingUp, painted: Ban, unknown: Hourglass };
 	let Icon = $derived(ICONS[verdict.kind]);
 </script>
 

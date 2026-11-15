@@ -27,5 +27,5 @@ test('real rank puts confirmed drops first and painted last', () => {
 
 test('counts', () => {
 	assert.deepEqual(countVerdicts([{ drop_pct: 50, fair_discount: 0 }, { drop_pct: 20, fair_discount: 18 }]),
-		{ honest: 1, inflated: 0, painted: 1, unknown: 0 });
+		{ honest: 1, inflated: 0, pumped: 0, painted: 1, unknown: 0 });
 });

@@ -3,12 +3,12 @@
 	import { dashboard } from '$lib/stores/data.svelte';
 	import DealCard from '$lib/components/DealCard.svelte';
 	import { shopLabel, groupLabel, formatPrice } from '$lib/utils/format';
-	import { verdictOf, realRank } from '$lib/utils/verdict';
+	import { verdictOf, realRank, isReal } from '$lib/utils/verdict';
 	import { Trophy, Ban, LayoutGrid, ArrowRight } from '@lucide/svelte';
 
 	let real = $derived(
 		dashboard.deals
-			.filter((d) => { const k = verdictOf(d).kind; return k === 'honest' || k === 'inflated'; })
+			.filter((d) => isReal(verdictOf(d).kind))
 			.sort((a, b) => realRank(b) - realRank(a))
 	);
 	/** Лучшее реальное снижение в каждой группе — «что брать» по разделам. */

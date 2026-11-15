@@ -6,7 +6,7 @@
 	import SkeletonCard from '$lib/components/SkeletonCard.svelte';
 	import TruthMeter from '$lib/components/TruthMeter.svelte';
 	import { formatPrice, shopLabel, groupLabel, timeAgo } from '$lib/utils/format';
-	import { verdictOf, realRank, countVerdicts } from '$lib/utils/verdict';
+	import { verdictOf, realRank, countVerdicts, isReal } from '$lib/utils/verdict';
 	import type { ProductHistory } from '$lib/types';
 	import { ArrowRight, Wallet, ShieldCheck, Heart, Copy, Check, Ban, TrendingDown } from '@lucide/svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
@@ -16,7 +16,7 @@
 	/** Реальные снижения — главное, ради чего существует ИС. */
 	let realDeals = $derived(
 		dashboard.deals
-			.filter((d) => { const k = verdictOf(d).kind; return k === 'honest' || k === 'inflated'; })
+			.filter((d) => isReal(verdictOf(d).kind))
 			.sort((a, b) => realRank(b) - realRank(a))
 	);
 	/** Скидки на ценнике, которые история не подтверждает, — от самых «громких». */
@@ -47,7 +47,7 @@
 			const k = verdictOf(d).kind;
 			const row = rows.get(d.product.shop) ?? { checked: 0, painted: 0, real: 0 };
 			if (d.drop_pct && k !== 'unknown') { row.checked += 1; if (k === 'painted') row.painted += 1; }
-			if (k === 'honest' || k === 'inflated') row.real += 1;
+			if (isReal(k)) row.real += 1;
 			rows.set(d.product.shop, row);
 		}
 		return [...rows.entries()]
@@ -84,7 +84,7 @@
 		<p class="hero-kicker">Казахстан · {dashboard.shops.length || 6} магазинов · история каждой цены</p>
 		<h1 class="hero-title">Хорошая цена — <i>проверенная</i> историей.</h1>
 		<p class="hero-text">
-			Магазин пишет «−80%», а мы смотрим, сколько товар стоил последние две недели. Остаётся то, что правда подешевело.
+			Магазин пишет «−80%», а мы смотрим, сколько товар стоил последний месяц. Остаётся то, что правда подешевело.
 		</p>
 		{#if claimedDeals.length}
 			<TruthMeter {counts} total={claimedDeals.length} />

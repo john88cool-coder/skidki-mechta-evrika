@@ -7,13 +7,13 @@
 	import DealCard from '$lib/components/DealCard.svelte';
 	import SkeletonCard from '$lib/components/SkeletonCard.svelte';
 	import { shopLabel, groupLabel } from '$lib/utils/format';
-	import { verdictOf, VERDICT_LABELS, type VerdictKind } from '$lib/utils/verdict';
+	import { verdictOf, isReal, VERDICT_LABELS, type VerdictKind } from '$lib/utils/verdict';
 	import { bySortKey, SORT_LABELS, type SortKey } from '$lib/utils/sort';
 	import { Search, X, SlidersHorizontal, ArrowUpDown, Heart, ChevronDown } from '@lucide/svelte';
 
 	type VerdictFilter = 'all' | 'real' | VerdictKind;
 	const SORTS: SortKey[] = ['real', 'new', 'claimed', 'price', 'price_desc', 'title'];
-	const VERDICT_FILTERS: VerdictFilter[] = ['all', 'real', 'honest', 'inflated', 'painted', 'unknown'];
+	const VERDICT_FILTERS: VerdictFilter[] = ['all', 'real', 'honest', 'inflated', 'pumped', 'painted', 'unknown'];
 	const PAGE = 24;
 
 	const initial = untrack(() => page.url.searchParams);
@@ -80,7 +80,7 @@
 
 	function matchesVerdict(kind: VerdictKind, filter: VerdictFilter): boolean {
 		if (filter === 'all') return true;
-		if (filter === 'real') return kind === 'honest' || kind === 'inflated';
+		if (filter === 'real') return isReal(kind);
 		return kind === filter;
 	}
 

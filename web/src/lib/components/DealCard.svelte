@@ -105,7 +105,7 @@
 			{/if}
 		</div>
 		{#if source && source.status !== 'ok'}<p class="source-warning"><Clock3 size={12} /> {source.status === 'warning' ? 'Данные магазина устарели' : 'Источник требует проверки'}</p>{/if}
-		{#if verdict.kind === 'inflated' || verdict.kind === 'painted'}
+		{#if verdict.kind === 'inflated' || verdict.kind === 'painted' || verdict.kind === 'pumped'}
 			<!-- Честной объяснение не нужно: плашка «−N% реально» и «обычно X» уже всё сказали. -->
 			<p class="history-verdict {verdict.kind}">{verdict.hint}</p>
 		{:else if verdict.kind === 'unknown' && historyLine}
@@ -156,7 +156,7 @@
 		border: 1px solid transparent;
 	}
 	.history-verdict.honest, .history-verdict.down { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
-	.history-verdict.inflated, .history-verdict.flat { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
+	.history-verdict.inflated, .history-verdict.pumped, .history-verdict.flat { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
 	.history-verdict.painted { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
 	details.card-history > summary { cursor: pointer; list-style: none; }
 	details.card-history > summary::-webkit-details-marker { display: none; }

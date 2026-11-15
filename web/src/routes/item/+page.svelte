@@ -52,6 +52,7 @@
 		if (!verdict) return null;
 		if (verdict.kind === 'honest') return { tone: 'good', title: 'Можно брать', text: verdict.hint };
 		if (verdict.kind === 'inflated') return { tone: 'warn', title: 'Скидка есть, но меньше заявленной', text: verdict.hint };
+		if (verdict.kind === 'pumped') return { tone: 'warn', title: 'Накрутка перед скидкой', text: verdict.hint };
 		if (verdict.kind === 'painted') return { tone: 'bad', title: 'Не спешите', text: verdict.hint + ' Реальной выгоды сейчас нет.' };
 		return { tone: 'muted', title: 'Пока рано судить', text: verdict.hint };
 	});

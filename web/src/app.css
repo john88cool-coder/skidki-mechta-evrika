@@ -1010,6 +1010,7 @@ html[data-theme='dark'] :is(a, button, input, select, summary):focus-visible { o
 .verdict-chip.md { font-size: 13px; padding: 5px 12px 5px 9px; }
 .verdict-chip.honest { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 22%, transparent); }
 .verdict-chip.inflated { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
+.verdict-chip.pumped { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
 .verdict-chip.painted { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
 .verdict-chip.unknown { background: var(--paper-2); color: var(--ink-3); border-color: var(--line); }
 .discount-pill.real { background: var(--success); color: #fff; }
@@ -1049,6 +1050,7 @@ html[data-theme='dark'] .discount-pill.real { color: #06130d; }
 .chip:disabled { opacity: 0.4; cursor: default; }
 .chip.verdict-filter.honest[aria-pressed='true'] { background: var(--success); border-color: var(--success); color: #fff; }
 .chip.verdict-filter.inflated[aria-pressed='true'] { background: var(--warn); border-color: var(--warn); color: var(--surface); }
+.chip.verdict-filter.pumped[aria-pressed='true'] { background: var(--warn); border-color: var(--warn); color: var(--surface); }
 .chip.verdict-filter.painted[aria-pressed='true'] { background: var(--bad); border-color: var(--bad); color: var(--surface); }
 html[data-theme='dark'] .chip.verdict-filter.honest[aria-pressed='true'] { color: #06130d; }
 .filters-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
@@ -1065,6 +1067,7 @@ html[data-theme='dark'] .chip.verdict-filter.honest[aria-pressed='true'] { color
 .truth-bar i { display: block; height: 100%; min-width: 4px; }
 .truth-bar i.honest, .dot.honest { background: #34d399; }
 .truth-bar i.inflated, .dot.inflated { background: #f0c060; }
+.truth-bar i.pumped, .dot.pumped { background: #f59a4a; }
 .truth-bar i.painted, .dot.painted { background: #ff7a6b; }
 .truth-bar i.unknown, .dot.unknown { background: rgba(253, 252, 250, 0.28); }
 .truth-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; padding: 0; list-style: none; }
