@@ -9,6 +9,7 @@
 	import { shopLabel, groupLabel } from '$lib/utils/format';
 	import { verdictOf, isReal, VERDICT_LABELS, type VerdictKind } from '$lib/utils/verdict';
 	import { bySortKey, SORT_LABELS, type SortKey } from '$lib/utils/sort';
+	import { brandKey, brandOptions } from '$lib/utils/brands';
 	import { Search, X, SlidersHorizontal, ArrowUpDown, Heart, ChevronDown } from '@lucide/svelte';
 
 	type VerdictFilter = 'all' | 'real' | VerdictKind;
@@ -20,7 +21,7 @@
 	let query = $state(initial.get('q') ?? '');
 	let shop = $state<string>(initial.get('shop') ?? 'all');
 	let group = $state<string>(initial.get('group') ?? 'all');
-	let brand = $state<string>(initial.get('brand') ?? 'all');
+	let brand = $state<string>(brandKey(initial.get('brand')) || 'all');
 	let minPct = $state(Math.max(0, Math.min(90, Number(initial.get('min')) || 0)));
 	let priceMax = $state<string>(initial.get('pmax') ?? 'all');
 	let inStockOnly = $state(initial.get('stock') === '1');
@@ -60,11 +61,7 @@
 
 	let shops = $derived(['all', ...new Set(dashboard.deals.map((d) => d.product.shop))]);
 	let groups = $derived(['all', ...new Set(dashboard.deals.map((d) => d.product.group ?? 'other'))]);
-	let brands = $derived.by(() => {
-		const count = new Map<string, number>();
-		for (const d of dashboard.deals) if (d.product.brand) count.set(d.product.brand, (count.get(d.product.brand) ?? 0) + 1);
-		return [...count.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'ru'));
-	});
+	let brands = $derived(brandOptions(dashboard.deals));
 	const priceBuckets = [
 		{ value: 'all', label: 'любая' },
 		{ value: '50000', label: 'до 50 тыс.' },
@@ -91,7 +88,7 @@
 		return dashboard.deals.filter((d) => {
 			if (shop !== 'all' && d.product.shop !== shop) return false;
 			if (group !== 'all' && (d.product.group ?? 'other') !== group) return false;
-			if (brand !== 'all' && (d.product.brand ?? '') !== brand) return false;
+			if (brand !== 'all' && brandKey(d.product.brand) !== brand) return false;
 			const v = verdictOf(d);
 			if ((v.real || v.claimed || 0) < minPct) return false;
 			if (d.product.price > max) return false;
@@ -187,7 +184,7 @@
 			<span class="chip-label">Бренд</span>
 			<select aria-label="Бренд" bind:value={brand}>
 				<option value="all">Все бренды</option>
-				{#each brands as [name, n] (name)}<option value={name}>{name} · {n}</option>{/each}
+				{#each brands as b (b.key)}<option value={b.key}>{b.label} · {b.count}</option>{/each}
 			</select>
 			<ChevronDown size={14} />
 		</label>

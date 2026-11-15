@@ -82,7 +82,7 @@ def _product_to_dict(p: Product, first_seen: str | None = None) -> dict:
         "price": p.price,
         "old_price": p.old_price,
         "url": p.url,
-        "brand": p.brand,
+        "brand": p.brand.strip() if p.brand and p.brand.strip() else None,
         "category": p.category,
         "group": p.group,
         "in_stock": p.in_stock,
