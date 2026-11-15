@@ -84,7 +84,9 @@ def parse(data: dict, group: str, category: str | None = None) -> list[Product]:
         price = int(price)
         old = item.get("price_old") or item.get("oldPrice")
         stocks = item.get("stocks_quantity")
-        showcase_only = bool(item.get("non_showcase"))
+        # non_showcase=True → товар доступен онлайн (не витрина).
+        # non_showcase=False → только офлайн/витрина; stocks при этом тоже 0.
+        showcase_only = not bool(item.get("non_showcase"))
         rating_raw = item.get("rating")
         rev_raw = item.get("feedbackCount")
         products.append(Product(
@@ -96,8 +98,8 @@ def parse(data: dict, group: str, category: str | None = None) -> list[Product]:
             brand=item.get("brand") or None,
             category=resolved_cat,
             old_price=int(old) if old and int(old) > price else None,
-            # Товар без информации о складе считаем доступным: сайт показывает
-            # его в каталоге; «только витрина» — прочерк наличия + stock_note.
+            # В наличии: онлайн-товар (non_showcase=True) с положительным запасом
+            # или без информации о складе; офлайн/витрина — in_stock=False.
             in_stock=bool(stocks is None or stocks > 0) and not showcase_only,
             stock_note="на витрине" if showcase_only else None,
             group=group,

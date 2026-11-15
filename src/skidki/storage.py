@@ -11,7 +11,7 @@ from __future__ import annotations
 import sqlite3
 from collections.abc import Iterable, Iterator
 from contextlib import contextmanager
-from dataclasses import dataclass
+from dataclasses import dataclass, replace as _dc_replace
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
@@ -365,7 +365,12 @@ def current_deals(
     limit: int,
     shop: str | None = None,
 ) -> list[Product]:
-    """Текущие скидки в наличии, от самых глубоких к меньшим."""
+    """Текущие скидки в наличии, от самых глубоких к меньшим.
+
+    Свежесть: берём только позиции, виденные в последнем успешном обходе
+    магазина. Без этого товары, раскупленные и исчезнувшие из выдачи API,
+    висят на витрине до prune (35 дней) — их последний отрезок ещё in_stock=1.
+    """
     rows = conn.execute(
         """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
                   p.mpn, p.rating, p.reviews_count,
@@ -376,6 +381,10 @@ def current_deals(
                ORDER BY last_seen DESC, id DESC LIMIT 1)
            WHERE s.in_stock = 1 AND s.old_price IS NOT NULL AND s.old_price > s.price
                  AND s.price >= ?
+                 AND s.last_seen >= COALESCE((
+                     SELECT started_at FROM crawls
+                     WHERE shop = p.shop AND ok = 1
+                     ORDER BY started_at DESC, id DESC LIMIT 1), '1970-01-01')
                  AND (? IS NULL OR p.shop = ?)
                  AND (s.old_price - s.price) * 100.0 / s.old_price BETWEEN ? AND ?
            ORDER BY (s.old_price - s.price) * 1.0 / s.old_price DESC
@@ -398,6 +407,8 @@ def price_drop_candidates(
 
     Грубый дешёвый фильтр на SQL; точная оценка (взвешенная медиана окна,
     глубина истории) делается потом по каждому кандидату.
+    Свежесть: как и current_deals, исключаем позиции, не виденные в последнем
+    успешном обходе — их «текущая» цена устарела.
     """
     rows = conn.execute(
         """WITH peak AS (
@@ -412,6 +423,10 @@ def price_drop_candidates(
                SELECT id FROM spans WHERE identity = p.identity
                ORDER BY last_seen DESC, id DESC LIMIT 1)
            WHERE s.in_stock = 1 AND s.price >= ?
+                 AND s.last_seen >= COALESCE((
+                     SELECT started_at FROM crawls
+                     WHERE shop = p.shop AND ok = 1
+                     ORDER BY started_at DESC, id DESC LIMIT 1), '1970-01-01')
                  AND (? IS NULL OR p.shop = ?)
                  AND (peak.peak - s.price) * 100.0 / peak.peak >= ?
            ORDER BY (peak.peak - s.price) * 1.0 / peak.peak DESC
@@ -444,7 +459,10 @@ def _product(row: sqlite3.Row) -> Product:
 
 
 def active_catalog_products(conn: sqlite3.Connection) -> list[Product]:
-    """Все актуальные позиции в наличии по последнему отрезку (для кросс-матчинга)."""
+    """Все актуальные позиции в наличии по последнему отрезку (для кросс-матчинга).
+
+    Свежесть: только позиции, виденные в последнем успешном обходе магазина.
+    """
     rows = conn.execute(
         """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
                   p.mpn, p.rating, p.reviews_count,
@@ -456,7 +474,11 @@ def active_catalog_products(conn: sqlite3.Connection) -> list[Product]:
                GROUP BY identity
            ) m ON m.identity = p.identity
            JOIN spans s ON s.id = m.max_id
-           WHERE s.in_stock = 1 AND s.price > 0"""
+           WHERE s.in_stock = 1 AND s.price > 0
+                 AND s.last_seen >= COALESCE((
+                     SELECT started_at FROM crawls
+                     WHERE shop = p.shop AND ok = 1
+                     ORDER BY started_at DESC, id DESC LIMIT 1), '1970-01-01')"""
     ).fetchall()
     return [_product(row) for row in rows]
 
@@ -528,14 +550,15 @@ def take_queue(conn: sqlite3.Connection, since: datetime) -> list[Queued]:
     """Живые находки очереди: не старше `since`, товар в наличии и не подорожал.
 
     Протухшие и потерявшие силу удаляются: карточка «скидка −30%» на товар,
-    который с тех пор подорожал или кончился, — дезинформация.
+    который с тех пор подорожал, кончился или исчез из последнего обхода, —
+    дезинформация.
     """
     conn.execute("DELETE FROM queue WHERE found_at < ?", (_iso(since),))
     rows = conn.execute(
         """SELECT q.identity, q.price AS queued_price, q.signals, q.found_at,
                   p.shop, p.title, p.brand, p.category, p.url, p.grp,
                   p.image, p.mpn, p.rating, p.reviews_count,
-                  s.price, s.old_price, s.in_stock, s.stock_note
+                  s.price, s.old_price, s.in_stock, s.stock_note, s.last_seen
            FROM queue q
            JOIN products p ON p.identity = q.identity
            JOIN spans s ON s.id = (
@@ -544,7 +567,13 @@ def take_queue(conn: sqlite3.Connection, since: datetime) -> list[Queued]:
     ).fetchall()
     alive: list[Queued] = []
     for row in rows:
-        if not row["in_stock"] or row["price"] > row["queued_price"]:
+        # Снимаем с очереди: кончился, подорожал, или не виден в последнем обходе.
+        last_ok = conn.execute(
+            "SELECT started_at FROM crawls WHERE shop = ? AND ok = 1 ORDER BY started_at DESC, id DESC LIMIT 1",
+            (row["shop"],),
+        ).fetchone()
+        stale = last_ok is not None and row["last_seen"] < last_ok["started_at"]
+        if not row["in_stock"] or row["price"] > row["queued_price"] or stale:
             dequeue(conn, row["identity"])
             continue
         alive.append(Queued(_product(row), row["signals"], _dt(row["found_at"])))
@@ -616,14 +645,18 @@ def list_watches(conn: sqlite3.Connection) -> list[WatchEntry]:
 
 
 def search_products(conn: sqlite3.Connection, query: str, limit: int = 8) -> list[Product]:
-    """Поиск актуальных позиций по всем словам запроса (регистронезависимо, включая кириллицу)."""
+    """Поиск актуальных позиций по всем словам запроса (регистронезависимо, включая кириллицу).
+
+    Свежесть: товары, не виденные в последнем успешном обходе магазина,
+    показываются с in_stock=False (не удаляются — история цены остаётся).
+    """
     tokens = [tok for tok in query.casefold().split() if tok]
     if not tokens:
         return []
     rows = conn.execute(
         """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
                   p.mpn, p.rating, p.reviews_count,
-                  s.price, s.old_price, s.in_stock, s.stock_note
+                  s.price, s.old_price, s.in_stock, s.stock_note, s.last_seen
            FROM products p
            JOIN (
                SELECT identity, MAX(id) AS max_id
@@ -634,11 +667,24 @@ def search_products(conn: sqlite3.Connection, query: str, limit: int = 8) -> lis
            WHERE s.price > 0
            ORDER BY s.in_stock DESC, s.price ASC"""
     ).fetchall()
+    # Кэш последних успешных обходов по магазинам (не делаем запрос на каждый товар).
+    last_ok_cache: dict[str, str] = {}
     matched: list[Product] = []
     for row in rows:
         haystack = f"{row['title']} {row['brand'] or ''} {row['identity']} {row['mpn'] or ''}".casefold()
         if all(tok in haystack for tok in tokens):
-            matched.append(_product(row))
+            shop = row["shop"]
+            if shop not in last_ok_cache:
+                r = conn.execute(
+                    "SELECT started_at FROM crawls WHERE shop = ? AND ok = 1 ORDER BY started_at DESC, id DESC LIMIT 1",
+                    (shop,),
+                ).fetchone()
+                last_ok_cache[shop] = r["started_at"] if r else ""
+            stale = bool(last_ok_cache[shop]) and row["last_seen"] < last_ok_cache[shop]
+            p = _product(row)
+            if stale and p.in_stock:
+                p = _dc_replace(p, in_stock=False)
+            matched.append(p)
             if len(matched) >= limit:
                 break
     return matched

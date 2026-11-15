@@ -86,6 +86,7 @@ def test_sulpak_passes_category_slug():
 
 
 def test_alser_handles_camel_case_old_price_breadcrumbs_and_showcase_note():
+    # non_showcase=True → товар доступен онлайн (не витрина).
     raw = {
         "data": {
             "breadcrumbs": [{"title": "Каталог"}, {"title": "Смартфоны"}],
@@ -110,10 +111,33 @@ def test_alser_handles_camel_case_old_price_breadcrumbs_and_showcase_note():
     got = items[0]
     assert got.old_price == 269_990
     assert got.category == "Смартфоны"
-    assert got.in_stock is False
-    assert got.stock_note == "на витрине"
+    assert got.in_stock is True      # non_showcase=True → доступен онлайн
+    assert got.stock_note is None
     assert got.rating == 5.0
     assert got.reviews_count == 12
+
+
+def test_alser_showcase_only_when_non_showcase_false():
+    # non_showcase=False → только витрина/офлайн → in_stock=False.
+    raw = {
+        "data": {
+            "products": [
+                {
+                    "sku": "9999",
+                    "title": "Телевизор тест",
+                    "price": 150000,
+                    "stocks_quantity": 0,
+                    "non_showcase": False,
+                    "link_url": "https://alser.kz/p/test-tv",
+                }
+            ]
+        }
+    }
+    items = alser.parse(raw, group="tv")
+    assert len(items) == 1
+    got = items[0]
+    assert got.in_stock is False
+    assert got.stock_note == "на витрине"
 
 
 def test_shopkz_unescapes_entities_extracts_mpn_and_blocks_bitrix_static():
