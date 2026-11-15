@@ -60,6 +60,16 @@ def main(argv: list[str] | None = None) -> int:
         metavar="N",
         help="watchdog: тревожить, если последний успешный обход старше N часов",
     )
+    parser.add_argument(
+        "--remote-url",
+        help="watchdog: URL опубликованного локального среза (data/local/latest.json)",
+    )
+    parser.add_argument(
+        "--remote-shop",
+        action="append",
+        choices=sorted(REGISTRY),
+        help="watchdog: какие магазины проверять в --remote-url (по умолчанию mechta)",
+    )
     args = parser.parse_args(argv)
 
     _configure_logging(args.verbose)
@@ -93,7 +103,13 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "watchdog":
-        if not send_watchdog(notifier, max_age_hours=args.max_age_hours, shops=args.shop):
+        if not send_watchdog(
+            notifier,
+            max_age_hours=args.max_age_hours,
+            shops=args.shop,
+            remote_url=args.remote_url,
+            remote_shops=args.remote_shop,
+        ):
             logging.info("все обходы свежи — тревоги нет")
         return 0
 

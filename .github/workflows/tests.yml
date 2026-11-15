@@ -24,3 +24,27 @@ jobs:
 
       - name: Тесты
         run: pytest -q
+
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Зависимости фронтенда
+        run: npm ci --no-audit --no-fund
+
+      - name: Юнит-тесты и проверка типов Svelte/TS
+        run: |
+          npm test
+          npm run check
+          npm run build

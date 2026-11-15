@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import httpx
 import json
 import logging
 import re
@@ -29,6 +30,7 @@ from .storage import (
     dequeue,
     enqueue,
     histories_for_shop,
+    import_prefs,
     last_alerts_for_shop,
     last_crawl_ok,
     last_spans_for_shop,
@@ -155,6 +157,27 @@ def process(
     return findings, breakages
 
 
+def sync_remote_prefs(conn: sqlite3.Connection, prefs_url: str) -> bool:
+    """Подтягивает muted + watches из опубликованного локального среза (gh-pages)."""
+    try:
+        response = httpx.get(prefs_url, timeout=10.0, follow_redirects=True)
+        if response.status_code == 404:
+            return False
+        # raise_for_status в httpx>=0.28 бросает RuntimeError на ответе без
+        # request (в тестах подставляют httpx.Response(200, json=...)), поэтому
+        # ошибочный статус проверяем явно — поведение как у HTTPStatusError.
+        if response.is_error:
+            log.warning("prefs sync: HTTP %d", response.status_code)
+            return False
+        payload = response.json()
+        if isinstance(payload, dict):
+            import_prefs(conn, payload)
+            return True
+    except Exception as exc:  # noqa: BLE001 — сеть не должна срывать обход
+        log.warning("prefs sync: %s", type(exc).__name__)
+    return False
+
+
 def run_once(
     notifier: Notifier,
     shops: Sequence[str] | None = None,
@@ -168,6 +191,8 @@ def run_once(
     rules = load_rules()
 
     with connect(db_path) as conn:
+        if config.prefs_url:
+            sync_remote_prefs(conn, config.prefs_url)
         findings, breakages = process(conn, results, rules, config.thresholds)
         # Всё найденное — в очередь ДО отправки: база коммитится даже при
         # отказе Telegram, а находки сверх лимита доживают до следующих обходов.
@@ -293,11 +318,11 @@ def send_watchdog(
     max_age_hours: float,
     shops: Sequence[str] | None = None,
     db_path: Path | None = None,
+    *,
+    remote_url: str | None = None,
+    remote_shops: Sequence[str] | None = None,
 ) -> bool:
-    """Тревога, если по какому-то магазину нет свежего успешного обхода.
-
-    Тишина в Telegram неотличима от «скидок нет» — сторож будит сам.
-    """
+    """Тревога, если по какому-то магазину (в БД или в удалённом срезе) нет свежего обхода."""
     current = now()
     stale: list[tuple[str, float | None]] = []
     with connect(db_path) as conn:
@@ -306,6 +331,31 @@ def send_watchdog(
             age = None if last is None else (current - last).total_seconds() / 3600
             if age is None or age >= max_age_hours:
                 stale.append((shop, age))
+
+    if remote_url:
+        targets = list(remote_shops or ("mechta",))
+        remote_map: dict[str, str | None] = {}
+        try:
+            resp = httpx.get(remote_url, timeout=15.0, follow_redirects=True)
+            if resp.status_code == 200:
+                data = resp.json()
+                for item in data.get("shops") or []:
+                    if isinstance(item, dict) and item.get("name"):
+                        remote_map[str(item["name"])] = item.get("last_crawl")
+        except Exception as exc:  # noqa: BLE001 — недоступность среза сама по себе повод проверить
+            log.warning("watchdog remote: %s", type(exc).__name__)
+        for shop in targets:
+            raw_ts = remote_map.get(shop)
+            age = None
+            if raw_ts:
+                dt = datetime.fromisoformat(str(raw_ts).replace("Z", "+00:00"))
+                if dt.tzinfo is None:
+                    from datetime import timezone
+                    dt = dt.replace(tzinfo=timezone.utc)
+                age = (current - dt).total_seconds() / 3600
+            if age is None or age >= max_age_hours:
+                stale.append((shop, age))
+
     if not stale:
         return False
     notifier.send(format_watchdog(stale, max_age_hours))

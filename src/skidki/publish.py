@@ -13,6 +13,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import shutil
 import subprocess
@@ -20,6 +21,7 @@ from pathlib import Path
 
 from .config import ROOT
 from .export import export_for_web
+from .storage import connect, export_prefs
 
 log = logging.getLogger("skidki.publish")
 
@@ -51,6 +53,11 @@ def publish_local(db_path: Path | None = None, attempts: int = 3) -> bool:
         if out.exists():
             shutil.rmtree(out)
         export_for_web(db_path, out)
+        with connect(db_path) as conn:
+            prefs = export_prefs(conn)
+        (out / "prefs.json").write_text(
+            json.dumps(prefs, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
         _git("add", "--all", str(TARGET), cwd=WORKTREE)
         if not _git("status", "--porcelain", str(TARGET), cwd=WORKTREE).stdout.strip():
             log.info("срез не изменился — публиковать нечего")
