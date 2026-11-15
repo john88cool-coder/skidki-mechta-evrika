@@ -27,6 +27,9 @@ class Product:
     stock_note: str | None = None
     group: str | None = None  # ключ группы уведомлений (config.GROUPS)
     image: str | None = None  # миниатюра карточки для веб-панели
+    mpn: str | None = None  # заводской партномер для межмагазинного матчинга
+    rating: float | None = None  # оценка покупателей в шкале 0.0..5.0
+    reviews_count: int | None = None  # число отзывов
 
     @property
     def identity(self) -> str:

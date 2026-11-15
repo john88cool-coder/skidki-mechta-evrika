@@ -20,16 +20,19 @@ from .models import Product
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS products (
-    identity    TEXT PRIMARY KEY,
-    shop        TEXT NOT NULL,
-    title       TEXT NOT NULL,
-    brand       TEXT,
-    category    TEXT,
-    url         TEXT NOT NULL,
-    grp         TEXT,
-    image       TEXT,
-    first_seen  TEXT NOT NULL,
-    last_seen   TEXT NOT NULL
+    identity      TEXT PRIMARY KEY,
+    shop          TEXT NOT NULL,
+    title         TEXT NOT NULL,
+    brand         TEXT,
+    category      TEXT,
+    url           TEXT NOT NULL,
+    grp           TEXT,
+    image         TEXT,
+    mpn           TEXT,
+    rating        REAL,
+    reviews_count INTEGER,
+    first_seen    TEXT NOT NULL,
+    last_seen     TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS spans (
@@ -69,6 +72,15 @@ CREATE TABLE IF NOT EXISTS queue (
 -- Группы уведомлений, выключенные владельцем (кнопки /groups).
 CREATE TABLE IF NOT EXISTS muted (
     grp  TEXT PRIMARY KEY
+);
+
+-- Пользовательские подписки на цену из Telegram (/watch).
+CREATE TABLE IF NOT EXISTS watches (
+    id         INTEGER PRIMARY KEY AUTOINCREMENT,
+    query      TEXT    NOT NULL,
+    max_price  INTEGER NOT NULL,
+    shop       TEXT,
+    created_at TEXT    NOT NULL
 );
 
 -- Итоги обходов: нужны, чтобы заметить молча сломавшийся парсер.
@@ -111,6 +123,9 @@ class Span:
     old_price: int | None = None
 
 
+_INITIALIZED_DBS: set[tuple[Path, int]] = set()
+
+
 def _migrate(conn: sqlite3.Connection) -> None:
     """Разовые миграции существующих баз."""
     columns = {row[1] for row in conn.execute("PRAGMA table_info(products)")}
@@ -118,18 +133,33 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE products ADD COLUMN grp TEXT")
     if "image" not in columns:
         conn.execute("ALTER TABLE products ADD COLUMN image TEXT")
+    if "mpn" not in columns:
+        conn.execute("ALTER TABLE products ADD COLUMN mpn TEXT")
+    if "rating" not in columns:
+        conn.execute("ALTER TABLE products ADD COLUMN rating REAL")
+    if "reviews_count" not in columns:
+        conn.execute("ALTER TABLE products ADD COLUMN reviews_count INTEGER")
 
 
 @contextmanager
 def connect(path: Path | None = None) -> Iterator[sqlite3.Connection]:
-    target = path or DB_PATH
+    target = (path or DB_PATH).resolve()
     target.parent.mkdir(parents=True, exist_ok=True)
+    existed_key: tuple[Path, int] | None = None
+    if target.exists() and target.stat().st_size > 0:
+        existed_key = (target, target.stat().st_ctime_ns)
     # timeout: слушатель бота пишет в базу, пока обход держит транзакцию.
     conn = sqlite3.connect(target, timeout=30)
     conn.row_factory = sqlite3.Row
     try:
-        conn.executescript(SCHEMA)
-        _migrate(conn)
+        conn.execute("PRAGMA journal_mode = WAL")
+        conn.execute("PRAGMA synchronous = NORMAL")
+        conn.execute("PRAGMA busy_timeout = 5000")
+        if existed_key is None or existed_key not in _INITIALIZED_DBS:
+            conn.executescript(SCHEMA)
+            _migrate(conn)
+            if target.exists():
+                _INITIALIZED_DBS.add((target, target.stat().st_ctime_ns))
         yield conn
         conn.commit()
     finally:
@@ -146,16 +176,24 @@ def save_products(
     for product in products:
         conn.execute(
             """INSERT INTO products (identity, shop, title, brand, category, url, grp, image,
-                                     first_seen, last_seen)
-               VALUES (?,?,?,?,?,?,?,?,?,?)
+                                     mpn, rating, reviews_count, first_seen, last_seen)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
                ON CONFLICT(identity) DO UPDATE SET
-                   title = excluded.title, brand = excluded.brand,
-                   category = excluded.category, url = excluded.url,
+                   title = excluded.title,
+                   brand = COALESCE(excluded.brand, products.brand),
+                   category = COALESCE(excluded.category, products.category),
+                   url = excluded.url,
                    grp = COALESCE(excluded.grp, products.grp),
                    image = COALESCE(excluded.image, products.image),
+                   mpn = COALESCE(excluded.mpn, products.mpn),
+                   rating = COALESCE(excluded.rating, products.rating),
+                   reviews_count = COALESCE(excluded.reviews_count, products.reviews_count),
                    last_seen = excluded.last_seen""",
-            (product.identity, product.shop, product.title, product.brand,
-             product.category, product.url, product.group, product.image, stamp, stamp),
+            (
+                product.identity, product.shop, product.title, product.brand,
+                product.category, product.url, product.group, product.image,
+                product.mpn, product.rating, product.reviews_count, stamp, stamp,
+            ),
         )
         last = conn.execute(
             """SELECT id, last_seen, price, in_stock FROM spans WHERE identity = ?
@@ -219,15 +257,17 @@ def current_deals(
     limit: int,
     shop: str | None = None,
 ) -> list[Product]:
-    """Самые глубокие скидки магазина по последнему наблюдению каждой позиции."""
+    """Текущие скидки в наличии, от самых глубоких к меньшим."""
     rows = conn.execute(
         """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  p.mpn, p.rating, p.reviews_count,
                   s.price, s.old_price, s.in_stock, s.stock_note
            FROM products p
            JOIN spans s ON s.id = (
                SELECT id FROM spans WHERE identity = p.identity
                ORDER BY last_seen DESC, id DESC LIMIT 1)
-           WHERE s.in_stock = 1 AND s.old_price > s.price AND s.price >= ?
+           WHERE s.in_stock = 1 AND s.old_price IS NOT NULL AND s.old_price > s.price
+                 AND s.price >= ?
                  AND (? IS NULL OR p.shop = ?)
                  AND (s.old_price - s.price) * 100.0 / s.old_price BETWEEN ? AND ?
            ORDER BY (s.old_price - s.price) * 1.0 / s.old_price DESC
@@ -256,6 +296,7 @@ def price_drop_candidates(
                SELECT identity, MAX(price) AS peak FROM spans
                WHERE in_stock = 1 AND last_seen >= ? GROUP BY identity)
            SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  p.mpn, p.rating, p.reviews_count,
                   s.price, s.old_price, s.in_stock, s.stock_note, peak.peak
            FROM products p
            JOIN peak ON peak.identity = p.identity
@@ -267,13 +308,14 @@ def price_drop_candidates(
                  AND (peak.peak - s.price) * 100.0 / peak.peak >= ?
            ORDER BY (peak.peak - s.price) * 1.0 / peak.peak DESC
            LIMIT ?""",
-        (since.isoformat(timespec="seconds"), min_price, shop, shop, min_pct, limit),
+        (_iso(since), min_price, shop, shop, min_pct, limit),
     ).fetchall()
     return [_product(row) for row in rows]
 
 
 def _product(row: sqlite3.Row) -> Product:
     """Позиция по строке products + её последнего отрезка."""
+    keys = row.keys()
     return Product(
         shop=row["shop"],
         sku=row["identity"].split(":", 1)[1],
@@ -286,7 +328,10 @@ def _product(row: sqlite3.Row) -> Product:
         in_stock=bool(row["in_stock"]),
         stock_note=row["stock_note"],
         group=row["grp"],
-        image=row["image"] if "image" in row.keys() else None,
+        image=row["image"] if "image" in keys else None,
+        mpn=row["mpn"] if "mpn" in keys else None,
+        rating=row["rating"] if "rating" in keys else None,
+        reviews_count=row["reviews_count"] if "reviews_count" in keys else None,
     )
 
 
@@ -363,6 +408,7 @@ def take_queue(conn: sqlite3.Connection, since: datetime) -> list[Queued]:
     rows = conn.execute(
         """SELECT q.identity, q.price AS queued_price, q.signals, q.found_at,
                   p.shop, p.title, p.brand, p.category, p.url, p.grp,
+                  p.image, p.mpn, p.rating, p.reviews_count,
                   s.price, s.old_price, s.in_stock, s.stock_note
            FROM queue q
            JOIN products p ON p.identity = q.identity
