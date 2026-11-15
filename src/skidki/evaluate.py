@@ -169,7 +169,20 @@ def evaluate(
     trend_days = coverage_days(trend, at)
     drop_pct = rules.drop_pct_for(product.category, thresholds.drop_pct)
     earlier_since = at - timedelta(days=thresholds.low_window_days)
-    earlier = [span for span in history(conn, product.identity, earlier_since) if span.last_seen < trend_since]
+    if preloaded_spans is None:
+        earlier = [
+            span
+            for span in history(conn, product.identity, earlier_since)
+            if span.last_seen < trend_since
+        ]
+    else:
+        # Предзагрузка за max(trend, low) дней всегда покрывает окно low:
+        # «возврат к прежнему уровню» считаем без дополнительного запроса.
+        earlier = [
+            span
+            for span in preloaded_spans
+            if trend_since > span.last_seen >= earlier_since
+        ]
     if (
         reference
         and trend_days >= thresholds.min_history_days
