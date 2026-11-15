@@ -61,3 +61,9 @@ export function buildFallbackProduct(
 		in_stock: true
 	};
 }
+
+/** Выгода от «обычной цены»: одна база на всю страницу товара. Нет базы или разница до 1% — null. */
+export function baseDelta(price: number, base: number | null | undefined): { delta: number; pct: number } | null {
+	if (!base || !Number.isFinite(base) || base <= price * 1.01) return null;
+	return { delta: base - price, pct: ((base - price) / base) * 100 };
+}

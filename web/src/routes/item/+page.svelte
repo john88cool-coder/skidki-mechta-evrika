@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { dashboard, fetchHistory } from '$lib/stores/data.svelte';
-	import { recentPrices, formatChange } from '$lib/utils/history';
+	import { recentPrices, formatChange, baseDelta } from '$lib/utils/history';
 	import PriceChart from '$lib/components/PriceChart.svelte';
 	import { formatPrice, formatDate, shopLabel } from '$lib/utils/format';
 	import { verdictOf } from '$lib/utils/verdict';
@@ -56,13 +56,8 @@
 		if (verdict.kind === 'painted') return { tone: 'bad', title: 'Не спешите', text: verdict.hint + ' Реальной выгоды сейчас нет.' };
 		return { tone: 'muted', title: 'Пока рано судить', text: verdict.hint };
 	});
-	let change = $derived.by(() => {
-		if (!history || history.history.length < 2) return null;
-		const first = history.history[0].price;
-		const last = history.history[history.history.length - 1].price;
-		if (first === last) return null;
-		return { delta: last - first, pct: ((last - first) / first) * 100 };
-	});
+	/** Выгода считается от той же «обычной цены», что и вердикт: одна база на всю страницу. */
+	let saving = $derived(history && verdict?.real ? baseDelta(history.product.price, dealForItem?.base_price) : null);
 </script>
 
 <svelte:head><title>{history?.product.title ?? 'История цены'} — skidki</title></svelte:head>
@@ -93,10 +88,10 @@
 			{#if verdict}<div style="margin-top:10px"><VerdictChip {verdict} size="md" /></div>{/if}
 			<div class="mt-3 flex flex-wrap items-baseline gap-3">
 				<span class="font-mono text-3xl font-black tracking-tight" style="color:var(--ink)">{formatPrice(history.product.price)}</span>
-				{#if change}
-					<span class="inline-flex items-center gap-1 text-sm font-semibold px-2.5 py-1 rounded-full" style="background: {change.delta < 0 ? 'var(--success-bg)' : 'var(--accent-2)'}; color:{change.delta < 0 ? 'var(--success)' : 'var(--accent)'}">
-						{#if change.delta < 0}<ArrowDown size={14} />{/if}
-						{formatPrice(Math.abs(change.delta))} ({change.pct.toFixed(1)}%)
+				{#if saving}
+					<span class="inline-flex items-center gap-1 text-sm font-semibold px-2.5 py-1 rounded-full" style="background:var(--success-bg); color:var(--success)">
+						<ArrowDown size={14} />
+						{formatPrice(saving.delta)} (−{Math.round(saving.pct)}%)
 					</span>
 				{/if}
 				{#if dealForItem?.base_price && dealForItem.base_price > history.product.price * 1.01}
@@ -122,6 +117,12 @@
 			<p class="advice-text">{advice.text}</p>
 		</section>
 	{/if}
+
+	<section class="stat-grid" style="margin-bottom:20px">
+		<div class="stat-card"><p>Обычная цена</p><p style="color:var(--ink)">{formatPrice(dealForItem?.base_price ?? history.stats.median_30d)}</p></div>
+		<div class="stat-card"><p>Минимум за 35 дней</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
+		<div class="stat-card"><p>Дней с этой ценой</p><p style="color:var(--ink)">{history.stats.days_at_current}</p></div>
+	</section>
 
 	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="text-sm font-bold tracking-tight flex items-center gap-2" style="color:var(--ink)"><TrendingDown size={14} /> История цены</h2>
@@ -155,12 +156,6 @@
 	</section>
 	{/if}
 	{/if}
-	<section class="stat-grid">
-		<div class="stat-card"><p>Минимум за 35 дней</p><p style="color:var(--success)">{formatPrice(history.stats.min_90d)}</p></div>
-		<div class="stat-card"><p>Обычная цена (медиана)</p><p style="color:var(--ink)">{formatPrice(history.stats.median_30d)}</p></div>
-		<div class="stat-card"><p>Дней с этой ценой</p><p style="color:var(--ink)">{history.stats.days_at_current}</p></div>
-		<div class="stat-card"><p>Точек наблюдения</p><p style="color:var(--ink)">{history.history.length}</p></div>
-	</section>
 {/if}
 
 <style>
