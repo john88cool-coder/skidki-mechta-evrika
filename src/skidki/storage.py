@@ -443,6 +443,24 @@ def _product(row: sqlite3.Row) -> Product:
     )
 
 
+def active_catalog_products(conn: sqlite3.Connection) -> list[Product]:
+    """Все актуальные позиции в наличии по последнему отрезку (для кросс-матчинга)."""
+    rows = conn.execute(
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  p.mpn, p.rating, p.reviews_count,
+                  s.price, s.old_price, s.in_stock, s.stock_note
+           FROM products p
+           JOIN (
+               SELECT identity, MAX(id) AS max_id
+               FROM spans
+               GROUP BY identity
+           ) m ON m.identity = p.identity
+           JOIN spans s ON s.id = m.max_id
+           WHERE s.in_stock = 1 AND s.price > 0"""
+    ).fetchall()
+    return [_product(row) for row in rows]
+
+
 def last_alert(conn: sqlite3.Connection, identity: str, since: datetime) -> int | None:
     """Цена последнего ДОСТАВЛЕННОГО алерта не старше `since`.
 
