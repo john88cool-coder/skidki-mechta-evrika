@@ -74,6 +74,11 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             continue
         base = prices.get("basePrice")
         metrics = item.get("metrics") or {}
+        rating_obj = item.get("rating") or {}
+        avg_raw = rating_obj.get("averageRating")
+        rev_raw = rating_obj.get("reviewsCount")
+        rating = round(float(avg_raw), 2) if avg_raw and float(avg_raw) > 0 else None
+        reviews_count = int(rev_raw) if rev_raw is not None else None
         # CDN mechta (pi.mdev.kz) умеет ресайз: ?w=400 даёт 17 КБ вместо 115 КБ
         # оригинала — для карточки панели и страницы товара этого достаточно.
         images = item.get("images") or []
@@ -90,6 +95,8 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             stock_note=_stock_note(item),
             group=group,
             image=f"{images[0]}?w=400" if images else None,
+            rating=rating,
+            reviews_count=reviews_count,
         ))
     return products
 

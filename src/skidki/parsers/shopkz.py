@@ -21,6 +21,7 @@ import json
 import logging
 import re
 import time
+from html import unescape
 from typing import TYPE_CHECKING
 
 from ..config import SHOPKZ_SECTIONS
@@ -55,6 +56,29 @@ def section_url(slug: str, page: int) -> str:
     return f"{base}?PAGEN_1={page}" if page > 1 else base
 
 
+_BLOCKED_URL_PARTS = (
+    "/bitrix/cache/",
+    "/bitrix/js/",
+    "/bitrix/templates/",
+    "/local/templates/",
+    "mc.yandex.ru",
+    "googletagmanager.com",
+    "google-analytics.com",
+    "connect.facebook.net",
+    "tiktok.com",
+    "mail.ru",
+)
+
+
+def _should_abort_url(url: str) -> bool:
+    if "/cdn-cgi/" in url:
+        return False
+    lowered = url.casefold()
+    if lowered.endswith((".css", ".woff", ".woff2", ".ttf")):
+        return True
+    return any(part in lowered for part in _BLOCKED_URL_PARTS)
+
+
 def parse_cards(html: str, group: str | None = None) -> list[Product]:
     """Карточки страницы: сегменты между data-product='...'.
 
@@ -65,7 +89,7 @@ def parse_cards(html: str, group: str | None = None) -> list[Product]:
     blobs = list(DATA_PRODUCT.finditer(html))
     for index, match in enumerate(blobs):
         try:
-            data = json.loads(match.group(1))
+            data = json.loads(unescape(match.group(1)))
         except json.JSONDecodeError:
             continue
         end = blobs[index + 1].start() if index + 1 < len(blobs) else len(html)
@@ -81,6 +105,7 @@ def parse_cards(html: str, group: str | None = None) -> list[Product]:
             price = _tenge(current.group(1))
         old_match = OLD_PRICE.search(segment)
         old = _tenge(old_match.group(1)) if old_match else None
+        variant = str(data.get("item_variant") or "").strip() or None
         products.append(Product(
             shop=SHOP,
             sku=str(pid),
@@ -94,6 +119,7 @@ def parse_cards(html: str, group: str | None = None) -> list[Product]:
             in_stock=data.get("dimension3") != "not available",
             group=group,
             image=data.get("image") or None,
+            mpn=variant,
         ))
     return products
 
@@ -104,8 +130,14 @@ def last_page(html: str) -> int:
     return max(pages, default=1)
 
 
-def _new_page(context: BrowserContext):
-    page = context.new_page()
+async def _new_page(context: BrowserContext) -> Page:
+    page = await context.new_page()
+    await page.route(
+        "**/*",
+        lambda route: route.abort()
+        if _should_abort_url(route.request.url)
+        else route.continue_(),
+    )
     return page
 
 

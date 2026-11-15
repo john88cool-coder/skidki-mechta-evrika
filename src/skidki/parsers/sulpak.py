@@ -81,7 +81,9 @@ def _image(block: str) -> str | None:
     return match.group(1) if match else None
 
 
-def parse_blocks(html: str, group: str | None = None) -> list[Product]:
+def parse_blocks(
+    html: str, group: str | None = None, category: str | None = None
+) -> list[Product]:
     """Карточки из HTML-блока (SSR или products из AJAX-ответа)."""
     products: list[Product] = []
     for match in CARD_BLOCK.finditer(html):
@@ -103,6 +105,7 @@ def parse_blocks(html: str, group: str | None = None) -> list[Product]:
             price=price_int,
             url=f"{BASE}{href.group(1)}",
             brand=brand_match.group(1) if brand_match else None,
+            category=category,
             old_price=old if old and old > price_int else None,
             in_stock=not OUT_OF_STOCK.search(block),
             stock_note="на витрине" if SHOWCASE.search(block) else None,
@@ -172,7 +175,7 @@ async def _crawl_category(
 ) -> list[Product]:
     """Полная выгрузка категории; товары дедуплицируются с `seen`."""
     html = await _first_page(context, class_name, timeout_ms)
-    products = new_products(parse_blocks(html, group), seen)
+    products = new_products(parse_blocks(html, group, class_name), seen)
     # Число страниц знает AJAX: запрашиваем страницу 2; paginator в ответе
     # отдаёт data-pagesCount (даже если 2 > pagesCount). SSR-листинг содержит
     # переменное число карточек (промо-слоты), по нему не судим. У категории
@@ -186,7 +189,7 @@ async def _crawl_category(
             return products
         raise
     pages = pages_count(ajax.get("paginator", "")) or 1
-    products += new_products(_dedupe(parse_blocks(ajax.get("products", ""), group)), seen)
+    products += new_products(_dedupe(parse_blocks(ajax.get("products", ""), group, class_name)), seen)
     for number in range(3, min(pages, MAX_PAGES) + 1):
         if time.monotonic() > deadline:
             raise RuntimeError(f"страница {number}: бюджет времени исчерпан")
@@ -199,7 +202,7 @@ async def _crawl_category(
                 log.info("sulpak %s: p%d 404 — листинг кончился", class_name, number)
                 break
             raise
-        products += new_products(_dedupe(parse_blocks(ajax.get("products", ""), group)), seen)
+        products += new_products(_dedupe(parse_blocks(ajax.get("products", ""), group, class_name)), seen)
     log.info("sulpak %s: %d позиций (страниц %d)", class_name, len(products), pages)
     return products
 

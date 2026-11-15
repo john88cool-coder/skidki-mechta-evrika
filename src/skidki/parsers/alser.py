@@ -68,8 +68,11 @@ def parse_categories(sitemap_xml: str) -> list[str]:
     return keywords
 
 
-def parse(data: dict, group: str) -> list[Product]:
-    payload = (data.get("data") or {})
+def parse(data: dict, group: str, category: str | None = None) -> list[Product]:
+    payload = data.get("data") or {}
+    crumbs = payload.get("breadcrumbs") or []
+    crumb_cat = crumbs[-1].get("title") if crumbs and isinstance(crumbs[-1], dict) else None
+    resolved_cat = crumb_cat or category
     products: list[Product] = []
     for item in payload.get("products") or []:
         price = item.get("price")
@@ -79,8 +82,11 @@ def parse(data: dict, group: str) -> list[Product]:
         if not (price and sku and title and link):
             continue
         price = int(price)
-        old = item.get("price_old")
+        old = item.get("price_old") or item.get("oldPrice")
         stocks = item.get("stocks_quantity")
+        showcase_only = bool(item.get("non_showcase"))
+        rating_raw = item.get("rating")
+        rev_raw = item.get("feedbackCount")
         products.append(Product(
             shop=SHOP,
             sku=str(sku),
@@ -88,12 +94,16 @@ def parse(data: dict, group: str) -> list[Product]:
             price=price,
             url=link,
             brand=item.get("brand") or None,
+            category=resolved_cat,
             old_price=int(old) if old and int(old) > price else None,
             # Товар без информации о складе считаем доступным: сайт показывает
-            # его в каталоге; «только витрина» — прочерк наличия.
-            in_stock=bool(stocks is None or stocks > 0) and not item.get("non_showcase"),
+            # его в каталоге; «только витрина» — прочерк наличия + stock_note.
+            in_stock=bool(stocks is None or stocks > 0) and not showcase_only,
+            stock_note="на витрине" if showcase_only else None,
             group=group,
             image=item.get("image") or None,
+            rating=round(float(rating_raw), 2) if rating_raw and float(rating_raw) > 0 else None,
+            reviews_count=int(rev_raw) if rev_raw is not None else None,
         ))
     return products
 
@@ -156,11 +166,11 @@ async def fetch(context: BrowserContext, config: Settings) -> list[Product]:
             pagination = (first.get("data") or {}).get("pagination") or {}
             total = int(pagination.get("total") or 0)
             if total:
-                products.extend(new_products(parse(first, group), seen))
+                products.extend(new_products(parse(first, group, keyword), seen))
             pages = min(int(pagination.get("pageCount") or 1), MAX_PAGES)
             for number in range(2, pages + 1):
                 data = await _post_page(context, keyword, number)
-                products.extend(new_products(parse(data, group), seen))
+                products.extend(new_products(parse(data, group, keyword), seen))
                 await asyncio.sleep(REQUEST_PAUSE_S)
         except Exception as exc:  # noqa: BLE001 — категория не должна ронять обход
             log.warning("alser %s: %s", keyword, exc)

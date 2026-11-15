@@ -251,6 +251,75 @@ def _ld_availability(html: str) -> dict[str, bool]:
     return availability
 
 
+_KNOWN_BRANDS: dict[str, str] = {
+    "apple": "Apple",
+    "samsung": "Samsung",
+    "xiaomi": "Xiaomi",
+    "redmi": "Xiaomi",
+    "poco": "POCO",
+    "huawei": "HUAWEI",
+    "honor": "HONOR",
+    "oppo": "OPPO",
+    "vivo": "vivo",
+    "realme": "realme",
+    "nothing": "Nothing",
+    "motorola": "Motorola",
+    "garmin": "Garmin",
+    "sony": "Sony",
+    "lg": "LG",
+    "bosch": "Bosch",
+    "dyson": "Dyson",
+    "philips": "Philips",
+    "tefal": "Tefal",
+    "braun": "Braun",
+    "delonghi": "DeLonghi",
+    "de'longhi": "DeLonghi",
+    "asus": "ASUS",
+    "lenovo": "Lenovo",
+    "acer": "Acer",
+    "hp": "HP",
+    "dell": "Dell",
+    "msi": "MSI",
+    "gigabyte": "GIGABYTE",
+    "jbl": "JBL",
+    "marshall": "Marshall",
+    "sennheiser": "Sennheiser",
+    "bose": "Bose",
+    "canon": "Canon",
+    "nikon": "Nikon",
+    "fujifilm": "Fujifilm",
+    "gopro": "GoPro",
+    "dji": "DJI",
+    "nintendo": "Nintendo",
+    "playstation": "PlayStation",
+    "xbox": "Xbox",
+    "valve": "Valve",
+    "haier": "Haier",
+    "beko": "Beko",
+    "indesit": "Indesit",
+    "gorenje": "Gorenje",
+    "electrolux": "Electrolux",
+    "whirlpool": "Whirlpool",
+    "hisense": "Hisense",
+    "tcl": "TCL",
+    "midea": "Midea",
+    "karcher": "Karcher",
+    "polaris": "Polaris",
+    "redmond": "Redmond",
+    "logitech": "Logitech",
+    "razer": "Razer",
+    "hyperx": "HyperX",
+}
+
+
+def _infer_brand(title: str) -> str | None:
+    for raw_token in re.split(r"[\s,/()\"«»]+", title):
+        key = raw_token.casefold().strip("-")
+        if key in _KNOWN_BRANDS:
+            return _KNOWN_BRANDS[key]
+    return None
+
+
 def parse_page(
     html: str, group: str | None = None, category: str | None = None
 ) -> tuple[list[Product], int]:
@@ -276,6 +345,7 @@ def parse_page(
         if not price:
             continue
         old = OLD_PRICE.search(chunk)
+        old_val = _price(old.group(1)) if old else None
         image = CARD_IMAGE.search(chunk)
         title = " ".join(re.sub(r"<[^>]+>", " ", anchor.group(3)).split())
         products.append(Product(
@@ -284,8 +354,9 @@ def parse_page(
             title=title,
             price=price,
             url=f"{BASE}{anchor.group(1)}",
+            brand=_infer_brand(title),
             category=category,
-            old_price=_price(old.group(1)) if old else None,
+            old_price=old_val if old_val and old_val > price else None,
             in_stock=in_stock.get(anchor.group(2), True),
             group=group,
             image=image.group(1) if image else None,

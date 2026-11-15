@@ -52,6 +52,26 @@ def api_url(slug: str, page: int) -> str:
     )
 
 
+def _normalize_rating(raw: object) -> float | None:
+    if raw is None or raw == "":
+        return None
+    val = float(raw)
+    if val <= 0:
+        return None
+    # API technodom отдаёт рейтинг в шкале 0..100 (например 98 -> 4.9).
+    if val > 5.0:
+        val = val / 20.0
+    return round(min(val, 5.0), 2)
+
+
+def _stock_note(item: dict) -> str | None:
+    if item.get("is_preorder"):
+        return "предзаказ"
+    if item.get("showcase"):
+        return "на витрине"
+    return None
+
+
 def parse(data: dict, group: str | None = None) -> list[Product]:
     products: list[Product] = []
     for item in data.get("payload") or []:
@@ -64,6 +84,7 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
         price = int(price)
         old = item.get("old_price")
         images = item.get("images") or []
+        rev_raw = item.get("reviews")
         products.append(Product(
             shop=SHOP,
             sku=str(sku),
@@ -73,8 +94,11 @@ def parse(data: dict, group: str | None = None) -> list[Product]:
             brand=item.get("brand") or None,
             category=item.get("categories_ru")[-1] if item.get("categories_ru") else None,
             old_price=int(old) if old and int(old) > price else None,
+            stock_note=_stock_note(item),
             group=group,
             image=f"https://api.technodom.kz/f3/api/v1/images/{images[0]}.webp" if images else None,
+            rating=_normalize_rating(item.get("rating")),
+            reviews_count=int(rev_raw) if rev_raw is not None else None,
         ))
     return products
 
@@ -109,6 +133,7 @@ async def fetch(context: BrowserContext, config: Settings) -> list[Product]:
     errors: list[str] = []
     for root, group in TECHNODOM_ROOTS.items():
         try:
+            before = len(products)
             first = await _get(context, api_url(root, 1))
             total = int(first.get("total") or 0)
             pages = min((total + LIMIT - 1) // LIMIT or 1, MAX_PAGES)
@@ -117,7 +142,7 @@ async def fetch(context: BrowserContext, config: Settings) -> list[Product]:
                 data = await _get(context, api_url(root, number))
                 products.extend(new_products(parse(data, group), seen))
                 await asyncio.sleep(REQUEST_PAUSE_S)
-            log.info("technodom %s: %d позиций (total=%d)", root, len(products), total)
+            log.info("technodom %s: %d позиций (total=%d)", root, len(products) - before, total)
         except Exception as exc:  # noqa: BLE001 — ветка не должна ронять весь магазин
             log.warning("technodom %s: %s", root, exc)
             errors.append(root)
