@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:32:40.084883+00:00",
+  "updated_at": "2026-11-15T23:12:13.964823+00:00",
   "deals": [
     {
       "product": {
@@ -419,7 +419,7 @@
         "shop": "alser",
         "sku": "1464220",
         "title": "Наушники беспроводные Huawei FreeClip2, голубой",
-        "price": 74492,
+        "price": 74359,
         "old_price": 99990,
         "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-goluboj",
         "brand": "Xiaomi",
@@ -450,7 +450,7 @@
         "shop": "alser",
         "sku": "1464218",
         "title": "Наушники беспроводные Huawei FreeClip2, черный",
-        "price": 76296,
+        "price": 76088,
         "old_price": 99990,
         "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-cernyj",
         "brand": "Huawei",
@@ -1571,6 +1571,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "623239",
+        "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
+        "price": 19297,
+        "old_price": 51990,
+        "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
+        "brand": "HyperX",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2467_3_2_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 19297,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "281026",
         "title": "Кухонная машина Tefal Bake Partner QB522838",
@@ -2552,7 +2583,7 @@
       "signal": "deal",
       "drop_pct": 56,
       "fair_discount": 0.0,
-      "base_price": 8990,
+      "base_price": 10990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -3172,7 +3203,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 117289,
+      "base_price": 117288,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -3731,7 +3762,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "base_price": 59990,
+      "base_price": 72990,
       "pump_price": null,
       "value_score": 41,
       "is_pick": false,
@@ -4052,37 +4083,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "654089",
-        "title": "Ручной отпариватель Tefal DT1R04F1",
-        "price": 16990,
-        "old_price": 33990,
-        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1r04f1",
-        "brand": "Tefal",
-        "category": "otparivateli",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_310_0_1_QK8KH8_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 16990,
-      "pump_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "7184",
         "title": "Блендер Moulinex LM420110",
@@ -4103,7 +4103,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 18990,
+      "base_price": 22990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -4550,28 +4550,28 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "622142",
-        "title": "Наушники ARG F6 Black",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
-        "brand": "ARG",
-        "category": "naushniki",
-        "group": "phones",
+        "sku": "654089",
+        "title": "Ручной отпариватель Tefal DT1R04F1",
+        "price": 16990,
+        "old_price": 33990,
+        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1r04f1",
+        "brand": "Tefal",
+        "category": "otparivateli",
+        "group": "home",
         "in_stock": true,
         "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_310_0_1_QK8KH8_160.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-09-25T08:14:54+00:00"
       },
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 19990,
+      "base_price": 16990,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4771,37 +4771,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "651384",
-        "title": "Смартфон Huawei Nova 15 12/256GB White",
-        "price": 164890,
-        "old_price": 249890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-white",
-        "brand": "HUAWEI",
-        "category": "smartfoniy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12164_0_6_hi5PQf_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 27.6,
-      "base_price": 227623,
-      "pump_price": null,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "638976",
         "title": "Встраиваемый духовый шкаф Electrolux LOE8H39Z",
         "price": 399990,
@@ -4923,37 +4892,6 @@
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651643",
-        "title": "Кофеварка Delonghi EC9555.M",
-        "price": 449990,
-        "old_price": 599990,
-        "url": "https://www.sulpak.kz/g/kofevarki-delonghi-ec9555m",
-        "brand": "Delonghi",
-        "category": "kofevarki_espresso",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_932_287_0_1_7pPJVI_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.0,
-      "base_price": 599990,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
       ],
       "inflated_gap": 0.0
     },
@@ -5430,38 +5368,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "630958",
-        "title": "Смарт часы Xiaomi Watch S4 Rainbow M2425W1",
-        "price": 69990,
-        "old_price": 86990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-xiaomi-watch-s4-rainbow",
-        "brand": "Xiaomi",
-        "category": "smart_chasiy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1594_0_2_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 19.5,
-      "base_price": 86990,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "289295",
         "title": "Смартфон Samsung Galaxy A36 8/256GB Awesome Lavender",
@@ -5586,69 +5492,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650353",
-        "title": "QLED телевизор Dreame 75Q100",
-        "price": 498990,
-        "old_price": 689990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-75-vivid-qled-4k-tv-75q100",
-        "brand": "Dreame",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20786_0_6_60WEKn_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 16.8,
-      "base_price": 599990,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650352",
-        "title": "Mini LED телевизор Dreame 86&quot; Aura 86S100",
-        "price": 949990,
-        "old_price": 1389990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-86-aura-mini-led-4k-tv-86s100",
-        "brand": "Dreame",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20785_0_6_Mdzh3D_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 16.7,
-      "base_price": 1139991,
-      "pump_price": null,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.3
     },
     {
       "product": {
@@ -6284,37 +6127,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "650358",
-        "title": "Mini LED телевизор Dreame 55&quot; Aura 55S100",
-        "price": 349990,
-        "old_price": 499990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-aura-mini-led-4k-tv-55s100",
-        "brand": "Dreame",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20791_0_6_nnq0PC_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 11.4,
-      "base_price": 394990,
-      "pump_price": null,
-      "value_score": 38,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 18.6
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1623802",
         "title": "Bluetooth гарнитура A4Tech Bloody MR590 Sports Black",
@@ -6587,37 +6399,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "637200",
-        "title": "Робот-пылесос Dreame D20 Pro Black",
-        "price": 89990,
-        "old_price": 142990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-d20-pro-black",
-        "brand": "Dreame",
-        "category": "robotiy_piylesosiy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_247_0_1_0CZnxl_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 10.0,
-      "base_price": 99990,
-      "pump_price": null,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "636368",
         "title": "Робот-пылесос Roborock Saros 10R Черный S91COP",
         "price": 490490,
@@ -6643,37 +6424,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 8.8
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651383",
-        "title": "Смартфон Huawei Nova 15 12/256GB Green",
-        "price": 164890,
-        "old_price": 249890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-green",
-        "brand": "HUAWEI",
-        "category": "smartfoniy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12163_0_6_5cpUVa_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 8.4,
-      "base_price": 179990,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.6
     },
     {
       "product": {
@@ -6718,8 +6468,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-15T17:32:16+00:00",
-      "item_count": 2746,
+      "last_crawl": "2026-11-15T23:11:51+00:00",
+      "item_count": 2744,
       "status": "ok"
     },
     {
@@ -6732,28 +6482,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-15T17:32:16+00:00",
-      "item_count": 3819,
+      "last_crawl": "2026-11-15T23:11:51+00:00",
+      "item_count": 3879,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-15T17:32:16+00:00",
+      "last_crawl": "2026-11-15T23:11:51+00:00",
       "item_count": 9952,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-15T17:32:16+00:00",
-      "item_count": 2440,
+      "last_crawl": "2026-11-15T23:11:51+00:00",
+      "item_count": 2437,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31538,
-    "total_deals": 219,
-    "avg_discount": 35.0
+    "total_products": 31593,
+    "total_deals": 211,
+    "avg_discount": 50.0
   }
 }
