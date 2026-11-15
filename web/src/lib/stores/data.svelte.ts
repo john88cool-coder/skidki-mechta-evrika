@@ -1,6 +1,6 @@
 import { base } from '$app/paths';
 import type { DashboardData, Product, PricePoint, ProductHistory } from '$lib/types';
-import { mergeSnapshots, withFreshness } from '$lib/utils/merge';
+import { mergeSnapshots, withFreshness, freshnessOf } from '$lib/utils/merge';
 import { buildFallbackProduct, computeDaysAtCurrent } from '$lib/utils/history';
 import { getSnapshot } from '$lib/utils/snapshots';
 
@@ -42,6 +42,11 @@ class DashboardStore {
 
 	get stats() {
 		return this.data?.stats ?? { total_products: 0, total_deals: 0, avg_discount: 0 };
+	}
+
+	/** Свежесть — по самому старому магазину (см. freshnessOf). */
+	get freshness() {
+		return freshnessOf(this.shops);
 	}
 
 	async refresh(): Promise<void> {

@@ -1,4 +1,4 @@
-import type { DashboardData } from '../types';
+import type { DashboardData, ShopStatus } from '../types';
 
 function median(values: number[]): number {
 	if (!values.length) return 0;
@@ -56,4 +56,21 @@ export function withFreshness(data: DashboardData, now = Date.now(), staleAfterM
 				: s
 		)
 	};
+}
+
+export interface Freshness {
+	/** Самый давний успешный обход среди магазинов — по нему судим о свежести панели. */
+	oldest: string | null;
+	newest: string | null;
+	stale: boolean;
+}
+
+/** Свежесть панели — по самому старому магазину: один свежий срез не делает свежими остальные. */
+export function freshnessOf(shops: Pick<ShopStatus, 'last_crawl'>[], now = Date.now(), staleAfterMs = 6 * 3600_000): Freshness {
+	const times = shops
+		.map((s) => s.last_crawl)
+		.filter((t): t is string => !!t && Number.isFinite(Date.parse(t)))
+		.sort((a, b) => Date.parse(a) - Date.parse(b));
+	if (!times.length) return { oldest: null, newest: null, stale: true };
+	return { oldest: times[0], newest: times[times.length - 1], stale: now - Date.parse(times[0]) > staleAfterMs };
 }

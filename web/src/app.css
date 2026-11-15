@@ -174,6 +174,7 @@ button:disabled { opacity: 0.45; cursor: wait; }
 }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.55} }
 .freshness strong { color: var(--ink-2); font-weight: 600; }
+.freshness-dot.stale { background: var(--warn); box-shadow: none; animation: none; }
 .icon-btn {
 	width: 36px; height: 36px;
 	border-radius: 999px;

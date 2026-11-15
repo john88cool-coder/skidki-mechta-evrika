@@ -70,8 +70,8 @@
 		copied = true;
 		setTimeout(() => (copied = false), 1600);
 	}
-	let updatedAt = $derived(dashboard.data?.updated_at ?? null);
-	let stale = $derived(updatedAt ? Date.now() - new Date(updatedAt).getTime() > 6 * 3600_000 : true);
+	let updatedAt = $derived(dashboard.freshness.oldest);
+	let stale = $derived(dashboard.freshness.stale);
 </script>
 
 <svelte:head>
@@ -104,7 +104,7 @@
 	<div class="hero-card">
 		<div class="hero-card-head">
 			<h3>Лучшее реальное снижение</h3>
-			{#if updatedAt}<span class="live-dot" class:stale title="Время последнего среза">{timeAgo(updatedAt)}</span>{/if}
+			{#if updatedAt}<span class="live-dot" class:stale title="Самый давний обход среди магазинов">{timeAgo(updatedAt)}</span>{/if}
 		</div>
 		{#if best && featured}
 			<a class="featured-title" href="{base}/item?shop={encodeURIComponent(best.product.shop)}&sku={encodeURIComponent(best.product.sku)}">

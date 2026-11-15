@@ -19,6 +19,11 @@
 		{ href: `${base}/shops`, label: 'Магазины', icon: Activity },
 		{ href: `${base}/favorites`, label: 'Избранное', icon: Heart, badge: () => favorites.count }
 	];
+	let freshTitle = $derived(
+		dashboard.freshness.newest
+			? `Время самого давнего обхода среди магазинов. Самый свежий — ${timeAgo(dashboard.freshness.newest)}.`
+			: ''
+	);
 	function active(href: string) {
 		return href === `${base}/` ? page.url.pathname === href : page.url.pathname.startsWith(href);
 	}
@@ -44,12 +49,12 @@
 
 		<div class="header-actions">
 			<button class="icon-btn hidden sm:grid" onclick={() => onsearch?.()} aria-label="Поиск (⌘K)" title="Поиск ⌘K"><Search size={15} /></button>
-			<div class="freshness hidden lg:flex">
-				<span class="freshness-dot" aria-hidden="true"></span>
-				{#if dashboard.updatedAt}
-					<span>обновлено <strong>{timeAgo(dashboard.updatedAt.toISOString())}</strong></span>
+			<div class="freshness hidden lg:flex" title={freshTitle}>
+				<span class="freshness-dot" class:stale={dashboard.freshness.stale} aria-hidden="true"></span>
+				{#if dashboard.freshness.oldest}
+					<span>обновлено <strong>{timeAgo(dashboard.freshness.oldest)}</strong></span>
 				{:else}
-					<span>загрузка…</span>
+					<span>{dashboard.loading ? 'загрузка…' : 'нет данных'}</span>
 				{/if}
 			</div>
 			<button class="icon-btn" onclick={() => dashboard.refresh()} disabled={dashboard.loading} aria-label="Обновить данные" title="Обновить">
