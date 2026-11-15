@@ -348,11 +348,15 @@ def send_watchdog(
             raw_ts = remote_map.get(shop)
             age = None
             if raw_ts:
-                dt = datetime.fromisoformat(str(raw_ts).replace("Z", "+00:00"))
-                if dt.tzinfo is None:
-                    from datetime import timezone
-                    dt = dt.replace(tzinfo=timezone.utc)
-                age = (current - dt).total_seconds() / 3600
+                try:
+                    dt = datetime.fromisoformat(str(raw_ts).replace("Z", "+00:00"))
+                    if dt.tzinfo is None:
+                        from datetime import timezone
+                        dt = dt.replace(tzinfo=timezone.utc)
+                    age = (current - dt).total_seconds() / 3600
+                except Exception as exc:  # noqa: BLE001 — мусор в срезе не должен валить сторожа
+                    log.warning("watchdog remote: %s", type(exc).__name__)
+                    age = None
             if age is None or age >= max_age_hours:
                 stale.append((shop, age))
 

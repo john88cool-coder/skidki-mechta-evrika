@@ -44,8 +44,9 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: >
-          skidki watchdog --max-age-hours 6
-          --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser
-          --remote-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/data/local/latest.json"
-          --remote-shop mechta
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          skidki watchdog --max-age-hours 6 \
+            --shop evrika --shop shopkz --shop sulpak --shop technodom --shop alser \
+            --remote-url "https://${{ github.repository_owner }}.github.io/${REPO_NAME}/data/local/latest.json" \
+            --remote-shop mechta
