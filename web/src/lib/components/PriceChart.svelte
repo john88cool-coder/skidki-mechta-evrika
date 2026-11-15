@@ -1,5 +1,6 @@
 <script lang="ts">
-	import * as echarts from 'echarts';
+	import type { EChartsOption } from 'echarts';
+	import type { EChartsType } from 'echarts/core';
 	import { theme } from '$lib/stores/theme.svelte';
 	import { formatPrice } from '$lib/utils/format';
 	import type { PricePoint } from '$lib/types';
@@ -11,18 +12,49 @@
 	}
 	let { data = [], height = 200, labelFormatter }: Props = $props();
 	let chartEl: HTMLDivElement | undefined = $state();
-	let chart: echarts.ECharts | undefined;
+	let chart: EChartsType | undefined;
 
-	function buildOption(): echarts.EChartsOption {
-		const dark = theme.current === 'dark';
-		const labels = data.map((p) => (labelFormatter ? labelFormatter(p.date) : p.date));
-		const prices = data.map((p) => p.price);
+	type GradientCtor = typeof import('echarts/core').graphic.LinearGradient;
+	type EChartsRuntime = {
+		init: typeof import('echarts/core').init;
+		LinearGradient: GradientCtor;
+	};
+
+	let runtimePromise: Promise<EChartsRuntime> | null = null;
+
+	function loadECharts(): Promise<EChartsRuntime> {
+		if (!runtimePromise) {
+			runtimePromise = Promise.all([
+				import('echarts/core'),
+				import('echarts/charts'),
+				import('echarts/components'),
+				import('echarts/renderers')
+			]).then(([core, charts, components, renderers]) => {
+				core.use([
+					charts.LineChart,
+					components.GridComponent,
+					components.TooltipComponent,
+					components.LegendComponent,
+					components.MarkLineComponent,
+					renderers.CanvasRenderer
+				]);
+				return { init: core.init, LinearGradient: core.graphic.LinearGradient };
+			});
+		}
+		return runtimePromise;
+	}
+
+	function buildOption(
+		LinearGradient: GradientCtor,
+		dark: boolean,
+		points: PricePoint[],
+		fmt?: (label: string) => string
+	): EChartsOption {
+		const labels = points.map((p) => (fmt ? fmt(p.date) : p.date));
+		const prices = points.map((p) => p.price);
 		const lowest = prices.length ? Math.min(...prices) : 0;
-		// Зачёркнутая цена магазина — вторая линия: на ней видно, как «скидку»
-		// рисуют от растущей старой цены при неподвижной реальной.
-		const olds = data.map((p) => (p.old_price && p.old_price > p.price ? p.old_price : null));
+		const olds = points.map((p) => (p.old_price && p.old_price > p.price ? p.old_price : null));
 		const hasOld = olds.some((v) => v !== null);
-		// Ровная цена давала ось 20k…80k и линию-ниточку: держим запас ±12%.
 		const all = [...prices, ...(olds.filter((v) => v !== null) as number[])];
 		const hi = all.length ? Math.max(...all) : 0;
 		const lo = all.length ? Math.min(...all) : 0;
@@ -58,7 +90,7 @@
 					type: 'line',
 					data: prices,
 					step: 'end',
-					showSymbol: data.length <= 60,
+					showSymbol: points.length <= 60,
 					symbol: 'circle',
 					symbolSize: 4,
 					lineStyle: { color: accent, width: 2.2 },
@@ -71,23 +103,25 @@
 						data: [{ yAxis: lowest }]
 					},
 					areaStyle: {
-						color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+						color: new LinearGradient(0, 0, 0, 1, [
 							{ offset: 0, color: dark ? 'rgba(255,91,54,0.18)' : 'rgba(255,59,31,0.12)' },
 							{ offset: 1, color: 'rgba(255,59,31,0)' }
 						])
 					}
 				},
 				...(hasOld
-					? [{
-						name: 'На ценнике',
-						type: 'line' as const,
-						data: olds,
-						step: 'end' as const,
-						showSymbol: false,
-						connectNulls: false,
-						lineStyle: { color: ink, width: 1.4, type: 'dashed' as const, opacity: 0.8 },
-						itemStyle: { color: ink }
-					}]
+					? [
+							{
+								name: 'На ценнике',
+								type: 'line' as const,
+								data: olds,
+								step: 'end' as const,
+								showSymbol: false,
+								connectNulls: false,
+								lineStyle: { color: ink, width: 1.4, type: 'dashed' as const, opacity: 0.8 },
+								itemStyle: { color: ink }
+							}
+						]
 					: [])
 			],
 			tooltip: {
@@ -98,7 +132,7 @@
 				padding: [8, 10],
 				textStyle: { color: dark ? '#eef4f0' : '#0e1a15', fontSize: 12 },
 				formatter: (params: unknown) => {
-					const list = (Array.isArray(params) ? params : [params]) as any[];
+					const list = (Array.isArray(params) ? params : [params]) as Array<{ name?: string; seriesName?: string; value?: number | null }>;
 					const rows = list
 						.filter((p) => p.value != null)
 						.map((p) => `${p.seriesName === 'На ценнике' ? 'на ценнике ' : ''}<b>${formatPrice(p.value as number)}</b>`);
@@ -109,20 +143,31 @@
 	}
 
 	$effect(() => {
-		if (!chartEl) return;
-		chart = chart ?? echarts.init(chartEl);
-		chart.setOption(buildOption(), true);
+		const el = chartEl;
+		const dark = theme.current === 'dark';
+		const points = data;
+		const fmt = labelFormatter;
+		if (!el) return;
+		let cancelled = false;
+		void loadECharts().then((rt) => {
+			if (cancelled || !el.isConnected) return;
+			chart = chart ?? rt.init(el);
+			chart.setOption(buildOption(rt.LinearGradient, dark, points, fmt), true);
+		});
+		return () => {
+			cancelled = true;
+		};
 	});
+
 	$effect(() => {
-		// Rebuild on theme toggle
-		void theme.current;
-		if (chart) chart.setOption(buildOption(), true);
-	});
-	$effect(() => {
-		if (!chartEl) return;
+		const el = chartEl;
+		if (!el) return;
+		const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(() => chart?.resize()) : null;
+		ro?.observe(el);
 		const onResize = () => chart?.resize();
 		window.addEventListener('resize', onResize);
 		return () => {
+			ro?.disconnect();
 			window.removeEventListener('resize', onResize);
 			chart?.dispose();
 			chart = undefined;
