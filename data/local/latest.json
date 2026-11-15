@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T15:21:05.609668+00:00",
+  "updated_at": "2026-11-15T17:21:26.180405+00:00",
   "deals": [
     {
       "product": {
@@ -1303,7 +1303,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 22990,
-      "value_score": 29,
+      "value_score": 24,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1450,34 +1450,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026339",
-        "title": "Триммер для бороды ROWENTA TN 1851E0 (DS)",
-        "price": 34990,
-        "old_price": 57990,
-        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-rowenta-tn-1851e0-ds/",
-        "brand": "Rowenta",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/90590ef7-6af0-4cf9-b07e-642677e3b4f2?w=400",
-        "first_seen": "2026-11-03T11:21:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 39.7,
-      "base_price": 57990,
-      "value_score": 88,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -1736,8 +1708,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-15T15:20:55+00:00",
-      "item_count": 7912,
+      "last_crawl": "2026-11-15T17:21:13+00:00",
+      "item_count": 7910,
       "status": "ok"
     },
     {
@@ -1777,8 +1749,8 @@
     }
   ],
   "stats": {
-    "total_products": 7912,
-    "total_deals": 63,
-    "avg_discount": 63
+    "total_products": 7910,
+    "total_deals": 62,
+    "avg_discount": 63.5
   }
 }
