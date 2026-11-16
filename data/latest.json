@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T23:12:13.964823+00:00",
+  "updated_at": "2026-11-16T06:56:16.818041+00:00",
   "deals": [
     {
       "product": {
@@ -92,6 +92,38 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654267",
+        "title": "Проводной вертикальный пылесос Dreame DF10 PRO",
+        "price": 39990,
+        "old_price": 68990,
+        "url": "https://www.sulpak.kz/g/piylesosiy-dreame-df10-pro",
+        "brand": "Dreame",
+        "category": "piylesosiy",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1285_0_1_oggK4P_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 42,
+      "fair_discount": 42.0,
+      "base_price": 68990,
+      "pump_price": null,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -388,6 +420,37 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1464220",
+        "title": "Наушники беспроводные Huawei FreeClip2, голубой",
+        "price": 74226,
+        "old_price": 99990,
+        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-goluboj",
+        "brand": "Xiaomi",
+        "category": "Huawei",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/E4VgDivRx/nausniki-besprovodnye-huawei-freeclip2-goluboj-w160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-11-11T18:14:24+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 26,
+      "fair_discount": null,
+      "base_price": null,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1444639",
         "title": "Наушники HUAWEI FreeBuds 6i Black",
         "price": 34889,
@@ -417,40 +480,9 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1464220",
-        "title": "Наушники беспроводные Huawei FreeClip2, голубой",
-        "price": 74359,
-        "old_price": 99990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-goluboj",
-        "brand": "Xiaomi",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/E4VgDivRx/nausniki-besprovodnye-huawei-freeclip2-goluboj-w160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 26,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1464218",
         "title": "Наушники беспроводные Huawei FreeClip2, черный",
-        "price": 76088,
+        "price": 75835,
         "old_price": 99990,
         "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-cernyj",
         "brand": "Huawei",
@@ -470,35 +502,6 @@
       "base_price": null,
       "pump_price": null,
       "value_score": 43,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1464219",
-        "title": "Наушники беспроводные Huawei FreeClip2, белый",
-        "price": 76990,
-        "old_price": 99990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-belyj",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/bxONeuNx0/nausniki-besprovodnye-huawei-freeclip2-belyj-w160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 23,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 41,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -810,6 +813,35 @@
         "mpn": null,
         "rating": 5.0,
         "reviews_count": 12,
+        "first_seen": "2026-11-11T18:14:24+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 20,
+      "fair_discount": null,
+      "base_price": null,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1464219",
+        "title": "Наушники беспроводные Huawei FreeClip2, белый",
+        "price": 79890,
+        "old_price": 99990,
+        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-belyj",
+        "brand": "Huawei",
+        "category": "Huawei",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/bxONeuNx0/nausniki-besprovodnye-huawei-freeclip2-belyj-w160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
         "first_seen": "2026-11-11T18:14:24+00:00"
       },
       "signal": "deal",
@@ -1594,37 +1626,6 @@
       "base_price": 19297,
       "pump_price": null,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "281026",
-        "title": "Кухонная машина Tefal Bake Partner QB522838",
-        "price": 105990,
-        "old_price": 289990,
-        "url": "https://www.technodom.kz/p/kuhonnaya-mashina-tefal-bake-partner-qb-522838",
-        "brand": "Tefal",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://api.technodom.kz/f3/api/v1/images/281026_1zz.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 105990,
-      "pump_price": null,
-      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2771,7 +2772,7 @@
       "fair_discount": 0.0,
       "base_price": 24990,
       "pump_price": null,
-      "value_score": 35,
+      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3186,7 +3187,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116985,
+        "price": 116983,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -3203,7 +3204,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 117288,
+      "base_price": 117287,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -3804,37 +3805,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "633168",
-        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 165987,
-        "old_price": 341990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
-        "brand": "HUAWEI",
-        "category": "smart_chasiy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 51,
-      "fair_discount": 0.0,
-      "base_price": 181682,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 51.0
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1728557",
         "title": "Кофеварка Kitfort KT-731, Black-Steel (SN:2301500683)",
@@ -4333,6 +4303,37 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1728650",
+        "title": "Обогреватель Timberk T-EC2000-X2M, White (SN:HE05901050810)",
+        "price": 18990,
+        "old_price": 37990,
+        "url": "https://shop.kz/offer/obogrevatel-timberk-t-ec2000-x2m-white-sn-he05901050810/",
+        "brand": "Timberk",
+        "category": "Обогреватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://static.shop.kz/upload/iblock/07b/fqpxq9269urj3xtxz5nsagxxfp637u7o/174354o1.jpg",
+        "mpn": "T-EC2000-X2M",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-25T11:57:16+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 18990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "1728605",
         "title": "Самовар Centek CT-0092 B, Black-Gold (SN:G23040092001234)",
         "price": 20990,
@@ -4385,7 +4386,7 @@
       "fair_discount": 0.0,
       "base_price": 39990,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4416,7 +4417,7 @@
       "fair_discount": 0.0,
       "base_price": 39990,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4612,6 +4613,39 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650699",
+        "title": "Ноутбук Lenovo LOQ 15ARP10E Ryzen 5 16GB / SSD 512GB / GeForce RTX 3050 6GB / NO OS / 83S000BNRK",
+        "price": 460990,
+        "old_price": 509990,
+        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-loq-15arp10e-83s000bnrk-r5165sg35n",
+        "brand": "Lenovo",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9521_0_6_bZ8eAE_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 36.8,
+      "base_price": 729990,
+      "pump_price": null,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -26.8
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "291868",
         "title": "Смартфон Galaxy Z Fold7 5G 12/512Gb Silver shadow",
@@ -4667,12 +4701,43 @@
       "fair_discount": 28.7,
       "base_price": 21190,
       "pump_price": null,
-      "value_score": 74,
+      "value_score": 69,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "46702",
+        "title": "Аэрогриль Dreame Air Fryer AF30 White",
+        "price": 49990,
+        "old_price": 81990,
+        "url": "https://evrika.com/catalog/aerogril-dreame-air-fryer-af30-white/p46702",
+        "brand": null,
+        "category": "Грили",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/4uQxovTN2XQaBT6fiEyqaARpsEW4H98n2PCgWnTZ.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 28.6,
+      "base_price": 69990,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.4
     },
     {
       "product": {
@@ -4739,6 +4804,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "3000022440",
+        "title": "Моноблок 27&quot; XG Atlas GL70",
+        "price": 175608,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/monobloki-xg-437-342",
+        "brand": "XG",
+        "category": "monobloki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_437_342_0_2_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 28.3,
+      "base_price": 245000,
+      "pump_price": null,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1411059",
         "title": "Робот-пылесос Ardesto RVC-S1300W, White",
@@ -4761,12 +4857,167 @@
       "fair_discount": 27.8,
       "base_price": 89990,
       "pump_price": null,
-      "value_score": 72,
+      "value_score": 68,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
       "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44597",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Черная (YNDX-00030BLK)",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-chernaya-yndx-00030blk/p44597",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/F0bsJQqXzFiHi7bBipbdy54YDoUVf7vJL64DwJ9G.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "pump_price": null,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44598",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Зеленая (YNDX-00030GRN)",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-zelenaya-yndx-00030grn/p44598",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/w08YKl6VvPrH7bAdzW2johnGsS5zTp7GRJzxopWU.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "pump_price": null,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45000",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Серая (YNDX-00030GRY)",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-seraya-yndx-00030gry/p45000",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/uUDb91dye3NXl6yQOroQqGYs2Tyskhjifqc74gQG.webp.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "pump_price": null,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45001",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Фиолетовая (YNDX-00030VIO)",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-fioletovaya-yndx-00030vio/p45001",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/V7s36DvMTYp4W7QKM9GUBpfORaZIapsFtlkfXPyZ.webp.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "pump_price": null,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47849",
+        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой Оранжевая (YNDX-00030ORG)",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://evrika.com/catalog/portativnaya-umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-oranzhevaya-yndx-00030org/p47849",
+        "brand": null,
+        "category": "Умные колонки",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/KWV9QtFyvM0vpvaZiVa2FfVt7UhqvynEtyJIrbK9.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "pump_price": null,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
     },
     {
       "product": {
@@ -5043,12 +5294,74 @@
       "fair_discount": 23.0,
       "base_price": 58290,
       "pump_price": null,
-      "value_score": 63,
+      "value_score": 59,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "647862",
+        "title": "Робот-пылесос Dreame Aqua10 Ultra Roller Complete White",
+        "price": 599990,
+        "old_price": 774990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-aqua10-ultra-roller-complete-white",
+        "brand": "Dreame",
+        "category": "robotiy_piylesosiy",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_255_0_1_JDBMSW_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 22.6,
+      "base_price": 774990,
+      "pump_price": null,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654282",
+        "title": "Робот пылесос Dreame F21 PRO",
+        "price": 109990,
+        "old_price": 139990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f21-pro",
+        "brand": "Dreame",
+        "category": "robotiy_piylesosiy",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_287_0_6_WHABw7_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.4,
+      "base_price": 139990,
+      "pump_price": null,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
     },
     {
       "product": {
@@ -5201,7 +5514,7 @@
       "fair_discount": 20.8,
       "base_price": 49990,
       "pump_price": null,
-      "value_score": 59,
+      "value_score": 55,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5296,7 +5609,7 @@
       "fair_discount": 20.0,
       "base_price": 49990,
       "pump_price": null,
-      "value_score": 68,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5365,6 +5678,70 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630958",
+        "title": "Смарт часы Xiaomi Watch S4 Rainbow M2425W1",
+        "price": 69990,
+        "old_price": 86990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-xiaomi-watch-s4-rainbow",
+        "brand": "Xiaomi",
+        "category": "smart_chasiy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1594_0_2_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 19.5,
+      "base_price": 86990,
+      "pump_price": null,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630284",
+        "title": "Ноутбук Asus Zenbook UX3407QA-QD365W (Copilot&#x2B; PC) Snapdragon X X126100 16 GB / SSD 512 GB / Adreno GPU / Win 11 / 90NB1502-M00MR0",
+        "price": 565990,
+        "old_price": 579990,
+        "url": "https://www.sulpak.kz/g/noutbuki-asus-zenbook-ux3407qa-qd365w-copilot-pc-90nb1502-m00mr0-sdx5suw1",
+        "brand": "Asus",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 2,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_3427_0_6_DpwAm4_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 2,
+      "fair_discount": 19.1,
+      "base_price": 699990,
+      "pump_price": null,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -17.1
     },
     {
       "product": {
@@ -5464,6 +5841,70 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "655788",
+        "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
+        "price": 219990,
+        "old_price": 269990,
+        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-al14-47p-nxx1mer002-r582sun",
+        "brand": "Acer",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9959_0_6_Edzdmk_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 269990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640216",
+        "title": "Neo QLED телевизор Samsung QE65QN90FAUXCE",
+        "price": 899990,
+        "old_price": 1779990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65qn90fauxce",
+        "brand": "Samsung",
+        "category": "led_oled_televizoriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20438_0_1_yQ2Fkv_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 18.2,
+      "base_price": 1099990,
+      "pump_price": null,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.8
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1232310",
         "title": "Bluetooth гарнитура A4Tech Bloody M30 TWS, Black",
@@ -5486,7 +5927,7 @@
       "fair_discount": 18.1,
       "base_price": 20990,
       "pump_price": null,
-      "value_score": 55,
+      "value_score": 50,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5517,7 +5958,7 @@
       "fair_discount": 15.9,
       "base_price": 57090,
       "pump_price": null,
-      "value_score": 51,
+      "value_score": 46,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5580,7 +6021,7 @@
       "fair_discount": 15.3,
       "base_price": 879990,
       "pump_price": null,
-      "value_score": 60,
+      "value_score": 55,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5675,7 +6116,7 @@
       "fair_discount": 15.0,
       "base_price": 949990,
       "pump_price": null,
-      "value_score": 49,
+      "value_score": 45,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5706,7 +6147,7 @@
       "fair_discount": 14.3,
       "base_price": 17490,
       "pump_price": 24990,
-      "value_score": 48,
+      "value_score": 44,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -5737,7 +6178,7 @@
       "fair_discount": 14.3,
       "base_price": 34990,
       "pump_price": 49990,
-      "value_score": 48,
+      "value_score": 44,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -5826,7 +6267,7 @@
       "fair_discount": 14.1,
       "base_price": 176990,
       "pump_price": null,
-      "value_score": 48,
+      "value_score": 43,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 1.9
@@ -5855,7 +6296,7 @@
       "fair_discount": 13.3,
       "base_price": 74990,
       "pump_price": null,
-      "value_score": 47,
+      "value_score": 42,
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.3
@@ -5913,7 +6354,7 @@
       "fair_discount": 13.2,
       "base_price": 109990,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -5944,7 +6385,7 @@
       "fair_discount": 13.1,
       "base_price": 189990,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -5975,7 +6416,7 @@
       "fair_discount": 12.9,
       "base_price": 16990,
       "pump_price": null,
-      "value_score": 46,
+      "value_score": 41,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.1
@@ -6004,7 +6445,7 @@
       "fair_discount": 12.7,
       "base_price": 329990,
       "pump_price": null,
-      "value_score": 52,
+      "value_score": 47,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -6120,7 +6561,7 @@
       "fair_discount": 12.4,
       "base_price": 17690,
       "pump_price": null,
-      "value_score": 45,
+      "value_score": 41,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 1.6
@@ -6149,7 +6590,7 @@
       "fair_discount": 11.1,
       "base_price": 26990,
       "pump_price": null,
-      "value_score": 43,
+      "value_score": 39,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 5.9
@@ -6236,7 +6677,7 @@
       "fair_discount": 10.7,
       "base_price": 64400,
       "pump_price": null,
-      "value_score": 43,
+      "value_score": 38,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 3.3
@@ -6265,7 +6706,7 @@
       "fair_discount": 10.4,
       "base_price": 1279990,
       "pump_price": null,
-      "value_score": 52,
+      "value_score": 48,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -6398,6 +6839,153 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1507086",
+        "title": "Робот-пылесос Tefal X-plorer Serie 45 RG8227WH, White",
+        "price": 111590,
+        "old_price": 144990,
+        "url": "https://shop.kz/offer/robot-pylesos-tefal-x-plorer-serie-45-rg8227wh-white/",
+        "brand": "Tefal",
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://static.shop.kz/upload/iblock/012/768qok87s46nc213j4btwmwdwyksnu8b/00000166585_1.jpg",
+        "mpn": "RG8227WH",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 10.0,
+      "base_price": 123990,
+      "pump_price": null,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1584580",
+        "title": "Bluetooth гарнитура Edifier W820NB Plus EDF200118, Blue",
+        "price": 25200,
+        "old_price": 27990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-edifier-w820nb-plus-edf200118-blue/",
+        "brand": "Edifier",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://static.shop.kz/upload/iblock/778/0fe70wnc6jsigu997cmefjwlg23zj8pw/170857o2.jpg",
+        "mpn": "W820NB PLUS EDF200118 BLUE",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 10.0,
+      "base_price": 27990,
+      "pump_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1723529",
+        "title": "Колонки Edifier A60 (2.0), Matt White",
+        "price": 194600,
+        "old_price": 219990,
+        "url": "https://shop.kz/offer/kolonki-edifier-a60-2-0-matt-white/",
+        "brand": "Edifier",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 12,
+        "image": "https://static.shop.kz/upload/iblock/faf/ywe5lsv7ma9krzd6vxyxilq81c255b3a/196978S1.jpg",
+        "mpn": "A60 MATT WHITE",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 12,
+      "fair_discount": 9.5,
+      "base_price": 214990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 2.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1726823",
+        "title": "Bluetooth гарнитура ASUS ROG A501 Pelta, Black",
+        "price": 63390,
+        "old_price": null,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-asus-rog-a501-pelta-black/",
+        "brand": "ASUS",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/adb/rhc9m0qo2ztjke9at7tx1wfhr063jtq0/198386o1.jpg",
+        "mpn": "90YH0410-BHUA00",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.4,
+      "base_price": 69990,
+      "pump_price": null,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1074249",
+        "title": "Bluetooth гарнитура A4Tech Bloody M70 TWS, Black-Blue",
+        "price": 29890,
+        "old_price": 29990,
+        "url": "https://shop.kz/offer/bluetooth-garnitura-a4tech-bloody-m70-tws-black-blue/",
+        "brand": "A4Tech",
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 0,
+        "image": "https://static.shop.kz/upload/iblock/b9f/154299_1.jpg",
+        "mpn": "M70 TWS BLACK-BLUE",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 0,
+      "fair_discount": 9.4,
+      "base_price": 32990,
+      "pump_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -9.4
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "636368",
         "title": "Робот-пылесос Roborock Saros 10R Черный S91COP",
@@ -6427,34 +7015,34 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "28020",
-        "title": "Блендер Moulinex DD833810",
-        "price": 22990,
-        "old_price": 43990,
-        "url": "https://evrika.com/catalog/blender-moulinex-dd833810/p28020",
-        "brand": null,
-        "category": "Блендеры",
-        "group": "kitchen",
+        "shop": "shopkz",
+        "sku": "1727879",
+        "title": "Ноутбук HP OmniBook Ultra Laptop Next Gen AI 14-kd0019ci, OLED (E1SF1EA)",
+        "price": 1238890,
+        "old_price": null,
+        "url": "https://shop.kz/offer/noutbuk-hp-omnibook-ultra-laptop-next-gen-ai-14-kd0019ci-oled-e1sf1ea/",
+        "brand": "HP",
+        "category": "Ноутбуки",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/R91QzFUhqRhKNwtuStfFlMgNoVNGf52L7lVxT8OF.jpg.webp",
-        "mpn": null,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/ad9/2tz02hglq1k2hxwqc6jg4ocu33wajdpu/198619d1_1.JPG",
+        "mpn": "E1SF1EA",
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-10-12T15:53:08+00:00"
       },
       "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 8.0,
-      "base_price": 24990,
+      "drop_pct": null,
+      "fair_discount": 8.9,
+      "base_price": 1359990,
       "pump_price": null,
-      "value_score": 40,
+      "value_score": 46,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
+        "Топ-Бренд"
       ],
-      "inflated_gap": 40.0
+      "inflated_gap": null
     }
   ],
   "shops": [
@@ -6468,8 +7056,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-15T23:11:51+00:00",
-      "item_count": 2744,
+      "last_crawl": "2026-11-16T06:55:53+00:00",
+      "item_count": 2761,
       "status": "ok"
     },
     {
@@ -6477,33 +7065,33 @@
       "label": "Shop.kz",
       "last_crawl": "2026-11-15T17:32:16+00:00",
       "item_count": 12581,
-      "status": "ok"
+      "status": "warning"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-15T23:11:51+00:00",
-      "item_count": 3879,
+      "last_crawl": "2026-11-16T06:55:53+00:00",
+      "item_count": 3895,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-15T23:11:51+00:00",
-      "item_count": 9952,
+      "last_crawl": "2026-11-16T06:55:53+00:00",
+      "item_count": 9973,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-15T23:11:51+00:00",
+      "last_crawl": "2026-11-16T06:55:53+00:00",
       "item_count": 2437,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31593,
-    "total_deals": 211,
-    "avg_discount": 50.0
+    "total_products": 31647,
+    "total_deals": 230,
+    "avg_discount": 29.9
   }
 }
