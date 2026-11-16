@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T05:22:14.494895+00:00",
+  "updated_at": "2026-11-16T07:22:18.394079+00:00",
   "deals": [
     {
       "product": {
@@ -1369,34 +1369,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200026346",
-        "title": "Блендер погружной TEFAL HB 64F810 (DS)",
-        "price": 24990,
-        "old_price": 46990,
-        "url": "https://www.mechta.kz/product/blender-pogrujnoy-tefal-hb-64f810-ds/",
-        "brand": "Tefal",
-        "category": "Блендеры погружные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/bdca87bf-6cd6-4d35-8202-20c4fc987517?w=400",
-        "first_seen": "2026-11-03T06:41:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 46.8,
-      "base_price": 46990,
-      "value_score": 96,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200023132",
         "title": "Пылесос DREAME DF 10 Pro",
         "price": 39990,
@@ -1450,33 +1422,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 6.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026340",
-        "title": "Мультитриммер ROWENTA TN 3651F0",
-        "price": 14990,
-        "old_price": 24990,
-        "url": "https://www.mechta.kz/product/multitrimmer-rowenta-tn-3651f0/",
-        "brand": "Rowenta",
-        "category": "Триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/804867a9-27d1-4790-a49d-2a6a7168b01f?w=400",
-        "first_seen": "2026-11-03T06:41:44+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 40.0,
-      "base_price": 24990,
-      "value_score": 88,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -1588,35 +1533,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017055",
-        "title": "Смартфон Samsung Galaxy A26 5G 256GB Black (SM-A266) BZKHS",
-        "price": 119990,
-        "old_price": 189890,
-        "url": "https://www.mechta.kz/product/smartfon-samsung-galaxy-a26-5g-256gb-black-sm-a266-bzkhs/",
-        "brand": "Samsung",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/63294dfc-a1dd-44ba-b4ba-d48b13d3bedf?w=400",
-        "first_seen": "2026-10-13T09:22:14+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 36.8,
-      "base_price": 189890,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -2036,33 +1952,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "1100090696",
-        "title": "Шкаф витрина БИРЮСА 310 (Е)",
-        "price": 159990,
-        "old_price": 239990,
-        "url": "https://www.mechta.kz/product/shkaf-vitrina-biryusa-310-e/",
-        "brand": "Бирюса",
-        "category": "Шкаф витрины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/6e720f5a-3299-11e0-9487-001676a0f702?w=400",
-        "first_seen": "2026-10-13T09:22:14+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 28.9,
-      "base_price": 224990,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000004734",
         "title": "Фен PHILIPS BHD 350/10",
         "price": 19990,
@@ -2086,6 +1975,141 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017941",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, чёрный",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-chernyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/131dcfdb-9394-4555-a5a5-f65039a56f1b?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017942",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, зелёный",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-zelenyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/f7f5fa46-94f8-4bb1-b392-61101af9b2af?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019523",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, серый",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-seryy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/ac96e8b2-d743-41d7-a9ce-2ba480a12a3e?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019524",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, фиолетовый",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-fioletovyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/d39e1aec-ed28-46f0-b436-c6ffb66ecf26?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021384",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, оранжевый",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-oranjevyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/e33531c3-db49-46c8-9d38-5eada7bb650e?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 27.3,
+      "base_price": 54990,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
     },
     {
       "product": {
@@ -2204,8 +2228,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-16T05:22:03+00:00",
-      "item_count": 7914,
+      "last_crawl": "2026-11-16T07:22:09+00:00",
+      "item_count": 7907,
       "status": "ok"
     },
     {
@@ -2245,8 +2269,8 @@
     }
   ],
   "stats": {
-    "total_products": 7914,
-    "total_deals": 80,
-    "avg_discount": 62.5
+    "total_products": 7907,
+    "total_deals": 81,
+    "avg_discount": 62
   }
 }
