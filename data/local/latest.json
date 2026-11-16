@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:23:44.460388+00:00",
+  "updated_at": "2026-11-16T11:22:29.684152+00:00",
   "deals": [
     {
       "product": {
@@ -392,15 +392,14 @@
       },
       "signal": "deal",
       "drop_pct": 77,
-      "fair_discount": 60.0,
-      "base_price": 199990,
-      "value_score": 72,
+      "fair_discount": 0.0,
+      "base_price": 79990,
+      "value_score": 17,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 17.0
+      "inflated_gap": 77.0
     },
     {
       "product": {
@@ -1647,34 +1646,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011241",
-        "title": "Ирригатор PHILIPS HX 3911/40 (FAMILY)",
-        "price": 99990,
-        "old_price": 169990,
-        "url": "https://www.mechta.kz/product/irrigator-philips-hx-391140-family/",
-        "brand": "Philips",
-        "category": "Ирригаторы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://pi.mdev.kz/8a7d7570-083d-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-13T09:22:14+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 32.4,
-      "base_price": 147990,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 8.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200018767",
         "title": "Смартфон HONOR X6c (6/256GB) Ocean Cyan",
         "price": 74990,
@@ -1784,36 +1755,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019718",
-        "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
-        "price": 69980,
-        "old_price": 134990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g5-ls27fg512eixci-27-wqhdva1ms180hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/981b5422-d9a0-44dd-896c-33fb0d683516?w=400",
-        "first_seen": "2026-10-13T09:22:14+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 30.0,
-      "base_price": 99980,
-      "value_score": 80,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 18.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200015291",
         "title": "Стационарный блендер Nutribullet NB 907MASN",
         "price": 34990,
@@ -1862,6 +1803,36 @@
       "is_pick": false,
       "badges": [
         "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019718",
+        "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
+        "price": 69980,
+        "old_price": 134990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g5-ls27fg512eixci-27-wqhdva1ms180hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/981b5422-d9a0-44dd-896c-33fb0d683516?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 30.0,
+      "base_price": 99980,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 18.0
@@ -1975,6 +1946,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 6.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011241",
+        "title": "Ирригатор PHILIPS HX 3911/40 (FAMILY)",
+        "price": 99990,
+        "old_price": 169990,
+        "url": "https://www.mechta.kz/product/irrigator-philips-hx-391140-family/",
+        "brand": "Philips",
+        "category": "Ирригаторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/8a7d7570-083d-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 27.5,
+      "base_price": 137990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.5
     },
     {
       "product": {
@@ -2356,42 +2354,14 @@
         "Рисованная?"
       ],
       "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019719",
-        "title": "Монитор Samsung Odyssey G5 LS32FG512EIXCI 32 WQHD/VA/1ms/180Hz",
-        "price": 99980,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g5-ls32fg512eixci-32-wqhdva1ms180hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/736a7984-9b37-4f94-8cf8-22a632be481a?w=400",
-        "first_seen": "2026-10-13T09:22:14+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 9.1,
-      "base_price": 109980,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.9
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-16T09:23:28+00:00",
-      "item_count": 7908,
+      "last_crawl": "2026-11-16T11:22:16+00:00",
+      "item_count": 7895,
       "status": "ok"
     },
     {
@@ -2431,8 +2401,8 @@
     }
   ],
   "stats": {
-    "total_products": 7908,
-    "total_deals": 87,
-    "avg_discount": 62
+    "total_products": 7895,
+    "total_deals": 86,
+    "avg_discount": 62.0
   }
 }
