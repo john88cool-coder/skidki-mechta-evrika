@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T11:22:29.684152+00:00",
+  "updated_at": "2026-11-16T13:22:09.839505+00:00",
   "deals": [
     {
       "product": {
@@ -1162,7 +1162,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 549990,
-      "value_score": 39,
+      "value_score": 34,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -1923,33 +1923,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000004734",
-        "title": "Фен PHILIPS BHD 350/10",
-        "price": 19990,
-        "old_price": 30990,
-        "url": "https://www.mechta.kz/product/fen-philips-bhd-35010/",
-        "brand": "Philips",
-        "category": "Фены",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/9c570805-981c-11eb-a23b-005056b6dbd7?w=400",
-        "first_seen": "2026-10-13T09:22:14+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 28.6,
-      "base_price": 27990,
-      "value_score": 79,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 6.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011241",
         "title": "Ирригатор PHILIPS HX 3911/40 (FAMILY)",
         "price": 99990,
@@ -2360,8 +2333,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-16T11:22:16+00:00",
-      "item_count": 7895,
+      "last_crawl": "2026-11-16T13:21:59+00:00",
+      "item_count": 7898,
       "status": "ok"
     },
     {
@@ -2401,8 +2374,8 @@
     }
   ],
   "stats": {
-    "total_products": 7895,
-    "total_deals": 86,
-    "avg_discount": 62.0
+    "total_products": 7898,
+    "total_deals": 85,
+    "avg_discount": 62
   }
 }
