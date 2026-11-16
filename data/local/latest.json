@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T07:22:18.394079+00:00",
+  "updated_at": "2026-11-16T09:23:44.460388+00:00",
   "deals": [
     {
       "product": {
@@ -1302,7 +1302,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 22990,
-      "value_score": 24,
+      "value_score": 21,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2198,6 +2198,168 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200008307",
+        "title": "Электрическая зубная щетка BRAUN Vitality Pro Kids Spider Man D103.413.2K (Oral_B)",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-vitality-pro-kids-spider-man-d103dot413dot2k-oral_b/",
+        "brand": "Oral-B",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/49fc3b23-7191-11ee-a262-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.0,
+      "base_price": 22990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200008308",
+        "title": "Электрическая зубная щетка BRAUN Vitality Pro Kids Frozen D103.413.2K (Oral_B)",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-vitality-pro-kids-frozen-d103dot413dot2k-oral_b/",
+        "brand": "Braun",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/c3284800-717e-11ee-a262-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.0,
+      "base_price": 22990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014698",
+        "title": "Электрическая зубная щетка BRAUN D103.423.3H тип 3708 (Oral_B) Vitality Pro Black",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-d103dot423dot3h-tip-3708-oral_b-vitality-pro-black/",
+        "brand": "Oral-B",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/6157665b-b6b1-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.0,
+      "base_price": 22990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014699",
+        "title": "Электрическая зубная щетка BRAUN D103.423.3H тип 3708 (Oral_B) Vitality Pro Lilac Mist",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-d103dot423dot3h-tip-3708-oral_b-vitality-pro-lilac-mist/",
+        "brand": "Oral-B",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/61576661-b6b1-11ef-a26e-005056b6e990?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.0,
+      "base_price": 22990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018967",
+        "title": "Электрическая зубная щетка BRAUN D103.413.2KX Lion King тип 3708 (Oral_B)",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-d103dot413dot2kx-lion-king-tip-3708-oral_b/",
+        "brand": "Oral-B",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/8cf90506-706d-45cb-9279-8c4736c676a0?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.0,
+      "base_price": 22990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200026074",
+        "title": "Электрическая зубная щётка BRAUN Vitality Pro Kids Frozen D103.413.2KX тип 3757 (Oral_B)",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-vitality-pro-kids-frozen-d103dot413dot2kx-tip-3757-oral_b/",
+        "brand": "Oral-B",
+        "category": "Электрические зубные щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/672c9172-f6d0-41db-a471-cc682dda09b6?w=400",
+        "first_seen": "2026-10-15T07:21:38+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 13.0,
+      "base_price": 22990,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200019719",
         "title": "Монитор Samsung Odyssey G5 LS32FG512EIXCI 32 WQHD/VA/1ms/180Hz",
         "price": 99980,
@@ -2228,8 +2390,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-16T07:22:09+00:00",
-      "item_count": 7907,
+      "last_crawl": "2026-11-16T09:23:28+00:00",
+      "item_count": 7908,
       "status": "ok"
     },
     {
@@ -2269,8 +2431,8 @@
     }
   ],
   "stats": {
-    "total_products": 7907,
-    "total_deals": 81,
+    "total_products": 7908,
+    "total_deals": 87,
     "avg_discount": 62
   }
 }
