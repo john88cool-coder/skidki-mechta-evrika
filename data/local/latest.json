@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T04:24:08.258176+00:00",
+  "updated_at": "2026-11-16T05:22:14.494895+00:00",
   "deals": [
     {
       "product": {
@@ -1677,6 +1677,197 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200005036",
+        "title": "Триммер для бороды PHILIPS MG 3730/15",
+        "price": 19990,
+        "old_price": 36990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-borody-philips-mg-373015/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 46,
+        "image": "https://pi.mdev.kz/3a201cdb-c14c-11ed-a258-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 46,
+      "fair_discount": 33.3,
+      "base_price": 29990,
+      "value_score": 81,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019809",
+        "title": "Эпилятор PHILIPS BRE 227/00",
+        "price": 19990,
+        "old_price": 34990,
+        "url": "https://www.mechta.kz/product/epilyator-philips-bre-22700/",
+        "brand": "Philips",
+        "category": "Эпиляторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 43,
+        "image": "https://pi.mdev.kz/71c8c1c4-57f0-4b56-897d-211fdd9667be?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 43,
+      "fair_discount": 33.3,
+      "base_price": 29990,
+      "value_score": 81,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 9.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011241",
+        "title": "Ирригатор PHILIPS HX 3911/40 (FAMILY)",
+        "price": 99990,
+        "old_price": 169990,
+        "url": "https://www.mechta.kz/product/irrigator-philips-hx-391140-family/",
+        "brand": "Philips",
+        "category": "Ирригаторы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/8a7d7570-083d-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 32.4,
+      "base_price": 147990,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 8.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018767",
+        "title": "Смартфон HONOR X6c (6/256GB) Ocean Cyan",
+        "price": 74990,
+        "old_price": 109990,
+        "url": "https://www.mechta.kz/product/smartfon-honor-x6c-6256gb-ocean-cyan/",
+        "brand": "Honor",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/79ae4b56-86ee-4265-853f-567e78e79ab2?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.8,
+      "base_price": 109990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000007036",
+        "title": "Обогреватель ARDESTO OFH-11X1",
+        "price": 21990,
+        "old_price": 31990,
+        "url": "https://www.mechta.kz/product/obogrevatel-ardesto-ofh-11x1/",
+        "brand": "Ardesto",
+        "category": "Масляные обогреватели",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/7a6300cc-00aa-11ec-a23f-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.3,
+      "base_price": 31990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025445",
+        "title": "Электрочайник KENWOOD ZJP 04.A0G",
+        "price": 19990,
+        "old_price": 28990,
+        "url": "https://www.mechta.kz/product/elektrochaynik-kenwood-zjp-04dota0g/",
+        "brand": "Kenwood",
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/4ccb22d8-f548-4a62-ad24-58b33938625e?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 31.0,
+      "base_price": 28990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000001178",
+        "title": "Триммер для волос PHILIPS HC 5612/15",
+        "price": 29990,
+        "old_price": 50990,
+        "url": "https://www.mechta.kz/product/trimmer-dlya-volos-philips-hc-561215/",
+        "brand": "Philips",
+        "category": "Машинки для стрижки волос",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 41,
+        "image": "https://pi.mdev.kz/d6bf6457-0c3e-11eb-a234-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 41,
+      "fair_discount": 30.2,
+      "base_price": 42990,
+      "value_score": 82,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200019718",
         "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
         "price": 69980,
@@ -1730,6 +1921,171 @@
         "Честная скидка"
       ],
       "inflated_gap": 14.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200014516",
+        "title": "Мультитриммер PHILIPS MG 5920/15",
+        "price": 27990,
+        "old_price": 53990,
+        "url": "https://www.mechta.kz/product/multitrimmer-philips-mg-592015/",
+        "brand": "Philips",
+        "category": "Триммеры",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/20040347-981f-4d9e-af11-c3b8e0b87265?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 30.0,
+      "base_price": 39990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 18.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200009571",
+        "title": "Электробритва PHILIPS S 5885/35",
+        "price": 69990,
+        "old_price": 116990,
+        "url": "https://www.mechta.kz/product/elektrobritva-philips-s-588535/",
+        "brand": "Philips",
+        "category": "Электробритвы",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/a6ad0049-b8fb-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 30.0,
+      "base_price": 99990,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200006720",
+        "title": "Стиральная машина Samsung WW 80AGAS26AELD",
+        "price": 199990,
+        "old_price": 284990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-samsung-ww-80agas26aeld/",
+        "brand": "Samsung",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/700dd702-a20d-4e6b-871d-68f6b4f5c51a?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 29.8,
+      "base_price": 284990,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000004487",
+        "title": "Кофемашина KRUPS EA 891D10",
+        "price": 425990,
+        "old_price": 708990,
+        "url": "https://www.mechta.kz/product/kofemashina-krups-ea-891d10/",
+        "brand": "Krups",
+        "category": "Кофемашины автоматические",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 40,
+        "image": "https://pi.mdev.kz/5d1784bf-5056-11ee-a260-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 40,
+      "fair_discount": 29.7,
+      "base_price": 605990,
+      "value_score": 75,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "1100090696",
+        "title": "Шкаф витрина БИРЮСА 310 (Е)",
+        "price": 159990,
+        "old_price": 239990,
+        "url": "https://www.mechta.kz/product/shkaf-vitrina-biryusa-310-e/",
+        "brand": "Бирюса",
+        "category": "Шкаф витрины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/6e720f5a-3299-11e0-9487-001676a0f702?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 28.9,
+      "base_price": 224990,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 4.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000004734",
+        "title": "Фен PHILIPS BHD 350/10",
+        "price": 19990,
+        "old_price": 30990,
+        "url": "https://www.mechta.kz/product/fen-philips-bhd-35010/",
+        "brand": "Philips",
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/9c570805-981c-11eb-a23b-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 28.6,
+      "base_price": 27990,
+      "value_score": 79,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 6.4
     },
     {
       "product": {
@@ -1848,8 +2204,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-16T04:23:46+00:00",
-      "item_count": 7916,
+      "last_crawl": "2026-11-16T05:22:03+00:00",
+      "item_count": 7914,
       "status": "ok"
     },
     {
@@ -1889,8 +2245,8 @@
     }
   ],
   "stats": {
-    "total_products": 7916,
-    "total_deals": 67,
-    "avg_discount": 63
+    "total_products": 7914,
+    "total_deals": 80,
+    "avg_discount": 62.5
   }
 }
