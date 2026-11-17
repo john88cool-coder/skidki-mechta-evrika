@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T17:21:00.832189+00:00",
+  "updated_at": "2026-11-17T19:21:00.595675+00:00",
   "deals": [
     {
       "product": {
@@ -1390,35 +1390,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200007310",
-        "title": "Стиральная машина Samsung WW 80AG6S28AXLD",
-        "price": 199990,
-        "old_price": 329990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-samsung-ww-80ag6s28axld/",
-        "brand": "Samsung",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://pi.mdev.kz/ba788c9b-be1d-410b-952f-67855aefd358?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 39.4,
-      "base_price": 329990,
-      "value_score": 92,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200012003",
         "title": "Стеклокерамическая плита HANSA FCCW 64103",
         "price": 199990,
@@ -1443,33 +1414,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018767",
-        "title": "Смартфон HONOR X6c (6/256GB) Ocean Cyan",
-        "price": 74990,
-        "old_price": 109990,
-        "url": "https://www.mechta.kz/product/smartfon-honor-x6c-6256gb-ocean-cyan/",
-        "brand": "Honor",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://pi.mdev.kz/79ae4b56-86ee-4265-853f-567e78e79ab2?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 31.8,
-      "base_price": 109990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -1690,141 +1634,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200017941",
-        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, чёрный",
-        "price": 39990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-chernyy/",
-        "brand": "Яндекс",
-        "category": "Умные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/131dcfdb-9394-4555-a5a5-f65039a56f1b?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200017942",
-        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, зелёный",
-        "price": 39990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-zelenyy/",
-        "brand": "Яндекс",
-        "category": "Умные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/f7f5fa46-94f8-4bb1-b392-61101af9b2af?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019523",
-        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, серый",
-        "price": 39990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-seryy/",
-        "brand": "Яндекс",
-        "category": "Умные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/ac96e8b2-d743-41d7-a9ce-2ba480a12a3e?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019524",
-        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, фиолетовый",
-        "price": 39990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-fioletovyy/",
-        "brand": "Яндекс",
-        "category": "Умные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/d39e1aec-ed28-46f0-b436-c6ffb66ecf26?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021384",
-        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, оранжевый",
-        "price": 39990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-oranjevyy/",
-        "brand": "Яндекс",
-        "category": "Умные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/e33531c3-db49-46c8-9d38-5eada7bb650e?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200015288",
         "title": "Аэрогриль Nutribullet NBA071B",
         "price": 59990,
@@ -1877,6 +1686,141 @@
         "Рисованная?"
       ],
       "inflated_gap": 30.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017941",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, чёрный",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-chernyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/131dcfdb-9394-4555-a5a5-f65039a56f1b?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017942",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, зелёный",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-zelenyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/f7f5fa46-94f8-4bb1-b392-61101af9b2af?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019523",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, серый",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-seryy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/ac96e8b2-d743-41d7-a9ce-2ba480a12a3e?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019524",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, фиолетовый",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-fioletovyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/d39e1aec-ed28-46f0-b436-c6ffb66ecf26?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200021384",
+        "title": "Умная колонка ЯНДЕКС Станция Стрит с Алисой, 30 Вт, оранжевый",
+        "price": 39990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/umnaya-kolonka-yandeks-stanciya-strit-s-alisoy-30-vt-oranjevyy/",
+        "brand": "Яндекс",
+        "category": "Умные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 33,
+        "image": "https://pi.mdev.kz/e33531c3-db49-46c8-9d38-5eada7bb650e?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 33,
+      "fair_discount": 20.0,
+      "base_price": 49990,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 13.0
     },
     {
       "product": {
@@ -2045,8 +1989,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-17T17:20:53+00:00",
-      "item_count": 7880,
+      "last_crawl": "2026-11-17T19:20:53+00:00",
+      "item_count": 7878,
       "status": "ok"
     },
     {
@@ -2086,8 +2030,8 @@
     }
   ],
   "stats": {
-    "total_products": 7880,
-    "total_deals": 75,
+    "total_products": 7878,
+    "total_deals": 73,
     "avg_discount": 63
   }
 }
