@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-11-17T19:21:00.595675+00:00",
+  "updated_at": "2026-11-17T21:20:52.136668+00:00",
   "deals": [
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003064",
+        "title": "Телевизор LOEWE LED 50SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
+        "price": 149990,
+        "old_price": 934990,
+        "url": "https://www.mechta.kz/product/televizor-loewe-led-50steamingtv-4k-ult-integrated-soundbar-aqua-blue/",
+        "brand": "Loewe",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 84,
+        "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 84,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
     {
       "product": {
         "shop": "mechta",
@@ -289,33 +314,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003064",
-        "title": "Телевизор LOEWE LED 50SteamingTV, 4K Ult, Integrated soundbar, Aqua Blue",
-        "price": 149990,
-        "old_price": 934990,
-        "url": "https://www.mechta.kz/product/televizor-loewe-led-50steamingtv-4k-ult-integrated-soundbar-aqua-blue/",
-        "brand": "Loewe",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 84,
-        "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 84,
-      "fair_discount": 0.0,
-      "base_price": 149990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 84.0
     },
     {
       "product": {
@@ -1634,6 +1632,35 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019238",
+        "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
+        "price": 349980,
+        "old_price": 899990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-3d-ls27fg900xixci-27-uhdips1ms165hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 61,
+      "fair_discount": 30.0,
+      "base_price": 499990,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200015288",
         "title": "Аэрогриль Nutribullet NBA071B",
         "price": 59990,
@@ -1658,6 +1685,35 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200019718",
+        "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
+        "price": 69980,
+        "old_price": 134990,
+        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g5-ls27fg512eixci-27-wqhdva1ms180hz/",
+        "brand": "Samsung",
+        "category": "Мониторы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://pi.mdev.kz/981b5422-d9a0-44dd-896c-33fb0d683516?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 48,
+      "fair_discount": 22.2,
+      "base_price": 89980,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.8
     },
     {
       "product": {
@@ -1989,7 +2045,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-17T19:20:53+00:00",
+      "last_crawl": "2026-11-17T21:20:41+00:00",
       "item_count": 7878,
       "status": "ok"
     },
@@ -2031,7 +2087,7 @@
   ],
   "stats": {
     "total_products": 7878,
-    "total_deals": 73,
+    "total_deals": 75,
     "avg_discount": 63
   }
 }
