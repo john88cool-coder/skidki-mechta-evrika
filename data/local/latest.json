@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:22:09.839505+00:00",
+  "updated_at": "2026-11-17T06:05:12.987014+00:00",
   "deals": [
     {
       "product": {
@@ -155,31 +155,6 @@
       "badges": [
         "Топ-Бренд"
       ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200007808",
-        "title": "Холодильник GRUNDIG GSN 30110 FXBR",
-        "price": 299990,
-        "old_price": 799990,
-        "url": "https://www.mechta.kz/product/holodilnik-grundig-gsn-30110-fxbr/",
-        "brand": "Grundig",
-        "category": "Холодильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/803087b9-61da-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-11-15T08:54:23+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [],
       "inflated_gap": null
     },
     {
@@ -916,7 +891,7 @@
       "drop_pct": 64,
       "fair_discount": 0.0,
       "base_price": 99990,
-      "value_score": 34,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -1368,6 +1343,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000047612",
+        "title": "Ломтерезка BORK Z780",
+        "price": 199990,
+        "old_price": 513590,
+        "url": "https://www.mechta.kz/product/lomterezka-bork-z780/",
+        "brand": "BORK",
+        "category": "Ломтерезки",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/1ebd5cc6-7a74-4304-8b0f-a4633efa9b5e?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 0.0,
+      "base_price": 199990,
+      "value_score": 25,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 61.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200023132",
         "title": "Пылесос DREAME DF 10 Pro",
         "price": 39990,
@@ -1723,6 +1725,141 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006457",
+        "title": "Портативная колонка Bang&Olufsen Beosound Explore Black Anthracite",
+        "price": 117990,
+        "old_price": 169990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-explore-black-anthracite/",
+        "brand": "Bang & Olufsen",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/d124a3ad-4394-11ec-a240-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.6,
+      "base_price": 169990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006458",
+        "title": "Портативная колонка Bang&Olufsen Beosound Explore Grey Mist",
+        "price": 117990,
+        "old_price": 169990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-explore-grey-mist/",
+        "brand": "Bang & Olufsen",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/0e764792-5c23-11ee-a261-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.6,
+      "base_price": 169990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006459",
+        "title": "Портативная колонка Bang&Olufsen Beosound Explore Green",
+        "price": 117990,
+        "old_price": 169990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-explore-green/",
+        "brand": "Bang & Olufsen",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/d124a3a5-4394-11ec-a240-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.6,
+      "base_price": 169990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200009948",
+        "title": "Наушники Bang&Olufsen BeoPlay HX Gold Tone",
+        "price": 274990,
+        "old_price": 395990,
+        "url": "https://www.mechta.kz/product/naushniki-bangolufsen-beoplay-hx-gold-tone/",
+        "brand": "Bang & Olufsen",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/7617a8ca-c1a9-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.6,
+      "base_price": 395990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012311",
+        "title": "Наушники Bang&Olufsen BeoPlay HX Timber",
+        "price": 274990,
+        "old_price": 395990,
+        "url": "https://www.mechta.kz/product/naushniki-bangolufsen-beoplay-hx-timber/",
+        "brand": "Bang & Olufsen",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://pi.mdev.kz/d3171b7a-2e2a-11ef-a266-005056b6e990?w=400",
+        "first_seen": "2026-10-13T09:22:14+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 30.6,
+      "base_price": 395990,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -2333,8 +2470,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-16T13:21:59+00:00",
-      "item_count": 7898,
+      "last_crawl": "2026-11-17T06:05:02+00:00",
+      "item_count": 7887,
       "status": "ok"
     },
     {
@@ -2374,8 +2511,8 @@
     }
   ],
   "stats": {
-    "total_products": 7898,
-    "total_deals": 85,
-    "avg_discount": 62
+    "total_products": 7887,
+    "total_deals": 90,
+    "avg_discount": 62.0
   }
 }
