@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T11:25:07.920330+00:00",
+  "updated_at": "2026-11-17T16:22:55.639606+00:00",
   "deals": [
     {
       "product": {
@@ -22,6 +22,31 @@
       "fair_discount": null,
       "base_price": null,
       "value_score": 21,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011551",
+        "title": "Вертикальный пылесос WADE SV-05 (черный)",
+        "price": 19990,
+        "old_price": 87990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-chernyy/",
+        "brand": "WADE",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-11-03T07:21:35+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 17,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -400,33 +425,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 78.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011551",
-        "title": "Вертикальный пылесос WADE SV-05 (черный)",
-        "price": 19990,
-        "old_price": 87990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-05-chernyy/",
-        "brand": "WADE",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 77,
-        "image": "https://pi.mdev.kz/42a14dff-0b61-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-11-03T07:21:35+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 77,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "value_score": 17,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 77.0
     },
     {
       "product": {
@@ -1134,7 +1132,7 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 19990,
-      "value_score": 17,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1855,35 +1853,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200019718",
-        "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
-        "price": 69980,
-        "old_price": 134990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g5-ls27fg512eixci-27-wqhdva1ms180hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/981b5422-d9a0-44dd-896c-33fb0d683516?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 22.2,
-      "base_price": 89980,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.8
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200015029",
         "title": "Аэрогриль Nutribullet NBA081B",
         "price": 79990,
@@ -1908,34 +1877,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17000001350",
-        "title": "Электрическая зубная щетка PHILIPS HX 3651/11",
-        "price": 19990,
-        "old_price": 37990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-philips-hx-365111/",
-        "brand": "Philips",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/1e022b8e-3d1c-11ec-a240-005056b6dbd7?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 20.0,
-      "base_price": 24990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
     },
     {
       "product": {
@@ -2104,8 +2045,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-17T11:24:39+00:00",
-      "item_count": 7884,
+      "last_crawl": "2026-11-17T16:22:47+00:00",
+      "item_count": 7880,
       "status": "ok"
     },
     {
@@ -2145,8 +2086,8 @@
     }
   ],
   "stats": {
-    "total_products": 7884,
-    "total_deals": 77,
+    "total_products": 7880,
+    "total_deals": 75,
     "avg_discount": 63
   }
 }
