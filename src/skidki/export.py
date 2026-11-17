@@ -162,7 +162,7 @@ def _deal_dict(
         "signal": signal,
         "drop_pct": product.shop_discount_pct,
         "fair_discount": fair,
-        # Обычная цена — взвешенная медиана окна тренда (для «обычно X ₸»).
+        # Обычная цена — честная база evaluate.honest_baseline (для «обычно X ₸»).
         "base_price": ref,
         # Накрутка: до этой цены товар поднимали перед скидкой (иначе None).
         "pump_price": pump_price,

@@ -18,6 +18,7 @@
 from __future__ import annotations
 
 import asyncio
+import html as htmllib
 import logging
 import re
 import time
@@ -101,10 +102,11 @@ def parse_blocks(
         products.append(Product(
             shop=SHOP,
             sku=code.group(1),
-            title=" ".join((name.group(1) if name else "").split()),
+            # Атрибуты data-* приходят с HTML-сущностями: 86&quot;, &#x2B;, &amp;.
+            title=" ".join(htmllib.unescape(name.group(1) if name else "").split()),
             price=price_int,
             url=f"{BASE}{href.group(1)}",
-            brand=brand_match.group(1) if brand_match else None,
+            brand=htmllib.unescape(brand_match.group(1)) if brand_match else None,
             category=category,
             old_price=old if old and old > price_int else None,
             in_stock=not OUT_OF_STOCK.search(block),
