@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:24:16.819147+00:00",
+  "updated_at": "2026-11-18T07:54:55.143801+00:00",
   "deals": [
     {
       "product": {
@@ -97,6 +97,35 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "642290",
+        "title": "Электробритва мужская Braun 72-G1200s",
+        "price": 91990,
+        "old_price": 172590,
+        "url": "https://www.sulpak.kz/g/elektrobritviy-braun-72-g1200s",
+        "brand": "Braun",
+        "category": "britviy_i_epilyatoriy",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_27_462_0_1_Kzn1wZ_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": null,
+      "base_price": null,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "631193",
         "title": "Портативный блендер Nutribullet NB907MASN",
         "price": 34990,
@@ -118,7 +147,7 @@
       "fair_discount": 30.0,
       "base_price": 49990,
       "pump_price": null,
-      "value_score": 71,
+      "value_score": 76,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -149,7 +178,7 @@
       "fair_discount": 42.0,
       "base_price": 68990,
       "pump_price": null,
-      "value_score": 85,
+      "value_score": 89,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1361,7 +1390,7 @@
       "fair_discount": 0.0,
       "base_price": 260990,
       "pump_price": null,
-      "value_score": 25,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1392,7 +1421,7 @@
       "fair_discount": 0.0,
       "base_price": 316790,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1485,7 +1514,7 @@
       "fair_discount": 0.0,
       "base_price": 19297,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1547,7 +1576,7 @@
       "fair_discount": 0.0,
       "base_price": 259990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1739,38 +1768,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "649838",
-        "title": "TWS Наушники HUAWEI FreeBuds 7i Pink Conch-T010",
-        "price": 19989,
-        "old_price": 49990,
-        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-pink-conch-t010",
-        "brand": "HUAWEI",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3629_0_1_XgI2xa_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 42.8,
-      "base_price": 34929,
-      "pump_price": null,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 37.3
     },
     {
       "product": {
@@ -2076,37 +2073,6 @@
       "base_price": 29990,
       "pump_price": null,
       "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 58.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "288553",
-        "title": "Посудомоечная машина MEFERI MDW4563 COMPACT POWER",
-        "price": 59990,
-        "old_price": 142990,
-        "url": "https://www.technodom.kz/p/posudomoyechnaya-mashina-meferi-mdw4563-compact-power-288553",
-        "brand": "MEFERI",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://api.technodom.kz/f3/api/v1/images/posudomoyechnaya_mashina_meferi_mdw4563_compact_power_288553_01.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": 0.0,
-      "base_price": 59990,
-      "pump_price": null,
-      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2850,7 +2816,7 @@
       "fair_discount": 0.0,
       "base_price": 10990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3048,7 +3014,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116888,
+        "price": 116789,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -3067,7 +3033,38 @@
       "fair_discount": 0.0,
       "base_price": 116989,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624411",
+        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
+        "price": 222690,
+        "old_price": 469990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
+        "brand": "Haier",
+        "category": "duhoviye_shkafiy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 222990,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3098,38 +3095,7 @@
       "fair_discount": 0.0,
       "base_price": 222690,
       "pump_price": null,
-      "value_score": 37,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624411",
-        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
-        "price": 223090,
-        "old_price": 469990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
-        "brand": "Haier",
-        "category": "duhoviye_shkafiy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 222990,
-      "pump_price": null,
-      "value_score": 37,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3533,7 +3499,7 @@
       "fair_discount": 0.0,
       "base_price": 999990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3562,9 +3528,9 @@
       "signal": "deal",
       "drop_pct": 52,
       "fair_discount": 0.0,
-      "base_price": 199890,
+      "base_price": 194890,
       "pump_price": null,
-      "value_score": 34,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3732,7 +3698,7 @@
         "shop": "sulpak",
         "sku": "633168",
         "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 165988,
+        "price": 165987,
         "old_price": 341990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
         "brand": "HUAWEI",
@@ -3751,7 +3717,7 @@
       "fair_discount": 0.0,
       "base_price": 181677,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4465,7 +4431,7 @@
       "fair_discount": 0.0,
       "base_price": 14990,
       "pump_price": null,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4496,7 +4462,7 @@
       "fair_discount": 0.0,
       "base_price": 16990,
       "pump_price": null,
-      "value_score": 37,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4527,7 +4493,7 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "pump_price": null,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4558,7 +4524,7 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "pump_price": null,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4589,7 +4555,38 @@
       "fair_discount": 0.0,
       "base_price": 22990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "626607",
+        "title": "Электрический чайник Tefal KI840830",
+        "price": 23990,
+        "old_price": 47990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-tefal-ki840830",
+        "brand": "Tefal",
+        "category": "elektrochajniki",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_825_0_1_ttCUmt_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 21890,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4843,7 +4840,7 @@
       "fair_discount": 36.8,
       "base_price": 729990,
       "pump_price": null,
-      "value_score": 85,
+      "value_score": 89,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4876,7 +4873,7 @@
       "fair_discount": 35.7,
       "base_price": 28590,
       "pump_price": null,
-      "value_score": 79,
+      "value_score": 84,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5134,7 +5131,7 @@
       "fair_discount": 28.6,
       "base_price": 41990,
       "pump_price": null,
-      "value_score": 69,
+      "value_score": 73,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5228,7 +5225,7 @@
       "fair_discount": 27.3,
       "base_price": 549990,
       "pump_price": null,
-      "value_score": 67,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5260,7 +5257,7 @@
       "fair_discount": 26.9,
       "base_price": 3980870,
       "pump_price": null,
-      "value_score": 72,
+      "value_score": 76,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5354,7 +5351,7 @@
       "fair_discount": 25.0,
       "base_price": 79990,
       "pump_price": null,
-      "value_score": 67,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -5488,6 +5485,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "265154",
+        "title": "Встраиваемая посудомоечная машина Beko BDIS38122Q",
+        "price": 229990,
+        "old_price": 299990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-beko-bdis38122q-265154",
+        "brand": "Beko",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://api.technodom.kz/f3/api/v1/images/265154_1as.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.3,
+      "base_price": 299990,
+      "pump_price": null,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1466942",
         "title": "Отпариватель Kitfort KT-9110-1, White-Purple",
@@ -5541,7 +5569,7 @@
       "fair_discount": 22.6,
       "base_price": 774990,
       "pump_price": null,
-      "value_score": 58,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5604,7 +5632,7 @@
       "fair_discount": 21.4,
       "base_price": 139990,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 60,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5635,7 +5663,7 @@
       "fair_discount": 21.4,
       "base_price": 139990,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 60,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5697,7 +5725,7 @@
       "fair_discount": 21.3,
       "base_price": 889990,
       "pump_price": null,
-      "value_score": 50,
+      "value_score": 54,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5861,38 +5889,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "629244",
-        "title": "Кондиционер Samsung WindFree AR80F09CABWNER&#x2B;AR80F09CABWXER",
-        "price": 349990,
-        "old_price": 439990,
-        "url": "https://www.sulpak.kz/g/kondicioneriy-split-sistemiy-samsung-ar80f09cabwner-ar80f09cabwxer",
-        "brand": "Samsung",
-        "category": "kondicioneriy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_14_777_0_1_26SLSO_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.5,
-      "base_price": 439990,
-      "pump_price": null,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -6199,7 +6195,7 @@
       "fair_discount": 20.0,
       "base_price": 1083990,
       "pump_price": null,
-      "value_score": 53,
+      "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6230,7 +6226,7 @@
       "fair_discount": 20.0,
       "base_price": 318990,
       "pump_price": null,
-      "value_score": 53,
+      "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6333,6 +6329,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "288551",
+        "title": "Посудомоечная машина DeLonghi DDWS 665 B EMILIO",
+        "price": 229990,
+        "old_price": 285990,
+        "url": "https://www.technodom.kz/p/posudomoyechnaya-mashina-delonghi-ddws-665-b-emilio-288551",
+        "brand": "Delonghi",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://api.technodom.kz/f3/api/v1/images/posudomoyechnaya_mashina_delonghi_ddws_665_b_emilio_288551_01.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 19.6,
+      "base_price": 285990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "630958",
         "title": "Смарт часы Xiaomi Watch S4 Rainbow M2425W1",
@@ -6355,7 +6382,7 @@
       "fair_discount": 19.5,
       "base_price": 86990,
       "pump_price": null,
-      "value_score": 63,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6547,7 +6574,7 @@
       "fair_discount": 19.1,
       "base_price": 699990,
       "pump_price": null,
-      "value_score": 62,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -6675,7 +6702,38 @@
       "fair_discount": 18.5,
       "base_price": 269990,
       "pump_price": null,
-      "value_score": 57,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "289309",
+        "title": "Посудомоечная машина Midea MDWF-6029TQW",
+        "price": 219990,
+        "old_price": 269990,
+        "url": "https://www.technodom.kz/p/posudomoechnaya-mashina-midea-mdwf-6029tqw-289309",
+        "brand": "Midea",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://api.technodom.kz/f3/api/v1/images/289309_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 2,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 269990,
+      "pump_price": null,
+      "value_score": 49,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6712,6 +6770,68 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "629918",
+        "title": "Беспроводная музыкальная система Ruark R3s орех",
+        "price": 501658,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-ruark-audio-r3s-oreh",
+        "brand": "Ruark Audio",
+        "category": "muziykalniye_centriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_219_0_1_ZrIYP7_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 601990,
+      "pump_price": null,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000035140",
+        "title": "Напольная акустика DALI Oberon 7 белый, 2 шт.",
+        "price": 640825,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-dali-oberon-7-beliyj-2-sht",
+        "brand": "DALI",
+        "category": "muziykalniye_centriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_221_0_6_EhBYUe_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 768990,
+      "pump_price": null,
+      "value_score": 48,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6779,102 +6899,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "302455",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Olive (MK8V4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-olive-mk8v4zm-302455",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302455_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302456",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Crisp Blue (MK8W4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-crisp-blue-mk8w4zm-302456",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302456_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302457",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Navy Blue (MK8X4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-navy-blue-mk8x4zm-302457",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302457_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1622134",
         "title": "Отпариватель Russell Hobbs 28040-56, Brown",
@@ -6903,6 +6927,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 4.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651713",
+        "title": "Кофемашина Delonghi ECAM220.50.BG",
+        "price": 269990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/kofemashiniy-delonghi-ecam22050bg",
+        "brand": "Delonghi",
+        "category": "kofemashiniy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_244_0_1_QRcoZw_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-15T11:55:34+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.6,
+      "base_price": 319990,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7057,6 +7112,68 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 1.9
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657302",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Midnight / Z1L6000BQ",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-midnight-a3449-m5-16gb-512gb-ssd-rus-z1l6000bq",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10048_0_1_i1qRSa_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T16:29:23+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657304",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Silver / Z1L0000BR",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-silver-a3449-m5-16gb-512gb-ssd-rus-z1l0000br",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10050_0_1_763KO0_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T16:29:23+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -7525,9 +7642,9 @@
       "signal": "drop",
       "drop_pct": 30,
       "fair_discount": 7.9,
-      "base_price": 379984,
+      "base_price": 379981,
       "pump_price": null,
-      "value_score": 29,
+      "value_score": 33,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -7558,7 +7675,7 @@
       "fair_discount": 7.4,
       "base_price": 539990,
       "pump_price": null,
-      "value_score": 34,
+      "value_score": 39,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 9.6
@@ -7575,8 +7692,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-17T23:24:01+00:00",
-      "item_count": 2799,
+      "last_crawl": "2026-11-18T07:54:32+00:00",
+      "item_count": 2777,
       "status": "ok"
     },
     {
@@ -7589,28 +7706,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-17T13:50:54+00:00",
-      "item_count": 3810,
-      "status": "warning"
+      "last_crawl": "2026-11-18T07:54:32+00:00",
+      "item_count": 3787,
+      "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-17T23:24:01+00:00",
-      "item_count": 10020,
+      "last_crawl": "2026-11-18T07:54:32+00:00",
+      "item_count": 10039,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-17T23:24:01+00:00",
-      "item_count": 2432,
+      "last_crawl": "2026-11-18T07:54:32+00:00",
+      "item_count": 2436,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31642,
-    "total_deals": 245,
-    "avg_discount": 36.8
+    "total_products": 31620,
+    "total_deals": 249,
+    "avg_discount": 35.0
   }
 }
