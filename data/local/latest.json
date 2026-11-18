@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:24:09.207331+00:00",
+  "updated_at": "2026-11-18T13:22:00.768612+00:00",
   "deals": [
     {
       "product": {
@@ -152,6 +152,33 @@
         "Честная скидка"
       ],
       "inflated_gap": 13.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011825",
+        "title": "Телевизор Samsung QLED QE55QN85DBUXCE UHD SMART",
+        "price": 249990,
+        "old_price": 869990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55qn85dbuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 71,
+        "image": "https://pi.mdev.kz/1fd153aa-1ca9-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 71,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -510,34 +537,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011825",
-        "title": "Телевизор Samsung QLED QE55QN85DBUXCE UHD SMART",
-        "price": 249990,
-        "old_price": 869990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55qn85dbuxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 71,
-        "image": "https://pi.mdev.kz/1fd153aa-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 71,
-      "fair_discount": 0.0,
-      "base_price": 249990,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 71.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011001",
         "title": "Клавиатура Varmilo VEM108 Dreams On Board EC V2 Violet",
         "price": 25990,
@@ -577,7 +576,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
+        "first_seen": "2026-10-14T13:21:01+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -1265,16 +1264,14 @@
       },
       "signal": "deal",
       "drop_pct": 62,
-      "fair_discount": 44.4,
-      "base_price": 129990,
-      "value_score": 84,
-      "is_pick": true,
+      "fair_discount": 0.0,
+      "base_price": 72290,
+      "value_score": 29,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 17.6
+      "inflated_gap": 62.0
     },
     {
       "product": {
@@ -1661,6 +1658,60 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "30000002360",
+        "title": "Портативная колонка Bang&Olufsen Beolit 20 Black Anthracite",
+        "price": 309990,
+        "old_price": 438990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beolit-20-black-anthracite/",
+        "brand": "Bang & Olufsen",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/4798ea4c-3ec1-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 29.4,
+      "base_price": 438990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002361",
+        "title": "Портативная колонка Bang&Olufsen Beolit 20 Grey Mist",
+        "price": 309990,
+        "old_price": 438990,
+        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beolit-20-grey-mist/",
+        "brand": "Bang & Olufsen",
+        "category": "Портативные колонки",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/3335d383-3ec6-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-10-14T06:55:40+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 29.4,
+      "base_price": 438990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200015288",
         "title": "Аэрогриль Nutribullet NBA071B",
         "price": 59990,
@@ -1685,35 +1736,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200019718",
-        "title": "Монитор Samsung Odyssey G5 LS27FG512EIXCI 27 WQHD/VA/1ms/180Hz",
-        "price": 69980,
-        "old_price": 134990,
-        "url": "https://www.mechta.kz/product/monitor-samsung-odyssey-g5-ls27fg512eixci-27-wqhdva1ms180hz/",
-        "brand": "Samsung",
-        "category": "Мониторы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://pi.mdev.kz/981b5422-d9a0-44dd-896c-33fb0d683516?w=400",
-        "first_seen": "2026-10-14T06:55:40+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 48,
-      "fair_discount": 22.2,
-      "base_price": 89980,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.8
     },
     {
       "product": {
@@ -2045,8 +2067,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-18T05:24:00+00:00",
-      "item_count": 7883,
+      "last_crawl": "2026-11-18T13:21:50+00:00",
+      "item_count": 7912,
       "status": "ok"
     },
     {
@@ -2086,8 +2108,8 @@
     }
   ],
   "stats": {
-    "total_products": 7883,
-    "total_deals": 75,
-    "avg_discount": 63
+    "total_products": 7912,
+    "total_deals": 76,
+    "avg_discount": 63.0
   }
 }
