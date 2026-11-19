@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T10:45:18.720954+00:00",
+  "updated_at": "2026-11-19T21:00:57.329927+00:00",
   "deals": [
     {
       "product": {
@@ -130,14 +130,14 @@
         "shop": "alser",
         "sku": "1459351",
         "title": "Смарт часы Huawei Watch GT 6 (46mm), Black",
-        "price": 106690,
-        "old_price": 154990,
+        "price": 105490,
+        "old_price": 134890,
         "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-46mm-black",
         "brand": "Huawei",
         "category": "Все Smart часы",
         "group": "other",
         "in_stock": true,
-        "discount_pct": 31,
+        "discount_pct": 22,
         "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/bxO05TLKo/smart-casy-huawei-watch-gt-6-46mm-black-w160.webp",
         "mpn": null,
         "rating": 4.97,
@@ -145,74 +145,16 @@
         "first_seen": "2026-11-12T18:42:51+00:00"
       },
       "signal": "deal",
-      "drop_pct": 31,
-      "fair_discount": 20.9,
+      "drop_pct": 22,
+      "fair_discount": 21.8,
       "base_price": 134890,
       "pump_price": null,
-      "value_score": 68,
+      "value_score": 69,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 10.1
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1459355",
-        "title": "Смарт часы HUAWEI WATCH GT 6 (41mm), White",
-        "price": 120215,
-        "old_price": 154990,
-        "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-41mm-white",
-        "brand": "Huawei",
-        "category": "Все Smart часы",
-        "group": "other",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/x8Z95TAow/smart-casy-huawei-watch-gt-6-41mm-white-w160.webp",
-        "mpn": null,
-        "rating": 4.94,
-        "reviews_count": 17,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 22,
-      "fair_discount": 7.4,
-      "base_price": 129890,
-      "pump_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 14.6
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1420647",
-        "title": "Умная колонка Яндекс.Станция Миди с Zigbee, Серая (YNDX-00054GRY)",
-        "price": 87990,
-        "old_price": 111380,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-midi-bezevaa",
-        "brand": "Яндекс",
-        "category": "Яндекс",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/8qAl1cmYJ8/umnaa-kolonka-andeksstancia-midi-bezevaa-w160.webp",
-        "mpn": null,
-        "rating": 4.98,
-        "reviews_count": 401,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 21,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -865,38 +807,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "649838",
-        "title": "TWS Наушники HUAWEI FreeBuds 7i Pink Conch-T010",
-        "price": 19989,
-        "old_price": 49990,
-        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-pink-conch-t010",
-        "brand": "HUAWEI",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3629_0_1_XgI2xa_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 42.8,
-      "base_price": 34929,
-      "pump_price": null,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 37.3
     },
     {
       "product": {
@@ -2389,6 +2299,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "628343",
+        "title": "OLED телевизор Haier 77 OLED S9 Pro",
+        "price": 999990,
+        "old_price": 2099990,
+        "url": "https://www.sulpak.kz/g/televizoriy-haier-77-oled-s9-pro",
+        "brand": "Haier",
+        "category": "led_oled_televizoriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3154_0_6_gy01JJ_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 0.0,
+      "base_price": 999990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 52.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1728362",
         "title": "Утюг Centek CT-2346, Black-Gold (SN:924122346012073)",
@@ -2603,71 +2544,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "628343",
-        "title": "OLED телевизор Haier 77 OLED S9 Pro",
-        "price": 999990,
-        "old_price": 2099990,
-        "url": "https://www.sulpak.kz/g/televizoriy-haier-77-oled-s9-pro",
-        "brand": "Haier",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3154_0_6_gy01JJ_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 999990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640276",
-        "title": "LED телевизор Samsung UE85U8000FUXCE",
-        "price": 555490,
-        "old_price": 1149990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-ue85u8000fuxce",
-        "brand": "Samsung",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20498_0_6_xn7UL4_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 30.6,
-      "base_price": 799990,
-      "pump_price": null,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.4
     },
     {
       "product": {
@@ -3715,7 +3591,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 21890,
+      "base_price": 21990,
       "pump_price": null,
       "value_score": 41,
       "is_pick": false,
@@ -4442,65 +4318,65 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1459010",
-        "title": "Клавиатура мышь беспроводная Logitech MK250-GRAPHITE-RUS-2.4GHZ/BT-N/A-INTNL-973",
-        "price": 12990,
-        "old_price": 19990,
-        "url": "https://alser.kz/p/klaviatura-mys-besprovodnaa-logitech-mk250-graphite-rus-24ghzbt-na-intnl-973",
-        "brand": "Logitech",
-        "category": "Мыши",
-        "group": "computers",
+        "shop": "sulpak",
+        "sku": "633300",
+        "title": "Чайник Moulinex BY6R5130",
+        "price": 22990,
+        "old_price": 43990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-moulinex-by6r5130",
+        "brand": "Moulinex",
+        "category": "elektrochajniki",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://s3s.alser.kz/uploads/products/klaviatury/kjMO8sjZ5/klaviatura-mys-besprovodnaa-logitech-mk250-graphite-rus-24ghzbt-na-intnl-973-w160.webp",
+        "discount_pct": 48,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_952_0_1_4LmCZT_160.webp",
         "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 3,
-        "first_seen": "2026-11-11T18:14:24+00:00"
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
-      "drop_pct": 35,
+      "drop_pct": 48,
       "fair_discount": 0.0,
-      "base_price": 12990,
+      "base_price": 22990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 35.0
+      "inflated_gap": 48.0
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1412319",
-        "title": "Мышка беспроводная Logitech M240 Bluetooth Silent Graphite (910-007119)",
-        "price": 10990,
-        "old_price": 16290,
-        "url": "https://alser.kz/p/myska-besprovodnaa-logitech-m240-bluetooth-silent-graphite-910-007119",
-        "brand": "Logitech",
-        "category": "Мыши",
-        "group": "computers",
+        "shop": "evrika",
+        "sku": "47047",
+        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Green (Soc-L19F) (55020EVS)",
+        "price": 119890,
+        "old_price": 227990,
+        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-green-soc-l19f-55020evs/p47047",
+        "brand": "HUAWEI",
+        "category": "Смарт-часы",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://s3s.alser.kz/uploads/products/Kav0dIbGQ/myska-besprovodnaa-logitech-m240-bluetooth-silent-graphite-910-007119-w160.webp",
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/qI9OrtCbyxigJejHuhTjcSw2SFQ2gYaKHfabn0lo.jpg.webp",
         "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 25,
-        "first_seen": "2026-11-11T18:14:24+00:00"
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "deal",
-      "drop_pct": 33,
+      "drop_pct": 47,
       "fair_discount": 0.0,
-      "base_price": 10990,
+      "base_price": 119890,
       "pump_price": null,
-      "value_score": 37,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 33.0
+      "inflated_gap": 47.0
     },
     {
       "product": {
@@ -4629,34 +4505,157 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1464220",
-        "title": "Наушники беспроводные Huawei FreeClip2, голубой",
-        "price": 74663,
-        "old_price": 99990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-goluboj",
-        "brand": "Xiaomi",
-        "category": "Huawei",
-        "group": "phones",
+        "sku": "1420647",
+        "title": "Умная колонка Яндекс.Станция Миди с Zigbee, Серая (YNDX-00054GRY)",
+        "price": 87990,
+        "old_price": 111380,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-midi-bezevaa",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
         "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/E4VgDivRx/nausniki-besprovodnye-huawei-freeclip2-goluboj-w160.webp",
+        "discount_pct": 21,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/8qAl1cmYJ8/umnaa-kolonka-andeksstancia-midi-bezevaa-w160.webp",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-11T18:14:24+00:00"
+        "rating": 4.98,
+        "reviews_count": 401,
+        "first_seen": "2026-11-12T18:42:51+00:00"
       },
       "signal": "deal",
-      "drop_pct": 25,
+      "drop_pct": 21,
       "fair_discount": 0.0,
-      "base_price": 74663,
+      "base_price": 87990,
       "pump_price": null,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 25.0
+      "inflated_gap": 21.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1413737",
+        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Зелёная",
+        "price": 189990,
+        "old_price": 238490,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-zelenaa",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/w8vlVTeRn/umnaa-kolonka-andeksstancia-maks-s-zigbee-zelenaa-w160.webp",
+        "mpn": null,
+        "rating": 4.98,
+        "reviews_count": 154,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 20,
+      "fair_discount": 0.0,
+      "base_price": 189990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1413736",
+        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Бежевая",
+        "price": 189990,
+        "old_price": 238490,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-bezevaa",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/P5EkwFBPa9/umnaa-kolonka-andeksstancia-maks-s-zigbee-bezevaa-w160.webp",
+        "mpn": null,
+        "rating": 4.99,
+        "reviews_count": 169,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 20,
+      "fair_discount": 0.0,
+      "base_price": 189990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1413735",
+        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Графит",
+        "price": 189990,
+        "old_price": 238490,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-grafit",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/bxQlRIbPa4/umnaa-kolonka-andeksstancia-maks-s-zigbee-grafit-w160.webp",
+        "mpn": null,
+        "rating": 4.98,
+        "reviews_count": 102,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 20,
+      "fair_discount": 0.0,
+      "base_price": 189990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1450204",
+        "title": "Умная колонка Яндекс Станция Мини 3 Лиловый (9YNDX-00027LIL)",
+        "price": 49990,
+        "old_price": 61990,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeks-stancia-mini-3-lilovyj-9yndx-00027lil",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/y8YNjTJep/umnaa-kolonka-andeks-stancia-mini-3-lilovyj-9yndx-00027lil-w160.webp",
+        "mpn": null,
+        "rating": 4.97,
+        "reviews_count": 866,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 19,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
     },
     {
       "product": {
@@ -5389,38 +5388,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "630957",
-        "title": "Смарт часы Xiaomi Watch S4 Silver M2425W1",
-        "price": 59990,
-        "old_price": 79990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-xiaomi-watch-s4-silver",
-        "brand": "Xiaomi",
-        "category": "smart_chasiy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1593_0_2_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -6482,38 +6449,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "630958",
-        "title": "Смарт часы Xiaomi Watch S4 Rainbow M2425W1",
-        "price": 69990,
-        "old_price": 86990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-xiaomi-watch-s4-rainbow",
-        "brand": "Xiaomi",
-        "category": "smart_chasiy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1594_0_2_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 19.5,
-      "base_price": 86990,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "302467",
         "title": "Чехол для смартфона iPhone 18 Pro TechWoven Case with MagSafe – Olive (MKD34ZM/A)",
@@ -6707,6 +6642,37 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "641936",
+        "title": "Смартфон Honor X9d 8/256GB Midnight Black",
+        "price": 194850,
+        "old_price": 239990,
+        "url": "https://www.sulpak.kz/g/smartfoniy-honor-x9d-8256gb-midnight-black",
+        "brand": "HONOR",
+        "category": "smartfoniy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_7251_0_1_cJM5jP_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.8,
+      "base_price": 239990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "655788",
         "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
         "price": 219990,
@@ -6765,6 +6731,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1742210",
+        "title": "Очиститель воздуха Mijia Smart Air Purifier 6 EU (AC-M25-SC) Белый",
+        "price": 89900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/ochistitel-vozdukha-mijia-smart-air-purifier-6-eu-ac-m25-sc-belyy/",
+        "brand": null,
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/f25/ru8vjgc0hn8nxn5h7ygwumsy8wvvclql/84132_1.jpg",
+        "mpn": "AC-M25-SC",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-16T18:56:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 18.2,
+      "base_price": 109900,
+      "pump_price": null,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7368,6 +7365,37 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1738172",
+        "title": "Абонентский терминал Huawei Nova 15 Pro KLE-LX9 12GB RAM 512GB ROM White",
+        "price": 279800,
+        "old_price": null,
+        "url": "https://shop.kz/offer/abonentskiy-terminal-huawei-nova-15-pro-kle-lx9-12gb-ram-512gb-rom-white/",
+        "brand": "Huawei",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/a6a/unalv5wfv20r1rkwvufh2potmfd8clgy/88975_1.jpg",
+        "mpn": "51098TRX",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-10T13:01:06+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.2,
+      "base_price": 329800,
+      "pump_price": null,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "289311",
         "title": "Встраиваемая посудомоечная машина Midea MDWB-6029TQ",
@@ -7877,34 +7905,32 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "650358",
-        "title": "Mini LED телевизор Dreame 55&quot; Aura 55S100",
-        "price": 339990,
-        "old_price": 499990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-aura-mini-led-4k-tv-55s100",
-        "brand": "Dreame",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
+        "shop": "shopkz",
+        "sku": "1742213",
+        "title": "Очиститель воздуха Mijia Smart Air Purifier 6 Plus EU",
+        "price": 159900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/ochistitel-vozdukha-mijia-smart-air-purifier-6-plus-eu/",
+        "brand": null,
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20791_0_6_nnq0PC_160.webp",
-        "mpn": null,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/fe4/7tbqt7pdbalsdehmu7t1h31cpwbg5060/95061_1.jpg",
+        "mpn": "AC-M35-SC",
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-11-16T18:56:32+00:00"
       },
       "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 10.5,
-      "base_price": 379970,
+      "drop_pct": null,
+      "fair_discount": 10.4,
+      "base_price": 178500,
       "pump_price": null,
-      "value_score": 37,
+      "value_score": 42,
       "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.5
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -8054,93 +8080,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1622083",
-        "title": "Блинница Russell Hobbs 20920-56, Black",
-        "price": 30300,
-        "old_price": 32990,
-        "url": "https://shop.kz/offer/blinnitsa-russell-hobbs-20920-56-black/",
-        "brand": "Russell Hobbs",
-        "category": "Вафельницы, блинницы",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 8,
-        "image": "https://static.shop.kz/upload/iblock/253/c08j5nnghgmzvuuichmxv2md2cjq9j44/174507s1.jpg",
-        "mpn": "20920-56",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 8,
-      "fair_discount": 8.2,
-      "base_price": 32990,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1659149",
-        "title": "Машинка для стрижки волос Wahl Baldfader, Black",
-        "price": 33990,
-        "old_price": 36990,
-        "url": "https://shop.kz/offer/mashinka-dlya-strizhki-volos-wahl-baldfader-black/",
-        "brand": "Wahl",
-        "category": "Машинки для стрижки, триммеры",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 8,
-        "image": "https://static.shop.kz/upload/iblock/dc5/zijoh0o327ysptyn39wjalh7rhvwldjc/182293o200.JPG",
-        "mpn": "20107.0460",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 8,
-      "fair_discount": 8.1,
-      "base_price": 36990,
-      "pump_price": null,
-      "value_score": 36,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "636368",
-        "title": "Робот-пылесос Roborock Saros 10R Черный S91COP",
-        "price": 499990,
-        "old_price": 599990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-roborock-saros-10r",
-        "brand": "Roborock",
-        "category": "robotiy_piylesosiy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 17,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_230_0_2_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 17,
-      "fair_discount": 7.4,
-      "base_price": 539990,
-      "pump_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 9.6
     }
   ],
   "shops": [
@@ -8154,8 +8093,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-19T10:44:59+00:00",
-      "item_count": 2779,
+      "last_crawl": "2026-11-19T21:00:39+00:00",
+      "item_count": 2781,
       "status": "ok"
     },
     {
@@ -8168,28 +8107,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-19T10:44:59+00:00",
-      "item_count": 3810,
+      "last_crawl": "2026-11-19T21:00:39+00:00",
+      "item_count": 3864,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-19T10:44:59+00:00",
-      "item_count": 10107,
+      "last_crawl": "2026-11-19T21:00:39+00:00",
+      "item_count": 10105,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-19T10:44:59+00:00",
-      "item_count": 2027,
+      "last_crawl": "2026-11-19T21:00:39+00:00",
+      "item_count": 2438,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31304,
-    "total_deals": 262,
+    "total_products": 31769,
+    "total_deals": 260,
     "avg_discount": 49.0
   }
 }
