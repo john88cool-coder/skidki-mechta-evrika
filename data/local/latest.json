@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T13:21:53.013368+00:00",
+  "updated_at": "2026-11-19T15:23:06.960094+00:00",
   "deals": [
     {
       "product": {
@@ -49,6 +49,33 @@
       "value_score": 21,
       "is_pick": false,
       "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016163",
+        "title": "Смартфон Samsung Galaxy S25 5G 128GB Silver Shadow (SM-S931) BZSBS",
+        "price": 129990,
+        "old_price": 579890,
+        "url": "https://www.mechta.kz/product/smartfon-samsung-galaxy-s25-5g-128gb-silver-shadow-sm-s931-bzsbs/",
+        "brand": "Samsung",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 78,
+        "image": "https://pi.mdev.kz/9f7aeb93-0a0f-4fcf-a4a9-dc7f7b6ff8a7?w=400",
+        "first_seen": "2026-11-19T15:22:49+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 78,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
       "inflated_gap": null
     },
     {
@@ -1328,33 +1355,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200005088",
-        "title": "Наушники KAIBOAUDIO с костной проводимостью Buds Wave 1 (белый)",
-        "price": 22990,
-        "old_price": 59990,
-        "url": "https://www.mechta.kz/product/naushniki-kaiboaudio-s-kostnoy-provodimostyu-buds-wave-1-belyy/",
-        "brand": "KaiboAudio",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 22990,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200023132",
         "title": "Пылесос DREAME DF 10 Pro",
         "price": 39990,
@@ -2037,8 +2037,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-19T13:21:43+00:00",
-      "item_count": 7916,
+      "last_crawl": "2026-11-19T15:22:49+00:00",
+      "item_count": 7915,
       "status": "ok"
     },
     {
@@ -2078,7 +2078,7 @@
     }
   ],
   "stats": {
-    "total_products": 7916,
+    "total_products": 7915,
     "total_deals": 75,
     "avg_discount": 63
   }
