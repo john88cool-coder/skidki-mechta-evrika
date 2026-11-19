@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T00:44:56.068614+00:00",
+  "updated_at": "2026-11-19T10:45:18.720954+00:00",
   "deals": [
     {
       "product": {
@@ -155,6 +155,35 @@
         "Честная скидка"
       ],
       "inflated_gap": 10.1
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1459355",
+        "title": "Смарт часы HUAWEI WATCH GT 6 (41mm), White",
+        "price": 120215,
+        "old_price": 154990,
+        "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-41mm-white",
+        "brand": "Huawei",
+        "category": "Все Smart часы",
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 22,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/x8Z95TAow/smart-casy-huawei-watch-gt-6-41mm-white-w160.webp",
+        "mpn": null,
+        "rating": 4.94,
+        "reviews_count": 17,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 22,
+      "fair_discount": 7.4,
+      "base_price": 129890,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 14.6
     },
     {
       "product": {
@@ -330,16 +359,15 @@
       },
       "signal": "deal",
       "drop_pct": 67,
-      "fair_discount": 25.9,
-      "base_price": 53990,
+      "fair_discount": 0.0,
+      "base_price": 39990,
       "pump_price": null,
-      "value_score": 65,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 41.1
+      "inflated_gap": 67.0
     },
     {
       "product": {
@@ -459,7 +487,7 @@
       "fair_discount": 0.0,
       "base_price": 260990,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -837,6 +865,38 @@
         "Рисованная?"
       ],
       "inflated_gap": 60.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "649838",
+        "title": "TWS Наушники HUAWEI FreeBuds 7i Pink Conch-T010",
+        "price": 19989,
+        "old_price": 49990,
+        "url": "https://www.sulpak.kz/g/naushniki-huawei-freebuds-7i-pink-conch-t010",
+        "brand": "HUAWEI",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 60,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3629_0_1_XgI2xa_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 60,
+      "fair_discount": 42.8,
+      "base_price": 34929,
+      "pump_price": null,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 37.3
     },
     {
       "product": {
@@ -2114,7 +2174,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116789,
+        "price": 116787,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -2326,37 +2386,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "628343",
-        "title": "OLED телевизор Haier 77 OLED S9 Pro",
-        "price": 999990,
-        "old_price": 2099990,
-        "url": "https://www.sulpak.kz/g/televizoriy-haier-77-oled-s9-pro",
-        "brand": "Haier",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3154_0_6_gy01JJ_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 999990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
     },
     {
       "product": {
@@ -2577,6 +2606,71 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "628343",
+        "title": "OLED телевизор Haier 77 OLED S9 Pro",
+        "price": 999990,
+        "old_price": 2099990,
+        "url": "https://www.sulpak.kz/g/televizoriy-haier-77-oled-s9-pro",
+        "brand": "Haier",
+        "category": "led_oled_televizoriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3154_0_6_gy01JJ_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 0.0,
+      "base_price": 999990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 52.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640276",
+        "title": "LED телевизор Samsung UE85U8000FUXCE",
+        "price": 555490,
+        "old_price": 1149990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-ue85u8000fuxce",
+        "brand": "Samsung",
+        "category": "led_oled_televizoriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20498_0_6_xn7UL4_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 30.6,
+      "base_price": 799990,
+      "pump_price": null,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.4
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "296620",
         "title": "Компьютер NEO Game A10 (Ci5-13400F/RTX 5060 8GB/32 GB/SSD 1TB/H610M/MSI MAG FORGE M100A)",
@@ -2722,37 +2816,6 @@
       "drop_pct": 51,
       "fair_discount": 0.0,
       "base_price": 12990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 51.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "633168",
-        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 165987,
-        "old_price": 341990,
-        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
-        "brand": "HUAWEI",
-        "category": "smart_chasiy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 51,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 51,
-      "fair_discount": 0.0,
-      "base_price": 181677,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -3789,37 +3852,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "623445",
-        "title": "Стиральная машина Haier HW60-BP12929AE",
-        "price": 145990,
-        "old_price": 289990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-haier-hw60-bp12929ae",
-        "brand": "Haier",
-        "category": "stiralniye_mashiniy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1486_0_1_Pd3jp9_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-05T23:59:28+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 145990,
-      "pump_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "281516",
         "title": "Смарт-часы HONOR CHOICE Watch Black",
@@ -4317,37 +4349,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "28020",
-        "title": "Блендер Moulinex DD833810",
-        "price": 22990,
-        "old_price": 43990,
-        "url": "https://evrika.com/catalog/blender-moulinex-dd833810/p28020",
-        "brand": null,
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 48,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/R91QzFUhqRhKNwtuStfFlMgNoVNGf52L7lVxT8OF.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 48,
-      "fair_discount": 0.0,
-      "base_price": 22990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 48.0
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1728437",
         "title": "Кофеварка Centek CT-1164, Black-Steel (SN:Y23041164001170)",
@@ -4402,6 +4403,37 @@
       "base_price": 37990,
       "pump_price": null,
       "value_score": 27,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 48.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "642291",
+        "title": "Электробритва мужская Braun 52-A1000s",
+        "price": 44990,
+        "old_price": 86890,
+        "url": "https://www.sulpak.kz/g/elektrobritviy-braun-52-a1000s",
+        "brand": "Braun",
+        "category": "britviy_i_epilyatoriy",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 48,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_27_463_0_1_4sGMF6_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 48,
+      "fair_discount": 0.0,
+      "base_price": 44990,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4625,37 +4657,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 25.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1464218",
-        "title": "Наушники беспроводные Huawei FreeClip2, черный",
-        "price": 76390,
-        "old_price": 99990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freeclip2-cernyj",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/ZJl4auPq/nausniki-besprovodnye-huawei-freeclip2-cernyj-w160.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 34,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 24,
-      "fair_discount": 0.0,
-      "base_price": 76390,
-      "pump_price": null,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 24.0
     },
     {
       "product": {
@@ -5203,6 +5204,37 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1696943",
+        "title": "Стиральная машина Бирюса WM-MT813/05 M, Metallic",
+        "price": 198700,
+        "old_price": null,
+        "url": "https://shop.kz/offer/stiralnaya-mashina-biryusa-wm-mt813-05-m-metallic/",
+        "brand": "Бирюса",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/8c3/jk0zxxpfty1xfzq6ebr98tp49yuet17r/187385e1.jpg",
+        "mpn": "WM-MT813/05 M",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 27.5,
+      "base_price": 274100,
+      "pump_price": null,
+      "value_score": 72,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "638976",
         "title": "Встраиваемый духовый шкаф Electrolux LOE8H39Z",
@@ -5255,7 +5287,7 @@
       "signal": "drop",
       "drop_pct": null,
       "fair_discount": 26.9,
-      "base_price": 3980810,
+      "base_price": 3980730,
       "pump_price": null,
       "value_score": 76,
       "is_pick": false,
@@ -5294,6 +5326,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "46914",
+        "title": "Фен для волос Dreame AZD20A Dazzle Gold",
+        "price": 109990,
+        "old_price": 146990,
+        "url": "https://evrika.com/catalog/fen-dlya-volos-dreame-azd20a-dazzle-gold/p46914",
+        "brand": null,
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/7rYp3quhRUSgwuo3tBzPCr8jHp9AKY7CxBYymt7g.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 25.2,
+      "base_price": 146990,
+      "pump_price": null,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -5423,96 +5486,34 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "297493",
-        "title": "Чайник Zigmund&Shtain KE-928 черный",
-        "price": 16710,
-        "old_price": 21990,
-        "url": "https://www.technodom.kz/p/chajnik-zigmundshtain-ke-928-chernyj-297493",
-        "brand": "Zigmund&Shtain",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://api.technodom.kz/f3/api/v1/images/297493_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 24.0,
-      "base_price": 21990,
-      "pump_price": null,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "286054",
-        "title": "Тостер Zigmund&Shtain ST-89",
-        "price": 18230,
-        "old_price": 23990,
-        "url": "https://www.technodom.kz/p/toster-zigmundshtain-st-89-286054",
-        "brand": "Zigmund&Shtain",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 24,
-        "image": "https://api.technodom.kz/f3/api/v1/images/286054_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 24,
-      "fair_discount": 24.0,
-      "base_price": 23990,
-      "pump_price": null,
-      "value_score": 59,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "265154",
-        "title": "Встраиваемая посудомоечная машина Beko BDIS38122Q",
-        "price": 229990,
-        "old_price": 299990,
-        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-beko-bdis38122q-265154",
-        "brand": "Beko",
-        "category": "Бытовая техника",
+        "shop": "shopkz",
+        "sku": "1707449",
+        "title": "Стиральная машина Бирюса WM-ML612/10, White",
+        "price": 114900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/stiralnaya-mashina-biryusa-wm-ml612-10-white/",
+        "brand": "Бирюса",
+        "category": "Стиральные машины",
         "group": "home",
         "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://api.technodom.kz/f3/api/v1/images/265154_1as.webp",
-        "mpn": null,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/f0f/diw9dh4sh0ckt3v01gtp1l3ol2y9ysza/190876s1.jpg",
+        "mpn": "WM-ML612/10",
         "rating": null,
-        "reviews_count": 0,
+        "reviews_count": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 23.3,
-      "base_price": 299990,
+      "drop_pct": null,
+      "fair_discount": 24.4,
+      "base_price": 151900,
       "pump_price": null,
-      "value_score": 64,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": -0.3
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6108,6 +6109,161 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1740581",
+        "title": "Наушники soundcore Space One Black",
+        "price": 49900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/naushniki-soundcore-space-one-black/",
+        "brand": null,
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/c36/r3t602bfag743jp5lo26r6s20in29ecp/84897_1.jpg",
+        "mpn": "A3035",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-13T18:05:43+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 62400,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1740584",
+        "title": "Наушники soundcore Space One Blue",
+        "price": 49900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/naushniki-soundcore-space-one-blue/",
+        "brand": null,
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/a13/cuhv1pwy563kya4sry01lcyq6bu8ei12/84899_1.jpg",
+        "mpn": "A3035",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-13T18:05:43+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 62400,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1740593",
+        "title": "Наушники soundcore Space One White",
+        "price": 49900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/naushniki-soundcore-space-one-white/",
+        "brand": null,
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/1ef/7vbh8yve62xj0jiz0cmg01ionbnhfy8x/84898_1.jpg",
+        "mpn": "A3035",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-13T18:05:43+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 62400,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1740587",
+        "title": "Наушники soundcore Space One Pro Black",
+        "price": 79900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/naushniki-soundcore-space-one-pro-black/",
+        "brand": null,
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/5d9/y7ng46cp6tawhe3vxjeczp93g4cu1sb1/84900_1.jpg",
+        "mpn": "A3062",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-13T18:05:43+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 99900,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1740590",
+        "title": "Наушники soundcore Space One Pro White",
+        "price": 79900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/naushniki-soundcore-space-one-pro-white/",
+        "brand": null,
+        "category": "Наушники и гарнитуры",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/eae/b556blbfyspocedw5llgvigj87zz5zzc/84901_1.jpg",
+        "mpn": "A3062",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-13T18:05:43+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 99900,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "914292",
         "title": "Колонка портативная Sony SRS-XB23 Extra Bass (2.0), Green",
         "price": 39990,
@@ -6198,37 +6354,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "292593",
-        "title": "Картридж Pantum PC-211P Black (Для P2200/P2500/M6500/M6550/M6600)",
-        "price": 19990,
-        "old_price": 24990,
-        "url": "https://www.technodom.kz/p/kartridzh-pantum-pc-211p-black-dlya-p2200p2500m6500m6550m6600-292593",
-        "brand": "Pantum",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://api.technodom.kz/f3/api/v1/images/292593_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.0,
-      "base_price": 24990,
-      "pump_price": null,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -7054,6 +7179,100 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "299056",
+        "title": "Портативный внешний аккумулятор, Baseus, EnerFill FC31 (P10082106123-00), 10000mAh, 22.5W, Черный",
+        "price": 15990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/portativnyj-vneshnij-akkumulyator-baseus-enerfill-fc31-p10082106123-00-10000mah-225w-chernyj-299056",
+        "brand": "Baseus",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/299056_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.8,
+      "base_price": 18990,
+      "pump_price": null,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "299057",
+        "title": "Портативный внешний аккумулятор, Baseus, EnerFill FC31 (P10082106213-00), 10000mAh, 22.5W Белый",
+        "price": 15990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/portativnyj-vneshnij-akkumulyator-baseus-enerfill-fc31-p10082106213-00-10000mah-225w-belyj-299057",
+        "brand": "Baseus",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/299057_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.8,
+      "base_price": 18990,
+      "pump_price": null,
+      "value_score": 51,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302142",
+        "title": "Беспроводной Маршрутизатор ASUS TUF Gaming BE6500 (90IG0920-MO9C00)",
+        "price": 83490,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/besprovodnoj-marshrutizator-asus-tuf-gaming-be6500-90ig0920-mo9c00-302142",
+        "brand": "Asus",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302142_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.7,
+      "base_price": 98990,
+      "pump_price": null,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "636421",
         "title": "Робот-пылесос Dreame L40s PRO Ultra",
@@ -7171,7 +7390,7 @@
       "fair_discount": 15.2,
       "base_price": 329990,
       "pump_price": null,
-      "value_score": 33,
+      "value_score": 39,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 7.4
@@ -7272,31 +7491,31 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "298364",
-        "title": "Блендер стационарный Zigmund&Shtain BS-488 D",
+        "sku": "301402",
+        "title": "Кулер для кейса Lian Li UNI FAN TL Wireless LCD 1.6\" ARGB Black 120mm x 3 Pack 1900rpm",
         "price": 59990,
-        "old_price": 69990,
-        "url": "https://www.technodom.kz/p/blender-stacionarnyj-zigmundshtain-bs-488-d-298364",
-        "brand": "Zigmund&Shtain",
-        "category": "Техника для кухни",
-        "group": "kitchen",
+        "old_price": 74990,
+        "url": "https://www.technodom.kz/p/Kuler dlya kejsa Lian Li UNI FAN TL Wireless LCD 1.6\" ARGB Black 120mm x 3 Pack 1900rpm-301402",
+        "brand": "Lian Li",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://api.technodom.kz/f3/api/v1/images/298364_1.webp",
+        "discount_pct": 20,
+        "image": "https://api.technodom.kz/f3/api/v1/images/301402_1.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": 0,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 14,
+      "drop_pct": 20,
       "fair_discount": 14.3,
       "base_price": 69990,
       "pump_price": null,
-      "value_score": 42,
+      "value_score": 48,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": -0.3
+      "inflated_gap": 5.7
     },
     {
       "product": {
@@ -7451,6 +7670,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "281542",
+        "title": "Чехол Apple Magic Keyboard для iPad Pro 13‑inch (M4) - Russian - Black (MWR53RS/A)",
+        "price": 239490,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-apple-magic-keyboard-dlya-ipad-pro-13inch-m4-russian-black-mwr53rs-281542",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/chehol_apple_magic_keyboard_dlya_ipad_pro_13inch_m4_russian_black_mwr53rs_281542_1new.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.2,
+      "base_price": 275990,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1262949",
         "title": "Планшет Lenovo Yoga Tab 11 YT-J706X, 128GB, Wi-Fi+4G, Storm Grey",
@@ -7541,6 +7791,35 @@
     {
       "product": {
         "shop": "shopkz",
+        "sku": "1680125",
+        "title": "Электрическая плита Gefest ЭП Н Д 6560-03 0295",
+        "price": 214300,
+        "old_price": null,
+        "url": "https://shop.kz/offer/elektricheskaya-plita-gefest-ep-n-d-6560-03-0295/",
+        "brand": "Gefest",
+        "category": "Плиты",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/bf0/g5x1cb3ss9prr9m5q8q55mo8sce5804i/184828s200.jpg",
+        "mpn": "ЭП Н Д 6560-03 0295",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 11.7,
+      "base_price": 242800,
+      "pump_price": null,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "shopkz",
         "sku": "1623802",
         "title": "Bluetooth гарнитура A4Tech Bloody MR590 Sports Black",
         "price": 23990,
@@ -7618,7 +7897,7 @@
       "signal": "drop",
       "drop_pct": 32,
       "fair_discount": 10.5,
-      "base_price": 379974,
+      "base_price": 379970,
       "pump_price": null,
       "value_score": 37,
       "is_pick": false,
@@ -7875,8 +8154,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-19T00:44:36+00:00",
-      "item_count": 2791,
+      "last_crawl": "2026-11-19T10:44:59+00:00",
+      "item_count": 2779,
       "status": "ok"
     },
     {
@@ -7889,28 +8168,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-19T00:44:36+00:00",
-      "item_count": 3919,
+      "last_crawl": "2026-11-19T10:44:59+00:00",
+      "item_count": 3810,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-19T00:44:36+00:00",
-      "item_count": 10075,
+      "last_crawl": "2026-11-19T10:44:59+00:00",
+      "item_count": 10107,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-19T00:44:36+00:00",
-      "item_count": 2245,
+      "last_crawl": "2026-11-19T10:44:59+00:00",
+      "item_count": 2027,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31611,
-    "total_deals": 253,
-    "avg_discount": 50.0
+    "total_products": 31304,
+    "total_deals": 262,
+    "avg_discount": 49.0
   }
 }
