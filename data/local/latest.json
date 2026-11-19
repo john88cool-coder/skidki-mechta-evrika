@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T05:22:25.816770+00:00",
+  "updated_at": "2026-11-19T07:21:28.981201+00:00",
   "deals": [
     {
       "product": {
@@ -1383,34 +1383,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200012003",
-        "title": "Стеклокерамическая плита HANSA FCCW 64103",
-        "price": 199990,
-        "old_price": 299990,
-        "url": "https://www.mechta.kz/product/steklokeramicheskaya-plita-hansa-fccw-64103/",
-        "brand": "Hansa",
-        "category": "Электрические плиты",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 33,
-        "image": "https://pi.mdev.kz/4b5288e8-2ebc-11ef-a266-005056b6e990?w=400",
-        "first_seen": "2026-10-28T04:44:53+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 33,
-      "fair_discount": 33.3,
-      "base_price": 299990,
-      "value_score": 81,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000007036",
         "title": "Обогреватель ARDESTO OFH-11X1",
         "price": 21990,
@@ -2065,8 +2037,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-19T05:22:13+00:00",
-      "item_count": 7922,
+      "last_crawl": "2026-11-19T07:21:21+00:00",
+      "item_count": 7918,
       "status": "ok"
     },
     {
@@ -2106,8 +2078,8 @@
     }
   ],
   "stats": {
-    "total_products": 7922,
-    "total_deals": 76,
-    "avg_discount": 63.0
+    "total_products": 7918,
+    "total_deals": 75,
+    "avg_discount": 63
   }
 }
