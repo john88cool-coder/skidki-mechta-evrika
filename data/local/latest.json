@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T07:21:28.981201+00:00",
+  "updated_at": "2026-11-19T11:22:29.735476+00:00",
   "deals": [
     {
       "product": {
@@ -1421,7 +1421,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/4ccb22d8-f548-4a62-ad24-58b33938625e?w=400",
-        "first_seen": "2026-10-14T21:20:34+00:00"
+        "first_seen": "2026-10-15T11:22:43+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1583,7 +1583,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://pi.mdev.kz/ea9fdf7b-b76f-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-14T21:20:34+00:00"
+        "first_seen": "2026-10-15T11:22:43+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -1693,7 +1693,7 @@
         "in_stock": true,
         "discount_pct": 45,
         "image": "https://pi.mdev.kz/8c525bb9-ac6d-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-14T21:20:34+00:00"
+        "first_seen": "2026-10-15T11:22:43+00:00"
       },
       "signal": "drop",
       "drop_pct": 45,
@@ -1721,7 +1721,7 @@
         "in_stock": true,
         "discount_pct": 50,
         "image": "https://pi.mdev.kz/a53873fa-a55e-11ef-a26d-005056b6e990?w=400",
-        "first_seen": "2026-10-14T21:20:34+00:00"
+        "first_seen": "2026-10-15T11:22:43+00:00"
       },
       "signal": "drop",
       "drop_pct": 50,
@@ -2037,8 +2037,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-19T07:21:21+00:00",
-      "item_count": 7918,
+      "last_crawl": "2026-11-19T11:22:21+00:00",
+      "item_count": 7913,
       "status": "ok"
     },
     {
@@ -2078,7 +2078,7 @@
     }
   ],
   "stats": {
-    "total_products": 7918,
+    "total_products": 7913,
     "total_deals": 75,
     "avg_discount": 63
   }
