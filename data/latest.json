@@ -1,38 +1,6 @@
 {
-  "updated_at": "2026-11-18T17:38:57.811469+00:00",
+  "updated_at": "2026-11-19T00:44:56.068614+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "227013",
-        "title": "Электрокамин RealFlame MANHATTAN 1560 (MHT156)",
-        "price": 130990,
-        "old_price": 282490,
-        "url": "https://www.technodom.kz/p/elektrokamin-realflame-manhattan-1560-mht156-227013",
-        "brand": "RealFlame",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 54,
-        "image": "https://api.technodom.kz/f3/api/v1/images/elektrokamin_realflame_manhattan_1560_mht156_227013_1a.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 54,
-      "fair_discount": 40.5,
-      "base_price": 219990,
-      "pump_price": null,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 13.5
-    },
     {
       "product": {
         "shop": "evrika",
@@ -156,6 +124,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1459351",
+        "title": "Смарт часы Huawei Watch GT 6 (46mm), Black",
+        "price": 106690,
+        "old_price": 154990,
+        "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-46mm-black",
+        "brand": "Huawei",
+        "category": "Все Smart часы",
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/bxO05TLKo/smart-casy-huawei-watch-gt-6-46mm-black-w160.webp",
+        "mpn": null,
+        "rating": 4.97,
+        "reviews_count": 37,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 31,
+      "fair_discount": 20.9,
+      "base_price": 134890,
+      "pump_price": null,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 10.1
     },
     {
       "product": {
@@ -2081,6 +2080,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "227013",
+        "title": "Электрокамин RealFlame MANHATTAN 1560 (MHT156)",
+        "price": 130990,
+        "old_price": 282490,
+        "url": "https://www.technodom.kz/p/elektrokamin-realflame-manhattan-1560-mht156-227013",
+        "brand": "RealFlame",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://api.technodom.kz/f3/api/v1/images/elektrokamin_realflame_manhattan_1560_mht156_227013_1a.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 0.0,
+      "base_price": 130990,
+      "pump_price": null,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 54.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
@@ -2115,7 +2145,7 @@
         "shop": "sulpak",
         "sku": "624411",
         "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
-        "price": 222690,
+        "price": 223090,
         "old_price": 469990,
         "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
         "brand": "Haier",
@@ -4181,17 +4211,16 @@
       },
       "signal": "deal",
       "drop_pct": 49,
-      "fair_discount": 15.0,
+      "fair_discount": 0.0,
       "base_price": 1999990,
       "pump_price": null,
-      "value_score": 59,
+      "value_score": 45,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
       ],
-      "inflated_gap": 34.0
+      "inflated_gap": 49.0
     },
     {
       "product": {
@@ -4630,37 +4659,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1464063",
-        "title": "Умная колонка Яндекс Мини 3 Про, зеленый YNDX-00059",
-        "price": 64990,
-        "old_price": 82990,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeks-mini-3-pro-zelenyj-yndx-00059",
-        "brand": "Яндекс",
-        "category": "Яндекс",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 22,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/y8YWnUpxZZ/umnaa-kolonka-andeks-mini-3-pro-zelenyj-yndx-00059-w160.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 22,
-      "fair_discount": 0.0,
-      "base_price": 64990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 22.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "294201",
         "title": "Чехол для смартфона iPhone 17 Pro Clear Case with MagSafe (MGFT4ZM/A)",
@@ -5080,70 +5078,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "291868",
-        "title": "Смартфон Galaxy Z Fold7 5G 12/512Gb Silver shadow",
-        "price": 849990,
-        "old_price": 1209890,
-        "url": "https://www.technodom.kz/p/smartfon-gsm-galaxy-z-fold7-5g-12-512gb-8-200-silver-shadow-sm-f966bzscskz-291868",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://api.technodom.kz/f3/api/v1/images/291868_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 9,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 29.7,
-      "base_price": 1209890,
-      "pump_price": null,
-      "value_score": 79,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1222872",
-        "title": "Блендер Kitfort КТ-3041-2, Black-Light green",
-        "price": 15100,
-        "old_price": 21190,
-        "url": "https://shop.kz/offer/blender-kitfort-kt-3041-2-black-light-green/",
-        "brand": "Kitfort",
-        "category": "Блендеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://static.shop.kz/upload/iblock/9cd/158157o13.jpg",
-        "mpn": "KT-3041-2",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 28.7,
-      "base_price": 21190,
-      "pump_price": null,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "294906",
         "title": "Клавиатура Apple Magic Keyboard Black для iPad Air 13-inch (M3), (MGYY4RS/A)",
         "price": 179990,
@@ -5233,38 +5167,6 @@
       "is_pick": false,
       "badges": [
         "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "291864",
-        "title": "Смартфон Samsung Galaxy Z Fold7 5G 12/256Gb Jetblack",
-        "price": 799990,
-        "old_price": 1119890,
-        "url": "https://www.technodom.kz/p/smartfon-gsm-galaxy-z-fold7-5g-12-256gb-8-200-jetblack-sm-f966bzkbskz-291864",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://api.technodom.kz/f3/api/v1/images/291864_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 9,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 28.6,
-      "base_price": 1119890,
-      "pump_price": null,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
       ],
       "inflated_gap": 0.4
     },
@@ -5894,102 +5796,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "289294",
-        "title": "Смартфон Samsung Galaxy A36 8/128GB Awesome Lavender",
-        "price": 149990,
-        "old_price": 189990,
-        "url": "https://www.technodom.kz/p/smartfon-gsm-samsung-galaxy-a36-81286750-awesome-lavender-sm-a366elvdskz-289294",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://api.technodom.kz/f3/api/v1/images/289294_1.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 225,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 189890,
-      "pump_price": null,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "289296",
-        "title": "Смартфон Samsung Galaxy A36 8/128GB Awesome White",
-        "price": 149990,
-        "old_price": 189990,
-        "url": "https://www.technodom.kz/p/smartfon-samsung-galaxy-a36-awesome-white-sm-a366ezadskz-289296",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://api.technodom.kz/f3/api/v1/images/289296_1.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 225,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 189890,
-      "pump_price": null,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "289298",
-        "title": "Смартфон Samsung Galaxy A36 8/128GB Awesome Black",
-        "price": 149990,
-        "old_price": 189990,
-        "url": "https://www.technodom.kz/p/smartfon-samsung-galaxy-a36-awesome-black-sm-a366ezkdskz-289298",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://api.technodom.kz/f3/api/v1/images/289298_1.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 225,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.0,
-      "base_price": 189890,
-      "pump_price": null,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1602526",
         "title": "Колонка портативная Edifier PK305, Gray-Black",
@@ -6036,38 +5842,6 @@
         "mpn": null,
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 20,
-      "fair_discount": 20.5,
-      "base_price": 439990,
-      "pump_price": null,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.5
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "287806",
-        "title": "Кондиционер Samsung AR80F09CABWNER",
-        "price": 349990,
-        "old_price": 439990,
-        "url": "https://www.technodom.kz/p/kondicioner-samsung-ar80f09cabwner-287806",
-        "brand": "Samsung",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://api.technodom.kz/f3/api/v1/images/287806_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
@@ -6807,102 +6581,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "289295",
-        "title": "Смартфон Samsung Galaxy A36 8/256GB Awesome Lavender",
-        "price": 169990,
-        "old_price": 209990,
-        "url": "https://www.technodom.kz/p/smartfon-samsung-galaxy-a36-awesome-lavender-sm-a366elvgskz-289295",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://api.technodom.kz/f3/api/v1/images/289295_1.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 225,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.0,
-      "base_price": 209890,
-      "pump_price": null,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "289297",
-        "title": "Смартфон Samsung Galaxy A36 8/256GB Awesome White",
-        "price": 169990,
-        "old_price": 209990,
-        "url": "https://www.technodom.kz/p/smartfon-samsung-galaxy-a36-awesome-white-sm-a366ezagskz-289297",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://api.technodom.kz/f3/api/v1/images/289297_1.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 225,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.0,
-      "base_price": 209890,
-      "pump_price": null,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "289299",
-        "title": "Смартфон Samsung Galaxy A36 8/256GB Awesome Black",
-        "price": 169990,
-        "old_price": 209990,
-        "url": "https://www.technodom.kz/p/smartfon-samsung-galaxy-a36-awesome-black-sm-a366ezkgskz-289299",
-        "brand": "Samsung",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://api.technodom.kz/f3/api/v1/images/289299_1.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 225,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.0,
-      "base_price": 209890,
-      "pump_price": null,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "655788",
         "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
@@ -7121,6 +6799,230 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "302453",
+        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Magenta (MK8T4ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-magenta-mk8t4zm-302453",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302453_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302455",
+        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Olive (MK8V4ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-olive-mk8v4zm-302455",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302455_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302456",
+        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Crisp Blue (MK8W4ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-crisp-blue-mk8w4zm-302456",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302456_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302457",
+        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Navy Blue (MK8X4ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-navy-blue-mk8x4zm-302457",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302457_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302458",
+        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Black (MK8Y4ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-black-mk8y4zm-302458",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302458_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302463",
+        "title": "Чехол для смартфона iPhone 18 Pro Max Silicone Case with MagSafe – Navy Blue (MK944ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-silicone-case-with-magsafe-navy-blue-mk944zm-a-302463",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302463_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "302464",
+        "title": "Чехол для смартфона iPhone 18 Pro Max Silicone Case with MagSafe – Black (MK954ZM/A)",
+        "price": 29990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-silicone-case-with-magsafe-black-mk954zm-a-302464",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/302464_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T12:04:05+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1622134",
         "title": "Отпариватель Russell Hobbs 28040-56, Brown",
@@ -7184,6 +7086,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "651713",
+        "title": "Кофемашина Delonghi ECAM220.50.BG",
+        "price": 269990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/kofemashiniy-delonghi-ecam22050bg",
+        "brand": "Delonghi",
+        "category": "kofemashiniy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_244_0_1_QRcoZw_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-15T11:55:34+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.6,
+      "base_price": 319990,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1727336",
         "title": "Моноблок HP ProStudio 4 AiO G1i (BY7E6ET)",
@@ -7213,6 +7146,35 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "289311",
+        "title": "Встраиваемая посудомоечная машина Midea MDWB-6029TQ",
+        "price": 279990,
+        "old_price": 329990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-midea-mdwb-6029tq-289311",
+        "brand": "Midea",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://api.technodom.kz/f3/api/v1/images/289311_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 3,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.2,
+      "base_price": 329990,
+      "pump_price": null,
+      "value_score": 33,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 7.4
     },
     {
       "product": {
@@ -7309,32 +7271,125 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1714553",
-        "title": "Смартфон Oscal Pilot 5, 8 GB, 256 GB, Black",
-        "price": 151990,
-        "old_price": 179990,
-        "url": "https://shop.kz/offer/smartfon-oscal-pilot-5-8-gb-256-gb-black/",
-        "brand": "Oscal",
-        "category": "Смартфоны",
-        "group": "phones",
+        "shop": "technodom",
+        "sku": "298364",
+        "title": "Блендер стационарный Zigmund&Shtain BS-488 D",
+        "price": 59990,
+        "old_price": 69990,
+        "url": "https://www.technodom.kz/p/blender-stacionarnyj-zigmundshtain-bs-488-d-298364",
+        "brand": "Zigmund&Shtain",
+        "category": "Техника для кухни",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 16,
-        "image": "https://static.shop.kz/upload/iblock/1e3/a062sa5qp2718qkootjyfmyrslx35b12/194143o1.JPG",
-        "mpn": "PILOT 5 BLACK 8/256GB",
+        "discount_pct": 14,
+        "image": "https://api.technodom.kz/f3/api/v1/images/298364_1.webp",
+        "mpn": null,
         "rating": null,
-        "reviews_count": null,
+        "reviews_count": 0,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 16,
-      "fair_discount": 14.1,
-      "base_price": 176990,
+      "drop_pct": 14,
+      "fair_discount": 14.3,
+      "base_price": 69990,
       "pump_price": null,
-      "value_score": 40,
+      "value_score": 42,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 1.9
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657301",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Sky Blue / Z1L9000BT",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-sky-blue-a3449-m5-16gb-512gb-ssd-rus-z1l9000bt",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10047_0_1_SVqU2N_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T23:57:02+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657302",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Midnight / Z1L6000BQ",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-midnight-a3449-m5-16gb-512gb-ssd-rus-z1l6000bq",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10048_0_1_i1qRSa_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T16:29:23+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657304",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Silver / Z1L0000BR",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-silver-a3449-m5-16gb-512gb-ssd-rus-z1l0000br",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10050_0_1_763KO0_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T16:29:23+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -7393,37 +7448,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 10.7
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1680230",
-        "title": "Смартфон Redmi Note 14, 8 GB, 256 GB, Ocean Blue (24117RN760)",
-        "price": 95490,
-        "old_price": null,
-        "url": "https://shop.kz/offer/smartfon-redmi-note-14-8-gb-256-gb-ocean-blue-24117rn760/",
-        "brand": "Xiaomi",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/5af/0yr91cnd3pd7j7z14gwjvl0jq8lss544/184906z200.jpg",
-        "mpn": "24117RN760/408015",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 13.2,
-      "base_price": 109990,
-      "pump_price": null,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7594,7 +7618,7 @@
       "signal": "drop",
       "drop_pct": 32,
       "fair_discount": 10.5,
-      "base_price": 379978,
+      "base_price": 379974,
       "pump_price": null,
       "value_score": 37,
       "is_pick": false,
@@ -7720,37 +7744,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -9.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1727879",
-        "title": "Ноутбук HP OmniBook Ultra Laptop Next Gen AI 14-kd0019ci, OLED (E1SF1EA)",
-        "price": 1238890,
-        "old_price": null,
-        "url": "https://shop.kz/offer/noutbuk-hp-omnibook-ultra-laptop-next-gen-ai-14-kd0019ci-oled-e1sf1ea/",
-        "brand": "HP",
-        "category": "Ноутбуки",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/ad9/2tz02hglq1k2hxwqc6jg4ocu33wajdpu/198619d1_1.JPG",
-        "mpn": "E1SF1EA",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-12T15:53:08+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 8.9,
-      "base_price": 1359990,
-      "pump_price": null,
-      "value_score": 43,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7882,8 +7875,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-18T17:38:36+00:00",
-      "item_count": 2792,
+      "last_crawl": "2026-11-19T00:44:36+00:00",
+      "item_count": 2791,
       "status": "ok"
     },
     {
@@ -7896,27 +7889,27 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-18T17:38:36+00:00",
-      "item_count": 3802,
+      "last_crawl": "2026-11-19T00:44:36+00:00",
+      "item_count": 3919,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-18T17:38:36+00:00",
-      "item_count": 10069,
+      "last_crawl": "2026-11-19T00:44:36+00:00",
+      "item_count": 10075,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-18T17:38:36+00:00",
-      "item_count": 2249,
+      "last_crawl": "2026-11-19T00:44:36+00:00",
+      "item_count": 2245,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31493,
+    "total_products": 31611,
     "total_deals": 253,
     "avg_discount": 50.0
   }
