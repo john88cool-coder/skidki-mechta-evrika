@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T05:21:26.579827+00:00",
+  "updated_at": "2026-11-20T07:22:45.033303+00:00",
   "deals": [
     {
       "product": {
@@ -1383,33 +1383,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000007036",
-        "title": "Обогреватель ARDESTO OFH-11X1",
-        "price": 21990,
-        "old_price": 31990,
-        "url": "https://www.mechta.kz/product/obogrevatel-ardesto-ofh-11x1/",
-        "brand": "Ardesto",
-        "category": "Масляные обогреватели",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/7a6300cc-00aa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 31.3,
-      "base_price": 31990,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000006457",
         "title": "Портативная колонка Bang&Olufsen Beosound Explore Black Anthracite",
         "price": 117990,
@@ -1927,8 +1900,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-20T05:21:16+00:00",
-      "item_count": 7919,
+      "last_crawl": "2026-11-20T07:22:37+00:00",
+      "item_count": 7903,
       "status": "ok"
     },
     {
@@ -1968,8 +1941,8 @@
     }
   ],
   "stats": {
-    "total_products": 7919,
-    "total_deals": 71,
-    "avg_discount": 63
+    "total_products": 7903,
+    "total_deals": 70,
+    "avg_discount": 63.5
   }
 }
