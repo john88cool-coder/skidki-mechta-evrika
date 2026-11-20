@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:00:57.329927+00:00",
+  "updated_at": "2026-11-20T03:42:37.525589+00:00",
   "deals": [
     {
       "product": {
@@ -2084,7 +2084,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116787,
+        "price": 116786,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -2101,40 +2101,9 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 116989,
+      "base_price": 116987,
       "pump_price": null,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 53.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624411",
-        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
-        "price": 223090,
-        "old_price": 469990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
-        "brand": "Haier",
-        "category": "duhoviye_shkafiy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": 0.0,
-      "base_price": 222990,
-      "pump_price": null,
-      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2322,6 +2291,37 @@
       "base_price": 999990,
       "pump_price": null,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 52.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624411",
+        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
+        "price": 224290,
+        "old_price": 469990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
+        "brand": "Haier",
+        "category": "duhoviye_shkafiy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 52,
+      "fair_discount": 0.0,
+      "base_price": 222990,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4381,130 +4381,6 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1453058",
-        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT021) Beige",
-        "price": 17890,
-        "old_price": 25990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/GAJqVtnyk/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige-w160.webp",
-        "mpn": null,
-        "rating": 4.98,
-        "reviews_count": 134,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 31,
-      "fair_discount": 0.0,
-      "base_price": 17890,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453057",
-        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT020) Black",
-        "price": 17890,
-        "old_price": 25990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/jeOv0SaDK/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black-w160.webp",
-        "mpn": null,
-        "rating": 4.96,
-        "reviews_count": 161,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 31,
-      "fair_discount": 0.0,
-      "base_price": 17890,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1464230",
-        "title": "Детский планшет HUAWEI MatePad SE 11\" 4GB/128GB Nebula Gray (Agassi6-W19BE)",
-        "price": 113890,
-        "old_price": 159990,
-        "url": "https://alser.kz/p/detskij-planset-huawei-matepad-se-11-4gb128gb-nebula-gray-agassi6-w19be",
-        "brand": "Huawei",
-        "category": "Все планшеты",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://s3s.alser.kz/uploads/products/vse-planshety/jeMNKc7Lm/detskij-planset-huawei-matepad-se-11-4gb128gb-nebula-gray-agassi6-w19be-w160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 29,
-      "fair_discount": 0.0,
-      "base_price": 113890,
-      "pump_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1153808",
-        "title": "Клавиатура+мышь Logitech Wireless Combo MK220 (920-003169)",
-        "price": 11500,
-        "old_price": 15690,
-        "url": "https://alser.kz/p/klaviatura-mysh-logitech-wireless-combo-mk220-920-003169",
-        "brand": "Logitech",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://s3s.alser.kz/uploads/products/klaviatury/M1EMmIWmq/klaviatura-mysh-logitech-wireless-combo-mk220-920-003169-w160.webp",
-        "mpn": null,
-        "rating": 4.95,
-        "reviews_count": 94,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 27,
-      "fair_discount": 0.0,
-      "base_price": 11500,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1420647",
         "title": "Умная колонка Яндекс.Станция Миди с Zigbee, Серая (YNDX-00054GRY)",
         "price": 87990,
@@ -4651,6 +4527,130 @@
       "base_price": 49990,
       "pump_price": null,
       "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1450203",
+        "title": "Умная колонка Яндекс Станция Мини 3 Серый (YNDX-00027GRY)",
+        "price": 49990,
+        "old_price": 61990,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeks-stancia-mini-3-seryj-yndx-00027gry",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/M1EqoC8aq/umnaa-kolonka-andeks-stancia-mini-3-seryj-yndx-00027gry-w160.webp",
+        "mpn": null,
+        "rating": 4.98,
+        "reviews_count": 449,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 19,
+      "fair_discount": 0.0,
+      "base_price": 49990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1464063",
+        "title": "Умная колонка Яндекс Мини 3 Про, зеленый YNDX-00059",
+        "price": 64990,
+        "old_price": 80390,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeks-mini-3-pro-zelenyj-yndx-00059",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/y8YWnUpxZZ/umnaa-kolonka-andeks-mini-3-pro-zelenyj-yndx-00059-w160.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 2,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 19,
+      "fair_discount": 0.0,
+      "base_price": 64990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1456189",
+        "title": "Умная колонка Яндекс Мини 3 Про, светло-серый (YNDX-00059GRY)",
+        "price": 64990,
+        "old_price": 80390,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeks-mini-3-pro-svetlo-seryj-yndx-00059gry",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/e17aEcj8a/umnaa-kolonka-andeks-mini-3-pro-svetlo-seryj-yndx-00059gry-w160.webp",
+        "mpn": null,
+        "rating": 4.93,
+        "reviews_count": 28,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 19,
+      "fair_discount": 0.0,
+      "base_price": 64990,
+      "pump_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1456188",
+        "title": "Умная колонка Яндекс Мини 3 Про, синий (YNDX-00059BLU)",
+        "price": 64990,
+        "old_price": 80390,
+        "url": "https://alser.kz/p/umnaa-kolonka-andeks-mini-3-pro-sinij-yndx-00059blu",
+        "brand": "Яндекс",
+        "category": "Яндекс",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/M1Eo0SqZRO/umnaa-kolonka-andeks-mini-3-pro-sinij-yndx-00059blu-w160.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 39,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 19,
+      "fair_discount": 0.0,
+      "base_price": 64990,
+      "pump_price": null,
+      "value_score": 37,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -5286,7 +5286,7 @@
       "signal": "drop",
       "drop_pct": null,
       "fair_discount": 26.9,
-      "base_price": 3980730,
+      "base_price": 3980710,
       "pump_price": null,
       "value_score": 76,
       "is_pick": false,
@@ -5392,37 +5392,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "303180",
-        "title": "Аэрогриль Nutribullet NBA-071B-1",
-        "price": 59990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/aerogril-nutribullet-nba-071b-1-303180",
-        "brand": "Nutribullet",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/303180_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-04T16:42:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "295659",
         "title": "Монитор 27\" MSI MAG 274URFW Rapid IPS 3840х2160 16:9 160Гц (2HDMI+DP)",
         "price": 209990,
@@ -5450,6 +5419,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 11.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45776",
+        "title": "Выпрямитель для волос Dreame Aerostraight Gold",
+        "price": 144990,
+        "old_price": 192990,
+        "url": "https://evrika.com/catalog/vypryamitel-dlya-volos-dreame-aerostraight-gold/p45776",
+        "brand": null,
+        "category": "Выпрямители",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 25,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/Cvf99lnAxG3YJoxf4FljlS8szTCQhR5Le3bRWAvj.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 25,
+      "fair_discount": 24.9,
+      "base_price": 192990,
+      "pump_price": null,
+      "value_score": 67,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
     },
     {
       "product": {
@@ -6356,37 +6356,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "303181",
-        "title": "Аэрогриль Nutribullet NBA-081B-1",
-        "price": 79990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/aerogril-nutribullet-nba-081b-1-303181",
-        "brand": "Nutribullet",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/303181_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-04T16:42:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.0,
-      "base_price": 99990,
-      "pump_price": null,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "636990",
         "title": "Робот-пылесос Dreame F10 White",
@@ -6661,7 +6630,7 @@
       "signal": "drop",
       "drop_pct": 19,
       "fair_discount": 18.8,
-      "base_price": 239990,
+      "base_price": 239985,
       "pump_price": null,
       "value_score": 62,
       "is_pick": false,
@@ -7396,6 +7365,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "637276",
+        "title": "Встраиваемая посудомоечная машина Midea MDWB-6029TQ",
+        "price": 279990,
+        "old_price": 399990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-posudomoechniye-mashiniy-midea-mdwb-6029tq",
+        "brand": "Midea",
+        "category": "vstraivaemiye_posudomoechniye_mashiniy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_40_903_0_1_0xobEH_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 15.2,
+      "base_price": 329990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 29.8
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "289311",
         "title": "Встраиваемая посудомоечная машина Midea MDWB-6029TQ",
@@ -7547,99 +7547,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "657301",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Sky Blue / Z1L9000BT",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-sky-blue-a3449-m5-16gb-512gb-ssd-rus-z1l9000bt",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10047_0_1_SVqU2N_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T23:57:02+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "657302",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Midnight / Z1L6000BQ",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-midnight-a3449-m5-16gb-512gb-ssd-rus-z1l6000bq",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10048_0_1_i1qRSa_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T16:29:23+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "657304",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13&quot; / 16GB / SSD 512GB / MacOS / Silver / Z1L0000BR",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-silver-a3449-m5-16gb-512gb-ssd-rus-z1l0000br",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10050_0_1_763KO0_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T16:29:23+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1411233",
         "title": "Робот-пылесос Ardesto RVC-S600W, White-Silver",
@@ -7729,6 +7636,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "294905",
+        "title": "Клавиатура Apple Magic Keyboard Black для iPad Air 11-inch (M3), (MGYX4RS/A)",
+        "price": 184490,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/klaviatura-apple-magic-keyboard-black-dlya-ipad-air-11-inch-m3-mgyx4rs-a-294905",
+        "brand": "Apple",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/294905_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.2,
+      "base_price": 212490,
+      "pump_price": null,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1262949",
         "title": "Планшет Lenovo Yoga Tab 11 YT-J706X, 128GB, Wi-Fi+4G, Storm Grey",
@@ -7752,6 +7690,37 @@
       "base_price": 189990,
       "pump_price": null,
       "value_score": 48,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "281539",
+        "title": "Чехол Apple Magic Keyboard для iPad Pro 11‑inch (M4) - Russian - White (MWR03RS/A)",
+        "price": 205490,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-apple-magic-keyboard-dlya-ipad-pro-11inch-m4-russian-white-mwr03rs-281539",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/chehol_apple_magic_keyboard_dlya_ipad_pro_11inch_m4_russian_white_mwr03rs_281539_3new.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.1,
+      "base_price": 236490,
+      "pump_price": null,
+      "value_score": 56,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -8093,8 +8062,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-19T21:00:39+00:00",
-      "item_count": 2781,
+      "last_crawl": "2026-11-20T03:42:17+00:00",
+      "item_count": 2773,
       "status": "ok"
     },
     {
@@ -8107,28 +8076,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-19T21:00:39+00:00",
-      "item_count": 3864,
+      "last_crawl": "2026-11-20T03:42:17+00:00",
+      "item_count": 3859,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-19T21:00:39+00:00",
-      "item_count": 10105,
+      "last_crawl": "2026-11-20T03:42:17+00:00",
+      "item_count": 10103,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-19T21:00:39+00:00",
-      "item_count": 2438,
+      "last_crawl": "2026-11-20T03:42:17+00:00",
+      "item_count": 2436,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31769,
-    "total_deals": 260,
+    "total_products": 31752,
+    "total_deals": 259,
     "avg_discount": 49.0
   }
 }
