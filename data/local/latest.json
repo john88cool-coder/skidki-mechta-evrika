@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T11:23:45.190463+00:00",
+  "updated_at": "2026-11-20T13:21:54.248468+00:00",
   "deals": [
     {
       "product": {
@@ -237,33 +237,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006735",
-        "title": "Игровая гарнитура ASUS ROG Strix Go",
-        "price": 19990,
-        "old_price": 58990,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-asus-rog-strix-go/",
-        "brand": "ASUS",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 66,
-        "image": "https://pi.mdev.kz/3074ced8-61a3-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 66,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200003898",
         "title": "Коврик для мышки STEELSERIES QCK Prism Cloth - 3XL 1220x590x4 мм",
         "price": 19990,
@@ -308,7 +281,7 @@
       "drop_pct": 63,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 27,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1355,6 +1328,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200005088",
+        "title": "Наушники KAIBOAUDIO с костной проводимостью Buds Wave 1 (белый)",
+        "price": 22990,
+        "old_price": 59990,
+        "url": "https://www.mechta.kz/product/naushniki-kaiboaudio-s-kostnoy-provodimostyu-buds-wave-1-belyy/",
+        "brand": "KaiboAudio",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
+        "first_seen": "2026-10-16T04:48:29+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 22990,
+      "value_score": 21,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200023132",
         "title": "Пылесос DREAME DF 10 Pro",
         "price": 39990,
@@ -1954,8 +1954,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-20T11:23:31+00:00",
-      "item_count": 7949,
+      "last_crawl": "2026-11-20T13:21:38+00:00",
+      "item_count": 7944,
       "status": "ok"
     },
     {
@@ -1995,7 +1995,7 @@
     }
   ],
   "stats": {
-    "total_products": 7949,
+    "total_products": 7944,
     "total_deals": 72,
     "avg_discount": 63.0
   }
