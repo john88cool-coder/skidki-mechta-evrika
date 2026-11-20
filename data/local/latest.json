@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T13:21:54.248468+00:00",
+  "updated_at": "2026-11-20T15:22:29.997959+00:00",
   "deals": [
     {
       "product": {
@@ -390,7 +390,7 @@
       "drop_pct": 80,
       "fair_discount": 0.0,
       "base_price": 29990,
-      "value_score": 25,
+      "value_score": 20,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1410,33 +1410,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020924",
-        "title": "Смарт-часы HUAWEI GT 6 (46mm) цвет черный, (ATM-B19)",
-        "price": 93482,
-        "old_price": 154990,
-        "url": "https://www.mechta.kz/product/smart-chasy-huawei-gt-6-46mm-cvet-chernyy-atm-b19/",
-        "brand": "Huawei",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://pi.mdev.kz/1e7d5fac-d546-4fd4-b5f7-c557a70643c3?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 30.7,
-      "base_price": 134890,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 9.3
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000006457",
         "title": "Портативная колонка Bang&Olufsen Beosound Explore Black Anthracite",
         "price": 117990,
@@ -1954,8 +1927,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-20T13:21:38+00:00",
-      "item_count": 7944,
+      "last_crawl": "2026-11-20T15:22:19+00:00",
+      "item_count": 7942,
       "status": "ok"
     },
     {
@@ -1995,8 +1968,8 @@
     }
   ],
   "stats": {
-    "total_products": 7944,
-    "total_deals": 72,
-    "avg_discount": 63.0
+    "total_products": 7942,
+    "total_deals": 71,
+    "avg_discount": 63
   }
 }
