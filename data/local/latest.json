@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T15:23:06.960094+00:00",
+  "updated_at": "2026-11-20T04:35:49.431963+00:00",
   "deals": [
     {
       "product": {
@@ -71,7 +71,7 @@
       "drop_pct": 78,
       "fair_discount": null,
       "base_price": null,
-      "value_score": 39,
+      "value_score": 34,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -1236,7 +1236,7 @@
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 549990,
-      "value_score": 31,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -1410,33 +1410,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200025445",
-        "title": "Электрочайник KENWOOD ZJP 04.A0G",
-        "price": 19990,
-        "old_price": 28990,
-        "url": "https://www.mechta.kz/product/elektrochaynik-kenwood-zjp-04dota0g/",
-        "brand": "Kenwood",
-        "category": "Электрические чайники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/4ccb22d8-f548-4a62-ad24-58b33938625e?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 31.0,
-      "base_price": 28990,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000006457",
         "title": "Портативная колонка Bang&Olufsen Beosound Explore Black Anthracite",
         "price": 117990,
@@ -1572,33 +1545,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200015291",
-        "title": "Стационарный блендер Nutribullet NB 907MASN",
-        "price": 34990,
-        "old_price": 61990,
-        "url": "https://www.mechta.kz/product/stacionarnyy-blender-nutribullet-nb-907masn/",
-        "brand": "Nutribullet",
-        "category": "Блендеры стационарные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/ea9fdf7b-b76f-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 30.0,
-      "base_price": 49990,
-      "value_score": 76,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 14.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200019238",
         "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
         "price": 349980,
@@ -1678,62 +1624,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015288",
-        "title": "Аэрогриль Nutribullet NBA071B",
-        "price": 59990,
-        "old_price": 109990,
-        "url": "https://www.mechta.kz/product/aerogril-nutribullet-nba071b/",
-        "brand": "Nutribullet",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 45,
-        "image": "https://pi.mdev.kz/8c525bb9-ac6d-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 45,
-      "fair_discount": 25.0,
-      "base_price": 79990,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200015029",
-        "title": "Аэрогриль Nutribullet NBA081B",
-        "price": 79990,
-        "old_price": 159990,
-        "url": "https://www.mechta.kz/product/aerogril-nutribullet-nba081b/",
-        "brand": "Nutribullet",
-        "category": "Аэрогрили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://pi.mdev.kz/a53873fa-a55e-11ef-a26d-005056b6e990?w=400",
-        "first_seen": "2026-10-16T04:48:29+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 50,
-      "fair_discount": 20.0,
-      "base_price": 99990,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
     },
     {
       "product": {
@@ -2037,8 +1927,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-19T15:22:49+00:00",
-      "item_count": 7915,
+      "last_crawl": "2026-11-20T04:35:40+00:00",
+      "item_count": 7908,
       "status": "ok"
     },
     {
@@ -2078,8 +1968,8 @@
     }
   ],
   "stats": {
-    "total_products": 7915,
-    "total_deals": 75,
+    "total_products": 7908,
+    "total_deals": 71,
     "avg_discount": 63
   }
 }
