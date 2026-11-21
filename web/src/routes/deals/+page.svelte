@@ -33,10 +33,10 @@
 	let sort = $state<SortKey>(SORTS.includes(initial.get('sort') as SortKey) ? (initial.get('sort') as SortKey) : 'real');
 	let limit = $state(PAGE);
 	// Дополнительные фильтры скрыты под кнопкой: поиск, сортировка и вердикт остаются сверху.
-	let moreOpen = $state(false);
 	let extraCount = $derived(
 		countExtraFilters({ shop, group, brand, minPct, priceMax, inStockOnly, favOnly })
 	);
+	let moreOpen = $state(untrack(() => extraCount) > 0);
 
 	let returnTo = $derived.by(() => {
 		const filters: Record<string, string> = {};
