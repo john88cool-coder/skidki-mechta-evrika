@@ -8,7 +8,7 @@
 	import { formatPrice, shopLabel, groupLabel, timeAgo } from '$lib/utils/format';
 	import { verdictOf, realRank, countVerdicts, isReal } from '$lib/utils/verdict';
 	import type { ProductHistory } from '$lib/types';
-	import { ArrowRight, Wallet, ShieldCheck, Heart, Copy, Check, Ban, TrendingDown } from '@lucide/svelte';
+	import { ArrowRight, Ban, TrendingDown } from '@lucide/svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
 
 	let featured = $state<ProductHistory | null>(null);
@@ -37,9 +37,6 @@
 		return () => { cancelled = true; };
 	});
 
-	let realSavings = $derived(
-		realDeals.reduce((sum, d) => sum + Math.max(0, (d.base_price ?? d.product.price) - d.product.price), 0)
-	);
 	/** Честность магазина: доля нарисованных среди его скидок на ценнике (с историей). */
 	let honesty = $derived.by(() => {
 		const rows = new Map<string, { checked: number; painted: number; real: number }>();
@@ -61,15 +58,6 @@
 	});
 	let maxGroup = $derived(Math.max(1, ...byGroup.map(([, n]) => n)));
 
-	let copied = $state(false);
-	function copyTop() {
-		const text = realDeals.slice(0, 8)
-			.map((d) => `${d.product.title} — ${formatPrice(d.product.price)}${d.base_price ? ` (обычно ${formatPrice(d.base_price)})` : ''} · ${d.product.url}`)
-			.join('\n');
-		navigator.clipboard.writeText(text).catch(() => {});
-		copied = true;
-		setTimeout(() => (copied = false), 1600);
-	}
 	let updatedAt = $derived(dashboard.freshness.oldest);
 	let stale = $derived(dashboard.freshness.stale);
 </script>
@@ -127,28 +115,6 @@
 {#if dashboard.loading && !dashboard.data}
 	<div class="product-grid">{#each Array(8) as _, i (i)}<SkeletonCard />{/each}</div>
 {:else}
-	<section class="insights">
-		<div class="insight">
-			<span class="insight-icon good"><Wallet size={16} /></span>
-			<div><p class="insight-label">Реальная экономия</p><p class="insight-value">{formatPrice(realSavings)}</p><p class="insight-hint">сумма «обычно − сейчас» по реальным снижениям</p></div>
-		</div>
-		<div class="insight">
-			<span class="insight-icon"><ShieldCheck size={16} /></span>
-			<div>
-				<p class="insight-label">Честнее всех</p>
-				<p class="insight-value text">{honesty.find((h) => h.share !== null) ? shopLabel(honesty.find((h) => h.share !== null)!.shop) : '—'}</p>
-				<p class="insight-hint">меньше всего нарисованных скидок</p>
-			</div>
-		</div>
-		<div class="insight">
-			<span class="insight-icon"><Heart size={16} /></span>
-			<div><p class="insight-label">Избранное</p><p class="insight-value">{favorites.count}</p><p class="insight-hint"><a href="{base}/favorites">открыть список →</a></p></div>
-			<button onclick={copyTop} class="copy-btn" disabled={!realDeals.length}>
-				{#if copied}<Check size={13} /> Скопировано{:else}<Copy size={13} /> Топ-8 в буфер{/if}
-			</button>
-		</div>
-	</section>
-
 	<section class="block">
 		<div class="section-head">
 			<h2><TrendingDown size={20} class="inline -mt-1 mr-1" /> Реально <i>подешевело</i></h2>
@@ -156,7 +122,7 @@
 		</div>
 		{#if realDeals.length}
 			<div class="product-grid">
-				{#each realDeals.slice(0, 8) as deal, i (deal.product.shop + deal.product.sku)}<DealCard {deal} rank={i + 1} />{/each}
+				{#each realDeals.slice(0, 8) as deal (deal.product.shop + deal.product.sku)}<DealCard {deal} />{/each}
 			</div>
 		{:else}
 			<div class="empty-state"><p style="color:var(--ink-3)">Подтверждённых снижений пока нет — нужна история хотя бы за 3 дня.</p></div>

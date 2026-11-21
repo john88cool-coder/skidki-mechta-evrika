@@ -4,166 +4,193 @@
 	import type { Deal } from '$lib/types';
 	import { dashboard, priceHistory } from '$lib/stores/data.svelte';
 	import { favorites, favId } from '$lib/stores/favorites.svelte';
-	import { formatPrice, formatPct, shopLabel, formatDate } from '$lib/utils/format';
-	import { recentPrices, formatChange } from '$lib/utils/history';
-	import { ExternalLink, ArrowUpRight, ImageOff, Clock3, Heart, Share2, Check, Scale } from '@lucide/svelte';
-	import { compare, cmpId } from '$lib/stores/compare.svelte';
+	import { formatPrice, formatPct, shopLabel } from '$lib/utils/format';
 	import { verdictOf } from '$lib/utils/verdict';
+	import { ExternalLink, ImageOff, Clock3, Heart } from '@lucide/svelte';
 	import VerdictChip from './VerdictChip.svelte';
+	import Sparkline from './Sparkline.svelte';
 
-	interface Props { deal: Deal; rank?: number; returnTo?: string }
-	let { deal, rank = 0, returnTo }: Props = $props();
+	/**
+	 * Карточка товара в списках. Вся карточка — ссылка на страницу товара;
+	 * поверх неё — только «в избранное» и «в магазин». Мини-график цены виден сразу:
+	 * история — главное, чем панель отличается от витрины магазина.
+	 */
+	interface Props { deal: Deal; returnTo?: string }
+	let { deal, returnTo }: Props = $props();
 	let product = $derived(deal.product);
 	let hasDiscount = $derived(!!product.old_price && product.old_price > product.price);
 	let discount = $derived(hasDiscount ? (1 - product.price / product.old_price!) * 100 : null);
-	let savings = $derived(hasDiscount ? product.old_price! - product.price : 0);
 	let verdict = $derived(verdictOf(deal));
-	// «Обычная цена» — медиана собственной истории; показываем, когда она выше текущей.
+	// «Обычная цена» — честная база из среза; показываем, когда она выше текущей.
 	let usual = $derived(deal.base_price && deal.base_price > product.price * 1.01 ? deal.base_price : null);
-	let historyHref = $derived(`${base}/item?shop=${encodeURIComponent(product.shop)}&sku=${encodeURIComponent(product.sku)}&from=${encodeURIComponent(returnTo ?? page.url.pathname + page.url.search)}`);
+	let itemHref = $derived(`${base}/item?shop=${encodeURIComponent(product.shop)}&sku=${encodeURIComponent(product.sku)}&from=${encodeURIComponent(returnTo ?? page.url.pathname + page.url.search)}`);
 	let id = $derived(favId(product.shop, product.sku));
 	let isFav = $derived(favorites.has(id));
 	let failedImage = $state('');
-	let copied = $state(false);
-	let cmp = $derived(compare.has(cmpId(product.shop, product.sku)));
-	let history = $derived(priceHistory.data?.history[`${product.shop}:${product.sku}`]);
-	let prices = $derived(recentPrices(history?.recent_points ?? history?.points ?? []).reverse());
-	let source = $derived(dashboard.shops.find(s => s.name === product.shop));
-	let differentSnapshot = $derived(prices.length > 0 && prices[0].price !== product.price);
-	// Вердикт истории — то, что обещает сайт: двигалась ли цена на самом деле.
-	// «Нарисованная» скидка — цена стоит на месте, растёт только зачёркнутая.
-	let historyLine = $derived.by(() => {
-		if (prices.length < 2) return null;
-		const peak = Math.max(...prices.map((p) => p.price));
-		if (peak <= product.price * 1.01) {
-			return { tone: 'flat', text: `Цена не менялась ${prices.length} ${plural(prices.length, 'замер', 'замера', 'замеров')} подряд` };
-		}
-		const pct = Math.round((1 - product.price / peak) * 100);
-		return { tone: 'down', text: `Было до ${formatPrice(peak)} — сейчас на ${pct}% ниже` };
-	});
-
-	function plural(n: number, one: string, few: string, many: string): string {
-		const d = n % 10, h = n % 100;
-		if (d === 1 && h !== 11) return one;
-		if (d >= 2 && d <= 4 && (h < 12 || h > 14)) return few;
-		return many;
-	}
-
-	async function share() {
-		const url = `${location.origin}${historyHref}`;
-		try {
-			if (navigator.share) { await navigator.share({ title: product.title, url }); return; }
-		} catch {}
-		try { await navigator.clipboard.writeText(url); } catch { /* fallback below */ }
-		copied = true; setTimeout(() => (copied = false), 1600);
-	}
+	let points = $derived(priceHistory.data?.history[`${product.shop}:${product.sku}`]?.points ?? []);
+	let source = $derived(dashboard.shops.find((s) => s.name === product.shop));
+	// Пояснение — только там, где вердикт расходится с ценником.
+	let hint = $derived(
+		verdict.kind === 'inflated' || verdict.kind === 'pumped' || verdict.kind === 'painted' ? verdict.hint : null
+	);
 </script>
 
-<article class="product-card">
-	<div class="product-visual">
-		<a href={historyHref} class="product-photo" aria-label={`История цены: ${product.title}`}>
-			{#if product.image && failedImage !== product.image}
-				<img src={product.image} alt={product.title} loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror={() => (failedImage = product.image ?? '')} />
-			{:else}
-				<div class="image-placeholder"><ImageOff size={28} /><span>Фото недоступно</span></div>
-			{/if}
-		</a>
-		{#if verdict.real}
-			<span class="discount-pill real" title={verdict.hint}>−{Math.round(verdict.real)}% <small>реально</small></span>
-		{:else if discount !== null}
-			<span class="discount-pill" class:painted={verdict.kind === 'painted'} title={verdict.hint}>{formatPct(discount)} <small>{verdict.kind === 'painted' ? 'на ценнике' : 'скидка'}</small></span>
+<article class="deal-card">
+	<div class="dc-visual">
+		{#if product.image && failedImage !== product.image}
+			<img src={product.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror={() => (failedImage = product.image ?? '')} />
+		{:else}
+			<span class="dc-noimg"><ImageOff size={22} /></span>
 		{/if}
-		{#if rank > 0}<span class="rank-label">#{String(rank).padStart(2,'0')}</span>{/if}
+		{#if verdict.real}
+			<span class="dc-pill real" title={verdict.hint}>-{Math.round(verdict.real)}%<small>реально</small></span>
+		{:else if discount !== null}
+			<span class="dc-pill" class:painted={verdict.kind === 'painted'} title={verdict.hint}>{formatPct(discount)}<small>{verdict.kind === 'painted' ? 'на ценнике' : 'скидка'}</small></span>
+		{/if}
 		<button
-			class="fav-btn"
-			class:faved={isFav}
+			class="dc-fav"
+			class:on={isFav}
 			onclick={() => favorites.toggle(id, product)}
-			aria-label={isFav ? 'Убрать из избранного' : 'В избранное'}
-			title={isFav ? 'В избранном' : 'В избранное'}
+			aria-pressed={isFav}
+			aria-label={isFav ? `Убрать из избранного: ${product.title}` : `В избранное: ${product.title}`}
 		><Heart size={16} fill={isFav ? 'currentColor' : 'none'} /></button>
 	</div>
-	<div class="product-body">
-		<div class="product-meta">
-			<span class="meta-shop">{shopLabel(product.shop)}</span>
-			{#if product.rating && product.rating > 0}
-				<span class="text-xs font-mono" style="color:var(--ink-3)" title={product.reviews_count ? `Отзывов: ${product.reviews_count}` : 'Рейтинг товара'}>
-					★ {product.rating.toFixed(1)}{product.reviews_count ? ` (${product.reviews_count})` : ''}
-				</span>
-			{/if}
-			<span class="meta-stock" class:bad={!product.in_stock}>{product.in_stock ? 'В наличии' : 'Нет в наличии'}</span>
+
+	<div class="dc-body">
+		<div class="dc-meta">
+			<span class="dc-shop">{shopLabel(product.shop)}</span>
+			<VerdictChip {verdict} />
+			{#if !product.in_stock}<span class="dc-out">Нет в наличии</span>{/if}
 		</div>
-		<div class="badge-row"><VerdictChip {verdict} /></div>
-		<h3><a href={historyHref}>{product.title}</a></h3>
-		{#if product.brand}<p class="text-xs mt-1" style="color:var(--ink-4)">{product.brand}{product.category ? ` · ${product.category}` : ''}</p>{/if}
-		<div class="product-price">
+		<h3><a class="dc-link" href={itemHref}>{product.title}</a></h3>
+		<div class="dc-price">
 			<strong>{formatPrice(product.price)}</strong>
 			{#if usual}
-				<span class="price-usual">обычно {formatPrice(usual)}</span>
-				<span class="price-save">−{formatPrice(usual - product.price)}</span>
+				<span>обычно {formatPrice(usual)}</span>
 			{:else if hasDiscount}
 				<del title="Зачёркнутая цена магазина">{formatPrice(product.old_price!)}</del>
 			{/if}
 		</div>
-		{#if source && source.status !== 'ok'}<p class="source-warning"><Clock3 size={12} /> {source.status === 'warning' ? 'Данные магазина устарели' : 'Источник требует проверки'}</p>{/if}
-		{#if verdict.kind === 'inflated' || verdict.kind === 'painted' || verdict.kind === 'pumped'}
-			<!-- Честной объяснение не нужно: плашка «−N% реально» и «обычно X» уже всё сказали. -->
-			<p class="history-verdict {verdict.kind}">{verdict.hint}</p>
-		{:else if verdict.kind === 'unknown' && historyLine}
-			<p class="history-verdict {historyLine.tone}">{historyLine.text}</p>
+		{#if hint}<p class="dc-hint {verdict.kind}">{hint}</p>{/if}
+		{#if source && source.status !== 'ok'}
+			<p class="dc-stale"><Clock3 size={13} /> {source.status === 'warning' ? 'Данные магазина устарели' : 'Источник требует проверки'}</p>
 		{/if}
-		<details class="card-history" aria-label={`Последние цены: ${product.title}`}>
-			<summary class="history-heading"><h4>История цены</h4><span>{prices.length ? `${prices.length} ${plural(prices.length, 'замер', 'замера', 'замеров')}` : '—'}</span></summary>
-			{#if priceHistory.loading}<p class="history-message" role="status">Загружаем наблюдения…</p>
-			{:else if priceHistory.error}<p class="history-message">История временно недоступна. <button onclick={() => priceHistory.load()}>Повторить</button></p>
-			{:else if prices.length}
-				<table><caption class="sr-only">От новых к старым. Изменение к предыдущему наблюдению.</caption><thead><tr><th scope="col">Дата</th><th scope="col">Цена</th><th scope="col">Изм.</th></tr></thead><tbody>
-				{#each prices as point, index}
-					<tr class:latest={index === 0}><td><time datetime={point.date} title={point.date}>{formatDate(point.date)}</time></td><td>{formatPrice(point.price)}</td><td class:price-down={point.change !== null && point.change < 0} class:price-up={point.change !== null && point.change > 0}>{formatChange(point.change)}</td></tr>
-				{/each}
-				</tbody></table>
-				<p class="history-note">{prices.length === 1 ? 'Первое наблюдение — изменения появятся позже.' : 'Новые сверху · изменение к более ранней записи'}</p>
-				{#if differentSnapshot}<p class="source-warning">История и текущая цена из разных срезов.</p>{/if}
-			{:else}<p class="history-message">Наблюдения ещё не накоплены.</p>{/if}
-		</details>
-		<div class="product-actions">
-			<a class="history-action" href={historyHref}>История <ArrowUpRight size={14} /></a>
-			<a class="shop-action" href={product.url} target="_blank" rel="noopener noreferrer">В магазин <ExternalLink size={13} /></a>
-			<button class="shop-action !px-2.5" class:compare-on={cmp} onclick={() => compare.toggle(cmpId(product.shop, product.sku), product)} title={cmp ? "Убрать из сравнения" : "В сравнение"} aria-label="Сравнение"><Scale size={14} /></button>
-			<button class="shop-action !px-2.5" onclick={share} aria-label="Поделиться" title="Поделиться">
-				{#if copied}<Check size={14} />{:else}<Share2 size={14} />{/if}
-			</button>
+		<div class="dc-foot">
+			<div class="dc-spark">
+				{#if points.length > 1}
+					<Sparkline {points} label="Цена {product.title}" />
+				{:else}
+					<span class="dc-nohist">{priceHistory.loading ? 'Загружаем историю…' : 'История копится'}</span>
+				{/if}
+			</div>
+			{#if product.url && product.url !== '#'}
+				<a class="dc-store" href={product.url} target="_blank" rel="noopener noreferrer" aria-label="Открыть в магазине {shopLabel(product.shop)}: {product.title}" title="В магазин"><ExternalLink size={16} /></a>
+			{/if}
 		</div>
 	</div>
 </article>
 
 <style>
-	.fav-btn {
-		position: absolute; top: 14px; right: 14px;
-		width: 32px; height: 32px; border-radius: 999px;
-		display: grid; place-items: center;
-		background: rgba(255,255,255,0.92); backdrop-filter: blur(8px);
-		border: 1px solid rgba(14, 26, 21, 0.08); color: var(--photo-ink);
-		transition: all .15s;
+	.deal-card {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: var(--radius);
+		overflow: hidden;
+		transition: border-color 0.2s, box-shadow 0.2s;
 	}
-	.fav-btn:hover { background: #fff; color: var(--photo-ink); }
-	.fav-btn.faved { background: var(--accent); border-color: var(--accent); color: white; }
-	/* when rank is also shown, stack fav below it */
-	.product-visual:has(.rank-label) .fav-btn { top: 46px; }
-	.compare-on { background: var(--ink) !important; color: var(--on-ink) !important; border-color: var(--ink) !important; }
-	.history-verdict {
-		margin-top: 10px; padding: 7px 10px; border-radius: var(--radius-xs);
+	.deal-card:hover { border-color: var(--line-2); box-shadow: var(--shadow-lg); }
+	.dc-visual {
+		position: relative;
+		height: 168px;
+		margin: 8px 8px 0;
+		border-radius: 12px;
+		background: #ffffff;
+		display: grid;
+		place-items: center;
+		overflow: hidden;
+	}
+	.dc-visual img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
+	.dc-noimg { color: #8a9a93; }
+	.dc-pill {
+		position: absolute; top: 8px; left: 8px;
+		display: inline-flex; align-items: baseline; gap: 4px;
+		padding: 5px 9px; border-radius: 999px;
+		background: var(--accent); color: #fff;
+		font-family: var(--font-mono); font-size: 13px; font-weight: 700; line-height: 1;
+	}
+	.dc-pill small { font-family: var(--font-sans); font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+	.dc-pill.real { background: var(--success); }
+	:global(html[data-theme='dark']) .dc-pill.real { color: #06130d; }
+	.dc-pill.painted { background: #6f6a63; text-decoration: line-through; }
+	.dc-pill.painted small { text-decoration: none; }
+	.dc-fav {
+		position: absolute; top: 6px; right: 6px; z-index: 2;
+		width: 40px; height: 40px; border-radius: 999px;
+		display: grid; place-items: center;
+		background: rgba(255, 255, 255, 0.92); color: #4f6059;
+		border: 1px solid rgba(14, 26, 21, 0.1);
+	}
+	.dc-fav:hover { color: #0e1a15; }
+	.dc-fav.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+	.dc-body { display: flex; flex-direction: column; flex: 1; padding: 12px 14px 12px; min-width: 0; }
+	.dc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+	.dc-shop { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2); }
+	.dc-out { font-size: 12px; font-weight: 600; color: var(--bad); }
+	.deal-card h3 {
+		margin-top: 8px;
+		font-size: 14px; line-height: 1.4; font-weight: 600; letter-spacing: -0.01em;
+		display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+		min-height: calc(14px * 1.4 * 2);
+	}
+	.dc-link { color: var(--ink); text-decoration: none; }
+	/* Вся карточка кликабельна: ссылка растянута поверх, кнопки — над ней (z-index 2). */
+	.dc-link::after { content: ''; position: absolute; inset: 0; z-index: 1; }
+	.deal-card:hover .dc-link { color: var(--accent); }
+	.dc-link:focus-visible { outline: none; }
+	.deal-card:has(.dc-link:focus-visible) { outline: 2px solid var(--ink); outline-offset: 2px; }
+	.dc-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 8px; }
+	.dc-price strong { font-family: var(--font-mono); font-size: 20px; font-weight: 700; letter-spacing: -0.04em; color: var(--ink); }
+	.dc-price span, .dc-price del { font-family: var(--font-mono); font-size: 13px; color: var(--ink-3); }
+	.dc-hint {
+		margin-top: 8px; padding: 6px 9px; border-radius: var(--radius-xs);
 		font-size: 12px; font-weight: 600; line-height: 1.35;
 		border: 1px solid transparent;
+		display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 	}
-	.history-verdict.honest, .history-verdict.down { background: var(--success-bg); color: var(--success); border-color: color-mix(in srgb, var(--success) 18%, transparent); }
-	.history-verdict.inflated, .history-verdict.pumped, .history-verdict.flat { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
-	.history-verdict.painted { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
-	details.card-history > summary { cursor: pointer; list-style: none; }
-	details.card-history > summary::-webkit-details-marker { display: none; }
-	details.card-history > summary h4::after { content: ' ▾'; color: var(--ink-4); }
-	details.card-history[open] > summary h4::after { content: ' ▴'; }
-	details.card-history:not([open]) { padding-bottom: 0; }
-	.badge-row { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
-	.badge { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 7px; border-radius:999px; border:1px solid var(--line); }
-	.badge-score { background: var(--paper-2); color: var(--ink-2); }
+	.dc-hint.inflated, .dc-hint.pumped { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
+	.dc-hint.painted { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
+	.dc-stale {
+		display: flex; align-items: center; gap: 5px; margin-top: 8px;
+		font-size: 12px; color: var(--warn);
+	}
+	.dc-foot { display: flex; align-items: center; gap: 10px; margin-top: auto; padding-top: 10px; }
+	.dc-spark { flex: 1; min-width: 0; height: 40px; display: flex; align-items: center; }
+	.dc-nohist { font-size: 12px; color: var(--ink-4); }
+	.dc-store {
+		position: relative; z-index: 2; flex-shrink: 0;
+		width: 40px; height: 40px; border-radius: 999px;
+		display: grid; place-items: center;
+		border: 1px solid var(--line); color: var(--ink-2); background: var(--surface);
+	}
+	.dc-store:hover { border-color: var(--ink); color: var(--ink); }
+
+	/* Телефон: горизонтальная карточка — фото слева, три-четыре карточки на экран. */
+	@media (max-width: 640px) {
+		.deal-card { flex-direction: row; }
+		.dc-visual { width: 104px; height: auto; min-height: 128px; margin: 8px 0 8px 8px; flex-shrink: 0; }
+		.dc-visual img { padding: 8px; }
+		.dc-pill { top: auto; bottom: 6px; left: 6px; padding: 4px 7px; font-size: 12px; }
+		.dc-pill small { display: none; }
+		.dc-fav { top: 4px; right: 4px; }
+		.dc-body { padding: 10px 12px; }
+		.deal-card h3 { margin-top: 6px; min-height: 0; }
+		.dc-price { margin-top: 6px; }
+		.dc-price strong { font-size: 18px; }
+		.dc-hint { margin-top: 6px; }
+		.dc-foot { padding-top: 6px; }
+		.dc-spark, :global(.dc-spark .spark) { height: 32px; }
+	}
 </style>
