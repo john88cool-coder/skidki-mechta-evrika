@@ -121,7 +121,7 @@
 		background: var(--accent-strong); color: #fff;
 		font-family: var(--font-mono); font-size: 13px; font-weight: 700; line-height: 1;
 	}
-	.dc-pill small { font-family: var(--font-sans); font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+	.dc-pill small { font-family: var(--font-sans); font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
 	.dc-pill.real { background: var(--success); }
 	:global(html[data-theme='dark']) .dc-pill.real { color: #06130d; }
 	.dc-pill.painted { background: #6f6a63; text-decoration: line-through; }
