@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T09:21:08.851053+00:00",
+  "updated_at": "2026-11-21T11:21:37.624549+00:00",
   "deals": [
     {
       "product": {
@@ -1574,6 +1574,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018887",
+        "title": "Стиральная машина HANSA WHG 9140 W",
+        "price": 189990,
+        "old_price": 269990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hansa-whg-9140-w/",
+        "brand": "Hansa",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/d48cc611-6ec3-4d9e-9e9d-2d898190fcc0?w=400",
+        "first_seen": "2026-10-17T19:14:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 29.6,
+      "base_price": 269990,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000002360",
         "title": "Портативная колонка Bang&Olufsen Beolit 20 Black Anthracite",
         "price": 309990,
@@ -1790,6 +1817,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018885",
+        "title": "Стиральная машина HANSA WHG 7120 W",
+        "price": 139990,
+        "old_price": 249990,
+        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hansa-whg-7120-w/",
+        "brand": "Hansa",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/bd10568c-6412-4059-bfc3-8515f641c42f?w=400",
+        "first_seen": "2026-10-17T19:14:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 18.1,
+      "base_price": 170990,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 25.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200008307",
         "title": "Электрическая зубная щетка BRAUN Vitality Pro Kids Spider Man D103.413.2K (Oral_B)",
         "price": 19990,
@@ -1954,8 +2009,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-21T09:21:01+00:00",
-      "item_count": 7967,
+      "last_crawl": "2026-11-21T11:21:28+00:00",
+      "item_count": 7957,
       "status": "ok"
     },
     {
@@ -1995,8 +2050,8 @@
     }
   ],
   "stats": {
-    "total_products": 7967,
-    "total_deals": 72,
+    "total_products": 7957,
+    "total_deals": 74,
     "avg_discount": 63.0
   }
 }
