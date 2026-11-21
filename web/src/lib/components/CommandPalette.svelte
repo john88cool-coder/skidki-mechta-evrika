@@ -13,7 +13,7 @@
 	let selected = $state(0);
 
 	const staticItems = [
-		{ label: 'Обзор', href: `${base}/`, icon: LayoutGrid, kbd: 'G H' },
+		{ label: 'Сегодня', href: `${base}/`, icon: LayoutGrid, kbd: 'G H' },
 		{ label: 'Каталог', href: `${base}/deals`, icon: Tag, kbd: 'G C' },
 		{ label: 'Магазины', href: `${base}/shops`, icon: Activity, kbd: 'G S' },
 		{ label: 'Избранное', href: `${base}/favorites`, icon: Heart, kbd: 'G F' }

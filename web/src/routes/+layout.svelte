@@ -1,11 +1,11 @@
 <script lang="ts">
 	import '../app.css';
 	import Header from '$lib/components/Header.svelte';
+	import TabBar from '$lib/components/TabBar.svelte';
 	import CommandPalette from '$lib/components/CommandPalette.svelte';
 	import { onMount } from 'svelte';
 	import { theme } from '$lib/stores/theme.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
-	import { compare } from '$lib/stores/compare.svelte';
 	import { dashboard, startAutoRefresh } from '$lib/stores/data.svelte';
 
 	let { children } = $props();
@@ -14,7 +14,6 @@
 	onMount(() => {
 		theme.init();
 		favorites.init();
-		compare.init();
 		dashboard.refresh();
 		const onKey = (e: KeyboardEvent) => {
 			if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); paletteOpen = !paletteOpen; }
@@ -45,5 +44,7 @@
 		</footer>
 	</main>
 </div>
+
+<TabBar />
 
 <CommandPalette open={paletteOpen} onclose={() => (paletteOpen = false)} />

@@ -3,52 +3,44 @@
 	import { page } from '$app/state';
 	import { dashboard } from '$lib/stores/data.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
-	import { compare } from '$lib/stores/compare.svelte';
 	import { timeAgo } from '$lib/utils/format';
-	import { ArrowDownRight, LayoutGrid, Tag, Activity, Heart, Scale, Trophy, Search, Sun, Moon, RefreshCw } from '@lucide/svelte';
+	import { NAV_ITEMS, isActive } from '$lib/utils/nav';
+	import { ArrowDownRight, LayoutGrid, Tag, Activity, Heart, Search, Sun, Moon, RefreshCw } from '@lucide/svelte';
 	import { theme } from '$lib/stores/theme.svelte';
 
 	interface Props { onsearch?: () => void }
 	let { onsearch }: Props = $props();
 
-	const links = [
-		{ href: `${base}/`, label: 'Обзор', icon: LayoutGrid },
-		{ href: `${base}/top`, label: 'Топ', icon: Trophy },
-		{ href: `${base}/deals`, label: 'Каталог', icon: Tag },
-		{ href: `${base}/compare`, label: 'Сравнение', icon: Scale, badge: () => compare.count },
-		{ href: `${base}/shops`, label: 'Магазины', icon: Activity },
-		{ href: `${base}/favorites`, label: 'Избранное', icon: Heart, badge: () => favorites.count }
-	];
+	const ICONS = { home: LayoutGrid, deals: Tag, shops: Activity, favorites: Heart };
+
 	let freshTitle = $derived(
 		dashboard.freshness.newest
 			? `Время самого давнего обхода среди магазинов. Самый свежий — ${timeAgo(dashboard.freshness.newest)}.`
 			: ''
 	);
-	function active(href: string) {
-		return href === `${base}/` ? page.url.pathname === href : page.url.pathname.startsWith(href);
-	}
 </script>
 
 <header class="app-header">
 	<div class="header-inner">
-		<a href="{base}/" class="app-logo" aria-label="skidki — обзор">
+		<a href="{base}/" class="app-logo" aria-label="skidki — сегодня">
 			<span class="logo-mark"><ArrowDownRight size={18} strokeWidth={2.5} /></span>
 			<span class="logo-word">skidki</span>
-			<span class="logo-sub hidden sm:inline">kz · мониторинг цен</span>
+			<span class="logo-sub hidden lg:inline">kz · мониторинг цен</span>
 		</a>
 
+		<!-- На телефоне эти же разделы — в нижней панели (TabBar). -->
 		<nav class="app-navigation" aria-label="Главная навигация">
-			{#each links as link}
-				{@const badge = (link as any).badge ? (link as any).badge() : 0}
-				<a href={link.href} aria-current={active(link.href) ? 'page' : undefined}>
-					<link.icon size={14} />{link.label}
-					{#if badge}<span class="fav-badge">{badge}</span>{/if}
+			{#each NAV_ITEMS as item (item.key)}
+				{@const Icon = ICONS[item.key]}
+				<a href="{base}{item.path}" aria-current={isActive(page.url.pathname, item.path, base) ? 'page' : undefined}>
+					<Icon size={14} />{item.label}
+					{#if item.key === 'favorites' && favorites.count}<span class="fav-badge">{favorites.count}</span>{/if}
 				</a>
 			{/each}
 		</nav>
 
 		<div class="header-actions">
-			<button class="icon-btn hidden sm:grid" onclick={() => onsearch?.()} aria-label="Поиск (⌘K)" title="Поиск ⌘K"><Search size={15} /></button>
+			<button class="icon-btn" onclick={() => onsearch?.()} aria-label="Поиск (Ctrl+K)" title="Поиск · Ctrl+K"><Search size={16} /></button>
 			<div class="freshness hidden lg:flex" title={freshTitle}>
 				<span class="freshness-dot" class:stale={dashboard.freshness.stale} aria-hidden="true"></span>
 				{#if dashboard.freshness.oldest}
@@ -57,8 +49,8 @@
 					<span>{dashboard.loading ? 'загрузка…' : 'нет данных'}</span>
 				{/if}
 			</div>
-			<button class="icon-btn" onclick={() => dashboard.refresh()} disabled={dashboard.loading} aria-label="Обновить данные" title="Обновить">
-				<RefreshCw size={15} class={dashboard.loading ? 'animate-spin' : ''} />
+			<button class="icon-btn refresh-btn" onclick={() => dashboard.refresh()} disabled={dashboard.loading} aria-label="Обновить данные" title="Обновить">
+				<RefreshCw size={16} class={dashboard.loading ? 'animate-spin' : ''} />
 			</button>
 			<button class="icon-btn" onclick={() => theme.toggle()} aria-label={theme.current === 'dark' ? 'Светлая тема' : 'Тёмная тема'} title={theme.current === 'dark' ? 'Светлая тема' : 'Тёмная тема'}>
 				{#if theme.current === 'dark'}<Sun size={16} />{:else}<Moon size={16} />{/if}
@@ -71,13 +63,8 @@
 	.fav-badge {
 		min-width: 18px; height: 18px; padding: 0 5px;
 		border-radius: 999px; display: inline-grid; place-items: center;
-		font-family: var(--font-mono); font-size: 10px; font-weight: 700;
+		font-family: var(--font-mono); font-size: 11px; font-weight: 700;
 		background: var(--accent); color: white; line-height: 1;
-	}
-	@media (max-width: 640px) {
-		/* В таббаре цифра — наложением на иконку: иначе пункт вырастает в высоту. */
-		.app-navigation a { position: relative; }
-		.fav-badge { position: absolute; top: 3px; left: calc(50% + 6px); min-width: 16px; height: 16px; font-size: 9px; padding: 0 4px; }
 	}
 	.app-navigation a[aria-current='page'] .fav-badge { background: var(--paper); color: var(--ink); }
 </style>

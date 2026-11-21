@@ -1159,3 +1159,42 @@ a.group-row:hover { background: var(--paper-2); }
 	.filters-foot .chip-row { margin: 0; padding: 0; width: 100%; }
 	.found-pill { padding: 6px 14px; }
 }
+
+/* ── Этап 1: сетка карточек, нижняя панель, каталог, размеры для пальца ── */
+/* Поиск не вылезает за панель фильтров на узком экране. */
+.search-wrap { min-width: 0; flex: 1 1 260px; }
+.more-btn {
+	display: inline-flex; align-items: center; gap: 6px; height: 40px; padding: 0 14px; flex-shrink: 0;
+	border-radius: 999px; font-size: 13px; font-weight: 600;
+	border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+}
+.more-btn:hover, .more-btn[aria-expanded='true'] { border-color: var(--ink); color: var(--ink); }
+.more-count {
+	min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px;
+	display: inline-grid; place-items: center;
+	font-family: var(--font-mono); font-size: 12px; font-weight: 700;
+	background: var(--ink); color: var(--on-ink);
+}
+.filters-more { display: grid; gap: 14px; padding-top: 14px; border-top: 1px solid var(--paper-3); }
+/* Мелкие подписи — не меньше 12px. */
+.logo-sub, .page-eyebrow, .hero-kicker, .hero-stat span, .live-dot, .kpi-label, .meta-pill,
+.stat-card p:first-child, .featured-stats p:first-child, .chip-label, .chip-count,
+.truth-title, .painted-claim small, .verdict-chip { font-size: 12px; }
+
+@media (max-width: 640px) {
+	/* Одна колонка горизонтальных карточек (см. DealCard). */
+	.product-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+	/* Разделы — в нижней панели (TabBar): шапка в одну строку. */
+	.app-navigation { display: none; }
+	.header-inner { flex-wrap: nowrap; padding: 10px 14px; }
+	.refresh-btn { display: none; }
+	.icon-btn { width: 40px; height: 40px; }
+	/* Место под нижнюю панель, чтобы она не закрывала подвал. */
+	.app-main { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+	.chip { min-height: 40px; padding: 8px 14px; }
+	/* Вердикты — одной строкой с прокруткой, а не стеной кнопок. */
+	.chip-row.scroll-row { flex-wrap: nowrap; overflow-x: auto; margin: 0 -12px; padding: 0 12px 2px; scrollbar-width: none; }
+	.chip-row.scroll-row::-webkit-scrollbar { display: none; }
+	.chip-row.scroll-row .chip { flex-shrink: 0; white-space: nowrap; }
+	.filters-row .select-wrap, .filters-row .more-btn { flex: 1 1 auto; justify-content: center; }
+}
