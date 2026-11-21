@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T13:21:14.319095+00:00",
+  "updated_at": "2026-11-21T15:21:27.888246+00:00",
   "deals": [
     {
       "product": {
@@ -333,7 +333,7 @@
       "drop_pct": 62,
       "fair_discount": 61.9,
       "base_price": 524990,
-      "value_score": 90,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -1355,34 +1355,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200023132",
-        "title": "Пылесос DREAME DF 10 Pro",
-        "price": 39990,
-        "old_price": 68990,
-        "url": "https://www.mechta.kz/product/pylesos-dreame-df-10-pro/",
-        "brand": "Dreame",
-        "category": "Моющие пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://pi.mdev.kz/7c0aa1df-87b3-41d0-b397-af3e4907a7d6?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 42,
-      "fair_discount": 42.0,
-      "base_price": 68990,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000081009",
         "title": "Выпрямитель для волос PHILIPS BHS 375/00",
         "price": 14990,
@@ -2009,8 +1981,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-21T13:21:05+00:00",
-      "item_count": 7952,
+      "last_crawl": "2026-11-21T15:21:18+00:00",
+      "item_count": 7950,
       "status": "ok"
     },
     {
@@ -2050,8 +2022,8 @@
     }
   ],
   "stats": {
-    "total_products": 7952,
-    "total_deals": 74,
-    "avg_discount": 63.0
+    "total_products": 7950,
+    "total_deals": 73,
+    "avg_discount": 63
   }
 }
