@@ -95,22 +95,57 @@ def _product_to_dict(p: Product, first_seen: str | None = None) -> dict:
     }
 
 
-def _fair_reference_and_age(
-    conn: sqlite3.Connection, product: Product, at: datetime
+def fair_reference_from_spans(
+    product: Product,
+    window: list[Span],
+    at: datetime,
+    thresholds: Thresholds,
+    *,
+    last_seen: datetime | None = None,
 ) -> tuple[float | None, int | None, float | None, int | None]:
-    """За один запрос к истории: (fair_discount, reference, age_hours, pump_price).
+    """Чистый расчёт вердикта истории от готовых отрезков: без SQL.
 
-    reference — честная база (evaluate.honest_baseline); pump_price — цена, до
-    которой товар поднимали перед скидкой (None, если накрутки не было).
+    window — отрезки позиции не короче low_window_days; last_seen — последняя
+    метка времени позиции для случая, когда окно не задевает ни одного
+    отрезка (пакетный экспорт берёт её из общей истории, старый путь читает
+    из базы). Возвращает (fair_discount, reference, age_hours, pump_price):
+    reference — честная база (evaluate.honest_baseline); pump_price — цена,
+    до которой товар поднимали перед скидкой (None, если накрутки не было).
     """
-    th = Thresholds()
-    trend_since = at - timedelta(days=th.trend_window_days)
-    window = spans_history(conn, product.identity, at - timedelta(days=th.low_window_days))
+    trend_since = at - timedelta(days=thresholds.trend_window_days)
     all_spans = [s for s in window if s.last_seen >= trend_since]
     age_h: float | None = None
     if all_spans:
         age_h = max(0.0, (at - all_spans[-1].last_seen).total_seconds() / 3600.0)
-    else:
+    elif last_seen is not None:
+        age_h = max(0.0, (at - last_seen).total_seconds() / 3600.0)
+
+    spans = [s for s in all_spans if s.in_stock]
+    baseline = honest_baseline(window, at, thresholds)
+    ref = baseline.reference
+    if not ref or coverage_days(spans, at) < thresholds.min_history_days:
+        return None, None, age_h, None
+    drop = (ref - product.price) / ref * 100
+    earlier = [s for s in window if s.last_seen < trend_since]
+    if returned_to_earlier(earlier, product.price):
+        # Цена вернулась к прежнему уровню после временного подъёма — не скидка.
+        return 0.0, ref, age_h, None
+    if drop < thresholds.drop_pct or ref - product.price < thresholds.min_drop_tenge:
+        # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
+        return 0.0, ref, age_h, None
+    return round(drop, 1), ref, age_h, baseline.pump_price
+
+
+def _fair_reference_and_age(
+    conn: sqlite3.Connection, product: Product, at: datetime
+) -> tuple[float | None, int | None, float | None, int | None]:
+    """За один запрос к истории: (fair_discount, reference, age_hours, pump_price)."""
+    th = Thresholds()
+    trend_since = at - timedelta(days=th.trend_window_days)
+    window = spans_history(conn, product.identity, at - timedelta(days=th.low_window_days))
+    last_seen: datetime | None = None
+    if not any(s.last_seen >= trend_since for s in window):
+        # Окно пусто: возраст позиции — по последнему отрезку из базы.
         last = conn.execute(
             "SELECT last_seen FROM spans WHERE identity = ? ORDER BY last_seen DESC, id DESC LIMIT 1",
             (product.identity,),
@@ -119,22 +154,8 @@ def _fair_reference_and_age(
             dt = datetime.fromisoformat(str(last[0]).replace("Z", "+00:00"))
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=UTC)
-            age_h = max(0.0, (at - dt).total_seconds() / 3600.0)
-
-    spans = [s for s in all_spans if s.in_stock]
-    baseline = honest_baseline(window, at, th)
-    ref = baseline.reference
-    if not ref or coverage_days(spans, at) < th.min_history_days:
-        return None, None, age_h, None
-    drop = (ref - product.price) / ref * 100
-    earlier = [s for s in window if s.last_seen < trend_since]
-    if returned_to_earlier(earlier, product.price):
-        # Цена вернулась к прежнему уровню после временного подъёма — не скидка.
-        return 0.0, ref, age_h, None
-    if drop < th.drop_pct or ref - product.price < th.min_drop_tenge:
-        # История есть, а падения нет: честная скидка — ноль, а не «неизвестно».
-        return 0.0, ref, age_h, None
-    return round(drop, 1), ref, age_h, baseline.pump_price
+            last_seen = dt
+    return fair_reference_from_spans(product, window, at, th, last_seen=last_seen)
 
 
 def _deal_dict(
@@ -429,8 +450,18 @@ def export_for_web(db_path: Path | None = None, out_dir: Path | None = None) -> 
     out.mkdir(parents=True, exist_ok=True)
 
     with connect(db_path) as conn:
+        # Один снимок SQLite для всего выпуска: BEGIN до первого чтения legacy,
+        # иначе обход, закоммиченный между фазами, дал бы latest.json «до»,
+        # а catalog-v2 «после». Импорт локальный: catalog_export использует
+        # хелперы этого модуля (_product_to_dict, fair_reference_from_spans, SHOPS).
+        conn.execute("BEGIN")
         shown = export_dashboard(conn, out)
         export_history(conn, out, shown=shown)
+        from .catalog_export import export_catalog, export_moment
+
+        # Момент каталога — из данных (последний успешный обход): пока новых
+        # наблюдений нет, хеши catalog-v2 не меняются между запусками.
+        export_catalog(conn, out, at=export_moment(conn))
 
     return out
 

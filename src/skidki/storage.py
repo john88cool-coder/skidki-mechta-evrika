@@ -483,6 +483,48 @@ def active_catalog_products(conn: sqlite3.Connection) -> list[Product]:
     return [_product(row) for row in rows]
 
 
+def catalog_products_for_shop(
+    conn: sqlite3.Connection, shop: str, since: datetime
+) -> list[Product]:
+    """Весь наблюдаемый каталог магазина в окне retention, по последнему отрезку.
+
+    В отличие от active_catalog_products включает и выбывшие позиции: цена
+    валидна, история жива. Позиции, не виденные в последнем успешном обходе,
+    возвращаются с in_stock=False — «последняя известная цена», предложение
+    недоступно. Один запрос на каталог и один на последний обход: пакетный
+    экспорт не выполняет SQL на каждую позицию.
+    """
+    prefix = f"{shop}:"
+    rows = conn.execute(
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  p.mpn, p.rating, p.reviews_count,
+                  s.price, s.old_price, s.in_stock, s.stock_note, s.last_seen
+           FROM products p
+           JOIN (
+               SELECT identity, MAX(id) AS max_id
+               FROM spans
+               WHERE identity >= ? AND identity < ?
+               GROUP BY identity
+           ) m ON m.identity = p.identity
+           JOIN spans s ON s.id = m.max_id
+           WHERE s.price > 0 AND s.last_seen >= ?""",
+        (prefix, f"{shop};", _iso(since)),
+    ).fetchall()
+    crawl = conn.execute(
+        """SELECT started_at FROM crawls WHERE shop = ? AND ok = 1
+           ORDER BY started_at DESC, id DESC LIMIT 1""",
+        (shop,),
+    ).fetchone()
+    last_ok = crawl["started_at"] if crawl else ""
+    products: list[Product] = []
+    for row in rows:
+        p = _product(row)
+        if last_ok and row["last_seen"] < last_ok:
+            p = _dc_replace(p, in_stock=False)
+        products.append(p)
+    return products
+
+
 def last_alert(conn: sqlite3.Connection, identity: str, since: datetime) -> int | None:
     """Цена последнего ДОСТАВЛЕННОГО алерта не старше `since`.
 

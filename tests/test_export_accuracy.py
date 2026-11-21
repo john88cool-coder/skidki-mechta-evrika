@@ -1,6 +1,8 @@
 import json
 from datetime import UTC, datetime, timedelta
 
+from test_catalog_export import _build_db, _export_for_web
+
 from skidki import export, storage
 from skidki.models import Product
 
@@ -121,3 +123,23 @@ def test_avg_discount_includes_real_drops_without_old_price(tmp_path):
     latest = json.loads((out / "latest.json").read_text(encoding="utf-8"))
     assert latest["stats"]["total_deals"] == 1
     assert latest["stats"]["avg_discount"] == 30.0
+
+
+def test_catalog_v2_verdict_matches_dashboard_for_showcase_item(tmp_path):
+    """Вердикт истории одинаков в двух форматах — витрина и каталог v2:
+    fair_discount, base_price и pump_price товара из витрины совпадают."""
+    db = _build_db(tmp_path)
+    out = _export_for_web(db, tmp_path / "web")
+
+    latest = json.loads((out / "latest.json").read_text(encoding="utf-8"))
+    deal = next(d for d in latest["deals"] if d["product"]["sku"] == "DROP1")
+    row = next(
+        r
+        for r in json.loads((out / "catalog-v2" / "mechta" / "index.json").read_text(encoding="utf-8"))["rows"]
+        if r["product"]["sku"] == "DROP1"
+    )
+
+    assert deal["signal"] == "drop"  # позиция действительно из витрины
+    assert row["fair_discount"] == deal["fair_discount"] == 50.0
+    assert row["base_price"] == deal["base_price"] == 300_000
+    assert row["pump_price"] == deal["pump_price"] is None

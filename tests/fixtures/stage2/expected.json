@@ -1,0 +1,160 @@
+{
+  "anchor": "2026-11-21T12:00:00Z",
+  "products": [
+    {
+      "shop": "mechta",
+      "sku": "A:17",
+      "title": "Demo Phone 256 GB",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": "DP256-KZ",
+      "url": "https://www.mechta.kz/product/demo-a17/",
+      "observed": ["2026-11-21T08:00:00Z", "2026-11-21T10:00:00Z", "2026-11-21T12:00:00Z"],
+      "prices": [120000, 120000, 120000],
+      "in_stock": [true, true, true]
+    },
+    {
+      "shop": "shopkz",
+      "sku": "77",
+      "title": "Demo Phone 256 GB",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": "DP256-KZ",
+      "url": "https://shop.kz/offer/77/",
+      "observed": ["2026-11-19T12:00:00Z", "2026-11-20T12:00:00Z", "2026-11-21T12:00:00Z"],
+      "prices": [125000, 120000, 115000],
+      "in_stock": [true, true, true]
+    },
+    {
+      "shop": "alser",
+      "sku": "78",
+      "title": "Demo Phone 128 GB",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": "DP128-KZ",
+      "url": "https://alser.kz/product/78/",
+      "observed": ["2026-11-19T12:00:00Z", "2026-11-20T12:00:00Z", "2026-11-21T12:00:00Z"],
+      "prices": [95000, 95000, 95000],
+      "in_stock": [true, true, true]
+    },
+    {
+      "shop": "mechta",
+      "sku": "CASE01",
+      "title": "Чехол Demo Phone",
+      "brand": null,
+      "category": "Чехлы",
+      "mpn": null,
+      "url": "https://www.mechta.kz/product/demo-case/",
+      "observed": ["2026-11-21T12:00:00Z"],
+      "prices": [4990],
+      "in_stock": [true]
+    },
+    {
+      "shop": "mechta",
+      "sku": "GONE5",
+      "title": "Demo Phone 512 GB",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": null,
+      "url": "https://www.mechta.kz/product/demo-gone/",
+      "observed": ["2026-11-19T12:00:00Z", "2026-11-20T12:00:00Z"],
+      "prices": [160000, 160000],
+      "in_stock": [true, true]
+    },
+    {
+      "shop": "mechta",
+      "sku": "OOS3",
+      "title": "Demo Phone 256 GB Black",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": null,
+      "url": "https://www.mechta.kz/product/demo-oos/",
+      "observed": ["2026-11-19T12:00:00Z", "2026-11-20T12:00:00Z", "2026-11-21T12:00:00Z"],
+      "prices": [118000, 118000, 118000],
+      "in_stock": [true, true, false]
+    },
+    {
+      "shop": "mechta",
+      "sku": "ONE9",
+      "title": "Demo Buds",
+      "brand": "Demo",
+      "category": "Наушники",
+      "mpn": null,
+      "url": "https://www.mechta.kz/product/demo-buds/",
+      "observed": ["2026-11-21T12:00:00Z"],
+      "prices": [25000],
+      "in_stock": [true]
+    },
+    {
+      "shop": "mechta",
+      "sku": "DROP1",
+      "title": "Demo Phone 256 GB Pro",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": null,
+      "url": "https://www.mechta.kz/product/demo-drop/",
+      "observed": [
+        "2026-11-14T12:00:00Z",
+        "2026-11-15T12:00:00Z",
+        "2026-11-16T12:00:00Z",
+        "2026-11-17T12:00:00Z",
+        "2026-11-18T12:00:00Z",
+        "2026-11-19T12:00:00Z",
+        "2026-11-20T12:00:00Z",
+        "2026-11-21T12:00:00Z"
+      ],
+      "prices": [300000, 300000, 300000, 300000, 300000, 300000, 300000, 150000],
+      "in_stock": [true, true, true, true, true, true, true, true]
+    },
+    {
+      "shop": "technodom",
+      "sku": "TD1",
+      "title": "Demo Phone 256 GB",
+      "brand": "Demo",
+      "category": "Смартфоны",
+      "mpn": "DP256-KZ",
+      "url": "https://technodom.kz/p/td1",
+      "observed": ["2026-11-21T12:00:00Z"],
+      "prices": [121000],
+      "in_stock": [true]
+    }
+  ],
+  "crawls": [
+    {"shop": "mechta", "ok": true, "item_count": 5, "at": "2026-11-21T12:00:00Z"},
+    {"shop": "evrika", "ok": true, "item_count": 0, "at": "2026-11-21T12:00:00Z"},
+    {"shop": "shopkz", "ok": true, "item_count": 1, "at": "2026-11-21T12:00:00Z"},
+    {"shop": "alser", "ok": true, "item_count": 1, "at": "2026-11-21T12:00:00Z"},
+    {"shop": "technodom", "ok": false, "item_count": 0, "at": "2026-11-21T12:00:00Z", "error": "cloudflare"}
+  ],
+  "expected": {
+    "manifest_shops": ["mechta", "evrika", "shopkz", "alser"],
+    "absent_shops": ["sulpak", "technodom"],
+    "counts": {"mechta": 6, "evrika": 0, "shopkz": 1, "alser": 1},
+    "last_crawl": "2026-11-21T12:00:00Z",
+    "mechta_A17": {
+      "price": 120000,
+      "old_price": null,
+      "in_stock": true,
+      "mpn": "DP256-KZ",
+      "url": "https://www.mechta.kz/product/demo-a17/",
+      "fair_discount": null,
+      "base_price": null,
+      "pump_price": null,
+      "exact_model": null
+    },
+    "gone5": {
+      "last_seen": "2026-11-20T12:00:00Z",
+      "first_seen": "2026-11-19T12:00:00Z",
+      "price": 160000
+    },
+    "drop1_verdict": {"fair_discount": 50.0, "base_price": 300000, "pump_price": null},
+    "shopkz_77_history": {
+      "dates": ["2026-11-19", "2026-11-20", "2026-11-21"],
+      "prices": [125000, 120000, 115000],
+      "recent_prices": [125000, 120000, 115000],
+      "min": 115000,
+      "median": 120000,
+      "coverage_days": 2.0
+    }
+  }
+}
