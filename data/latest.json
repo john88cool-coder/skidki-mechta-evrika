@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T22:08:30.426605+00:00",
+  "updated_at": "2026-11-21T03:33:56.888533+00:00",
   "deals": [
     {
       "product": {
@@ -114,16 +114,16 @@
       },
       "signal": "deal",
       "drop_pct": 42,
-      "fair_discount": 42.0,
-      "base_price": 68990,
+      "fair_discount": 38.0,
+      "base_price": 64490,
       "pump_price": null,
-      "value_score": 89,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 0.0
+      "inflated_gap": 4.0
     },
     {
       "product": {
@@ -1991,7 +1991,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116689,
+        "price": 116688,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -2209,7 +2209,7 @@
         "shop": "sulpak",
         "sku": "624411",
         "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
-        "price": 224290,
+        "price": 224390,
         "old_price": 469990,
         "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
         "brand": "Haier",
@@ -5315,7 +5315,7 @@
       "signal": "drop",
       "drop_pct": null,
       "fair_discount": 26.9,
-      "base_price": 3980650,
+      "base_price": 3980640,
       "pump_price": null,
       "value_score": 76,
       "is_pick": false,
@@ -5323,37 +5323,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "295645",
-        "title": "Монитор 23,8\" MSI Modern MD2412PW IPS 1920x1080 16:9 100Гц (HDMI)",
-        "price": 51990,
-        "old_price": 69990,
-        "url": "https://www.technodom.kz/p/monitor-23-8-msi-modern-md2412pw-ips-1920x1080-16-9-100gts-hdmi-295645",
-        "brand": "MSI",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295645_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 25.7,
-      "base_price": 69990,
-      "pump_price": null,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.3
     },
     {
       "product": {
@@ -5416,37 +5385,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "295659",
-        "title": "Монитор 27\" MSI MAG 274URFW Rapid IPS 3840х2160 16:9 160Гц (2HDMI+DP)",
-        "price": 209990,
-        "old_price": 328990,
-        "url": "https://www.technodom.kz/p/monitor-27-msi-mag-274urfw-rapid-ips-3840kh2160-16-9-160gts-2hdmi-dp-295659",
-        "brand": "MSI",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 36,
-        "image": "https://api.technodom.kz/f3/api/v1/images/295659_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 36,
-      "fair_discount": 25.0,
-      "base_price": 279990,
-      "pump_price": null,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.0
     },
     {
       "product": {
@@ -7108,37 +7046,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1561278",
-        "title": "Морозильная камера Ardesto FRM-145MCH, White",
-        "price": 84990,
-        "old_price": 99990,
-        "url": "https://shop.kz/offer/morozilnaya-kamera-ardesto-frm-145mch-white/",
-        "brand": "Ardesto",
-        "category": "Морозильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://static.shop.kz/upload/iblock/fca/a6x3kzpbiu5xo5syn8cq3gkeouyy8n6c/168479o7.jpg",
-        "mpn": "FRM-145MCH",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 15.0,
-      "base_price": 99990,
-      "pump_price": null,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.0
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "257772",
         "title": "Стиральная машина Beko WSPE7H616A",
@@ -7258,6 +7165,97 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": -0.3
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "631710",
+        "title": "Робот-пылесос Dreame X50 Ultra Complete Black",
+        "price": 519990,
+        "old_price": 679990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-x50-ultra-complete-black",
+        "brand": "Dreame",
+        "category": "robotiy_piylesosiy",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 24,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_204_0_1_scNQBU_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 24,
+      "fair_discount": 13.3,
+      "base_price": 599990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 10.7
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "288868",
+        "title": "Стиральная машина Hotpoint WSH6090VWW",
+        "price": 129990,
+        "old_price": 204990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh6090vww-288868",
+        "brand": "Hotpoint",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288868_1.webp",
+        "mpn": null,
+        "rating": 3.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 13.3,
+      "base_price": 149990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.7
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "281542",
+        "title": "Чехол Apple Magic Keyboard для iPad Pro 13‑inch (M4) - Russian - Black (MWR53RS/A)",
+        "price": 239490,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-apple-magic-keyboard-dlya-ipad-pro-13inch-m4-russian-black-mwr53rs-281542",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/chehol_apple_magic_keyboard_dlya_ipad_pro_13inch_m4_russian_black_mwr53rs_281542_1new.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.2,
+      "base_price": 275990,
+      "pump_price": null,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7436,37 +7434,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 22.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650357",
-        "title": "LED Телевизор Dreame 55&quot; Vista 4K TV 55K100",
-        "price": 229923,
-        "old_price": 299990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-55-vista-4k-tv-55k100",
-        "brand": "Dreame",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20790_0_1_HW0LCq_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 7.7,
-      "base_price": 248990,
-      "pump_price": null,
-      "value_score": 33,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 15.3
     }
   ],
   "shops": [
@@ -7480,8 +7447,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-20T22:08:17+00:00",
-      "item_count": 2780,
+      "last_crawl": "2026-11-21T03:33:36+00:00",
+      "item_count": 2776,
       "status": "ok"
     },
     {
@@ -7494,28 +7461,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-20T22:08:17+00:00",
-      "item_count": 3817,
+      "last_crawl": "2026-11-21T03:33:36+00:00",
+      "item_count": 3927,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-20T22:08:17+00:00",
-      "item_count": 10157,
+      "last_crawl": "2026-11-21T03:33:36+00:00",
+      "item_count": 10153,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-20T22:08:17+00:00",
+      "last_crawl": "2026-11-21T03:33:36+00:00",
       "item_count": 2451,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31786,
-    "total_deals": 240,
+    "total_products": 31888,
+    "total_deals": 239,
     "avg_discount": 50.0
   }
 }
