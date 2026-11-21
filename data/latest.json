@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T03:33:56.888533+00:00",
+  "updated_at": "2026-11-21T13:00:10.178799+00:00",
   "deals": [
     {
       "product": {
@@ -35,29 +35,29 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "642290",
-        "title": "Электробритва мужская Braun 72-G1200s",
-        "price": 91990,
-        "old_price": 172590,
-        "url": "https://www.sulpak.kz/g/elektrobritviy-braun-72-g1200s",
-        "brand": "Braun",
-        "category": "britviy_i_epilyatoriy",
-        "group": "beauty",
+        "shop": "shopkz",
+        "sku": "1745054",
+        "title": "Колонки Edifier R1280DB (2.0), Brown (SN:962039499362)",
+        "price": 28990,
+        "old_price": 54990,
+        "url": "https://shop.kz/offer/kolonki-edifier-r1280db-2-0-brown-sn-962039499362/",
+        "brand": "Edifier",
+        "category": "Акустические системы и колонки",
+        "group": "tv",
         "in_stock": true,
         "discount_pct": 47,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_27_462_0_1_Kzn1wZ_160.webp",
-        "mpn": null,
+        "image": "https://static.shop.kz/upload/iblock/db7/ksxzitrfjngb7cuhfuzi2inl74nsz29k/167924z1.jpg",
+        "mpn": "R1280DB BROWN",
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
+        "first_seen": "2026-11-21T12:59:46+00:00"
       },
       "signal": "deal",
       "drop_pct": 47,
       "fair_discount": null,
       "base_price": null,
       "pump_price": null,
-      "value_score": 41,
+      "value_score": 35,
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
@@ -1111,7 +1111,7 @@
       "fair_discount": 0.0,
       "base_price": 30990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1173,7 +1173,7 @@
       "fair_discount": 0.0,
       "base_price": 30990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1235,7 +1235,7 @@
       "fair_discount": 0.0,
       "base_price": 30990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1266,7 +1266,7 @@
       "fair_discount": 0.0,
       "base_price": 42990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1824,7 +1824,7 @@
       "fair_discount": 0.0,
       "base_price": 30990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1886,7 +1886,7 @@
       "fair_discount": 0.0,
       "base_price": 12904,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 26,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2321,7 +2321,7 @@
       "fair_discount": 0.0,
       "base_price": 71990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2383,7 +2383,7 @@
       "fair_discount": 0.0,
       "base_price": 13990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2600,7 +2600,7 @@
       "fair_discount": 0.0,
       "base_price": 12990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2818,6 +2818,37 @@
       "base_price": 14990,
       "pump_price": null,
       "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "654089",
+        "title": "Ручной отпариватель Tefal DT1R04F1",
+        "price": 16990,
+        "old_price": 33990,
+        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1r04f1",
+        "brand": "Tefal",
+        "category": "otparivateli",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_310_0_1_QK8KH8_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-25T08:14:54+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 16990,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3127,7 +3158,7 @@
       "fair_discount": 0.0,
       "base_price": 18990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3251,7 +3282,7 @@
       "fair_discount": 0.0,
       "base_price": 10990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3345,37 +3376,6 @@
       "base_price": 12990,
       "pump_price": null,
       "value_score": 27,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654089",
-        "title": "Ручной отпариватель Tefal DT1R04F1",
-        "price": 16990,
-        "old_price": 33990,
-        "url": "https://www.sulpak.kz/g/otparivateli-dlya-odezhdiy-tefal-dt1r04f1",
-        "brand": "Tefal",
-        "category": "otparivateli",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_1466_310_0_1_QK8KH8_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-25T08:14:54+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 16990,
-      "pump_price": null,
-      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3635,6 +3635,37 @@
     {
       "product": {
         "shop": "technodom",
+        "sku": "260563",
+        "title": "Мясорубка Zelmer ZMM-9801B",
+        "price": 35990,
+        "old_price": 72490,
+        "url": "https://www.technodom.kz/p/myasorubka-zelmer-zmm-9801b-260563",
+        "brand": "Zelmer",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://api.technodom.kz/f3/api/v1/images/260563_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 35990,
+      "pump_price": null,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
         "sku": "281516",
         "title": "Смарт-часы HONOR CHOICE Watch Black",
         "price": 14990,
@@ -3780,7 +3811,7 @@
       "fair_discount": 0.0,
       "base_price": 64990,
       "pump_price": null,
-      "value_score": 35,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3913,37 +3944,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "300914",
-        "title": "Компьютер NEO Office A17 (Ci3-10100/DDR4 16GB/SSD 512GB/H510M-K/NMD-C6016)",
-        "price": 230990,
-        "old_price": 461990,
-        "url": "https://www.technodom.kz/p/kompyuter-neo-office-a17-ci3-10100-ddr4-16gb-ssd-512gb-h510m-k-nmd-c6016-300914",
-        "brand": "Neo",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://api.technodom.kz/f3/api/v1/images/300914_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 230990,
-      "pump_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "43365",
         "title": "Стайлер волос Dreame AirStyle Gold Titanium AMF17A",
@@ -4065,6 +4065,39 @@
         "Рисованная?"
       ],
       "inflated_gap": 49.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "640216",
+        "title": "Neo QLED телевизор Samsung QE65QN90FAUXCE",
+        "price": 899990,
+        "old_price": 1779990,
+        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe65qn90fauxce",
+        "brand": "Samsung",
+        "category": "led_oled_televizoriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20438_0_1_yQ2Fkv_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 49,
+      "fair_discount": 18.2,
+      "base_price": 1099990,
+      "pump_price": null,
+      "value_score": 59,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 30.8
     },
     {
       "product": {
@@ -4215,7 +4248,7 @@
       "fair_discount": 0.0,
       "base_price": 38990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4338,37 +4371,6 @@
       "drop_pct": 47,
       "fair_discount": 0.0,
       "base_price": 119890,
-      "pump_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47056",
-        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Gold (Soc-L29M) (55020EVP)",
-        "price": 179890,
-        "old_price": 341990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-gold-soc-l29m-55020evp/p47056",
-        "brand": "HUAWEI",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/FYbMcK9lYjdbpCv4R410nvLHvOApA7ouEOJm5uca.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "base_price": 179890,
       "pump_price": null,
       "value_score": 41,
       "is_pick": false,
@@ -5233,6 +5235,68 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "651383",
+        "title": "Смартфон Huawei Nova 15 12/256GB Green",
+        "price": 164890,
+        "old_price": 249890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-green",
+        "brand": "HUAWEI",
+        "category": "smartfoniy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12163_0_6_5cpUVa_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 28.3,
+      "base_price": 229890,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651384",
+        "title": "Смартфон Huawei Nova 15 12/256GB White",
+        "price": 164890,
+        "old_price": 249890,
+        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-white",
+        "brand": "HUAWEI",
+        "category": "smartfoniy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 34,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12164_0_6_hi5PQf_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 34,
+      "fair_discount": 28.3,
+      "base_price": 229890,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 5.7
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1411059",
         "title": "Робот-пылесос Ardesto RVC-S1300W, White",
@@ -5416,6 +5480,38 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657414",
+        "title": "Ноутбук HP Victus Gaming 15-fa2253ci Intel Core i7-13620H 16 GB / SSD 512GB / GeForce RTX 3050 6GB / NO OS / D9CP5EA",
+        "price": 499990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/noutbuki-hp-hp-victus-gaming-15-fa2253ci-d9cp5ea-i7165sg35n",
+        "brand": "HP",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10071_0_1_Fu4l67_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-21T23:44:54+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 24.8,
+      "base_price": 664990,
+      "pump_price": null,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -6356,38 +6452,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "630284",
-        "title": "Ноутбук Asus Zenbook UX3407QA-QD365W (Copilot&#x2B; PC) Snapdragon X X126100 16 GB / SSD 512 GB / Adreno GPU / Win 11 / 90NB1502-M00MR0",
-        "price": 565990,
-        "old_price": 579990,
-        "url": "https://www.sulpak.kz/g/noutbuki-asus-zenbook-ux3407qa-qd365w-copilot-pc-90nb1502-m00mr0-sdx5suw1",
-        "brand": "Asus",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 2,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_3427_0_6_DpwAm4_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 2,
-      "fair_discount": 19.1,
-      "base_price": 699990,
-      "pump_price": null,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -17.1
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "655788",
         "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
         "price": 219990,
@@ -6475,6 +6539,38 @@
       "is_pick": false,
       "badges": [
         "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "655783",
+        "title": "Ноутбук Lenovo LOQ 15ARP10E Ryzen 7 250 16GB / SSD 512GB / GeForce RTX 5050 8GB / Win 11 / 83TN008WRK",
+        "price": 779990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-loq-15ahp11-83tn008wrk-r7165sg55w11h",
+        "brand": "Lenovo",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9954_0_6_85UCNk_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-22T12:23:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 17.9,
+      "base_price": 949990,
+      "pump_price": null,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
       ],
       "inflated_gap": null
     },
@@ -6977,7 +7073,7 @@
       "fair_discount": 15.2,
       "base_price": 329800,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 51,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -7447,8 +7543,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-21T03:33:36+00:00",
-      "item_count": 2776,
+      "last_crawl": "2026-11-21T12:59:46+00:00",
+      "item_count": 2778,
       "status": "ok"
     },
     {
@@ -7461,28 +7557,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-21T03:33:36+00:00",
-      "item_count": 3927,
+      "last_crawl": "2026-11-21T12:59:46+00:00",
+      "item_count": 3825,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-21T03:33:36+00:00",
-      "item_count": 10153,
+      "last_crawl": "2026-11-21T12:59:46+00:00",
+      "item_count": 10133,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-21T03:33:36+00:00",
+      "last_crawl": "2026-11-21T12:59:46+00:00",
       "item_count": 2451,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31888,
-    "total_deals": 239,
+    "total_products": 31768,
+    "total_deals": 242,
     "avg_discount": 50.0
   }
 }
