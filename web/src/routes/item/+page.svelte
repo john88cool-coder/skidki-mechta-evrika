@@ -5,6 +5,7 @@
 	import PriceChart from '$lib/components/PriceChart.svelte';
 	import { formatPrice, formatDate, shopLabel } from '$lib/utils/format';
 	import { verdictOf } from '$lib/utils/verdict';
+	import { relatedDeals } from '$lib/utils/related';
 	import VerdictChip from '$lib/components/VerdictChip.svelte';
 	import type { ProductHistory } from '$lib/types';
 	import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check } from '@lucide/svelte';
@@ -145,11 +146,11 @@
 	</section>
 
 	{#if dealForItem}
-	{@const related = dashboard.deals.filter(d => d.product.shop !== dealForItem!.product.shop || d.product.sku !== dealForItem!.product.sku).filter(d => (d.product.group && d.product.group === dealForItem!.product.group) || (d.product.brand && d.product.brand === dealForItem!.product.brand)).sort((a, b) => (verdictOf(b).real ?? -1) - (verdictOf(a).real ?? -1)).slice(0,4)}
+	{@const related = relatedDeals(dealForItem, dashboard.deals)}
 	{#if related.length}
 	<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
 		<h2 class="font-bold tracking-tight" style="color:var(--ink)">Похожие</h2>
-		<p class="text-xs mt-1" style="color:var(--ink-4)">Та же группа или бренд — альтернативы для сравнения.</p>
+		<p class="text-xs mt-1" style="color:var(--ink-4)">Та же группа, похожая цена — сначала та же категория и реальные снижения.</p>
 		<div class="grid gap-2 mt-3">
 			{#each related as r (r.product.shop + r.product.sku)}<a href="{base}/item?shop={encodeURIComponent(r.product.shop)}&sku={encodeURIComponent(r.product.sku)}" class="related-row"><span class="text-sm font-medium truncate" style="color:var(--ink)">{r.product.title}</span><VerdictChip verdict={verdictOf(r)} /><span class="font-mono text-sm font-bold shrink-0" style="color:var(--ink)">{formatPrice(r.product.price)}</span></a>{/each}
 		</div>

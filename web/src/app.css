@@ -14,7 +14,7 @@
 	--ink: #0e1a15;
 	--ink-2: #2a3a33;
 	--ink-3: #5a6b64;
-	--ink-4: #8a9a93;
+	--ink-4: #5f6f68;
 	--line: #e8e2da;
 	--line-2: #ddd8d1;
 	--accent: #ff3b1f;
@@ -37,7 +37,7 @@
 	--hero-line: rgba(253, 252, 250, 0.1);
 	--hero-accent: #ff8a6b;
 	--hero-good: #5fe0a4;
-	--warn: #9a6a0a;
+	--warn: #7a5408;
 	--warn-bg: #fff7e6;
 	--warn-line: #ffe2a8;
 	/* «Нарисована»: приглушённый красный — предупреждение, а не акцент. */
