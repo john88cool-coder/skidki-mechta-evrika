@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T13:00:10.178799+00:00",
+  "updated_at": "2026-11-21T20:51:18.395354+00:00",
   "deals": [
     {
       "product": {
@@ -427,7 +427,7 @@
       "signal": "deal",
       "drop_pct": 64,
       "fair_discount": 0.0,
-      "base_price": 316790,
+      "base_price": 300990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -5226,7 +5226,7 @@
       "fair_discount": 28.6,
       "base_price": 279990,
       "pump_price": null,
-      "value_score": 73,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5361,7 +5361,7 @@
       "product": {
         "shop": "sulpak",
         "sku": "3000041830",
-        "title": "Ноутбук MSI Raider 16 Max HX B2WJ-055KZ 16&quot; QHD&#x2B; 240Hz Ultra 9 290HX Plus 32GB 2TB RTX5090 Win 11",
+        "title": "Ноутбук MSI Raider 16 Max HX B2WJ-055KZ 16\" QHD+ 240Hz Ultra 9 290HX Plus 32GB 2TB RTX5090 Win 11",
         "price": 2910435,
         "old_price": null,
         "url": "https://www.sulpak.kz/g/noutbuki-msi-62-9647",
@@ -5766,7 +5766,7 @@
       "product": {
         "shop": "sulpak",
         "sku": "650354",
-        "title": "Mini LED телевизор Dreame 75&quot; Aura 75S100",
+        "title": "Mini LED телевизор Dreame 75\" Aura 75S100",
         "price": 699990,
         "old_price": 889990,
         "url": "https://www.sulpak.kz/g/televizoriy-dreame-75-aura-mini-led-4k-tv-75s100",
@@ -6510,37 +6510,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1742210",
-        "title": "Очиститель воздуха Mijia Smart Air Purifier 6 EU (AC-M25-SC) Белый",
-        "price": 89900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/ochistitel-vozdukha-mijia-smart-air-purifier-6-eu-ac-m25-sc-belyy/",
-        "brand": null,
-        "category": "Увлажнители и очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/f25/ru8vjgc0hn8nxn5h7ygwumsy8wvvclql/84132_1.jpg",
-        "mpn": "AC-M25-SC",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-16T18:56:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 18.2,
-      "base_price": 109900,
-      "pump_price": null,
-      "value_score": 55,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7414,35 +7383,6 @@
     {
       "product": {
         "shop": "shopkz",
-        "sku": "1742213",
-        "title": "Очиститель воздуха Mijia Smart Air Purifier 6 Plus EU",
-        "price": 159900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/ochistitel-vozdukha-mijia-smart-air-purifier-6-plus-eu/",
-        "brand": null,
-        "category": "Увлажнители и очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/fe4/7tbqt7pdbalsdehmu7t1h31cpwbg5060/95061_1.jpg",
-        "mpn": "AC-M35-SC",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-16T18:56:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 10.4,
-      "base_price": 178500,
-      "pump_price": null,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "shopkz",
         "sku": "1507086",
         "title": "Робот-пылесос Tefal X-plorer Serie 45 RG8227WH, White",
         "price": 111590,
@@ -7543,8 +7483,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-21T12:59:46+00:00",
-      "item_count": 2778,
+      "last_crawl": "2026-11-21T20:50:58+00:00",
+      "item_count": 2784,
       "status": "ok"
     },
     {
@@ -7557,28 +7497,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-21T12:59:46+00:00",
-      "item_count": 3825,
+      "last_crawl": "2026-11-21T20:50:58+00:00",
+      "item_count": 3791,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-21T12:59:46+00:00",
-      "item_count": 10133,
+      "last_crawl": "2026-11-21T20:50:58+00:00",
+      "item_count": 10123,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-21T12:59:46+00:00",
-      "item_count": 2451,
+      "last_crawl": "2026-11-21T20:50:58+00:00",
+      "item_count": 2450,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31768,
-    "total_deals": 242,
+    "total_products": 31729,
+    "total_deals": 240,
     "avg_discount": 50.0
   }
 }
