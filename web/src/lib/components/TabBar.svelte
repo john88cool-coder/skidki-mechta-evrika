@@ -46,7 +46,7 @@
 			min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px;
 			display: grid; place-items: center;
 			font-family: var(--font-mono); font-size: 11px; font-weight: 700; line-height: 1;
-			background: var(--accent); color: #fff;
+			background: var(--accent-strong); color: #fff;
 		}
 	}
 </style>

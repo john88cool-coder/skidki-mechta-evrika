@@ -118,7 +118,7 @@
 		position: absolute; top: 8px; left: 8px;
 		display: inline-flex; align-items: baseline; gap: 4px;
 		padding: 5px 9px; border-radius: 999px;
-		background: var(--accent); color: #fff;
+		background: var(--accent-strong); color: #fff;
 		font-family: var(--font-mono); font-size: 13px; font-weight: 700; line-height: 1;
 	}
 	.dc-pill small { font-family: var(--font-sans); font-size: 10px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }

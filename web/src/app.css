@@ -18,6 +18,8 @@
 	--line: #e8e2da;
 	--line-2: #ddd8d1;
 	--accent: #ff3b1f;
+	/* Заливка текстовых бейджей: белый текст на ней проходит WCAG AA в обеих темах. */
+	--accent-strong: #c52b16;
 	--accent-2: #ffede8;
 	--accent-ink: #7a1a0a;
 	--success: #0a7a42;

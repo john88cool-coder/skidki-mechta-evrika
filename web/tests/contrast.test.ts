@@ -6,6 +6,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const css = fs.readFileSync(path.join(root, 'src/app.css'), 'utf8');
+const dealCard = fs.readFileSync(path.join(root, 'src/lib/components/DealCard.svelte'), 'utf8');
+const tabBar = fs.readFileSync(path.join(root, 'src/lib/components/TabBar.svelte'), 'utf8');
 
 /** Значения hex-токенов внутри первого блока, начинающегося с `selector {`. */
 function tokens(selector: string): Record<string, string> {
@@ -15,6 +17,14 @@ function tokens(selector: string): Record<string, string> {
 	const out: Record<string, string> = {};
 	for (const m of body.matchAll(/--([\w-]+):\s*(#[0-9a-fA-F]{6})\s*;/g)) out[m[1]] = m[2];
 	return out;
+}
+
+function cssRule(source: string, selector: string): string {
+	const start = source.indexOf(`${selector} {`);
+	assert.ok(start >= 0, `нет правила ${selector}`);
+	const end = source.indexOf('}', start);
+	assert.ok(end > start, `правило ${selector} не закрыто`);
+	return source.slice(start, end);
 }
 
 function luminance(hex: string): number {
@@ -47,4 +57,21 @@ for (const [name, t] of [['светлая', light], ['тёмная', dark]] as c
 			assert.ok(ratio >= 4.5, `--${fg} ${t[fg]} на --${bg} ${t[bg]}: ${ratio.toFixed(2)}`);
 		}
 	});
+
+	test(`${name} тема: белый текст на акцентных бейджах читается (WCAG AA 4.5:1)`, () => {
+		assert.ok(t['accent-strong'], 'нет токена --accent-strong');
+		const ratio = contrast('#ffffff', t['accent-strong']);
+		assert.ok(ratio >= 4.5, `--accent-strong ${t['accent-strong']}: ${ratio.toFixed(2)}`);
+	});
 }
+
+test('текстовые акцентные бейджи используют контрастную заливку', () => {
+	for (const [name, source, selector] of [
+		['DealCard', dealCard, '.dc-pill'],
+		['TabBar', tabBar, '.tab-badge']
+	] as const) {
+		const body = cssRule(source, selector);
+		assert.match(body, /background:\s*var\(--accent-strong\)/, `${name}: старый фон бейджа`);
+		assert.match(body, /color:\s*#fff/, `${name}: текст бейджа должен остаться белым`);
+	}
+});
