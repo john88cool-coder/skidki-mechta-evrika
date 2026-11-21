@@ -9,6 +9,7 @@
 	import { shopLabel, groupLabel } from '$lib/utils/format';
 	import { verdictOf, isReal, VERDICT_LABELS, type VerdictKind } from '$lib/utils/verdict';
 	import { bySortKey, SORT_LABELS, type SortKey } from '$lib/utils/sort';
+	import { countExtraFilters } from '$lib/utils/filters';
 	import { brandKey, brandOptions } from '$lib/utils/brands';
 	import { Search, X, SlidersHorizontal, ArrowUpDown, Heart, ChevronDown } from '@lucide/svelte';
 
@@ -31,6 +32,11 @@
 	);
 	let sort = $state<SortKey>(SORTS.includes(initial.get('sort') as SortKey) ? (initial.get('sort') as SortKey) : 'real');
 	let limit = $state(PAGE);
+	// Дополнительные фильтры скрыты под кнопкой: поиск, сортировка и вердикт остаются сверху.
+	let moreOpen = $state(false);
+	let extraCount = $derived(
+		countExtraFilters({ shop, group, brand, minPct, priceMax, inStockOnly, favOnly })
+	);
 
 	let returnTo = $derived.by(() => {
 		const filters: Record<string, string> = {};
@@ -157,9 +163,12 @@
 		{#if hasFilters}
 			<button onclick={reset} class="reset-btn"><X size={14} /> Сбросить</button>
 		{/if}
+		<button class="more-btn" onclick={() => (moreOpen = !moreOpen)} aria-expanded={moreOpen} aria-controls="more-filters">
+			<SlidersHorizontal size={14} /> Фильтры{#if extraCount}<span class="more-count">{extraCount}</span>{/if}
+		</button>
 	</div>
 
-	<div class="chip-row" role="group" aria-label="Вердикт">
+	<div class="chip-row scroll-row" role="group" aria-label="Вердикт">
 		<span class="chip-label">Вердикт</span>
 		{#each VERDICT_FILTERS as key (key)}
 			<button onclick={() => (verdictFilter = key)} aria-pressed={verdictFilter === key} class="chip verdict-filter {key}" disabled={key !== 'all' && counts[key] === 0 && verdictFilter !== key}>
@@ -167,8 +176,11 @@
 			</button>
 		{/each}
 	</div>
+
+	{#if moreOpen}
+	<div class="filters-more" id="more-filters">
 	<div class="chip-row" role="group" aria-label="Магазин">
-		<span class="chip-label"><SlidersHorizontal size={12} class="inline mr-1" />Магазин</span>
+		<span class="chip-label">Магазин</span>
 		{#each shops as name (name)}
 			<button onclick={() => (shop = name)} aria-pressed={shop === name} class="chip">{name === 'all' ? 'Все' : shopLabel(name)}</button>
 		{/each}
@@ -191,7 +203,7 @@
 		<div class="range-wrap">
 			<span class="chip-label">Скидка от</span>
 			<input type="range" aria-label="Минимальная скидка" min="0" max="80" step="5" bind:value={minPct} />
-			<span class="range-val">{minPct ? `−${minPct}%` : 'любая'}</span>
+			<span class="range-val">{minPct ? `-${minPct}%` : 'любая'}</span>
 		</div>
 		<div class="chip-row" role="group" aria-label="Цена">
 			<span class="chip-label">Цена</span>
@@ -202,6 +214,8 @@
 		<button onclick={() => (inStockOnly = !inStockOnly)} aria-pressed={inStockOnly} class="chip">В наличии</button>
 		<button onclick={() => (favOnly = !favOnly)} aria-pressed={favOnly} class="chip"><Heart size={12} class="inline mr-1" />Избранное{favorites.count ? ` · ${favorites.count}` : ''}</button>
 	</div>
+	</div>
+	{/if}
 </div>
 
 {#if dashboard.loading && !dashboard.data}
