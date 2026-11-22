@@ -8,6 +8,7 @@
 
 from __future__ import annotations
 
+import secrets
 import sqlite3
 from collections.abc import Iterable, Iterator
 from contextlib import contextmanager
@@ -81,6 +82,29 @@ CREATE TABLE IF NOT EXISTS watches (
     max_price  INTEGER NOT NULL,
     shop       TEXT,
     created_at TEXT    NOT NULL
+);
+
+-- Точные ценовые цели из карточки товара (/watchitem, w2_...): одна цель на
+-- пару (shop, sku), повторная осознанная установка обновляет порог. Локальные
+-- данные владельца: в export_prefs, индекс и манифест не попадают.
+CREATE TABLE IF NOT EXISTS item_watches (
+    shop       TEXT    NOT NULL,
+    sku        TEXT    NOT NULL,
+    max_price  INTEGER NOT NULL,
+    created_at TEXT    NOT NULL,
+    updated_at TEXT    NOT NULL,
+    PRIMARY KEY (shop, sku)
+);
+
+-- Черновики подтверждения из карточки: ждут нажатия inline-кнопки wi:<id>,
+-- TTL 15 минут; просроченные подчищаются при создании нового черновика.
+CREATE TABLE IF NOT EXISTS item_watch_drafts (
+    id         TEXT    PRIMARY KEY,
+    shop       TEXT    NOT NULL,
+    sku        TEXT    NOT NULL,
+    max_price  INTEGER NOT NULL,
+    created_at TEXT    NOT NULL,
+    expires_at TEXT    NOT NULL
 );
 
 -- Итоги обходов: нужны, чтобы заметить молча сломавшийся парсер.
@@ -684,6 +708,157 @@ def list_watches(conn: sqlite3.Connection) -> list[WatchEntry]:
         WatchEntry(int(r["id"]), r["query"], int(r["max_price"]), r["shop"], r["created_at"])
         for r in rows
     ]
+
+
+# ================= Точные цели из карточки (задача 8) =================
+
+
+@dataclass(frozen=True)
+class ItemWatch:
+    """Точная цель: id = rowid (короткий ключ для inline-кнопки удаления)."""
+
+    id: int
+    shop: str
+    sku: str
+    max_price: int
+    created_at: str
+    updated_at: str
+
+
+@dataclass(frozen=True)
+class ItemWatchDraft:
+    """Черновик подтверждения из карточки; TTL по умолчанию 15 минут."""
+
+    id: str
+    shop: str
+    sku: str
+    max_price: int
+    created_at: str
+    expires_at: str
+
+    def expired(self, at: datetime | None = None) -> bool:
+        return _dt(self.expires_at) <= (at or now())
+
+
+def upsert_item_watch(
+    conn: sqlite3.Connection, shop: str, sku: str, max_price: int, at: datetime | None = None
+) -> ItemWatch:
+    """Одна цель на пару (shop, sku): повторная установка обновляет порог."""
+    stamp = _iso(at or now())
+    row = conn.execute(
+        "SELECT rowid, created_at FROM item_watches WHERE shop = ? AND sku = ?", (shop, sku)
+    ).fetchone()
+    if row is not None:
+        conn.execute(
+            "UPDATE item_watches SET max_price = ?, updated_at = ? WHERE rowid = ?",
+            (int(max_price), stamp, row["rowid"]),
+        )
+        return ItemWatch(int(row["rowid"]), shop, sku, int(max_price), row["created_at"], stamp)
+    conn.execute(
+        "INSERT INTO item_watches (shop, sku, max_price, created_at, updated_at) VALUES (?,?,?,?,?)",
+        (shop, sku, int(max_price), stamp, stamp),
+    )
+    row = conn.execute(
+        "SELECT rowid, created_at FROM item_watches WHERE shop = ? AND sku = ?", (shop, sku)
+    ).fetchone()
+    return ItemWatch(int(row["rowid"]), shop, sku, int(max_price), row["created_at"], stamp)
+
+
+def list_item_watches(conn: sqlite3.Connection) -> list[ItemWatch]:
+    rows = conn.execute(
+        "SELECT rowid AS id, shop, sku, max_price, created_at, updated_at FROM item_watches ORDER BY rowid"
+    ).fetchall()
+    return [
+        ItemWatch(int(r["id"]), r["shop"], r["sku"], int(r["max_price"]), r["created_at"], r["updated_at"])
+        for r in rows
+    ]
+
+
+def remove_item_watch(conn: sqlite3.Connection, item_id: int) -> bool:
+    cur = conn.execute("DELETE FROM item_watches WHERE rowid = ?", (int(item_id),))
+    return cur.rowcount > 0
+
+
+def create_item_watch_draft(
+    conn: sqlite3.Connection,
+    shop: str,
+    sku: str,
+    max_price: int,
+    at: datetime | None = None,
+    ttl: timedelta = timedelta(minutes=15),
+) -> ItemWatchDraft:
+    """Черновик с коротким случайным ID; заодно подчищает просроченные."""
+    moment = at or now()
+    conn.execute("DELETE FROM item_watch_drafts WHERE expires_at <= ?", (_iso(moment),))
+    for _ in range(5):  # коллизия короткого ID крайне маловероятна, но не фатальна
+        draft_id = secrets.token_hex(4)
+        try:
+            conn.execute(
+                """INSERT INTO item_watch_drafts (id, shop, sku, max_price, created_at, expires_at)
+                   VALUES (?,?,?,?,?,?)""",
+                (draft_id, shop, sku, int(max_price), _iso(moment), _iso(moment + ttl)),
+            )
+            return ItemWatchDraft(draft_id, shop, sku, int(max_price), _iso(moment), _iso(moment + ttl))
+        except sqlite3.IntegrityError:
+            continue
+    raise RuntimeError("не удалось выделить id черновика")
+
+
+def get_item_watch_draft(conn: sqlite3.Connection, draft_id: str) -> ItemWatchDraft | None:
+    row = conn.execute(
+        "SELECT id, shop, sku, max_price, created_at, expires_at FROM item_watch_drafts WHERE id = ?",
+        (draft_id,),
+    ).fetchone()
+    if row is None:
+        return None
+    return ItemWatchDraft(
+        row["id"], row["shop"], row["sku"], int(row["max_price"]), row["created_at"], row["expires_at"]
+    )
+
+
+def delete_item_watch_draft(conn: sqlite3.Connection, draft_id: str) -> bool:
+    cur = conn.execute("DELETE FROM item_watch_drafts WHERE id = ?", (draft_id,))
+    return cur.rowcount > 0
+
+
+def confirm_item_watch_draft(
+    conn: sqlite3.Connection, draft_id: str, at: datetime | None = None
+) -> ItemWatch | None:
+    """Транзакционно переносит черновик в цель: удаление черновика и upsert
+    цели коммитятся вместе. None — черновика нет или он истёк (истёкшие
+    удаляются); повторный вызов идемпотентен."""
+    row = conn.execute(
+        "SELECT shop, sku, max_price, expires_at FROM item_watch_drafts WHERE id = ?", (draft_id,)
+    ).fetchone()
+    if row is None:
+        return None
+    if _dt(row["expires_at"]) <= (at or now()):
+        conn.execute("DELETE FROM item_watch_drafts WHERE id = ?", (draft_id,))
+        return None
+    watch = upsert_item_watch(conn, row["shop"], row["sku"], int(row["max_price"]), at=at)
+    conn.execute("DELETE FROM item_watch_drafts WHERE id = ?", (draft_id,))
+    return watch
+
+
+def find_product(conn: sqlite3.Connection, shop: str, sku: str) -> Product | None:
+    """Позиция локальной базы по точной паре (shop, sku); без отрезка цена 0."""
+    row = conn.execute(
+        """SELECT p.identity, p.shop, p.title, p.brand, p.category, p.url, p.grp, p.image,
+                  p.mpn, p.rating, p.reviews_count,
+                  s.price, s.old_price, s.in_stock, s.stock_note
+           FROM products p
+           LEFT JOIN spans s ON s.id = (
+               SELECT id FROM spans WHERE identity = p.identity
+               ORDER BY last_seen DESC, id DESC LIMIT 1)
+           WHERE p.identity = ?""",
+        (f"{shop}:{sku}",),
+    ).fetchone()
+    if row is None:
+        return None
+    product = _product(row)
+    if row["price"] is None:
+        product = _dc_replace(product, price=0, old_price=None, in_stock=True, stock_note=None)
+    return product
 
 
 def search_products(conn: sqlite3.Connection, query: str, limit: int = 8) -> list[Product]:

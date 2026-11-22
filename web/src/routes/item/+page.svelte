@@ -6,10 +6,22 @@
 	import { formatPrice, formatDate, shopLabel } from '$lib/utils/format';
 	import { verdictOf } from '$lib/utils/verdict';
 	import { relatedDeals } from '$lib/utils/related';
-	import { partialOffers, offersVisibleFor, type OffersState } from '$lib/utils/catalog-offers';
-	import VerdictChip from '$lib/components/VerdictChip.svelte';
-	import { getSnapshot } from '$lib/utils/snapshots';
-	import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check, ArrowRightLeft } from '@lucide/svelte';
+import { partialOffers, offersVisibleFor, type OffersState } from '$lib/utils/catalog-offers';
+import {
+	encodeWatchPayload,
+	loadOwnerSetting,
+	ownerWatchReady,
+	parseTargetPrice,
+	safeStorage,
+	saveOwnerSetting,
+	validBotUsername,
+	watchCopyCommand,
+	watchShopAllowed,
+	watchStartLink
+} from '$lib/utils/watch-link';
+import VerdictChip from '$lib/components/VerdictChip.svelte';
+import { getSnapshot } from '$lib/utils/snapshots';
+import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check, ArrowRightLeft, BellRing } from '@lucide/svelte';
 	import { favorites, favId } from '$lib/stores/favorites.svelte';
 	import { catalog } from '$lib/stores/catalog.svelte';
 	import type { CatalogIndex } from '$lib/types';
@@ -37,10 +49,16 @@
 		offersState = null; // блок офферов предыдущего товара не показываем
 		offersError = null;
 		offersForIdentity = null;
+		watchPriceRaw = '';
+		watchCopied = false;
+		watchCopyFallback = false;
 		let cancelled = false;
 		loadCatalogItem(shop, sku, () => !cancelled).then((res) => {
 			if (cancelled || res.status === 'stale') return;
-			if (res.status === 'found') card = res.card;
+			if (res.status === 'found') {
+				card = res.card;
+				watchPriceRaw = String(res.card.product.price); // цель по умолчанию — текущая цена
+			}
 			else if (res.status === 'missing') failed = { kind: 'missing' };
 			else failed = { kind: 'unavailable', reason: res.reason };
 			loading = false;
@@ -171,6 +189,48 @@
 			{ ownerIdentity: offersForIdentity, state: offersState, error: offersError }
 		)
 	);
+
+	/* ===== Точная ценовая цель владельцу бота (задача 8) ===== */
+
+	/** Личная настройка владельца в этом браузере: по умолчанию выключена. */
+	let owner = $state(loadOwnerSetting(safeStorage()));
+	let watchSetupOpen = $state(false);
+	let watchPriceRaw = $state('');
+	let watchCopied = $state(false);
+	let watchCopyFallback = $state(false);
+
+	function saveWatchSettings() {
+		saveOwnerSetting(safeStorage(), owner);
+		watchSetupOpen = false;
+	}
+
+	/** Цель вводится целым числом ₸ 1..999999999. */
+	let watchPrice = $derived(parseTargetPrice(watchPriceRaw));
+	/** Payload только из публичных данных: магазин, точный SKU, целевая цена. */
+	let watchPayload = $derived.by(() => {
+		if (!card || !ownerWatchReady(owner) || watchPrice == null) return null;
+		return encodeWatchPayload(card.product.shop, card.product.sku, watchPrice);
+	});
+	let watchLink = $derived(watchPayload ? watchStartLink(owner.username, watchPayload) : null);
+	let watchEncodeFailed = $derived(
+		card != null && ownerWatchReady(owner) && watchPrice != null && watchPayload === null
+	);
+
+	async function copyWatchCommand() {
+		if (!watchPayload) return;
+		try {
+			if (navigator.clipboard?.writeText) {
+				// «Скопировано» подтверждаем только после разрешения Clipboard API
+				await navigator.clipboard.writeText(watchCopyCommand(watchPayload));
+				watchCopied = true;
+				setTimeout(() => (watchCopied = false), 1500);
+				return;
+			}
+		} catch {
+			// доступ запрещён — покажем выделяемый текст
+		}
+		watchCopyFallback = true;
+	}
 </script>
 
 <svelte:head><title>{card?.product.title ?? 'История цены'} — skidki</title></svelte:head>
@@ -250,6 +310,53 @@
 			<p class="advice-title">{advice.title}</p>
 			<p class="advice-text">{advice.text}</p>
 			<a href="{base}/methodology" class="advice-link">Почему такой вердикт?</a>
+		</section>
+	{/if}
+
+	{#if card && watchShopAllowed(card.product.shop)}
+		<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
+			<h2 class="font-bold tracking-tight flex items-center gap-2" style="color:var(--ink)"><BellRing size={14} /> Следить за ценой</h2>
+			<p class="text-xs mt-1" style="color:var(--ink-4)">Уведомление придёт в личном боте после подтверждения цели в Telegram.</p>
+			{#if !ownerWatchReady(owner)}
+				<button class="item-btn" style="margin-top:12px" onclick={() => (watchSetupOpen = !watchSetupOpen)}>Настроить личного бота</button>
+				{#if watchSetupOpen}
+					<div class="mt-3 grid gap-2" style="max-width:440px">
+						<input class="watch-input" type="text" bind:value={owner.username} placeholder="username бота, например ivan_bot" autocomplete="off" spellcheck="false" />
+						{#if owner.username && !validBotUsername(owner.username)}
+							<p class="text-xs" style="color:var(--bad)">Username бота: 5–32 символа — буквы, цифры, «_», заканчивается на «bot».</p>
+						{/if}
+						<label class="flex items-center gap-2 text-sm" style="color:var(--ink-2)">
+							<input type="checkbox" bind:checked={owner.enabled} /> Включить цели по товарам в этом браузере
+						</label>
+						<div><button class="item-btn" onclick={saveWatchSettings}>Сохранить</button></div>
+					</div>
+				{/if}
+			{:else if view?.kind !== 'delisted'}
+				<div class="mt-3 flex flex-wrap items-center gap-2">
+					<input class="watch-input" style="max-width:220px" inputmode="numeric" bind:value={watchPriceRaw} placeholder="Цель, ₸" autocomplete="off" />
+					{#if watchLink}
+						<a class="item-btn primary" href={watchLink} target="_blank" rel="noopener">Открыть бота и подтвердить</a>
+					{:else if watchPayload}
+						<button class="item-btn primary" onclick={copyWatchCommand}>
+							{#if watchCopied}<Check size={14} /> Скопировано{:else}<Copy size={14} /> Скопировать команду{/if}
+						</button>
+					{/if}
+				</div>
+				{#if watchPriceRaw.length > 0 && watchPrice == null}
+					<p class="text-xs mt-2" style="color:var(--bad)">Цель — целое число ₸ от 1 до 999 999 999.</p>
+				{/if}
+				{#if watchEncodeFailed}
+					<p class="text-xs mt-2" style="color:var(--bad)">Артикул слишком длинный даже для команды — цель не передать.</p>
+				{:else if watchPayload && !watchLink}
+					<p class="text-xs mt-2" style="color:var(--ink-4)">Артикул не помещается в ссылку Telegram — отправьте боту команду /watchitem.</p>
+				{/if}
+				{#if watchCopyFallback && watchPayload}
+					<p class="text-xs mt-2" style="color:var(--ink-3)">Автокопирование недоступно — выделите и скопируйте команду:</p>
+					<input class="watch-input" style="width:100%; margin-top:6px" readonly value={watchCopyCommand(watchPayload)} onfocus={(e) => e.currentTarget.select()} />
+				{/if}
+			{:else}
+				<p class="text-xs mt-2" style="color:var(--ink-4)">Позиция недоступна для покупки — следить не за чем.</p>
+			{/if}
 		</section>
 	{/if}
 
@@ -343,6 +450,12 @@
 .item-btn:hover { border-color: var(--ink-3); color: var(--ink); }
 .item-btn.primary { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
 .item-btn.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.watch-input {
+	height: 38px; padding: 0 14px; border-radius: 999px; font-size: 14px;
+	background: var(--paper-2); border: 1px solid var(--line); color: var(--ink);
+	font-family: inherit;
+}
+.watch-input:focus { outline: none; border-color: var(--ink-3); }
 .state-pill {
 	display: inline-flex; align-items: center; gap: 6px;
 	font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px;

@@ -18,18 +18,27 @@ from pathlib import Path
 import httpx
 
 from .config import GROUPS
+from .item_watch import ItemLookup, NoLookup, decode_payload
 from .notify import inline_keyboard
 from .parsers import REGISTRY
 from .report import SHOP_LABELS, format_groups_menu, format_status, group_label, tenge
 from .storage import (
     WatchEntry,
     add_watch,
+    confirm_item_watch_draft,
     connect,
+    create_item_watch_draft,
+    delete_item_watch_draft,
+    find_product,
+    get_item_watch_draft,
     last_successful_crawl,
+    list_item_watches,
     list_watches,
     muted_groups,
+    now,
     previous_item_count,
     queue_size,
+    remove_item_watch,
     remove_watch,
     search_products,
     toggle_group,
@@ -79,8 +88,11 @@ def _parse_watch_args(raw_arg: str) -> tuple[str, int] | None:
     return None
 
 
-def _format_watches_view(watches: list[WatchEntry]) -> tuple[str, list[list[tuple[str, str]]]]:
-    if not watches:
+def _format_watches_view(
+    watches: list[WatchEntry], item_watches: list | None = None
+) -> tuple[str, list[list[tuple[str, str]]]]:
+    item_watches = item_watches or []
+    if not watches and not item_watches:
         return (
             "🎯 <b>Подписок пока нет.</b>\n"
             "Пример: <code>/watch iPhone 16 450к</code>",
@@ -92,6 +104,15 @@ def _format_watches_view(watches: list[WatchEntry]) -> tuple[str, list[list[tupl
         lines.append(f"• <b>{escape(w.query)}</b> — до {tenge(w.max_price)}")
         label = w.query if len(w.query) <= 22 else w.query[:21] + "…"
         buttons.append([(f"❌ {label} (≤ {tenge(w.max_price)})", f"unwatch:{w.id}")])
+    if item_watches:
+        # Точные цели из карточки: свой префикс удаления unwi: (не unwatch:).
+        lines.append("🛒 <b>Точные товары:</b>")
+        for w in item_watches:
+            lines.append(
+                f"• [{SHOP_LABELS.get(w.shop, w.shop)}] <code>{escape(w.sku)}</code> — до {tenge(w.max_price)}"
+            )
+            label = w.sku if len(w.sku) <= 22 else w.sku[:21] + "…"
+            buttons.append([(f"❌ {label} (≤ {tenge(w.max_price)})", f"unwi:{w.id}")])
     return "\n".join(lines), buttons
 
 
@@ -107,6 +128,127 @@ def _format_search_results(query: str, items: list) -> str:
             f"<b>{tenge(p.price)}</b>{old}{stock}"
         )
     return "\n".join(lines)
+
+
+def _handle_item_target(
+    api: Api, chat_id: int, token: str, db_path: Path | None, lookup: ItemLookup
+) -> None:
+    """Черновик точной цели из карточки (/watchitem или /start w2_...).
+
+    Подтверждение — только по inline-кнопке; до нажатия цель не создаётся.
+    """
+    target = decode_payload(token)
+    if target is None:
+        api.call(
+            "sendMessage",
+            chat_id=chat_id,
+            text="Не удалось разобрать код товара — скопируйте команду целиком из карточки.",
+        )
+        return
+    with connect(db_path) as conn:
+        draft = create_item_watch_draft(conn, target.shop, target.sku, target.max_price)
+    text = (
+        "🎯 <b>Цель по товару</b>\n"
+        f"Магазин: {SHOP_LABELS.get(target.shop, target.shop)}\n"
+        f"Артикул: <code>{escape(target.sku)}</code>\n"
+        f"Уведомить при цене до <b>{tenge(target.max_price)}</b>\n\n"
+        "Уведомление придёт в личном боте после подтверждения. Черновик действует 15 минут."
+    )
+    api.call(
+        "sendMessage",
+        chat_id=chat_id,
+        text=text,
+        parse_mode="HTML",
+        reply_markup=inline_keyboard([[("✅ Подтвердить", f"wi:{draft.id}")]]),
+    )
+
+
+def _confirm_item_draft(
+    api: Api,
+    chat_id: int,
+    message: dict,
+    query: dict,
+    raw_id: str,
+    db_path: Path | None,
+    lookup: ItemLookup,
+) -> None:
+    """Нажатие wi:<id>: подтверждение черновика транзакционно, идемпотентно.
+
+    Товар ищется в локальной базе, при отсутствии — через адаптер задачи 9.
+    Без товара черновик сохраняется: причина и кнопка «Повторить».
+    """
+    if not re.fullmatch(r"[0-9a-fA-F]{4,16}", raw_id):
+        api.call("answerCallbackQuery", callback_query_id=query["id"], text="Черновик не найден")
+        return
+    moment = now()
+    outcome, watch = "missing", None
+    draft = None
+    product = None
+    with connect(db_path) as conn:
+        draft = get_item_watch_draft(conn, raw_id)
+        if draft is not None and draft.expired(moment):
+            delete_item_watch_draft(conn, raw_id)
+            outcome = "expired"
+            draft = None
+        elif draft is not None:
+            product = find_product(conn, draft.shop, draft.sku)
+    if draft is not None and product is None:
+        try:
+            product = lookup.lookup(draft.shop, draft.sku)
+        except Exception as exc:  # noqa: BLE001 — адаптер задачи 9 может обращаться к сети
+            log.warning("item lookup %s: %s", draft.shop, type(exc).__name__)
+            product = None
+    if draft is not None:
+        if product is None:
+            # Товар не подтвердился ни в базе, ни по индексу магазина:
+            # черновик сохранён, причина и кнопка «Повторить».
+            outcome = "no-product"
+        else:
+            with connect(db_path) as conn:
+                confirmed = confirm_item_watch_draft(conn, raw_id, at=moment)
+            if confirmed is not None:
+                outcome, watch = "confirmed", confirmed
+
+    if outcome == "confirmed" and watch is not None:
+        api.call(
+            "editMessageText",
+            chat_id=chat_id,
+            message_id=message.get("message_id"),
+            text=(
+                "✅ <b>Цель сохранена</b>\n"
+                f"Магазин: {SHOP_LABELS.get(watch.shop, watch.shop)}\n"
+                f"Артикул: <code>{escape(watch.sku)}</code>\n"
+                f"Уведомлю при цене до <b>{tenge(watch.max_price)}</b>."
+            ),
+            parse_mode="HTML",
+        )
+        api.call("answerCallbackQuery", callback_query_id=query["id"], text="Цель сохранена")
+    elif outcome == "expired":
+        api.call(
+            "editMessageText",
+            chat_id=chat_id,
+            message_id=message.get("message_id"),
+            text="Черновик истёк — повторите команду из карточки товара.",
+            parse_mode="HTML",
+        )
+        api.call("answerCallbackQuery", callback_query_id=query["id"], text="Черновик истёк")
+    elif outcome == "no-product":
+        api.call(
+            "editMessageText",
+            chat_id=chat_id,
+            message_id=message.get("message_id"),
+            text="Товар пока не удалось найти в базе — попробуйте позже.",
+            parse_mode="HTML",
+            reply_markup=inline_keyboard([[("🔁 Повторить", f"wi:{raw_id}")]]),
+        )
+        api.call("answerCallbackQuery", callback_query_id=query["id"], text="Товар не найден")
+    else:
+        # идемпотентный повтор или неизвестный id — состояние не меняем
+        api.call(
+            "answerCallbackQuery",
+            callback_query_id=query["id"],
+            text="Уже подтверждено или черновик истёк",
+        )
 
 
 class Api:
@@ -145,7 +287,13 @@ def _status_text(db_path: Path | None) -> str:
         return format_status(crawls, queue_size(conn), muted_groups(conn))
 
 
-def handle(update: dict, api: Api, owner_chat_id: str, db_path: Path | None = None) -> None:
+def handle(
+    update: dict,
+    api: Api,
+    owner_chat_id: str,
+    db_path: Path | None = None,
+    item_lookup: ItemLookup | None = None,
+) -> None:
     """Одно обновление Telegram: нажатие кнопки или команда владельца."""
     query = update.get("callback_query")
     if query:
@@ -178,7 +326,36 @@ def handle(update: dict, api: Api, owner_chat_id: str, db_path: Path | None = No
                 with connect(db_path) as conn:
                     removed = remove_watch(conn, int(raw_id))
                     watches = list_watches(conn)
-                text, buttons = _format_watches_view(watches)
+                    item_watches = list_item_watches(conn)
+                text, buttons = _format_watches_view(watches, item_watches)
+                markup = inline_keyboard(buttons) if buttons else {"inline_keyboard": []}
+                api.call(
+                    "editMessageText",
+                    chat_id=chat_id,
+                    message_id=message.get("message_id"),
+                    text=text,
+                    parse_mode="HTML",
+                    reply_markup=markup,
+                )
+            api.call(
+                "answerCallbackQuery",
+                callback_query_id=query["id"],
+                text="Подписка удалена" if removed else "Уже удалена",
+            )
+        elif data.startswith("wi:"):
+            _confirm_item_draft(
+                api, chat_id, message, query, data.removeprefix("wi:"), db_path,
+                item_lookup or NoLookup(),
+            )
+        elif data.startswith("unwi:"):
+            raw_id = data.removeprefix("unwi:")
+            removed = False
+            if raw_id.isdigit():
+                with connect(db_path) as conn:
+                    removed = remove_item_watch(conn, int(raw_id))
+                    watches = list_watches(conn)
+                    item_watches = list_item_watches(conn)
+                text, buttons = _format_watches_view(watches, item_watches)
                 markup = inline_keyboard(buttons) if buttons else {"inline_keyboard": []}
                 api.call(
                     "editMessageText",
@@ -205,7 +382,14 @@ def handle(update: dict, api: Api, owner_chat_id: str, db_path: Path | None = No
     words = raw_text.split()
     command = words[0].split("@")[0].lower() if words else ""
     arg = raw_text.split(maxsplit=1)[1] if len(raw_text.split(maxsplit=1)) > 1 else ""
-    if command in ("/start", "/groups", "/группы"):
+    lookup = item_lookup or NoLookup()
+    if command == "/watchitem":
+        tokens = arg.split()
+        _handle_item_target(api, chat_id, tokens[0] if tokens else "", db_path, lookup)
+    elif command == "/start" and len(words) > 1 and words[1].startswith("w2_"):
+        # /start w2_… — цель из карточки; обрабатывается ДО общего /start.
+        _handle_item_target(api, chat_id, words[1], db_path, lookup)
+    elif command in ("/start", "/groups", "/группы"):
         _send_menu(api, chat_id, db_path)
     elif command == "/status":
         api.call("sendMessage", chat_id=chat_id, text=_status_text(db_path), parse_mode="HTML")
@@ -244,7 +428,8 @@ def handle(update: dict, api: Api, owner_chat_id: str, db_path: Path | None = No
     elif command == "/watches":
         with connect(db_path) as conn:
             watches = list_watches(conn)
-        text, buttons = _format_watches_view(watches)
+            item_watches = list_item_watches(conn)
+        text, buttons = _format_watches_view(watches, item_watches)
         extra = {"reply_markup": inline_keyboard(buttons)} if buttons else {}
         api.call("sendMessage", chat_id=chat_id, text=text, parse_mode="HTML", **extra)
     else:
