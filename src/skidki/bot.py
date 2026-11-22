@@ -11,6 +11,7 @@ from __future__ import annotations
 import logging
 import re
 import sqlite3
+import threading
 import time
 from html import escape
 from pathlib import Path
@@ -18,7 +19,14 @@ from pathlib import Path
 import httpx
 
 from .config import GROUPS
-from .item_watch import ItemLookup, NoLookup, decode_payload
+from .item_watch import (
+    ItemLookup,
+    NoLookup,
+    PublicationReader,
+    decode_payload,
+    maintenance_tick,
+    panel_url,
+)
 from .notify import inline_keyboard
 from .parsers import REGISTRY
 from .report import SHOP_LABELS, format_groups_menu, format_status, group_label, tenge
@@ -436,35 +444,74 @@ def handle(
         api.call("sendMessage", chat_id=chat_id, text=HELP)
 
 
+# Как часто обслуживающий цикл перечитывает опубликованные индексы магазинов
+# с активными точными целями. Обход расписан раз в 2 часа; 10 минут — компромисс
+# между свежестью и вежливостью к GitHub Pages.
+ITEM_LOOP_INTERVAL_S = 600
+
+
+def _item_watch_loop(
+    db_path: Path | None,
+    reader: PublicationReader,
+    api: Api,
+    owner_chat_id: str,
+    stop: threading.Event,
+    interval: float,
+) -> None:
+    """Обслуживающий цикл личных оповещений: собственное соединение с базой.
+
+    Держит сетевые тайм-ауты загрузки индексов вне длинного опроса Telegram:
+    пока читается catalog-v2, ответы /groups и прочие команды ждут лишь
+    короткого локального соединения. Сбои цикла не должны ронять слушателя.
+    """
+    while not stop.is_set():
+        try:
+            maintenance_tick(db_path, reader, api, owner_chat_id)
+        except Exception:  # noqa: BLE001 — цикл не должен останавливаться
+            log.exception("обслуживание точных целей")
+        stop.wait(interval)
+
+
 def run(token: str, owner_chat_id: str, db_path: Path | None = None, poll_timeout: int = 50) -> None:
     """Длинный опрос getUpdates без конца; сбои сети — пауза и повтор."""
     api = Api(token)
+    reader = PublicationReader(panel_url())
+    stop = threading.Event()
+    threading.Thread(
+        target=_item_watch_loop,
+        args=(db_path, reader, api, owner_chat_id, stop, ITEM_LOOP_INTERVAL_S),
+        name="skidki-item-watch",
+        daemon=True,
+    ).start()
     try:
         api.call("setMyCommands", commands=COMMANDS)
     except httpx.HTTPError as exc:
         log.warning("setMyCommands: %s", type(exc).__name__)
     log.info("слушатель запущен")
     offset: int | None = None
-    while True:
-        params: dict = {"timeout": poll_timeout, "allowed_updates": ["message", "callback_query"]}
-        if offset is not None:
-            params["offset"] = offset
-        try:
-            data = api.call("getUpdates", http_timeout=poll_timeout + 15, **params)
-        except (httpx.HTTPError, ValueError) as exc:
-            # Не str(exc): в сообщениях httpx — URL с токеном.
-            log.warning("getUpdates: %s", type(exc).__name__)
-            time.sleep(10)
-            continue
-        for update in data.get("result") or []:
-            offset = update["update_id"] + 1
+    try:
+        while True:
+            params: dict = {"timeout": poll_timeout, "allowed_updates": ["message", "callback_query"]}
+            if offset is not None:
+                params["offset"] = offset
             try:
-                handle(update, api, owner_chat_id, db_path)
-            except sqlite3.OperationalError as exc:
-                log.warning("база занята: %s", exc)
-            except httpx.HTTPError as exc:
-                log.warning("Telegram: %s", type(exc).__name__)
-            except Exception:  # noqa: BLE001 — одно обновление не должно ронять слушателя
-                log.exception("обновление %s", update.get("update_id"))
-        if not data.get("ok"):
-            time.sleep(10)
+                data = api.call("getUpdates", http_timeout=poll_timeout + 15, **params)
+            except (httpx.HTTPError, ValueError) as exc:
+                # Не str(exc): в сообщениях httpx — URL с токеном.
+                log.warning("getUpdates: %s", type(exc).__name__)
+                time.sleep(10)
+                continue
+            for update in data.get("result") or []:
+                offset = update["update_id"] + 1
+                try:
+                    handle(update, api, owner_chat_id, db_path, item_lookup=reader)
+                except sqlite3.OperationalError as exc:
+                    log.warning("база занята: %s", exc)
+                except httpx.HTTPError as exc:
+                    log.warning("Telegram: %s", type(exc).__name__)
+                except Exception:  # noqa: BLE001 — одно обновление не должно ронять слушателя
+                    log.exception("обновление %s", update.get("update_id"))
+            if not data.get("ok"):
+                time.sleep(10)
+    finally:
+        stop.set()

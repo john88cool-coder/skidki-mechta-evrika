@@ -117,6 +117,35 @@ CREATE TABLE IF NOT EXISTS crawls (
     error       TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_crawls_shop ON crawls(shop, started_at);
+
+-- Состояние обработки срезов по точным целям (задача 9): последняя
+-- обработанная версия (сторона:last_crawl), условие прошлого измерения
+-- (цена была не выше порога) и наличие из прошлого измерения. Ошибка HTTP,
+-- неизвестная цена, устаревшая версия и отсутствие магазина измерением не
+-- считаются — состояние при них не меняется.
+CREATE TABLE IF NOT EXISTS item_watch_state (
+    shop          TEXT NOT NULL,
+    sku           TEXT NOT NULL,
+    version       TEXT,
+    last_below    INTEGER NOT NULL DEFAULT 0,
+    last_in_stock INTEGER,
+    PRIMARY KEY (shop, sku)
+);
+
+-- Ожидающие события доставки: уникальный ключ (watch_id, version, kind) —
+-- повторная обработка той же версии события не создаёт. delivered_at = NULL
+-- до успешного ответа Telegram; после рестарта недоставленное уходит заново.
+CREATE TABLE IF NOT EXISTS item_watch_events (
+    watch_id     INTEGER NOT NULL,
+    version      TEXT    NOT NULL,
+    kind         TEXT    NOT NULL,
+    price        INTEGER NOT NULL,
+    title        TEXT,
+    url          TEXT,
+    created_at   TEXT    NOT NULL,
+    delivered_at TEXT,
+    PRIMARY KEY (watch_id, version, kind)
+);
 """
 
 # Перерыв в наблюдениях длиннее — новый отрезок: позиция пропадала из
@@ -775,8 +804,19 @@ def list_item_watches(conn: sqlite3.Connection) -> list[ItemWatch]:
 
 
 def remove_item_watch(conn: sqlite3.Connection, item_id: int) -> bool:
-    cur = conn.execute("DELETE FROM item_watches WHERE rowid = ?", (int(item_id),))
-    return cur.rowcount > 0
+    """Удаляет цель и вместе с ней её состояние и ожидающие события доставки."""
+    row = conn.execute(
+        "SELECT shop, sku FROM item_watches WHERE rowid = ?", (int(item_id),)
+    ).fetchone()
+    if row is None:
+        return False
+    conn.execute("DELETE FROM item_watch_events WHERE watch_id = ?", (int(item_id),))
+    conn.execute(
+        "DELETE FROM item_watch_state WHERE shop = ? AND sku = ?",
+        (row["shop"], row["sku"]),
+    )
+    conn.execute("DELETE FROM item_watches WHERE rowid = ?", (int(item_id),))
+    return True
 
 
 def create_item_watch_draft(
@@ -819,6 +859,147 @@ def get_item_watch_draft(conn: sqlite3.Connection, draft_id: str) -> ItemWatchDr
 def delete_item_watch_draft(conn: sqlite3.Connection, draft_id: str) -> bool:
     cur = conn.execute("DELETE FROM item_watch_drafts WHERE id = ?", (draft_id,))
     return cur.rowcount > 0
+
+
+# ============ Состояние и события доставки точных целей (задача 9) ============
+
+
+@dataclass(frozen=True)
+class ItemWatchState:
+    """Обработанное состояние цели: версия среза, условие прошлого измерения."""
+
+    shop: str
+    sku: str
+    version: str | None
+    last_below: bool
+    last_in_stock: bool | None
+
+
+@dataclass(frozen=True)
+class ItemWatchEvent:
+    """Событие доставки; ключ уникальности — (watch_id, version, kind)."""
+
+    watch_id: int
+    version: str
+    kind: str
+    price: int
+    title: str | None
+    url: str | None
+    created_at: str
+    delivered_at: str | None
+
+
+def get_item_watch_state(
+    conn: sqlite3.Connection, shop: str, sku: str
+) -> ItemWatchState | None:
+    row = conn.execute(
+        "SELECT shop, sku, version, last_below, last_in_stock FROM item_watch_state"
+        " WHERE shop = ? AND sku = ?",
+        (shop, sku),
+    ).fetchone()
+    if row is None:
+        return None
+    return ItemWatchState(
+        row["shop"],
+        row["sku"],
+        row["version"],
+        bool(row["last_below"]),
+        None if row["last_in_stock"] is None else bool(row["last_in_stock"]),
+    )
+
+
+def set_item_watch_state(
+    conn: sqlite3.Connection,
+    shop: str,
+    sku: str,
+    version: str,
+    last_below: bool,
+    last_in_stock: bool,
+) -> None:
+    conn.execute(
+        """INSERT INTO item_watch_state (shop, sku, version, last_below, last_in_stock)
+           VALUES (?,?,?,?,?)
+           ON CONFLICT(shop, sku) DO UPDATE SET version = excluded.version,
+               last_below = excluded.last_below,
+               last_in_stock = excluded.last_in_stock""",
+        (shop, sku, version, int(last_below), int(bool(last_in_stock))),
+    )
+
+
+def get_item_watch(conn: sqlite3.Connection, watch_id: int) -> ItemWatch | None:
+    row = conn.execute(
+        "SELECT rowid AS id, shop, sku, max_price, created_at, updated_at"
+        " FROM item_watches WHERE rowid = ?",
+        (int(watch_id),),
+    ).fetchone()
+    if row is None:
+        return None
+    return ItemWatch(
+        int(row["id"]),
+        row["shop"],
+        row["sku"],
+        int(row["max_price"]),
+        row["created_at"],
+        row["updated_at"],
+    )
+
+
+def record_item_watch_event(
+    conn: sqlite3.Connection,
+    watch_id: int,
+    version: str,
+    kind: str,
+    price: int,
+    title: str | None = None,
+    url: str | None = None,
+    at: datetime | None = None,
+) -> bool:
+    """Создаёт ожидающее событие; False — ключ (watch_id, version, kind) уже есть."""
+    cur = conn.execute(
+        """INSERT OR IGNORE INTO item_watch_events
+           (watch_id, version, kind, price, title, url, created_at, delivered_at)
+           VALUES (?,?,?,?,?,?,?,NULL)""",
+        (int(watch_id), version, kind, int(price), title, url, _iso(at or now())),
+    )
+    return cur.rowcount > 0
+
+
+def pending_item_watch_events(conn: sqlite3.Connection) -> list[ItemWatchEvent]:
+    rows = conn.execute(
+        """SELECT watch_id, version, kind, price, title, url, created_at, delivered_at
+           FROM item_watch_events WHERE delivered_at IS NULL
+           ORDER BY created_at, watch_id, kind"""
+    ).fetchall()
+    return [
+        ItemWatchEvent(
+            int(r["watch_id"]),
+            r["version"],
+            r["kind"],
+            int(r["price"]),
+            r["title"],
+            r["url"],
+            r["created_at"],
+            r["delivered_at"],
+        )
+        for r in rows
+    ]
+
+
+def mark_item_watch_events_delivered(
+    conn: sqlite3.Connection, keys: list[tuple[int, str, str]], at: datetime | None = None
+) -> None:
+    """Подтверждает доставку после успешного ответа Telegram API."""
+    conn.executemany(
+        "UPDATE item_watch_events SET delivered_at = ?"
+        " WHERE watch_id = ? AND version = ? AND kind = ? AND delivered_at IS NULL",
+        [(_iso(at or now()), watch_id, version, kind) for watch_id, version, kind in keys],
+    )
+
+
+def delete_item_watch_events(conn: sqlite3.Connection, watch_id: int) -> int:
+    return conn.execute(
+        "DELETE FROM item_watch_events WHERE watch_id = ?", (int(watch_id),)
+    ).rowcount
 
 
 def confirm_item_watch_draft(
