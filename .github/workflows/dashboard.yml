@@ -4,6 +4,11 @@ name: dashboard
 # трогает: keep_files: true сохраняет папку data/ между сборками фронтенда.
 on:
   push:
+    # Автопубликация только из main: feature-ветка не должна выпустить
+    # интерфейс раньше совместимых экспортёров (порядок релиза — план Stage 2).
+    # Ручной выпуск из любой ветки остаётся через workflow_dispatch.
+    branches:
+      - main
     paths:
       - 'web/**'
       - '.github/workflows/dashboard.yml'
