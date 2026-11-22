@@ -221,7 +221,9 @@ def test_empty_shop_listed_but_shop_without_successful_crawl_absent(tmp_path):
 
 def test_history_file_keeps_daily_chart_and_raw_tail(tmp_path):
     """График — последняя цена за день и конец последнего отрезка; хвост —
-    исходные наблюдения; покрытие — по отрезкам, не по числу точек."""
+    исходные наблюдения; первое наблюдение в наличии — метка first_stocked из
+    той же выборки отрезков, что построила график (в байтах файла нет поля
+    от момента выпуска)."""
     db = _build_db(tmp_path)
     out = _export_for_web(db, tmp_path / "web")
     items = json.loads((out / "catalog-v2" / "shopkz" / "history.json").read_text(encoding="utf-8"))["items"]
@@ -234,7 +236,9 @@ def test_history_file_keeps_daily_chart_and_raw_tail(tmp_path):
     assert all("T" in p["date"] for p in row["recent_points"])
     assert row["min"] == expected["min"]
     assert row["median"] == expected["median"]
-    assert row["coverage_days"] == expected["coverage_days"]
+    assert row["first_stocked"] == expected["first_stocked"]
+    assert row["first_stocked"][:10] == expected["dates"][0]
+    assert "coverage_days" not in row
     assert row["days_at_current"] == 0
 
 
@@ -242,8 +246,8 @@ def test_reexport_of_unchanged_data_produces_same_hashes(tmp_path):
     """Повторный экспорт одних данных даёт те же хеши: экспортёр не ставит в
     файлы отметку о собственном запуске, и два прогона с теми же данными и
     тем же моментом экспорта совпадают байт в байт. Момент экспорта — явный
-    параметр at: содержимое, зависящее от времени (покрытие, окна вердиктов),
-    меняется вместе с данными обхода, а не с запуском экспортёра."""
+    параметр at: содержимое, зависящее от данных обхода (окна вердиктов),
+    меняется вместе с данными, а не с запуском экспортёра."""
     db = _build_db(tmp_path)
     first, second = tmp_path / "first", tmp_path / "second"
     with storage.connect(db) as conn:

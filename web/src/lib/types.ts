@@ -112,7 +112,10 @@ export interface HistoryRow {
 	min: number | null;
 	median: number | null;
 	days_at_current: number;
-	coverage_days: number;
+	/** ISO Z первого наблюдения в наличии из выборки отрезков файла; null — в наличии не наблюдали. */
+	first_stocked?: string | null;
+	/** Старые файлы до задачи «Стабильность»: числовое покрытие от момента их выпуска. */
+	coverage_days?: number;
 }
 
 export interface CatalogHistoryFile {

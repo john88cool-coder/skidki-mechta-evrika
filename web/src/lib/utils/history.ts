@@ -96,6 +96,8 @@ export interface ItemCard {
 	stats: ItemStats | null;
 	/** Дата последнего наблюдения из catalog-v2 (для выбывших позиций). */
 	lastSeen: string | null;
+	/** Дата первого наблюдения в наличии из выборки history.json («наблюдаем с»); null — нет. */
+	firstStocked: string | null;
 	/** Дней накопленной истории; null — истории нет вовсе. */
 	coverageDays: number | null;
 }
@@ -109,10 +111,12 @@ export type ItemLoad =
 
 /** Источники карточки; подменяются в тестах. */
 export interface ItemDeps {
-	/** catalog-v2: индекс и история магазина по точной паре (shop, sku). */
+	/** catalog-v2: индекс, история и источник магазина по точной паре (shop, sku). */
 	loader: {
 		loadIndex(shop: string): Promise<CatalogIndex | null>;
 		loadHistory(shop: string, sku: string): Promise<HistoryRow | null>;
+		/** Привязка магазина к источнику; null — источника нет. */
+		getSource(shop: string): Promise<{ last_crawl: string } | null>;
 	};
 	/** Старый срез: существующий путь через fetchHistory. */
 	fetchHistory: (shop: string, sku: string) => Promise<ProductHistory | null>;
@@ -129,7 +133,25 @@ export function coverageFromPoints(points: PricePoint[]): number | null {
 	return Math.max(1, Math.floor((last - first) / 86_400_000) + 1);
 }
 
-function cardFromRow(row: CatalogRow, history: HistoryRow | null): ItemCard {
+/**
+ * Покрытие карточки из записи catalog-v2. Новые файлы: точные часы от
+ * first_stocked до времени оценки среза (last_crawl выбранного источника
+ * магазина) — 71:59 даёт 2,99, 72:00 ровно 3. Старые файлы без first_stocked:
+ * готовое числовое coverage_days от момента их выпуска, как раньше.
+ */
+export function coverageFromRow(history: HistoryRow | null, evalTime: string | null): number | null {
+	if (!history) return null;
+	if (history.first_stocked !== undefined) {
+		if (!history.first_stocked || !evalTime) return null;
+		const first = Date.parse(history.first_stocked);
+		const at = Date.parse(evalTime);
+		if (!Number.isFinite(first) || !Number.isFinite(at) || at < first) return null;
+		return (at - first) / 86_400_000;
+	}
+	return typeof history.coverage_days === 'number' ? history.coverage_days : null;
+}
+
+function cardFromRow(row: CatalogRow, history: HistoryRow | null, evalTime: string | null): ItemCard {
 	const points = history?.points ?? [];
 	return {
 		source: 'catalog-v2',
@@ -141,7 +163,9 @@ function cardFromRow(row: CatalogRow, history: HistoryRow | null): ItemCard {
 			? { min90d: history.min, median30d: history.median, daysAtCurrent: history.days_at_current }
 			: null,
 		lastSeen: row.last_seen,
-		coverageDays: history ? history.coverage_days : null
+		// Дата из той же выборки отрезков, что точки графика; для старых файлов — null.
+		firstStocked: history?.first_stocked ? history.first_stocked.slice(0, 10) : null,
+		coverageDays: coverageFromRow(history, evalTime)
 	};
 }
 
@@ -159,6 +183,7 @@ function cardFromLegacy(legacy: ProductHistory): ItemCard {
 			daysAtCurrent: legacy.stats.days_at_current
 		},
 		lastSeen: null,
+		firstStocked: null,
 		coverageDays: coverageFromPoints(legacy.history)
 	};
 }
@@ -172,6 +197,7 @@ function cardFromFavorites(product: Product): ItemCard {
 		recent: [],
 		stats: null,
 		lastSeen: null,
+		firstStocked: null,
 		coverageDays: null
 	};
 }
@@ -198,7 +224,12 @@ export async function loadItemCard(
 		if (row) {
 			const history = await deps.loader.loadHistory(shop, sku);
 			if (!isActive()) return { status: 'stale' };
-			return { status: 'found', card: cardFromRow(row, history) };
+			// Время оценки среза — last_crawl выбранного источника магазина из биндинга;
+			// биндинг уже загружен (loadHistory строит URL по хешу манифеста), поэтому
+			// часы браузера не участвуют.
+			const binding = await deps.loader.getSource(shop).catch(() => null);
+			if (!isActive()) return { status: 'stale' };
+			return { status: 'found', card: cardFromRow(row, history, binding?.last_crawl ?? null) };
 		}
 	} catch (e) {
 		catalogReason = e instanceof Error ? e.message : String(e);

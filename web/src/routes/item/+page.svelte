@@ -89,7 +89,7 @@ import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, 
 			price: card.product.price,
 			basePrice: card.basePrice,
 			coverageDays: card.coverageDays,
-			firstSeen: card.points[0]?.date ?? null,
+			firstSeen: card.firstStocked ?? card.points[0]?.date ?? null,
 			lastSeen: card.lastSeen,
 			available: card.product.in_stock !== false,
 			deal: dealForItem

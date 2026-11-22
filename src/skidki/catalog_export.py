@@ -24,7 +24,7 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from .config import Thresholds
-from .evaluate import coverage_days, weighted_median
+from .evaluate import weighted_median
 from .export import SHOPS, _product_to_dict, fair_reference_from_spans
 from .matching import exact_offer_key
 from .storage import (
@@ -108,8 +108,11 @@ def _history_row(spans: list[Span], at: datetime, window_since: datetime) -> dic
     """HistoryRow магазина: график по дням и хвост исходных наблюдений.
 
     Точки строятся по наблюдениям в наличии, как в legacy-истории: последняя
-    цена за день плюс окончание последнего отрезка. Покрытие считается по
-    отрезкам и не зависит от числа экспортированных точек.
+    цена за день плюс окончание последнего отрезка. Медиана — взвешенная по
+    времени, как в вердиктах. В байтах файла нет ни одного поля от момента
+    выпуска: первое наблюдение в наличии пишется меткой first_stocked из той
+    же выборки отрезков, что построила график (окно retention), — покрытие
+    карточки фронтенд считает от времени оценки соответствующего среза.
     """
     stocked = [s for s in spans if s.in_stock]
     by_day: dict[str, dict] = {}
@@ -149,7 +152,7 @@ def _history_row(spans: list[Span], at: datetime, window_since: datetime) -> dic
         "min": min(prices) if prices else None,
         "median": w_med if w_med is not None else (sorted(prices)[len(prices) // 2] if prices else None),
         "days_at_current": days_at_current,
-        "coverage_days": coverage_days(spans, at),
+        "first_stocked": _iso_z(min(s.first_seen for s in stocked)) if stocked else None,
     }
 
 

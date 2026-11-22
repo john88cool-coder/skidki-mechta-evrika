@@ -55,7 +55,7 @@ const deal = (over: Partial<Deal> = {}): Deal => ({
 });
 
 const emptyDeps = (over: Partial<ItemDeps> = {}): ItemDeps => ({
-	loader: { loadIndex: async () => null, loadHistory: async () => null },
+	loader: { loadIndex: async () => null, loadHistory: async () => null, getSource: async () => null },
 	fetchHistory: async () => null,
 	snapshot: () => null,
 	...over
@@ -65,7 +65,8 @@ test('found: точная пара даёт реальные title, url, price �
 	const deps = emptyDeps({
 		loader: {
 			loadIndex: async () => ({ schema: 2, shop: 'mechta', rows: [row()] }) satisfies CatalogIndex,
-			loadHistory: async () => null
+			loadHistory: async () => null,
+			getSource: async () => null
 		}
 	});
 	const res = await loadItemCard(deps, 'mechta', 'A:17');
@@ -81,7 +82,7 @@ test('found: точная пара даёт реальные title, url, price �
 
 test('missing: пары нет ни в индексе, ни в старом срезе, ни в избранном', async () => {
 	const deps = emptyDeps({
-		loader: { loadIndex: async () => ({ schema: 2, shop: 'mechta', rows: [] }), loadHistory: async () => null }
+		loader: { loadIndex: async () => ({ schema: 2, shop: 'mechta', rows: [] }), loadHistory: async () => null, getSource: async () => null }
 	});
 	const res = await loadItemCard(deps, 'mechta', 'NOPE');
 	assert.equal(res.status, 'missing');
@@ -97,7 +98,8 @@ test('unavailable: сбой сети — товар можно запросит�
 				if (fail) throw new Error('HTTP 503');
 				return { schema: 2, shop: 'mechta', rows: [row()] };
 			},
-			loadHistory: async () => null
+			loadHistory: async () => null,
+			getSource: async () => null
 		}
 	});
 	const first = await loadItemCard(deps, 'mechta', 'A:17');
@@ -164,7 +166,8 @@ test('гонка A → B: устаревший ответ отбрасывает
 				}
 				return indexB;
 			},
-			loadHistory: async () => null
+			loadHistory: async () => null,
+			getSource: async () => null
 		}
 	});
 	let aActive = true;
@@ -197,7 +200,8 @@ test('SKU с :, /, % и Unicode совпадает точно', async () => {
 							days_at_current: 0,
 							coverage_days: 1
 						})
-					: null
+					: null,
+			getSource: async () => null
 		}
 	});
 	const res = await loadItemCard(deps, 'mechta', weird);
@@ -279,7 +283,8 @@ test('одинаковая база Stage 1/v2: обе дороги дают о�
 		emptyDeps({
 			loader: {
 				loadIndex: async () => ({ schema: 2, shop: 'mechta', rows: [row({ base_price: 120000 })] }),
-				loadHistory: async () => historyRow()
+				loadHistory: async () => historyRow(),
+				getSource: async () => null
 			}
 		}),
 		'mechta',
