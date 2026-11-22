@@ -6,10 +6,13 @@
 	import { formatPrice, formatDate, shopLabel } from '$lib/utils/format';
 	import { verdictOf } from '$lib/utils/verdict';
 	import { relatedDeals } from '$lib/utils/related';
+	import { partialOffers, offersVisibleFor, type OffersState } from '$lib/utils/catalog-offers';
 	import VerdictChip from '$lib/components/VerdictChip.svelte';
 	import { getSnapshot } from '$lib/utils/snapshots';
-	import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check } from '@lucide/svelte';
+	import { ArrowLeft, ExternalLink, ArrowDown, TrendingDown, Heart, Share2, Copy, Check, ArrowRightLeft } from '@lucide/svelte';
 	import { favorites, favId } from '$lib/stores/favorites.svelte';
+	import { catalog } from '$lib/stores/catalog.svelte';
+	import type { CatalogIndex } from '$lib/types';
 	import { base } from '$app/paths';
 
 	let shop = $derived(page.url.searchParams.get('shop') ?? '');
@@ -31,6 +34,9 @@
 		// только для активной пары (запоздавший ответ получает stale и отбрасывается).
 		card = null;
 		failed = null;
+		offersState = null; // блок офферов предыдущего товара не показываем
+		offersError = null;
+		offersForIdentity = null;
 		let cancelled = false;
 		loadCatalogItem(shop, sku, () => !cancelled).then((res) => {
 			if (cancelled || res.status === 'stale') return;
@@ -100,6 +106,71 @@
 		if (view && view.kind !== 'delisted' && view.basePrice != null && view.basePrice > price * 1.01) return view.basePrice;
 		return null;
 	});
+
+	/* ===== Предложения той же комплектации в других магазинах (задача 6) ===== */
+
+	type OffersResult =
+		| { kind: 'hidden' } // без подтверждённого артикула блок скрыт
+		| { kind: 'ready'; state: OffersState }
+		| { kind: 'empty'; partial: boolean }; // совпадений нет
+	let offersState = $state<OffersResult | null>(null); // null — блок ещё не запрашивали
+	let offersLoading = $state(false);
+	/** Сбой загрузки офферов: виден сам по себе, даже если состояние ещё не установлено. */
+	let offersError = $state<string | null>(null);
+	/** Товар, для которого собраны офферы: ответ запоздавшего запроса не применяется. */
+	let offersForIdentity = $state<string | null>(null);
+
+	async function comparePrices() {
+		if (!card || card.source !== 'catalog-v2' || offersLoading) return;
+		const requested = `${card.product.shop}:${card.product.sku}`;
+		offersLoading = true;
+		offersError = null;
+		try {
+			const ownShop = card.product.shop;
+			// Свой индекс уже в кэше поиска (карточка грузилась через loadIndex):
+			// строка цели даёт exact_model, не делая нового запроса.
+			const own = await catalog.loadIndex(ownShop);
+			if (`${card.product.shop}:${card.product.sku}` !== requested) return; // A → B
+			const target = own?.rows.find((r) => r.product.sku === card!.product.sku) ?? null;
+			if (!target) {
+				offersState = { kind: 'hidden' };
+				offersForIdentity = requested;
+				return;
+			}
+			// К сравнению годятся магазины с catalog-v2 (запись в манифесте);
+			// их индексы грузятся по запросу и остаются в общем кэше поиска.
+			const otherShops = [...new Set(dashboard.shops.map((s) => s.name))].filter((name) => name !== ownShop);
+			const comparable: string[] = [];
+			for (const name of otherShops) {
+				const binding = await catalog.getSource(name);
+				if (binding?.entry) comparable.push(name);
+			}
+			const indexes = new Map<string, CatalogIndex>();
+			for (const name of [ownShop, ...comparable]) {
+				const index = await catalog.loadIndex(name).catch(() => null);
+				if (`${card.product.shop}:${card.product.sku}` !== requested) return; // A → B
+				if (index) indexes.set(name, index);
+			}
+			const state = partialOffers(target, indexes, [ownShop, ...comparable]);
+			offersForIdentity = requested;
+			if (!state) offersState = { kind: 'hidden' };
+			else if (state.offers.length) offersState = { kind: 'ready', state };
+			else offersState = { kind: 'empty', partial: state.partial };
+		} catch (e) {
+			offersError = e instanceof Error ? e.message : String(e);
+			offersForIdentity = requested; // ошибка относится к этому товару — блок видим
+		} finally {
+			offersLoading = false;
+		}
+	}
+	/** Блок офферов показывается только для товара, чей запрос его собрал;
+	 * сбой загрузки виден и без собранного состояния (с «Повторить»). */
+	let offersVisible = $derived(
+		offersVisibleFor(
+			card ? `${card.product.shop}:${card.product.sku}` : null,
+			{ ownerIdentity: offersForIdentity, state: offersState, error: offersError }
+		)
+	);
 </script>
 
 <svelte:head><title>{card?.product.title ?? 'История цены'} — skidki</title></svelte:head>
@@ -162,6 +233,11 @@
 				{#if view?.kind !== 'delisted' && card.product.url && card.product.url !== '#'}
 					<a href={card.product.url} target="_blank" rel="noopener" class="item-btn primary"><ExternalLink size={14} /> В магазин</a>
 				{/if}
+				{#if card.source === 'catalog-v2'}
+					<button onclick={comparePrices} class="item-btn" disabled={offersLoading}>
+						<ArrowRightLeft size={14} /> {offersLoading ? 'Загружаем…' : 'Сравнить цены'}
+					</button>
+				{/if}
 				<button onclick={toggleFav} class="item-btn" class:on={fav}><Heart size={14} fill={fav ? 'currentColor' : 'none'} /> {fav ? 'В избранном' : 'В избранное'}</button>
 				<button onclick={shareItem} class="item-btn">{#if copiedItem}<Check size={14} /> Скопировано{:else}<Share2 size={14} /> Поделиться{/if}</button>
 				<button onclick={copyLink} class="item-btn">{#if copiedLink}<Check size={14} />{:else}<Copy size={14} />{/if} Ссылка</button>
@@ -173,6 +249,37 @@
 		<section class="advice {advice.tone}">
 			<p class="advice-title">{advice.title}</p>
 			<p class="advice-text">{advice.text}</p>
+		</section>
+	{/if}
+
+	{#if offersVisible}
+		<section class="rounded-2xl p-5 mb-5" style="background:var(--surface); border:1px solid var(--line)">
+			<h2 class="font-bold tracking-tight flex items-center gap-2" style="color:var(--ink)"><ArrowRightLeft size={14} /> Та же комплектация в других магазинах</h2>
+			{#if offersError}
+				<p class="text-sm mt-2" style="color:var(--bad)">Не удалось загрузить предложения{offersError ? ` — ${offersError}` : ''}.</p>
+				<button class="item-btn" style="margin-top:10px" onclick={comparePrices}>Повторить</button>
+			{:else if offersState!.kind === 'empty'}
+				<p class="text-sm mt-2" style="color:var(--ink-3)">В других магазинах этой комплектации сейчас нет{offersState!.partial ? ' — среди загруженных предложений' : ''}.</p>
+			{:else if offersState!.kind === 'ready'}
+				{#if offersState!.state.note}
+					<p class="text-xs mt-1" style="color:var(--ink-4)">Показаны {offersState!.state.note} — не все магазины каталога загружены.</p>
+				{/if}
+				<div class="grid gap-2 mt-3">
+					{#each offersState!.state.offers as o (o.product.shop + ':' + o.product.sku)}
+						<a href={o.product.url} target="_blank" rel="noopener" class="related-row">
+							<span class="min-w-0">
+								<span class="text-sm font-medium" style="color:var(--ink)">{shopLabel(o.product.shop)}</span>
+								{#if o.exact_model}<span class="text-xs ml-2" style="color:var(--ink-4)">· {o.exact_model}</span>{/if}
+								{#if o.last_seen}<span class="text-xs ml-2" style="color:var(--ink-4)">· {formatDate(o.last_seen)}</span>{/if}
+							</span>
+							{#if o.product.price < card!.product.price}
+								<span class="text-xs font-semibold px-2 py-0.5 rounded-full" style="background:var(--success-bg); color:var(--success)">−{formatPrice(card!.product.price - o.product.price)}</span>
+							{/if}
+							<span class="font-mono text-sm font-bold shrink-0" style="color:var(--ink)">{formatPrice(o.product.price)}</span>
+						</a>
+					{/each}
+				</div>
+			{/if}
 		</section>
 	{/if}
 

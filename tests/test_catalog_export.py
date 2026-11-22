@@ -143,9 +143,38 @@ def test_index_serves_no_discount_position_exactly(tmp_path):
     assert row["fair_discount"] is None
     assert row["base_price"] is None
     assert row["pump_price"] is None
-    assert row["exact_model"] is None
-    # Одноимённый чехол тоже в каталоге: витрина его никогда не показывала.
-    assert any(r["product"]["sku"] == "CASE01" for r in rows)
+    assert row["exact_model"] == SPEC["expected"]["mechta_A17"]["exact_model"]
+    # Одноимённый чехол тоже в каталоге, но без подтверждённого артикула.
+    case = next(r for r in rows if r["product"]["sku"] == "CASE01")
+    assert case["exact_model"] is None
+
+
+def test_same_configuration_across_shops_shares_exact_model(tmp_path):
+    """Контроль fixture (задача 6): mechta/A:17 и shopkz/77 — одна комплектация
+    (DP256-KZ) и один exact_model; alser/78 (DP128-KZ) — другой; позиции без
+    подтверждённого артикула получают null. Блок офферов по этим ключам
+    покажет shopkz/77 (115000) для mechta/A:17 (120000), а 128 GB и чехол
+    не войдут."""
+    db = _build_db(tmp_path)
+    out = _export_for_web(db, tmp_path / "web")
+
+    indexes = {
+        shop: json.loads((out / "catalog-v2" / shop / "index.json").read_text(encoding="utf-8"))
+        for shop in ("mechta", "shopkz", "alser")
+    }
+    rows = {
+        shop: {r["product"]["sku"]: r for r in index["rows"]}
+        for shop, index in indexes.items()
+    }
+    a17 = rows["mechta"]["A:17"]["exact_model"]
+    s77 = rows["shopkz"]["77"]["exact_model"]
+    a78 = rows["alser"]["78"]["exact_model"]
+    assert a17 == s77 == "demo:DP256-KZ"
+    assert a78 == "demo:DP128-KZ"
+    assert a78 != a17
+    # Позиции без артикула производителя — блока офферов не будет.
+    for sku in ("GONE5", "OOS3", "ONE9", "DROP1"):
+        assert rows["mechta"][sku]["exact_model"] is None
 
 
 def test_disappeared_product_keeps_last_known_price_and_dates(tmp_path):

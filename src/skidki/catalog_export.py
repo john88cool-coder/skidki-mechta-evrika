@@ -25,6 +25,7 @@ from pathlib import Path
 from .config import Thresholds
 from .evaluate import coverage_days, weighted_median
 from .export import SHOPS, _product_to_dict, fair_reference_from_spans
+from .matching import exact_offer_key
 from .storage import (
     Span,
     catalog_products_for_shop,
@@ -171,8 +172,8 @@ def export_catalog(conn: sqlite3.Connection, out_dir: Path, *, at: datetime) -> 
                         "base_price": ref,
                         "fair_discount": fair,
                         "pump_price": pump,
-                        # Точное совпадение модели добавляет задача 6.
-                        "exact_model": None,
+                        # Ключ той же комплектации для блока офферов (задача 6).
+                        "exact_model": exact_offer_key(product),
                     }
                 )
                 items[product.sku] = _history_row(spans, at, window_since)
