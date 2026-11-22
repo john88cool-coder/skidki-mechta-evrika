@@ -8,8 +8,19 @@
 	import { formatPrice, shopLabel, groupLabel, timeAgo } from '$lib/utils/format';
 	import { verdictOf, realRank, countVerdicts, isReal } from '$lib/utils/verdict';
 	import type { ProductHistory } from '$lib/types';
-	import { ArrowRight, Ban, TrendingDown } from '@lucide/svelte';
+	import { ArrowRight, Ban, TrendingDown, Search } from '@lucide/svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
+	import { goto } from '$app/navigation';
+
+	let checkQuery = $state('');
+
+	/** Подписанная форма «Проверить товар или ссылку» → /search?q=… через URLSearchParams. */
+	function submitCheck(e: SubmitEvent) {
+		e.preventDefault();
+		const value = checkQuery.trim();
+		if (!value) return;
+		goto(`${base}/search?${new URLSearchParams({ q: value })}`);
+	}
 
 	let featured = $state<ProductHistory | null>(null);
 
@@ -77,6 +88,21 @@
 		{#if claimedDeals.length}
 			<TruthMeter {counts} total={claimedDeals.length} />
 		{/if}
+		<form class="hero-check" onsubmit={submitCheck}>
+			<label class="hero-check-label" for="hero-check-q">Проверить товар или ссылку</label>
+			<div class="hero-check-row">
+				<div class="hero-check-input">
+					<Search size={16} />
+					<input
+						id="hero-check-q"
+						type="search"
+						bind:value={checkQuery}
+						placeholder="Название, модель, SKU или ссылка…"
+					/>
+				</div>
+				<button type="submit">Проверить</button>
+			</div>
+		</form>
 		<div class="hero-stats">
 			<div class="hero-stat">
 				<strong>{dashboard.stats.total_products ? dashboard.stats.total_products.toLocaleString('ru-RU') : '—'}</strong>
@@ -184,3 +210,55 @@
 		</section>
 	</div>
 {/if}
+
+<style>
+	.hero-check {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.hero-check-label {
+		font-size: 12px;
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-3);
+	}
+	.hero-check-row {
+		display: flex;
+		gap: 8px;
+	}
+	.hero-check-input {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 0 12px;
+		height: 44px;
+		border-radius: 12px;
+		border: 1px solid color-mix(in srgb, var(--on-ink) 22%, transparent);
+		background: color-mix(in srgb, var(--on-ink) 8%, transparent);
+	}
+	.hero-check-input input {
+		flex: 1;
+		height: 100%;
+		background: transparent;
+		border: none;
+		outline: none;
+		font-size: 14px;
+		color: var(--ink);
+	}
+	.hero-check-input input::placeholder {
+		color: var(--ink-4);
+	}
+	.hero-check-row button {
+		height: 44px;
+		padding: 0 18px;
+		border-radius: 12px;
+		font-weight: 600;
+		font-size: 14px;
+		background: var(--ink);
+		color: var(--on-ink);
+	}
+</style>

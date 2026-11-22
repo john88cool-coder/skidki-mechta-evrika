@@ -2,8 +2,11 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import { dashboard } from '$lib/stores/data.svelte';
+	import { catalog } from '$lib/stores/catalog.svelte';
+	import { searchCatalog, gatherRows, createOnceGate } from '$lib/utils/catalog-search';
 	import { shopLabel, formatPrice } from '$lib/utils/format';
-	import { Search, Tag, LayoutGrid, Activity, Heart, X } from '@lucide/svelte';
+	import { Search, Tag, LayoutGrid, Activity, Heart, X, Loader2 } from '@lucide/svelte';
+	import type { CatalogRow, Deal } from '$lib/types';
 
 	interface Props { open: boolean; onclose: () => void }
 	let { open, onclose }: Props = $props();
@@ -11,6 +14,24 @@
 	let q = $state('');
 	let inputEl: HTMLInputElement | undefined = $state();
 	let selected = $state(0);
+
+	// Полный каталог: индексы грузятся при первом поисковом действии, не более 3 запросов сразу.
+	let catalogRows = $state<CatalogRow[]>([]);
+	let catalogLoading = $state(false);
+
+	// Однократный запуск: повторные вызовы на каждый keystroke во время загрузки
+	// не создают новое поколение и не гасят состояние загрузки (регрессия fix round 1).
+	const ensureCatalog = createOnceGate(async () => {
+		catalogLoading = true;
+		try {
+			const res = await gatherRows(catalog, { concurrency: 3 });
+			catalogRows = res.rows;
+		} catch {
+			// Палитра продолжает работать по витрине; полный поиск доступен на /search.
+		} finally {
+			catalogLoading = false;
+		}
+	});
 
 	const staticItems = [
 		{ label: 'Сегодня', href: `${base}/`, icon: LayoutGrid, kbd: 'G H' },
@@ -20,13 +41,26 @@
 	];
 
 	let results = $derived.by(() => {
-		const needle = q.trim().toLowerCase();
+		const needle = q.trim();
 		if (!needle) return dashboard.deals.slice(0, 8);
-		return dashboard.deals.filter(d =>
-			d.product.title.toLowerCase().includes(needle) ||
-			(d.product.brand ?? '').toLowerCase().includes(needle) ||
-			d.product.shop.toLowerCase().includes(needle)
-		).slice(0, 8);
+		const seen = new Set<string>();
+		const out: Deal[] = [];
+		const push = (deal: Deal) => {
+			const key = deal.product.shop + '\u0000' + deal.product.sku;
+			if (seen.has(key)) return;
+			seen.add(key);
+			out.push(deal);
+		};
+		// Сначала полный каталог (по мере готовности индексов), затем витрина.
+		for (const row of searchCatalog(catalogRows, needle, 8)) {
+			push({ product: row.product, signal: 'deal', base_price: row.base_price, pump_price: row.pump_price, fair_discount: row.fair_discount });
+		}
+		for (const d of dashboard.deals) {
+			if (out.length >= 8) break;
+			const hay = `${d.product.title} ${d.product.brand ?? ''} ${d.product.shop}`.toLowerCase();
+			if (hay.includes(needle.toLowerCase())) push(d);
+		}
+		return out.slice(0, 8);
 	});
 
 	let allItems = $derived.by(() => {
@@ -58,6 +92,10 @@
 		}
 	});
 	$effect(() => { void q; selected = 0; });
+	// Загрузка индексов начинается только с поискового действия — непустого ввода.
+	$effect(() => {
+		if (open && q.trim()) void ensureCatalog();
+	});
 </script>
 
 {#if open}
@@ -96,9 +134,25 @@
 						{/if}
 					</button>
 				{:else}
-					<p class="text-sm text-center py-8" style="color:var(--ink-4)">Ничего не нашлось</p>
+					{#if catalogLoading}
+						<p class="text-sm text-center py-8" style="color:var(--ink-4)">Ищем ещё в магазинах…</p>
+					{:else}
+						<p class="text-sm text-center py-8" style="color:var(--ink-4)">Ничего не нашлось</p>
+					{/if}
 				{/each}
 			</div>
+			{#if q.trim()}
+				<a
+					class="flex items-center gap-3 px-4 py-2.5 text-sm border-t transition-colors hover:bg-[var(--paper-2)]"
+					style="border-color:var(--line); color:var(--ink-2)"
+					href="{base}/search?q={encodeURIComponent(q.trim())}"
+					onclick={onclose}
+				>
+					<Search size={14} />
+					<span class="font-medium">Все результаты по «{q.trim()}»</span>
+					{#if catalogLoading}<Loader2 size={13} class="ml-auto animate-spin" style="color:var(--ink-4)" aria-label="Ищем ещё в магазинах" />{/if}
+				</a>
+			{/if}
 			<div class="flex items-center gap-2 px-4 py-2.5 text-[11px] border-t" style="border-color:var(--line); color:var(--ink-4); background:var(--paper-2)">
 				<span class="font-mono">↵</span> открыть · <span class="font-mono">↑↓</span> навигация · <span class="font-mono">Esc</span> закрыть
 				<span class="ml-auto hidden sm:inline">Нажми <span class="font-mono font-bold px-1.5 py-0.5 rounded" style="background:var(--surface); border:1px solid var(--line)">⌘K</span> в любой момент</span>
