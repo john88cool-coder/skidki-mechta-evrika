@@ -4,6 +4,7 @@
 	import TabBar from '$lib/components/TabBar.svelte';
 	import CommandPalette from '$lib/components/CommandPalette.svelte';
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import { theme } from '$lib/stores/theme.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
 	import { dashboard, startAutoRefresh } from '$lib/stores/data.svelte';
@@ -40,7 +41,7 @@
 		{@render children()}
 		<footer class="app-footer">
 			<span><strong style="color:var(--ink)">skidki</strong> · Наблюдаем за ценами в Казахстане · 6 магазинов · история каждой цены</span>
-			<span>₸ KZT · Актуальную цену и наличие проверяйте в магазине</span>
+			<span>₸ KZT · Актуальную цену и наличие проверяйте в магазине · <a href="{base}/methodology" style="color:var(--ink-3)">Как мы считаем</a></span>
 		</footer>
 	</main>
 </div>

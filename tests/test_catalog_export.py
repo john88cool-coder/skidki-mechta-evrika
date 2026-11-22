@@ -439,3 +439,205 @@ def test_export_for_web_reads_single_snapshot(tmp_path, monkeypatch):
     _export_for_web(db, out)
 
     assert phases == [True, True]
+
+
+# ===== Задача 7: счётчики качества покрытия в манифесте (quality) =====
+
+# Зазор завышения — тот же, что в интерфейсе (web/src/lib/utils/verdict.ts).
+INFLATION_GAP_PCT = 15
+
+QUALITY_FIELDS = {
+    "catalog_rows",
+    "available_rows",
+    "available_with_baseline",
+    "available_with_rating",
+    "advertised_rows",
+    "advertised_checked",
+    "advertised_painted",
+}
+
+
+def _quality_db(tmp_path) -> Path:
+    """Общая фикстура качества: один экспорт несёт все проверяемые состояния.
+
+    - mechta: заявленные скидки со всеми пятью вердиктами интерфейса
+      (honest, inflated, pumped, painted, unknown) плюс позиция без скидки;
+    - shopkz: «0 из 5» — пять заявленных скидок, истории не хватает ни одной;
+    - alser: «3 из 5» — три проверенные (одна нарисованная), две без истории;
+    - evrika: «0/0» — успешный обход без позиций, пустая выборка.
+    """
+    db = tmp_path / "quality.sqlite3"
+    step = timedelta(hours=2)  # меньше GAP: наблюдения продлевают отрезок
+
+    def _levels(shop: str, sku: str, title: str, periods, *, old_price=None, rating=None):
+        with storage.connect(db) as conn:
+            for start, end, price in periods:
+                moment = start
+                while moment <= end:
+                    storage.save_products(
+                        conn,
+                        [
+                            Product(
+                                shop=shop,
+                                sku=sku,
+                                title=title,
+                                price=price,
+                                url=f"https://example.kz/product/{sku.lower()}/",
+                                old_price=old_price,
+                                rating=rating,
+                                in_stock=True,
+                            )
+                        ],
+                        at=moment,
+                    )
+                    moment += step
+
+    def _one(shop: str, sku: str, title: str, price: int, *, old_price=None):
+        _levels(shop, sku, title, [(ANCHOR, ANCHOR, price)], old_price=old_price)
+
+    # mechta: все пять вердиктов + позиция без заявленной скидки.
+    _levels("mechta", "HON", "Честная история", [(ANCHOR - timedelta(days=20), ANCHOR - timedelta(hours=2), 100_000), (ANCHOR, ANCHOR, 90_000)], old_price=100_000, rating=4.5)
+    _levels("mechta", "INF", "Завышенная скидка", [(ANCHOR - timedelta(days=20), ANCHOR - timedelta(hours=2), 100_000), (ANCHOR, ANCHOR, 90_000)], old_price=150_000)
+    _levels(
+        "mechta",
+        "PUMP",
+        "Накрутка перед скидкой",
+        [
+            (ANCHOR - timedelta(days=20), ANCHOR - timedelta(days=12), 100_000),
+            (ANCHOR - timedelta(days=12) + step, ANCHOR - timedelta(days=3), 150_000),
+            (ANCHOR - timedelta(days=3) + step, ANCHOR, 90_000),
+        ],
+        old_price=300_000,
+        rating=4.0,
+    )
+    _levels("mechta", "PAINT", "Нарисованная скидка", [(ANCHOR - timedelta(days=20), ANCHOR, 100_000)], old_price=120_000, rating=3.0)
+    _one("mechta", "UNK", "Без истории", 80_000, old_price=100_000)
+    _levels("mechta", "PLAIN", "Без скидки", [(ANCHOR - timedelta(days=10), ANCHOR, 50_000)])
+
+    # shopkz: пять заявленных скидок, каждая видена один раз — все unknown.
+    for i, (price, old) in enumerate(
+        [(90_000, 100_000), (80_000, 120_000), (50_000, 60_000), (30_000, 40_000), (21_000, 30_000)], start=1
+    ):
+        _one("shopkz", f"S{i}", f"Новинка {i}", price, old_price=old)
+
+    # alser: три проверенные (honest, painted, honest) + две без истории.
+    _levels("alser", "A1", "Алсер честная", [(ANCHOR - timedelta(days=10), ANCHOR - timedelta(hours=2), 100_000), (ANCHOR, ANCHOR, 90_000)], old_price=100_000, rating=4.0)
+    _levels("alser", "A2", "Алсер нарисованная", [(ANCHOR - timedelta(days=10), ANCHOR, 100_000)], old_price=120_000)
+    _levels("alser", "A3", "Алсер снижение", [(ANCHOR - timedelta(days=10), ANCHOR - timedelta(hours=2), 60_000), (ANCHOR, ANCHOR, 52_000)], old_price=60_000)
+    _one("alser", "A4", "Алсер новинка 1", 40_000, old_price=50_000)
+    _one("alser", "A5", "Алсер новинка 2", 25_000, old_price=30_000)
+
+    with storage.connect(db) as conn:
+        for shop in ("mechta", "evrika", "shopkz", "alser"):
+            storage.record_crawl(conn, shop, 0, True, None, at=ANCHOR)
+    return db
+
+
+def _verdict_kind(claimed, fair, pump):
+    """Тот же критерий вердикта, что verdictOf в интерфейсе (verdict.ts)."""
+    if fair is None:
+        return "unknown"
+    if fair <= 0:
+        return "painted"
+    if pump:
+        return "pumped"
+    if claimed is not None and claimed - fair >= INFLATION_GAP_PCT:
+        return "inflated"
+    return "honest"
+
+
+def _recount_advertised(rows):
+    """Пересчёт advertised-счётчиков из строк индекса тем же критерием."""
+    kinds = []
+    advertised = checked = painted = 0
+    for row in rows:
+        product = row["product"]
+        if not product.get("discount_pct"):
+            continue
+        advertised += 1
+        kind = _verdict_kind(product["discount_pct"], row["fair_discount"], row["pump_price"])
+        kinds.append(kind)
+        if kind != "unknown":
+            checked += 1
+        if kind == "painted":
+            painted += 1
+    return advertised, checked, painted, kinds
+
+
+def _export_quality(tmp_path):
+    db = _quality_db(tmp_path)
+    out = tmp_path / "web"
+    with storage.connect(db) as conn:
+        catalog_export.export_catalog(conn, out, at=ANCHOR)
+    manifest = json.loads((out / "catalog-v2" / "manifest.json").read_text(encoding="utf-8"))
+    return out, manifest
+
+
+def test_quality_counts_whole_v2_catalog_with_same_set_pairs(tmp_path):
+    """Счётчики считаются по всему v2 каталогу; числитель и знаменатель каждой
+    пары — один набор строк: available_* — из доступных, advertised_* — из
+    заявленных скидок; ключи не меняются от магазина к магазину."""
+    out, manifest = _export_quality(tmp_path)
+    quality = manifest["shops"]["mechta"]["quality"]
+    assert set(quality) == QUALITY_FIELDS
+
+    rows = json.loads((out / "catalog-v2" / "mechta" / "index.json").read_text(encoding="utf-8"))["rows"]
+    assert quality["catalog_rows"] == len(rows) == 6
+    assert quality["available_rows"] == sum(1 for r in rows if r["product"]["in_stock"]) == 6
+    assert quality["available_with_baseline"] == sum(
+        1 for r in rows if r["product"]["in_stock"] and r["base_price"] is not None
+    ) == 5  # у позиции без истории (UNK) обычной цены нет
+    assert quality["available_with_rating"] == sum(
+        1 for r in rows if r["product"]["in_stock"] and (r["product"]["rating"] or 0) > 0
+    ) == 3  # HON, PUMP, PAINT
+
+
+def test_quality_verdict_parity_for_all_five_verdicts(tmp_path):
+    """Для checked/painted применяется тот же критерий вердикта, что в
+    интерфейсе: на общей фикстуре присутствуют все пять вердиктов, и счётчики
+    манифеста совпадают с пересчётом по строкам индекса."""
+    out, manifest = _export_quality(tmp_path)
+    rows = json.loads((out / "catalog-v2" / "mechta" / "index.json").read_text(encoding="utf-8"))["rows"]
+    advertised, checked, painted, kinds = _recount_advertised(rows)
+    assert set(kinds) == {"honest", "inflated", "pumped", "painted", "unknown"}
+
+    quality = manifest["shops"]["mechta"]["quality"]
+    assert quality["advertised_rows"] == advertised == 5
+    assert quality["advertised_checked"] == checked == 4  # все, кроме unknown
+    assert quality["advertised_painted"] == painted == 1  # только PAINT
+
+
+def test_quality_three_distinct_states_zero_zero_zero_of_five_three_of_five(tmp_path):
+    """0/0, «0 из 5» и «3 из 5» — три разных состояния на одной фикстуре:
+    пустая выборка (evrika), заявленные скидки без истории (shopkz) и
+    проверенные из заявленных (alser)."""
+    _out, manifest = _export_quality(tmp_path)
+    shops = manifest["shops"]
+
+    assert shops["evrika"]["quality"] == {field: 0 for field in QUALITY_FIELDS}
+
+    shopkz = shops["shopkz"]["quality"]
+    assert shopkz["advertised_rows"] == 5
+    assert shopkz["advertised_checked"] == 0
+    assert shopkz["advertised_painted"] == 0
+
+    alser = shops["alser"]["quality"]
+    assert alser["advertised_rows"] == 5
+    assert alser["advertised_checked"] == 3
+    assert alser["advertised_painted"] == 1
+
+
+def test_quality_stable_between_runs_and_absent_without_crawl(tmp_path):
+    """Качество детерминировано (те же данные — тот же манифест) и не ломает
+    контракт манифеста: магазин без успешного обхода записи не получает."""
+    db = _quality_db(tmp_path)
+    first, second = tmp_path / "first", tmp_path / "second"
+    with storage.connect(db) as conn:
+        catalog_export.export_catalog(conn, first, at=ANCHOR)
+        catalog_export.export_catalog(conn, second, at=ANCHOR)
+    assert (
+        (first / "catalog-v2" / "manifest.json").read_bytes()
+        == (second / "catalog-v2" / "manifest.json").read_bytes()
+    )
+    manifest = json.loads((first / "catalog-v2" / "manifest.json").read_text(encoding="utf-8"))
+    assert "technodom" not in manifest["shops"]

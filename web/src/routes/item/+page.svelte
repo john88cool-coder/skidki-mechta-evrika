@@ -249,6 +249,7 @@
 		<section class="advice {advice.tone}">
 			<p class="advice-title">{advice.title}</p>
 			<p class="advice-text">{advice.text}</p>
+			<a href="{base}/methodology" class="advice-link">Почему такой вердикт?</a>
 		</section>
 	{/if}
 
@@ -357,6 +358,11 @@
 .advice.warn { background: var(--warn-bg); color: var(--warn); border-color: var(--warn-line); }
 .advice.bad { background: var(--bad-bg); color: var(--bad); border-color: var(--bad-line); }
 .advice.muted { background: var(--paper-2); color: var(--ink-3); border-color: var(--line); }
+.advice-link {
+	display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600;
+	color: inherit; opacity: 0.85; text-decoration: underline; text-underline-offset: 3px;
+}
+.advice-link:hover { opacity: 1; }
 .related-row {
 	display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 12px;
 	padding: 12px; border-radius: 12px; border: 1px solid var(--line); text-decoration: none;

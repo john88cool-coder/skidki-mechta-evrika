@@ -3,7 +3,8 @@
 Витрина (latest.json) показывает только скидки; карточка товара Stage 2
 должна открываться и без скидки, поэтому каждому магазину с успешным
 обходом выпускаются стабильные файлы catalog-v2/<shop>/{index,history}.json,
-а manifest.json связывает их SHA-256 и время последнего обхода. Файлы
+а manifest.json связывает их SHA-256, время последнего обхода и счётчики
+качества покрытия (quality) по всему каталогу магазина. Файлы
 магазинов завершаются первыми, манифест заменяется атомарно: читатель не
 видит манифест, ссылающийся на недописанный ресурс. Пути стабильны, поэтому
 публикация с keep_files: true не копит файлы между выпусками.
@@ -38,6 +39,34 @@ SCHEMA_VERSION = 2
 # Хвост карточки: пять видимых наблюдений и стоящее перед ними наблюдение —
 # база сравнения. Не даунсемплить: проценты на карточке сравнивают соседние цены.
 RECENT_OBSERVATIONS = 6
+
+
+def _quality(rows: list[dict]) -> dict:
+    """Счётчики качества покрытия по всему v2 каталогу магазина.
+
+    Числитель и знаменатель каждой пары относятся к одному набору строк:
+    available_* считаются по доступным позициям, advertised_* — по позициям
+    с заявленной скидкой магазина. Для checked/painted — тот же критерий
+    вердикта, что в интерфейсе (verdict.ts): fair_discount null — «unknown»
+    (проверить нечем), fair_discount <= 0 — «painted». Ноль оценок —
+    диагностический показатель, а не вывод о качестве магазина.
+    """
+    available = [r for r in rows if r["product"]["in_stock"]]
+    advertised = [r for r in rows if r["product"]["discount_pct"]]
+    checked = [r for r in advertised if r["fair_discount"] is not None]
+    return {
+        "catalog_rows": len(rows),
+        "available_rows": len(available),
+        "available_with_baseline": sum(
+            1 for r in available if r["base_price"] is not None
+        ),
+        "available_with_rating": sum(
+            1 for r in available if (r["product"]["rating"] or 0) > 0
+        ),
+        "advertised_rows": len(advertised),
+        "advertised_checked": len(checked),
+        "advertised_painted": sum(1 for r in checked if r["fair_discount"] <= 0),
+    }
 
 
 def _iso_z(moment: datetime) -> str:
@@ -189,6 +218,7 @@ def export_catalog(conn: sqlite3.Connection, out_dir: Path, *, at: datetime) -> 
                 "count": len(rows),
                 "index_sha256": hashlib.sha256(index_body).hexdigest(),
                 "history_sha256": hashlib.sha256(history_body).hexdigest(),
+                "quality": _quality(rows),
             }
     finally:
         if own_snapshot:
