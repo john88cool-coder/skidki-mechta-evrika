@@ -348,3 +348,39 @@ export function itemBackHref(from: string | null | undefined, base: string, orig
 		return fallback;
 	}
 }
+
+/* ================= Версионирование сторон legacy-истории ================= */
+
+export type HistorySide = 'cloud' | 'local';
+
+/**
+ * Стороны legacy-среза истории: какая сторона какой версией latest **фактически**
+ * загружена. Версия обновляется только после успешного fetch — сбой оставляет
+ * предыдущее состояние, и следующий вызов повторяет попытку; 404 (fetch → null) —
+ * валидная «пустая» версия. Запоздавший ответ не замещает данные более новой версии.
+ */
+export class SideVersions<T> {
+	private files: Record<HistorySide, T | null> = { cloud: null, local: null };
+	/** Версия, под которой файл фактически загружен; null — сторона ещё не загружалась. */
+	private loaded: Record<HistorySide, string | null> = { cloud: null, local: null };
+	/** Последняя запрошенная версия стороны — защита от запоздавших ответов. */
+	private wanted: Record<HistorySide, string> = { cloud: '', local: '' };
+
+	get(side: HistorySide): T | null {
+		return this.files[side];
+	}
+
+	hasAny(): boolean {
+		return !!(this.files.cloud || this.files.local);
+	}
+
+	/** Скачивает сторону, если её версия ещё не загружена. */
+	async load(side: HistorySide, version: string, fetch: () => Promise<T | null>): Promise<void> {
+		if (this.loaded[side] === version) return;
+		this.wanted[side] = version;
+		const file = await fetch();
+		if (this.wanted[side] !== version) return;
+		this.files[side] = file;
+		this.loaded[side] = version;
+	}
+}

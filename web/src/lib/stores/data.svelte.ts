@@ -5,6 +5,7 @@ import {
 	buildFallbackProduct,
 	computeDaysAtCurrent,
 	loadItemCard,
+	SideVersions,
 	type ItemLoad
 } from '$lib/utils/history';
 import { getSnapshot } from '$lib/utils/snapshots';
@@ -143,8 +144,10 @@ class PriceHistoryStore {
 	data = $state<HistoryFile | null>(null);
 	loading = $state(false);
 	error = $state(false);
+	/** Запрошенная версия сторон — ключ in-flight запроса, а не признак загрузки. */
 	private versions: { cloud: string; local: string } = { cloud: '', local: '' };
-	private files: { cloud: HistoryFile | null; local: HistoryFile | null } = { cloud: null, local: null };
+	/** Стороны с фактически загруженной версией: смена latest перезагружает сторону. */
+	private sides = new SideVersions<HistoryFile>();
 	private pending: Promise<HistoryFile | null> | null = null;
 
 	load(
@@ -162,11 +165,21 @@ class PriceHistoryStore {
 		this.error = false;
 		const request = (async () => {
 			try {
-				await Promise.all([this.loadSide('cloud', cloudVersion), this.loadSide('local', localVersion)]);
-				if (!this.files.cloud && !this.files.local) throw new Error('история не опубликована');
+				// Сбой стороны не стирает её последнее полное состояние; версия при сбое
+				// не фиксируется — следующий load() повторит попытку.
+				const [cloudSide, localSide] = await Promise.allSettled([
+					this.sides.load('cloud', cloudVersion, () => fetchJson<HistoryFile>('history.json')),
+					this.sides.load('local', localVersion, () => fetchJson<HistoryFile>('local/history.json'))
+				]);
+				if (!this.sides.hasAny()) {
+					const failure = cloudSide.status === 'rejected' ? cloudSide : localSide;
+					throw failure.status === 'rejected' ? failure.reason : new Error('история не опубликована');
+				}
+				const cloud = this.sides.get('cloud');
+				const local = this.sides.get('local');
 				const snapshot: HistoryFile = {
-					updated_at: this.files.cloud?.updated_at ?? this.files.local!.updated_at,
-					history: { ...(this.files.cloud?.history ?? {}), ...(this.files.local?.history ?? {}) }
+					updated_at: cloud?.updated_at ?? local!.updated_at,
+					history: { ...(cloud?.history ?? {}), ...(local?.history ?? {}) }
 				};
 				if (this.versions.cloud === cloudVersion && this.versions.local === localVersion) {
 					this.data = snapshot;
@@ -184,18 +197,6 @@ class PriceHistoryStore {
 		})();
 		this.pending = request;
 		return request;
-	}
-
-	/** Сторона перезагружается только при смене своего latest; 404 — тоже валидная версия («пусто»). */
-	private async loadSide(side: 'cloud' | 'local', version: string): Promise<void> {
-		if (this.files[side] && this.versions[side] === version) return;
-		const file =
-			side === 'cloud'
-				? await fetchJson<HistoryFile>('history.json')
-				: await fetchJson<HistoryFile>('local/history.json').catch(() => null);
-		// Запоздавший ответ не замещает данные более новой версии стороны.
-		if (this.versions[side] !== version) return;
-		this.files[side] = file;
 	}
 }
 
