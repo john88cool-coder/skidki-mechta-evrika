@@ -33,6 +33,13 @@
 	let hint = $derived(
 		verdict.kind === 'inflated' || verdict.kind === 'pumped' || verdict.kind === 'painted' ? verdict.hint : null
 	);
+	// Мини-график живёт на legacy-срезе: карточка сама инициирует загрузку при
+	// появлении на экране, версионированную по latest каждой стороны.
+	$effect(() => {
+		void dashboard.cloudVersion;
+		void dashboard.localVersion;
+		void priceHistory.load();
+	});
 </script>
 
 <article class="deal-card">

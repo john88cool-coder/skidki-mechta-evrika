@@ -3,6 +3,7 @@ import type { DashboardData, Product, PricePoint, ProductHistory } from '$lib/ty
 import { mergeSnapshots, withFreshness, freshnessOf } from '$lib/utils/merge';
 import { buildFallbackProduct, computeDaysAtCurrent } from '$lib/utils/history';
 import { getSnapshot } from '$lib/utils/snapshots';
+import { catalog } from '$lib/stores/catalog.svelte';
 
 /** Пустой срез: панель до первого опубликованного обхода. */
 const EMPTY: DashboardData = {
@@ -31,6 +32,9 @@ class DashboardStore {
 	loading = $state(true);
 	error = $state<string | null>(null);
 	updatedAt = $state<Date | null>(null);
+	/** Версия каждой стороны — свой latest; updated_at дашборда версией магазина не является. */
+	cloudVersion = $state('');
+	localVersion = $state('');
 
 	get deals() {
 		return this.data?.deals ?? [];
@@ -69,7 +73,10 @@ class DashboardStore {
 			this.data = withFreshness(merged);
 			this.updatedAt = new Date(this.data.updated_at);
 			this.error = null;
-			void priceHistory.load(this.data.updated_at);
+			this.cloudVersion = cloud?.updated_at ?? '';
+			this.localVersion = local?.updated_at ?? '';
+			// Legacy-срез истории загружают потребители (карточки, страницы товара),
+			// а не refresh: витрина без карточек не тянет историю.
 		} catch (e) {
 			this.error = e instanceof Error ? e.message : String(e);
 		} finally {
@@ -124,41 +131,47 @@ interface HistoryFile {
 	>;
 }
 
-/** One request shared by all cards, refreshed when the published snapshot changes. */
+/** One request shared by all cards, refreshed when the published snapshot changes.
+ * Каждая сторона версионирована своим latest: смена локального среза не
+ * перезагружает облачную историю и наоборот. */
 class PriceHistoryStore {
 	data = $state<HistoryFile | null>(null);
 	loading = $state(false);
 	error = $state(false);
-	private version = '';
+	private versions: { cloud: string; local: string } = { cloud: '', local: '' };
+	private files: { cloud: HistoryFile | null; local: HistoryFile | null } = { cloud: null, local: null };
 	private pending: Promise<HistoryFile | null> | null = null;
 
-	load(version = dashboard.data?.updated_at ?? ''): Promise<HistoryFile | null> {
-		if (version === this.version) {
+	load(
+		cloudVersion = dashboard.cloudVersion,
+		localVersion = dashboard.localVersion
+	): Promise<HistoryFile | null> {
+		const key = `${cloudVersion}|${localVersion}`;
+		const current = `${this.versions.cloud}|${this.versions.local}`;
+		if (key === current) {
 			if (this.pending) return this.pending;
 			if (this.data) return Promise.resolve(this.data);
 		}
-		this.version = version;
-		this.data = null;
+		this.versions = { cloud: cloudVersion, local: localVersion };
 		this.loading = true;
 		this.error = false;
 		const request = (async () => {
 			try {
-				const [cloud, local] = await Promise.all([
-					fetchJson<HistoryFile>('history.json'),
-					fetchJson<HistoryFile>('local/history.json').catch(() => null)
-				]);
-				if (!cloud && !local) throw new Error('история не опубликована');
+				await Promise.all([this.loadSide('cloud', cloudVersion), this.loadSide('local', localVersion)]);
+				if (!this.files.cloud && !this.files.local) throw new Error('история не опубликована');
 				const snapshot: HistoryFile = {
-					updated_at: cloud?.updated_at ?? local!.updated_at,
-					history: { ...(cloud?.history ?? {}), ...(local?.history ?? {}) }
+					updated_at: this.files.cloud?.updated_at ?? this.files.local!.updated_at,
+					history: { ...(this.files.cloud?.history ?? {}), ...(this.files.local?.history ?? {}) }
 				};
-				if (this.version === version) this.data = snapshot;
+				if (this.versions.cloud === cloudVersion && this.versions.local === localVersion) {
+					this.data = snapshot;
+				}
 				return snapshot;
 			} catch {
-				if (this.version === version) this.error = true;
+				if (this.versions.cloud === cloudVersion && this.versions.local === localVersion) this.error = true;
 				return null;
 			} finally {
-				if (this.version === version) {
+				if (this.versions.cloud === cloudVersion && this.versions.local === localVersion) {
 					this.pending = null;
 					this.loading = false;
 				}
@@ -167,31 +180,60 @@ class PriceHistoryStore {
 		this.pending = request;
 		return request;
 	}
+
+	/** Сторона перезагружается только при смене своего latest; 404 — тоже валидная версия («пусто»). */
+	private async loadSide(side: 'cloud' | 'local', version: string): Promise<void> {
+		if (this.files[side] && this.versions[side] === version) return;
+		const file =
+			side === 'cloud'
+				? await fetchJson<HistoryFile>('history.json')
+				: await fetchJson<HistoryFile>('local/history.json').catch(() => null);
+		// Запоздавший ответ не замещает данные более новой версии стороны.
+		if (this.versions[side] !== version) return;
+		this.files[side] = file;
+	}
 }
 
 export const priceHistory = new PriceHistoryStore();
 
-/** История цен одного товара: позиция — из текущего среза, точки — из history.json. */
+/** История цен одного товара: позиция — из текущего среза, точки — из history.json.
+ * Витрина не знает позицию — карточка catalog-v2: только её индекс и история,
+ * без полноразмерных историй остальных магазинов. */
 export async function fetchHistory(shop: string, sku: string): Promise<ProductHistory | null> {
 	const snapshot = await priceHistory.load();
 	const row = snapshot?.history[`${shop}:${sku}`];
-	if (!row?.points?.length) return null;
+	if (row?.points?.length) {
+		const current = dashboard.deals.find(
+			(deal) => deal.product.shop === shop && deal.product.sku === sku
+		)?.product;
 
-	const current = dashboard.deals.find(
-		(deal) => deal.product.shop === shop && deal.product.sku === sku
-	)?.product;
+		const product: Product =
+			current ?? buildFallbackProduct(shop, sku, row.points, getSnapshot(`${shop}:${sku}`));
 
-	const product: Product =
-		current ?? buildFallbackProduct(shop, sku, row.points, getSnapshot(`${shop}:${sku}`));
+		return {
+			product,
+			history: row.points,
+			recent: row.recent_points ?? row.points,
+			stats: {
+				min_90d: row.min,
+				median_30d: row.median,
+				days_at_current: row.days_at_current ?? computeDaysAtCurrent(row.points)
+			}
+		};
+	}
 
+	const catalogRow = (await catalog.loadIndex(shop))?.rows.find((r) => r.product.sku === sku);
+	if (!catalogRow) return null;
+	const history = await catalog.loadHistory(shop, sku);
+	if (!history?.points?.length) return null;
 	return {
-		product,
-		history: row.points,
-		recent: row.recent_points ?? row.points,
+		product: catalogRow.product,
+		history: history.points,
+		recent: history.recent_points ?? history.points,
 		stats: {
-			min_90d: row.min,
-			median_30d: row.median,
-			days_at_current: row.days_at_current ?? computeDaysAtCurrent(row.points)
+			min_90d: history.min ?? 0,
+			median_30d: history.median ?? 0,
+			days_at_current: history.days_at_current
 		}
 	};
 }

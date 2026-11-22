@@ -74,3 +74,52 @@ export interface ProductHistory {
 		days_at_current: number;
 	};
 }
+
+/** catalog-v2 (задача 2): одна строка индекса магазина — товар и его оценки. */
+export interface CatalogRow {
+	product: Product;
+	last_seen: string | null;
+	base_price: number | null;
+	fair_discount: number | null;
+	pump_price: number | null;
+	/** Точное совпадение модели; до задачи 6 всегда null. */
+	exact_model: null;
+}
+
+export interface CatalogIndex {
+	schema: number;
+	shop: string;
+	rows: CatalogRow[];
+}
+
+/** Запись манифеста: магазин без успешного обхода в `shops` отсутствует (absent ≠ пусто). */
+export interface CatalogManifestEntry {
+	last_crawl: string;
+	count: number;
+	index_sha256: string;
+	history_sha256: string;
+}
+
+export interface CatalogManifest {
+	schema: number;
+	shops: Record<string, CatalogManifestEntry>;
+}
+
+/** catalog-v2: история одной позиции. Legacy-имён min_90d/median_30d в v2 нет. */
+export interface HistoryRow {
+	points: PricePoint[];
+	recent_points: PricePoint[];
+	min: number | null;
+	median: number | null;
+	days_at_current: number;
+	coverage_days: number;
+}
+
+export interface CatalogHistoryFile {
+	schema: number;
+	shop: string;
+	items: Record<string, HistoryRow>;
+}
+
+/** Сторона, чей источник данные использует для магазина (см. selectShopSources). */
+export type ShopSource = 'cloud' | 'local';
