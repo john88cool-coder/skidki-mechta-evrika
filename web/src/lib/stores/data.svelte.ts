@@ -1,7 +1,12 @@
 import { base } from '$app/paths';
 import type { DashboardData, Product, PricePoint, ProductHistory } from '$lib/types';
 import { mergeSnapshots, withFreshness, freshnessOf } from '$lib/utils/merge';
-import { buildFallbackProduct, computeDaysAtCurrent } from '$lib/utils/history';
+import {
+	buildFallbackProduct,
+	computeDaysAtCurrent,
+	loadItemCard,
+	type ItemLoad
+} from '$lib/utils/history';
 import { getSnapshot } from '$lib/utils/snapshots';
 import { catalog } from '$lib/stores/catalog.svelte';
 
@@ -236,4 +241,12 @@ export async function fetchHistory(shop: string, sku: string): Promise<ProductHi
 			days_at_current: history.days_at_current
 		}
 	};
+}
+
+/** Товар по (shop, sku): catalog-v2 → старый срез (существующий путь через
+ * fetchHistory) → сохранённая копия избранного. Результаты различимы:
+ * found / missing / unavailable (сбой сети — товар можно запросить повторно).
+ * isActive отбрасывает устаревший ответ при быстром переходе A → B. */
+export function loadCatalogItem(shop: string, sku: string, isActive: () => boolean = () => true): Promise<ItemLoad> {
+	return loadItemCard({ loader: catalog, fetchHistory, snapshot: (id) => getSnapshot(id) }, shop, sku, isActive);
 }
