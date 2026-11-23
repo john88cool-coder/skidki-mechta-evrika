@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T08:41:07.576398+00:00",
+  "updated_at": "2026-11-23T20:34:34.958959+00:00",
   "deals": [
     {
       "product": {
@@ -65,37 +65,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "625369",
-        "title": "Смартфон Apple iPhone 16 Pro Max 8/1TB White Titanium",
-        "price": 749990,
-        "old_price": 1381990,
-        "url": "https://www.sulpak.kz/g/smartfoniy-apple-iphone-16-pro-max-1tb-white-titanium-myx53hxa",
-        "brand": "Apple",
-        "category": "smartfoniy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 46,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_6146_0_1_4IH5JU_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-20T13:16:38+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 46,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "654267",
         "title": "Проводной вертикальный пылесос Dreame DF10 PRO",
         "price": 39990,
@@ -117,13 +86,44 @@
       "fair_discount": 38.0,
       "base_price": 64490,
       "pump_price": null,
-      "value_score": 82,
+      "value_score": 86,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
         "Честная скидка"
       ],
       "inflated_gap": 4.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1459356",
+        "title": "Смарт часы HUAWEI WATCH GT 6 (41mm), Purple",
+        "price": 104761,
+        "old_price": 129890,
+        "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-41mm-purple",
+        "brand": "Huawei",
+        "category": "Все Smart часы",
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/e1L4ZCNbV/smart-casy-huawei-watch-gt-6-41mm-purple-w160.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 12,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 19,
+      "fair_discount": 19.3,
+      "base_price": 129890,
+      "pump_price": null,
+      "value_score": 63,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -398,7 +398,7 @@
       "fair_discount": 0.0,
       "base_price": 300990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -469,6 +469,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "623239",
+        "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
+        "price": 19297,
+        "old_price": 51990,
+        "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
+        "brand": "HyperX",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2467_3_2_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 19297,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1728365",
         "title": "Утюг Panasonic NI-W900CMTW, White-Green (SN:HAL-G001057941)",
@@ -492,37 +523,6 @@
       "base_price": 19990,
       "pump_price": null,
       "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624166",
-        "title": "Кухонная машина Tefal I-Coach Touch QB951DF0",
-        "price": 259990,
-        "old_price": 682990,
-        "url": "https://www.sulpak.kz/g/kuhonniye-kombajniy-tefal-qb951df0",
-        "brand": "Tefal",
-        "category": "kuhonniye_kombajniy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_33_228_0_1_jesKul_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 259990,
-      "pump_price": null,
-      "value_score": 30,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1731,7 +1731,7 @@
       "fair_discount": 0.0,
       "base_price": 10990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1960,7 +1960,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116686,
+        "price": 116685,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -1979,7 +1979,38 @@
       "fair_discount": 0.0,
       "base_price": 116985,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 53.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624411",
+        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
+        "price": 223090,
+        "old_price": 469990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
+        "brand": "Haier",
+        "category": "duhoviye_shkafiy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 53,
+      "fair_discount": 0.0,
+      "base_price": 222990,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2166,38 +2197,7 @@
       "fair_discount": 0.0,
       "base_price": 999990,
       "pump_price": null,
-      "value_score": 30,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 52.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "624411",
-        "title": "Встраиваемый духовой шкаф Haier HOQ-K5AAN3GW",
-        "price": 224290,
-        "old_price": 469990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-duhoviye-shkafiy-haier-hoq-k5aan3gw",
-        "brand": "Haier",
-        "category": "duhoviye_shkafiy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 52,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_42_1082_0_1_bPZhXn_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 52,
-      "fair_discount": 0.0,
-      "base_price": 222990,
-      "pump_price": null,
-      "value_score": 37,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2569,7 +2569,7 @@
       "fair_discount": 0.0,
       "base_price": 291990,
       "pump_price": null,
-      "value_score": 45,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -2818,7 +2818,7 @@
       "fair_discount": 0.0,
       "base_price": 14990,
       "pump_price": null,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2849,7 +2849,38 @@
       "fair_discount": 0.0,
       "base_price": 16990,
       "pump_price": null,
-      "value_score": 37,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622142",
+        "title": "Наушники ARG F6 Black",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
+        "brand": "ARG",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "pump_price": null,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3386,37 +3417,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "622142",
-        "title": "Наушники ARG F6 Black",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
-        "brand": "ARG",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "pump_price": null,
-      "value_score": 26,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "622143",
         "title": "Наушники ARG F6 Silver",
         "price": 19990,
@@ -3438,7 +3438,7 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "pump_price": null,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3469,7 +3469,7 @@
       "fair_discount": 0.0,
       "base_price": 22990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3500,7 +3500,7 @@
       "fair_discount": 0.0,
       "base_price": 19990,
       "pump_price": null,
-      "value_score": 37,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3531,7 +3531,7 @@
       "fair_discount": 0.0,
       "base_price": 89990,
       "pump_price": null,
-      "value_score": 24,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3562,7 +3562,7 @@
       "fair_discount": 0.0,
       "base_price": 199990,
       "pump_price": null,
-      "value_score": 26,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3593,7 +3593,7 @@
       "fair_discount": 0.0,
       "base_price": 2099990,
       "pump_price": null,
-      "value_score": 40,
+      "value_score": 45,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -3625,7 +3625,7 @@
       "fair_discount": 0.0,
       "base_price": 2499990,
       "pump_price": null,
-      "value_score": 34,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -4091,7 +4091,7 @@
       "fair_discount": 0.0,
       "base_price": 1999990,
       "pump_price": null,
-      "value_score": 40,
+      "value_score": 45,
       "is_pick": false,
       "badges": [
         "Топ-Бренд",
@@ -4278,7 +4278,7 @@
       "fair_discount": 0.0,
       "base_price": 44990,
       "pump_price": null,
-      "value_score": 37,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4307,9 +4307,9 @@
       "signal": "deal",
       "drop_pct": 48,
       "fair_discount": 0.0,
-      "base_price": 22990,
+      "base_price": 18990,
       "pump_price": null,
-      "value_score": 30,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4349,6 +4349,131 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "47056",
+        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Gold (Soc-L29M) (55020EVP)",
+        "price": 179890,
+        "old_price": 341990,
+        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-gold-soc-l29m-55020evp/p47056",
+        "brand": "HUAWEI",
+        "category": "Смарт-часы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/FYbMcK9lYjdbpCv4R410nvLHvOApA7ouEOJm5uca.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 0.0,
+      "base_price": 179890,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44290",
+        "title": "Фен щетка Rowenta UB9520F0",
+        "price": 29990,
+        "old_price": 56990,
+        "url": "https://evrika.com/catalog/fen-shchetka-rowenta-ub9520f0/p44290",
+        "brand": null,
+        "category": "Фены",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/6GI9Rir8oJelrE4wJ0TslXgxf35Qtmcq9u7f2LUD.png.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 0.0,
+      "base_price": 29990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47851",
+        "title": "Внешний аккумулятор ttec ReCharger LCD 10.000mAh PD 20W Powerbank Black (2BB233S)",
+        "price": 12190,
+        "old_price": 22990,
+        "url": "https://evrika.com/catalog/vneshniy-akkumulyator-ttec-recharger-lcd-10-000mah-pd-20w-powerbank-black-2bb233s/p47851",
+        "brand": null,
+        "category": "Внешние аккумуляторы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/BNslF5ziPDGsr7IAxRHbiT0Ef6esmptD0xRAwdk0.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 0.0,
+      "base_price": 12190,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45507",
+        "title": "Портативный внешний аккумулятор Xiaomi 33W Power Bank 10000mAh (Integrated Cable) Ice Blue GL PB1033MI/BHR9341GL",
+        "price": 11990,
+        "old_price": 22490,
+        "url": "https://evrika.com/catalog/portativnyy-vneshniy-akkumulyator-xiaomi-33w-power-bank-10000mah-integrated-cable-ice-blue-gl-pb1033mi-bhr9341gl/p45507",
+        "brand": "Xiaomi",
+        "category": "Внешние аккумуляторы",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/ONhjYdy1e6Xww3pp8oEYKsqGuzU99H4vrVh87M0q.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 47,
+      "fair_discount": 0.0,
+      "base_price": 11990,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 47.0
+    },
+    {
+      "product": {
         "shop": "alser",
         "sku": "1464230",
         "title": "Детский планшет HUAWEI MatePad SE 11\" 4GB/128GB Nebula Gray (Agassi6-W19BE)",
@@ -4377,68 +4502,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 29.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453058",
-        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT021) Beige",
-        "price": 18990,
-        "old_price": 25990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/GAJqVtnyk/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige-w160.webp",
-        "mpn": null,
-        "rating": 4.98,
-        "reviews_count": 134,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 27,
-      "fair_discount": 0.0,
-      "base_price": 18990,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453057",
-        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT020) Black",
-        "price": 18990,
-        "old_price": 25990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 27,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/jeOv0SaDK/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black-w160.webp",
-        "mpn": null,
-        "rating": 4.96,
-        "reviews_count": 161,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 27,
-      "fair_discount": 0.0,
-      "base_price": 18990,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 27.0
     },
     {
       "product": {
@@ -4474,9 +4537,71 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1453058",
+        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT021) Beige",
+        "price": 19290,
+        "old_price": 25990,
+        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige",
+        "brand": "Huawei",
+        "category": "Huawei",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/GAJqVtnyk/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige-w160.webp",
+        "mpn": null,
+        "rating": 4.98,
+        "reviews_count": 134,
+        "first_seen": "2026-11-11T18:14:24+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 26,
+      "fair_discount": 0.0,
+      "base_price": 18990,
+      "pump_price": null,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1453057",
+        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT020) Black",
+        "price": 19290,
+        "old_price": 25990,
+        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black",
+        "brand": "Huawei",
+        "category": "Huawei",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/jeOv0SaDK/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black-w160.webp",
+        "mpn": null,
+        "rating": 4.96,
+        "reviews_count": 161,
+        "first_seen": "2026-11-11T18:14:24+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 26,
+      "fair_discount": 0.0,
+      "base_price": 18990,
+      "pump_price": null,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1459351",
         "title": "Смарт часы Huawei Watch GT 6 (46mm), Black",
-        "price": 106190,
+        "price": 106490,
         "old_price": 134890,
         "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-46mm-black",
         "brand": "Huawei",
@@ -4532,130 +4657,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 21.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1413737",
-        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Зелёная",
-        "price": 189990,
-        "old_price": 238490,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-zelenaa",
-        "brand": "Яндекс",
-        "category": "Яндекс",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/w8vlVTeRn/umnaa-kolonka-andeksstancia-maks-s-zigbee-zelenaa-w160.webp",
-        "mpn": null,
-        "rating": 4.98,
-        "reviews_count": 154,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 20,
-      "fair_discount": 0.0,
-      "base_price": 189990,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1413736",
-        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Бежевая",
-        "price": 189990,
-        "old_price": 238490,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-bezevaa",
-        "brand": "Яндекс",
-        "category": "Яндекс",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/P5EkwFBPa9/umnaa-kolonka-andeksstancia-maks-s-zigbee-bezevaa-w160.webp",
-        "mpn": null,
-        "rating": 4.99,
-        "reviews_count": 169,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 20,
-      "fair_discount": 0.0,
-      "base_price": 189990,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1413735",
-        "title": "Умная колонка Яндекс.Станция Макс с Zigbee, Графит",
-        "price": 189990,
-        "old_price": 238490,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeksstancia-maks-s-zigbee-grafit",
-        "brand": "Яндекс",
-        "category": "Яндекс",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 20,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/bxQlRIbPa4/umnaa-kolonka-andeksstancia-maks-s-zigbee-grafit-w160.webp",
-        "mpn": null,
-        "rating": 4.98,
-        "reviews_count": 102,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 20,
-      "fair_discount": 0.0,
-      "base_price": 189990,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 20.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1450204",
-        "title": "Умная колонка Яндекс Станция Мини 3 Лиловый (9YNDX-00027LIL)",
-        "price": 49990,
-        "old_price": 61990,
-        "url": "https://alser.kz/p/umnaa-kolonka-andeks-stancia-mini-3-lilovyj-9yndx-00027lil",
-        "brand": "Яндекс",
-        "category": "Яндекс",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://s3s.alser.kz/uploads/products/kolonki-yandeks/y8YNjTJep/umnaa-kolonka-andeks-stancia-mini-3-lilovyj-9yndx-00027lil-w160.webp",
-        "mpn": null,
-        "rating": 4.97,
-        "reviews_count": 866,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 19,
-      "fair_discount": 0.0,
-      "base_price": 49990,
-      "pump_price": null,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 19.0
     },
     {
       "product": {
@@ -4936,7 +4937,7 @@
       "fair_discount": 36.8,
       "base_price": 729990,
       "pump_price": null,
-      "value_score": 85,
+      "value_score": 89,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -4969,12 +4970,108 @@
       "fair_discount": 35.7,
       "base_price": 28590,
       "pump_price": null,
-      "value_score": 79,
+      "value_score": 84,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "651832",
+        "title": "Электробритва Philips Серии i9000 со SkinIQ X9002/10",
+        "price": 217990,
+        "old_price": 261990,
+        "url": "https://www.sulpak.kz/g/elektrobritviy-philips-x900210",
+        "brand": "Philips",
+        "category": "britviy_i_epilyatoriy",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 17,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_27_503_0_6_WxyZvi_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 17,
+      "fair_discount": 32.3,
+      "base_price": 321990,
+      "pump_price": null,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": -15.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44213",
+        "title": "Настольный микрофон HyperX 872V1AA QuadCast 2 на подставке черный",
+        "price": 74990,
+        "old_price": 109990,
+        "url": "https://evrika.com/catalog/nastolnyy-mikrofon-hyperx-872v1aa-quadcast-2-na-podstavke-chernyy/p44213",
+        "brand": "HyperX",
+        "category": "Микрофоны",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/GNsAqfje643uZ1FswbKWodiJkbE3B3TEgFxsF3dO.png.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.8,
+      "base_price": 109990,
+      "pump_price": null,
+      "value_score": 79,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47553",
+        "title": "Мышь игровая беспроводная HyperX Pulsefire Fuse Wireless (A1KY6AA)",
+        "price": 25990,
+        "old_price": 37990,
+        "url": "https://evrika.com/catalog/mysh-igrovaya-besprovodnaya-hyperx-pulsefire-fuse-wireless-a1ky6aa/p47553",
+        "brand": "HyperX",
+        "category": "Компьютерные мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/MD2vgASxghCh9ovLDm6DrRjOHs2Hq3iG9dAT0gXs.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.6,
+      "base_price": 37990,
+      "pump_price": null,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -5203,6 +5300,68 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "47547",
+        "title": "Коврик игровой HyperX Pulsefire Mat - Cloth (XL) (4Z7X5AA)",
+        "price": 14990,
+        "old_price": 20990,
+        "url": "https://evrika.com/catalog/kovrik-igrovoy-hyperx-pulsefire-mat-cloth-xl-4z7x5aa/p47547",
+        "brand": "HyperX",
+        "category": "Коврики для мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/fWZ6KFlmF9F0ZbMzEmSBuk46tsmc1juQvWeTmgAO.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 28.6,
+      "base_price": 20990,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48944",
+        "title": "Коврик для компьютерной мыши HyperX Pulsefire Mat (Extra Large) 4Z7X5AA",
+        "price": 14990,
+        "old_price": 20990,
+        "url": "https://evrika.com/catalog/kovrik-dlya-kompyuternoy-myshi-hyperx-pulsefire-mat-extra-large-4z7x5aa/p48944",
+        "brand": "HyperX",
+        "category": "Коврики для мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/osT2ndhOOgmDOd26mzJHckrp9s2ffC8HXMUatsHf.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-10T13:01:06+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 28.6,
+      "base_price": 20990,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "287547",
         "title": "Стиральная машина Hansa WHB9140G",
@@ -5265,68 +5424,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "651383",
-        "title": "Смартфон Huawei Nova 15 12/256GB Green",
-        "price": 164890,
-        "old_price": 249890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-green",
-        "brand": "HUAWEI",
-        "category": "smartfoniy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12163_0_6_5cpUVa_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 28.3,
-      "base_price": 229890,
-      "pump_price": null,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651384",
-        "title": "Смартфон Huawei Nova 15 12/256GB White",
-        "price": 164890,
-        "old_price": 249890,
-        "url": "https://www.sulpak.kz/g/smartfoniy-huawei-nova-15-12256gb-white",
-        "brand": "HUAWEI",
-        "category": "smartfoniy",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 34,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_12164_0_6_hi5PQf_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 34,
-      "fair_discount": 28.3,
-      "base_price": 229890,
-      "pump_price": null,
-      "value_score": 68,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 5.7
-    },
-    {
-      "product": {
         "shop": "shopkz",
         "sku": "1411059",
         "title": "Робот-пылесос Ardesto RVC-S1300W, White",
@@ -5386,6 +5483,69 @@
         "Честная скидка"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47552",
+        "title": "Мышь игровая беспроводная HyperX Pulsefire Haste 2 Pro 4K Wireless (A1KY5AA)",
+        "price": 52990,
+        "old_price": 72990,
+        "url": "https://evrika.com/catalog/mysh-igrovaya-besprovodnaya-hyperx-pulsefire-haste-2-pro-4k-wireless-a1ky5aa/p47552",
+        "brand": "HyperX",
+        "category": "Компьютерные мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/ujMMJpqrYxjLpTAtDjK4x7ZXnINy3Wi2hSW4Q5Tp.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 27.4,
+      "base_price": 72990,
+      "pump_price": null,
+      "value_score": 71,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "286886",
+        "title": "Ноутбук Apple MacBook Pro Silver 2024 M4 / 512SSD / 16.2 / Mac OS Sequoia / (MX2T3RU/A)",
+        "price": 1355990,
+        "old_price": 1860990,
+        "url": "https://www.technodom.kz/p/noutbuk-apple-macbook-pro-16-m4-pro-512-silver-2024-mx2t3rua-286886",
+        "brand": "Apple",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 27,
+        "image": "https://api.technodom.kz/f3/api/v1/images/286886_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 27,
+      "fair_discount": 27.1,
+      "base_price": 1860990,
+      "pump_price": null,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 8.3
     },
     {
       "product": {
@@ -5482,35 +5642,35 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "657414",
-        "title": "Ноутбук HP Victus Gaming 15-fa2253ci Intel Core i7-13620H 16 GB / SSD 512GB / GeForce RTX 3050 6GB / NO OS / D9CP5EA",
-        "price": 499990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/noutbuki-hp-hp-victus-gaming-15-fa2253ci-d9cp5ea-i7165sg35n",
-        "brand": "HP",
-        "category": "noutbuki",
+        "shop": "technodom",
+        "sku": "276133",
+        "title": "Ноутбук Apple MacBook Space Black M3 Pro / 18ГБ / 512SSD / 16.2 / Mac OS Sonoma / (MRW13RU/A)",
+        "price": 1197990,
+        "old_price": 1594990,
+        "url": "https://www.technodom.kz/p/noutbuk-apple-macbook-pro-16-m3-pro-12c18g-18-512-space-black-mrw13ru-276133",
+        "brand": "Apple",
+        "category": "Ноутбуки и компьютеры",
         "group": "computers",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10071_0_1_Fu4l67_160.webp",
+        "discount_pct": 25,
+        "image": "https://api.technodom.kz/f3/api/v1/images/noutbuk_apple_macbook_pro_16_m3_pro_12c18g_18_512_space_black_mrw13ru_276133_1.webp",
         "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-21T23:44:54+00:00"
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.8,
-      "base_price": 664990,
+      "drop_pct": 25,
+      "fair_discount": 24.9,
+      "base_price": 1594990,
       "pump_price": null,
-      "value_score": 72,
+      "value_score": 71,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
       ],
-      "inflated_gap": null
+      "inflated_gap": 0.1
     },
     {
       "product": {
@@ -5576,6 +5736,99 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "47543",
+        "title": "Гарнитура игровая Hyperx Cloud III Black/Red (727A9AA)",
+        "price": 49990,
+        "old_price": 64990,
+        "url": "https://evrika.com/catalog/garnitura-igrovaya-hyperx-cloud-iii-black-red-727a9aa/p47543",
+        "brand": "HyperX",
+        "category": "Наушники с микрофоном",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/27hBhWhE8sKoBdPST3Mdfq14Mu7LxqCmw7mgto87.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 64990,
+      "pump_price": null,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47546",
+        "title": "Гарнитура игровая Hyperx Cloud III White (BS7C1AA)",
+        "price": 49990,
+        "old_price": 64990,
+        "url": "https://evrika.com/catalog/garnitura-igrovaya-hyperx-cloud-iii-white-bs7c1aa/p47546",
+        "brand": "HyperX",
+        "category": "Наушники с микрофоном",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/T2eyTcUxPY23lD4N0B054swWYKcxN0adZqPBxfEY.jfif.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 64990,
+      "pump_price": null,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48240",
+        "title": "Гарнитура игровая Hyperx Cloud III Black (727A8AA)",
+        "price": 49990,
+        "old_price": 64990,
+        "url": "https://evrika.com/catalog/garnitura-igrovaya-hyperx-cloud-iii-black-727a8aa/p48240",
+        "brand": "HyperX",
+        "category": "Наушники с микрофоном",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/D8ktiBiHpPk23MgR9OeWgBiiennox3flIRBv4U58.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 23.1,
+      "base_price": 64990,
+      "pump_price": null,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "623181",
         "title": "Робот-пылесос Dreame Robot Vacuum D9 Max Gen 2 White RLD34GA",
@@ -5598,7 +5851,7 @@
       "fair_discount": 22.9,
       "base_price": 139990,
       "pump_price": null,
-      "value_score": 59,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5629,7 +5882,7 @@
       "fair_discount": 22.6,
       "base_price": 774990,
       "pump_price": null,
-      "value_score": 58,
+      "value_score": 63,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5723,7 +5976,7 @@
       "fair_discount": 21.4,
       "base_price": 139990,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 60,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5754,7 +6007,7 @@
       "fair_discount": 21.4,
       "base_price": 139990,
       "pump_price": null,
-      "value_score": 56,
+      "value_score": 60,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5785,7 +6038,7 @@
       "fair_discount": 21.3,
       "base_price": 889990,
       "pump_price": null,
-      "value_score": 50,
+      "value_score": 54,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -5816,7 +6069,7 @@
       "fair_discount": 20.2,
       "base_price": 649990,
       "pump_price": null,
-      "value_score": 48,
+      "value_score": 52,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6064,7 +6317,7 @@
       "fair_discount": 20.0,
       "base_price": 62400,
       "pump_price": null,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6095,7 +6348,7 @@
       "fair_discount": 20.0,
       "base_price": 62400,
       "pump_price": null,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6126,7 +6379,7 @@
       "fair_discount": 20.0,
       "base_price": 62400,
       "pump_price": null,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6157,7 +6410,7 @@
       "fair_discount": 20.0,
       "base_price": 99900,
       "pump_price": null,
-      "value_score": 58,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6187,6 +6440,100 @@
       "drop_pct": null,
       "fair_discount": 20.0,
       "base_price": 99900,
+      "pump_price": null,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "629202",
+        "title": "Фитнес браслет Xiaomi Smart Band 9 Active Beige White Smart Band 9 Active Beige White",
+        "price": 11990,
+        "old_price": 14990,
+        "url": "https://www.sulpak.kz/g/fitnes-brasletiy-xiaomi-smart-band-9-active-beige-white",
+        "brand": "Xiaomi",
+        "category": "fitnes_brasletiy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_912_163_0_2_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 20.0,
+      "base_price": 14990,
+      "pump_price": null,
+      "value_score": 68,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000025148",
+        "title": "Cетевая аудиосистема \"все-в-одном\" Ruark R610 орех",
+        "price": 867192,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-ruark-audio-r610-oreh",
+        "brand": "Ruark Audio",
+        "category": "muziykalniye_centriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_233_0_1_OZp4hW_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 1083990,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000036823",
+        "title": "Активный сабвуфер Ruark RS1 MK Black",
+        "price": 255192,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/domashnie-kinoteatriy-ruark-audio-rs1-mk-black",
+        "brand": "Ruark Audio",
+        "category": "domashnie_kinoteatriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_333_168_0_1_15j2zW_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 318990,
       "pump_price": null,
       "value_score": 58,
       "is_pick": false,
@@ -6219,7 +6566,7 @@
       "fair_discount": 19.6,
       "base_price": 91990,
       "pump_price": null,
-      "value_score": 47,
+      "value_score": 51,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6512,6 +6859,130 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "653182",
+        "title": "Беспроводные наушники JBL Tune 730BT (бежевый)",
+        "price": 29990,
+        "old_price": 36990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-730bt-bezheviyj",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4282_0_6_mi0yjb_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.9,
+      "base_price": 36990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653183",
+        "title": "Беспроводные наушники JBL Tune 730BT Black",
+        "price": 29990,
+        "old_price": 36990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-jbl-tune-730bt-cherniyj",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4283_0_1_UZT2WN_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.9,
+      "base_price": 36990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653184",
+        "title": "Беспроводные наушники JBL Tune 730BT Blue",
+        "price": 29990,
+        "old_price": 36990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-730bt-sinij",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4284_0_1_kPvPhE_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.9,
+      "base_price": 36990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653185",
+        "title": "Беспроводные наушники JBL JBLT730BTWHT",
+        "price": 29990,
+        "old_price": 36990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-jblt730btwht",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4285_0_6_OK9isV_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.9,
+      "base_price": 36990,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "48019",
         "title": "Наушники беспроводные JBLT530BTBLKEU черные",
@@ -6606,6 +7077,161 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "653177",
+        "title": "Накладные наушники JBL Tune 530BT Beige",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-530bt-bezheviyj",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4277_0_1_03bbqs_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653178",
+        "title": "Беспроводные наушники JBL Tune 530BT Black",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-530bt-cherniyj",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4278_0_1_EMTEfN_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653179",
+        "title": "Беспроводные наушники JBL Tune 530BT (синий)",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-jbl-tune-530bt-sinij",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4279_0_6_VgiBNd_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653180",
+        "title": "Беспроводные наушники JBL Tune 530BT Lavender",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-jbl-tune-530bt-fioletoviyj",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4280_0_1_1LhBhf_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "653181",
+        "title": "Беспроводные наушники JBL Tune 530BT White",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-530bt-beliyj",
+        "brand": "JBL",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4281_0_1_L7thlW_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "655788",
         "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
         "price": 219990,
@@ -6627,7 +7253,7 @@
       "fair_discount": 18.5,
       "base_price": 269990,
       "pump_price": null,
-      "value_score": 57,
+      "value_score": 61,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -6698,38 +7324,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "655783",
-        "title": "Ноутбук Lenovo LOQ 15ARP10E Ryzen 7 250 16GB / SSD 512GB / GeForce RTX 5050 8GB / Win 11 / 83TN008WRK",
-        "price": 779990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-loq-15ahp11-83tn008wrk-r7165sg55w11h",
-        "brand": "Lenovo",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9954_0_6_85UCNk_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-22T12:23:32+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 17.9,
-      "base_price": 949990,
-      "pump_price": null,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48659",
         "title": "Кофемашина Delonghi ECAM290.61.B",
@@ -6783,12 +7377,74 @@
       "fair_discount": 16.9,
       "base_price": 389990,
       "pump_price": null,
-      "value_score": 42,
+      "value_score": 46,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "629918",
+        "title": "Беспроводная музыкальная система Ruark R3s орех",
+        "price": 501658,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-ruark-audio-r3s-oreh",
+        "brand": "Ruark Audio",
+        "category": "muziykalniye_centriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_219_0_1_ZrIYP7_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 601990,
+      "pump_price": null,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000035140",
+        "title": "Напольная акустика DALI Oberon 7 белый, 2 шт.",
+        "price": 640825,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-dali-oberon-7-beliyj-2-sht",
+        "brand": "DALI",
+        "category": "muziykalniye_centriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_221_0_6_EhBYUe_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.7,
+      "base_price": 768990,
+      "pump_price": null,
+      "value_score": 48,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7164,7 +7820,7 @@
       "fair_discount": 15.6,
       "base_price": 359990,
       "pump_price": 479990,
-      "value_score": 40,
+      "value_score": 44,
       "is_pick": false,
       "badges": [
         "Честная скидка",
@@ -7196,43 +7852,12 @@
       "fair_discount": 15.6,
       "base_price": 319990,
       "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "46185",
-        "title": "Увлажнитель воздуха Dreame H40",
-        "price": 92990,
-        "old_price": 109990,
-        "url": "https://evrika.com/catalog/uvlazhnitel-vozduha-dreame-h40/p46185",
-        "brand": null,
-        "category": "Увлажнители и очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 15,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/mblaJW4Bk8tC0wI920KDrLzXxYszmZA8LGElDGwU.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 15,
-      "fair_discount": 15.5,
-      "base_price": 109990,
-      "pump_price": null,
       "value_score": 50,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": -0.5
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7289,7 +7914,7 @@
       "fair_discount": 15.2,
       "base_price": 329990,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -7327,37 +7952,6 @@
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "257772",
-        "title": "Стиральная машина Beko WSPE7H616A",
-        "price": 169990,
-        "old_price": 229990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-beko-wspe7h616a-257772",
-        "brand": "Beko",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 26,
-        "image": "https://api.technodom.kz/f3/api/v1/images/stiralnaya_mashina_beko_wspe7h616a_257772_6a.webp",
-        "mpn": null,
-        "rating": 4.35,
-        "reviews_count": 14,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 26,
-      "fair_discount": 15.0,
-      "base_price": 199990,
-      "pump_price": null,
-      "value_score": 49,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 11.0
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "627366",
         "title": "Холодильник Samsung RT53DB7B60ETWT",
@@ -7380,7 +7974,7 @@
       "fair_discount": 14.6,
       "base_price": 644990,
       "pump_price": null,
-      "value_score": 48,
+      "value_score": 53,
       "is_pick": false,
       "badges": [
         "Топ-Бренд"
@@ -7452,17 +8046,141 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "641997",
-        "title": "TWS Наушники Air Pods Pro 3 MFHP4ZE/A",
-        "price": 149990,
-        "old_price": 174990,
-        "url": "https://www.sulpak.kz/g/naushniki-apple-mfhp4zea",
+        "sku": "657301",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Sky Blue / Z1L9000BT",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-sky-blue-a3449-m5-16gb-512gb-ssd-rus-z1l9000bt",
         "brand": "Apple",
-        "category": "naushniki",
-        "group": "phones",
+        "category": "noutbuki",
+        "group": "computers",
         "in_stock": true,
         "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3572_0_6_cC2ccO_160.webp",
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10047_0_1_SVqU2N_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T23:57:02+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657302",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Midnight / Z1L6000BQ",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-midnight-a3449-m5-16gb-512gb-ssd-rus-z1l6000bq",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10048_0_1_i1qRSa_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T16:29:23+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657303",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Starlight / Z1L3000BR",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-starlight-a3449-m5-16gb-512gb-ssd-rus-z1l3000br",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10049_0_1_YSCZwT_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-03T07:14:41+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "657304",
+        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Silver / Z1L0000BR",
+        "price": 729990,
+        "old_price": 846990,
+        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-silver-a3449-m5-16gb-512gb-ssd-rus-z1l0000br",
+        "brand": "Apple",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10050_0_1_763KO0_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-02T16:29:23+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 14,
+      "fair_discount": 13.8,
+      "base_price": 846990,
+      "pump_price": null,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.2
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "636992",
+        "title": "Робот-пылесос Dreame F10 Plus",
+        "price": 94990,
+        "old_price": 109990,
+        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f10-plus",
+        "brand": "Dreame",
+        "category": "robotiy_piylesosiy",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 14,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_240_0_1_Gx8xTX_160.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": null,
@@ -7470,73 +8188,13 @@
       },
       "signal": "drop",
       "drop_pct": 14,
-      "fair_discount": 14.3,
-      "base_price": 174990,
+      "fair_discount": 13.6,
+      "base_price": 109990,
       "pump_price": null,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.3
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "653493",
-        "title": "Ноутбук Acer Gadget e10 ETBOOK celeron N4500 8GB / SSD 256GB / Intel Graphics / NO OS / ZL.OTH11.07J",
-        "price": 179990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-gadget-e10-etbook-zloth1107j-c82suw11",
-        "brand": "Acer",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9829_0_1_gFPYqb_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-04T16:42:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 14.3,
-      "base_price": 209990,
-      "pump_price": null,
-      "value_score": 50,
+      "value_score": 41,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "656932",
-        "title": "Ноутбук Tecno K16S Intel Core i5-13420H 8 GB / SSD 512GB / Intel UHD Graphics / Win 11 / K16SAA",
-        "price": 299990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/noutbuki-tecno-megabook-k16s-16-fhd-i3-1315u-8gb-512gb-win-11",
-        "brand": "Tecno",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10093_0_1_pGpxZu_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-31T00:11:49+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 14.3,
-      "base_price": 349990,
-      "pump_price": null,
-      "value_score": 44,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -7591,41 +8249,126 @@
       "fair_discount": 13.3,
       "base_price": 599990,
       "pump_price": null,
-      "value_score": 36,
+      "value_score": 41,
       "is_pick": false,
       "badges": [],
       "inflated_gap": 10.7
     },
     {
       "product": {
-        "shop": "technodom",
-        "sku": "288868",
-        "title": "Стиральная машина Hotpoint WSH6090VWW",
-        "price": 129990,
-        "old_price": 204990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh6090vww-288868",
-        "brand": "Hotpoint",
-        "category": "Бытовая техника",
-        "group": "home",
+        "shop": "sulpak",
+        "sku": "635215",
+        "title": "Активные наушники Dali IO-4 железный Black",
+        "price": 156513,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-dali-io-4-zhelezniyj-black",
+        "brand": "DALI",
+        "category": "naushniki",
+        "group": "phones",
         "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288868_1.webp",
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3596_0_1_TUdg3H_160.webp",
         "mpn": null,
-        "rating": 3.0,
-        "reviews_count": 1,
+        "rating": null,
+        "reviews_count": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 13.3,
-      "base_price": 149990,
+      "drop_pct": null,
+      "fair_discount": 13.0,
+      "base_price": 179990,
       "pump_price": null,
-      "value_score": 41,
+      "value_score": 42,
       "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 23.7
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "635216",
+        "title": "Активные наушники Dali IO-4 White",
+        "price": 156513,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/naushniki-dali-io-4-white",
+        "brand": "DALI",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3585_0_1_kYK6oJ_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.0,
+      "base_price": 179990,
+      "pump_price": null,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "3000036822",
+        "title": "Настольная активная акустика Ruark MR1 MK3 черный",
+        "price": 350426,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/kompyuterniye-kolonki-ruark-audio-mr1-mk3-cherniyj",
+        "brand": "Ruark Audio",
+        "category": "kompyuterniye_kolonki",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_84_432_0_1_RkJMZh_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.0,
+      "base_price": 402990,
+      "pump_price": null,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "628653",
+        "title": "Активный сабвуфер Dali SUB K-14 F 220-240V 220153 Black",
+        "price": 834774,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/domashnie-kinoteatriy-dali-sub-k-14-f-220-240v-220153-black",
+        "brand": "DALI",
+        "category": "domashnie_kinoteatriy",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_333_163_0_1_2kwDq7_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 13.0,
+      "base_price": 959990,
+      "pump_price": null,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7684,6 +8427,35 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 3.3
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1742231",
+        "title": "Увлажнитель воздуха Mijia Smart Evaporative Humidifier Pro EU",
+        "price": 54900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/uvlazhnitel-vozdukha-mijia-smart-evaporative-humidifier-pro-eu/",
+        "brand": null,
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/6b8/v59axlbty3fck5herdsbjmcqms32oz63/84400_1.jpg",
+        "mpn": "CJSJSQ06ZMZUE",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-16T18:56:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.9,
+      "base_price": 60900,
+      "pump_price": null,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7759,8 +8531,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-23T08:40:55+00:00",
-      "item_count": 2777,
+      "last_crawl": "2026-11-23T20:34:11+00:00",
+      "item_count": 2791,
       "status": "ok"
     },
     {
@@ -7773,28 +8545,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-22T18:09:12+00:00",
-      "item_count": 3797,
-      "status": "warning"
+      "last_crawl": "2026-11-23T20:34:11+00:00",
+      "item_count": 3843,
+      "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-23T08:40:55+00:00",
-      "item_count": 10097,
+      "last_crawl": "2026-11-23T20:34:11+00:00",
+      "item_count": 10111,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-23T08:40:55+00:00",
-      "item_count": 2447,
+      "last_crawl": "2026-11-23T20:34:11+00:00",
+      "item_count": 2393,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31699,
-    "total_deals": 249,
-    "avg_discount": 50.0
+    "total_products": 31719,
+    "total_deals": 274,
+    "avg_discount": 48.0
   }
 }
