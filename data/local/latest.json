@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T04:55:58.953168+00:00",
+  "updated_at": "2026-11-23T05:03:33.428551+00:00",
   "deals": [
     {
       "product": {
@@ -1139,33 +1139,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200007808",
-        "title": "Холодильник GRUNDIG GSN 30110 FXBR",
-        "price": 299990,
-        "old_price": 799990,
-        "url": "https://www.mechta.kz/product/holodilnik-grundig-gsn-30110-fxbr/",
-        "brand": "Grundig",
-        "category": "Холодильники",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/803087b9-61da-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-11-15T08:54:23+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 299990,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200006277",
         "title": "Робот-пылесос ROBOROCK (S80ULT/(S802-02) S8 White",
         "price": 139990,
@@ -1353,6 +1326,34 @@
         "Рисованная?"
       ],
       "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002306",
+        "title": "Клавиатура STEELSERIES Apex 3 RU 64805",
+        "price": 16990,
+        "old_price": 43900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-3-ru-64805/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 61,
+        "image": "https://pi.mdev.kz/5cc5cf02-3902-11eb-a238-005056b6dbd7?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 61,
+      "fair_discount": 22.7,
+      "base_price": 21990,
+      "value_score": 57,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 38.3
     },
     {
       "product": {
@@ -1795,8 +1796,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-23T04:55:44+00:00",
-      "item_count": 7936,
+      "last_crawl": "2026-11-23T05:03:25+00:00",
+      "item_count": 7935,
       "status": "ok"
     },
     {
@@ -1836,7 +1837,7 @@
     }
   ],
   "stats": {
-    "total_products": 7936,
+    "total_products": 7935,
     "total_deals": 66,
     "avg_discount": 63.0
   }
