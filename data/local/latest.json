@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T11:29:35.072244+00:00",
+  "updated_at": "2026-11-23T13:21:49.122681+00:00",
   "deals": [
     {
       "product": {
@@ -93,35 +93,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000007171",
-        "title": "Очиститель воздуха TEFAL QF5030F0 (2в1)",
-        "price": 81990,
-        "old_price": 218990,
-        "url": "https://www.mechta.kz/product/ochistitel-vozduha-tefal-qf5030f0-2v1/",
-        "brand": "Tefal",
-        "category": "Очистители воздуха",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -804,6 +775,37 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 129990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000007171",
+        "title": "Очиститель воздуха TEFAL QF5030F0 (2в1)",
+        "price": 81990,
+        "old_price": 218990,
+        "url": "https://www.mechta.kz/product/ochistitel-vozduha-tefal-qf5030f0-2v1/",
+        "brand": "Tefal",
+        "category": "Очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 81990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -1628,161 +1630,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000006457",
-        "title": "Портативная колонка Bang&Olufsen Beosound Explore Black Anthracite",
-        "price": 117990,
-        "old_price": 169990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-explore-black-anthracite/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/d124a3ad-4394-11ec-a240-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.6,
-      "base_price": 169990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006458",
-        "title": "Портативная колонка Bang&Olufsen Beosound Explore Grey Mist",
-        "price": 117990,
-        "old_price": 169990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-explore-grey-mist/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/0e764792-5c23-11ee-a261-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.6,
-      "base_price": 169990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000006459",
-        "title": "Портативная колонка Bang&Olufsen Beosound Explore Green",
-        "price": 117990,
-        "old_price": 169990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beosound-explore-green/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/d124a3a5-4394-11ec-a240-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.6,
-      "base_price": 169990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200009948",
-        "title": "Наушники Bang&Olufsen BeoPlay HX Gold Tone",
-        "price": 274990,
-        "old_price": 395990,
-        "url": "https://www.mechta.kz/product/naushniki-bangolufsen-beoplay-hx-gold-tone/",
-        "brand": "Bang & Olufsen",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/7617a8ca-c1a9-11ee-a264-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.6,
-      "base_price": 395990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012311",
-        "title": "Наушники Bang&Olufsen BeoPlay HX Timber",
-        "price": 274990,
-        "old_price": 395990,
-        "url": "https://www.mechta.kz/product/naushniki-bangolufsen-beoplay-hx-timber/",
-        "brand": "Bang & Olufsen",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://pi.mdev.kz/d3171b7a-2e2a-11ef-a266-005056b6e990?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 31,
-      "fair_discount": 30.6,
-      "base_price": 395990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016277",
         "title": "Мышка игровая HyperX Pulsefire Haste 2 Core Wireless, черный",
         "price": 27990,
@@ -1814,101 +1661,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200021008",
-        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 11‑inch (M3) - Black (MGYX4RS/A)",
-        "price": 149990,
-        "old_price": 212490,
-        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-11inch-m3---black-mgyx4rsa/",
-        "brand": "Apple",
-        "category": "Клавиатуры для планшетов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://pi.mdev.kz/181f539b-6173-49d9-a915-2f9582dca09b?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 29.4,
-      "base_price": 212490,
-      "pump_price": null,
-      "value_score": 85,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002360",
-        "title": "Портативная колонка Bang&Olufsen Beolit 20 Black Anthracite",
-        "price": 309990,
-        "old_price": 438990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beolit-20-black-anthracite/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://pi.mdev.kz/4798ea4c-3ec1-11eb-a238-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 29.4,
-      "base_price": 438990,
-      "pump_price": null,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000002361",
-        "title": "Портативная колонка Bang&Olufsen Beolit 20 Grey Mist",
-        "price": 309990,
-        "old_price": 438990,
-        "url": "https://www.mechta.kz/product/portativnaya-kolonka-bangolufsen-beolit-20-grey-mist/",
-        "brand": "Bang & Olufsen",
-        "category": "Портативные колонки",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 29,
-        "image": "https://pi.mdev.kz/3335d383-3ec6-11eb-a238-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 29,
-      "fair_discount": 29.4,
-      "base_price": 438990,
-      "pump_price": null,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200010025",
         "title": "Коврик для мышки KINGSTON HyperX Pulsefire Mat (Extra Large) 4Z7X5AA",
         "price": 14990,
@@ -1936,39 +1688,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200012528",
-        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Pro 13-inch (M4) - Black (MWR53RS/A)",
-        "price": 199990,
-        "old_price": 275990,
-        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-pro-13-inch-m4---black-mwr53rsa/",
-        "brand": "Apple",
-        "category": "Клавиатуры для планшетов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://pi.mdev.kz/24199590-3763-11ef-a267-005056b6e990?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 27.5,
-      "base_price": 275990,
-      "pump_price": null,
-      "value_score": 82,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -2131,6 +1850,70 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200021008",
+        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 11‑inch (M3) - Black (MGYX4RS/A)",
+        "price": 149990,
+        "old_price": 212490,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-air-11inch-m3---black-mgyx4rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/181f539b-6173-49d9-a915-2f9582dca09b?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 18.7,
+      "base_price": 184490,
+      "pump_price": null,
+      "value_score": 66,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 10.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200012528",
+        "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Pro 13-inch (M4) - Black (MWR53RS/A)",
+        "price": 199990,
+        "old_price": 275990,
+        "url": "https://www.mechta.kz/product/klaviatura-dlya-plansheta-apple-magic-keyboard-for-ipad-pro-13-inch-m4---black-mwr53rsa/",
+        "brand": "Apple",
+        "category": "Клавиатуры для планшетов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://pi.mdev.kz/24199590-3763-11ef-a267-005056b6e990?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 28,
+      "fair_discount": 16.5,
+      "base_price": 239490,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 11.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200025186",
         "title": "Соковыжималка BRAUN SJ 7000",
         "price": 99990,
@@ -2164,8 +1947,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-23T11:29:23+00:00",
-      "item_count": 7935,
+      "last_crawl": "2026-11-23T13:21:30+00:00",
+      "item_count": 7928,
       "status": "ok"
     },
     {
@@ -2205,8 +1988,8 @@
     }
   ],
   "stats": {
-    "total_products": 7935,
-    "total_deals": 69,
-    "avg_discount": 61.0
+    "total_products": 7928,
+    "total_deals": 62,
+    "avg_discount": 61.5
   }
 }
