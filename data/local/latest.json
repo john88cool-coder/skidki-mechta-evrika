@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T09:25:32.199239+00:00",
+  "updated_at": "2026-11-23T11:21:17.242273+00:00",
   "deals": [
     {
       "product": {
@@ -1561,38 +1561,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018070",
-        "title": "Телевизор Samsung LED UE85U8000FUXCE UHD SMART",
-        "price": 499990,
-        "old_price": 1279990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue85u8000fuxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/f974684d-969d-485f-9e26-95f5e0c9d922?w=400",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 499990,
-      "pump_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016027",
         "title": "Аэрогриль MIDEA MF-CY80SA2",
         "price": 54990,
@@ -2393,6 +2361,37 @@
       "base_price": 149990,
       "pump_price": null,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 58.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018016",
+        "title": "Вертикальный пылесос TINECO Floor One S9 Artist Pro",
+        "price": 179990,
+        "old_price": 429990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tineco-floor-one-s9-artist-pro/",
+        "brand": "Tineco",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/18b44388-4e1a-443e-8d10-e93c12d52259?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 0.0,
+      "base_price": 179990,
+      "pump_price": null,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -5926,8 +5925,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-23T09:21:12+00:00",
-      "item_count": 7944,
+      "last_crawl": "2026-11-23T11:21:05+00:00",
+      "item_count": 7935,
       "status": "ok"
     },
     {
@@ -5967,7 +5966,7 @@
     }
   ],
   "stats": {
-    "total_products": 39474,
+    "total_products": 39465,
     "total_deals": 190,
     "avg_discount": 55.0
   }
