@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:21:01.673722+00:00",
+  "updated_at": "2026-11-23T04:55:58.953168+00:00",
   "deals": [
     {
       "product": {
@@ -15,7 +15,7 @@
         "in_stock": true,
         "discount_pct": 84,
         "image": "https://pi.mdev.kz/5b817057-63d3-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 84,
@@ -24,58 +24,6 @@
       "value_score": 21,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001405",
-        "title": "Электропечь SIMFER M 4200",
-        "price": 12990,
-        "old_price": 74990,
-        "url": "https://www.mechta.kz/product/elektropech-simfer-m-4200/",
-        "brand": "Simfer",
-        "category": "Мини-печи электрические",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 83,
-        "image": "https://pi.mdev.kz/722463be-1477-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 83,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 21,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200016163",
-        "title": "Смартфон Samsung Galaxy S25 5G 128GB Silver Shadow (SM-S931) BZSBS",
-        "price": 129990,
-        "old_price": 579890,
-        "url": "https://www.mechta.kz/product/smartfon-samsung-galaxy-s25-5g-128gb-silver-shadow-sm-s931-bzsbs/",
-        "brand": "Samsung",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 78,
-        "image": "https://pi.mdev.kz/9f7aeb93-0a0f-4fcf-a4a9-dc7f7b6ff8a7?w=400",
-        "first_seen": "2026-11-19T15:22:49+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 78,
-      "fair_discount": null,
-      "base_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
       "inflated_gap": null
     },
     {
@@ -142,7 +90,7 @@
         "in_stock": true,
         "discount_pct": 77,
         "image": "https://pi.mdev.kz/fed98028-25f8-471e-980b-7966dd683c11?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 77,
@@ -167,7 +115,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/c931a006-084e-11eb-a231-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -194,7 +142,7 @@
         "in_stock": true,
         "discount_pct": 71,
         "image": "https://pi.mdev.kz/1fd153aa-1ca9-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 71,
@@ -248,7 +196,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/94497824-8019-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -275,7 +223,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5fa4966a-0baa-11ec-a23f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -300,7 +248,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/ce8d199c-4e9b-4651-ada3-3fe220bf58d3?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -311,6 +259,31 @@
       "badges": [
         "Топ-Бренд"
       ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200013422",
+        "title": "Кухонная машина TEFAL QB 951DF0",
+        "price": 259990,
+        "old_price": 682990,
+        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-tefal-qb-951df0/",
+        "brand": "Tefal",
+        "category": "Кухонные машины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": null,
+      "base_price": null,
+      "value_score": 27,
+      "is_pick": false,
+      "badges": [],
       "inflated_gap": null
     },
     {
@@ -327,7 +300,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/dc1ff817-e8c4-40c2-972f-8d154aa67d70?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -356,7 +329,7 @@
         "in_stock": true,
         "discount_pct": 82,
         "image": "https://pi.mdev.kz/f25593f8-bd20-11eb-a23e-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 82,
@@ -384,7 +357,7 @@
         "in_stock": true,
         "discount_pct": 80,
         "image": "https://pi.mdev.kz/80c27b5a-5ded-11ef-a269-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 80,
@@ -411,13 +384,13 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/07fc2664-d035-464b-a3b9-53b6eefb508a?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
       "fair_discount": 0.0,
       "base_price": 79990,
-      "value_score": 35,
+      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -438,7 +411,7 @@
         "in_stock": true,
         "discount_pct": 78,
         "image": "https://pi.mdev.kz/94c5c00a-ae78-4ce0-8d48-a9578339996e?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 78,
@@ -447,6 +420,34 @@
       "value_score": 35,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 78.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200016163",
+        "title": "Смартфон Samsung Galaxy S25 5G 128GB Silver Shadow (SM-S931) BZSBS",
+        "price": 129990,
+        "old_price": 579890,
+        "url": "https://www.mechta.kz/product/smartfon-samsung-galaxy-s25-5g-128gb-silver-shadow-sm-s931-bzsbs/",
+        "brand": "Samsung",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 78,
+        "image": "https://pi.mdev.kz/9f7aeb93-0a0f-4fcf-a4a9-dc7f7b6ff8a7?w=400",
+        "first_seen": "2026-11-19T15:22:49+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 78,
+      "fair_discount": 0.0,
+      "base_price": 129990,
+      "value_score": 31,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 78.0
@@ -465,7 +466,7 @@
         "in_stock": true,
         "discount_pct": 76,
         "image": "https://pi.mdev.kz/96fa9660-7a99-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 76,
@@ -492,7 +493,7 @@
         "in_stock": true,
         "discount_pct": 75,
         "image": "https://pi.mdev.kz/d0d74543-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 75,
@@ -520,7 +521,7 @@
         "in_stock": true,
         "discount_pct": 72,
         "image": "https://pi.mdev.kz/c2ce4283-8047-11ed-a250-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 72,
@@ -548,7 +549,7 @@
         "in_stock": true,
         "discount_pct": 70,
         "image": "https://pi.mdev.kz/6f6e0d98-edb3-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 70,
@@ -575,7 +576,7 @@
         "in_stock": true,
         "discount_pct": 69,
         "image": "https://pi.mdev.kz/0005b56e-7934-11ee-a263-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 69,
@@ -619,33 +620,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000071671",
-        "title": "Плойка PHILIPS BHB 872/00",
-        "price": 14990,
-        "old_price": 44990,
-        "url": "https://www.mechta.kz/product/ployka-philips-bhb-87200/",
-        "brand": "Philips",
-        "category": "Плойки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 67,
-        "image": "https://pi.mdev.kz/beccbb5b-bd4e-11e7-80c1-1866daf08915?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 67,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 67.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200001305",
         "title": "Блендер погружной POLARIS PHB 0746 CordLess",
         "price": 19990,
@@ -657,7 +631,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7771b28f-9a5e-4003-a1e1-97cf9a697f5f?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -684,7 +658,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/be52c93f-0e9e-43cd-b7a1-b756b3259f53?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -711,7 +685,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/8b385d5f-6653-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -738,7 +712,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/1e3da8e4-1437-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -766,7 +740,7 @@
         "in_stock": true,
         "discount_pct": 67,
         "image": "https://pi.mdev.kz/7e6e8a3e-bc1b-11ea-a22f-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 67,
@@ -793,7 +767,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/d0d74549-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -821,7 +795,7 @@
         "in_stock": true,
         "discount_pct": 66,
         "image": "https://pi.mdev.kz/c65cb8ee-c4ad-11ed-a259-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 66,
@@ -848,7 +822,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/d0d74550-1662-11ef-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -876,7 +850,7 @@
         "in_stock": true,
         "discount_pct": 65,
         "image": "https://pi.mdev.kz/eefa73f4-5f59-4981-a48c-2e1cc20b92ee?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 65,
@@ -903,7 +877,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/9cc02f0f-ed3f-11e8-a21a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -930,7 +904,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/beccbb64-bd4e-11e7-80c1-1866daf08915?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -957,7 +931,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/035573b4-9069-11ea-a22d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -985,7 +959,7 @@
         "in_stock": true,
         "discount_pct": 64,
         "image": "https://pi.mdev.kz/2ece0704-35e4-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 64,
@@ -1013,7 +987,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/04c4afff-ca0e-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1040,7 +1014,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/5aca6820-c9cb-11e7-80c2-1866daf08915?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1067,7 +1041,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/44d73884-628b-41f6-9996-23a24d286ff3?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1094,7 +1068,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/dce54311-488f-4904-b2e9-deb5e4abb6c3?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1122,7 +1096,7 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
@@ -1149,13 +1123,40 @@
         "in_stock": true,
         "discount_pct": 63,
         "image": "https://pi.mdev.kz/e5b88f95-8cd1-4aa5-9633-52cc804ef644?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 129990,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 63.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200007808",
+        "title": "Холодильник GRUNDIG GSN 30110 FXBR",
+        "price": 299990,
+        "old_price": 799990,
+        "url": "https://www.mechta.kz/product/holodilnik-grundig-gsn-30110-fxbr/",
+        "brand": "Grundig",
+        "category": "Холодильники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 63,
+        "image": "https://pi.mdev.kz/803087b9-61da-11ee-a262-005056b6dbd7?w=400",
+        "first_seen": "2026-11-15T08:54:23+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 63,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1176,7 +1177,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/9b377cc4-0fe4-11ee-a25b-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1203,7 +1204,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1231,7 +1232,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/6f6e0d93-edb3-11ee-a265-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1258,40 +1259,13 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/7957a1fc-185f-11ed-a24a-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
       "fair_discount": 0.0,
       "base_price": 72290,
       "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 62.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013422",
-        "title": "Кухонная машина TEFAL QB 951DF0",
-        "price": 259990,
-        "old_price": 682990,
-        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-tefal-qb-951df0/",
-        "brand": "Tefal",
-        "category": "Кухонные машины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": 0.0,
-      "base_price": 259990,
-      "value_score": 27,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1312,7 +1286,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/cc2143cd-6a13-11ed-a24d-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1339,7 +1313,7 @@
         "in_stock": true,
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/19d916d1-a645-4f23-9123-088011069161?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "deal",
       "drop_pct": 62,
@@ -1348,6 +1322,34 @@
       "value_score": 21,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011442",
+        "title": "Телевизор Samsung QLED QE55LS03DAUXCE The Frame UHD SMART",
+        "price": 299990,
+        "old_price": 779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe55ls03dauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/1e3da8e6-1437-11ef-a265-005056b6e990?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 62.0
@@ -1366,7 +1368,7 @@
         "in_stock": true,
         "discount_pct": 44,
         "image": "https://pi.mdev.kz/f394ffb4-602b-11e9-a220-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 44,
@@ -1382,6 +1384,34 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200017931",
+        "title": "Мышка игровая HyperX Pulsefire Fuse, чёрный",
+        "price": 25990,
+        "old_price": 37990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-hyperx-pulsefire-fuse-chernyy/",
+        "brand": "HyperX",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/d21dc949-6c89-4155-817f-32f40ecec1a1?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 32,
+      "fair_discount": 31.6,
+      "base_price": 37990,
+      "value_score": 78,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000006457",
         "title": "Портативная колонка Bang&Olufsen Beosound Explore Black Anthracite",
         "price": 117990,
@@ -1393,7 +1423,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/d124a3ad-4394-11ec-a240-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1420,7 +1450,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/0e764792-5c23-11ee-a261-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1447,7 +1477,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/d124a3a5-4394-11ec-a240-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1474,7 +1504,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/7617a8ca-c1a9-11ee-a264-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1501,7 +1531,7 @@
         "in_stock": true,
         "discount_pct": 31,
         "image": "https://pi.mdev.kz/d3171b7a-2e2a-11ef-a266-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 31,
@@ -1517,6 +1547,33 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200016277",
+        "title": "Мышка игровая HyperX Pulsefire Haste 2 Core Wireless, черный",
+        "price": 27990,
+        "old_price": 39990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-hyperx-pulsefire-haste-2-core-wireless-chernyy/",
+        "brand": "HyperX",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://pi.mdev.kz/7ba2d0a1-090b-4386-a965-d6682f1ff03a?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 30.0,
+      "base_price": 39990,
+      "value_score": 70,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200019238",
         "title": "Монитор Samsung Odyssey 3D LS27FG900XIXCI 27 UHD/IPS/1ms/165Hz",
         "price": 349980,
@@ -1528,7 +1585,7 @@
         "in_stock": true,
         "discount_pct": 61,
         "image": "https://pi.mdev.kz/69fdf3c6-46b5-4dad-828c-5b4f0e0f261b?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 61,
@@ -1546,33 +1603,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018887",
-        "title": "Стиральная машина HANSA WHG 9140 W",
-        "price": 189990,
-        "old_price": 269990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hansa-whg-9140-w/",
-        "brand": "Hansa",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://pi.mdev.kz/d48cc611-6ec3-4d9e-9e9d-2d898190fcc0?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 29.6,
-      "base_price": 269990,
-      "value_score": 69,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "30000002360",
         "title": "Портативная колонка Bang&Olufsen Beolit 20 Black Anthracite",
         "price": 309990,
@@ -1584,7 +1614,7 @@
         "in_stock": true,
         "discount_pct": 29,
         "image": "https://pi.mdev.kz/4798ea4c-3ec1-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 29,
@@ -1611,7 +1641,7 @@
         "in_stock": true,
         "discount_pct": 29,
         "image": "https://pi.mdev.kz/3335d383-3ec6-11eb-a238-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
       "drop_pct": 29,
@@ -1627,227 +1657,146 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200023937",
-        "title": "Планшет HUAWEI MatePad SE 11\" LTE 8GB/128GB/Pencil Nebula Gray (AGS6-L09DP)",
-        "price": 149790,
-        "old_price": 229990,
-        "url": "https://www.mechta.kz/product/planshet-huawei-matepad-se-11-lte-8gb128gbpencil-nebula-gray-ags6-l09dp/",
-        "brand": "Huawei",
-        "category": "Планшеты",
-        "group": "phones",
+        "sku": "17200010025",
+        "title": "Коврик для мышки KINGSTON HyperX Pulsefire Mat (Extra Large) 4Z7X5AA",
+        "price": 14990,
+        "old_price": 20990,
+        "url": "https://www.mechta.kz/product/kovrik-dlya-myshki-kingston-hyperx-pulsefire-mat-extra-large-4z7x5aa/",
+        "brand": "Kingston",
+        "category": "Коврики для мыши",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/97ff0b66-d634-46ae-aaad-942118bff061?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "discount_pct": 29,
+        "image": "https://pi.mdev.kz/558068fc-c4a4-11ee-a264-005056b6dbd7?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 25.1,
-      "base_price": 199855,
-      "value_score": 73,
+      "drop_pct": 29,
+      "fair_discount": 28.6,
+      "base_price": 20990,
+      "value_score": 67,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": 9.9
+      "inflated_gap": 0.4
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200018885",
-        "title": "Стиральная машина HANSA WHG 7120 W",
-        "price": 139990,
-        "old_price": 249990,
-        "url": "https://www.mechta.kz/product/stiralnaya-mashina-hansa-whg-7120-w/",
-        "brand": "Hansa",
-        "category": "Стиральные машины",
+        "sku": "17200016386",
+        "title": "Сушильная машина HISENSE DH7S 107 BW",
+        "price": 229990,
+        "old_price": 562990,
+        "url": "https://www.mechta.kz/product/sushilnaya-mashina-hisense-dh7s-107-bw/",
+        "brand": "Hisense",
+        "category": "Сушильные машины",
         "group": "home",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/bd10568c-6412-4059-bfc3-8515f641c42f?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "discount_pct": 59,
+        "image": "https://pi.mdev.kz/7ea391f0-a4ba-4b37-9d57-918c63153c17?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 18.1,
-      "base_price": 170990,
-      "value_score": 55,
+      "drop_pct": 59,
+      "fair_discount": 28.1,
+      "base_price": 319990,
+      "value_score": 59,
       "is_pick": false,
       "badges": [
         "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 25.9
+      "inflated_gap": 30.9
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200008307",
-        "title": "Электрическая зубная щетка BRAUN Vitality Pro Kids Spider Man D103.413.2K (Oral_B)",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-vitality-pro-kids-spider-man-d103dot413dot2k-oral_b/",
-        "brand": "Oral-B",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
+        "sku": "17200021637",
+        "title": "Кофеварка ARDESTO YCM-E1600",
+        "price": 29990,
+        "old_price": 43990,
+        "url": "https://www.mechta.kz/product/kofevarka-ardesto-ycm-e1600/",
+        "brand": "Ardesto",
+        "category": "Кофеварки рожковые",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/49fc3b23-7191-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "discount_pct": 32,
+        "image": "https://pi.mdev.kz/aeb1174b-8622-4fdb-a4e3-5a3e561c3403?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 13.0,
-      "base_price": 22990,
-      "value_score": 46,
+      "drop_pct": 32,
+      "fair_discount": 25.0,
+      "base_price": 39990,
+      "value_score": 61,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
+        "Честная скидка"
       ],
-      "inflated_gap": 30.0
+      "inflated_gap": 7.0
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200008308",
-        "title": "Электрическая зубная щетка BRAUN Vitality Pro Kids Frozen D103.413.2K (Oral_B)",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-vitality-pro-kids-frozen-d103dot413dot2k-oral_b/",
-        "brand": "Braun",
-        "category": "Электрические зубные щетки",
+        "sku": "12000044580",
+        "title": "Лезвия для бритв PHILIPS SH 50/50",
+        "price": 22990,
+        "old_price": 41990,
+        "url": "https://www.mechta.kz/product/lezviya-dlya-britv-philips-sh-5050/",
+        "brand": "Philips",
+        "category": "Сменные сетки и ножи к электробритвам",
         "group": "beauty",
         "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/c3284800-717e-11ee-a262-005056b6dbd7?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "discount_pct": 45,
+        "image": "https://pi.mdev.kz/20a40788-75a9-11e6-9556-2c768a5d3551?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 13.0,
-      "base_price": 22990,
-      "value_score": 46,
+      "drop_pct": 45,
+      "fair_discount": 8.0,
+      "base_price": 24990,
+      "value_score": 40,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 30.0
+      "inflated_gap": 37.0
     },
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200014698",
-        "title": "Электрическая зубная щетка BRAUN D103.423.3H тип 3708 (Oral_B) Vitality Pro Black",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-d103dot423dot3h-tip-3708-oral_b-vitality-pro-black/",
-        "brand": "Oral-B",
-        "category": "Электрические зубные щетки",
+        "sku": "17200014516",
+        "title": "Мультитриммер PHILIPS MG 5920/15",
+        "price": 25990,
+        "old_price": 53990,
+        "url": "https://www.mechta.kz/product/multitrimmer-philips-mg-592015/",
+        "brand": "Philips",
+        "category": "Триммеры",
         "group": "beauty",
         "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/6157665b-b6b1-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
+        "discount_pct": 52,
+        "image": "https://pi.mdev.kz/20040347-981f-4d9e-af11-c3b8e0b87265?w=400",
+        "first_seen": "2026-10-19T04:35:34+00:00"
       },
       "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 13.0,
-      "base_price": 22990,
-      "value_score": 46,
+      "drop_pct": 52,
+      "fair_discount": 7.1,
+      "base_price": 27990,
+      "value_score": 39,
       "is_pick": false,
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200014699",
-        "title": "Электрическая зубная щетка BRAUN D103.423.3H тип 3708 (Oral_B) Vitality Pro Lilac Mist",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-d103dot423dot3h-tip-3708-oral_b-vitality-pro-lilac-mist/",
-        "brand": "Oral-B",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/61576661-b6b1-11ef-a26e-005056b6e990?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 13.0,
-      "base_price": 22990,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018967",
-        "title": "Электрическая зубная щетка BRAUN D103.413.2KX Lion King тип 3708 (Oral_B)",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-d103dot413dot2kx-lion-king-tip-3708-oral_b/",
-        "brand": "Oral-B",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/8cf90506-706d-45cb-9279-8c4736c676a0?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 13.0,
-      "base_price": 22990,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200026074",
-        "title": "Электрическая зубная щётка BRAUN Vitality Pro Kids Frozen D103.413.2KX тип 3757 (Oral_B)",
-        "price": 19990,
-        "old_price": 34990,
-        "url": "https://www.mechta.kz/product/elektricheskaya-zubnaya-shchetka-braun-vitality-pro-kids-frozen-d103dot413dot2kx-tip-3757-oral_b/",
-        "brand": "Oral-B",
-        "category": "Электрические зубные щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 43,
-        "image": "https://pi.mdev.kz/672c9172-f6d0-41db-a471-cc682dda09b6?w=400",
-        "first_seen": "2026-10-17T19:14:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 43,
-      "fair_discount": 13.0,
-      "base_price": 22990,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 30.0
+      "inflated_gap": 44.9
     }
   ],
   "shops": [
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-21T19:20:50+00:00",
-      "item_count": 7947,
+      "last_crawl": "2026-11-23T04:55:44+00:00",
+      "item_count": 7936,
       "status": "ok"
     },
     {
@@ -1887,8 +1836,8 @@
     }
   ],
   "stats": {
-    "total_products": 7947,
-    "total_deals": 68,
-    "avg_discount": 63.5
+    "total_products": 7936,
+    "total_deals": 66,
+    "avg_discount": 63.0
   }
 }
