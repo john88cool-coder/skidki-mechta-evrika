@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T00:34:07.348133+00:00",
+  "updated_at": "2026-11-23T08:41:07.576398+00:00",
   "deals": [
     {
       "product": {
@@ -1977,7 +1977,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 116987,
+      "base_price": 116985,
       "pump_price": null,
       "value_score": 30,
       "is_pick": false,
@@ -2541,6 +2541,38 @@
       "value_score": 35,
       "is_pick": false,
       "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 51.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1729244",
+        "title": "Моноблок HP All-in-One 27-cr0077ci (CJ2D7EA) (SN:8CC6132SNX)",
+        "price": 291990,
+        "old_price": 599990,
+        "url": "https://shop.kz/offer/monoblok-hp-all-in-one-27-cr0077ci-cj2d7ea-sn-8cc6132snx/",
+        "brand": "HP",
+        "category": "Моноблоки",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://static.shop.kz/upload/iblock/0dd/379jmoxodlbwnqo1lzvu38c1wjklfuvy/191584n1.jpg",
+        "mpn": "CJ2D7EA",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-30T06:14:54+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 0.0,
+      "base_price": 291990,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 51.0
@@ -3604,37 +3636,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "260563",
-        "title": "Мясорубка Zelmer ZMM-9801B",
-        "price": 35990,
-        "old_price": 72490,
-        "url": "https://www.technodom.kz/p/myasorubka-zelmer-zmm-9801b-260563",
-        "brand": "Zelmer",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://api.technodom.kz/f3/api/v1/images/260563_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "281516",
         "title": "Смарт-часы HONOR CHOICE Watch Black",
         "price": 14990,
@@ -3905,6 +3906,37 @@
       "base_price": 159990,
       "pump_price": null,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "300914",
+        "title": "Компьютер NEO Office A17 (Ci3-10100/DDR4 16GB/SSD 512GB/H510M-K/NMD-C6016)",
+        "price": 230990,
+        "old_price": 461990,
+        "url": "https://www.technodom.kz/p/kompyuter-neo-office-a17-ci3-10100-ddr4-16gb-ssd-512gb-h510m-k-nmd-c6016-300914",
+        "brand": "Neo",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://api.technodom.kz/f3/api/v1/images/300914_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 230990,
+      "pump_price": null,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4317,37 +4349,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "47056",
-        "title": "Смарт-часы HUAWEI WATCH 5 (42mm) Gold (Soc-L29M) (55020EVP)",
-        "price": 179890,
-        "old_price": 341990,
-        "url": "https://evrika.com/catalog/smart-chasy-huawei-watch-5-42mm-gold-soc-l29m-55020evp/p47056",
-        "brand": "HUAWEI",
-        "category": "Смарт-часы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/FYbMcK9lYjdbpCv4R410nvLHvOApA7ouEOJm5uca.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "base_price": 179890,
-      "pump_price": null,
-      "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1464230",
         "title": "Детский планшет HUAWEI MatePad SE 11\" 4GB/128GB Nebula Gray (Agassi6-W19BE)",
@@ -4399,7 +4400,7 @@
       "signal": "deal",
       "drop_pct": 27,
       "fair_discount": 0.0,
-      "base_price": 17890,
+      "base_price": 18990,
       "pump_price": null,
       "value_score": 46,
       "is_pick": false,
@@ -4430,7 +4431,7 @@
       "signal": "deal",
       "drop_pct": 27,
       "fair_discount": 0.0,
-      "base_price": 17890,
+      "base_price": 18990,
       "pump_price": null,
       "value_score": 46,
       "is_pick": false,
@@ -5233,6 +5234,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "296462",
+        "title": "Телевизор TCL 75\" 75C6K/ QD-Mini LED TV UHD TCL",
+        "price": 599990,
+        "old_price": 839990,
+        "url": "https://www.technodom.kz/p/televizor-tcl-75-75c6k-qd-mini-led-tv-uhd-tcl-296462",
+        "brand": "TCL",
+        "category": "ТВ, аудио, фото, видео",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 29,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296462_1ddd.webp",
+        "mpn": null,
+        "rating": 4.95,
+        "reviews_count": 11,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 29,
+      "fair_discount": 28.6,
+      "base_price": 839990,
+      "pump_price": null,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "651383",
         "title": "Смартфон Huawei Nova 15 12/256GB Green",
@@ -5638,6 +5670,37 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "49338",
+        "title": "KRUPS Эспрессо-машина SA403BE0",
+        "price": 219990,
+        "old_price": 279990,
+        "url": "https://evrika.com/catalog/krups-espresso-mashina-sa403be0/p49338",
+        "brand": null,
+        "category": "Кофеварки и кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/zukABH6wbPOfWNMVMZqKeorZxuI5WSA6TaEtmVDI.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-11T09:48:28+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 21.4,
+      "base_price": 279990,
+      "pump_price": null,
+      "value_score": 60,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.4
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "637386",
         "title": "Фен Dreame Hair Dryer Dazzle Gold",
@@ -5697,37 +5760,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1739846",
-        "title": "Планшет OSCAL Pad 30 Wifi 4GB RAM 128GB ROM Blue",
-        "price": 69900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/planshet-oscal-pad-30-wifi-4gb-ram-128gb-rom-blue/",
-        "brand": "Oscal",
-        "category": "Планшеты",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/938/u9beqxbnl575m220r8aq9qhcdswhmww5/86003_1.jpg",
-        "mpn": "Pad 30",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 21.3,
-      "base_price": 88800,
-      "pump_price": null,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -5948,65 +5980,65 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1733222",
-        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой, 30 Вт, Серый",
-        "price": 39900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/portativnaya-umnaya-kolonka-yandeks-stantsiya-strit-s-alisoy-30-vt-seryy/",
-        "brand": "Яндекс",
-        "category": "Акустические системы и колонки",
-        "group": "tv",
+        "shop": "evrika",
+        "sku": "43784",
+        "title": "Беспроводной вертикальный пылесоc Dreame R10 Pro Aqua",
+        "price": 159990,
+        "old_price": 199990,
+        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesoc-dreame-r10-pro-aqua/p43784",
+        "brand": null,
+        "category": "Вертикальные пылесосы",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/13a/syreg4sreicjedv8pxde2ixfej4qcgdq/80511_1.jpg",
-        "mpn": "YNDX-00030GRY",
+        "discount_pct": 20,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/63sk9ZKHSTLEnOJVPK1d1Y90OKtxExABC5HE9K5W.png.webp",
+        "mpn": null,
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-11-11T18:14:24+00:00"
+        "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
+      "drop_pct": 20,
       "fair_discount": 20.0,
-      "base_price": 49900,
+      "base_price": 199990,
       "pump_price": null,
       "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": null
+      "inflated_gap": 0.0
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1733225",
-        "title": "Портативная умная колонка Яндекс Станция Стрит с Алисой, 30 Вт, Фиолетовый",
-        "price": 39900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/portativnaya-umnaya-kolonka-yandeks-stantsiya-strit-s-alisoy-30-vt-fioletovyy/",
-        "brand": "Яндекс",
-        "category": "Акустические системы и колонки",
-        "group": "tv",
+        "shop": "evrika",
+        "sku": "44303",
+        "title": "Очиститель воздуха Dreame AirPursue PM10",
+        "price": 279990,
+        "old_price": 349990,
+        "url": "https://evrika.com/catalog/ochistitel-vozduha-dreame-pm10/p44303",
+        "brand": null,
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/b94/hpov4pv1s3d0cvs9zhp5kdv2jtm09kb3/80512_1.jpg",
-        "mpn": "YNDX-00030VIO",
+        "discount_pct": 20,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/LllDtBDLDQIMp52y3efOQ1iC2jCDop4Hgju0RVZw.jpg.webp",
+        "mpn": null,
         "rating": null,
         "reviews_count": null,
-        "first_seen": "2026-11-11T18:14:24+00:00"
+        "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
+      "drop_pct": 20,
       "fair_discount": 20.0,
-      "base_price": 49900,
+      "base_price": 349990,
       "pump_price": null,
       "value_score": 58,
       "is_pick": false,
       "badges": [
         "Честная скидка"
       ],
-      "inflated_gap": null
+      "inflated_gap": 0.0
     },
     {
       "product": {
@@ -6418,6 +6450,161 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "48023",
+        "title": "Наушники беспроводные JBLT730BTBLK черный",
+        "price": 29990,
+        "old_price": 36990,
+        "url": "https://evrika.com/catalog/naushniki-besprovodnye-jblt730btblk-chernyy/p48023",
+        "brand": null,
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/kUMDhfN3R82tL7j8TZHccME3uhca8ptltAN6sgoA.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.9,
+      "base_price": 36990,
+      "pump_price": null,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48024",
+        "title": "Наушники беспроводные JBLT730BTWHT белый",
+        "price": 29990,
+        "old_price": 36990,
+        "url": "https://evrika.com/catalog/naushniki-besprovodnye-jblt730btwht-belyy/p48024",
+        "brand": null,
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/zanh2Z0W6eRKHQ8QCicLCBfbi6R1ZSr99l9Zfl9c.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.9,
+      "base_price": 36990,
+      "pump_price": null,
+      "value_score": 56,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48019",
+        "title": "Наушники беспроводные JBLT530BTBLKEU черные",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://evrika.com/catalog/naushniki-besprovodnye-jblt530btblkeu-chernye/p48019",
+        "brand": null,
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/GTYbIeASXOvhgT1UwxIm194sJXcQUdit2tnvbWf1.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48021",
+        "title": "Наушники беспроводные JBLT530BTBLUEU синий",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://evrika.com/catalog/naushniki-besprovodnye-jblt530btblueu-siniy/p48021",
+        "brand": null,
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/moQ6csBMchnviPm0Pk3HFTdDkNpmOIJ7X3fOkCeo.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48022",
+        "title": "Наушники беспроводные JBLT530BTWHTEU белые",
+        "price": 21990,
+        "old_price": 26990,
+        "url": "https://evrika.com/catalog/naushniki-besprovodnye-jblt530btwhteu-belye/p48022",
+        "brand": null,
+        "category": "Наушники",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/qxA14OVGgQm5HGLZTcz4Pp8NVWUKRyD3Js0ZZ4y3.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.5,
+      "base_price": 26990,
+      "pump_price": null,
+      "value_score": 55,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "655788",
         "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
@@ -6480,6 +6667,37 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1741925",
+        "title": "Беспроводной вертикальный пылесос Xiaomi Vacuum Cleaner G30 Max",
+        "price": 179900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/besprovodnoy-vertikalnyy-pylesos-xiaomi-vacuum-cleaner-g30-max/",
+        "brand": null,
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/70d/e6hpurpdvqn56m5tchiyzgfg2yy0qo3c/88050_1.jpg",
+        "mpn": "E203",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-16T18:56:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 18.0,
+      "base_price": 219500,
+      "pump_price": null,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "655783",
         "title": "Ноутбук Lenovo LOQ 15ARP10E Ryzen 7 250 16GB / SSD 512GB / GeForce RTX 5050 8GB / Win 11 / 83TN008WRK",
@@ -6509,6 +6727,37 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "48659",
+        "title": "Кофемашина Delonghi ECAM290.61.B",
+        "price": 299990,
+        "old_price": 364990,
+        "url": "https://evrika.com/catalog/kofemashina-delonghi-ecam290-61-b/p48659",
+        "brand": "DeLonghi",
+        "category": "Кофеварки и кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/VqqeZEoWQZVTYNOB8Q4Jf810K5lYx4OP61pBZPxS.webp.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-03T20:14:33+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 17.8,
+      "base_price": 364990,
+      "pump_price": null,
+      "value_score": 54,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -6956,6 +7205,37 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "46185",
+        "title": "Увлажнитель воздуха Dreame H40",
+        "price": 92990,
+        "old_price": 109990,
+        "url": "https://evrika.com/catalog/uvlazhnitel-vozduha-dreame-h40/p46185",
+        "brand": null,
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/mblaJW4Bk8tC0wI920KDrLzXxYszmZA8LGElDGwU.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.5,
+      "base_price": 109990,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1738172",
         "title": "Абонентский терминал Huawei Nova 15 Pro KLE-LX9 12GB RAM 512GB ROM White",
@@ -7202,6 +7482,64 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "653493",
+        "title": "Ноутбук Acer Gadget e10 ETBOOK celeron N4500 8GB / SSD 256GB / Intel Graphics / NO OS / ZL.OTH11.07J",
+        "price": 179990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/noutbuki-acer-gadget-e10-etbook-zloth1107j-c82suw11",
+        "brand": "Acer",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9829_0_1_gFPYqb_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-04T16:42:51+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.3,
+      "base_price": 209990,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "656932",
+        "title": "Ноутбук Tecno K16S Intel Core i5-13420H 8 GB / SSD 512GB / Intel UHD Graphics / Win 11 / K16SAA",
+        "price": 299990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/noutbuki-tecno-megabook-k16s-16-fhd-i3-1315u-8gb-512gb-win-11",
+        "brand": "Tecno",
+        "category": "noutbuki",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10093_0_1_pGpxZu_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-31T00:11:49+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 14.3,
+      "base_price": 349990,
+      "pump_price": null,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1411233",
         "title": "Робот-пылесос Ardesto RVC-S600W, White-Silver",
@@ -7288,37 +7626,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 23.7
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "281542",
-        "title": "Чехол Apple Magic Keyboard для iPad Pro 13‑inch (M4) - Russian - Black (MWR53RS/A)",
-        "price": 239490,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-apple-magic-keyboard-dlya-ipad-pro-13inch-m4-russian-black-mwr53rs-281542",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/chehol_apple_magic_keyboard_dlya_ipad_pro_13inch_m4_russian_black_mwr53rs_281542_1new.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 13.2,
-      "base_price": 275990,
-      "pump_price": null,
-      "value_score": 56,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -7452,8 +7759,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-23T00:33:54+00:00",
-      "item_count": 2782,
+      "last_crawl": "2026-11-23T08:40:55+00:00",
+      "item_count": 2777,
       "status": "ok"
     },
     {
@@ -7473,21 +7780,21 @@
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-23T00:33:54+00:00",
-      "item_count": 10093,
+      "last_crawl": "2026-11-23T08:40:55+00:00",
+      "item_count": 10097,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-23T00:33:54+00:00",
-      "item_count": 2446,
+      "last_crawl": "2026-11-23T08:40:55+00:00",
+      "item_count": 2447,
       "status": "ok"
     }
   ],
   "stats": {
     "total_products": 31699,
-    "total_deals": 239,
+    "total_deals": 249,
     "avg_discount": 50.0
   }
 }
