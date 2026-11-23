@@ -1,37 +1,6 @@
 {
-  "updated_at": "2026-11-23T13:21:49.122681+00:00",
+  "updated_at": "2026-11-23T15:21:39.469152+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000001045",
-        "title": "Стайлер BELLISSIMA 11747",
-        "price": 14930,
-        "old_price": 63490,
-        "url": "https://www.mechta.kz/product/stayler-bellissima-11747/",
-        "brand": "Bellissima",
-        "category": "Фены-щетки",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 76,
-        "image": "https://pi.mdev.kz/c931a006-084e-11eb-a231-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 76,
-      "fair_discount": 62.6,
-      "base_price": 39930,
-      "pump_price": null,
-      "value_score": 90,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 13.4
-    },
     {
       "product": {
         "shop": "mechta",
@@ -156,6 +125,37 @@
         "Рисованная?"
       ],
       "inflated_gap": 78.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000001045",
+        "title": "Стайлер BELLISSIMA 11747",
+        "price": 14930,
+        "old_price": 63490,
+        "url": "https://www.mechta.kz/product/stayler-bellissima-11747/",
+        "brand": "Bellissima",
+        "category": "Фены-щетки",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 76,
+        "image": "https://pi.mdev.kz/c931a006-084e-11eb-a231-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 76,
+      "fair_discount": 0.0,
+      "base_price": 14930,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 76.0
     },
     {
       "product": {
@@ -1724,37 +1724,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000005033",
-        "title": "Кофеварка MOULINEX FG 170819",
-        "price": 16990,
-        "old_price": 26990,
-        "url": "https://www.mechta.kz/product/kofevarka-moulinex-fg-170819/",
-        "brand": "Moulinex",
-        "category": "Кофеварки капельные",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://pi.mdev.kz/77b444d5-8fa6-4bbb-8b1e-20ab87454fcd?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 26.1,
-      "base_price": 22990,
-      "pump_price": null,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200025607",
         "title": "Кофеварка ARDESTO YCM-E1501",
         "price": 39990,
@@ -1797,6 +1766,39 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://pi.mdev.kz/59f45010-f541-42b9-b796-509fa03f40c7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 25.1,
+      "base_price": 19890,
+      "pump_price": null,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022549",
+        "title": "Чехол для телефона SAMSUNG S26 Slim Magnet Case Purple (EF-SS942CVEGRU)",
+        "price": 14890,
+        "old_price": 27890,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-samsung-s26-slim-magnet-case-purple-ef-ss942cvegru/",
+        "brand": "Samsung",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/44ae721a-a02a-4057-82cb-c13ba3a2bcae?w=400",
         "mpn": null,
         "rating": null,
         "reviews_count": 0,
@@ -1947,8 +1949,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-23T13:21:30+00:00",
-      "item_count": 7928,
+      "last_crawl": "2026-11-23T15:21:30+00:00",
+      "item_count": 7926,
       "status": "ok"
     },
     {
@@ -1988,7 +1990,7 @@
     }
   ],
   "stats": {
-    "total_products": 7928,
+    "total_products": 7926,
     "total_deals": 62,
     "avg_discount": 61.5
   }
