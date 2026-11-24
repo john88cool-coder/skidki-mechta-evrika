@@ -1,35 +1,33 @@
 {
-  "updated_at": "2026-11-24T05:21:36.440503+00:00",
+  "updated_at": "2026-11-24T07:21:19.938766+00:00",
   "deals": [
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011449",
-        "title": "Телевизор Samsung QLED QE65QN90DAUXCE UHD SMART",
-        "price": 349990,
-        "old_price": 1419990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65qn90dauxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
+        "sku": "17200013422",
+        "title": "Кухонная машина TEFAL QB 951DF0",
+        "price": 259990,
+        "old_price": 682990,
+        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-tefal-qb-951df0/",
+        "brand": "Tefal",
+        "category": "Кухонные машины",
+        "group": "kitchen",
         "in_stock": true,
-        "discount_pct": 75,
-        "image": "https://pi.mdev.kz/d0d74571-1662-11ef-a265-005056b6e990?w=400",
+        "discount_pct": 62,
+        "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
         "mpn": null,
-        "rating": 1.0,
-        "reviews_count": 1,
+        "rating": null,
+        "reviews_count": 0,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
-      "drop_pct": 75,
+      "drop_pct": 62,
       "fair_discount": null,
       "base_price": null,
       "pump_price": null,
-      "value_score": 39,
+      "value_score": 35,
       "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
+      "badges": [],
       "inflated_gap": null
     },
     {
@@ -1881,8 +1879,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-24T05:21:28+00:00",
-      "item_count": 7931,
+      "last_crawl": "2026-11-24T07:21:07+00:00",
+      "item_count": 7935,
       "status": "ok"
     },
     {
@@ -1922,7 +1920,7 @@
     }
   ],
   "stats": {
-    "total_products": 7931,
+    "total_products": 7935,
     "total_deals": 60,
     "avg_discount": 62.0
   }
