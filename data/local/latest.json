@@ -1,37 +1,6 @@
 {
-  "updated_at": "2026-11-24T11:25:42.487195+00:00",
+  "updated_at": "2026-11-24T17:14:35.072836+00:00",
   "deals": [
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200001363",
-        "title": "Телевизор SAMSUNG LED UE65BU8500UXCE UHD SMART",
-        "price": 99990,
-        "old_price": 679990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue65bu8500uxce-uhd-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 85,
-        "image": "https://pi.mdev.kz/657a1802-325f-11ed-a24a-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-10-25T17:07:39+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 85,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
     {
       "product": {
         "shop": "mechta",
@@ -1563,6 +1532,37 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200000770",
+        "title": "Вертикальный пылесос Tefal X-Force Flex 15.60 Pro TY99F1WO",
+        "price": 219990,
+        "old_price": 524990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-force-flex-15dot60-pro-ty99f1wo/",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/24fab8b6-6e78-468c-b036-c16a1a38d280?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 0.0,
+      "base_price": 219990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 58.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "12000081009",
         "title": "Выпрямитель для волос PHILIPS BHS 375/00",
         "price": 14990,
@@ -1911,8 +1911,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-24T11:24:49+00:00",
-      "item_count": 7932,
+      "last_crawl": "2026-11-24T17:13:11+00:00",
+      "item_count": 7926,
       "status": "ok"
     },
     {
@@ -1952,7 +1952,7 @@
     }
   ],
   "stats": {
-    "total_products": 7932,
+    "total_products": 7926,
     "total_deals": 61,
     "avg_discount": 62.0
   }
