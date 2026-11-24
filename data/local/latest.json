@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T15:21:39.469152+00:00",
+  "updated_at": "2026-11-24T04:27:55.930974+00:00",
   "deals": [
     {
       "product": {
@@ -31,37 +31,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003898",
-        "title": "Коврик для мышки STEELSERIES QCK Prism Cloth - 3XL 1220x590x4 мм",
-        "price": 19990,
-        "old_price": 55900,
-        "url": "https://www.mechta.kz/product/kovrik-dlya-myshki-steelseries-qck-prism-cloth---3xl-1220x590x4-mm/",
-        "brand": "SteelSeries",
-        "category": "Коврики для мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": "https://pi.mdev.kz/94497824-8019-11ed-a250-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": 64.2,
-      "base_price": 55900,
-      "pump_price": null,
-      "value_score": 84,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.2
     },
     {
       "product": {
@@ -210,16 +179,15 @@
       },
       "signal": "deal",
       "drop_pct": 72,
-      "fair_discount": 38.1,
-      "base_price": 20990,
+      "fair_discount": 0.0,
+      "base_price": 12990,
       "pump_price": null,
-      "value_score": 81,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 33.9
+      "inflated_gap": 72.0
     },
     {
       "product": {
@@ -590,6 +558,37 @@
       "base_price": 19990,
       "pump_price": null,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 64.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003898",
+        "title": "Коврик для мышки STEELSERIES QCK Prism Cloth - 3XL 1220x590x4 мм",
+        "price": 19990,
+        "old_price": 55900,
+        "url": "https://www.mechta.kz/product/kovrik-dlya-myshki-steelseries-qck-prism-cloth---3xl-1220x590x4-mm/",
+        "brand": "SteelSeries",
+        "category": "Коврики для мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 64,
+        "image": "https://pi.mdev.kz/94497824-8019-11ed-a250-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 64,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "pump_price": null,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1023,16 +1022,15 @@
       },
       "signal": "deal",
       "drop_pct": 61,
-      "fair_discount": 22.7,
-      "base_price": 21990,
+      "fair_discount": 0.0,
+      "base_price": 16990,
       "pump_price": null,
-      "value_score": 57,
+      "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Честная скидка",
         "Рисованная?"
       ],
-      "inflated_gap": 38.3
+      "inflated_gap": 61.0
     },
     {
       "product": {
@@ -1474,37 +1472,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011028",
-        "title": "Тостер POLARIS PET 0922 Белый",
-        "price": 14990,
-        "old_price": 35990,
-        "url": "https://www.mechta.kz/product/toster-polaris-pet-0922-belyy/",
-        "brand": "Polaris",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/ea9fdf8f-b76f-11ef-a26e-005056b6e990?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "pump_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 58.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200005125",
         "title": "Дом. кинотеатр JBL BAR 500 PRO BLACK (JBLBAR500PRO)",
         "price": 149990,
@@ -1567,33 +1534,65 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000081009",
-        "title": "Выпрямитель для волос PHILIPS BHS 375/00",
-        "price": 14990,
-        "old_price": 26990,
-        "url": "https://www.mechta.kz/product/vypryamitel-dlya-volos-philips-bhs-37500/",
-        "brand": "Philips",
-        "category": "Выпрямители для волос",
-        "group": "beauty",
+        "sku": "17200000770",
+        "title": "Вертикальный пылесос Tefal X-Force Flex 15.60 Pro TY99F1WO",
+        "price": 219990,
+        "old_price": 524990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-force-flex-15dot60-pro-ty99f1wo/",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/f394ffb4-602b-11e9-a220-005056b6dbd7?w=400",
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/24fab8b6-6e78-468c-b036-c16a1a38d280?w=400",
         "mpn": null,
         "rating": 5.0,
-        "reviews_count": 2,
+        "reviews_count": 1,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 0.0,
+      "base_price": 219990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 58.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200011091",
+        "title": "Ледогенератор Kitfort KT-1819",
+        "price": 99990,
+        "old_price": 152990,
+        "url": "https://www.mechta.kz/product/ledogenerator-kitfort-kt-1819/",
+        "brand": "Kitfort",
+        "category": "Ледогенераторы",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/02902374-38e1-4e58-a02e-670cd40b0d4a?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 44,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 31.8,
-      "base_price": 21990,
+      "drop_pct": 35,
+      "fair_discount": 34.6,
+      "base_price": 152990,
       "pump_price": null,
-      "value_score": 85,
-      "is_pick": false,
+      "value_score": 79,
+      "is_pick": true,
       "badges": [
+        "Выбор ИС",
         "Честная скидка"
       ],
-      "inflated_gap": 12.2
+      "inflated_gap": 0.4
     },
     {
       "product": {
@@ -1692,38 +1691,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003899",
-        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) US черный",
-        "price": 39990,
-        "old_price": 89900,
-        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-us-chernyy/",
-        "brand": "SteelSeries",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 56,
-        "image": "https://pi.mdev.kz/9449781f-8019-11ed-a250-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 56,
-      "fair_discount": 27.3,
-      "base_price": 54990,
-      "pump_price": null,
-      "value_score": 65,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 28.7
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200025607",
         "title": "Кофеварка ARDESTO YCM-E1501",
         "price": 39990,
@@ -1799,6 +1766,39 @@
         "in_stock": true,
         "discount_pct": 47,
         "image": "https://pi.mdev.kz/44ae721a-a02a-4057-82cb-c13ba3a2bcae?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 47,
+      "fair_discount": 25.1,
+      "base_price": 19890,
+      "pump_price": null,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200022550",
+        "title": "Чехол для телефона SAMSUNG S26 Slim Magnet Case Light blue (EF-SS942CLEGRU)",
+        "price": 14890,
+        "old_price": 27990,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-samsung-s26-slim-magnet-case-light-blue-ef-ss942clegru/",
+        "brand": "Samsung",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 47,
+        "image": "https://pi.mdev.kz/8b36057d-3866-4104-b3cc-4e8e08dda652?w=400",
         "mpn": null,
         "rating": null,
         "reviews_count": 0,
@@ -1949,8 +1949,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-23T15:21:30+00:00",
-      "item_count": 7926,
+      "last_crawl": "2026-11-24T04:27:38+00:00",
+      "item_count": 7930,
       "status": "ok"
     },
     {
@@ -1990,8 +1990,8 @@
     }
   ],
   "stats": {
-    "total_products": 7926,
+    "total_products": 7930,
     "total_deals": 62,
-    "avg_discount": 61.5
+    "avg_discount": 62.0
   }
 }
