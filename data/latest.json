@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T20:34:34.958959+00:00",
+  "updated_at": "2026-11-24T06:23:16.178725+00:00",
   "deals": [
     {
       "product": {
@@ -523,6 +523,37 @@
       "base_price": 19990,
       "pump_price": null,
       "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 62.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "624166",
+        "title": "Кухонная машина Tefal I-Coach Touch QB951DF0",
+        "price": 259990,
+        "old_price": 682990,
+        "url": "https://www.sulpak.kz/g/kuhonniye-kombajniy-tefal-qb951df0",
+        "brand": "Tefal",
+        "category": "kuhonniye_kombajniy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 62,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_33_228_0_1_jesKul_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 62,
+      "fair_discount": 0.0,
+      "base_price": 259990,
+      "pump_price": null,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1960,7 +1991,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116685,
+        "price": 116683,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -2008,7 +2039,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 222990,
+      "base_price": 223090,
       "pump_price": null,
       "value_score": 41,
       "is_pick": false,
@@ -2858,37 +2889,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "622142",
-        "title": "Наушники ARG F6 Black",
-        "price": 19990,
-        "old_price": 39990,
-        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
-        "brand": "ARG",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "pump_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "44460",
         "title": "Ручной отпариватель Tefal DT1R04F1",
@@ -3408,6 +3408,37 @@
       "base_price": 12990,
       "pump_price": null,
       "value_score": 27,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "622142",
+        "title": "Наушники ARG F6 Black",
+        "price": 19990,
+        "old_price": 39990,
+        "url": "https://www.sulpak.kz/g/naushniki-arg-f6-black",
+        "brand": "ARG",
+        "category": "naushniki",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2220_0_1_VEKaRb_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 19990,
+      "pump_price": null,
+      "value_score": 31,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4442,38 +4473,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "45507",
-        "title": "Портативный внешний аккумулятор Xiaomi 33W Power Bank 10000mAh (Integrated Cable) Ice Blue GL PB1033MI/BHR9341GL",
-        "price": 11990,
-        "old_price": 22490,
-        "url": "https://evrika.com/catalog/portativnyy-vneshniy-akkumulyator-xiaomi-33w-power-bank-10000mah-integrated-cable-ice-blue-gl-pb1033mi-bhr9341gl/p45507",
-        "brand": "Xiaomi",
-        "category": "Внешние аккумуляторы",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/ONhjYdy1e6Xww3pp8oEYKsqGuzU99H4vrVh87M0q.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 47,
-      "fair_discount": 0.0,
-      "base_price": 11990,
-      "pump_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 47.0
-    },
-    {
-      "product": {
         "shop": "alser",
         "sku": "1464230",
         "title": "Детский планшет HUAWEI MatePad SE 11\" 4GB/128GB Nebula Gray (Agassi6-W19BE)",
@@ -4948,6 +4947,38 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1744022",
+        "title": "Кофеварка рожковая Kitfort КТ-743",
+        "price": 69900,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kofevarka-rozhkovaya-kitfort-kt-743/",
+        "brand": null,
+        "category": "Кофеварки, кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/878/pufr60kewco3wid5z4hmrityvb51c988/57252_1.jpg",
+        "mpn": "КТ-743",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-20T13:16:38+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 36.0,
+      "base_price": 109200,
+      "pump_price": null,
+      "value_score": 84,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "3000008850",
         "title": "Машинка для стрижки Remington HC5155",
@@ -5270,37 +5301,6 @@
     {
       "product": {
         "shop": "evrika",
-        "sku": "46702",
-        "title": "Аэрогриль Dreame Air Fryer AF30 White",
-        "price": 49990,
-        "old_price": 81990,
-        "url": "https://evrika.com/catalog/aerogril-dreame-air-fryer-af30-white/p46702",
-        "brand": null,
-        "category": "Грили",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 39,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/4uQxovTN2XQaBT6fiEyqaARpsEW4H98n2PCgWnTZ.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 39,
-      "fair_discount": 28.6,
-      "base_price": 69990,
-      "pump_price": null,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
         "sku": "47547",
         "title": "Коврик игровой HyperX Pulsefire Mat - Cloth (XL) (4Z7X5AA)",
         "price": 14990,
@@ -5421,37 +5421,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1411059",
-        "title": "Робот-пылесос Ardesto RVC-S1300W, White",
-        "price": 64990,
-        "old_price": 89990,
-        "url": "https://shop.kz/offer/robot-pylesos-ardesto-rvc-s1300w-white/",
-        "brand": "Ardesto",
-        "category": "Пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://static.shop.kz/upload/iblock/600/0000163239_1.jpg",
-        "mpn": "RVC-S1300W",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 28,
-      "fair_discount": 27.8,
-      "base_price": 89990,
-      "pump_price": null,
-      "value_score": 64,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -7355,6 +7324,37 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1741952",
+        "title": "Паровой проводной вертикальный пылесос Kitfort КТ-575-1",
+        "price": 94600,
+        "old_price": null,
+        "url": "https://shop.kz/offer/parovoy-provodnoy-vertikalnyy-pylesos-kitfort-kt-575-1/",
+        "brand": null,
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/c63/qsiwjb86ke2kyz0rubcakhejxpbmmjcg/60582_1.jpg",
+        "mpn": "КТ-575-1",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-16T18:56:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 17.2,
+      "base_price": 114300,
+      "pump_price": null,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "635501",
         "title": "Робот-пылесос Dreame L40s Ultra",
@@ -7383,6 +7383,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1743998",
+        "title": "Кофеварка капельная Kitfort КТ-731",
+        "price": 21800,
+        "old_price": null,
+        "url": "https://shop.kz/offer/kofevarka-kapelnaya-kitfort-kt-731/",
+        "brand": null,
+        "category": "Кофеварки, кофемашины",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/760/s51myejxd92p31a0x34yluita8418see/57298_1.jpg",
+        "mpn": "КТ-731",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-20T13:16:38+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 16.8,
+      "base_price": 26200,
+      "pump_price": null,
+      "value_score": 52,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -7861,6 +7892,130 @@
     },
     {
       "product": {
+        "shop": "evrika",
+        "sku": "46185",
+        "title": "Увлажнитель воздуха Dreame H40",
+        "price": 92990,
+        "old_price": 109990,
+        "url": "https://evrika.com/catalog/uvlazhnitel-vozduha-dreame-h40/p46185",
+        "brand": null,
+        "category": "Увлажнители и очистители воздуха",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 15,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/mblaJW4Bk8tC0wI920KDrLzXxYszmZA8LGElDGwU.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 15,
+      "fair_discount": 15.5,
+      "base_price": 109990,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": -0.5
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47207",
+        "title": "Смартфон Honor 600 Lite 8/256GB Velvet Black",
+        "price": 219990,
+        "old_price": 279990,
+        "url": "https://evrika.com/catalog/smartfon-honor-600-lite-8-256gb-velvet-black/p47207",
+        "brand": "HONOR",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/pluJVmtbW36Y1iODModdKGABZH6Kn1MoGxv2NiRr.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 15.4,
+      "base_price": 259990,
+      "pump_price": null,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47208",
+        "title": "Смартфон Honor 600 Lite 8/256GB Velvet Grey",
+        "price": 219990,
+        "old_price": 279990,
+        "url": "https://evrika.com/catalog/smartfon-honor-600-lite-8-256gb-velvet-grey/p47208",
+        "brand": "HONOR",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/3967LQ7gLZGGXVwV5zHFqGPRRaGH4yF9fmEL814T.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 15.4,
+      "base_price": 259990,
+      "pump_price": null,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "47209",
+        "title": "Смартфон Honor 600 Lite 8/256GB Desert Gold",
+        "price": 219990,
+        "old_price": 279990,
+        "url": "https://evrika.com/catalog/smartfon-honor-600-lite-8-256gb-desert-gold/p47209",
+        "brand": "HONOR",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/TeX0SsrBXqv6JKRSEpAic1sl9Bqce9w8cU6NDZFx.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 15.4,
+      "base_price": 259990,
+      "pump_price": null,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 16.3
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1738172",
         "title": "Абонентский терминал Huawei Nova 15 Pro KLE-LX9 12GB RAM 512GB ROM White",
@@ -7952,6 +8107,68 @@
     },
     {
       "product": {
+        "shop": "shopkz",
+        "sku": "1741970",
+        "title": "Проводной вертикальный пылесос Kitfort КТ-509 серый",
+        "price": 20300,
+        "old_price": null,
+        "url": "https://shop.kz/offer/provodnoy-vertikalnyy-pylesos-kitfort-kt-509-seryy/",
+        "brand": null,
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/626/fsdaciw36rqvjy5prlhz5zb5msptgxa5/75635_1.jpg",
+        "mpn": "КТ-509",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-16T18:56:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.1,
+      "base_price": 23900,
+      "pump_price": null,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630972",
+        "title": "Блендер портативный Ninja BC151EUBK",
+        "price": 33990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/blenderiy-stacionarniye-ninja-bc151eubk",
+        "brand": "Ninja",
+        "category": "stacionarniye_blenderiy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_838_226_0_1_xI0NM4_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-06T15:34:30+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 15.0,
+      "base_price": 39990,
+      "pump_price": null,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "627366",
         "title": "Холодильник Samsung RT53DB7B60ETWT",
@@ -7980,68 +8197,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1231680",
-        "title": "Чайник Ardesto EKL-1617BL, Beige-Gray",
-        "price": 14990,
-        "old_price": 24990,
-        "url": "https://shop.kz/offer/chaynik-ardesto-ekl-1617bl-beige-gray/",
-        "brand": "Ardesto",
-        "category": "Чайники, термопоты",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://static.shop.kz/upload/iblock/866/158372_1_min.jpg",
-        "mpn": "EKL-1617BL",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 14.3,
-      "base_price": 17490,
-      "pump_price": 24990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.7
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1106058",
-        "title": "Кофеварка Ardesto YCM-E1600, Black-Steel",
-        "price": 29990,
-        "old_price": 49990,
-        "url": "https://shop.kz/offer/kofevarka-ardesto-ycm-e1600-black-steel/",
-        "brand": "Ardesto",
-        "category": "Кофеварки, кофемашины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 40,
-        "image": "https://static.shop.kz/upload/iblock/fe2/154828_10.jpg",
-        "mpn": "YCM-E1600",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 40,
-      "fair_discount": 14.3,
-      "base_price": 34990,
-      "pump_price": 49990,
-      "value_score": 40,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 25.7
     },
     {
       "product": {
@@ -8169,61 +8324,61 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "636992",
-        "title": "Робот-пылесос Dreame F10 Plus",
-        "price": 94990,
-        "old_price": 109990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f10-plus",
-        "brand": "Dreame",
-        "category": "robotiy_piylesosiy",
-        "group": "home",
+        "shop": "evrika",
+        "sku": "47942",
+        "title": "Бритва электрическая Dreame AS01A, S7 Shaver Black",
+        "price": 44990,
+        "old_price": 51990,
+        "url": "https://evrika.com/catalog/britva-dreame-as01a-s7-shaver-black/p47942",
+        "brand": null,
+        "category": "Бритвы",
+        "group": "beauty",
         "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_240_0_1_Gx8xTX_160.webp",
+        "discount_pct": 13,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/75ZBubaq9Soe8iP4I5ItYeyqJMQYvmCLWn4W0T7w.jpg.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.6,
-      "base_price": 109990,
+      "drop_pct": 13,
+      "fair_discount": 13.5,
+      "base_price": 51990,
       "pump_price": null,
-      "value_score": 41,
+      "value_score": 47,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": 0.4
+      "inflated_gap": -0.5
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1411233",
-        "title": "Робот-пылесос Ardesto RVC-S600W, White-Silver",
-        "price": 64990,
-        "old_price": 74990,
-        "url": "https://shop.kz/offer/robot-pylesos-ardesto-rvc-s600w-white-silver/",
-        "brand": "Ardesto",
-        "category": "Пылесосы",
+        "shop": "evrika",
+        "sku": "45680",
+        "title": "Беспроводной вертикальный пылесоc Dreame R10S Essential",
+        "price": 89990,
+        "old_price": 103990,
+        "url": "https://evrika.com/catalog/besprovodnoy-vertikalnyy-pylesoc-dreame-r10s/p45680",
+        "brand": null,
+        "category": "Вертикальные пылесосы",
         "group": "home",
         "in_stock": true,
         "discount_pct": 13,
-        "image": "https://static.shop.kz/upload/iblock/4cc/00000163237.jpg",
-        "mpn": "RVC-S600W",
+        "image": "https://cdn.evrika.com/storage/products/images/medium/KWDZYVKGslvDfA3eAHtgs0ZkLG4QVWmx6vVEPvVU.jpg.webp",
+        "mpn": null,
         "rating": null,
         "reviews_count": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
       "drop_pct": 13,
-      "fair_discount": 13.3,
-      "base_price": 74990,
+      "fair_discount": 13.5,
+      "base_price": 103990,
       "pump_price": null,
-      "value_score": 39,
+      "value_score": 47,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": -0.3
+      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -8256,85 +8411,56 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "635215",
-        "title": "Активные наушники Dali IO-4 железный Black",
-        "price": 156513,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-dali-io-4-zhelezniyj-black",
-        "brand": "DALI",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3596_0_1_TUdg3H_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 13.0,
-      "base_price": 179990,
-      "pump_price": null,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "635216",
-        "title": "Активные наушники Dali IO-4 White",
-        "price": 156513,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/naushniki-dali-io-4-white",
-        "brand": "DALI",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_3585_0_1_kYK6oJ_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 13.0,
-      "base_price": 179990,
-      "pump_price": null,
-      "value_score": 42,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000036822",
-        "title": "Настольная активная акустика Ruark MR1 MK3 черный",
-        "price": 350426,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/kompyuterniye-kolonki-ruark-audio-mr1-mk3-cherniyj",
-        "brand": "Ruark Audio",
-        "category": "kompyuterniye_kolonki",
+        "shop": "evrika",
+        "sku": "46265",
+        "title": "Телевизор Dreame 65\" Vivid QLED 4K Q100 65Q100",
+        "price": 399990,
+        "old_price": 459990,
+        "url": "https://evrika.com/catalog/televizor-dreame-vista-4k-q100-65-65q100/p46265",
+        "brand": null,
+        "category": "Телевизоры",
         "group": "tv",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_84_432_0_1_RkJMZh_160.webp",
+        "discount_pct": 13,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/kjrcjMcXhAOyVCA0dkt5uwaAWcNbQzWIdtuM3xKG.jpg.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
+      "drop_pct": 13,
       "fair_discount": 13.0,
-      "base_price": 402990,
+      "base_price": 459990,
+      "pump_price": null,
+      "value_score": 46,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "shopkz",
+        "sku": "1741967",
+        "title": "Проводной вертикальный пылесос Kitfort KT-595",
+        "price": 101800,
+        "old_price": null,
+        "url": "https://shop.kz/offer/provodnoy-vertikalnyy-pylesos-kitfort-kt-595/",
+        "brand": null,
+        "category": "Пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://static.shop.kz/upload/iblock/606/99y95h15hs5lh6zyecfvm6eaeshd7n9x/56801_1.jpg",
+        "mpn": "КТ-595",
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-16T18:56:32+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 12.6,
+      "base_price": 116500,
       "pump_price": null,
       "value_score": 46,
       "is_pick": false,
@@ -8343,32 +8469,32 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "628653",
-        "title": "Активный сабвуфер Dali SUB K-14 F 220-240V 220153 Black",
-        "price": 834774,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/domashnie-kinoteatriy-dali-sub-k-14-f-220-240v-220153-black",
-        "brand": "DALI",
-        "category": "domashnie_kinoteatriy",
-        "group": "tv",
+        "shop": "evrika",
+        "sku": "47551",
+        "title": "Настольный микрофон HyperX Solocast 2 Black (AR0A0AA)",
+        "price": 34990,
+        "old_price": 39990,
+        "url": "https://evrika.com/catalog/nastolnyy-mikrofon-hyperx-solocast-2-black-ar0a0aa/p47551",
+        "brand": "HyperX",
+        "category": "Микрофоны",
+        "group": "computers",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_333_163_0_1_2kwDq7_160.webp",
+        "discount_pct": 13,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/wJV1vsez8bVIJtXhr6YeezNscNJGR756zHvQI7oS.jpg.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": null,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 13.0,
-      "base_price": 959990,
+      "drop_pct": 13,
+      "fair_discount": 12.5,
+      "base_price": 39990,
       "pump_price": null,
-      "value_score": 42,
+      "value_score": 45,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
+      "inflated_gap": 0.5
     },
     {
       "product": {
@@ -8531,8 +8657,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-23T20:34:11+00:00",
-      "item_count": 2791,
+      "last_crawl": "2026-11-24T06:22:58+00:00",
+      "item_count": 2783,
       "status": "ok"
     },
     {
@@ -8545,28 +8671,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-23T20:34:11+00:00",
-      "item_count": 3843,
+      "last_crawl": "2026-11-24T06:22:58+00:00",
+      "item_count": 3947,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-23T20:34:11+00:00",
-      "item_count": 10111,
+      "last_crawl": "2026-11-24T06:22:58+00:00",
+      "item_count": 10123,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-23T20:34:11+00:00",
-      "item_count": 2393,
+      "last_crawl": "2026-11-24T06:22:58+00:00",
+      "item_count": 2382,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31719,
-    "total_deals": 274,
+    "total_products": 31816,
+    "total_deals": 278,
     "avg_discount": 48.0
   }
 }
