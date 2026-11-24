@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T07:21:19.938766+00:00",
+  "updated_at": "2026-11-24T09:22:43.193721+00:00",
   "deals": [
     {
       "product": {
@@ -679,37 +679,6 @@
       "drop_pct": 63,
       "fair_discount": 0.0,
       "base_price": 25990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "30000003682",
-        "title": "Игровая гарнитура JBL QUANTUM ONE (Black)",
-        "price": 39990,
-        "old_price": 109099,
-        "url": "https://www.mechta.kz/product/igrovaya-garnitura-jbl-quantum-one-black/",
-        "brand": "JBL",
-        "category": "Наушники",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/44d73884-628b-41f6-9996-23a24d286ff3?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 39990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -1563,34 +1532,33 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200011091",
-        "title": "Ледогенератор Kitfort KT-1819",
-        "price": 99990,
-        "old_price": 152990,
-        "url": "https://www.mechta.kz/product/ledogenerator-kitfort-kt-1819/",
-        "brand": "Kitfort",
-        "category": "Ледогенераторы",
-        "group": "kitchen",
+        "sku": "17200000770",
+        "title": "Вертикальный пылесос Tefal X-Force Flex 15.60 Pro TY99F1WO",
+        "price": 219990,
+        "old_price": 524990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tefal-x-force-flex-15dot60-pro-ty99f1wo/",
+        "brand": "Tefal",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/02902374-38e1-4e58-a02e-670cd40b0d4a?w=400",
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/24fab8b6-6e78-468c-b036-c16a1a38d280?w=400",
         "mpn": null,
         "rating": 5.0,
-        "reviews_count": 44,
+        "reviews_count": 1,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 34.6,
-      "base_price": 152990,
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 0.0,
+      "base_price": 219990,
       "pump_price": null,
-      "value_score": 79,
-      "is_pick": true,
+      "value_score": 35,
+      "is_pick": false,
       "badges": [
-        "Выбор ИС",
-        "Честная скидка"
+        "Рисованная?"
       ],
-      "inflated_gap": 0.4
+      "inflated_gap": 58.0
     },
     {
       "product": {
@@ -1815,6 +1783,37 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200011091",
+        "title": "Ледогенератор Kitfort KT-1819",
+        "price": 99990,
+        "old_price": 152990,
+        "url": "https://www.mechta.kz/product/ledogenerator-kitfort-kt-1819/",
+        "brand": "Kitfort",
+        "category": "Ледогенераторы",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 35,
+        "image": "https://pi.mdev.kz/02902374-38e1-4e58-a02e-670cd40b0d4a?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 44,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 35,
+      "fair_discount": 14.2,
+      "base_price": 116490,
+      "pump_price": 152990,
+      "value_score": 44,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.8
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200005031",
         "title": "Фен плойка PHILIPS BHA710/00",
         "price": 43990,
@@ -1879,8 +1878,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-24T07:21:07+00:00",
-      "item_count": 7935,
+      "last_crawl": "2026-11-24T09:22:35+00:00",
+      "item_count": 7933,
       "status": "ok"
     },
     {
@@ -1920,7 +1919,7 @@
     }
   ],
   "stats": {
-    "total_products": 7935,
+    "total_products": 7933,
     "total_deals": 60,
     "avg_discount": 62.0
   }
