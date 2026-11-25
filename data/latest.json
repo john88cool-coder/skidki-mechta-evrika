@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T18:09:44.181738+00:00",
+  "updated_at": "2026-11-25T02:49:57.201899+00:00",
   "deals": [
     {
       "product": {
@@ -32,38 +32,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654267",
-        "title": "Проводной вертикальный пылесос Dreame DF10 PRO",
-        "price": 39990,
-        "old_price": 68990,
-        "url": "https://www.sulpak.kz/g/piylesosiy-dreame-df10-pro",
-        "brand": "Dreame",
-        "category": "piylesosiy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 42,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_24_1285_0_1_oggK4P_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 42,
-      "fair_discount": 37.9,
-      "base_price": 64390,
-      "pump_price": null,
-      "value_score": 86,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка"
-      ],
-      "inflated_gap": 4.1
     },
     {
       "product": {
@@ -336,7 +304,7 @@
       "signal": "deal",
       "drop_pct": 64,
       "fair_discount": 0.0,
-      "base_price": 300990,
+      "base_price": 259990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -1931,7 +1899,7 @@
         "shop": "sulpak",
         "sku": "633170",
         "title": "Смарт-часы Huawei WATCH 5 42mm White",
-        "price": 116683,
+        "price": 116682,
         "old_price": 248990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-white",
         "brand": "HUAWEI",
@@ -1948,7 +1916,7 @@
       "signal": "deal",
       "drop_pct": 53,
       "fair_discount": 0.0,
-      "base_price": 116985,
+      "base_price": 116983,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -2540,6 +2508,37 @@
       "drop_pct": 51,
       "fair_discount": 0.0,
       "base_price": 24990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 51.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "633168",
+        "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
+        "price": 165988,
+        "old_price": 341990,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
+        "brand": "HUAWEI",
+        "category": "smart_chasiy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 51,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_1661_0_1_HD2fgs_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 51,
+      "fair_discount": 0.0,
+      "base_price": 181659,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -4665,197 +4664,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "294201",
-        "title": "Чехол для смартфона iPhone 17 Pro Clear Case with MagSafe (MGFT4ZM/A)",
-        "price": 14990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-17-pro-clear-case-with-magsafe-mgft4zm-a-294201",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294201_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 4,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 58.9,
-      "base_price": 36490,
-      "pump_price": null,
-      "value_score": 100,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294213",
-        "title": "Чехол для смартфона iPhone 17 Pro Max Clear Case with MagSafe (MGFW4ZM/A)",
-        "price": 14990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-17-pro-max-clear-case-magsafe-mgfw4zm-294213",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294213_1.webp",
-        "mpn": null,
-        "rating": 4.7,
-        "reviews_count": 10,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 58.9,
-      "base_price": 36490,
-      "pump_price": null,
-      "value_score": 100,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294208",
-        "title": "Чехол для смартфона iPhone 17 Pro TechWoven Case with MagSafe - Black (MGF34ZM/A)",
-        "price": 19990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-17-pro-techwoven-case-with-magsafe-black-mgf34zm-a-294208",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294208_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 54.0,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 100,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294211",
-        "title": "Чехол для смартфона iPhone 17 Pro TechWoven Case with MagSafe - Green (MGF74ZM/A)",
-        "price": 19990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-17-pro-techwoven-case-with-magsafe-green-mgf74zm-a-294211",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294211_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 54.0,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 100,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294212",
-        "title": "Чехол для смартфона iPhone 17 Pro TechWoven Case with MagSafe - Purple (MGF54ZM/A)",
-        "price": 19990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-17-pro-techwoven-case-with-magsafe-purple-mgf54zm-a-294212",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294212_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 54.0,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 100,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294220",
-        "title": "Чехол для смартфона iPhone 17 Pro Max TechWoven Case with MagSafe - Black (MGF84ZM/A)",
-        "price": 19990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-17-pro-max-techwoven-case-magsafe-black-mgf84zm-294220",
-        "brand": null,
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294220_1.webp",
-        "mpn": null,
-        "rating": 4.85,
-        "reviews_count": 14,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 54.0,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 84,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "252904",
         "title": "Кофеварка капельная Delonghi ICM-17210",
         "price": 64990,
@@ -4916,39 +4724,6 @@
         "Честная скидка"
       ],
       "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650699",
-        "title": "Ноутбук Lenovo LOQ 15ARP10E Ryzen 5 16GB / SSD 512GB / GeForce RTX 3050 6GB / NO OS / 83S000BNRK",
-        "price": 460990,
-        "old_price": 509990,
-        "url": "https://www.sulpak.kz/g/noutbuki-lenovo-loq-15arp10e-83s000bnrk-r5165sg35n",
-        "brand": "Lenovo",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 10,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9521_0_6_bZ8eAE_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 10,
-      "fair_discount": 36.8,
-      "base_price": 729990,
-      "pump_price": null,
-      "value_score": 89,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": -26.8
     },
     {
       "product": {
@@ -5144,105 +4919,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "294192",
-        "title": "Чехол для смартфона iPhone 17 Silicone Case with MagSafe - Neon Yellow (MGEV4ZM/A)",
-        "price": 24990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-17-silicone-case-magsafe-neon-yellow-mgev4zm-294192",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294192_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 4,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 30.6,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294194",
-        "title": "Чехол для смартфона iPhone 17 Silicone Case with MagSafe - Light Moss (MGEX4ZM/A)",
-        "price": 24990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-17-silicone-case-magsafe-light-moss-mgex4zm-294194",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294194_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 4,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 30.6,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294195",
-        "title": "Чехол для смартфона iPhone 17 Silicone Case with MagSafe - Black (MGF14ZM/A)",
-        "price": 24990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-17-silicone-case-magsafe-black-mgf14zm-294195",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294195_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 4,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 30.6,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 87,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "287543",
         "title": "Стиральная машина Hansa WHG7120W",
         "price": 139990,
@@ -5299,39 +4975,6 @@
       "is_pick": false,
       "badges": [
         "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294906",
-        "title": "Клавиатура Apple Magic Keyboard Black для iPad Air 13-inch (M3), (MGYY4RS/A)",
-        "price": 179990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/klaviatura-apple-magic-keyboard-black-dlya-ipad-air-13-inch-m3-mgyy4rs-a-294906",
-        "brand": "Apple",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294906_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 28.7,
-      "base_price": 252490,
-      "pump_price": null,
-      "value_score": 84,
-      "is_pick": true,
-      "badges": [
-        "Выбор ИС",
-        "Честная скидка",
-        "Топ-Бренд"
       ],
       "inflated_gap": null
     },
@@ -5461,37 +5104,6 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1696943",
-        "title": "Стиральная машина Бирюса WM-MT813/05 M, Metallic",
-        "price": 198700,
-        "old_price": null,
-        "url": "https://shop.kz/offer/stiralnaya-mashina-biryusa-wm-mt813-05-m-metallic/",
-        "brand": "Бирюса",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/8c3/jk0zxxpfty1xfzq6ebr98tp49yuet17r/187385e1.jpg",
-        "mpn": "WM-MT813/05 M",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 27.5,
-      "base_price": 274100,
-      "pump_price": null,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "47552",
         "title": "Мышь игровая беспроводная HyperX Pulsefire Haste 2 Pro 4K Wireless (A1KY5AA)",
@@ -5586,37 +5198,6 @@
     },
     {
       "product": {
-        "shop": "evrika",
-        "sku": "45776",
-        "title": "Выпрямитель для волос Dreame Aerostraight Gold",
-        "price": 144990,
-        "old_price": 192990,
-        "url": "https://evrika.com/catalog/vypryamitel-dlya-volos-dreame-aerostraight-gold/p45776",
-        "brand": null,
-        "category": "Выпрямители",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 25,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/Cvf99lnAxG3YJoxf4FljlS8szTCQhR5Le3bRWAvj.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 25,
-      "fair_discount": 24.9,
-      "base_price": 192990,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.1
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "276133",
         "title": "Ноутбук Apple MacBook Space Black M3 Pro / 18ГБ / 512SSD / 16.2 / Mac OS Sonoma / (MRW13RU/A)",
@@ -5646,37 +5227,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.1
-    },
-    {
-      "product": {
-        "shop": "shopkz",
-        "sku": "1707449",
-        "title": "Стиральная машина Бирюса WM-ML612/10, White",
-        "price": 114900,
-        "old_price": null,
-        "url": "https://shop.kz/offer/stiralnaya-mashina-biryusa-wm-ml612-10-white/",
-        "brand": "Бирюса",
-        "category": "Стиральные машины",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/f0f/diw9dh4sh0ckt3v01gtp1l3ol2y9ysza/190876s1.jpg",
-        "mpn": "WM-ML612/10",
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 24.4,
-      "base_price": 151900,
-      "pump_price": null,
-      "value_score": 66,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -5835,69 +5385,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "647862",
-        "title": "Робот-пылесос Dreame Aqua10 Ultra Roller Complete White",
-        "price": 599990,
-        "old_price": 774990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-aqua10-ultra-roller-complete-white",
-        "brand": "Dreame",
-        "category": "robotiy_piylesosiy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_255_0_1_JDBMSW_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 22.6,
-      "base_price": 774990,
-      "pump_price": null,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "281557",
-        "title": "Стилус Apple Pencil Pro (MX2D3QN/A)",
-        "price": 79990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/stilus-apple-pencil-pro-mx2d3qn-281557",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/stilus_apple_pencil_pro_mx2d3qn_281557_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 21.6,
-      "base_price": 101990,
-      "pump_price": null,
-      "value_score": 71,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "49338",
         "title": "KRUPS Эспрессо-машина SA403BE0",
@@ -5926,99 +5413,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "637386",
-        "title": "Фен Dreame Hair Dryer Dazzle Gold",
-        "price": 109990,
-        "old_price": 139990,
-        "url": "https://www.sulpak.kz/g/fen-shchetki-dreame-hair-dryer-dazzle-gold",
-        "brand": "Dreame",
-        "category": "fen_shchetki",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_851_183_0_1_hroBJF_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.4,
-      "base_price": 139990,
-      "pump_price": null,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "654282",
-        "title": "Робот пылесос Dreame F21 PRO",
-        "price": 109990,
-        "old_price": 139990,
-        "url": "https://www.sulpak.kz/g/robotiy-piylesosiy-dreame-f21-pro",
-        "brand": "Dreame",
-        "category": "robotiy_piylesosiy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4125_287_0_6_WHABw7_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.4,
-      "base_price": 139990,
-      "pump_price": null,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "650354",
-        "title": "Mini LED телевизор Dreame 75\" Aura 75S100",
-        "price": 699990,
-        "old_price": 889990,
-        "url": "https://www.sulpak.kz/g/televizoriy-dreame-75-aura-mini-led-4k-tv-75s100",
-        "brand": "Dreame",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 21,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20787_0_6_YnNI0t_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 21,
-      "fair_discount": 21.3,
-      "base_price": 889990,
-      "pump_price": null,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -6241,68 +5635,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "3000025148",
-        "title": "Cетевая аудиосистема \"все-в-одном\" Ruark R610 орех",
-        "price": 867192,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-ruark-audio-r610-oreh",
-        "brand": "Ruark Audio",
-        "category": "muziykalniye_centriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_233_0_1_OZp4hW_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.0,
-      "base_price": 1083990,
-      "pump_price": null,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000036823",
-        "title": "Активный сабвуфер Ruark RS1 MK Black",
-        "price": 255192,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/domashnie-kinoteatriy-ruark-audio-rs1-mk-black",
-        "brand": "Ruark Audio",
-        "category": "domashnie_kinoteatriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_333_168_0_1_15j2zW_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 20.0,
-      "base_price": 318990,
-      "pump_price": null,
-      "value_score": 58,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "636990",
         "title": "Робот-пылесос Dreame F10 White",
         "price": 73990,
@@ -6361,166 +5693,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302467",
-        "title": "Чехол для смартфона iPhone 18 Pro TechWoven Case with MagSafe – Olive (MKD34ZM/A)",
-        "price": 34990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-techwoven-case-magsafe-olive-mkd34zm-302467",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302467_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.5,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302470",
-        "title": "Чехол для смартфона iPhone 18 Pro TechWoven Case with MagSafe – Black (MKD64ZM/A)",
-        "price": 34990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-techwoven-case-magsafe-black-mkd64zm-302470",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302470_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.5,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302473",
-        "title": "Чехол для смартфона iPhone 18 Pro Max TechWoven Case with MagSafe – Olive (MKDP4ZM/A)",
-        "price": 34990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-techwoven-case-with-magsafe-olive-mkdp4zm-a-302473",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302473_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.5,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302475",
-        "title": "Чехол для смартфона iPhone 18 Pro Max TechWoven Case with MagSafe – Chambray Blue (MKDR4ZM/A)",
-        "price": 34990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-techwoven-case-with-magsafe-chambray-blue-mkdr4zm-a-302475",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302475_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.5,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302476",
-        "title": "Чехол для смартфона iPhone 18 Pro Max TechWoven Case with MagSafe – Black (MKDT4ZM/A)",
-        "price": 34990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-techwoven-case-with-magsafe-black-mkdt4zm-a-302476",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302476_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.5,
-      "base_price": 43490,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -6742,6 +5914,70 @@
     {
       "product": {
         "shop": "evrika",
+        "sku": "44272",
+        "title": "Стирально-сушильная машина Samsung BESPOKE AI WD90DG5G34BELD",
+        "price": 349990,
+        "old_price": 429990,
+        "url": "https://evrika.com/catalog/stiralnaya-mashina-samsung-wd90dg5g34beld/p44272",
+        "brand": "Samsung",
+        "category": "Стиральные машины",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/jxENxFF6TeBDydtdxP2BryLfsMsnhNotSXMOjc4c.png.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.6,
+      "base_price": 429990,
+      "pump_price": null,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "289882",
+        "title": "Стиральная машина с сушкой Samsung WD90DG5G34BELD",
+        "price": 349990,
+        "old_price": 429990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-s-sushkoy-samsung-wd90dg5g34beld-289882",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 19,
+        "image": "https://api.technodom.kz/f3/api/v1/images/289882_1.webp",
+        "mpn": null,
+        "rating": 4.2,
+        "reviews_count": 5,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 19,
+      "fair_discount": 18.6,
+      "base_price": 429990,
+      "pump_price": null,
+      "value_score": 65,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "evrika",
         "sku": "48019",
         "title": "Наушники беспроводные JBLT530BTBLKEU черные",
         "price": 21990,
@@ -6835,37 +6071,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "653177",
-        "title": "Накладные наушники JBL Tune 530BT Beige",
-        "price": 21990,
-        "old_price": 26990,
-        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-530bt-bezheviyj",
-        "brand": "JBL",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4277_0_1_03bbqs_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.5,
-      "base_price": 26990,
-      "pump_price": null,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "653178",
         "title": "Беспроводные наушники JBL Tune 530BT Black",
         "price": 21990,
@@ -6877,37 +6082,6 @@
         "in_stock": true,
         "discount_pct": 19,
         "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4278_0_1_EMTEfN_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.5,
-      "base_price": 26990,
-      "pump_price": null,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "653179",
-        "title": "Беспроводные наушники JBL Tune 530BT (синий)",
-        "price": 21990,
-        "old_price": 26990,
-        "url": "https://www.sulpak.kz/g/naushniki-jbl-jbl-tune-530bt-sinij",
-        "brand": "JBL",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4279_0_6_VgiBNd_160.webp",
         "mpn": null,
         "rating": null,
         "reviews_count": null,
@@ -6979,37 +6153,6 @@
       "drop_pct": 19,
       "fair_discount": 18.5,
       "base_price": 26990,
-      "pump_price": null,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "655788",
-        "title": "Ноутбук Acer Aspire Lite AL14-47P Ryzen 5 3500U 8GB / SSD 256GB / Radeon Graphics / NO OS / NX.X1MER.002",
-        "price": 219990,
-        "old_price": 269990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-aspire-lite-al14-47p-nxx1mer002-r582sun",
-        "brand": "Acer",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9959_0_6_Edzdmk_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-06T15:34:30+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.5,
-      "base_price": 269990,
       "pump_price": null,
       "value_score": 61,
       "is_pick": false,
@@ -7206,324 +6349,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "629918",
-        "title": "Беспроводная музыкальная система Ruark R3s орех",
-        "price": 501658,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-ruark-audio-r3s-oreh",
-        "brand": "Ruark Audio",
-        "category": "muziykalniye_centriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_219_0_1_ZrIYP7_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 601990,
-      "pump_price": null,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "3000035140",
-        "title": "Напольная акустика DALI Oberon 7 белый, 2 шт.",
-        "price": 640825,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/muziykalniye-centriy-dali-oberon-7-beliyj-2-sht",
-        "brand": "DALI",
-        "category": "muziykalniye_centriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_108_221_0_6_EhBYUe_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 768990,
-      "pump_price": null,
-      "value_score": 48,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "294190",
-        "title": "Чехол для смартфона iPhone 17 Clear Case with MagSafe (MGF24ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-17-clear-case-magsafe-mgf24zm-294190",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/294190_1b.webp",
-        "mpn": null,
-        "rating": 4.75,
-        "reviews_count": 8,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302453",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Magenta (MK8T4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-magenta-mk8t4zm-302453",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302453_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302455",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Olive (MK8V4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-olive-mk8v4zm-302455",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302455_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302456",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Crisp Blue (MK8W4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-crisp-blue-mk8w4zm-302456",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302456_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302457",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Navy Blue (MK8X4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-navy-blue-mk8x4zm-302457",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302457_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302458",
-        "title": "Чехол для смартфона iPhone 18 Pro Silicone Case with MagSafe – Black (MK8Y4ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chehol-dlya-smartfona-iphone-18-pro-silicone-case-magsafe-black-mk8y4zm-302458",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302458_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302463",
-        "title": "Чехол для смартфона iPhone 18 Pro Max Silicone Case with MagSafe – Navy Blue (MK944ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-silicone-case-with-magsafe-navy-blue-mk944zm-a-302463",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302463_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "302464",
-        "title": "Чехол для смартфона iPhone 18 Pro Max Silicone Case with MagSafe – Black (MK954ZM/A)",
-        "price": 29990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/chekhol-dlya-smartfona-iphone-18-pro-max-silicone-case-with-magsafe-black-mk954zm-a-302464",
-        "brand": "Apple",
-        "category": "Смартфоны и гаджеты",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/302464_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T12:04:05+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 16.7,
-      "base_price": 35990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "299056",
         "title": "Портативный внешний аккумулятор, Baseus, EnerFill FC31 (P10082106123-00), 10000mAh, 22.5W, Черный",
@@ -7613,37 +6438,6 @@
       "badges": [
         "Честная скидка",
         "Топ-Бренд"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "651713",
-        "title": "Кофемашина Delonghi ECAM220.50.BG",
-        "price": 269990,
-        "old_price": null,
-        "url": "https://www.sulpak.kz/g/kofemashiniy-delonghi-ecam22050bg",
-        "brand": "Delonghi",
-        "category": "kofemashiniy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_931_244_0_1_QRcoZw_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-15T11:55:34+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 15.6,
-      "base_price": 319990,
-      "pump_price": null,
-      "value_score": 50,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
       ],
       "inflated_gap": null
     },
@@ -7773,37 +6567,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "637276",
-        "title": "Встраиваемая посудомоечная машина Midea MDWB-6029TQ",
-        "price": 279990,
-        "old_price": 399990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-posudomoechniye-mashiniy-midea-mdwb-6029tq",
-        "brand": "Midea",
-        "category": "vstraivaemiye_posudomoechniye_mashiniy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 30,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_40_903_0_1_0xobEH_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 30,
-      "fair_discount": 15.2,
-      "base_price": 329990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 29.8
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "289311",
         "title": "Встраиваемая посудомоечная машина Midea MDWB-6029TQ",
@@ -7895,6 +6658,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "257772",
+        "title": "Стиральная машина Beko WSPE7H616A",
+        "price": 169990,
+        "old_price": 229990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-beko-wspe7h616a-257772",
+        "brand": "Beko",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 26,
+        "image": "https://api.technodom.kz/f3/api/v1/images/stiralnaya_mashina_beko_wspe7h616a_257772_6a.webp",
+        "mpn": null,
+        "rating": 4.35,
+        "reviews_count": 14,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 26,
+      "fair_discount": 15.0,
+      "base_price": 199990,
+      "pump_price": null,
+      "value_score": 49,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 11.0
+    },
+    {
+      "product": {
         "shop": "sulpak",
         "sku": "627366",
         "title": "Холодильник Samsung RT53DB7B60ETWT",
@@ -7927,130 +6721,6 @@
     {
       "product": {
         "shop": "sulpak",
-        "sku": "657301",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Sky Blue / Z1L9000BT",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-sky-blue-a3449-m5-16gb-512gb-ssd-rus-z1l9000bt",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10047_0_1_SVqU2N_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T23:57:02+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "657302",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Midnight / Z1L6000BQ",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-midnight-a3449-m5-16gb-512gb-ssd-rus-z1l6000bq",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10048_0_1_i1qRSa_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T16:29:23+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "657303",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Starlight / Z1L3000BR",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-starlight-a3449-m5-16gb-512gb-ssd-rus-z1l3000br",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10049_0_1_YSCZwT_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-03T07:14:41+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "657304",
-        "title": "Ноутбук Apple MacBook Air 2026 M5 / 13\" / 16GB / SSD 512GB / MacOS / Silver / Z1L0000BR",
-        "price": 729990,
-        "old_price": 846990,
-        "url": "https://www.sulpak.kz/g/noutbuki-apple-macbook-air-13-silver-a3449-m5-16gb-512gb-ssd-rus-z1l0000br",
-        "brand": "Apple",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 14,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_10050_0_1_763KO0_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T16:29:23+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 14,
-      "fair_discount": 13.8,
-      "base_price": 846990,
-      "pump_price": null,
-      "value_score": 57,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
         "sku": "636992",
         "title": "Робот-пылесос Dreame F10 Plus",
         "price": 94990,
@@ -8076,35 +6746,6 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "evrika",
-        "sku": "47942",
-        "title": "Бритва электрическая Dreame AS01A, S7 Shaver Black",
-        "price": 44990,
-        "old_price": 51990,
-        "url": "https://evrika.com/catalog/britva-dreame-as01a-s7-shaver-black/p47942",
-        "brand": null,
-        "category": "Бритвы",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 13,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/75ZBubaq9Soe8iP4I5ItYeyqJMQYvmCLWn4W0T7w.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 13,
-      "fair_discount": 13.5,
-      "base_price": 51990,
-      "pump_price": null,
-      "value_score": 47,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": -0.5
     },
     {
       "product": {
@@ -8166,6 +6807,66 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "288868",
+        "title": "Стиральная машина Hotpoint WSH6090VWW",
+        "price": 129990,
+        "old_price": 204990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh6090vww-288868",
+        "brand": "Hotpoint",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 37,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288868_1.webp",
+        "mpn": null,
+        "rating": 3.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 37,
+      "fair_discount": 13.3,
+      "base_price": 149990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.7
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "296459",
+        "title": "Телевизор TCL 65\" 65C6K/ QD-Mini LED TV UHD TCL",
+        "price": 519990,
+        "old_price": 599990,
+        "url": "https://www.technodom.kz/p/televizor-tcl-65-65c6k-qd-mini-led-tv-uhd-tcl-296459",
+        "brand": "TCL",
+        "category": "ТВ, аудио, фото, видео",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 13,
+        "image": "https://api.technodom.kz/f3/api/v1/images/296459_1ddd.webp",
+        "mpn": null,
+        "rating": 4.95,
+        "reviews_count": 11,
+        "first_seen": "2026-10-14T14:07:26+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 13,
+      "fair_discount": 13.3,
+      "base_price": 599990,
+      "pump_price": null,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": -0.3
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1741967",
         "title": "Проводной вертикальный пылесос Kitfort KT-595",
@@ -8224,32 +6925,92 @@
     },
     {
       "product": {
-        "shop": "shopkz",
-        "sku": "1680125",
-        "title": "Электрическая плита Gefest ЭП Н Д 6560-03 0295",
-        "price": 214300,
-        "old_price": null,
-        "url": "https://shop.kz/offer/elektricheskaya-plita-gefest-ep-n-d-6560-03-0295/",
-        "brand": "Gefest",
-        "category": "Плиты",
-        "group": "kitchen",
+        "shop": "technodom",
+        "sku": "289308",
+        "title": "Посудомоечная машина Midea MDWF-4529TQB",
+        "price": 209990,
+        "old_price": 239990,
+        "url": "https://www.technodom.kz/p/posudomoechnaya-mashina-midea-mdwf-4529tqb-289308",
+        "brand": "Midea",
+        "category": "Бытовая техника",
+        "group": "home",
         "in_stock": true,
-        "discount_pct": null,
-        "image": "https://static.shop.kz/upload/iblock/bf0/g5x1cb3ss9prr9m5q8q55mo8sce5804i/184828s200.jpg",
-        "mpn": "ЭП Н Д 6560-03 0295",
-        "rating": null,
-        "reviews_count": null,
+        "discount_pct": 13,
+        "image": "https://api.technodom.kz/f3/api/v1/images/289308_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
         "first_seen": "2026-09-18T10:11:10+00:00"
       },
       "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 11.7,
-      "base_price": 242800,
+      "drop_pct": 13,
+      "fair_discount": 12.5,
+      "base_price": 239990,
       "pump_price": null,
-      "value_score": 44,
+      "value_score": 39,
       "is_pick": false,
       "badges": [],
-      "inflated_gap": null
+      "inflated_gap": 0.5
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "271477",
+        "title": "МФУ струйное HP Smart Tank 581 СНПЧ А4-W",
+        "price": 79990,
+        "old_price": 89990,
+        "url": "https://www.technodom.kz/p/mfu-strujnoe-hp-smart-tank-581-snpch-a4-w-271477",
+        "brand": "HP",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 11,
+        "image": "https://api.technodom.kz/f3/api/v1/images/mfu_strujnoe_hp_smart_tank_581_snpch_a4_w_271477_1.webp",
+        "mpn": null,
+        "rating": 4.65,
+        "reviews_count": 13,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 11,
+      "fair_discount": 11.1,
+      "base_price": 89990,
+      "pump_price": null,
+      "value_score": 47,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": -0.1
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "303015",
+        "title": "Внешний SSD 1TB Netac ZX20 II USB 3.2 Gen 2 Type-C [NT01ZX20II-1T0-32BK]",
+        "price": 112990,
+        "old_price": 141990,
+        "url": "https://www.technodom.kz/p/vneshniy-ssd-1tb-netac-zx20-ii-usb-3-2-gen-2-type-c-[nt01zx20ii-1t0-32bk]-303015",
+        "brand": "Netac",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://api.technodom.kz/f3/api/v1/images/303015_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 11.0,
+      "base_price": 126990,
+      "pump_price": null,
+      "value_score": 43,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 9.0
     },
     {
       "product": {
@@ -8282,6 +7043,124 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "288873",
+        "title": "Стиральная машина Hotpoint WSH8291VWX",
+        "price": 169990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh8291vwx-288873",
+        "brand": "Hotpoint",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/288873_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 10.5,
+      "base_price": 189990,
+      "pump_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "304635",
+        "title": "Мультипортовый адаптер Baseus UltraJoy 7-in-1 Space Grey (B00052805813-00)",
+        "price": 17990,
+        "old_price": 25990,
+        "url": "https://www.technodom.kz/p/multiportovyy-adapter-baseus-ultrajoy-7-in-1-space-grey-b00052805813-00-304635",
+        "brand": "Baseus",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://api.technodom.kz/f3/api/v1/images/304635_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-10-08T13:56:04+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 10.0,
+      "base_price": 19990,
+      "pump_price": null,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "297953",
+        "title": "Смарт Часы Amazfit Bip 6 A2435 Black",
+        "price": 44990,
+        "old_price": 49990,
+        "url": "https://www.technodom.kz/p/smart-chasy-amazfit-bip-6-a2435-black-297953",
+        "brand": "Amazfit",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 10,
+        "image": "https://api.technodom.kz/f3/api/v1/images/297953_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-10-01T13:42:26+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 10,
+      "fair_discount": 10.0,
+      "base_price": 49990,
+      "pump_price": null,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "287532",
+        "title": "Смарт-часы Garmin Fenix 8 51mm сапфир темный силикон 010-02905-21",
+        "price": 611990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/smart-chasy-garmin-fenix-8-51mm-sapfir-temnyy-silikon-010-02905-21-287532",
+        "brand": "Garmin",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/287532_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 10.0,
+      "base_price": 679990,
+      "pump_price": null,
+      "value_score": 42,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "shopkz",
         "sku": "1742231",
         "title": "Увлажнитель воздуха Mijia Smart Evaporative Humidifier Pro EU",
@@ -8308,6 +7187,96 @@
       "is_pick": false,
       "badges": [],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "299055",
+        "title": "Портативный внешний аккумулятор, Baseus, EnerFill FC31 (P10082102213-00), 10000mAh, 45W, Белый",
+        "price": 18990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/portativniy-vneshniy-akkumulyator-baseus-enerfill-fc31-p10082102213-00-10000mah-45w-beliy-299055",
+        "brand": "Baseus",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/299055_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.5,
+      "base_price": 20990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "270076",
+        "title": "Посудомоечная машина Hansa ZWM447WH",
+        "price": 189990,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/posudomoechnaya-mashina-hansa-zwm447wh-270076",
+        "brand": "Hansa",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/posudomoechnaya_mashina_hansa_zwm447wh_270076_1z.webp",
+        "mpn": null,
+        "rating": 4.75,
+        "reviews_count": 26,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 9.5,
+      "base_price": 209990,
+      "pump_price": null,
+      "value_score": 37,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "286161",
+        "title": "Стиральная машина с сушкой Samsung WD18DB8995BZLD",
+        "price": 999990,
+        "old_price": 1449990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-s-sushkoj-samsung-wd18db8995bzld-286161",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://api.technodom.kz/f3/api/v1/images/286161_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 9.1,
+      "base_price": 1099990,
+      "pump_price": null,
+      "value_score": 39,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 31.0
     },
     {
       "product": {
@@ -8370,6 +7339,66 @@
         "Рисованная?"
       ],
       "inflated_gap": 22.7
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "281544",
+        "title": "Чехол Apple Smart Folio для iPad Pro 11-inch (M4) - Black (MW983ZM/A)",
+        "price": 55490,
+        "old_price": null,
+        "url": "https://www.technodom.kz/p/chehol-apple-smart-folio-dlya-ipad-pro-11-inch-m4-black-mw983zm-281544",
+        "brand": "Apple",
+        "category": "Смартфоны и гаджеты",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://api.technodom.kz/f3/api/v1/images/chehol_apple_smart_folio_dlya_ipad_pro_11_inch_m4_black_mw983zm_281544_1new.webp",
+        "mpn": null,
+        "rating": 1.0,
+        "reviews_count": 1,
+        "first_seen": "2026-11-06T07:15:06+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 8.3,
+      "base_price": 60490,
+      "pump_price": null,
+      "value_score": 50,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "303014",
+        "title": "Внешний SSD 512GB Netac ZX20 II USB 3.2 Gen 2 Type-C [NT01ZX20II-512-32BK]",
+        "price": 68990,
+        "old_price": 86990,
+        "url": "https://www.technodom.kz/p/vneshniy-ssd-512gb-netac-zx20-ii-usb-3-2-gen-2-type-c-[nt01zx20ii-512-32bk]-303014",
+        "brand": "Netac",
+        "category": "Ноутбуки и компьютеры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://api.technodom.kz/f3/api/v1/images/303014_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-24T12:13:25+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 21,
+      "fair_discount": 8.0,
+      "base_price": 74990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 13.0
     }
   ],
   "shops": [
@@ -8383,8 +7412,8 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-24T18:09:21+00:00",
-      "item_count": 2796,
+      "last_crawl": "2026-11-25T02:49:34+00:00",
+      "item_count": 2782,
       "status": "ok"
     },
     {
@@ -8397,28 +7426,28 @@
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-24T18:09:21+00:00",
-      "item_count": 3846,
+      "last_crawl": "2026-11-25T02:49:34+00:00",
+      "item_count": 3961,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-24T18:09:21+00:00",
+      "last_crawl": "2026-11-25T02:49:34+00:00",
       "item_count": 10142,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-24T18:09:21+00:00",
-      "item_count": 2155,
+      "last_crawl": "2026-11-25T02:49:34+00:00",
+      "item_count": 2131,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 31520,
-    "total_deals": 269,
-    "avg_discount": 49.0
+    "total_products": 31597,
+    "total_deals": 239,
+    "avg_discount": 50.0
   }
 }
