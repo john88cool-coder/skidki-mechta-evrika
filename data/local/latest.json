@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T06:03:56.518602+00:00",
+  "updated_at": "2026-11-26T11:21:38.852147+00:00",
   "deals": [
     {
       "product": {
@@ -63,35 +63,6 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.1
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200013422",
-        "title": "Кухонная машина TEFAL QB 951DF0",
-        "price": 259990,
-        "old_price": 682990,
-        "url": "https://www.mechta.kz/product/kuhonnaya-mashina-tefal-qb-951df0/",
-        "brand": "Tefal",
-        "category": "Кухонные машины",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 62,
-        "image": "https://pi.mdev.kz/3147ae45-8d3d-4bee-b0f7-4c98def35d4f?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 62,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -1564,6 +1535,37 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018016",
+        "title": "Вертикальный пылесос TINECO Floor One S9 Artist Pro",
+        "price": 179990,
+        "old_price": 429990,
+        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tineco-floor-one-s9-artist-pro/",
+        "brand": "Tineco",
+        "category": "Вертикальные пылесосы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/18b44388-4e1a-443e-8d10-e93c12d52259?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 58,
+      "fair_discount": 0.0,
+      "base_price": 179990,
+      "pump_price": null,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 58.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200023627",
         "title": "Монитор ACER EK241YP0bi (UM.QE0EE.005) 23.8 FHD/VA/1ms/144Hz",
         "price": 19990,
@@ -1591,6 +1593,102 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017261",
+        "title": "Наушники HUAWEI FreeBuds Pro 4 (Белый)(MCHN05)(T0022)(Piano-T180)",
+        "price": 59990,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/naushniki-huawei-freebuds-pro-4-belyymchn05t0022piano-t180/",
+        "brand": "Huawei",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/29d0b345-5899-46db-bf3e-8366dc0827ee?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 42.3,
+      "base_price": 103990,
+      "pump_price": null,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017262",
+        "title": "Наушники HUAWEI FreeBuds Pro 4 (Чёрный)(MCHN03)(T0022)(Piano-T180)",
+        "price": 59990,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/naushniki-huawei-freebuds-pro-4-chernyymchn03t0022piano-t180/",
+        "brand": "Huawei",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/2cafe958-a18c-4d16-bcd2-4a44455f77df?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 42.3,
+      "base_price": 103990,
+      "pump_price": null,
+      "value_score": 89,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200017263",
+        "title": "Наушники HUAWEI FreeBuds Pro 4 (Зелёный)(MCHN04)(T0022)(Piano-T180)",
+        "price": 59990,
+        "old_price": null,
+        "url": "https://www.mechta.kz/product/naushniki-huawei-freebuds-pro-4-zelenyymchn04t0022piano-t180/",
+        "brand": "Huawei",
+        "category": "Наушники",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://pi.mdev.kz/c88e25b5-eacd-425e-903b-bde24f8ce757?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 3,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 42.3,
+      "base_price": 103990,
+      "pump_price": null,
+      "value_score": 95,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -1938,6 +2036,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200025160",
+        "title": "Электрочайник POLARIS PWK 1739 CGL",
+        "price": 16990,
+        "old_price": 27990,
+        "url": "https://www.mechta.kz/product/elektrochaynik-polaris-pwk-1739-cgl/",
+        "brand": "Polaris",
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/bd238e11-f853-4f7f-a9d1-6bc110ff3308?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-10-20T10:21:08+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 26.1,
+      "base_price": 22990,
+      "pump_price": null,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.9
     },
     {
       "product": {
@@ -2358,8 +2487,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-26T06:03:39+00:00",
-      "item_count": 8004,
+      "last_crawl": "2026-11-26T11:21:22+00:00",
+      "item_count": 7956,
       "status": "ok"
     },
     {
@@ -2399,8 +2528,8 @@
     }
   ],
   "stats": {
-    "total_products": 8004,
-    "total_deals": 75,
-    "avg_discount": 61.0
+    "total_products": 7956,
+    "total_deals": 79,
+    "avg_discount": 60.0
   }
 }
