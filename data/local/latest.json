@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T11:16:52.216150+00:00",
+  "updated_at": "2026-11-27T13:22:22.601906+00:00",
   "deals": [
     {
       "product": {
@@ -664,6 +664,39 @@
         "Рисованная?"
       ],
       "inflated_gap": 66.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018113",
+        "title": "Телевизор Samsung Neo QLED QE85QN900FUXCE 8K SMART",
+        "price": 1699990,
+        "old_price": 4999990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe85qn900fuxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 66,
+        "image": "https://pi.mdev.kz/01205f57-0579-4119-96de-564155fa1942?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 66,
+      "fair_discount": 15.0,
+      "base_price": 1999990,
+      "pump_price": null,
+      "value_score": 53,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 51.0
     },
     {
       "product": {
@@ -1375,7 +1408,7 @@
       "fair_discount": 0.0,
       "base_price": 79990,
       "pump_price": null,
-      "value_score": 29,
+      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1471,38 +1504,6 @@
       "value_score": 29,
       "is_pick": false,
       "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 60.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018113",
-        "title": "Телевизор Samsung Neo QLED QE85QN900FUXCE 8K SMART",
-        "price": 1999990,
-        "old_price": 4999990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe85qn900fuxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 60,
-        "image": "https://pi.mdev.kz/01205f57-0579-4119-96de-564155fa1942?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 60,
-      "fair_discount": 0.0,
-      "base_price": 1999990,
-      "pump_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
         "Рисованная?"
       ],
       "inflated_gap": 60.0
@@ -2452,6 +2453,37 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200025160",
+        "title": "Электрочайник POLARIS PWK 1739 CGL",
+        "price": 16990,
+        "old_price": 27990,
+        "url": "https://www.mechta.kz/product/elektrochaynik-polaris-pwk-1739-cgl/",
+        "brand": "Polaris",
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 39,
+        "image": "https://pi.mdev.kz/bd238e11-f853-4f7f-a9d1-6bc110ff3308?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-10-20T10:21:08+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 39,
+      "fair_discount": 26.1,
+      "base_price": 22990,
+      "pump_price": null,
+      "value_score": 69,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 12.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "26000000208",
         "title": "Электрочайник BRAUN WK 3100 BK",
         "price": 21990,
@@ -2643,8 +2675,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-27T11:16:40+00:00",
-      "item_count": 8044,
+      "last_crawl": "2026-11-27T13:21:40+00:00",
+      "item_count": 8080,
       "status": "ok"
     },
     {
@@ -2684,8 +2716,8 @@
     }
   ],
   "stats": {
-    "total_products": 8044,
-    "total_deals": 83,
-    "avg_discount": 59.0
+    "total_products": 8080,
+    "total_deals": 84,
+    "avg_discount": 48.0
   }
 }
