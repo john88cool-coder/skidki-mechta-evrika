@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:21:38.852147+00:00",
+  "updated_at": "2026-11-27T05:40:33.866201+00:00",
   "deals": [
     {
       "product": {
@@ -130,6 +130,38 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200003898",
+        "title": "Коврик для мышки STEELSERIES QCK Prism Cloth - 3XL 1220x590x4 мм",
+        "price": 12990,
+        "old_price": 55900,
+        "url": "https://www.mechta.kz/product/kovrik-dlya-myshki-steelseries-qck-prism-cloth---3xl-1220x590x4-mm/",
+        "brand": "SteelSeries",
+        "category": "Коврики для мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 77,
+        "image": "https://pi.mdev.kz/94497824-8019-11ed-a250-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 77,
+      "fair_discount": 35.0,
+      "base_price": 19990,
+      "pump_price": null,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "30000001045",
         "title": "Стайлер BELLISSIMA 11747",
         "price": 14930,
@@ -193,37 +225,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200003905",
-        "title": "Мышка игровая STEELSERIES Aerox 3 (2022) Onyx",
-        "price": 12990,
-        "old_price": 45900,
-        "url": "https://www.mechta.kz/product/myshka-igrovaya-steelseries-aerox-3-2022-onyx/",
-        "brand": "SteelSeries",
-        "category": "Мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 72,
-        "image": "https://pi.mdev.kz/c2ce4283-8047-11ed-a250-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 72,
-      "fair_discount": 0.0,
-      "base_price": 12990,
-      "pump_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 72.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200011001",
         "title": "Клавиатура Varmilo VEM108 Dreams On Board EC V2 Violet",
         "price": 25990,
@@ -251,6 +252,166 @@
         "Рисованная?"
       ],
       "inflated_gap": 70.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002306",
+        "title": "Клавиатура STEELSERIES Apex 3 RU 64805",
+        "price": 12990,
+        "old_price": 43900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-3-ru-64805/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/5cc5cf02-3902-11eb-a238-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 23.5,
+      "base_price": 16990,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 46.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003998",
+        "title": "Мышка игровая ZOWIE EC3-C 9H.N3MBB.A2E",
+        "price": 12990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-ec3-c-9hdotn3mbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/528ed1ca-859f-11ed-a251-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 43.5,
+      "base_price": 22990,
+      "pump_price": null,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003999",
+        "title": "Мышка игровая ZOWIE ZA13-C 9H.N3HBB.A2E",
+        "price": 12990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za13-c-9hdotn3hbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/528ed1de-859f-11ed-a251-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 43.5,
+      "base_price": 22990,
+      "pump_price": null,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002309",
+        "title": "Мышка игровая ZOWIE ZA12-B",
+        "price": 12990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-za12-b/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/5ad38d47-39ce-11eb-a238-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 43.5,
+      "base_price": 22990,
+      "pump_price": null,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.5
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000002308",
+        "title": "Мышка игровая ZOWIE S1.9H.N0GBB.A2E",
+        "price": 12990,
+        "old_price": 42990,
+        "url": "https://www.mechta.kz/product/myshka-igrovaya-zowie-s1dot9hdotn0gbbdota2e/",
+        "brand": "Zowie",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 70,
+        "image": "https://pi.mdev.kz/5ad38d40-39ce-11eb-a238-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 70,
+      "fair_discount": 43.5,
+      "base_price": 22990,
+      "pump_price": null,
+      "value_score": 84,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.5
     },
     {
       "product": {
@@ -376,6 +537,70 @@
         "Рисованная?"
       ],
       "inflated_gap": 67.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "30000006173",
+        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) 64642 черный",
+        "price": 29990,
+        "old_price": 89900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-64642-chernyy/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/8a549fd8-0c7c-11ec-a23f-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 25.0,
+      "base_price": 39990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200003899",
+        "title": "Клавиатура STEELSERIES Apex 7 (Red Switch) US черный",
+        "price": 29990,
+        "old_price": 89900,
+        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-7-red-switch-us-chernyy/",
+        "brand": "SteelSeries",
+        "category": "Клавиатуры",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 67,
+        "image": "https://pi.mdev.kz/9449781f-8019-11ed-a250-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 67,
+      "fair_discount": 25.0,
+      "base_price": 39990,
+      "pump_price": null,
+      "value_score": 61,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 42.0
     },
     {
       "product": {
@@ -590,37 +815,6 @@
       "base_price": 19990,
       "pump_price": null,
       "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 64.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200003898",
-        "title": "Коврик для мышки STEELSERIES QCK Prism Cloth - 3XL 1220x590x4 мм",
-        "price": 19990,
-        "old_price": 55900,
-        "url": "https://www.mechta.kz/product/kovrik-dlya-myshki-steelseries-qck-prism-cloth---3xl-1220x590x4-mm/",
-        "brand": "SteelSeries",
-        "category": "Коврики для мыши",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 64,
-        "image": "https://pi.mdev.kz/94497824-8019-11ed-a250-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 64,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "pump_price": null,
-      "value_score": 29,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -1005,37 +1199,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "30000002306",
-        "title": "Клавиатура STEELSERIES Apex 3 RU 64805",
-        "price": 16990,
-        "old_price": 43900,
-        "url": "https://www.mechta.kz/product/klaviatura-steelseries-apex-3-ru-64805/",
-        "brand": "SteelSeries",
-        "category": "Клавиатуры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 61,
-        "image": "https://pi.mdev.kz/5cc5cf02-3902-11eb-a238-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 61,
-      "fair_discount": 0.0,
-      "base_price": 16990,
-      "pump_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 61.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "12000047612",
         "title": "Ломтерезка BORK Z780",
         "price": 199990,
@@ -1409,163 +1572,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200020144",
-        "title": "Чехол для телефона APPLE iPhone 17 Pro Clear Case with MagSafe (MGFT4ZM/A)",
-        "price": 14990,
-        "old_price": 36490,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-pro-clear-case-with-magsafe-mgft4zma/",
-        "brand": "Apple",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://pi.mdev.kz/13a9f95d-e019-4398-bebd-c9f953171e54?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "pump_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 59.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018112",
-        "title": "Телевизор Samsung Neo QLED QE75QN900FUXCE 8K SMART",
-        "price": 1399990,
-        "old_price": 3399990,
-        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn900fuxce-8k-smart/",
-        "brand": "Samsung",
-        "category": "Телевизоры",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 59,
-        "image": "https://pi.mdev.kz/815afce4-8c78-49a3-9025-ec5e40767121?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 59,
-      "fair_discount": 0.0,
-      "base_price": 1399990,
-      "pump_price": null,
-      "value_score": 39,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 59.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200011028",
-        "title": "Тостер POLARIS PET 0922 Белый",
-        "price": 14990,
-        "old_price": 35990,
-        "url": "https://www.mechta.kz/product/toster-polaris-pet-0922-belyy/",
-        "brand": "Polaris",
-        "category": "Тостеры",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/ea9fdf8f-b76f-11ef-a26e-005056b6e990?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": 0.0,
-      "base_price": 14990,
-      "pump_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 58.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200005125",
-        "title": "Дом. кинотеатр JBL BAR 500 PRO BLACK (JBLBAR500PRO)",
-        "price": 149990,
-        "old_price": 359990,
-        "url": "https://www.mechta.kz/product/dom-kinoteatr-jbl-bar-500-pro-black-jblbar500pro/",
-        "brand": "JBL",
-        "category": "Саундбары",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/408aefe5-c473-11ed-a259-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": 0.0,
-      "base_price": 149990,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 58.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200018016",
-        "title": "Вертикальный пылесос TINECO Floor One S9 Artist Pro",
-        "price": 179990,
-        "old_price": 429990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-tineco-floor-one-s9-artist-pro/",
-        "brand": "Tineco",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 58,
-        "image": "https://pi.mdev.kz/18b44388-4e1a-443e-8d10-e93c12d52259?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 58,
-      "fair_discount": 0.0,
-      "base_price": 179990,
-      "pump_price": null,
-      "value_score": 29,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 58.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200023627",
         "title": "Монитор ACER EK241YP0bi (UM.QE0EE.005) 23.8 FHD/VA/1ms/144Hz",
         "price": 19990,
@@ -1820,6 +1826,107 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200019706",
+        "title": "Стеклокерамическая плита GORENJE GEC6A41WC",
+        "price": 179990,
+        "old_price": 389990,
+        "url": "https://www.mechta.kz/product/steklokeramicheskaya-plita-gorenje-gec6a41wc/",
+        "brand": "Gorenje",
+        "category": "Электрические плиты",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/13e5f3b2-1a97-4b6f-9742-c048c69a924d?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 2,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 33.3,
+      "base_price": 269990,
+      "pump_price": null,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018101",
+        "title": "Телевизор Samsung Neo QLED QE43QN90FAUXCE UHD SMART",
+        "price": 399990,
+        "old_price": 779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe43qn90fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 49,
+        "image": "https://pi.mdev.kz/42869668-7114-4fd1-a830-1d821c73cee1?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 49,
+      "fair_discount": 33.3,
+      "base_price": 599990,
+      "pump_price": null,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018111",
+        "title": "Телевизор Samsung Neo QLED QE65QN900FUXCE 8K SMART",
+        "price": 999990,
+        "old_price": 2149990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn900fuxce-8k-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 53,
+        "image": "https://pi.mdev.kz/f031548c-032a-48cc-9e67-252d11b0f960?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 53,
+      "fair_discount": 33.3,
+      "base_price": 1499990,
+      "pump_price": null,
+      "value_score": 85,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.7
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200004198",
         "title": "Электрочайник BRAUN WK 1500 WH",
         "price": 18990,
@@ -1915,6 +2022,108 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018078",
+        "title": "Телевизор Samsung QLED QE85LS03FAUXCE The Frame UHD SMART",
+        "price": 1299990,
+        "old_price": 2699990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe85ls03fauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://pi.mdev.kz/29ac1a3c-1bc9-461d-9689-9e5ecbbc340e?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 52,
+      "fair_discount": 31.6,
+      "base_price": 1899990,
+      "pump_price": null,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 20.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018108",
+        "title": "Телевизор Samsung Neo QLED QE75QN90FAUXCE UHD SMART",
+        "price": 1199990,
+        "old_price": 2879990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe75qn90fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 58,
+        "image": "https://pi.mdev.kz/db689e9b-bab6-459c-869e-5b30d727936d?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 58,
+      "fair_discount": 31.4,
+      "base_price": 1749990,
+      "pump_price": null,
+      "value_score": 88,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.6
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018126",
+        "title": "Телевизор Samsung OLED QE65S90FAEXCE",
+        "price": 759990,
+        "old_price": 1699990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe65s90faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/d27e6cb1-6fb4-4170-9bab-e47a71d4bdbf?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 30.9,
+      "base_price": 1099990,
+      "pump_price": null,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 24.1
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200026044",
         "title": "Ручной отпариватель BRAUN GS 3024 BL",
         "price": 22990,
@@ -1947,6 +2156,40 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018098",
+        "title": "Телевизор Samsung Neo QLED QE65QN85FAUXCE UHD SMART",
+        "price": 579990,
+        "old_price": 1249990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn85fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/6fdc0332-69f7-47e5-a0b8-f00ebe0b620d?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 30.1,
+      "base_price": 829990,
+      "pump_price": null,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200016277",
         "title": "Мышка игровая HyperX Pulsefire Haste 2 Core Wireless, черный",
         "price": 27990,
@@ -1974,6 +2217,40 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018107",
+        "title": "Телевизор Samsung Neo QLED QE65QN90FAUXCE UHD SMART",
+        "price": 769990,
+        "old_price": 1779990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-neo-qled-qe65qn90fauxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 57,
+        "image": "https://pi.mdev.kz/64461c52-8499-4505-8676-c5e154cadbbd?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 57,
+      "fair_discount": 30.0,
+      "base_price": 1099990,
+      "pump_price": null,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 27.0
     },
     {
       "product": {
@@ -2040,6 +2317,172 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200018128",
+        "title": "Телевизор Samsung OLED QE77S90FAEXCE",
+        "price": 1249990,
+        "old_price": 2749990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe77s90faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://pi.mdev.kz/80a55b67-2465-4dbd-934a-a749a0d614c6?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 55,
+      "fair_discount": 28.6,
+      "base_price": 1749990,
+      "pump_price": null,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.4
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018119",
+        "title": "Телевизор Samsung OLED QE65S85FAEXCE",
+        "price": 704990,
+        "old_price": 1399990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe65s85faexce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/20e8c7b0-5e4b-4c90-8a6a-24081d64c8f7?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 28.1,
+      "base_price": 979990,
+      "pump_price": null,
+      "value_score": 77,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 21.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018075",
+        "title": "Телевизор Samsung QLED QE65LS03FAUXCE The Frame UHD SMART",
+        "price": 599990,
+        "old_price": 1299990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-qled-qe65ls03fauxce-the-frame-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://pi.mdev.kz/1faaf6a9-af05-4796-81e6-c6312961b244?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 54,
+      "fair_discount": 27.7,
+      "base_price": 829990,
+      "pump_price": null,
+      "value_score": 76,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018131",
+        "title": "Телевизор Samsung OLED QE65S95FAUXCE",
+        "price": 1099990,
+        "old_price": 2199990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-oled-qe65s95fauxce/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://pi.mdev.kz/52113734-333f-4c1d-9b8f-2f6cf87deb50?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 50,
+      "fair_discount": 26.7,
+      "base_price": 1499990,
+      "pump_price": null,
+      "value_score": 74,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 23.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200023051",
+        "title": "Телевизор LG LED 98NU900B6LB UHD SMART",
+        "price": 1099990,
+        "old_price": 1899990,
+        "url": "https://www.mechta.kz/product/televizor-lg-led-98nu900b6lb-uhd-smart/",
+        "brand": "LG",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 42,
+        "image": "https://pi.mdev.kz/668f8bc2-45f4-49df-8532-37f19057b566?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-16T07:21:37+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 42,
+      "fair_discount": 26.7,
+      "base_price": 1499990,
+      "pump_price": null,
+      "value_score": 80,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 15.3
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200025160",
         "title": "Электрочайник POLARIS PWK 1739 CGL",
         "price": 16990,
@@ -2067,6 +2510,39 @@
         "Честная скидка"
       ],
       "inflated_gap": 12.9
+    },
+    {
+      "product": {
+        "shop": "mechta",
+        "sku": "17200018069",
+        "title": "Телевизор Samsung LED UE75U8000FUXCE UHD SMART",
+        "price": 369990,
+        "old_price": 769990,
+        "url": "https://www.mechta.kz/product/televizor-samsung-led-ue75u8000fuxce-uhd-smart/",
+        "brand": "Samsung",
+        "category": "Телевизоры",
+        "group": "tv",
+        "in_stock": true,
+        "discount_pct": 52,
+        "image": "https://pi.mdev.kz/856d92cc-0f2a-4f1c-9c36-f31b2371f2ff?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 52,
+      "fair_discount": 26.0,
+      "base_price": 499990,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.0
     },
     {
       "product": {
@@ -2129,200 +2605,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 7.6
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022548",
-        "title": "Чехол для телефона Samsung S26 Slim Magnet Case Black (EF-SS942CBEGRU)",
-        "price": 14890,
-        "old_price": 27990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-samsung-s26-slim-magnet-case-black-ef-ss942cbegru/",
-        "brand": "Samsung",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/59f45010-f541-42b9-b796-509fa03f40c7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 25.1,
-      "base_price": 19890,
-      "pump_price": null,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022549",
-        "title": "Чехол для телефона SAMSUNG S26 Slim Magnet Case Purple (EF-SS942CVEGRU)",
-        "price": 14890,
-        "old_price": 27890,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-samsung-s26-slim-magnet-case-purple-ef-ss942cvegru/",
-        "brand": "Samsung",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/44ae721a-a02a-4057-82cb-c13ba3a2bcae?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 25.1,
-      "base_price": 19890,
-      "pump_price": null,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022550",
-        "title": "Чехол для телефона SAMSUNG S26 Slim Magnet Case Light blue (EF-SS942CLEGRU)",
-        "price": 14890,
-        "old_price": 27990,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-samsung-s26-slim-magnet-case-light-blue-ef-ss942clegru/",
-        "brand": "Samsung",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/8b36057d-3866-4104-b3cc-4e8e08dda652?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 25.1,
-      "base_price": 19890,
-      "pump_price": null,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200022551",
-        "title": "Чехол для телефона SAMSUNG S26 Slim Magnet Case Grey (EF-SS942CJEGRU)",
-        "price": 14890,
-        "old_price": 27890,
-        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-samsung-s26-slim-magnet-case-grey-ef-ss942cjegru/",
-        "brand": "Samsung",
-        "category": "Чехлы для телефонов",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 47,
-        "image": "https://pi.mdev.kz/30bdb871-e87c-4af7-b9bc-4f2ef71dbbb6?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 47,
-      "fair_discount": 25.1,
-      "base_price": 19890,
-      "pump_price": null,
-      "value_score": 77,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.9
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200021637",
-        "title": "Кофеварка ARDESTO YCM-E1600",
-        "price": 29990,
-        "old_price": 43990,
-        "url": "https://www.mechta.kz/product/kofevarka-ardesto-ycm-e1600/",
-        "brand": "Ardesto",
-        "category": "Кофеварки рожковые",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 32,
-        "image": "https://pi.mdev.kz/aeb1174b-8622-4fdb-a4e3-5a3e561c3403?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 32,
-      "fair_discount": 25.0,
-      "base_price": 39990,
-      "pump_price": null,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 7.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
-        "sku": "17200025444",
-        "title": "Кофемашина DELONGHI EXAM 420.55.WXL",
-        "price": 299990,
-        "old_price": 459990,
-        "url": "https://www.mechta.kz/product/kofemashina-delonghi-exam-420dot55dotwxl/",
-        "brand": "DeLonghi",
-        "category": "Кофемашины автоматические",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://pi.mdev.kz/9cb52c6f-e412-4db6-bed2-23c85d9175eb?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-17T05:57:28+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 25.0,
-      "base_price": 399990,
-      "pump_price": null,
-      "value_score": 67,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 10.0
     },
     {
       "product": {
@@ -2487,8 +2769,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-26T11:21:22+00:00",
-      "item_count": 7956,
+      "last_crawl": "2026-11-27T05:40:12+00:00",
+      "item_count": 7984,
       "status": "ok"
     },
     {
@@ -2528,8 +2810,8 @@
     }
   ],
   "stats": {
-    "total_products": 7956,
-    "total_deals": 79,
-    "avg_discount": 60.0
+    "total_products": 7984,
+    "total_deals": 87,
+    "avg_discount": 43.5
   }
 }
