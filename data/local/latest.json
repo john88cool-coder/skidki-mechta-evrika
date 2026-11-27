@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T17:21:13.401086+00:00",
+  "updated_at": "2026-11-27T19:21:31.040136+00:00",
   "deals": [
     {
       "product": {
@@ -951,37 +951,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "17200006986",
-        "title": "Вертикальный пылесос WADE SV-01 синий",
-        "price": 19990,
-        "old_price": 53990,
-        "url": "https://www.mechta.kz/product/vertikalnyy-pylesos-wade-sv-01-siniy/",
-        "brand": "WADE",
-        "category": "Вертикальные пылесосы",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://pi.mdev.kz/8b0b0fd1-3a92-11ee-a25e-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 19990,
-      "pump_price": null,
-      "value_score": 25,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200016102",
         "title": "Вертикальный пылесос PHILIPS XC 5141/01",
         "price": 129990,
@@ -1573,6 +1542,38 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "17200020144",
+        "title": "Чехол для телефона APPLE iPhone 17 Pro Clear Case with MagSafe (MGFT4ZM/A)",
+        "price": 14990,
+        "old_price": 36490,
+        "url": "https://www.mechta.kz/product/chehol-dlya-telefona-apple-iphone-17-pro-clear-case-with-magsafe-mgft4zma/",
+        "brand": "Apple",
+        "category": "Чехлы для телефонов",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 59,
+        "image": "https://pi.mdev.kz/13a9f95d-e019-4398-bebd-c9f953171e54?w=400",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 59,
+      "fair_discount": 0.0,
+      "base_price": 14990,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 59.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200023627",
         "title": "Монитор ACER EK241YP0bi (UM.QE0EE.005) 23.8 FHD/VA/1ms/144Hz",
         "price": 19990,
@@ -1948,7 +1949,7 @@
       "drop_pct": 54,
       "fair_discount": 32.2,
       "base_price": 27990,
-      "pump_price": 40990,
+      "pump_price": null,
       "value_score": 79,
       "is_pick": false,
       "badges": [
@@ -2673,8 +2674,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-27T17:20:50+00:00",
-      "item_count": 8077,
+      "last_crawl": "2026-11-27T19:21:24+00:00",
+      "item_count": 8076,
       "status": "ok"
     },
     {
@@ -2714,7 +2715,7 @@
     }
   ],
   "stats": {
-    "total_products": 8077,
+    "total_products": 8076,
     "total_deals": 84,
     "avg_discount": 48.0
   }
