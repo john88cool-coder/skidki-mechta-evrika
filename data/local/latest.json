@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T19:21:31.040136+00:00",
+  "updated_at": "2026-11-27T21:20:55.090915+00:00",
   "deals": [
     {
       "product": {
@@ -1056,8 +1056,8 @@
         "discount_pct": 62,
         "image": "https://pi.mdev.kz/1f1fb841-eff0-489f-9afa-65c15cf8c44e?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 5.0,
+        "reviews_count": 2,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "deal",
@@ -1873,8 +1873,8 @@
         "discount_pct": 49,
         "image": "https://pi.mdev.kz/42869668-7114-4fd1-a830-1d821c73cee1?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 5.0,
+        "reviews_count": 2,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -1907,8 +1907,8 @@
         "discount_pct": 53,
         "image": "https://pi.mdev.kz/f031548c-032a-48cc-9e67-252d11b0f960?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 5.0,
+        "reviews_count": 3,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2039,8 +2039,8 @@
         "discount_pct": 58,
         "image": "https://pi.mdev.kz/db689e9b-bab6-459c-869e-5b30d727936d?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 5.0,
+        "reviews_count": 2,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2073,8 +2073,8 @@
         "discount_pct": 55,
         "image": "https://pi.mdev.kz/d27e6cb1-6fb4-4170-9bab-e47a71d4bdbf?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 4.8,
+        "reviews_count": 23,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2082,7 +2082,7 @@
       "fair_discount": 30.9,
       "base_price": 1099990,
       "pump_price": null,
-      "value_score": 81,
+      "value_score": 83,
       "is_pick": true,
       "badges": [
         "Выбор ИС",
@@ -2140,7 +2140,7 @@
         "image": "https://pi.mdev.kz/6fdc0332-69f7-47e5-a0b8-f00ebe0b620d?w=400",
         "mpn": null,
         "rating": 5.0,
-        "reviews_count": 1,
+        "reviews_count": 5,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2268,8 +2268,8 @@
         "discount_pct": 57,
         "image": "https://pi.mdev.kz/64461c52-8499-4505-8676-c5e154cadbbd?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 5.0,
+        "reviews_count": 7,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2428,8 +2428,8 @@
         "discount_pct": 55,
         "image": "https://pi.mdev.kz/80a55b67-2465-4dbd-934a-a749a0d614c6?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 4.7,
+        "reviews_count": 13,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2461,8 +2461,8 @@
         "discount_pct": 50,
         "image": "https://pi.mdev.kz/20e8c7b0-5e4b-4c90-8a6a-24081d64c8f7?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 4.8,
+        "reviews_count": 33,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2470,9 +2470,10 @@
       "fair_discount": 28.1,
       "base_price": 979990,
       "pump_price": null,
-      "value_score": 77,
-      "is_pick": false,
+      "value_score": 79,
+      "is_pick": true,
       "badges": [
+        "Выбор ИС",
         "Честная скидка",
         "Топ-Бренд",
         "Рисованная?"
@@ -2494,8 +2495,8 @@
         "discount_pct": 54,
         "image": "https://pi.mdev.kz/1faaf6a9-af05-4796-81e6-c6312961b244?w=400",
         "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
+        "rating": 5.0,
+        "reviews_count": 2,
         "first_seen": "2026-09-13T15:40:27+00:00"
       },
       "signal": "drop",
@@ -2674,7 +2675,7 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-27T19:21:24+00:00",
+      "last_crawl": "2026-11-27T21:20:46+00:00",
       "item_count": 8076,
       "status": "ok"
     },
