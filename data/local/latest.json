@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T05:40:33.866201+00:00",
+  "updated_at": "2026-11-27T07:21:47.335913+00:00",
   "deals": [
     {
       "product": {
@@ -1959,37 +1959,6 @@
     {
       "product": {
         "shop": "mechta",
-        "sku": "12000081009",
-        "title": "Выпрямитель для волос PHILIPS BHS 375/00",
-        "price": 14990,
-        "old_price": 26990,
-        "url": "https://www.mechta.kz/product/vypryamitel-dlya-volos-philips-bhs-37500/",
-        "brand": "Philips",
-        "category": "Выпрямители для волос",
-        "group": "beauty",
-        "in_stock": true,
-        "discount_pct": 44,
-        "image": "https://pi.mdev.kz/f394ffb4-602b-11e9-a220-005056b6dbd7?w=400",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-09-13T15:40:27+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 44,
-      "fair_discount": 31.8,
-      "base_price": 21990,
-      "pump_price": null,
-      "value_score": 85,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.2
-    },
-    {
-      "product": {
-        "shop": "mechta",
         "sku": "17200017931",
         "title": "Мышка игровая HyperX Pulsefire Fuse, чёрный",
         "price": 25990,
@@ -2609,6 +2578,38 @@
     {
       "product": {
         "shop": "mechta",
+        "sku": "12000081009",
+        "title": "Выпрямитель для волос PHILIPS BHS 375/00",
+        "price": 14990,
+        "old_price": 26990,
+        "url": "https://www.mechta.kz/product/vypryamitel-dlya-volos-philips-bhs-37500/",
+        "brand": "Philips",
+        "category": "Выпрямители для волос",
+        "group": "beauty",
+        "in_stock": true,
+        "discount_pct": 44,
+        "image": "https://pi.mdev.kz/f394ffb4-602b-11e9-a220-005056b6dbd7?w=400",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 2,
+        "first_seen": "2026-09-13T15:40:27+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 44,
+      "fair_discount": 25.0,
+      "base_price": 19990,
+      "pump_price": null,
+      "value_score": 73,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Рисованная?"
+      ],
+      "inflated_gap": 19.0
+    },
+    {
+      "product": {
+        "shop": "mechta",
         "sku": "17200021008",
         "title": "Клавиатура для планшета APPLE Magic Keyboard for iPad Air 11‑inch (M3) - Black (MGYX4RS/A)",
         "price": 149990,
@@ -2769,8 +2770,8 @@
     {
       "name": "mechta",
       "label": "Мечта",
-      "last_crawl": "2026-11-27T05:40:12+00:00",
-      "item_count": 7984,
+      "last_crawl": "2026-11-27T07:21:35+00:00",
+      "item_count": 8010,
       "status": "ok"
     },
     {
@@ -2810,7 +2811,7 @@
     }
   ],
   "stats": {
-    "total_products": 7984,
+    "total_products": 8010,
     "total_deals": 87,
     "avg_discount": 43.5
   }
