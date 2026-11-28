@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T17:02:47.998620+00:00",
+  "updated_at": "2026-11-28T01:46:13.297638+00:00",
   "deals": [
     {
       "product": {
@@ -213,6 +213,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 10.3
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "45078",
+        "title": "Смартфон Samsung Galaxy A17 128GB Gray (SM-A175FZACSKZ)",
+        "price": 69990,
+        "old_price": 139990,
+        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-a17-128gb-gray-sm-a175fzacskz/p45078",
+        "brand": "Samsung",
+        "category": "Смартфоны",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/d1MFJhLzuaR5lce9M3zR1YCed46g2IVKxGIr7ivQ.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-10-14T19:00:27+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": null,
+      "base_price": null,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -977,41 +1008,9 @@
     {
       "product": {
         "shop": "alser",
-        "sku": "1469037",
-        "title": "Ноутбук Lenovo 82XQ01SJRK IdeaPad Slim 3 15AMN8 15.6\" FHD(1920x1080) IPS/AMD Ryzen 5 40 up to 4.3GHz (4Core)/8GB/512GB/AMD Radeon 610M",
-        "price": 289990,
-        "old_price": 399990,
-        "url": "https://alser.kz/p/noutbuk-lenovo-82xq01sjrk-ideapad-slim-3-15amn8-156-fhd1920x1080-ipsamd-ryzen-5-40-up-to-43ghz-4core8gb512gbamd-radeon-610m",
-        "brand": "Lenovo",
-        "category": "Ноутбуки для учебы, офиса и работы",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 28,
-        "image": "https://s3s.alser.kz/uploads/products/noutbuki-ucheba-rabota-dom/L1MnRuQX7/noutbuk-lenovo-82xq01sjrk-ideapad-slim-3-15amn8-156-fhd1920x1080-ipsamd-ryzen-5-40-up-to-43ghz-4core8gb512gbamd-radeon-610m-w160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-11-23T08:40:55+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 28,
-      "fair_discount": 22.0,
-      "base_price": 371990,
-      "pump_price": null,
-      "value_score": 72,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 6.0
-    },
-    {
-      "product": {
-        "shop": "alser",
         "sku": "1459355",
         "title": "Смарт часы HUAWEI WATCH GT 6 (41mm), White",
-        "price": 99863,
+        "price": 99690,
         "old_price": 129890,
         "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-41mm-white",
         "brand": "Huawei",
@@ -1028,7 +1027,7 @@
       "signal": "deal",
       "drop_pct": 23,
       "fair_discount": 16.7,
-      "base_price": 119819,
+      "base_price": 119717,
       "pump_price": null,
       "value_score": 58,
       "is_pick": false,
@@ -1042,14 +1041,14 @@
         "shop": "alser",
         "sku": "1468993",
         "title": "Смарт часы Huawei Watch GT 7 TUM-B39 46mm Black Fluoroelastomer Strap",
-        "price": 119890,
+        "price": 113990,
         "old_price": 144890,
         "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-7-tum-b39-46mm-black-fluoroelastomer-strap",
         "brand": "Huawei",
         "category": "Все Smart часы",
         "group": "other",
         "in_stock": true,
-        "discount_pct": 17,
+        "discount_pct": 21,
         "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/Q1YVDuPY9/smart-casy-huawei-watch-gt-7-tum-b39-46mm-black-fluoroelastomer-strap-w160.webp",
         "mpn": null,
         "rating": null,
@@ -1057,11 +1056,11 @@
         "first_seen": "2026-11-18T17:38:36+00:00"
       },
       "signal": "deal",
-      "drop_pct": 17,
-      "fair_discount": 17.3,
+      "drop_pct": 21,
+      "fair_discount": 21.3,
       "base_price": 144890,
       "pump_price": null,
-      "value_score": 59,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1073,14 +1072,14 @@
         "shop": "alser",
         "sku": "1468994",
         "title": "Смарт часы Huawei Watch GT 7 TUM-B39 46mm Blue Fluoroelastomer Strap",
-        "price": 119890,
+        "price": 113990,
         "old_price": 144890,
         "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-7-tum-b39-46mm-blue-fluoroelastomer-strap",
         "brand": "Huawei",
         "category": "Все Smart часы",
         "group": "other",
         "in_stock": true,
-        "discount_pct": 17,
+        "discount_pct": 21,
         "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/OBvoDCovm/smart-casy-huawei-watch-gt-7-tum-b39-46mm-blue-fluoroelastomer-strap-w160.webp",
         "mpn": null,
         "rating": null,
@@ -1088,11 +1087,11 @@
         "first_seen": "2026-11-18T17:38:36+00:00"
       },
       "signal": "deal",
-      "drop_pct": 17,
-      "fair_discount": 17.3,
+      "drop_pct": 21,
+      "fair_discount": 21.3,
       "base_price": 144890,
       "pump_price": null,
-      "value_score": 59,
+      "value_score": 66,
       "is_pick": false,
       "badges": [
         "Честная скидка"
@@ -1376,37 +1375,6 @@
       "base_price": 20990,
       "pump_price": null,
       "value_score": 41,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 63.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "623239",
-        "title": "Гарнитура HyperX Cirro Buds Pro Blue 727A6AA",
-        "price": 19297,
-        "old_price": 51990,
-        "url": "https://www.sulpak.kz/g/naushniki-hyperx-83-2467",
-        "brand": "HyperX",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 63,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_2467_3_2_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 63,
-      "fair_discount": 0.0,
-      "base_price": 19297,
-      "pump_price": null,
-      "value_score": 35,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -2675,6 +2643,37 @@
     {
       "product": {
         "shop": "sulpak",
+        "sku": "622270",
+        "title": "Чайник Candy CK-203",
+        "price": 10990,
+        "old_price": 23990,
+        "url": "https://www.sulpak.kz/g/chajniki-elektricheskie-candy-ck-203",
+        "brand": "Candy",
+        "category": "elektrochajniki",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 54,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_35_810_0_1_MYDhNR_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 54,
+      "fair_discount": 0.0,
+      "base_price": 10990,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 54.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
         "sku": "640251",
         "title": "QLED Телевизор The Frame Samsung QE65LS03FAUXCE",
         "price": 599990,
@@ -3531,7 +3530,7 @@
         "shop": "sulpak",
         "sku": "633168",
         "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 165986,
+        "price": 165974,
         "old_price": 341990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
         "brand": "HUAWEI",
@@ -3548,7 +3547,7 @@
       "signal": "deal",
       "drop_pct": 51,
       "fair_discount": 0.0,
-      "base_price": 181659,
+      "base_price": 165990,
       "pump_price": null,
       "value_score": 35,
       "is_pick": false,
@@ -4001,38 +4000,6 @@
     {
       "product": {
         "shop": "evrika",
-        "sku": "45078",
-        "title": "Смартфон Samsung Galaxy A17 128GB Gray (SM-A175FZACSKZ)",
-        "price": 69990,
-        "old_price": 139990,
-        "url": "https://evrika.com/catalog/smartfon-samsung-galaxy-a17-128gb-gray-sm-a175fzacskz/p45078",
-        "brand": "Samsung",
-        "category": "Смартфоны",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://cdn.evrika.com/storage/products/images/medium/d1MFJhLzuaR5lce9M3zR1YCed46g2IVKxGIr7ivQ.jpg.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-14T19:00:27+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 69990,
-      "pump_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "evrika",
         "sku": "43430",
         "title": "Аэрогриль Nutribullet NBA081B",
         "price": 79990,
@@ -4396,7 +4363,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 19990,
+      "base_price": 21590,
       "pump_price": null,
       "value_score": 41,
       "is_pick": false,
@@ -4551,7 +4518,7 @@
       "signal": "deal",
       "drop_pct": 31,
       "fair_discount": 0.0,
-      "base_price": 18490,
+      "base_price": 18090,
       "pump_price": null,
       "value_score": 46,
       "is_pick": false,
@@ -4582,7 +4549,7 @@
       "signal": "deal",
       "drop_pct": 31,
       "fair_discount": 0.0,
-      "base_price": 18490,
+      "base_price": 18090,
       "pump_price": null,
       "value_score": 46,
       "is_pick": false,
@@ -4657,6 +4624,38 @@
     {
       "product": {
         "shop": "alser",
+        "sku": "1469037",
+        "title": "Ноутбук Lenovo 82XQ01SJRK IdeaPad Slim 3 15AMN8 15.6\" FHD(1920x1080) IPS/AMD Ryzen 5 40 up to 4.3GHz (4Core)/8GB/512GB/AMD Radeon 610M",
+        "price": 289990,
+        "old_price": 399990,
+        "url": "https://alser.kz/p/noutbuk-lenovo-82xq01sjrk-ideapad-slim-3-15amn8-156-fhd1920x1080-ipsamd-ryzen-5-40-up-to-43ghz-4core8gb512gbamd-radeon-610m",
+        "brand": "Lenovo",
+        "category": "Ноутбуки для учебы, офиса и работы",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 28,
+        "image": "https://s3s.alser.kz/uploads/products/noutbuki-ucheba-rabota-dom/L1MnRuQX7/noutbuk-lenovo-82xq01sjrk-ideapad-slim-3-15amn8-156-fhd1920x1080-ipsamd-ryzen-5-40-up-to-43ghz-4core8gb512gbamd-radeon-610m-w160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-11-23T08:40:55+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 28,
+      "fair_discount": 0.0,
+      "base_price": 289990,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 28.0
+    },
+    {
+      "product": {
+        "shop": "alser",
         "sku": "1153808",
         "title": "Клавиатура+мышь Logitech Wireless Combo MK220 (920-003169)",
         "price": 11500,
@@ -4690,14 +4689,14 @@
         "shop": "alser",
         "sku": "1468995",
         "title": "Смарт часы Huawei Watch GT 7 TUM-B39 46mm Grey Composite Leather Strap",
-        "price": 119890,
+        "price": 113990,
         "old_price": 144890,
         "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-7-tum-b39-46mm-grey-composite-leather-strap",
         "brand": "Huawei",
         "category": "Все Smart часы",
         "group": "other",
         "in_stock": true,
-        "discount_pct": 17,
+        "discount_pct": 21,
         "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/18bPVi4w7/smart-casy-huawei-watch-gt-7-tum-b39-46mm-grey-composite-leather-strap-w160.webp",
         "mpn": null,
         "rating": null,
@@ -4705,7 +4704,7 @@
         "first_seen": "2026-11-18T17:38:36+00:00"
       },
       "signal": "deal",
-      "drop_pct": 17,
+      "drop_pct": 21,
       "fair_discount": 0.0,
       "base_price": 115890,
       "pump_price": null,
@@ -4714,7 +4713,7 @@
       "badges": [
         "Рисованная?"
       ],
-      "inflated_gap": 17.0
+      "inflated_gap": 21.0
     },
     {
       "product": {
@@ -7257,37 +7256,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "297055",
-        "title": "Моноблок 27\" MSI Modern AM272P 1M White (Ultra 7 150U-D5 32-1-D-FHD) [1M-685XRU]",
-        "price": 442990,
-        "old_price": 699990,
-        "url": "https://www.technodom.kz/p/monoblok-27-msi-modern-am272p-1m-white-ultra-7-150u-d5-32-1-d-fhd-1m-685xru-297055",
-        "brand": "MSI",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 37,
-        "image": "https://api.technodom.kz/f3/api/v1/images/297055_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 37,
-      "fair_discount": 25.0,
-      "base_price": 590990,
-      "pump_price": null,
-      "value_score": 73,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 12.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "295804",
         "title": "Стиральная машина с сушкой Gressel UWS602",
         "price": 179990,
@@ -7919,6 +7887,35 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650449",
+        "title": "Встраиваемая посудомоечная машина Hansa ZID645KH",
+        "price": 131590,
+        "old_price": 169990,
+        "url": "https://www.sulpak.kz/g/vstraivaemiye-posudomoechniye-mashiniy-hansa-zid645kh",
+        "brand": "Hansa",
+        "category": "vstraivaemiye_posudomoechniye_mashiniy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 23,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_40_926_0_1_mCgFSk_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 23,
+      "fair_discount": 22.6,
+      "base_price": 169990,
+      "pump_price": null,
+      "value_score": 45,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 10.5
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "287591",
         "title": "Кондиционер LG A09GA2",
@@ -8519,38 +8516,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "288868",
-        "title": "Стиральная машина Hotpoint WSH6090VWW",
-        "price": 119990,
-        "old_price": 204990,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh6090vww-288868",
-        "brand": "Hotpoint",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 41,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288868_1.webp",
-        "mpn": null,
-        "rating": 3.0,
-        "reviews_count": 1,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 41,
-      "fair_discount": 20.0,
-      "base_price": 149990,
-      "pump_price": null,
-      "value_score": 52,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Рисованная?"
-      ],
-      "inflated_gap": 21.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "297019",
         "title": "Встраиваемая посудомоечная машина Hansa ZID445KH",
         "price": 119990,
@@ -8703,37 +8668,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "285710",
-        "title": "Процессор AMD Ryzen 5 7500F (C6/T12, (348K L1, 6M L2, 32M L3 Cache) 3.7 up to 5GHz) AM5 OEM",
-        "price": 66990,
-        "old_price": 82990,
-        "url": "https://www.technodom.kz/p/processor-amd-ryzen-5-7500f-c6t12-348k-l1-6m-l2-32m-l3-cache-37-5ghz-am5-oem-285710",
-        "brand": "AMD",
-        "category": "Ноутбуки и компьютеры",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://api.technodom.kz/f3/api/v1/images/285710_1_a.webp",
-        "mpn": null,
-        "rating": 4.9,
-        "reviews_count": 11,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 19.3,
-      "base_price": 82990,
-      "pump_price": null,
-      "value_score": 47,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": -0.3
     },
     {
       "product": {
@@ -9331,37 +9265,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "653177",
-        "title": "Накладные наушники JBL Tune 530BT Beige",
-        "price": 21990,
-        "old_price": 26990,
-        "url": "https://www.sulpak.kz/g/naushniki-jbl-tune-530bt-bezheviyj",
-        "brand": "JBL",
-        "category": "naushniki",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_83_4277_0_1_03bbqs_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.5,
-      "base_price": 26990,
-      "pump_price": null,
-      "value_score": 61,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.5
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "48371",
         "title": "Аэрогриль Braun TD3030IBK",
@@ -9453,6 +9356,102 @@
         "Честная скидка"
       ],
       "inflated_gap": -0.2
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "286161",
+        "title": "Стиральная машина с сушкой Samsung WD18DB8995BZLD",
+        "price": 899990,
+        "old_price": 1299990,
+        "url": "https://www.technodom.kz/p/stiralnaya-mashina-s-sushkoj-samsung-wd18db8995bzld-286161",
+        "brand": "Samsung",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 31,
+        "image": "https://api.technodom.kz/f3/api/v1/images/286161_1.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 1,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 31,
+      "fair_discount": 18.2,
+      "base_price": 1099990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Топ-Бренд",
+        "Рисованная?"
+      ],
+      "inflated_gap": 26.3
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "269455",
+        "title": "Кондиционер LG AC24BK",
+        "price": 446990,
+        "old_price": 544990,
+        "url": "https://www.technodom.kz/p/kondicioner-lg-ac24bk-269455",
+        "brand": "LG",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://api.technodom.kz/f3/api/v1/images/kondicioner_lg_ac24bk_269455_1.webp",
+        "mpn": null,
+        "rating": 4.95,
+        "reviews_count": 12,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 18.0,
+      "base_price": 544990,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.0
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "287582",
+        "title": "Кондиционер LG H24S1D",
+        "price": 434990,
+        "old_price": 529990,
+        "url": "https://www.technodom.kz/p/konditsioner-lg-h24s1d-287582",
+        "brand": "LG",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://api.technodom.kz/f3/api/v1/images/konditsioner_lg_h24s1d_287582_01.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 9,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 17.9,
+      "base_price": 529990,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка",
+        "Топ-Бренд"
+      ],
+      "inflated_gap": 0.1
     }
   ],
   "shops": [
@@ -9466,41 +9465,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-27T17:02:25+00:00",
-      "item_count": 2804,
+      "last_crawl": "2026-11-28T01:45:48+00:00",
+      "item_count": 2796,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-27T17:02:25+00:00",
+      "last_crawl": "2026-11-28T01:45:48+00:00",
       "item_count": 12992,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-27T17:02:25+00:00",
-      "item_count": 3858,
+      "last_crawl": "2026-11-28T01:45:48+00:00",
+      "item_count": 3940,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-27T17:02:25+00:00",
-      "item_count": 10249,
+      "last_crawl": "2026-11-28T01:45:48+00:00",
+      "item_count": 10251,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-27T17:02:25+00:00",
-      "item_count": 2375,
+      "last_crawl": "2026-11-28T01:45:48+00:00",
+      "item_count": 2367,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 32278,
+    "total_products": 32346,
     "total_deals": 300,
     "avg_discount": 36.1
   }
