@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T01:46:13.297638+00:00",
+  "updated_at": "2026-11-28T10:49:47.406768+00:00",
   "deals": [
     {
       "product": {
@@ -123,35 +123,6 @@
         "Честная скидка"
       ],
       "inflated_gap": 5.0
-    },
-    {
-      "product": {
-        "shop": "technodom",
-        "sku": "260977",
-        "title": "Миксер Moulinex Quickmix HM3108B1",
-        "price": 15990,
-        "old_price": 33990,
-        "url": "https://www.technodom.kz/p/mikser-moulinex-hm-3108b1-260977",
-        "brand": "Moulinex",
-        "category": "Техника для кухни",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 53,
-        "image": "https://api.technodom.kz/f3/api/v1/images/260977_1.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 2,
-        "first_seen": "2026-11-02T16:29:23+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 53,
-      "fair_discount": null,
-      "base_price": null,
-      "pump_price": null,
-      "value_score": 35,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": null
     },
     {
       "product": {
@@ -1100,6 +1071,35 @@
     },
     {
       "product": {
+        "shop": "alser",
+        "sku": "1469082",
+        "title": "Мышка игровая Logitech G PRO X Superlight 2 Белый (910-006638)",
+        "price": 70990,
+        "old_price": 89990,
+        "url": "https://alser.kz/p/myska-igrovaa-logitech-g-pro-x-superlight-2-belyj-910-006638",
+        "brand": "Logitech",
+        "category": "Мыши",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 21,
+        "image": "https://s3s.alser.kz/uploads/products/igrovye-myshi/mjo7ktKya/myska-igrovaa-logitech-g-pro-x-superlight-2-belyj-910-006638-w160.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 12,
+        "first_seen": "2026-11-25T15:24:01+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 21,
+      "fair_discount": null,
+      "base_price": null,
+      "pump_price": null,
+      "value_score": 35,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "256351",
         "title": "Очки виртуальной реальности Vive Flow (99HASV003-00)",
@@ -1287,6 +1287,37 @@
         "Рисованная?"
       ],
       "inflated_gap": 34.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "25283",
+        "title": "Вентилятор Tefal VF4420F0",
+        "price": 17990,
+        "old_price": 51990,
+        "url": "https://evrika.com/catalog/ventilyator-tefal-vf4420f0/p25283",
+        "brand": "Tefal",
+        "category": "Вентиляторы",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 65,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/h7WU9a1w7mSD22tyWRjqlEltSQiCi6MGDZHfp8aR.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 65,
+      "fair_discount": 0.0,
+      "base_price": 17990,
+      "pump_price": null,
+      "value_score": 41,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 65.0
     },
     {
       "product": {
@@ -2580,6 +2611,37 @@
     },
     {
       "product": {
+        "shop": "technodom",
+        "sku": "63988",
+        "title": "Кофемашина Krups Evidence EA-891810",
+        "price": 299990,
+        "old_price": 660990,
+        "url": "https://www.technodom.kz/p/kofemasina-krups-ea-63988",
+        "brand": "Krups",
+        "category": "Техника для кухни",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 55,
+        "image": "https://api.technodom.kz/f3/api/v1/images/kofemasina_krups_ea_63988_1b.webp",
+        "mpn": null,
+        "rating": 4.5,
+        "reviews_count": 2,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 55,
+      "fair_discount": 0.0,
+      "base_price": 299990,
+      "pump_price": null,
+      "value_score": 29,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 55.0
+    },
+    {
+      "product": {
         "shop": "evrika",
         "sku": "43346",
         "title": "Проводная мышь Acer Predator Cestus 315 (GP.MCE11.014)",
@@ -2918,7 +2980,7 @@
       "fair_discount": 0.0,
       "base_price": 997990,
       "pump_price": null,
-      "value_score": 31,
+      "value_score": 25,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -3530,7 +3592,7 @@
         "shop": "sulpak",
         "sku": "633168",
         "title": "Смарт-часы Huawei WATCH 5 42mm Gold",
-        "price": 165974,
+        "price": 165970,
         "old_price": 341990,
         "url": "https://www.sulpak.kz/g/smart-chasiy-huawei-watch-5-42mm-gold",
         "brand": "HUAWEI",
@@ -3898,6 +3960,37 @@
       "base_price": 22990,
       "pump_price": null,
       "value_score": 35,
+      "is_pick": false,
+      "badges": [
+        "Рисованная?"
+      ],
+      "inflated_gap": 50.0
+    },
+    {
+      "product": {
+        "shop": "evrika",
+        "sku": "44854",
+        "title": "Электрический чайник Tefal KI840830",
+        "price": 23990,
+        "old_price": 47990,
+        "url": "https://evrika.com/catalog/elektricheskiy-chaynik-tefal-ki840830/p44854",
+        "brand": "Tefal",
+        "category": "Электрические чайники",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 50,
+        "image": "https://cdn.evrika.com/storage/products/images/medium/ZNMhb8M2344qiQK5RD7jfTjWMG7R9febmXUfSk5c.jpg.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "deal",
+      "drop_pct": 50,
+      "fair_discount": 0.0,
+      "base_price": 23990,
+      "pump_price": null,
+      "value_score": 41,
       "is_pick": false,
       "badges": [
         "Рисованная?"
@@ -4363,7 +4456,7 @@
       "signal": "deal",
       "drop_pct": 50,
       "fair_discount": 0.0,
-      "base_price": 21590,
+      "base_price": 23990,
       "pump_price": null,
       "value_score": 41,
       "is_pick": false,
@@ -4464,99 +4557,6 @@
         "Рисованная?"
       ],
       "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "625110",
-        "title": "LED телевизор ARG MS27",
-        "price": 199990,
-        "old_price": 399990,
-        "url": "https://www.sulpak.kz/g/televizoriy-arg-ms27",
-        "brand": "ARG",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 50,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_3136_0_6_eYcB18_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 50,
-      "fair_discount": 0.0,
-      "base_price": 199990,
-      "pump_price": null,
-      "value_score": 31,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 50.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453058",
-        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT021) Beige",
-        "price": 17890,
-        "old_price": 25990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/GAJqVtnyk/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct021-beige-w160.webp",
-        "mpn": null,
-        "rating": 4.98,
-        "reviews_count": 134,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 31,
-      "fair_discount": 0.0,
-      "base_price": 18090,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
-    },
-    {
-      "product": {
-        "shop": "alser",
-        "sku": "1453057",
-        "title": "Наушники беспроводные HUAWEI FreeBuds SE 3 (ULC-CT020) Black",
-        "price": 17890,
-        "old_price": 25990,
-        "url": "https://alser.kz/p/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black",
-        "brand": "Huawei",
-        "category": "Huawei",
-        "group": "phones",
-        "in_stock": true,
-        "discount_pct": 31,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-naushniki/jeOv0SaDK/nausniki-besprovodnye-huawei-freebuds-se-3-ulc-ct020-black-w160.webp",
-        "mpn": null,
-        "rating": 4.96,
-        "reviews_count": 161,
-        "first_seen": "2026-11-11T18:14:24+00:00"
-      },
-      "signal": "deal",
-      "drop_pct": 31,
-      "fair_discount": 0.0,
-      "base_price": 18090,
-      "pump_price": null,
-      "value_score": 46,
-      "is_pick": false,
-      "badges": [
-        "Рисованная?"
-      ],
-      "inflated_gap": 31.0
     },
     {
       "product": {
@@ -6468,6 +6468,38 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "650039",
+        "title": "Планшет Huawei MatePad Pro 12.2'' 2025 (PaperMatte inbox keyboard) 512G Black Morandi-W09DK",
+        "price": 351401,
+        "old_price": 499890,
+        "url": "https://www.sulpak.kz/g/planshetiy-huawei-matepad-pro-122-2025-papermatte-inbox-keyboard-512g-black-morandi-w09dk",
+        "brand": "HUAWEI",
+        "category": "planshetiy",
+        "group": "computers",
+        "in_stock": true,
+        "discount_pct": 30,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_64_1816_0_1_OsFdVW_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 30,
+      "fair_discount": 29.7,
+      "base_price": 499890,
+      "pump_price": null,
+      "value_score": 81,
+      "is_pick": true,
+      "badges": [
+        "Выбор ИС",
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.3
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "287545",
         "title": "Стиральная машина Hansa WHG9140W",
@@ -7887,35 +7919,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "650449",
-        "title": "Встраиваемая посудомоечная машина Hansa ZID645KH",
-        "price": 131590,
-        "old_price": 169990,
-        "url": "https://www.sulpak.kz/g/vstraivaemiye-posudomoechniye-mashiniy-hansa-zid645kh",
-        "brand": "Hansa",
-        "category": "vstraivaemiye_posudomoechniye_mashiniy",
-        "group": "kitchen",
-        "in_stock": true,
-        "discount_pct": 23,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_40_926_0_1_mCgFSk_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 23,
-      "fair_discount": 22.6,
-      "base_price": 169990,
-      "pump_price": null,
-      "value_score": 45,
-      "is_pick": false,
-      "badges": [],
-      "inflated_gap": 10.5
-    },
-    {
-      "product": {
         "shop": "technodom",
         "sku": "287591",
         "title": "Кондиционер LG A09GA2",
@@ -8204,37 +8207,6 @@
     {
       "product": {
         "shop": "technodom",
-        "sku": "288873",
-        "title": "Стиральная машина Hotpoint WSH8291VWX",
-        "price": 149990,
-        "old_price": null,
-        "url": "https://www.technodom.kz/p/stiralnaya-mashina-hotpoint-wsh8291vwx-288873",
-        "brand": "Hotpoint",
-        "category": "Бытовая техника",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://api.technodom.kz/f3/api/v1/images/288873_1.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": 0,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 21.1,
-      "base_price": 189990,
-      "pump_price": null,
-      "value_score": 54,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
-        "shop": "technodom",
         "sku": "301721",
         "title": "Кофемашина Delonghi ECAM-330.80.BXB-1",
         "price": 339990,
@@ -8357,6 +8329,37 @@
         "Честная скидка"
       ],
       "inflated_gap": 10.0
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "656348",
+        "title": "Смарт часы Amazfit Active Max Black A2557",
+        "price": 71990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-amazfit-a2557",
+        "brand": "Amazfit",
+        "category": "smart_chasiy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6378_0_2_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-11-13T18:05:43+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 89990,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -8515,6 +8518,37 @@
     },
     {
       "product": {
+        "shop": "sulpak",
+        "sku": "653001",
+        "title": "Смарт часы Amazfit T-Rex 3 Pro 48 mm Tactical Black A2444",
+        "price": 175990,
+        "old_price": null,
+        "url": "https://www.sulpak.kz/g/smart-chasiy-amazfit-a2444",
+        "brand": "Amazfit",
+        "category": "smart_chasiy",
+        "group": "phones",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_911_6314_0_1_awHqsQ_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-18T10:11:10+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 20.0,
+      "base_price": 219990,
+      "pump_price": null,
+      "value_score": 58,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
+    },
+    {
+      "product": {
         "shop": "technodom",
         "sku": "297019",
         "title": "Встраиваемая посудомоечная машина Hansa ZID445KH",
@@ -8573,6 +8607,37 @@
         "Топ-Бренд"
       ],
       "inflated_gap": null
+    },
+    {
+      "product": {
+        "shop": "sulpak",
+        "sku": "630784",
+        "title": "Комбинированная плита Artel Milagro 50 10-E",
+        "price": 92990,
+        "old_price": 115990,
+        "url": "https://www.sulpak.kz/g/gazoviye-i-elektricheskie-plitiy-artel-milagro-50-10-e",
+        "brand": "Artel",
+        "category": "plitiy",
+        "group": "kitchen",
+        "in_stock": true,
+        "discount_pct": 20,
+        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_16_966_0_1_HZNbQ1_160.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": null,
+        "first_seen": "2026-09-28T20:54:54+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 20,
+      "fair_discount": 19.8,
+      "base_price": 115990,
+      "pump_price": null,
+      "value_score": 64,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": 0.2
     },
     {
       "product": {
@@ -8671,37 +8736,6 @@
     },
     {
       "product": {
-        "shop": "alser",
-        "sku": "1459356",
-        "title": "Смарт часы HUAWEI WATCH GT 6 (41mm), Purple",
-        "price": 104761,
-        "old_price": null,
-        "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-41mm-purple",
-        "brand": "Huawei",
-        "category": "Все Smart часы",
-        "group": "other",
-        "in_stock": true,
-        "discount_pct": null,
-        "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/e1L4ZCNbV/smart-casy-huawei-watch-gt-6-41mm-purple-w160.webp",
-        "mpn": null,
-        "rating": 5.0,
-        "reviews_count": 12,
-        "first_seen": "2026-11-12T18:42:51+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": null,
-      "fair_discount": 19.3,
-      "base_price": 129890,
-      "pump_price": null,
-      "value_score": 63,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": null
-    },
-    {
-      "product": {
         "shop": "sulpak",
         "sku": "628407",
         "title": "Кофеварка рожковая Centek CT-1171",
@@ -8793,6 +8827,37 @@
         "Рисованная?"
       ],
       "inflated_gap": 26.0
+    },
+    {
+      "product": {
+        "shop": "alser",
+        "sku": "1459356",
+        "title": "Смарт часы HUAWEI WATCH GT 6 (41mm), Purple",
+        "price": 105224,
+        "old_price": null,
+        "url": "https://alser.kz/p/smart-casy-huawei-watch-gt-6-41mm-purple",
+        "brand": "Huawei",
+        "category": "Все Smart часы",
+        "group": "other",
+        "in_stock": true,
+        "discount_pct": null,
+        "image": "https://s3s.alser.kz/uploads/products/huawei-smart-sagaty/e1L4ZCNbV/smart-casy-huawei-watch-gt-6-41mm-purple-w160.webp",
+        "mpn": null,
+        "rating": 5.0,
+        "reviews_count": 12,
+        "first_seen": "2026-11-12T18:42:51+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": null,
+      "fair_discount": 19.0,
+      "base_price": 129890,
+      "pump_price": null,
+      "value_score": 62,
+      "is_pick": false,
+      "badges": [
+        "Честная скидка"
+      ],
+      "inflated_gap": null
     },
     {
       "product": {
@@ -9014,70 +9079,6 @@
     },
     {
       "product": {
-        "shop": "sulpak",
-        "sku": "653482",
-        "title": "Ноутбук Acer e10 ETBook E14P Ryzen 3 3100U 8 GB / SSD 256GB / Встроенная графика / Windows 11 Home / ZL.OTH11.088",
-        "price": 194990,
-        "old_price": 239990,
-        "url": "https://www.sulpak.kz/g/noutbuki-acer-e10-etbook-e14p-zloth11088-r382suw11",
-        "brand": "Acer",
-        "category": "noutbuki",
-        "group": "computers",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_62_9822_0_1_Sc4Y8G_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-11-02T16:29:23+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.8,
-      "base_price": 239990,
-      "pump_price": null,
-      "value_score": 62,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка"
-      ],
-      "inflated_gap": 0.2
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "640245",
-        "title": "Neo QLED телевизор Samsung QE55QN70FAUXCE",
-        "price": 389990,
-        "old_price": 599990,
-        "url": "https://www.sulpak.kz/g/televizoriy-samsung-qe55qn70fauxce",
-        "brand": "Samsung",
-        "category": "led_oled_televizoriy",
-        "group": "tv",
-        "in_stock": true,
-        "discount_pct": 35,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_95_20467_0_1_3AeBBs_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-09-18T10:11:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 35,
-      "fair_discount": 18.8,
-      "base_price": 479990,
-      "pump_price": null,
-      "value_score": 60,
-      "is_pick": false,
-      "badges": [
-        "Честная скидка",
-        "Топ-Бренд",
-        "Рисованная?"
-      ],
-      "inflated_gap": 16.2
-    },
-    {
-      "product": {
         "shop": "evrika",
         "sku": "44272",
         "title": "Стирально-сушильная машина Samsung BESPOKE AI WD90DG5G34BELD",
@@ -9107,37 +9108,6 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.4
-    },
-    {
-      "product": {
-        "shop": "sulpak",
-        "sku": "636601",
-        "title": "Стиральная машина с сушкой Samsung WD90DG5G34BELD",
-        "price": 349990,
-        "old_price": 429990,
-        "url": "https://www.sulpak.kz/g/stiralniye-mashiniy-samsung-wd90dg5g34beld",
-        "brand": "Samsung",
-        "category": "stiralniye_mashiniy",
-        "group": "home",
-        "in_stock": true,
-        "discount_pct": 19,
-        "image": "https://object.pscloud.io/cms/cms/Photo/img_0_8_1664_0_1_aEHcvk_160.webp",
-        "mpn": null,
-        "rating": null,
-        "reviews_count": null,
-        "first_seen": "2026-10-23T23:32:10+00:00"
-      },
-      "signal": "drop",
-      "drop_pct": 19,
-      "fair_discount": 18.6,
-      "base_price": 429990,
-      "pump_price": null,
-      "value_score": 51,
-      "is_pick": false,
-      "badges": [
-        "Топ-Бренд"
-      ],
-      "inflated_gap": 9.7
     },
     {
       "product": {
@@ -9452,6 +9422,35 @@
         "Топ-Бренд"
       ],
       "inflated_gap": 0.1
+    },
+    {
+      "product": {
+        "shop": "technodom",
+        "sku": "297020",
+        "title": "Встраиваемая посудомоечная машина Hansa ZID645KH",
+        "price": 139990,
+        "old_price": 169990,
+        "url": "https://www.technodom.kz/p/vstraivaemaya-posudomoechnaya-mashina-hansa-zid645kh-297020",
+        "brand": "Hansa",
+        "category": "Бытовая техника",
+        "group": "home",
+        "in_stock": true,
+        "discount_pct": 18,
+        "image": "https://api.technodom.kz/f3/api/v1/images/297020_1.webp",
+        "mpn": null,
+        "rating": null,
+        "reviews_count": 0,
+        "first_seen": "2026-11-17T13:50:54+00:00"
+      },
+      "signal": "drop",
+      "drop_pct": 18,
+      "fair_discount": 17.6,
+      "base_price": 169990,
+      "pump_price": null,
+      "value_score": 40,
+      "is_pick": false,
+      "badges": [],
+      "inflated_gap": 9.2
     }
   ],
   "shops": [
@@ -9465,41 +9464,41 @@
     {
       "name": "evrika",
       "label": "Эврика",
-      "last_crawl": "2026-11-28T01:45:48+00:00",
-      "item_count": 2796,
+      "last_crawl": "2026-11-28T10:49:22+00:00",
+      "item_count": 2805,
       "status": "ok"
     },
     {
       "name": "shopkz",
       "label": "Shop.kz",
-      "last_crawl": "2026-11-28T01:45:48+00:00",
-      "item_count": 12992,
+      "last_crawl": "2026-11-28T10:49:22+00:00",
+      "item_count": 12998,
       "status": "ok"
     },
     {
       "name": "sulpak",
       "label": "Сулпак",
-      "last_crawl": "2026-11-28T01:45:48+00:00",
-      "item_count": 3940,
+      "last_crawl": "2026-11-28T10:49:22+00:00",
+      "item_count": 3854,
       "status": "ok"
     },
     {
       "name": "technodom",
       "label": "Технодом",
-      "last_crawl": "2026-11-28T01:45:48+00:00",
-      "item_count": 10251,
+      "last_crawl": "2026-11-28T10:49:22+00:00",
+      "item_count": 10231,
       "status": "ok"
     },
     {
       "name": "alser",
       "label": "Алсер",
-      "last_crawl": "2026-11-28T01:45:48+00:00",
-      "item_count": 2367,
+      "last_crawl": "2026-11-28T10:49:22+00:00",
+      "item_count": 2369,
       "status": "ok"
     }
   ],
   "stats": {
-    "total_products": 32346,
+    "total_products": 32257,
     "total_deals": 300,
     "avg_discount": 36.1
   }
